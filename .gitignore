@@ -1,0 +1,6 @@
+# Node modules
+node_modules/
+# Temp files
+*.tmp
+*.swp
+.DS_Store
