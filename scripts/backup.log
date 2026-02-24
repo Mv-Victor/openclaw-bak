@@ -96,3 +96,11 @@ To github.com:Mv-Victor/openclaw-bak.git
  1 file changed, 4 insertions(+)
 To github.com:Mv-Victor/openclaw-bak.git
    8b3814b..2284da0  G -> G
+[G 0c78bbe] [20260224_2200] [memory] [config] [long-term-memory] [scripts] 新增4个文件(GROUP_MEMORY.md等), 修改5个文件(AGENTS.md等)
+ 9 files changed, 290 insertions(+), 15 deletions(-)
+ create mode 100644 GROUP_MEMORY.md
+ create mode 100644 ROLE-COLLAB-RULES.md
+ create mode 100644 TEAM-DIRECTORY.md
+ create mode 100644 TEAM-RULEBOOK.md
+To github.com:Mv-Victor/openclaw-bak.git
+   2284da0..0c78bbe  G -> G
