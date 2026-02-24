@@ -1,3 +1,11 @@
+---
+name: code-reviewer
+description: >
+  代码审查专家。当用户提到"代码review"、"代码审查"、"安全审计"、"性能分析"、
+  "代码质量"、"code review"时触发。聚焦代码质量、安全漏洞、性能问题、
+  测试覆盖率和最佳实践。
+---
+
 # Code Reviewer
 
 Expert code reviewer focusing on quality, security, performance, and best practices.

@@ -1,3 +1,11 @@
+---
+name: java-enterprise
+description: >
+  Java企业级开发专家。当用户提到Java、Spring Boot、Spring Framework、JPA、
+  Hibernate、微服务、JVM调优、Spring Security、WebFlux、Java测试时触发。
+  覆盖企业应用开发、性能优化、架构设计等场景。
+---
+
 # Java Enterprise
 
 Java expert for enterprise applications, Spring Boot, microservices, and JVM optimization.

@@ -1,3 +1,11 @@
+---
+name: ui-ux-pro-max
+description: >
+  UI/UX设计智能助手。当用户提到"UI设计"、"UX设计"、"界面设计"、"落地页"、
+  "设计系统"、"配色方案"、"前端UI"、"landing page"时触发。
+  支持多平台多框架的专业UI/UX设计指导，含设计系统生成、配色、排版等。
+---
+
 # UI UX Pro Max
 
 An AI skill that provides design intelligence for building professional UI/UX across multiple platforms and frameworks.

@@ -156,6 +156,28 @@ edge-tts --voice zh-CN-YunjianNeural --text "字幕内容" --write-media /path/t
 
 参考 [references/api-guide.md](references/api-guide.md) 了解完整 API 接口。
 
+#### ⚠️ 图片/表情包添加顺序（重要）
+
+**必须严格按分镜时间顺序添加图片和表情包**，不能先加完所有图片再加表情包。
+
+正确顺序：
+```
+图1 → 图2 → 表情包1 → 图3 → 表情包2 → 图4
+```
+
+错误顺序（会导致剪映轨道顺序错乱）：
+```
+图1 → 图2 → 图3 → 图4 → 表情包1 → 表情包2
+```
+
+#### 配音音频必须设置 materialTime
+
+配音音频必须设置 `materialTimeStart` 和 `materialTimeEnd`，否则 build 时会 NPE：
+```java
+vo.setMaterialTimeStart(0L);
+vo.setMaterialTimeEnd(duration);  // 配音时长
+```
+
 #### 字幕样式规范
 
 ```java

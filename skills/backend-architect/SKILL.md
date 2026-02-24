@@ -1,3 +1,11 @@
+---
+name: backend-architect
+description: >
+  后端架构设计专家。当用户提到API设计、微服务架构、数据库schema设计、
+  事件驱动架构、消息队列、认证授权方案、缓存策略、系统扩展性评审时触发。
+  支持RESTful/GraphQL API设计、服务拆分、性能优化等场景。
+---
+
 # Backend Architect
 
 Expert in backend architecture, API design, microservices, and database schemas.
