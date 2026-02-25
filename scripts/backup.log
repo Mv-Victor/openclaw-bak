@@ -774,3 +774,9 @@ To github.com:Mv-Victor/openclaw-bak.git
  1 file changed, 4 insertions(+)
 To github.com:Mv-Victor/openclaw-bak.git
    524e927..2229ea6  G -> G
+[G 7e54910] [20260225_1200] [scripts] 新增2个文件(task-spec.md等), 修改1个文件(backup.log等)
+ 3 files changed, 134 insertions(+)
+ create mode 100644 emotion-experiment/task-spec.md
+ create mode 100644 emotion-experiment/test-scenario.md
+To github.com:Mv-Victor/openclaw-bak.git
+   2229ea6..7e54910  G -> G
