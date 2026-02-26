@@ -2044,3 +2044,7 @@ To github.com:Mv-Victor/openclaw-bak.git
  1 file changed, 4 insertions(+)
 To github.com:Mv-Victor/openclaw-bak.git
    ff6b031..9ee5a7c  G -> G
+[G 005b976] [20260226_1355] [config] [long-term-memory] [tools] [scripts] 修改6个文件(AGENTS.md等)
+ 6 files changed, 165 insertions(+), 20 deletions(-)
+To github.com:Mv-Victor/openclaw-bak.git
+   9ee5a7c..005b976  G -> G

@@ -2,10 +2,10 @@
 
 ## Agent 列表
 
-| 角色 | Agent ID | 飞书账号 | Bot 名称 | Workspace | requireMention | mentionPatterns |
-|------|----------|----------|----------|-----------|----------------|-----------------|
-| 总指挥/军师/智库 | g | g | G | /root/.openclaw/workspace-g | false（全局监听） | G, @G, 总指挥, 军师, 智库 |
-| 工程师/创作官 | main | default | 啾啾 | /root/.openclaw/workspace | true（@触发） | 啾啾, @啾啾, 工程师, 创作官 |
+| 角色 | Agent ID | 飞书账号 | Bot 名称 | Workspace | mentionPatterns |
+|------|----------|----------|----------|-----------|-----------------|
+| 总指挥+军师+智库 | g | g | G | /root/.openclaw/workspace-g | G, @G, 总指挥, 军师, 智库 |
+| 工程师+创作官 | main | default | 啾啾 | /root/.openclaw/workspace | 啾啾, @啾啾, 工程师, 创作官 |
 
 ## 人员
 
@@ -17,14 +17,23 @@
 
 - 栋少: ou_cb2118fc7fe59bf7009135bec4514e34
 
-## 群聊列表
+## 群聊 @触发规则
 
-| 群聊 ID | 用途 | G session | 啾啾 session |
-|---------|------|-----------|-------------|
-| oc_0af53fdfca746166d27a102fc843f207 | 协作群 | agent:g:feishu:group:oc_0af53fdfca746166d27a102fc843f207 | agent:main:feishu:group:oc_0af53fdfca746166d27a102fc843f207 |
-| oc_c77988450ccd8ae6f30dc77d62038204 | 协作群 | agent:g:feishu:group:oc_c77988450ccd8ae6f30dc77d62038204 | agent:main:feishu:group:oc_c77988450ccd8ae6f30dc77d62038204 |
+- G：群聊中全局监听（requireMention=false），无需 @
+- 啾啾：需要被 @ 才响应（requireMention=true）
 
-## @触发规则
+## 跨 Agent 通信 Session Keys
 
-- G：群聊中全局监听（无需 @），可被 "总指挥"、"军师"、"智库" 触发
-- 啾啾：需要被 @ 才响应，可被 "工程师"、"创作官" 触发
+- G 群聊 session: `agent:g:feishu:group:<group_id>`
+- 啾啾群聊 session: `agent:main:feishu:group:<group_id>`
+- 派工方式: `sessions_send(sessionKey=<对方session>, message=<内容>)`
+
+## 5 角色 → 2 Agent 映射
+
+| 原始角色 | 映射到 | 核心能力 |
+|----------|--------|----------|
+| 总指挥 | G | 全局态势感知、任务拆解、派工、纠偏、收口 |
+| 军师 | G | 策略分析、方案评估、风险预判 |
+| 智库 | G | 知识审核、质量把关、合规检查 |
+| 工程师 | 啾啾 | 代码实现、调试测试、工具调用、系统维护 |
+| 创作官 | 啾啾 | 内容创作、表达优化、对外输出 |
