@@ -23,8 +23,15 @@
 
 ### 记忆分层 + 冷归档
 - 5 层：短期流水 → 长期记忆 → 群聊记忆 → 冷归档 → 语义检索
-- 归档脚本：scripts/archive-memory.sh，cron 每天凌晨 3 点执行
+- 归档脚本：scripts/archive-memory.sh，cron 每天凌晨 3 点执行（job id: 7f9ecba6）
 - 超过 7 天的 daily memory 自动移入 archive/
+
+### 持久化机制
+1. 配置轨持久化：openclaw.json 写入磁盘，Gateway 重启自动加载
+2. 规则轨持久化：workspace 文件持久存储，每次会话自动读取
+3. 记忆持久化：分层存储 + 语义检索按需加载
+4. 归档持久化：cron 定时归档，防止上下文膨胀
+5. 备份持久化：Git 自动备份（每5分钟），远程仓库冗余
 
 ## AI 短剧生成平台（2026-02-24 启动）
 
