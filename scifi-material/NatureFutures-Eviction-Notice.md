@@ -1,8 +1,10 @@
 # Eviction Notice
 
 - **作者**: Unknown (Nature Futures)
-- **来源**: Nature Futures, Feb 2026
-- **字数**: ~1000
+- **来源**: Nature Futures
+- **发表时间**: 2026
+- **字数**: ~800
+- **短剧化潜力**: ⭐⭐⭐⭐⭐
 - **原文链接**: https://www.nature.com/articles/d41586-026-00138-2
 
 ---
