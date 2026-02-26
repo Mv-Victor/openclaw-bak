@@ -2053,3 +2053,7 @@ To github.com:Mv-Victor/openclaw-bak.git
  create mode 100755 scripts/archive-memory.sh
 To github.com:Mv-Victor/openclaw-bak.git
    005b976..a63c08e  G -> G
+[G a86db24] [20260226_1405] [memory] [long-term-memory] [scripts] 修改3个文件(GROUP_MEMORY.md等)
+ 3 files changed, 53 insertions(+), 52 deletions(-)
+To github.com:Mv-Victor/openclaw-bak.git
+   a63c08e..a86db24  G -> G

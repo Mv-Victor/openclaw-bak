@@ -6,12 +6,25 @@
 - 时区：GMT+8
 - 沟通渠道：飞书 DM + 群聊
 
-## 多 Agent 协作系统
+## 多 Agent 协作系统（2026-02-26 完整落地）
 - G（总指挥/军师/智库）+ 啾啾（工程师/创作官）
 - 单 Gateway，独立 workspace，飞书双账号
 - G workspace: `/root/.openclaw/workspace-g`
 - 啾啾 workspace: `/root/.openclaw/workspace`
 - Git 备份：`git@github.com:Mv-Victor/openclaw-bak.git` 分支 `G`，5 分钟自动备份
+
+### 双轨治理
+- 配置轨（Gateway 硬控制）：maxPingPongTurns=0, dmScope=per-account-channel-peer, requireMention, bindings, mentionPatterns
+- 规则轨（workspace 软引导）：SOUL.md, AGENTS.md, ROLE-COLLAB-RULES.md, TEAM-RULEBOOK.md, TEAM-DIRECTORY.md
+
+### 群聊 Session Keys
+- 群 oc_0af53fdfca746166d27a102fc843f207: G=agent:g:feishu:group:oc_0af53fdfca746166d27a102fc843f207, 啾啾=agent:main:feishu:group:oc_0af53fdfca746166d27a102fc843f207
+- 群 oc_c77988450ccd8ae6f30dc77d62038204: G=agent:g:feishu:group:oc_c77988450ccd8ae6f30dc77d62038204, 啾啾=agent:main:feishu:group:oc_c77988450ccd8ae6f30dc77d62038204
+
+### 记忆分层 + 冷归档
+- 5 层：短期流水 → 长期记忆 → 群聊记忆 → 冷归档 → 语义检索
+- 归档脚本：scripts/archive-memory.sh，cron 每天凌晨 3 点执行
+- 超过 7 天的 daily memory 自动移入 archive/
 
 ## AI 短剧生成平台（2026-02-24 启动）
 
