@@ -2226,3 +2226,8 @@ To github.com:Mv-Victor/openclaw-bak.git
  3 files changed, 59 insertions(+)
 To github.com:Mv-Victor/openclaw-bak.git
    95f5b1a..5821eac  G -> G
+[G 00b2a12] [20260226_1740] [scripts] 新增1个文件(mcporter.json等), 修改1个文件(backup.log等)
+ 2 files changed, 12 insertions(+)
+ create mode 100644 config/mcporter.json
+To github.com:Mv-Victor/openclaw-bak.git
+   5821eac..00b2a12  G -> G
