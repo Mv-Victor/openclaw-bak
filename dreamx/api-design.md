@@ -1718,3 +1718,761 @@
   }
 }
 ```
+
+---
+
+## 11. 素材库模块
+
+### 11.1 获取视觉风格列表
+
+- **Method**: `GET`
+- **Path**: `/assets/styles`
+- **说明**: 获取平台预置的视觉风格库，支持分类筛选
+
+**请求 JSON**: 无（Query: `?category=realistic&page=1&page_size=20`）
+
+**响应 JSON**:
+
+```json
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "items": [
+      {
+        "style_id": "sty_001",
+        "name": "电影写实",
+        "category": "realistic",
+        "description": "高质量电影级写实风格，适合都市/古装短剧",
+        "preview_url": "https://cdn.dreamx.studio/styles/sty_001_preview.jpg",
+        "style_tokens": ["cinematic", "realistic", "film_grain"],
+        "negative_prompt": "cartoon, anime, painting, illustration",
+        "recommended_providers": ["flux", "kling"]
+      },
+      {
+        "style_id": "sty_002",
+        "name": "日系动漫",
+        "category": "anime",
+        "description": "日本动漫风格，适合二次元短剧",
+        "preview_url": "https://cdn.dreamx.studio/styles/sty_002_preview.jpg",
+        "style_tokens": ["anime", "cel_shading", "vibrant_colors"],
+        "negative_prompt": "realistic, photo, 3d render",
+        "recommended_providers": ["sd", "flux"]
+      }
+    ],
+    "total": 24,
+    "page": 1,
+    "page_size": 20
+  }
+}
+```
+
+### 11.2 获取配音音色列表
+
+- **Method**: `GET`
+- **Path**: `/assets/voices`
+- **说明**: 获取 TTS 配音音色库（火山引擎 TTS / ElevenLabs）
+
+**请求 JSON**: 无（Query: `?language=zh-CN&gender=female&page=1&page_size=20`）
+
+**响应 JSON**:
+
+```json
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "items": [
+      {
+        "voice_id": "voc_001",
+        "name": "甜美女声",
+        "provider": "volcengine",
+        "language": "zh-CN",
+        "gender": "female",
+        "description": "年轻甜美的女性声音，适合旁白和角色配音",
+        "preview_url": "https://cdn.dreamx.studio/voices/voc_001_sample.mp3",
+        "tags": ["sweet", "young", "narrator"],
+        "emotions": ["neutral", "happy", "sad", "excited"]
+      },
+      {
+        "voice_id": "voc_002",
+        "name": "磁性男声",
+        "provider": "volcengine",
+        "language": "zh-CN",
+        "gender": "male",
+        "description": "低沉磁性的男性声音，适合旁白",
+        "preview_url": "https://cdn.dreamx.studio/voices/voc_002_sample.mp3",
+        "tags": ["deep", "mature", "narrator"],
+        "emotions": ["neutral", "serious", "warm"]
+      }
+    ],
+    "total": 36,
+    "page": 1,
+    "page_size": 20
+  }
+}
+```
+
+### 11.3 获取 Prompt 模板列表
+
+- **Method**: `GET`
+- **Path**: `/assets/templates`
+- **说明**: 获取 Prompt Compiler 模板库，支持分类筛选
+
+**请求 JSON**: 无（Query: `?type=scene_image&page=1&page_size=20`）
+
+**响应 JSON**:
+
+```json
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "items": [
+      {
+        "template_id": "tpl_001",
+        "name": "场景图像通用模板",
+        "type": "scene_image",
+        "description": "适用于大多数场景的图像生成 prompt 模板",
+        "template": "{{scene_description}}, {{characters}}, {{shot_type}}, {{angle}}, {{lighting}}, {{art_style}}, high quality, detailed",
+        "variables": ["scene_description", "characters", "shot_type", "angle", "lighting", "art_style"],
+        "is_system": true,
+        "usage_count": 15000
+      },
+      {
+        "template_id": "tpl_002",
+        "name": "负面提示词通用模板",
+        "type": "negative",
+        "description": "通用负面提示词模板",
+        "template": "{{style_negative}}, blurry, deformed, extra limbs, bad anatomy, watermark, text, low quality",
+        "variables": ["style_negative"],
+        "is_system": true,
+        "usage_count": 12000
+      }
+    ],
+    "total": 18,
+    "page": 1,
+    "page_size": 20
+  }
+}
+```
+
+### 11.4 获取 BGM 音乐列表
+
+- **Method**: `GET`
+- **Path**: `/assets/bgm`
+- **说明**: 获取背景音乐素材库
+
+**请求 JSON**: 无（Query: `?mood=happy&genre=pop&page=1&page_size=20`）
+
+**响应 JSON**:
+
+```json
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "items": [
+      {
+        "bgm_id": "bgm_001",
+        "name": "轻快日常",
+        "genre": "pop",
+        "mood": "happy",
+        "duration_seconds": 120,
+        "bpm": 110,
+        "preview_url": "https://cdn.dreamx.studio/bgm/bgm_001_preview.mp3",
+        "full_url": "https://cdn.dreamx.studio/bgm/bgm_001.mp3",
+        "license": "royalty_free",
+        "tags": ["upbeat", "daily", "vlog"]
+      }
+    ],
+    "total": 50,
+    "page": 1,
+    "page_size": 20
+  }
+}
+```
+
+---
+
+## 12. 小红书图文转视频模块
+
+### 12.1 解析小红书笔记
+
+- **Method**: `POST`
+- **Path**: `/redbook/parse`
+- **说明**: 解析小红书笔记链接或手动输入图文内容，提取图片和文字
+
+**请求 JSON**:
+
+```json
+{
+  "note_url": "https://www.xiaohongshu.com/explore/xxxxxx",
+  "manual_input": null
+}
+```
+
+或手动输入：
+
+```json
+{
+  "note_url": null,
+  "manual_input": {
+    "title": "三亚旅行攻略｜人均3000玩转三亚",
+    "content": "姐妹们！这次三亚之旅真的太绝了...",
+    "images": [
+      "https://cdn.dreamx.studio/uploads/rb_img_001.jpg",
+      "https://cdn.dreamx.studio/uploads/rb_img_002.jpg",
+      "https://cdn.dreamx.studio/uploads/rb_img_003.jpg"
+    ],
+    "tags": ["三亚旅行", "旅行攻略", "海边"]
+  }
+}
+```
+
+**响应 JSON**:
+
+```json
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "note_id": "rb_note_001",
+    "title": "三亚旅行攻略｜人均3000玩转三亚",
+    "content": "姐妹们！这次三亚之旅真的太绝了...",
+    "images": [
+      {
+        "index": 0,
+        "url": "https://cdn.dreamx.studio/redbook/rb_note_001_img_0.jpg",
+        "width": 1080,
+        "height": 1440,
+        "description": "三亚海滩日落全景"
+      },
+      {
+        "index": 1,
+        "url": "https://cdn.dreamx.studio/redbook/rb_note_001_img_1.jpg",
+        "width": 1080,
+        "height": 1440,
+        "description": "海鲜大餐特写"
+      },
+      {
+        "index": 2,
+        "url": "https://cdn.dreamx.studio/redbook/rb_note_001_img_2.jpg",
+        "width": 1080,
+        "height": 1440,
+        "description": "酒店泳池俯拍"
+      }
+    ],
+    "tags": ["三亚旅行", "旅行攻略", "海边"],
+    "parsed_at": "2025-01-15T15:00:00Z"
+  }
+}
+```
+
+### 12.2 AI 生成爆款文案
+
+- **Method**: `POST`
+- **Path**: `/redbook/copywriting`
+- **说明**: 基于解析的图文内容，AI 生成小红书爆款风格文案（6-10句，情绪递进），含 TTS 配音方案
+
+**请求 JSON**:
+
+```json
+{
+  "note_id": "rb_note_001",
+  "style": "enthusiastic",
+  "sentence_count": 8,
+  "voice_id": "voc_001",
+  "include_emotion_tags": true,
+  "target_duration_seconds": 60
+}
+```
+
+**响应 JSON**:
+
+```json
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "copywriting_id": "cw_001",
+    "note_id": "rb_note_001",
+    "sentences": [
+      {
+        "index": 0,
+        "text": "姐妹们，你们绝对想不到，人均3000就能在三亚玩到飞起！",
+        "emotion": "excited",
+        "duration_seconds": 5,
+        "image_index": 0
+      },
+      {
+        "index": 1,
+        "text": "第一天直奔亚龙湾，这片海蓝得像加了滤镜一样",
+        "emotion": "happy",
+        "duration_seconds": 5,
+        "image_index": 0
+      },
+      {
+        "index": 2,
+        "text": "日落的时候整个天空都是橘红色的，美到窒息",
+        "emotion": "awe",
+        "duration_seconds": 6,
+        "image_index": 0
+      },
+      {
+        "index": 3,
+        "text": "晚上必须安排一顿海鲜大餐，这个皮皮虾也太肥了吧",
+        "emotion": "happy",
+        "duration_seconds": 5,
+        "image_index": 1
+      },
+      {
+        "index": 4,
+        "text": "人均不到200，吃到扶墙出，性价比绝了",
+        "emotion": "satisfied",
+        "duration_seconds": 5,
+        "image_index": 1
+      },
+      {
+        "index": 5,
+        "text": "酒店选的海景房，推开窗就是无边泳池",
+        "emotion": "relaxed",
+        "duration_seconds": 5,
+        "image_index": 2
+      },
+      {
+        "index": 6,
+        "text": "躺在泳池边吹着海风，这才是生活啊",
+        "emotion": "relaxed",
+        "duration_seconds": 6,
+        "image_index": 2
+      },
+      {
+        "index": 7,
+        "text": "姐妹们冲！这份攻略收藏起来，下次就照着玩！",
+        "emotion": "excited",
+        "duration_seconds": 5,
+        "image_index": 2
+      }
+    ],
+    "total_duration_seconds": 42,
+    "voice_id": "voc_001",
+    "created_at": "2025-01-15T15:05:00Z"
+  }
+}
+```
+
+### 12.3 一键生成视频
+
+- **Method**: `POST`
+- **Path**: `/redbook/generate-video`
+- **说明**: 基于解析的图文和生成的文案，一键完成 TTS 配音→自动分镜→字幕时间轴→视频合成，异步任务
+
+**请求 JSON**:
+
+```json
+{
+  "note_id": "rb_note_001",
+  "copywriting_id": "cw_001",
+  "voice_id": "voc_001",
+  "bgm_id": "bgm_001",
+  "bgm_volume": 0.2,
+  "style": {
+    "transition": "crossfade",
+    "transition_duration_ms": 500,
+    "subtitle_style": "bottom_center",
+    "subtitle_font_size": 28,
+    "subtitle_color": "#FFFFFF",
+    "ken_burns_effect": true
+  },
+  "output": {
+    "aspect_ratio": "9:16",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "format": "mp4"
+  }
+}
+```
+
+**响应 JSON**:
+
+```json
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "task_id": "task_rb_vid_001",
+    "status": "processing",
+    "credits_cost": 30,
+    "steps": [
+      {"step": "tts_generation", "status": "processing"},
+      {"step": "storyboard_split", "status": "pending"},
+      {"step": "subtitle_timeline", "status": "pending"},
+      {"step": "video_composition", "status": "pending"}
+    ],
+    "estimated_seconds": 90,
+    "sse_url": "/redbook/generate-video/task_rb_vid_001/stream"
+  }
+}
+```
+
+### 12.4 查询视频生成状态
+
+- **Method**: `GET`
+- **Path**: `/redbook/tasks/:task_id`
+- **说明**: 查询小红书视频生成任务状态
+
+**请求 JSON**: 无
+
+**响应 JSON**:
+
+```json
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "task_id": "task_rb_vid_001",
+    "status": "completed",
+    "steps": [
+      {"step": "tts_generation", "status": "completed", "duration_ms": 8000},
+      {"step": "storyboard_split", "status": "completed", "duration_ms": 2000},
+      {"step": "subtitle_timeline", "status": "completed", "duration_ms": 1500},
+      {"step": "video_composition", "status": "completed", "duration_ms": 45000}
+    ],
+    "result": {
+      "video_url": "https://cdn.dreamx.studio/redbook/rb_note_001_video.mp4",
+      "thumbnail_url": "https://cdn.dreamx.studio/redbook/rb_note_001_thumb.jpg",
+      "duration_seconds": 42,
+      "resolution": "1080x1920",
+      "file_size_mb": 25.8
+    },
+    "credits_cost": 30,
+    "completed_at": "2025-01-15T15:06:30Z"
+  }
+}
+```
+
+---
+
+## 13. AI 聊天模块
+
+### 13.1 发送聊天消息
+
+- **Method**: `POST`
+- **Path**: `/projects/:project_id/chat`
+- **说明**: 在项目上下文中与 AI 对话，支持自然语言引导创作方向。非流式响应
+
+**请求 JSON**:
+
+```json
+{
+  "message": "帮我把第二场的氛围改成更紧张的感觉，角色表情要更夸张",
+  "context": {
+    "scene_id": "scn_002",
+    "storyboard_ids": ["sb_003", "sb_004"]
+  },
+  "history_limit": 20
+}
+```
+
+**响应 JSON**:
+
+```json
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "chat_id": "chat_msg_001",
+    "role": "assistant",
+    "content": "好的，我来帮你调整第二场的氛围。以下是我的建议：\n\n1. 场景灯光从暖色调改为冷色调，增加阴影对比\n2. 小明的表情从「困惑」改为「惊恐」，眼睛睁大\n3. 镜头从平视改为仰拍，增加压迫感\n4. 增加快速剪辑节奏，每个分镜缩短到3秒\n\n需要我直接应用这些修改吗？",
+    "suggestions": [
+      {
+        "type": "scene_update",
+        "scene_id": "scn_002",
+        "changes": {
+          "mood": "tense",
+          "visual_style": {
+            "color_tone": "cold",
+            "lighting": "dramatic_shadow"
+          }
+        }
+      },
+      {
+        "type": "storyboard_update",
+        "storyboard_id": "sb_003",
+        "changes": {
+          "shot_grammar": {
+            "angle": "low_angle",
+            "movement": "quick_zoom"
+          },
+          "duration_seconds": 3
+        }
+      }
+    ],
+    "created_at": "2025-01-15T16:00:00Z"
+  }
+}
+```
+
+### 13.2 SSE 流式聊天
+
+- **Method**: `POST`
+- **Path**: `/projects/:project_id/chat/stream`
+- **说明**: 流式 AI 对话，通过 SSE（Server-Sent Events）实时推送 token。响应为 `text/event-stream`
+
+**请求 JSON**:
+
+```json
+{
+  "message": "根据当前剧本，帮我生成一个完整的角色关系图谱",
+  "context": {
+    "include_script": true,
+    "include_characters": true
+  },
+  "stream": true,
+  "history_limit": 20
+}
+```
+
+**响应（SSE 流）**:
+
+```
+Content-Type: text/event-stream
+
+event: start
+data: {"chat_id": "chat_msg_002", "model": "gpt-4"}
+
+event: delta
+data: {"content": "好的"}
+
+event: delta
+data: {"content": "，根据"}
+
+event: delta
+data: {"content": "你的剧本"}
+
+event: delta
+data: {"content": "，我来梳理"}
+
+event: delta
+data: {"content": "角色关系："}
+
+event: delta
+data: {"content": "\n\n## 角色关系图谱\n\n"}
+
+event: delta
+data: {"content": "**小明** ←→ **老板娘**：互助关系\n"}
+
+event: delta
+data: {"content": "**小明** ←→ **县令**：对立关系\n"}
+
+event: suggestions
+data: {
+  "suggestions": [
+    {
+      "type": "character_update",
+      "character_id": "chr_001",
+      "changes": {
+        "relationships": [
+          {"target": "chr_002", "type": "ally", "description": "互助关系"}
+        ]
+      }
+    }
+  ]
+}
+
+event: done
+data: {"chat_id": "chat_msg_002", "total_tokens": 256, "credits_cost": 2}
+```
+
+### 13.3 获取聊天历史
+
+- **Method**: `GET`
+- **Path**: `/projects/:project_id/chat/history`
+- **说明**: 获取项目的 AI 聊天历史记录
+
+**请求 JSON**: 无（Query: `?page=1&page_size=50`）
+
+**响应 JSON**:
+
+```json
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "items": [
+      {
+        "chat_id": "chat_msg_001",
+        "role": "user",
+        "content": "帮我把第二场的氛围改成更紧张的感觉",
+        "created_at": "2025-01-15T16:00:00Z"
+      },
+      {
+        "chat_id": "chat_msg_002",
+        "role": "assistant",
+        "content": "好的，我来帮你调整第二场的氛围...",
+        "suggestions_count": 2,
+        "created_at": "2025-01-15T16:00:05Z"
+      }
+    ],
+    "total": 24,
+    "page": 1,
+    "page_size": 50
+  }
+}
+```
+
+### 13.4 应用 AI 建议
+
+- **Method**: `POST`
+- **Path**: `/projects/:project_id/chat/:chat_id/apply`
+- **说明**: 将 AI 聊天中给出的建议批量应用到项目中
+
+**请求 JSON**:
+
+```json
+{
+  "suggestion_indices": [0, 1]
+}
+```
+
+**响应 JSON**:
+
+```json
+{
+  "code": 0,
+  "message": "success",
+  "data": {
+    "applied": [
+      {
+        "type": "scene_update",
+        "scene_id": "scn_002",
+        "status": "applied"
+      },
+      {
+        "type": "storyboard_update",
+        "storyboard_id": "sb_003",
+        "status": "applied"
+      }
+    ],
+    "applied_count": 2,
+    "failed_count": 0
+  }
+}
+```
+
+---
+
+## 附录 A：镜头语法枚举值
+
+### 景别 (shot_type)
+
+| 值 | 说明 |
+|---|------|
+| `extreme_wide_shot` | 大远景 |
+| `wide_shot` | 远景/全景 |
+| `medium_wide_shot` | 中远景 |
+| `medium_shot` | 中景 |
+| `medium_close_up` | 中近景 |
+| `close_up` | 近景/特写 |
+| `extreme_close_up` | 大特写 |
+
+### 角度 (angle)
+
+| 值 | 说明 |
+|---|------|
+| `eye_level` | 平视 |
+| `high_angle` | 俯拍 |
+| `low_angle` | 仰拍 |
+| `birds_eye` | 鸟瞰 |
+| `dutch_angle` | 荷兰角/倾斜 |
+| `over_shoulder` | 过肩 |
+| `pov` | 第一人称视角 |
+
+### 运镜 (movement)
+
+| 值 | 说明 |
+|---|------|
+| `static` | 固定镜头 |
+| `pan_left` | 左摇 |
+| `pan_right` | 右摇 |
+| `tilt_up` | 上摇 |
+| `tilt_down` | 下摇 |
+| `zoom_in` | 推镜头 |
+| `zoom_out` | 拉镜头 |
+| `slow_zoom_in` | 缓推 |
+| `slow_zoom_out` | 缓拉 |
+| `quick_zoom` | 快速推拉 |
+| `dolly_in` | 推轨 |
+| `dolly_out` | 拉轨 |
+| `tracking` | 跟踪 |
+| `crane_up` | 升 |
+| `crane_down` | 降 |
+| `handheld` | 手持晃动 |
+| `orbit` | 环绕 |
+
+### 帧类型 (frame_type)
+
+| 值 | 说明 |
+|---|------|
+| `first` | 首帧 |
+| `key` | 关键帧 |
+| `last` | 尾帧 |
+| `panel` | 面板帧 |
+| `action` | 动作帧 |
+
+---
+
+## 附录 B：项目创作模式枚举值
+
+| 值 | 说明 |
+|---|------|
+| `single_episode` | 单集视频 |
+| `multi_episodes` | 连续剧集 |
+| `script_based` | 剧本模式 |
+| `music_mv` | 音乐 MV |
+| `redbook_note` | 小红书图文转视频 |
+
+---
+
+## 附录 C：异步任务通用 SSE 事件格式
+
+所有异步任务（图像生成、视频生成、导出等）的 SSE 推送遵循统一格式：
+
+```
+event: progress
+data: {"task_id": "task_xxx", "step": "generating", "progress": 45, "message": "正在生成图像..."}
+
+event: progress
+data: {"task_id": "task_xxx", "step": "generating", "progress": 90, "message": "即将完成..."}
+
+event: completed
+data: {"task_id": "task_xxx", "status": "completed", "result": {...}}
+
+event: failed
+data: {"task_id": "task_xxx", "status": "failed", "error": {"code": 50001, "message": "供应商超时"}}
+```
+
+---
+
+## 附录 D：错误码表
+
+| 错误码 | 说明 |
+|--------|------|
+| `0` | 成功 |
+| `40001` | Token 无效或过期 |
+| `40002` | 参数校验失败 |
+| `40003` | 权限不足 |
+| `40004` | 资源不存在 |
+| `40005` | 积分不足 |
+| `40006` | 订阅计划不支持该功能 |
+| `40007` | 请求频率超限 |
+| `40008` | 文件格式不支持 |
+| `40009` | 文件大小超限 |
+| `50001` | AI 供应商超时 |
+| `50002` | AI 供应商返回错误 |
+| `50003` | 任务队列已满 |
+| `50004` | 视频合成失败 |
+| `50005` | TTS 生成失败 |
+| `50006` | 小红书笔记解析失败 |
+| `50099` | 服务内部错误 |
