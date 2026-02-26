@@ -40,6 +40,28 @@
 - 必须：调用前验证模型/渠道可用性，失败后分析原因再决定是否重试
 - Ralph 循环等自动化任务必须有防空转机制，遇到阻塞立即停止而非反复重试
 
+## ⚠️ 硬性约束：API 费用控制（2026-02-26 栋少要求）
+- 文生图和文生视频 API 每次调用花费不菲
+- **强限制**：每次调用必须能完成任务进度，不要做无意义的调用
+- 禁止：测试性调用、已知会失败的重试、模型不可用时的盲目提交
+- 必须：调用前验证模型/渠道可用性，失败后分析原因再决定是否重试
+- Ralph 循环等自动化任务必须有防空转机制，遇到阻塞立即停止而非反复重试
+
+## Ralph 驱动模式（2026-02-26 建立）
+- 核心思想：cron 从"提醒模式"改为"驱动模式"，每次触发从文件读状态自主执行
+- 状态持久化：prd.json（任务列表+完成状态+阻塞标记）+ progress.txt（执行日志+经验沉淀）
+- 阻塞跳过：blocked story 自动跳过，尝试下一个依赖已满足的 story
+- 防空转：NO_PROGRESS / BLOCKED_ALL / COMPLETE 三种停止信号
+- cron 类型：agentTurn + isolated，每次全新 session，不依赖上下文
+- prd.json 扩展字段：blocked, blockedReason, blockedSince, dependsOn
+- 设计文档：docs/ralph-drive-mode.md
+- 参考项目：/root/ralph（snarktank/ralph）
+
+### 教训
+- systemEvent 类型 cron 只是"提醒"，session 没上下文就空转
+- 遇到阻塞不跳过会导致同一个 story 反复检查（白骨夫人 BG-002 空转 12 次）
+- 任务状态必须持久化到文件，不能依赖 session 上下文
+
 ## AI 短剧生成平台（2026-02-24 启动）
 
 ### 业务方向
