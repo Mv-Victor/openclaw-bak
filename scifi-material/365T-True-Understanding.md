@@ -1,8 +1,9 @@
 # True Understanding
 
 - **作者**: Andy Burrows
-- **来源**: 365tomorrows
-- **字数**: ~700
+- **来源**: 365tomorrows.com
+- **字数**: ~950
+- **短剧化潜力**: ⭐⭐⭐⭐
 - **原文链接**: https://365tomorrows.com/2026/01/29/true-understanding/
 
 ---
