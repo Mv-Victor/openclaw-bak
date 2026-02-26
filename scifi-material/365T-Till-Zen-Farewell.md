@@ -2,7 +2,8 @@
 
 - **作者**: Colin Jeffrey
 - **来源**: 365tomorrows
-- **字数**: ~800
+- **字数**: ~600
+- **短剧化潜力**: ⭐⭐⭐⭐
 - **原文链接**: https://365tomorrows.com/2026/02/25/till-zen-farewell/
 
 ---
