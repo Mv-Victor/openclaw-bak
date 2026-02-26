@@ -1,0 +1,116 @@
+# Ralph Progress Log - 白骨夫人三版对比实验
+Started: 2026-02-26 11:00 GMT+8
+
+## Codebase Patterns
+- huobao-drama: Go 后端 + SQLite + Gin 框架，入口 main.go
+- AI 配置存 DB（ai_service_configs 表），通过 REST API `/api/v1/ai-configs` 管理
+- Go 路径: /usr/local/go/bin/go (需要 export PATH)
+- 内存紧张时先 `echo 3 > /proc/sys/vm/drop_caches`
+- 服务启动用 background 模式，避免被 exec timeout kill
+- xchai.xyz 支持 OpenAI chat completions 兼容格式（已验证）
+- PoloAI base_url: https://poloai.top, 分组: AIGC（生图/视频/音乐）
+- Drama ID=1, Episode ID=2, 14 个分镜已生成（storyboard 1-14）
+
+---
+
+## 2026-02-26 03:00 UTC - BG-001
+- Go 环境修复：/usr/local/go/bin/go v1.22.0，已加入 ~/.bashrc PATH
+- go build 成功，drama-server 编译完成
+- 服务可启动在 localhost:5678
+- AI configs 已存在：text=xchai(claude-opus-4-6), video=poloai(sora-2-guan)
+- **Learnings:**
+  - Go 不在默认 PATH，需要手动 export
+  - drama-server 容易被 OOM kill，用 background 模式启动
+  - 释放缓存: echo 3 > /proc/sys/vm/drop_caches
+
+---
+
+## 2026-02-26 03:09 UTC - BG-002 (阻塞)
+- xchai.xyz 文本 API 验证通过（OpenAI 兼容格式）
+- PoloAI 所有模型不可用：sora-2-guan, sora-2, veo-2, wan, nanobanana 全部返回 "No available channel"
+- PoloAI 图片模型也全部不可用：dall-e-3, dall-e-2, gpt-image-1, flux, sdxl, midjourney
+- /v1/models 返回空列表
+- **阻塞点：PoloAI API key 分组下无可用 channel，需要栋少确认**
+- **Learnings:**
+  - PoloAI 的 /v1/models 可能不反映实际可用模型
+  - 需要确认 API key 的分组权限和可用模型列表
+
+---
+
+## 2026-02-26 04:18 UTC - BG-002 (仍阻塞)
+- 再次验证 PoloAI：sora-2-guan 仍返回 "No available channel"，/v1/models 仍为空
+- xchai.xyz 仅有 3 个 Claude 文本模型（opus/sonnet/opus-thinking），无图片/视频能力
+- 两个 provider 均无法提供图片和视频生成
+- 已在群里 @栋少 汇报阻塞，等待指示
+- **状态：阻塞，等待栋少确认 PoloAI 权限或提供替代 API**
+
+---
+
+## 2026-02-26 04:41 UTC - BG-002 (第三次检查，仍阻塞)
+- PoloAI /v1/models 仍返回空列表
+- sora-2-guan 仍报 "No available channel under group AIGC"
+- 已在群里再次 @栋少 提醒
+- **状态：阻塞，无法推进，等待栋少回复**
+
+---
+
+## 2026-02-26 04:47 UTC - BG-002 (第四次检查，仍阻塞)
+- PoloAI /v1/models 仍返回空列表
+- sora-2-guan 仍报 "No available channel under group AIGC"
+- 已多次在群里 @栋少，不再重复发消息
+- **状态：阻塞，等待栋少回复后继续**
+
+---
+
+## 2026-02-26 05:00 UTC - BG-002 (第五次检查，模型列表变了但仍阻塞)
+- PoloAI /v1/models 恢复了，返回 10 个模型：
+  - 图片: gemini-2.5-flash-image, gemini-2.5-flash-image-preview, gemini-3-pro-image-preview, gpt-4o-image-vip, sora_image
+  - 视频: veo_3_1, veo_3_1-4K, veo_3_1-components, veo_3_1-fast, veo_3_1-fast-4K
+- 旧模型 sora-2-guan 已下线，更新 AI config 为 veo_3_1，添加图片 config (gpt-4o-image-vip)
+- 但实际调用全部失败：所有模型报 "No available channel under group xxx"
+  - gpt-4o-image-vip → group 逆向 → channel not found
+  - sora_image → group sora → channel not found
+  - gemini-2.5-flash-image → group sora → channel not found
+  - gemini-3-pro-image-preview → group sora → channel not found
+  - veo_3_1 → group sora → channel not found
+- **根因：API key 绑定的分组下没有可用渠道，/v1/models 列出的是平台全局模型，不代表当前 key 有权限调用**
+- **状态：仍阻塞，需要栋少确认 PoloAI key 的分组权限或提供新的 API key**
+
+---
+
+## 2026-02-26 05:08 UTC - BG-002 (第六次检查，仍阻塞)
+- PoloAI /v1/models 再次返回空列表
+- gpt-4o-image-vip 调用仍报 "No available channel under group sora"
+- **状态：阻塞未解除，等待栋少回复。不再重复发群消息。**
+
+---
+
+## 2026-02-26 05:08 UTC - BG-002 (第七次检查，仍阻塞)
+- PoloAI /v1/models 返回空列表，无任何变化
+- **状态：阻塞未解除，等待栋少回复。停止空转。**
+
+---
+
+## 2026-02-26 05:37 UTC - BG-002 (第八次检查，仍阻塞)
+- PoloAI /v1/models 返回空列表，无变化
+- **状态：阻塞未解除，等待栋少回复。不再重复发群消息。**
+
+---
+
+## 2026-02-26 05:47 UTC - BG-002 (第九次检查，仍阻塞)
+- PoloAI /v1/models 返回空列表 `{"data":[]}`，无任何变化
+- **状态：阻塞未解除，等待栋少确认 PoloAI key 权限或提供替代方案。不再重复发群消息。**
+
+---
+
+## 2026-02-26 05:57 UTC - BG-002 (第十次检查，仍阻塞)
+- PoloAI /v1/models 返回空列表 `{"data":[]}`，无变化
+- **状态：阻塞未解除，等待栋少回复。不再重复发群消息。**
+
+---
+
+## 2026-02-26 06:07 UTC - BG-002 (第十一次检查，仍阻塞)
+- PoloAI /v1/models 返回空列表 `{"data":[]}`，无变化
+- **状态：阻塞未解除。已连续 3 小时阻塞，等待栋少回复。停止空转。**
+
+---

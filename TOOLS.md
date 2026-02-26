@@ -1,40 +1,40 @@
 # TOOLS.md - Local Notes
 
-Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+## LLM 配置
 
-## What Goes Here
+- Provider: xchai.xyz (Anthropic Messages API 兼容)
+- Model: xchai/claude-opus-4-6
+- 与 G 共享同一 LLM 配置
 
-Things like:
+## 工具权限
 
-- Camera names and locations
-- SSH hosts and aliases
-- Preferred voices for TTS
-- Speaker/room names
-- Device nicknames
-- Anything environment-specific
+### 啾啾常用工具
+- `exec` — Shell 命令执行（代码编译、测试、部署）
+- `read` / `write` / `edit` — 文件操作（代码实现核心）
+- `web_fetch` — 网页内容获取
+- `browser` — 浏览器自动化
+- `sessions_send` — 跨 Agent 通信（向 G 汇报）
+- `memory_search` / `memory_get` — 记忆检索
+- `cron` — 定时任务管理
+- `tts` — 文本转语音
 
-## Examples
+### 飞书工具
+- `feishu_doc` — 飞书文档读写
+- `feishu_drive` — 飞书云盘操作
+- `feishu_wiki` — 飞书知识库
+- `feishu_bitable_*` — 飞书多维表格
 
-```markdown
-### Cameras
+### 啾啾不常用的工具
+- `gateway` — 配置管理（谨慎使用，重大变更先报 G）
 
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
+## 自动备份
 
-### SSH
+- Git 备份: 独立 git repo `/root/.openclaw/workspace`
+- 冷归档: `scripts/archive-memory.sh`（每日凌晨 3 点，归档 7 天以上 daily memory）
 
-- home-server → 192.168.1.100, user: admin
+## 环境信息
 
-### TTS
-
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
-```
-
-## Why Separate?
-
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
-
----
-
-Add whatever helps you do your job. This is your cheat sheet.
+- 服务器内存: 3.6G（注意 OOM）
+- Go: `/usr/local/go/bin/go` v1.22.0
+- Node: v22.22.0
+- Gateway 端口: 18789

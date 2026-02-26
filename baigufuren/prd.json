@@ -1,0 +1,158 @@
+{
+  "project": "白骨夫人三版对比实验",
+  "branchName": "master",
+  "description": "用 huobao-drama 端到端跑通《白骨夫人》短剧生成，产出三个版本视频进行对比",
+  "config": {
+    "huobao_drama_path": "/root/huobao-drama",
+    "drama_id": 1,
+    "episode_id": 2,
+    "text_provider": {
+      "name": "xchai",
+      "base_url": "https://xchai.xyz/v1",
+      "model": "claude-opus-4-6"
+    },
+    "video_provider": {
+      "name": "poloai",
+      "base_url": "https://poloai.top/v1",
+      "model": "sora-2-guan"
+    },
+    "api_base": "http://localhost:5678/api/v1",
+    "output_dir": "/root/.openclaw/workspace-g/baigufuren"
+  },
+  "userStories": [
+    {
+      "id": "BG-001",
+      "title": "环境准备：确认服务可启动",
+      "description": "确保 huobao-drama 能编译运行，Go 环境正常，服务能启动在 5678 端口",
+      "acceptanceCriteria": [
+        "go build 成功",
+        "服务启动在 localhost:5678",
+        "curl /health 返回 200"
+      ],
+      "priority": 1,
+      "passes": true,
+      "notes": "Go 在 /usr/local/go/bin/go v1.22.0，已加入 PATH。编译成功，服务可启动。"
+    },
+    {
+      "id": "BG-002",
+      "title": "环境准备：AI Provider 配置",
+      "description": "配置文本和视频的 AI provider，确认 API 可用",
+      "acceptanceCriteria": [
+        "文本 provider (xchai) 配置完成且测试通过",
+        "视频 provider (poloai) 配置完成",
+        "图片 provider 配置完成或确认替代方案"
+      ],
+      "priority": 2,
+      "passes": false,
+      "notes": "文本 xchai 已配置且验证通过。PoloAI 所有模型当前返回 no available channel，需要栋少确认。图片 provider 也不可用。阻塞点：PoloAI API 不可用。"
+    },
+    {
+      "id": "BG-003",
+      "title": "版本A：批量生成图片",
+      "description": "为 14 个分镜批量生成 first frame 图片",
+      "acceptanceCriteria": [
+        "调用 POST /api/v1/images/episode/2/batch",
+        "14 个分镜都有对应的图片",
+        "图片保存到 version-a/images/"
+      ],
+      "priority": 3,
+      "passes": false,
+      "notes": "依赖 BG-002 图片 provider 可用"
+    },
+    {
+      "id": "BG-004",
+      "title": "版本A：批量生成视频",
+      "description": "用图片作为 input_reference，为 14 个分镜生成视频",
+      "acceptanceCriteria": [
+        "调用 POST /api/v1/videos/episode/2/batch",
+        "14 个分镜都有对应的视频",
+        "视频保存到 version-a/videos/"
+      ],
+      "priority": 4,
+      "passes": false,
+      "notes": "依赖 BG-003 图片生成完成，且 PoloAI 视频 API 可用"
+    },
+    {
+      "id": "BG-005",
+      "title": "版本A：合并视频",
+      "description": "将 14 个视频片段合并为完整视频",
+      "acceptanceCriteria": [
+        "调用 POST /api/v1/video-merges",
+        "生成 merged-video.mp4",
+        "保存到 version-a/"
+      ],
+      "priority": 5,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "BG-006",
+      "title": "版本B：镜头语法库集成",
+      "description": "创建 feature/baigufuren-shotgrammar 分支，集成 shotgrammar + motionprompt",
+      "acceptanceCriteria": [
+        "新分支创建",
+        "shotgrammar 集成到分镜生成",
+        "motionprompt 集成到 video_prompt",
+        "go build 通过"
+      ],
+      "priority": 6,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "BG-007",
+      "title": "版本B：生成图片+视频+合并",
+      "description": "在版本B分支上跑完整流程",
+      "acceptanceCriteria": [
+        "14 个分镜图片生成",
+        "14 个视频生成",
+        "合并视频",
+        "保存到 version-b/"
+      ],
+      "priority": 7,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "BG-008",
+      "title": "版本C：情绪编排引擎集成",
+      "description": "创建 feature/baigufuren-emotion 分支，集成 emotionengine",
+      "acceptanceCriteria": [
+        "新分支创建",
+        "emotionengine 集成到分镜生成",
+        "情绪弧线驱动镜头选择",
+        "go build 通过"
+      ],
+      "priority": 8,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "BG-009",
+      "title": "版本C：生成图片+视频+合并",
+      "description": "在版本C分支上跑完整流程",
+      "acceptanceCriteria": [
+        "14 个分镜图片生成",
+        "14 个视频生成",
+        "合并视频",
+        "保存到 version-c/"
+      ],
+      "priority": 9,
+      "passes": false,
+      "notes": ""
+    },
+    {
+      "id": "BG-010",
+      "title": "三版对比报告",
+      "description": "生成三版视频的对比报告",
+      "acceptanceCriteria": [
+        "逐场分镜参数对比",
+        "三版视频文件可下载",
+        "对比报告生成"
+      ],
+      "priority": 10,
+      "passes": false,
+      "notes": ""
+    }
+  ]
+}
