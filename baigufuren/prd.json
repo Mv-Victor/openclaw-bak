@@ -1,0 +1,76 @@
+{
+  "name": "白骨夫人三版对比实验",
+  "branchName": "baigufuren-experiment",
+  "stories": [
+    {
+      "id": "A0",
+      "title": "版本A - 修复角色提取AI响应解析",
+      "priority": 1,
+      "passes": false,
+      "description": "排查huobao-drama角色提取代码，修复XChai Claude OpenAI兼容接口的响应解析问题"
+    },
+    {
+      "id": "A1",
+      "title": "版本A - 角色提取成功",
+      "priority": 2,
+      "passes": false,
+      "description": "重跑角色提取API，确认角色数据正确入库"
+    },
+    {
+      "id": "A2",
+      "title": "版本A - 分镜生成成功",
+      "priority": 3,
+      "passes": false,
+      "description": "调用分镜生成API，确认分镜数据正确生成"
+    },
+    {
+      "id": "A3",
+      "title": "版本A - 视频生成",
+      "priority": 4,
+      "passes": false,
+      "description": "用PoloAI sora-2-guan生成各分镜视频"
+    },
+    {
+      "id": "A4",
+      "title": "版本A - 视频合并输出",
+      "priority": 5,
+      "passes": false,
+      "description": "合并所有分镜视频为完整版本A成片"
+    },
+    {
+      "id": "B0",
+      "title": "版本B - 集成shotgrammar+motionprompt分支",
+      "priority": 6,
+      "passes": false,
+      "description": "切换到feature/shot-grammar-motion-prompt分支，编译运行，跑完整流程"
+    },
+    {
+      "id": "B1",
+      "title": "版本B - 完整流程产出视频",
+      "priority": 7,
+      "passes": false,
+      "description": "版本B完整流程：角色提取→分镜→视频→合并"
+    },
+    {
+      "id": "C0",
+      "title": "版本C - 集成emotion-engine分支",
+      "priority": 8,
+      "passes": false,
+      "description": "切换到feature/emotion-engine分支，编译运行，跑完整流程"
+    },
+    {
+      "id": "C1",
+      "title": "版本C - 完整流程产出视频",
+      "priority": 9,
+      "passes": false,
+      "description": "版本C完整流程：角色提取→分镜→视频→合并"
+    },
+    {
+      "id": "FINAL",
+      "title": "三版对比报告+视频交付",
+      "priority": 10,
+      "passes": false,
+      "description": "输出三版对比报告，附带三个版本的视频文件路径，在群里汇报给栋少"
+    }
+  ]
+}
