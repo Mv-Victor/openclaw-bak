@@ -1,80 +1,198 @@
 {
-  "name": "白骨夫人三版对比实验",
-  "branchName": "baigufuren-experiment",
-  "stories": [
+  "project": "白骨夫人三版对比实验",
+  "branchName": "master",
+  "description": "用 huobao-drama 端到端跑通《白骨夫人》短剧生成，产出三个版本视频进行对比",
+  "config": {
+    "huobao_drama_path": "/root/huobao-drama",
+    "drama_id": 1,
+    "episode_id": 2,
+    "text_provider": {
+      "name": "xchai",
+      "base_url": "https://xchai.xyz/v1",
+      "model": "claude-opus-4-6"
+    },
+    "video_provider": {
+      "name": "poloai",
+      "base_url": "https://poloai.top/v1",
+      "model": "sora-2-guan"
+    },
+    "api_base": "http://localhost:5678/api/v1",
+    "output_dir": "/root/.openclaw/workspace/baigufuren"
+  },
+  "userStories": [
     {
-      "id": "A0",
-      "title": "版本A - 角色提取",
+      "id": "BG-001",
+      "title": "环境准备：确认服务可启动",
+      "description": "确保 huobao-drama 能编译运行，Go 环境正常，服务能启动在 5678 端口",
+      "acceptanceCriteria": [
+        "go build 成功",
+        "服务启动在 localhost:5678",
+        "curl /health 返回 200"
+      ],
       "priority": 1,
       "passes": true,
-      "description": "从剧本提取角色数据入库",
-      "completedAt": "2026-02-26T12:00:00+08:00",
-      "notes": "7个角色已入库，描述较短但可用"
+      "blocked": false,
+      "blockedReason": "",
+      "blockedSince": "",
+      "dependsOn": [],
+      "notes": "Go 在 /usr/local/go/bin/go v1.22.0，已加入 PATH。编译成功，服务可启动。"
     },
     {
-      "id": "A1",
-      "title": "版本A - 分镜生成",
+      "id": "BG-002",
+      "title": "环境准备：AI Provider 配置",
+      "description": "配置文本和视频的 AI provider，确认 API 可用",
+      "acceptanceCriteria": [
+        "文本 provider (xchai) 配置完成且测试通过",
+        "视频 provider (poloai) 配置完成且测试通过",
+        "图片 provider 配置完成且测试通过"
+      ],
       "priority": 2,
-      "passes": true,
-      "description": "生成14个分镜，含video_prompt和image_prompt",
-      "completedAt": "2026-02-26T12:00:00+08:00",
-      "notes": "14个分镜已生成，质量OK"
+      "passes": false,
+      "blocked": true,
+      "blockedReason": "PoloAI API key 分组下无可用 channel，所有模型返回 No available channel。需要栋少确认 key 权限或提供替代 API。",
+      "blockedSince": "2026-02-26T03:09:00Z",
+      "dependsOn": ["BG-001"],
+      "notes": "文本 xchai 已配置且验证通过。PoloAI 图片和视频均不可用。"
     },
     {
-      "id": "A2",
-      "title": "版本A - 改写video_prompt规避审核",
+      "id": "BG-003",
+      "title": "版本A：批量生成图片",
+      "description": "为 14 个分镜批量生成 first frame 图片",
+      "acceptanceCriteria": [
+        "调用 POST /api/v1/images/episode/2/batch",
+        "14 个分镜都有对应的图片",
+        "图片保存到 version-a/images/"
+      ],
       "priority": 3,
       "passes": false,
-      "description": "改写14个分镜的video_prompt，去掉暴力/血腥/性暗示描写，用隐喻和艺术化表达替代，确保通过sora内容审核"
+      "blocked": true,
+      "blockedReason": "依赖 BG-002 图片 provider 可用",
+      "blockedSince": "2026-02-26T03:09:00Z",
+      "dependsOn": ["BG-002"],
+      "notes": ""
     },
     {
-      "id": "A3",
-      "title": "版本A - 视频生成（串行）",
+      "id": "BG-004",
+      "title": "版本A：批量生成视频",
+      "description": "用图片作为 input_reference，为 14 个分镜生成视频",
+      "acceptanceCriteria": [
+        "调用 POST /api/v1/videos/episode/2/batch",
+        "14 个分镜都有对应的视频",
+        "视频保存到 version-a/videos/"
+      ],
       "priority": 4,
       "passes": false,
-      "description": "串行提交14个视频生成任务（一个完成再提下一个），避免渠道限流。排查无URL问题。"
+      "blocked": true,
+      "blockedReason": "依赖 BG-003 图片生成完成",
+      "blockedSince": "2026-02-26T03:09:00Z",
+      "dependsOn": ["BG-003"],
+      "notes": ""
     },
     {
-      "id": "A4",
-      "title": "版本A - 视频合并输出",
+      "id": "BG-005",
+      "title": "版本A：合并视频",
+      "description": "将 14 个视频片段合并为完整视频",
+      "acceptanceCriteria": [
+        "调用 POST /api/v1/video-merges",
+        "生成 merged-video.mp4",
+        "保存到 version-a/"
+      ],
       "priority": 5,
       "passes": false,
-      "description": "合并所有分镜视频为完整版本A成片"
+      "blocked": true,
+      "blockedReason": "依赖 BG-004 视频生成完成",
+      "blockedSince": "2026-02-26T03:09:00Z",
+      "dependsOn": ["BG-004"],
+      "notes": ""
     },
     {
-      "id": "B0",
-      "title": "版本B - 集成shotgrammar+motionprompt分支",
+      "id": "BG-006",
+      "title": "版本B：镜头语法库集成",
+      "description": "创建 feature/baigufuren-shotgrammar 分支，集成 shotgrammar + motionprompt",
+      "acceptanceCriteria": [
+        "新分支创建",
+        "shotgrammar 集成到分镜生成",
+        "motionprompt 集成到 video_prompt",
+        "go build 通过"
+      ],
       "priority": 6,
       "passes": false,
-      "description": "切换到feature/shot-grammar-motion-prompt分支，编译运行，跑完整流程"
+      "blocked": false,
+      "blockedReason": "",
+      "blockedSince": "",
+      "dependsOn": ["BG-001"],
+      "notes": "代码集成不依赖 API 可用，可以先做"
     },
     {
-      "id": "B1",
-      "title": "版本B - 完整流程产出视频",
+      "id": "BG-007",
+      "title": "版本B：生成图片+视频+合并",
+      "description": "在版本B分支上跑完整流程",
+      "acceptanceCriteria": [
+        "14 个分镜图片生成",
+        "14 个视频生成",
+        "合并视频",
+        "保存到 version-b/"
+      ],
       "priority": 7,
       "passes": false,
-      "description": "版本B完整流程：角色提取→分镜→视频→合并"
+      "blocked": true,
+      "blockedReason": "依赖 BG-002 API 可用 + BG-006 代码集成完成",
+      "blockedSince": "2026-02-26T03:09:00Z",
+      "dependsOn": ["BG-002", "BG-006"],
+      "notes": ""
     },
     {
-      "id": "C0",
-      "title": "版本C - 集成emotion-engine分支",
+      "id": "BG-008",
+      "title": "版本C：情绪编排引擎集成",
+      "description": "创建 feature/baigufuren-emotion 分支，集成 emotionengine",
+      "acceptanceCriteria": [
+        "新分支创建",
+        "emotionengine 集成到分镜生成",
+        "情绪弧线驱动镜头选择",
+        "go build 通过"
+      ],
       "priority": 8,
       "passes": false,
-      "description": "切换到feature/emotion-engine分支，编译运行，跑完整流程"
+      "blocked": false,
+      "blockedReason": "",
+      "blockedSince": "",
+      "dependsOn": ["BG-001"],
+      "notes": "代码集成不依赖 API 可用，可以先做"
     },
     {
-      "id": "C1",
-      "title": "版本C - 完整流程产出视频",
+      "id": "BG-009",
+      "title": "版本C：生成图片+视频+合并",
+      "description": "在版本C分支上跑完整流程",
+      "acceptanceCriteria": [
+        "14 个分镜图片生成",
+        "14 个视频生成",
+        "合并视频",
+        "保存到 version-c/"
+      ],
       "priority": 9,
       "passes": false,
-      "description": "版本C完整流程：角色提取→分镜→视频→合并"
+      "blocked": true,
+      "blockedReason": "依赖 BG-002 API 可用 + BG-008 代码集成完成",
+      "blockedSince": "2026-02-26T03:09:00Z",
+      "dependsOn": ["BG-002", "BG-008"],
+      "notes": ""
     },
     {
-      "id": "FINAL",
-      "title": "三版对比报告+视频交付",
+      "id": "BG-010",
+      "title": "三版对比报告",
+      "description": "生成三版视频的对比报告",
+      "acceptanceCriteria": [
+        "逐场分镜参数对比",
+        "三版视频文件可下载",
+        "对比报告生成"
+      ],
       "priority": 10,
       "passes": false,
-      "description": "输出三版对比报告，附带三个版本的视频文件路径，在群里汇报给栋少"
+      "blocked": true,
+      "blockedReason": "依赖三版视频全部生成完成",
+      "blockedSince": "",
+      "dependsOn": ["BG-005", "BG-007", "BG-009"],
+      "notes": ""
     }
   ]
 }
