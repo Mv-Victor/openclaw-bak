@@ -2,7 +2,9 @@
 
 - **作者**: Julian Miles, Staff Writer
 - **来源**: 365tomorrows
+- **发表时间**: 2026-02-23
 - **字数**: ~600
+- **短剧化潜力**: ⭐⭐⭐⭐
 - **原文链接**: https://365tomorrows.com/2026/02/23/make-the-grade/
 
 ---

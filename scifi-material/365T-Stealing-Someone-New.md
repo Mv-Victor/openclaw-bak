@@ -2,7 +2,8 @@
 
 - **作者**: CB Droege
 - **来源**: 365tomorrows
-- **字数**: ~600
+- **字数**: ~500
+- **短剧化潜力**: ⭐⭐⭐⭐⭐
 - **原文链接**: https://365tomorrows.com/2026/02/26/stealing-someone-new/
 
 ---
