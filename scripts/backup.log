@@ -2048,3 +2048,8 @@ To github.com:Mv-Victor/openclaw-bak.git
  6 files changed, 165 insertions(+), 20 deletions(-)
 To github.com:Mv-Victor/openclaw-bak.git
    9ee5a7c..005b976  G -> G
+[G a63c08e] [20260226_1400] [scripts] 新增1个文件(archive-memory.sh等), 修改4个文件(ROLE-COLLAB-RULES.md等)
+ 5 files changed, 155 insertions(+), 53 deletions(-)
+ create mode 100755 scripts/archive-memory.sh
+To github.com:Mv-Victor/openclaw-bak.git
+   005b976..a63c08e  G -> G
