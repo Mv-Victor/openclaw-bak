@@ -3,3 +3,16 @@
 [2026-02-26 00:15] 分镜生成调用失败："openai_error" — 同样是API兼容性问题
 [2026-02-26 10:15] 栋少催进度，发现任务停滞未自动推进
 [2026-02-26 10:57] 栋少指出应使用Ralph循环模式，任务不应卡住就停
+[2026-02-26 12:00] 自检发现：角色提取已有数据（7角色），分镜已生成（14个）
+[2026-02-26 12:05] XChai 504 根因：Opus模型处理8000字剧本超时，换Sonnet也504。XChai网关超时限制。
+[2026-02-26 12:08] drama-server反复崩溃根因：exec session cleanup杀死子进程。改用nohup+disown解决。
+[2026-02-26 13:08] 提交14个视频生成任务到PoloAI sora-2-guan
+[2026-02-26 13:15] 全部失败：3个被内容审核拦截(violence/sexual)，8个渠道限流，3个完成但无URL
+[2026-02-26 13:20] 下一步：改写prompt规避审核 + 串行提交 + 排查无URL问题
+
+## Codebase Patterns
+- drama-server必须用nohup+disown启动，否则exec session结束会杀死进程
+- XChai API对长文本请求有网关超时(504)，Opus和Sonnet都会触发
+- PoloAI sora-2-guan对暴力/血腥内容有严格审核，需要艺术化改写prompt
+- 并发提交视频任务会触发渠道限流，必须串行提交
+- BatchGenerateVideosForEpisode需要先有completed的ImageGeneration，不能直接文生视频
