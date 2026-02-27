@@ -82,5 +82,7 @@
 - 使用函数形式更新节点：`setNodes(prev => prev.map(...))` 保留用户进度
 - 添加 isValidConnection 防止错误连接（只允许顺序连接）
 - 使用 useReactFlow 的 updateNodeData 更新单个节点
-- 自定义 Edge 可用动画粒子效果增强视觉
-- 视口状态可用 localStorage 持久化
+- 自定义 Edge 可用动画粒子效果增强视觉（getBezierPath + CSS animation）
+- 视口状态可用 localStorage 持久化（onViewportChange 防抖保存）
+- 节点位置自动保存到 localStorage（防抖 500ms）
+- edgeTypes 注册自定义 Edge 组件
