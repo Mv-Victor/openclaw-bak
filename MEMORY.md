@@ -69,3 +69,18 @@
 ### 服务器
 - 3.6G 内存，注意 OOM
 - 启动重服务前先 `echo 3 > /proc/sys/vm/drop_caches`
+
+### DreamX Studio 组件库模式（2026-02-27）
+- **DetailSection**: 详情面板通用 Section 组件（图标 + label）
+- **StatusBadge**: 状态 Badge（completed/generating/pending）
+- **Button**: 6 variants（default/secondary/ghost/outline/danger）
+- **Badge**: 4 variants（default/secondary/outline/danger）
+- 使用模式：所有详情面板 100% 使用 DetailSection，Button/Badge 使用率 >80%
+
+### React Flow 最佳实践（G 评审 2026-02-27）
+- 使用 initialLoadRef 避免 projectType 变化时重置节点状态
+- 使用函数形式更新节点：`setNodes(prev => prev.map(...))` 保留用户进度
+- 添加 isValidConnection 防止错误连接（只允许顺序连接）
+- 使用 useReactFlow 的 updateNodeData 更新单个节点
+- 自定义 Edge 可用动画粒子效果增强视觉
+- 视口状态可用 localStorage 持久化
