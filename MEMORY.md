@@ -77,6 +77,12 @@
 - **Badge**: 4 variants（default/secondary/outline/danger）
 - 使用模式：所有详情面板 100% 使用 DetailSection，Button/Badge 使用率 >80%
 
+### DreamX Studio 数据资产（2026-02-28）
+- **视觉风格库**: 107 种（Realistic/Live 52, 2D Animation 24, Illustration 18, 3D Render 7, Experimental 6）
+- **配音库**: 151 个（English Male 55, English Female 41, Chinese Male 30, Chinese Female 25）
+- 数据来源：参考 Drama.Land 公开资源
+- 存储位置：`src/mock/visual-styles.ts`, `src/mock/voices.ts`
+
 ### React Flow 最佳实践（G 评审 2026-02-27）
 - 使用 initialLoadRef 避免 projectType 变化时重置节点状态
 - 使用函数形式更新节点：`setNodes(prev => prev.map(...))` 保留用户进度
