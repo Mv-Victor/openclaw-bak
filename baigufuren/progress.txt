@@ -120,3 +120,38 @@ Started: 2026-02-26 11:00 GMT+8
 - **状态：阻塞未解除。已连续 3+ 小时阻塞，等待栋少确认 PoloAI key 权限或提供替代方案。停止空转，不再重复检查。**
 
 ---
+
+## 2026-02-26 07:54 UTC - BLOCKED_ALL
+- BG-001 ✅, BG-006 ✅, BG-008 ✅ — 已完成
+- BG-002 仍阻塞（PoloAI key 无可用 channel），已连续 4+ 小时
+- 剩余 7 个 story (BG-003~005, BG-007, BG-009, BG-010) 全部依赖 BG-002，无法推进
+- 不再重复发群消息，等待栋少回复后继续
+
+---
+
+## 2026-02-26 07:24 UTC - BG-006 ✅ PASSED
+- 跳过阻塞的 BG-002，转向不依赖 API 的代码集成任务
+- 分支 `feature/shot-grammar-motion-prompt` 已存在，包含 commit 5431de8
+- 验证内容：
+  - `pkg/shotgrammar/grammar.go`: 8 种叙事场景类型 × 3 条规则，情绪到动态风格映射（8种情绪×多强度级别）
+  - `pkg/motionprompt/motion.go`: 9 段式 Motion Prompt 生成器（Camera/Motion/Action/Environment/Pacing/Audio/Result/Transition/Ratio）
+  - `storyboard_service.go`: 已 import motionprompt 包，在 generateVideoPrompt 中调用
+  - `go build` 编译通过
+- **Learnings:**
+  - 两个分支 shot-grammar 和 emotion-engine 最初指向同一个 commit，需要分别验证独立功能
+
+---
+
+## 2026-02-26 07:24 UTC - BG-008 ✅ PASSED
+- 分支 `feature/emotion-engine` 已存在，emotionengine 包已创建但未提交
+- `pkg/emotionengine/engine.go`: 五幕结构情绪曲线分析（setup/rising/climax/falling/resolution）
+  - AnalyzeEmotionCurve: 找情绪高峰、划分节奏区间、计算节奏倍率
+  - 输出：调整后时长、BGM 强度/风格建议、静默留白、Motion Override
+  - ApplyEmotionCurveToMotionPrompts: 将情绪曲线增强应用到 video prompt
+- `storyboard_service.go` 集成点：processStoryboardGeneration 中调用情绪分析，调整分镜时长和 BGM
+- 已提交 commit c39d48a: "feat: 情绪编排引擎集成"
+- `go build` 编译通过
+- **Learnings:**
+  - stash 中有旧版集成代码（在 saveStoryboards 中），工作区有更完整的新版（在 processStoryboardGeneration 中），选用了新版
+
+---

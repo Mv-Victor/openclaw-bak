@@ -17,7 +17,7 @@
       "model": "sora-2-guan"
     },
     "api_base": "http://localhost:5678/api/v1",
-    "output_dir": "/root/.openclaw/workspace-g/baigufuren"
+    "output_dir": "/root/.openclaw/workspace/baigufuren"
   },
   "userStories": [
     {
@@ -31,6 +31,10 @@
       ],
       "priority": 1,
       "passes": true,
+      "blocked": false,
+      "blockedReason": "",
+      "blockedSince": "",
+      "dependsOn": [],
       "notes": "Go 在 /usr/local/go/bin/go v1.22.0，已加入 PATH。编译成功，服务可启动。"
     },
     {
@@ -39,12 +43,16 @@
       "description": "配置文本和视频的 AI provider，确认 API 可用",
       "acceptanceCriteria": [
         "文本 provider (xchai) 配置完成且测试通过",
-        "视频 provider (poloai) 配置完成",
-        "图片 provider 配置完成或确认替代方案"
+        "视频 provider (poloai) 配置完成且测试通过",
+        "图片 provider 配置完成且测试通过"
       ],
       "priority": 2,
       "passes": false,
-      "notes": "文本 xchai 已配置且验证通过。PoloAI 所有模型当前返回 no available channel，需要栋少确认。图片 provider 也不可用。阻塞点：PoloAI API 不可用。"
+      "blocked": true,
+      "blockedReason": "PoloAI API key 分组下无可用 channel，所有模型返回 No available channel。需要栋少确认 key 权限或提供替代 API。",
+      "blockedSince": "2026-02-26T03:09:00Z",
+      "dependsOn": ["BG-001"],
+      "notes": "文本 xchai 已配置且验证通过。PoloAI 图片和视频均不可用。"
     },
     {
       "id": "BG-003",
@@ -57,7 +65,11 @@
       ],
       "priority": 3,
       "passes": false,
-      "notes": "依赖 BG-002 图片 provider 可用"
+      "blocked": true,
+      "blockedReason": "依赖 BG-002 图片 provider 可用",
+      "blockedSince": "2026-02-26T03:09:00Z",
+      "dependsOn": ["BG-002"],
+      "notes": ""
     },
     {
       "id": "BG-004",
@@ -70,7 +82,11 @@
       ],
       "priority": 4,
       "passes": false,
-      "notes": "依赖 BG-003 图片生成完成，且 PoloAI 视频 API 可用"
+      "blocked": true,
+      "blockedReason": "依赖 BG-003 图片生成完成",
+      "blockedSince": "2026-02-26T03:09:00Z",
+      "dependsOn": ["BG-003"],
+      "notes": ""
     },
     {
       "id": "BG-005",
@@ -83,6 +99,10 @@
       ],
       "priority": 5,
       "passes": false,
+      "blocked": true,
+      "blockedReason": "依赖 BG-004 视频生成完成",
+      "blockedSince": "2026-02-26T03:09:00Z",
+      "dependsOn": ["BG-004"],
       "notes": ""
     },
     {
@@ -96,8 +116,12 @@
         "go build 通过"
       ],
       "priority": 6,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "blocked": false,
+      "blockedReason": "",
+      "blockedSince": "",
+      "dependsOn": ["BG-001"],
+      "notes": "分支 feature/shot-grammar-motion-prompt 已创建，shotgrammar(8场景类型×3规则) + motionprompt(9段式prompt生成) 已集成到 storyboard_service.go，go build 通过"
     },
     {
       "id": "BG-007",
@@ -111,6 +135,10 @@
       ],
       "priority": 7,
       "passes": false,
+      "blocked": true,
+      "blockedReason": "依赖 BG-002 API 可用 + BG-006 代码集成完成",
+      "blockedSince": "2026-02-26T03:09:00Z",
+      "dependsOn": ["BG-002", "BG-006"],
       "notes": ""
     },
     {
@@ -124,8 +152,12 @@
         "go build 通过"
       ],
       "priority": 8,
-      "passes": false,
-      "notes": ""
+      "passes": true,
+      "blocked": false,
+      "blockedReason": "",
+      "blockedSince": "",
+      "dependsOn": ["BG-001"],
+      "notes": "分支 feature/emotion-engine 已创建，emotionengine(五幕结构情绪曲线分析+节奏编排+BGM建议+MotionOverride) 已集成到 storyboard_service.go 的 processStoryboardGeneration，go build 通过"
     },
     {
       "id": "BG-009",
@@ -139,6 +171,10 @@
       ],
       "priority": 9,
       "passes": false,
+      "blocked": true,
+      "blockedReason": "依赖 BG-002 API 可用 + BG-008 代码集成完成",
+      "blockedSince": "2026-02-26T03:09:00Z",
+      "dependsOn": ["BG-002", "BG-008"],
       "notes": ""
     },
     {
@@ -152,6 +188,10 @@
       ],
       "priority": 10,
       "passes": false,
+      "blocked": true,
+      "blockedReason": "依赖三版视频全部生成完成",
+      "blockedSince": "",
+      "dependsOn": ["BG-005", "BG-007", "BG-009"],
       "notes": ""
     }
   ]
