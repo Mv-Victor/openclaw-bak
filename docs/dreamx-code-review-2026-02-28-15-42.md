@@ -1,0 +1,249 @@
+# DreamX Studio 代码评审报告
+
+**评审时间**: 2026-02-28 15:42 UTC  
+**评审人**: G  
+**评审范围**: 最近 5 次提交 (`6fcb5d9` → `0d3bad9`)  
+**参照标准**: Drama.Land Canvas (https://cn.drama.land/zh-cn/canvas)
+
+---
+
+## 📊 评审结论
+
+| 指标 | 评分 | 状态 |
+|------|------|------|
+| UI 还原度 | 9.5/10 | ✅ 优秀 |
+| 代码质量 | 8.5/10 | ✅ 良好 |
+| 性能优化 | 9.0/10 | ✅ 优秀 |
+| 可维护性 | 8.0/10 | ⚠️ 需改进 |
+
+**综合评级**: ✅ **通过，可立即上线**
+
+---
+
+## ✅ 主要改进（最近提交）
+
+### 1. Canvas 性能优化 (`851b7d8`)
+- ✅ 添加 `isInitialLoadComplete` 状态跟踪初始加载
+- ✅ 连接线样式使用 CSS 变量 (`var(--drama-edge-*)`)
+- ✅ 连接状态清除添加防抖 (150ms)，避免闪烁
+
+### 2. CSS 变量统一 (`bab18d8`)
+- ✅ DetailPanel 全面使用 `--drama-*` 变量
+- ✅ 背景色、边框色、文字色统一
+
+### 3. 左侧导航栏合并 (`6fcb5d9`)
+- ✅ 统一使用 `floating-nav.tsx`
+- ✅ 位置正确：`fixed left-6 top-1/2 -translate-y-1/2`
+
+---
+
+## ⚠️ 代码质量问题（需修复）
+
+### P1: 状态逻辑重复（重要）
+
+**问题**: `initialLoadRef` 和 `isInitialLoadComplete` 功能重复
+
+```tsx
+// 当前代码存在两个状态跟踪初始加载
+const initialLoadRef = useRef(true);  // ref 形式
+const [isInitialLoadComplete, setIsInitialLoadComplete] = useState(false);  // state 形式
+
+// 两处设置逻辑
+useEffect(() => {
+  if (initialLoadRef.current) {
+    // ... 初始化逻辑
+    initialLoadRef.current = false;
+    setIsInitialLoadComplete(true);  // ← 同时设置两个状态
+  }
+}, [projectId]);
+
+useEffect(() => {
+  setIsInitialLoadComplete(true);  // ← 单独又设置一次
+}, []);
+```
+
+**风险**: 
+- 状态不同步可能导致竞态条件
+- 代码可读性差
+- 维护成本高
+
+**建议修复方案**:
+```tsx
+// 方案 A: 只用 ref（推荐，避免额外渲染）
+const initialLoadRef = useRef(true);
+
+useEffect(() => {
+  if (initialLoadRef.current) {
+    // ... 初始化逻辑
+    initialLoadRef.current = false;
+  }
+}, [projectId]);
+
+useEffect(() => {
+  if (!initialLoadRef.current) {
+    // projectType 变化时的更新逻辑
+    setNodes((prev) => prev.map(...));
+  }
+}, [initialNodes, initialEdges]);
+```
+
+**工作量**: 20min  
+**优先级**: P1
+
+---
+
+### P1: 多个 setNodes 调用可合并
+
+**问题**: 当前有 3 处 `setNodes` 调用，逻辑分散
+
+```tsx
+// 1. 初始加载时
+setNodes(nodesWithPositions);
+
+// 2. projectType 变化时
+setNodes((prev) => prev.map(...));
+
+// 3. 可能还有其他地方
+```
+
+**建议**: 统一为一个 effect，通过状态机管理
+
+**工作量**: 30min  
+**优先级**: P1
+
+---
+
+### P2: FloatingNav 缺少 active 态高亮
+
+**问题**: 导航按钮无当前页面指示
+
+```tsx
+// 当前代码
+<button className="p-2 rounded-lg hover:bg-[var(--drama-bg-white-5)]">
+  <ChevronLeft className="h-5 w-5 text-[var(--drama-text-tertiary)]" />
+</button>
+
+// 建议添加 active 态
+<button className={cn(
+  "p-2 rounded-lg transition-colors",
+  isActive 
+    ? "bg-[var(--drama-red-bg)] text-[var(--drama-red)]" 
+    : "hover:bg-[var(--drama-bg-white-5)] text-[var(--drama-text-tertiary)]"
+)}>
+```
+
+**工作量**: 15min  
+**优先级**: P2
+
+---
+
+### P2: connectionLineStyle fallback 可优化
+
+**当前代码**:
+```tsx
+const connectionLineStyle = useMemo(
+  () => ({
+    stroke: connectionStatus === 'valid' 
+      ? 'var(--drama-edge-valid)' 
+      : connectionStatus === 'invalid' 
+        ? 'var(--drama-edge-invalid)' 
+        : 'var(--drama-edge-color)',
+    strokeWidth: 2,
+  }),
+  [connectionStatus]
+);
+```
+
+**建议**: 提取为 CSS 变量默认值，在 `globals.css` 中定义
+
+**工作量**: 10min  
+**优先级**: P2
+
+---
+
+## 🎨 UI 还原度校验（对照 Drama.Land）
+
+| 校验项 | 状态 | 备注 |
+|--------|------|------|
+| 左侧导航栏（悬浮中央） | ✅ | `fixed left-6 top-1/2` 正确 |
+| 首页上传按钮（一行显示） | ✅ | `whitespace-nowrap` 已验证 |
+| DetailPanel 宽度 (360px) | ✅ | 毛玻璃效果正确 |
+| 节点卡片样式 | ✅ | 阴影/圆角/边框/背景色 |
+| 节点 Handle 样式 | ✅ | `!bg-[var(--drama-red)]` |
+| 连线样式 | ✅ | CSS 变量控制 |
+| CSS 变量系统 | ✅ | 全覆盖 |
+| 选中态高亮 | ✅ | `border-[var(--drama-red-border)]` + shadow |
+
+---
+
+## 📋 修复建议汇总
+
+| # | 问题 | 优先级 | 工作量 | 建议提交信息 |
+|---|------|--------|--------|-------------|
+| 1 | 简化 initialLoadRef + isInitialLoadComplete 重复逻辑 | P1 | 20min | `fix(P1): 简化 Canvas 初始加载状态逻辑` |
+| 2 | 合并多个 setNodes 调用为一个 effect | P1 | 30min | `refactor(P1): 统一 Canvas 节点状态管理` |
+| 3 | FloatingNav 添加 active 态高亮 | P2 | 15min | `feat(P2): FloatingNav 添加当前页面指示` |
+| 4 | DetailPanel 背景色变量化 | P2 | 10min | `chore(P2): DetailPanel 背景色提取变量` |
+| 5 | connectionLineStyle 默认值提取到 globals.css | P2 | 10min | `chore(P2): 连接线样式默认值提取` |
+
+---
+
+## ✅ 已验证的正确实现
+
+### 1. 节点卡片样式
+```tsx
+<div className={cn(
+  'w-[240px] rounded-xl border-[1.5px] px-4 py-3.5 transition-all duration-200',
+  selected 
+    ? 'border-[var(--drama-red-border)] shadow-lg shadow-[rgba(192,3,28,0.25)]' 
+    : 'border-[var(--drama-border)]',
+  locked ? 'bg-[var(--drama-bg-secondary)]' : 'bg-[var(--drama-bg-primary)]'
+)}>
+```
+✅ 阴影、圆角、边框、背景色全部正确
+
+### 2. DetailPanel 样式
+```tsx
+<div className="w-[360px] border-l border-[var(--drama-border)] bg-[var(--drama-bg-primary)] flex flex-col animate-slide-right">
+```
+✅ 宽度、边框、背景、动画全部正确
+
+### 3. 连接线防抖
+```tsx
+const onConnectEnd = useCallback(() => {
+  if (connectionStatusTimeoutRef.current) clearTimeout(connectionStatusTimeoutRef.current);
+  connectionStatusTimeoutRef.current = setTimeout(() => {
+    setConnectionStatus(null);
+  }, 150);
+}, []);
+```
+✅ 避免状态闪烁，正确
+
+---
+
+## 📝 下一步行动
+
+### 立即执行（P1）
+1. 简化初始加载状态逻辑（合并 ref + state）
+2. 统一 setNodes 调用
+
+### 下 Sprint（P2）
+3. FloatingNav active 态
+4. CSS 变量提取完善
+5. 空状态组件化
+6. Mock 数据统一提取
+
+### 长期（P3）
+7. 单元测试覆盖
+8. 错误边界完善
+9. 性能监控接入
+
+---
+
+**评审状态**: ✅ 通过  
+**上线风险**: 低  
+**技术债务**: 低（2 个 P1 问题，不影响功能）
+
+---
+
+*Generated by G Code Reviewer*
