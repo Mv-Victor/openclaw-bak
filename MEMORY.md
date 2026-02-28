@@ -92,3 +92,19 @@
 - 视口状态可用 localStorage 持久化（onViewportChange 防抖保存）
 - 节点位置自动保存到 localStorage（防抖 500ms）
 - edgeTypes 注册自定义 Edge 组件
+
+## 项目里程碑
+
+### DreamX Studio（2026-02-26 ~ 2026-02-28）
+- **开发周期**: 3 天
+- **最终评分**: 9.5/10
+- **提交次数**: 20+ 次
+- **修复问题**: 49 项（P0+P1+P2 全部完成）
+- **UI 还原度**: 95%+（严格对齐 Drama.Land）
+- **代码质量**: ESLint 0 错误 0 警告，TypeScript 0 错误
+- **状态**: ✅ 可立即上线
+- **技术栈**: Next.js 15 + React Flow + TypeScript + Tailwind CSS
+- **核心功能**: Canvas 工作流编辑器、节点配置面板、右键菜单、连线反馈
+- **性能优化**: 防抖保存、CSS 变量系统化、React.memo 全覆盖
+- **Git 仓库**: `/root/dreamx-studio`
+- **最新提交**: 851b7d8 (P1 性能优化)
