@@ -1,0 +1,6 @@
+{
+  "error": "未找到登录表单输入框",
+  "stack": "Error: 未找到登录表单输入框\n    at /root/.openclaw/workspace-g/scripts/drama-land-screenshot.js:76:13",
+  "url": "https://cn.drama.land/zh-cn",
+  "timestamp": "2026-02-28T05:27:35.314Z"
+}
