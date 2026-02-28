@@ -61,7 +61,52 @@ async def main():
             with open(f'{SCREENSHOT_DIR}/00-homepage.html', 'w') as f:
                 f.write(html)
             
-            # 2. 点击登录按钮
+            # 2. 关闭欢迎弹窗（如果有）
+            print("🚫 检查欢迎弹窗...")
+            # 尝试多种选择器
+            popup_selectors = [
+                'div.z-\\[200\\]',
+                '[class*="welcome"]',
+                '[class*="popup"]',
+                '[aria-modal="true"]',
+                '[role="dialog"]',
+                '.modal',
+                '.overlay'
+            ]
+            welcome_popup = None
+            for sel in popup_selectors:
+                try:
+                    welcome_popup = await page.query_selector(sel)
+                    if welcome_popup:
+                        print(f"✅ 检测到欢迎弹窗：{sel}")
+                        break
+                except:
+                    pass
+            
+            if welcome_popup:
+                print("🚫 关闭弹窗...")
+                # 尝试移除弹窗
+                await page.evaluate('''() => {
+                    const selectors = [
+                        'div.z-\\[200\\]',
+                        '[class*="welcome"]',
+                        '[class*="popup"]',
+                        '[aria-modal="true"]',
+                        '[role="dialog"]',
+                        '.modal',
+                        '.overlay'
+                    ];
+                    selectors.forEach(sel => {
+                        document.querySelectorAll(sel).forEach(el => el.remove());
+                    });
+                }''')
+                await page.wait_for_timeout(2000)
+                await page.screenshot(path=f'{SCREENSHOT_DIR}/00b-after-popup.png', full_page=True)
+                print("✅ 弹窗已移除")
+            else:
+                print("ℹ️ 未检测到欢迎弹窗")
+            
+            # 3. 点击登录按钮
             print("🔑 寻找登录按钮...")
             
             # 尝试多种选择器
