@@ -4514,3 +4514,13 @@ To github.com:Mv-Victor/openclaw-bak.git
  create mode 100644 scripts/drama-land-screenshot.js
 To github.com:Mv-Victor/openclaw-bak.git
    c2e2196..9a647a1  G -> G
+[G 3c9e28e] [20260228_1330] [scripts] 新增6个文件(01-login-debug.png等), 修改2个文件(backup.log等)
+ 8 files changed, 350 insertions(+), 46 deletions(-)
+ create mode 100644 docs/drama-land-screenshots/01-login-debug.png
+ create mode 100644 docs/drama-land-screenshots/01-login.png
+ create mode 100644 docs/drama-land-screenshots/error-1772256453496.png
+ create mode 100644 docs/drama-land-screenshots/error-debug-1772256455336.json
+ create mode 100644 docs/drama-land-screenshots/login-page.html
+ create mode 100644 scripts/drama-land-login-debug.js
+To github.com:Mv-Victor/openclaw-bak.git
+   9a647a1..3c9e28e  G -> G
