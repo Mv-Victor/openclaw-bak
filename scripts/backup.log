@@ -4580,3 +4580,11 @@ To github.com:Mv-Victor/openclaw-bak.git
  create mode 100644 scripts/drama-land-auto.py
 To github.com:Mv-Victor/openclaw-bak.git
    06bd7af..10f4e30  G -> G
+[G 4a7aa1e] [20260228_1430] [scripts] 新增4个文件(drama-land-api-analysis.md等), 修改4个文件(00-homepage.html等)
+ 8 files changed, 263 insertions(+), 2 deletions(-)
+ create mode 100644 docs/drama-land-api-analysis.md
+ create mode 100644 docs/drama-land-screenshots/00b-after-popup.png
+ create mode 100644 docs/drama-land-screenshots/error-20260228-142609.png
+ create mode 100644 docs/drama-land-screenshots/error-20260228-142745.png
+To github.com:Mv-Victor/openclaw-bak.git
+   10f4e30..4a7aa1e  G -> G
