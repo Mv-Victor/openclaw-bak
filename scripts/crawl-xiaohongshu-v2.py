@@ -17,12 +17,19 @@ TODAY = datetime.now().strftime("%Y-%m-%d")
 OUTPUT_FILE = DATA_DIR / f"{TODAY}.jsonl"
 CRAWLED_IDS_FILE = DATA_DIR / "crawled_ids.txt"
 
-# 搜索关键词
-KEYWORDS = [
-    "秋招", "春招", "大厂", "计算机求职",
-    "AI副业", "AI赚钱", "ChatGPT变现",
-    "AI剪辑", "短视频制作", "剪映教程"
-]
+# 搜索关键词（按受众分类）
+KEYWORDS = {
+    "job_hunting": [
+        "秋招", "春招", "大厂", "计算机求职", "校招offer", "面试经验"
+    ],
+    "ai_side_hustle": [
+        "AI副业", "AI赚钱", "ChatGPT变现", "Claude", "Cursor",
+        "AI agent", "openclaw", "AI自动化", "AI开发", "API对接"
+    ],
+    "ai_video_editing": [
+        "AI剪辑", "短视频制作", "剪映教程", "视频工具", "自动剪辑"
+    ]
+}
 
 def load_crawled_ids() -> Set[str]:
     """加载已爬取的笔记ID"""
@@ -93,13 +100,16 @@ def crawl_notes(min_comments: int = 100, target_count: int = 100):
     print(f"   筛选条件: 评论数 > {min_comments}")
     print(f"   目标数量: {target_count} 篇\n")
     
-    for keyword in KEYWORDS:
-        print(f"🔍 搜索: {keyword}")
+    for category, keywords in KEYWORDS.items():
+        print(f"📂 分类: {category}")
         
-        feeds = search_notes(keyword)
-        print(f"   找到 {len(feeds)} 篇笔记")
-        
-        for feed in feeds:
+        for keyword in keywords:
+            print(f"  🔍 搜索: {keyword}")
+            
+            feeds = search_notes(keyword)
+            print(f"     找到 {len(feeds)} 篇笔记")
+            
+            for feed in feeds:
             note_id = feed.get('id')
             if not note_id or note_id in crawled_ids:
                 continue
