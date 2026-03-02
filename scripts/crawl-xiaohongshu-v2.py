@@ -110,34 +110,34 @@ def crawl_notes(min_comments: int = 100, target_count: int = 100):
             print(f"     找到 {len(feeds)} 篇笔记")
             
             for feed in feeds:
-            note_id = feed.get('id')
-            if not note_id or note_id in crawled_ids:
-                continue
-            
-            note_card = feed.get('noteCard', {})
-            interact_info = note_card.get('interactInfo', {})
-            
-            comments = parse_count(interact_info.get('commentCount', '0'))
-            
-            if comments < min_comments:
-                continue
-            
-            # 获取详情
-            xsec_token = feed.get('xsecToken', '')
-            detail = get_note_detail(note_id, xsec_token)
-            
-            if detail:
-                detail['_keyword'] = keyword
-                collected.append(detail)
-                save_crawled_id(note_id)
-                crawled_ids.add(note_id)
+                note_id = feed.get('id')
+                if not note_id or note_id in crawled_ids:
+                    continue
                 
-                title = note_card.get('displayTitle', '(无标题)')[:30]
-                print(f"  ✓ {note_id} | 评论{comments} | {title}")
+                note_card = feed.get('noteCard', {})
+                interact_info = note_card.get('interactInfo', {})
                 
-                # 保存到JSONL
-                with OUTPUT_FILE.open('a') as f:
-                    f.write(json.dumps(detail, ensure_ascii=False) + '\n')
+                comments = parse_count(interact_info.get('commentCount', '0'))
+                
+                if comments < min_comments:
+                    continue
+                
+                # 获取详情
+                xsec_token = feed.get('xsecToken', '')
+                detail = get_note_detail(note_id, xsec_token)
+                
+                if detail:
+                    detail['_keyword'] = keyword
+                    collected.append(detail)
+                    save_crawled_id(note_id)
+                    crawled_ids.add(note_id)
+                    
+                    title = note_card.get('displayTitle', '(无标题)')[:30]
+                    print(f"  ✓ {note_id} | 评论{comments} | {title}")
+                    
+                    # 保存到JSONL
+                    with OUTPUT_FILE.open('a') as f:
+                        f.write(json.dumps(detail, ensure_ascii=False) + '\n')
                 
                 if len(collected) >= target_count:
                     break
