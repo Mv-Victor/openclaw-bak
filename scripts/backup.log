@@ -8854,3 +8854,11 @@ fatal: Could not read from remote repository.
 Please make sure you have the correct access rights
 and the repository exists.
 Push failed, will retry next cycle
+[G 90bbbec] [20260304_0325] [scripts] 修改1个文件(backup.log等)
+ 1 file changed, 8 insertions(+)
+ERROR: upstream connect error or disconnect/reset before headers. retried and the latest reset reason: remote connection failure, transport failure reason: delayed connect error: Connection refused
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Push failed, will retry next cycle
