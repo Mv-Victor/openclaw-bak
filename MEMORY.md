@@ -125,3 +125,9 @@
   - dreamx-docker-video skill（使用镜像生产视频）
 - **测试验证**: 千问奶茶视频生成成功（16.3秒）
 - **COS 链接**: https://dreamx-1301319986.cos.ap-shanghai.myqcloud.com/jy-projects/200005/200005.zip
+- **Docker 镜像**: ✅ 已构建完成（2026-03-04 11:54 GMT+8）
+  - 镜像名称：dreamx-video:latest
+  - 镜像 ID：478cacb8eab2
+  - 镜像大小：670MB
+  - 特点：只包含 JAR，不暴露源代码
+  - 待上传到阿里云容器镜像服务
