@@ -13,7 +13,10 @@ const DATA_DIR = './data';
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 async function main() {
-  const browser = await chromium.launch({ headless: false });
+  const browser = await chromium.launch({ 
+    headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox']
+  });
   const context = await browser.newContext({
     viewport: { width: 1920, height: 1080 },
     userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
@@ -52,7 +55,11 @@ async function main() {
   });
   
   console.log('访问首页...');
-  await page.goto('https://cn.drama.land', { waitUntil: 'networkidle' });
+  await page.goto('https://cn.drama.land', { 
+    waitUntil: 'domcontentloaded',
+    timeout: 60000 
+  });
+  await sleep(3000); // 等待 JS 渲染
   await page.screenshot({ path: `${SCREENSHOTS_DIR}/01-homepage.png`, fullPage: true });
   await sleep(2000);
   
@@ -76,27 +83,40 @@ async function main() {
   }
   
   console.log('访问画布页面...');
-  await page.goto('https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes', { waitUntil: 'networkidle' });
+  await page.goto('https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes', { 
+    waitUntil: 'domcontentloaded',
+    timeout: 60000 
+  });
   await sleep(3000);
   await page.screenshot({ path: `${SCREENSHOTS_DIR}/05-canvas-main.png`, fullPage: true });
   
   console.log('访问具体 episode...');
-  await page.goto('https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes&episodeId=03bffdbc-1775-4a93-9da8-16c00ead6f69', { waitUntil: 'networkidle' });
+  await page.goto('https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes&episodeId=03bffdbc-1775-4a93-9da8-16c00ead6f69', { 
+    waitUntil: 'domcontentloaded',
+    timeout: 60000 
+  });
   await sleep(3000);
   await page.screenshot({ path: `${SCREENSHOTS_DIR}/06-canvas-episode.png`, fullPage: true });
   
   // 点击角色卡片查看详情
   console.log('查看角色详情...');
-  const characterCards = await page.locator('[class*="character"], [class*="Character"], img[alt*="character"]').all();
-  if (characterCards.length > 0) {
-    await characterCards[0].click();
-    await sleep(2000);
-    await page.screenshot({ path: `${SCREENSHOTS_DIR}/07-character-detail.png`, fullPage: true });
+  try {
+    const characterCards = await page.locator('[class*="character"], [class*="Character"], img[alt*="character"]').all();
+    if (characterCards.length > 0) {
+      await characterCards[0].click();
+      await sleep(2000);
+      await page.screenshot({ path: `${SCREENSHOTS_DIR}/07-character-detail.png`, fullPage: true });
+    }
+  } catch (e) {
+    console.log('角色详情点击失败，跳过:', e.message);
   }
   
   // 尝试访问项目列表
   console.log('访问项目列表...');
-  await page.goto('https://cn.drama.land/zh-cn/projects', { waitUntil: 'networkidle' });
+  await page.goto('https://cn.drama.land/zh-cn/projects', { 
+    waitUntil: 'domcontentloaded',
+    timeout: 60000 
+  });
   await sleep(2000);
   await page.screenshot({ path: `${SCREENSHOTS_DIR}/08-projects-list.png`, fullPage: true });
   

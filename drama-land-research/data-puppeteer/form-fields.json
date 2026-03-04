@@ -1,0 +1,23 @@
+[
+  {
+    "type": "textarea",
+    "name": "",
+    "placeholder": "描述你的音乐MV构思或在此贴入歌词。我们将为你打造同步的视觉体验。",
+    "label": "",
+    "value": ""
+  },
+  {
+    "type": "file",
+    "name": "",
+    "placeholder": "",
+    "label": "",
+    "value": ""
+  },
+  {
+    "type": "file",
+    "name": "",
+    "placeholder": "",
+    "label": "",
+    "value": ""
+  }
+]

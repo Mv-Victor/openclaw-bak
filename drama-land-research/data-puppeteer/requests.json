@@ -1,0 +1,3355 @@
+[
+  {
+    "url": "https://cn.drama.land/",
+    "method": "GET",
+    "headers": {
+      "accept-language": "en-US,en;q=0.9",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/media/7760e3c1131e9ccd-s.p.woff2",
+    "method": "GET",
+    "headers": {
+      "origin": "https://cn.drama.land",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+    "method": "GET",
+    "headers": {
+      "origin": "https://cn.drama.land",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/images/img_dl_bg_3x.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/css/26c634e738dc763a.css",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/css/38c1e9325a4835df.css",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/webpack-11e889766e76defd.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/fd9d1056-c7eb9a6d83956ab7.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/2117-4b0babdc7f9b54f6.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/main-app-f85230fa169606e9.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/5b86099a-8327ac4c121700e1.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/dc112a36-7ca7a7d409b86d48.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/7945-4b9c3affade82e7b.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/1936-e2323bbd410ac4cf.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/2310-920fd5962198f66c.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/5094-4e0682313793a8fe.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/405-865a296dc57a032f.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/4764-835e9f7afdb49b4d.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/3778-e00972d18e337b35.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/9427-0121cf0a13f7c459.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/8311-00f61b30076ff006.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/4749-5be3c70d7f5656f1.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/4924-083c776b0f950e12.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/8377-180964c7d1e1a0a5.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/6141-bc8b3cc98d3358c7.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/9791-a8337f740cc1cf76.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/4257-185a604e7c768e60.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/6656-3ae880e735393dbb.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/729-e576b97c770ded01.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/8056-4c36791787fe4c3d.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/6911-de1aa607643f0aee.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/7612-0e59fc4253ba2e79.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/app/%5Blocale%5D/page-3d1c5abe010ad2df.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/app/layout-985400b81d174c9c.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/9555-19626a2cc4e61226.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/2542-273d778c70b80853.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/app/%5Blocale%5D/layout-6e885514daafecc1.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/app/%5Blocale%5D/not-found-48fd7af518e31659.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=AW-17868813659",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/videos/dramaland_homepage_ai_music_video_background_video.mp4",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "accept-encoding": "identity;q=1, *;q=0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "range": "bytes=0-"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/fonts/07HomuraM-Heavy-2.otf",
+    "method": "GET",
+    "headers": {
+      "origin": "https://cn.drama.land",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/_next/static/css/38c1e9325a4835df.css",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/images/ic_wechat.svg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/images/ic_discord.svg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/images/ic_arrow_down_white.svg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/images/ic_magic.svg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/videos/dramaland_homepage_ai_music_video_background_video.mp4",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/backend-api/api/v1/showcase/items",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/8959.621458cbb764a40f.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/backend-api/api/v1/payment/benefits-packs",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/backend-api/api/v1/user/get_points_config",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtm.js?id=GTM-52K2FDQP",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "www.googletagmanager.com",
+      ":method": "GET",
+      ":path": "/gtm.js?id=GTM-52K2FDQP",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "sec-fetch-dest": "script",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "sec-fetch-storage-access": "active"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/videos/dramaland_homepage_ai_music_video_background_video.mp4",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "accept-encoding": "identity;q=1, *;q=0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "range": "bytes=0-"
+    }
+  },
+  {
+    "url": "https://firebase.googleapis.com/v1alpha/projects/-/apps/1:105668650537:web:4779b1391fc796d0029e38/webConfig",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-goog-api-key": "AIzaSyATZ4HbOMgbFVPH4e9SAzGT0ph9kv77Hak",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept": "application/json"
+    }
+  },
+  {
+    "url": "https://firebase.googleapis.com/v1alpha/projects/-/apps/1:105668650537:web:4779b1391fc796d0029e38/webConfig",
+    "method": "OPTIONS",
+    "headers": {
+      "accept": "*/*",
+      "access-control-request-headers": "x-goog-api-key",
+      "access-control-request-method": "GET",
+      "origin": "https://cn.drama.land",
+      "sec-fetch-mode": "cors",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17868813659/?random=1772368061512&cv=11&fst=1772368061512&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be62p1v9243462079za200zd9243462079xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115616985~115938465~115938469&u_w=800&u_h=600&url=https%3A%2F%2Fcn.drama.land%2F&frm=0&tiba=AI%20Music%20Video%20Generator%20%26%20Storytelling%20Video%20Platform%20%7C%20Drama.Land&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1357064938.1772368062&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.77%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dl=https%3A%2F%2Fcn.drama.land%2F&scrsrc=www.googletagmanager.com&rnd=109067324.1772368062&dt=AI%20Music%20Video%20Generator%20%26%20Storytelling%20Video%20Platform%20%7C%20Drama.Land&auid=1357064938.1772368062&navt=n&npa=0&gtm=45be62p1v9243462079za200zd9243462079xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527906~104528500~104573694~104684208~104684211~115616985~115938465~115938469&apve=1&apvf=f&apvc=1&tids=AW-17868813659&tid=AW-17868813659&tft=1772368061583&tfd=21572",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https%3A%2F%2Fcn.drama.land",
+    "method": "GET",
+    "headers": {
+      "accept-language": "en-US,en;q=0.9",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  {
+    "url": "https://www.google.com/ccm/collect?frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fcn.drama.land%2F&scrsrc=www.googletagmanager.com&rnd=109067324.1772368062&dt=AI%20Music%20Video%20Generator%20%26%20Storytelling%20Video%20Platform%20%7C%20Drama.Land&auid=1357064938.1772368062&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He62p1v9243474898za200zd9243474898xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104573694~104684208~104684211~115938465~115938468~116024734&apve=1&apvf=f&apvc=0&tft=1772368062107&tfd=22096",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://firebaseinstallations.googleapis.com/v1/projects/drama-land-studio/installations",
+    "method": "POST",
+    "headers": {
+      "x-firebase-client": "eyJ2ZXJzaW9uIjoyLCJoZWFydGJlYXRzIjpbeyJhZ2VudCI6ImZpcmUtY29yZS8wLjE0LjggZmlyZS1jb3JlLWVzbTIwMjAvMC4xNC44IGZpcmUtanMvIGZpcmUtaWlkLzAuNi4xOSBmaXJlLWlpZC1lc20yMDIwLzAuNi4xOSBmaXJlLWFuYWx5dGljcy8wLjEwLjE5IGZpcmUtYW5hbHl0aWNzLWVzbTIwMjAvMC4xMC4xOSBmaXJlLWpzLWFsbC1hcHAvMTIuOS4wIGZpcmUtYXV0aC8xLjEyLjAgZmlyZS1hdXRoLWVzbTIwMjAvMS4xMi4wIiwiZGF0ZXMiOlsiMjAyNi0wMy0wMSJdfV19",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-goog-api-key": "AIzaSyATZ4HbOMgbFVPH4e9SAzGT0ph9kv77Hak",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept": "application/json",
+      "content-type": "application/json"
+    },
+    "postData": "{\"fid\":\"fggo2-7JgPDqyFR0qPf83X\",\"authVersion\":\"FIS_v2\",\"appId\":\"1:105668650537:web:4779b1391fc796d0029e38\",\"sdkVersion\":\"w:0.6.19\"}"
+  },
+  {
+    "url": "https://firebaseinstallations.googleapis.com/v1/projects/drama-land-studio/installations",
+    "method": "OPTIONS",
+    "headers": {
+      "accept": "*/*",
+      "access-control-request-headers": "content-type,x-firebase-client,x-goog-api-key",
+      "access-control-request-method": "POST",
+      "origin": "https://cn.drama.land",
+      "sec-fetch-mode": "cors",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/MV_HBD%20Rap.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260206/af175417-e644-45b6-b8d5-26ecefb01601.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260227/2f72d085-00d4-4918-acce-06d16e45b34a.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260202/d96c22c7-76ed-4c7e-8b0e-d4a9e80f92c8.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/3.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/8.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/MV_Choir-%E5%B0%81%E9%9D%A2.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260206/16804b11-5535-4861-9de2-71517c8e42f2.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260227/992659c1-3ea9-4dfb-a8a2-3db33c72986d.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260202/a432f596-c006-46a5-8c91-90e12159f28f.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/4.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260203/526d990b-50a3-40ad-9dcc-8c677909f9e7.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260205/5f54244c-d292-4ebb-b9da-f270361505cf.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260211/9a9ab0a3-4b0d-4f41-8f80-c56de5616d33.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260227/bb2ad1d0-1012-4b5e-ab2d-6fff4e3c7f8f.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260202/08b3ec8c-142c-435b-a59c-b86218e8b841.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/5.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/LV_Cover.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260205/1c60d78a-0f5c-4ed3-b104-8019a82ae4f6.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260211/958d11f1-980c-49d8-a9e0-d8f8a527bb18.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260202/6a6aaa82-391d-4f41-9f08-7ee3e12aafcb.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/1.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/6.jpeg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/MV_song%20of%20mouse-%E5%B0%81%E9%9D%A2.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260205/d17b8231-4016-4ccf-b7d0-adde5167a495.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260211/9a2c2883-903d-4b78-ae3a-b0f6ae5aba56.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260202/3badd001-da41-4cc9-a2cf-64bbf8c6f447.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/2.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/7.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/MV_HBD%20to%20JUDY%201.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?l=dataLayer&id=G-5QEJ027RCG",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "www.googletagmanager.com",
+      ":method": "GET",
+      ":path": "/gtag/js?l=dataLayer&id=G-5QEJ027RCG",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "sec-fetch-dest": "script",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "sec-fetch-storage-access": "active"
+    }
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-5QEJ027RCG&cx=c&gtm=4e62p1",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "www.googletagmanager.com",
+      ":method": "GET",
+      ":path": "/gtag/js?id=G-5QEJ027RCG&cx=c&gtm=4e62p1",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "sec-fetch-dest": "script",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "sec-fetch-storage-access": "active"
+    }
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-5QEJ027RCG&gtm=45je62p1v9236871855za200zb9243462079zd9243462079&_p=1772368061268&gcd=13l3l3l3l1l1&npa=0&dma=0&_fid=fggo2-7JgPDqyFR0qPf83X&cid=888133858.1772368063&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.77%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~115616986~115938465~115938468&sid=1772368062&sct=1&seg=0&dl=https%3A%2F%2Fcn.drama.land%2F&dt=AI%20Music%20Video%20Generator%20%26%20Storytelling%20Video%20Platform%20%7C%20Drama.Land&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&ep.origin=firebase&tfd=22885",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/9accbf84-7dc0-4054-8ca4-91dd489c754a",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/386ff224-4dea-4f19-942d-31b4314350e8",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/8ba2992d-da4f-4db9-8528-e7fd502b829d",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/4bd5a10c-a370-403c-81bc-605556da6503",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/063fae75-14ec-4089-bc52-e9482258e60f",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/fe9ffa5b-11af-4713-8c28-b40af3561aaf",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/22816c78-d9bc-4074-8cb5-4f0f548126e6",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/d74af2f7-97ae-471c-b7b5-f45b5c88e0d7",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/202dcca8-cb56-4c58-9640-67c9067da9d1",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/2e9f646b-71a3-40e2-9188-e4b6acf86241",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/dcd6915d-9c40-4688-9ae4-8da272a44abd",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/6ff80607-5516-4753-9a56-3a53a3992d71",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/d3b3b0c5-6a44-4dd0-af0d-9977860cfefd",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/6e358b38-a57c-4eaa-8841-066ee79a8a04",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/c56d0db4-5d5e-4e81-8e28-36dc774298c8",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/cf52180f-353d-4911-ab25-d83138a57541",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/26d54a2f-f48d-4588-b78a-d3bf37f5419b",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/bd34ecc9-fb93-4dff-80d8-b9d1b7b135f5",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/22d15440-2826-4879-96f9-c3a4f7d1de89",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/6441609f-1593-4d4c-82fc-35b37493c9c3",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/9a98908e-13e0-4221-9e67-053a0de1ceda",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/2b0e6110-4560-412d-9f40-987b3fd45b49",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/e1c3e6f2-315c-4993-8969-bb8e2469e599",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/50db70ad-8c2a-4014-b55b-02e75efc459e",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/aa665efd-cd75-45ac-b822-af1df097fc06",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/253edb1a-06eb-470b-9da5-26579682c522",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/e99e7e11-3153-4b02-b3f2-c5832a8e6b59",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/292764b6-f352-44d3-9ed1-b663dfd54e2a",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/55e896a0-9bf5-4850-b6a4-c3cb72a17d5a",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/a513e46e-18c8-4039-a29a-8d3e82a365f2",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/b8191e4d-6fa8-4405-9df7-eefb7cc84205",
+    "method": "GET",
+    "headers": {
+      "referer": "",
+      "accept-encoding": "identity;q=1, *;q=0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "range": "bytes=0-"
+    }
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-5QEJ027RCG&gtm=45je62p1v9236871855za200zb9243462079zd9243462079&_p=1772368061268&gcd=13l3l3l3l1l1&npa=0&dma=0&_fid=fggo2-7JgPDqyFR0qPf83X&cid=888133858.1772368063&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.77%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=2&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~115616986~115938465~115938468&dt=landing_page&dl=https%3A%2F%2Fcn.drama.land%2F&dp=%2F&sid=1772368062&sct=1&seg=1&en=page_view&_ee=1&ep.origin=firebase&ep.is_logged_in=false&_et=52&tfd=27968",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/images/ic_arrow_right_40.svg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+    "method": "GET",
+    "headers": {
+      "accept-language": "en-US,en;q=0.9",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-5QEJ027RCG&gtm=45je62p1v9236871855za200zb9243462079zd9243462079&_p=1772368061268&gcd=13l3l3l3l1l1&npa=0&dma=0&_fid=fggo2-7JgPDqyFR0qPf83X&cid=888133858.1772368063&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.77%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=3&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~115616986~115938465~115938468&sid=1772368062&sct=1&seg=1&dl=https%3A%2F%2Fcn.drama.land%2F&dt=AI%20Music%20Video%20Generator%20%26%20Storytelling%20Video%20Platform%20%7C%20Drama.Land&en=user_engagement&ep.origin=firebase&_et=11373&tfd=34345",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "www.google-analytics.com",
+      ":method": "POST",
+      ":path": "/g/collect?v=2&tid=G-5QEJ027RCG&gtm=45je62p1v9236871855za200zb9243462079zd9243462079&_p=1772368061268&gcd=13l3l3l3l1l1&npa=0&dma=0&_fid=fggo2-7JgPDqyFR0qPf83X&cid=888133858.1772368063&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.77%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&_s=3&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~115616986~115938465~115938468&sid=1772368062&sct=1&seg=1&dl=https%3A%2F%2Fcn.drama.land%2F&dt=AI%20Music%20Video%20Generator%20%26%20Storytelling%20Video%20Platform%20%7C%20Drama.Land&en=user_engagement&ep.origin=firebase&_et=11373&tfd=34345",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "content-length": "0",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "cross-site",
+      "sec-fetch-storage-access": "active"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/media/7760e3c1131e9ccd-s.p.woff2",
+    "method": "GET",
+    "headers": {
+      "origin": "https://cn.drama.land",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+    "method": "GET",
+    "headers": {
+      "origin": "https://cn.drama.land",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/css/26c634e738dc763a.css",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/css/38c1e9325a4835df.css",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/css/32df9a4d493f8b0f.css",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      "accept": "text/css,*/*;q=0.1",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "connection": "keep-alive",
+      "cookie": "_gcl_au=1.1.1357064938.1772368062; _ga=GA1.1.888133858.1772368063; NEXT_LOCALE=zh-cn; _ga_5QEJ027RCG=GS2.1.s1772368062$o1$g1$t1772368074$j48$l0$h0",
+      "host": "cn.drama.land",
+      "sec-fetch-dest": "style",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "same-origin"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/webpack-11e889766e76defd.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/fd9d1056-c7eb9a6d83956ab7.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/2117-4b0babdc7f9b54f6.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/main-app-f85230fa169606e9.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/5b86099a-8327ac4c121700e1.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/dc112a36-7ca7a7d409b86d48.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/1a258343-68717af512f52f09.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "connection": "keep-alive",
+      "cookie": "_gcl_au=1.1.1357064938.1772368062; _ga=GA1.1.888133858.1772368063; NEXT_LOCALE=zh-cn; _ga_5QEJ027RCG=GS2.1.s1772368062$o1$g1$t1772368074$j48$l0$h0",
+      "host": "cn.drama.land",
+      "sec-fetch-dest": "script",
+      "sec-fetch-mode": "no-cors",
+      "sec-fetch-site": "same-origin"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/7945-4b9c3affade82e7b.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/1936-e2323bbd410ac4cf.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/2310-920fd5962198f66c.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/5094-4e0682313793a8fe.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/405-865a296dc57a032f.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/4764-835e9f7afdb49b4d.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/3778-e00972d18e337b35.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/9427-0121cf0a13f7c459.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/8311-00f61b30076ff006.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/4749-5be3c70d7f5656f1.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/296-d1b99103ebc7bfcc.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/6551-8bee1e3558046141.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/8377-180964c7d1e1a0a5.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/8342-db6ca70f23213968.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/9791-a8337f740cc1cf76.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/4257-185a604e7c768e60.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/6656-3ae880e735393dbb.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/729-e576b97c770ded01.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/8056-4c36791787fe4c3d.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/6911-de1aa607643f0aee.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/7612-0e59fc4253ba2e79.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/app/%5Blocale%5D/(dashboard)/canvas/page-61c76b62a78ddfa7.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/app/%5Blocale%5D/(dashboard)/layout-0cd3f74f2c9a5ac5.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/app/layout-985400b81d174c9c.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/4924-083c776b0f950e12.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/9555-19626a2cc4e61226.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/2542-273d778c70b80853.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/app/%5Blocale%5D/layout-6e885514daafecc1.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/app/%5Blocale%5D/not-found-48fd7af518e31659.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=AW-17868813659",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/fonts/07HomuraM-Heavy-2.otf",
+    "method": "GET",
+    "headers": {
+      "referer": ""
+    }
+  },
+  {
+    "url": "https://cn.drama.land/images/ic_chat_shift.svg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/images/img_agent_doomoo.svg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/8959.621458cbb764a40f.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/backend-api/api/v1/payment/benefits-packs",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/backend-api/api/v1/user/get_points_config",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtm.js?id=GTM-52K2FDQP",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/favicon.ico",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/zh-cn?_rsc=18g5l",
+    "method": "GET",
+    "headers": {
+      "rsc": "1",
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "next-router-state-tree": "%5B%22%22%2C%7B%22children%22%3A%5B%5B%22locale%22%2C%22zh-cn%22%2C%22d%22%5D%2C%7B%22children%22%3A%5B%22(dashboard)%22%2C%7B%22children%22%3A%5B%22canvas%22%2C%7B%22children%22%3A%5B%22__PAGE__%22%2C%7B%7D%2Cnull%2Cnull%5D%7D%2Cnull%2Cnull%5D%7D%2Cnull%2Cnull%5D%7D%2Cnull%2Cnull%5D%7D%2Cnull%2Cnull%2Ctrue%5D",
+      "next-url": "/zh-cn/canvas",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17868813659/?random=1772368075381&cv=11&fst=1772368075381&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be62p1v9243462079za200zd9243462079xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104573694~104684208~104684211~115938466~115938469~116024733&u_w=800&u_h=600&url=https%3A%2F%2Fcn.drama.land%2Fzh-cn%2Fcanvas%3FprojectId%3Dbfd3f19f-8bd8-403b-8408-e016367d5c9b%26seriesId%3Da875a8a4-e879-4e37-80ff-e3ebedb744f0%26projectType%3Dmulti_episodes&frm=0&tiba=AI%E9%9F%B3%E4%B9%90MV%E7%94%9F%E6%88%90%E5%B9%B3%E5%8F%B0%EF%BD%9C%E9%9F%B3%E4%B9%90%E8%A7%86%E9%A2%91%E5%88%9B%E4%BD%9C%E5%B7%A5%E5%85%B7%20-%20Drama.Land&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1357064938.1772368062&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.77%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&data=event%3Dgtag.config&rfmt=3&fmt=4",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://www.google.com/ccm/collect?frm=0&en=page_view&dl=https%3A%2F%2Fcn.drama.land%2Fzh-cn%2Fcanvas&scrsrc=www.googletagmanager.com&rnd=515841592.1772368075&dt=AI%E9%9F%B3%E4%B9%90MV%E7%94%9F%E6%88%90%E5%B9%B3%E5%8F%B0%EF%BD%9C%E9%9F%B3%E4%B9%90%E8%A7%86%E9%A2%91%E5%88%9B%E4%BD%9C%E5%B7%A5%E5%85%B7%20-%20Drama.Land&auid=1357064938.1772368062&navt=n&npa=0&gtm=45be62p1v9243462079za200zd9243462079xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104573694~104684208~104684211~115938466~115938469~116024733&apve=1&apvf=f&apvc=1&tids=AW-17868813659&tid=AW-17868813659&tft=1772368075394&tfd=2177",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://www.googletagmanager.com/static/service_worker/6240/sw_iframe.html?origin=https%3A%2F%2Fcn.drama.land",
+    "method": "GET",
+    "headers": {
+      "accept-language": "en-US,en;q=0.9",
+      "upgrade-insecure-requests": "1",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "sec-ch-ua-platform": "\"Windows\""
+    }
+  },
+  {
+    "url": "https://www.google.com/ccm/collect?frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fcn.drama.land%2Fzh-cn%2Fcanvas&scrsrc=www.googletagmanager.com&rnd=515841592.1772368075&dt=AI%E9%9F%B3%E4%B9%90MV%E7%94%9F%E6%88%90%E5%B9%B3%E5%8F%B0%EF%BD%9C%E9%9F%B3%E4%B9%90%E8%A7%86%E9%A2%91%E5%88%9B%E4%BD%9C%E5%B7%A5%E5%85%B7%20-%20Drama.Land&auid=1357064938.1772368062&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He62p1v9243474898za200zd9243474898xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527907~104528501~104573694~104684208~104684211~115938466~115938468~116024735&apve=1&apvf=f&apvc=0&tft=1772368075430&tfd=2213",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/6141-bc8b3cc98d3358c7.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/_next/static/chunks/app/%5Blocale%5D/page-3d1c5abe010ad2df.js",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/images/ic_wechat.svg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/images/ic_discord.svg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/videos/dramaland_homepage_ai_music_video_background_video.mp4",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "accept-encoding": "identity;q=1, *;q=0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "range": "bytes=0-"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/images/ic_arrow_down_white.svg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/images/ic_arrow_right_40.svg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/images/ic_magic.svg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/images/img_dl_bg_3x.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn/canvas?projectId=bfd3f19f-8bd8-403b-8408-e016367d5c9b&seriesId=a875a8a4-e879-4e37-80ff-e3ebedb744f0&projectType=multi_episodes",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/videos/dramaland_homepage_ai_music_video_background_video.mp4",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cn.drama.land/backend-api/api/v1/showcase/items",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/zh-cn",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "content-type": "application/json",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "url": "https://firebase.googleapis.com/v1alpha/projects/-/apps/1:105668650537:web:4779b1391fc796d0029e38/webConfig",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "sec-ch-ua-mobile": "?0",
+      "x-goog-api-key": "AIzaSyATZ4HbOMgbFVPH4e9SAzGT0ph9kv77Hak",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept": "application/json"
+    }
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?l=dataLayer&id=G-5QEJ027RCG",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-5QEJ027RCG&cx=c&gtm=4e62p1",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/MV_HBD%20Rap.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/image/MV_HBD%20Rap.png",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 15:41:00 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260206/af175417-e644-45b6-b8d5-26ecefb01601.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/images/20260206/af175417-e644-45b6-b8d5-26ecefb01601.jpg",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Sat, 28 Feb 2026 05:23:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260227/2f72d085-00d4-4918-acce-06d16e45b34a.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/images/20260227/2f72d085-00d4-4918-acce-06d16e45b34a.jpg",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 15:40:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260202/d96c22c7-76ed-4c7e-8b0e-d4a9e80f92c8.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/images/20260202/d96c22c7-76ed-4c7e-8b0e-d4a9e80f92c8.jpg",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 15:40:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/3.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/image/3.png",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 15:40:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/8.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/image/8.png",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 15:41:10 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/MV_Choir-%E5%B0%81%E9%9D%A2.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/image/MV_Choir-%E5%B0%81%E9%9D%A2.jpg",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 15:40:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260206/16804b11-5535-4861-9de2-71517c8e42f2.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260227/992659c1-3ea9-4dfb-a8a2-3db33c72986d.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/images/20260227/992659c1-3ea9-4dfb-a8a2-3db33c72986d.jpg",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 15:40:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260202/a432f596-c006-46a5-8c91-90e12159f28f.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/images/20260202/a432f596-c006-46a5-8c91-90e12159f28f.jpg",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Sat, 28 Feb 2026 05:23:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/4.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/image/4.png",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 15:40:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260203/526d990b-50a3-40ad-9dcc-8c677909f9e7.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/images/20260203/526d990b-50a3-40ad-9dcc-8c677909f9e7.jpg",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 15:40:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260205/5f54244c-d292-4ebb-b9da-f270361505cf.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/images/20260205/5f54244c-d292-4ebb-b9da-f270361505cf.jpg",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 15:40:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260211/9a9ab0a3-4b0d-4f41-8f80-c56de5616d33.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/images/20260211/9a9ab0a3-4b0d-4f41-8f80-c56de5616d33.jpg",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 15:40:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260227/bb2ad1d0-1012-4b5e-ab2d-6fff4e3c7f8f.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/images/20260227/bb2ad1d0-1012-4b5e-ab2d-6fff4e3c7f8f.jpg",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 15:40:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260202/08b3ec8c-142c-435b-a59c-b86218e8b841.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/images/20260202/08b3ec8c-142c-435b-a59c-b86218e8b841.jpg",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 15:40:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/5.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/image/5.png",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 17:10:25 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/LV_Cover.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/image/LV_Cover.png",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 17:10:27 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260205/1c60d78a-0f5c-4ed3-b104-8019a82ae4f6.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/images/20260205/1c60d78a-0f5c-4ed3-b104-8019a82ae4f6.jpg",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 15:40:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260211/958d11f1-980c-49d8-a9e0-d8f8a527bb18.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/images/20260211/958d11f1-980c-49d8-a9e0-d8f8a527bb18.jpg",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Sat, 28 Feb 2026 05:23:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260202/6a6aaa82-391d-4f41-9f08-7ee3e12aafcb.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/images/20260202/6a6aaa82-391d-4f41-9f08-7ee3e12aafcb.jpg",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Sat, 28 Feb 2026 05:23:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/1.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/image/1.jpg",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 15:40:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/6.jpeg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/image/6.jpeg",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 15:40:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/MV_song%20of%20mouse-%E5%B0%81%E9%9D%A2.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260205/d17b8231-4016-4ccf-b7d0-adde5167a495.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260211/9a2c2883-903d-4b78-ae3a-b0f6ae5aba56.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/images/20260211/9a2c2883-903d-4b78-ae3a-b0f6ae5aba56.jpg",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Sat, 28 Feb 2026 05:23:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/images/20260202/3badd001-da41-4cc9-a2cf-64bbf8c6f447.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/images/20260202/3badd001-da41-4cc9-a2cf-64bbf8c6f447.jpg",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 15:40:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/2.jpg",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/image/2.jpg",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 15:40:59 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/7.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/image/7.png",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 15:41:00 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "https://cdn.dramastudio.ai/dramaland-public/showcase/image/MV_HBD%20to%20JUDY%201.png",
+    "method": "GET",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "sec-ch-ua-mobile": "?0",
+      ":authority": "cdn.dramastudio.ai",
+      ":method": "GET",
+      ":path": "/dramaland-public/showcase/image/MV_HBD%20to%20JUDY%201.png",
+      ":scheme": "https",
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br, zstd",
+      "if-modified-since": "Fri, 27 Feb 2026 17:10:31 GMT",
+      "origin": "https://cn.drama.land",
+      "priority": "u=1, i",
+      "sec-fetch-dest": "empty",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-site": "cross-site"
+    }
+  },
+  {
+    "url": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/48a127f0-a13c-491d-8dea-fc2cf780be75",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/93544d1b-2970-4d4e-9b36-79d15ba6ff02",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/88a22172-0afe-4ee7-bd86-4fd6740b6cd5",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/c582a559-7a16-4954-b764-a94503d7152e",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/a428eb77-5736-48a8-9b2b-25be8db4405a",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/521ebf02-f352-44af-b425-2e86e11a5be9",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/1f0da0ba-5b7d-4a26-9b6b-0248b6b47faf",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/dc03dfd5-00e3-4c4e-9388-d82f067d2f22",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/e73dc2d6-9553-4cb7-8144-9f5720f840ae",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/8b8a4162-1863-4373-ac67-80517953c51c",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/57256a0a-0806-4e74-bd29-ba32d8b6e63e",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/767393d5-63d1-4b3a-b6d4-53143bcbb0ed",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/3fd58cac-ee66-4bc7-8ad0-5134e1a2d8c6",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/1566769c-eb69-46d6-87a3-c953c429ba7a",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/6392a214-0030-41cc-9b9c-5a11d3587fd6",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/f3ff1294-bbf7-4088-9b9f-3718b881a1c4",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/8fec6dda-514f-4eaf-9e68-596d447c6387",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/10b3b41a-0118-4964-899b-01bad3139eca",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/661ea3a6-3c9d-41ef-a66e-0eeaada6dac9",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/71771e67-2501-4d00-881f-8e4e2229acce",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/a9ad6702-e2f3-4a3a-8686-1daaa20d56ce",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/2e872dbc-c7f9-4bbb-b65d-9ee764a2f30f",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/a983f803-1bd4-4258-a39f-ce2416d275f7",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/29e3b846-33d7-49fd-a6bc-525685eb47bd",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/7ab43c5c-c45e-465e-9679-972c258a45b9",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/9c3cf053-2a17-4bc2-9d4a-cb3bdd0432df",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/735c948b-5f38-47e4-8e65-01169228a130",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/4867db3c-7e54-4435-9889-8ca65ef79e1f",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/62da5095-0053-4e69-9eda-0c03edaa9a54",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/44850dc0-027e-48fc-b6d2-9ace8b84d1c9",
+    "method": "GET",
+    "headers": {
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "referer": ""
+    }
+  },
+  {
+    "url": "blob:https://cn.drama.land/2aaa6f03-b25a-48d2-b830-543d4235c660",
+    "method": "GET",
+    "headers": {
+      "referer": "",
+      "accept-encoding": "identity;q=1, *;q=0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36",
+      "accept-language": "en-US,en;q=0.9",
+      "range": "bytes=0-"
+    }
+  },
+  {
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-5QEJ027RCG&gtm=45je62p1v9236871855za200zb9243462079zd9243462079&_p=1772368075337&gcd=13l3l3l3l1l1&npa=0&dma=0&_fid=fggo2-7JgPDqyFR0qPf83X&cid=888133858.1772368063&ul=en-us&sr=800x600&uaa=x86&uab=64&uafvl=Chromium%3B145.0.7632.77%7CNot%253AA-Brand%3B99.0.0.0&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&are=1&frm=0&pscdl=noapi&_eu=AAAAAAQ&tag_exp=103116026~103200004~104527907~104528500~104684208~104684211~115616986~115938466~115938468~117384405~117477893~117611006&sid=1772368062&sct=1&seg=1&dl=https%3A%2F%2Fcn.drama.land%2Fzh-cn&dt=AI%E9%9F%B3%E4%B9%90MV%E7%94%9F%E6%88%90%E5%B9%B3%E5%8F%B0%EF%BD%9C%E9%9F%B3%E4%B9%90%E8%A7%86%E9%A2%91%E5%88%9B%E4%BD%9C%E5%B7%A5%E5%85%B7%20-%20Drama.Land&_s=1&tfd=8670",
+    "method": "POST",
+    "headers": {
+      "sec-ch-ua-platform": "\"Windows\"",
+      "referer": "https://cn.drama.land/",
+      "accept-language": "en-US,en;q=0.9",
+      "sec-ch-ua": "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"145\", \"Chromium\";v=\"145\"",
+      "content-type": "text/plain;charset=UTF-8",
+      "sec-ch-ua-mobile": "?0",
+      "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    },
+    "postData": "en=page_view&_ee=1&ep.origin=firebase\r\nen=page_view&_ee=1&ep.origin=firebase&ep.is_logged_in=false&_et=1&dt=landing_page&dp=%2Fzh-cn"
+  }
+]

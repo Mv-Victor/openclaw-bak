@@ -1,0 +1,80 @@
+{
+  "scripts": [
+    "https://www.googletagmanager.com/gtag/js?id=G-5QEJ027RCG&cx=c&gtm=4e62p1",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-52K2FDQP",
+    "https://cn.drama.land/_next/static/chunks/fd9d1056-c7eb9a6d83956ab7.js",
+    "https://cn.drama.land/_next/static/chunks/2117-4b0babdc7f9b54f6.js",
+    "https://cn.drama.land/_next/static/chunks/main-app-f85230fa169606e9.js",
+    "https://cn.drama.land/_next/static/chunks/5b86099a-8327ac4c121700e1.js",
+    "https://cn.drama.land/_next/static/chunks/dc112a36-7ca7a7d409b86d48.js",
+    "https://cn.drama.land/_next/static/chunks/7945-4b9c3affade82e7b.js",
+    "https://cn.drama.land/_next/static/chunks/1936-e2323bbd410ac4cf.js",
+    "https://cn.drama.land/_next/static/chunks/2310-920fd5962198f66c.js",
+    "https://cn.drama.land/_next/static/chunks/5094-4e0682313793a8fe.js",
+    "https://cn.drama.land/_next/static/chunks/405-865a296dc57a032f.js",
+    "https://cn.drama.land/_next/static/chunks/3778-e00972d18e337b35.js",
+    "https://cn.drama.land/_next/static/chunks/8311-00f61b30076ff006.js",
+    "https://cn.drama.land/_next/static/chunks/9791-a8337f740cc1cf76.js",
+    "https://cn.drama.land/_next/static/chunks/4257-185a604e7c768e60.js",
+    "https://cn.drama.land/_next/static/chunks/4764-835e9f7afdb49b4d.js",
+    "https://cn.drama.land/_next/static/chunks/9427-0121cf0a13f7c459.js",
+    "https://cn.drama.land/_next/static/chunks/4749-5be3c70d7f5656f1.js",
+    "https://cn.drama.land/_next/static/chunks/6656-3ae880e735393dbb.js"
+  ],
+  "frameworks": {
+    "react": false,
+    "vue": false,
+    "next": true,
+    "nuxt": false,
+    "webpack": true,
+    "vite": false
+  },
+  "meta": [
+    {
+      "content": ""
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    },
+    {
+      "name": "description",
+      "content": "在Drama.Land管理您的AI音乐MV与剧集视频项目。统一创建、编辑和持续迭代音乐MV与剧集内容。"
+    },
+    {
+      "name": "robots",
+      "content": "index, follow"
+    },
+    {
+      "content": "我的项目｜AI音乐MV与剧情创作空间 - Drama.Land"
+    },
+    {
+      "content": "在Drama.Land管理您的AI音乐MV与剧集视频项目。统一创建、编辑和持续迭代音乐MV与剧集内容。"
+    },
+    {
+      "content": "https://drama.land/zh-cn/projects"
+    },
+    {
+      "content": "Drama.Land"
+    },
+    {
+      "content": "website"
+    },
+    {
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "name": "twitter:title",
+      "content": "我的项目｜AI音乐MV与剧情创作空间 - Drama.Land"
+    },
+    {
+      "name": "twitter:description",
+      "content": "在Drama.Land管理您的AI音乐MV与剧集视频项目。统一创建、编辑和持续迭代音乐MV与剧集内容。"
+    },
+    {
+      "name": "next-size-adjust",
+      "content": ""
+    }
+  ]
+}

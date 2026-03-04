@@ -1,0 +1,164 @@
+[
+  {
+    "index": 4,
+    "text": "注册/登录",
+    "tag": "BUTTON",
+    "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 py-2 h-8 px-3 bg-[#C0031C] text-white border-[0.5px] border-[rgba(192,3,28,0.1)] rounded-lg hover:bg-[#A00218] text-xs leading-3 font-medium",
+    "id": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "index": 5,
+    "text": "上传音频",
+    "tag": "BUTTON",
+    "className": "items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 py-2 h-9 px-2 gap-[4px] border border-white/10 rounded-lg font-medium bg-white/5 text-xs text-white/80 hover:bg-white/10 transition-colors hidden md:inline-flex",
+    "id": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "index": 6,
+    "text": "资产",
+    "tag": "BUTTON",
+    "className": "inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 py-2 h-9 px-2 gap-[4px] border border-white/10 rounded-lg font-medium bg-white/5 text-xs text-white/80 hover:bg-white/10 transition-colors focus-visible:ring-0 focus-visible:ring-offset-0",
+    "id": "radix-:rb:",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "index": 7,
+    "text": "音乐MV",
+    "tag": "BUTTON",
+    "className": "flex w-full items-center justify-between py-2 ring-offset-background data-[placeholder]:text-muted-foreground focus:outline-none focus:ring-ring disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1 group h-9 gap-2 border border-white/10 rounded-lg font-bold px-3 [&>svg]:hidden focus:ring-0 focus:ring-offset-0 bg-white/5 text-xs text-white/60 data-[state=open]:border-white/40",
+    "id": "",
+    "role": "combobox",
+    "ariaLabel": null
+  },
+  {
+    "index": 8,
+    "text": "单集视频",
+    "tag": "BUTTON",
+    "className": "h-7 px-3 text-xs font-bold rounded-md transition-all flex items-center justify-center whitespace-nowrap text-white/40 hover:text-white/60",
+    "id": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "index": 9,
+    "text": "连续剧集",
+    "tag": "BUTTON",
+    "className": "h-7 px-3 text-xs font-bold rounded-md transition-all flex items-center justify-center whitespace-nowrap text-white/40 hover:text-white/60",
+    "id": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "index": 10,
+    "text": "剧本模式",
+    "tag": "BUTTON",
+    "className": "h-7 px-3 text-xs font-bold rounded-md transition-all flex items-center justify-center whitespace-nowrap text-white/40 hover:text-white/60",
+    "id": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "index": 11,
+    "text": "音乐MV",
+    "tag": "BUTTON",
+    "className": "h-7 px-3 text-xs font-bold rounded-md transition-all flex items-center justify-center whitespace-nowrap bg-white/10 text-white",
+    "id": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "index": 12,
+    "text": "EN",
+    "tag": "BUTTON",
+    "className": "flex items-center justify-between py-2 ring-offset-background data-[placeholder]:text-muted-foreground focus:outline-none focus:ring-ring disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1 group h-9 gap-2 border border-white/10 rounded-lg font-bold px-3 [&>svg]:hidden focus:ring-0 focus:ring-offset-0 bg-white/5 text-xs text-white/60 data-[state=open]:border-white/40 w-auto min-w-[3.5rem]",
+    "id": "",
+    "role": "combobox",
+    "ariaLabel": null
+  },
+  {
+    "index": 13,
+    "text": "1生成",
+    "tag": "BUTTON",
+    "className": "justify-center whitespace-nowrap text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:bg-primary/90 py-2 h-9 px-3 rounded-lg flex items-center gap-2 transition-all duration-300 font-bold bg-white/5 text-white/20 cursor-not-allowed",
+    "id": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "index": 14,
+    "text": "Showcases",
+    "tag": "BUTTON",
+    "className": "hidden md:flex flex-col items-center gap-1 text-white/40 hover:text-white transition-colors group cursor-pointer",
+    "id": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "index": 15,
+    "text": "关于",
+    "tag": "A",
+    "className": "hover:text-white transition-colors",
+    "id": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "index": 16,
+    "text": "日志",
+    "tag": "A",
+    "className": "hover:text-white transition-colors",
+    "id": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "index": 17,
+    "text": "超级创作者计划",
+    "tag": "A",
+    "className": "hover:text-white transition-colors",
+    "id": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "index": 18,
+    "text": "FAQ",
+    "tag": "A",
+    "className": "hover:text-white transition-colors",
+    "id": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "index": 19,
+    "text": "隐私政策",
+    "tag": "A",
+    "className": "hover:text-white transition-colors",
+    "id": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "index": 20,
+    "text": "使用条款",
+    "tag": "A",
+    "className": "hover:text-white transition-colors",
+    "id": "",
+    "role": null,
+    "ariaLabel": null
+  },
+  {
+    "index": 25,
+    "text": "🇨🇳中国大陆",
+    "tag": "BUTTON",
+    "className": "inline-flex items-center gap-1.5 text-xs transition-colors hover:text-white/80 text-xs",
+    "id": "",
+    "role": null,
+    "ariaLabel": null
+  }
+]

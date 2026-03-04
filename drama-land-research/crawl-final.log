@@ -1,0 +1,127 @@
+[1/10] 启动浏览器...
+[2/10] 访问首页...
+✓ 截图: 01-homepage.png
+[3/10] 查找登录按钮...
+所有按钮: [
+  {
+    "idx": 0,
+    "text": "",
+    "tag": "BUTTON",
+    "visible": true
+  },
+  {
+    "idx": 1,
+    "text": "",
+    "tag": "BUTTON",
+    "visible": true
+  },
+  {
+    "idx": 2,
+    "text": "",
+    "tag": "BUTTON",
+    "visible": true
+  },
+  {
+    "idx": 3,
+    "text": "",
+    "tag": "BUTTON",
+    "visible": true
+  },
+  {
+    "idx": 4,
+    "text": "Register/Sign In",
+    "tag": "BUTTON",
+    "visible": true
+  },
+  {
+    "idx": 5,
+    "text": "Upload Audio",
+    "tag": "BUTTON",
+    "visible": true
+  },
+  {
+    "idx": 6,
+    "text": "Asset",
+    "tag": "BUTTON",
+    "visible": true
+  },
+  {
+    "idx": 8,
+    "text": "SINGLE",
+    "tag": "BUTTON",
+    "visible": true
+  },
+  {
+    "idx": 9,
+    "text": "SEASON",
+    "tag": "BUTTON",
+    "visible": true
+  },
+  {
+    "idx": 10,
+    "text": "SCRIPT",
+    "tag": "BUTTON",
+    "visible": true
+  },
+  {
+    "idx": 11,
+    "text": "🎵MV",
+    "tag": "BUTTON",
+    "visible": true
+  },
+  {
+    "idx": 12,
+    "text": "EN",
+    "tag": "BUTTON",
+    "visible": true
+  },
+  {
+    "idx": 13,
+    "text": "-Generate",
+    "tag": "BUTTON",
+    "visible": true
+  },
+  {
+    "idx": 14,
+    "text": "Showcases",
+    "tag": "BUTTON",
+    "visible": true
+  },
+  {
+    "idx": 15,
+    "text": "About",
+    "tag": "A",
+    "visible": true
+  },
+  {
+    "idx": 16,
+    "text": "Blog",
+    "tag": "A",
+    "visible": true
+  },
+  {
+    "idx": 17,
+    "text": "Super Creator Program",
+    "tag": "A",
+    "visible": true
+  },
+  {
+    "idx": 18,
+    "text": "FAQ",
+    "tag": "A",
+    "visible": true
+  },
+  {
+    "idx": 19,
+    "text": "Privacy Policy",
+    "tag": "A",
+    "visible": true
+  },
+  {
+    "idx": 20,
+    "text": "Terms of Use",
+    "tag": "A",
+    "visible": true
+  }
+]
+❌ 未找到登录按钮

@@ -1,0 +1,290 @@
+[
+  {
+    "index": 1,
+    "text": "Drama.Land",
+    "tag": "DIV",
+    "className": "flex gap-4 items-center select-none cursor-pointer hover:opacity-80 transition-opacity",
+    "id": "",
+    "role": null,
+    "ariaLabel": null,
+    "visible": true,
+    "position": {
+      "x": 272,
+      "y": 60,
+      "width": 178,
+      "height": 40
+    }
+  },
+  {
+    "index": 5,
+    "text": "注册/登录",
+    "tag": "BUTTON",
+    "className": "inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offs",
+    "id": "",
+    "role": null,
+    "ariaLabel": null,
+    "visible": true,
+    "position": {
+      "x": 1570,
+      "y": 64,
+      "width": 78,
+      "height": 32
+    }
+  },
+  {
+    "index": 6,
+    "text": "上传音频",
+    "tag": "BUTTON",
+    "className": "items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none di",
+    "id": "",
+    "role": null,
+    "ariaLabel": null,
+    "visible": true,
+    "position": {
+      "x": 523,
+      "y": 881,
+      "width": 94,
+      "height": 36
+    }
+  },
+  {
+    "index": 7,
+    "text": "资产",
+    "tag": "BUTTON",
+    "className": "inline-flex items-center justify-center whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-eve",
+    "id": "radix-:rb:",
+    "role": null,
+    "ariaLabel": null,
+    "visible": true,
+    "position": {
+      "x": 625,
+      "y": 881,
+      "width": 70,
+      "height": 36
+    }
+  },
+  {
+    "index": 9,
+    "text": "单集视频",
+    "tag": "BUTTON",
+    "className": "h-7 px-3 text-xs font-bold rounded-md transition-all flex items-center justify-center whitespace-nowrap text-white/40 hover:text-white/60",
+    "id": "",
+    "role": null,
+    "ariaLabel": null,
+    "visible": true,
+    "position": {
+      "x": 708,
+      "y": 885,
+      "width": 72,
+      "height": 28
+    }
+  },
+  {
+    "index": 10,
+    "text": "连续剧集",
+    "tag": "BUTTON",
+    "className": "h-7 px-3 text-xs font-bold rounded-md transition-all flex items-center justify-center whitespace-nowrap text-white/40 hover:text-white/60",
+    "id": "",
+    "role": null,
+    "ariaLabel": null,
+    "visible": true,
+    "position": {
+      "x": 780,
+      "y": 885,
+      "width": 72,
+      "height": 28
+    }
+  },
+  {
+    "index": 11,
+    "text": "剧本模式",
+    "tag": "BUTTON",
+    "className": "h-7 px-3 text-xs font-bold rounded-md transition-all flex items-center justify-center whitespace-nowrap text-white/40 hover:text-white/60",
+    "id": "",
+    "role": null,
+    "ariaLabel": null,
+    "visible": true,
+    "position": {
+      "x": 852,
+      "y": 885,
+      "width": 72,
+      "height": 28
+    }
+  },
+  {
+    "index": 12,
+    "text": "音乐MV",
+    "tag": "BUTTON",
+    "className": "h-7 px-3 text-xs font-bold rounded-md transition-all flex items-center justify-center whitespace-nowrap bg-white/10 text-white",
+    "id": "",
+    "role": null,
+    "ariaLabel": null,
+    "visible": true,
+    "position": {
+      "x": 924,
+      "y": 885,
+      "width": 68,
+      "height": 28
+    }
+  },
+  {
+    "index": 13,
+    "text": "EN",
+    "tag": "BUTTON",
+    "className": "flex items-center justify-between py-2 ring-offset-background data-[placeholder]:text-muted-foreground focus:outline-none focus:ring-ring disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-",
+    "id": "",
+    "role": "combobox",
+    "ariaLabel": null,
+    "visible": true,
+    "position": {
+      "x": 1005,
+      "y": 881,
+      "width": 62,
+      "height": 36
+    }
+  },
+  {
+    "index": 14,
+    "text": "1生成",
+    "tag": "BUTTON",
+    "className": "justify-center whitespace-nowrap text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disable",
+    "id": "",
+    "role": null,
+    "ariaLabel": null,
+    "visible": true,
+    "position": {
+      "x": 1305,
+      "y": 881,
+      "width": 92,
+      "height": 36
+    }
+  },
+  {
+    "index": 15,
+    "text": "Showcases",
+    "tag": "BUTTON",
+    "className": "hidden md:flex flex-col items-center gap-1 text-white/40 hover:text-white transition-colors group cursor-pointer",
+    "id": "",
+    "role": null,
+    "ariaLabel": null,
+    "visible": true,
+    "position": {
+      "x": 918,
+      "y": 962,
+      "width": 84,
+      "height": 36
+    }
+  },
+  {
+    "index": 46,
+    "text": "关于",
+    "tag": "A",
+    "className": "hover:text-white transition-colors",
+    "id": "",
+    "role": null,
+    "ariaLabel": null,
+    "visible": true,
+    "position": {
+      "x": 64,
+      "y": 4436,
+      "width": 112,
+      "height": 24
+    }
+  },
+  {
+    "index": 47,
+    "text": "日志",
+    "tag": "A",
+    "className": "hover:text-white transition-colors",
+    "id": "",
+    "role": null,
+    "ariaLabel": null,
+    "visible": true,
+    "position": {
+      "x": 64,
+      "y": 4472,
+      "width": 112,
+      "height": 24
+    }
+  },
+  {
+    "index": 48,
+    "text": "超级创作者计划",
+    "tag": "A",
+    "className": "hover:text-white transition-colors",
+    "id": "",
+    "role": null,
+    "ariaLabel": null,
+    "visible": true,
+    "position": {
+      "x": 64,
+      "y": 4508,
+      "width": 112,
+      "height": 24
+    }
+  },
+  {
+    "index": 49,
+    "text": "FAQ",
+    "tag": "A",
+    "className": "hover:text-white transition-colors",
+    "id": "",
+    "role": null,
+    "ariaLabel": null,
+    "visible": true,
+    "position": {
+      "x": 64,
+      "y": 4544,
+      "width": 112,
+      "height": 24
+    }
+  },
+  {
+    "index": 50,
+    "text": "隐私政策",
+    "tag": "A",
+    "className": "hover:text-white transition-colors",
+    "id": "",
+    "role": null,
+    "ariaLabel": null,
+    "visible": true,
+    "position": {
+      "x": 64,
+      "y": 4580,
+      "width": 112,
+      "height": 24
+    }
+  },
+  {
+    "index": 51,
+    "text": "使用条款",
+    "tag": "A",
+    "className": "hover:text-white transition-colors",
+    "id": "",
+    "role": null,
+    "ariaLabel": null,
+    "visible": true,
+    "position": {
+      "x": 64,
+      "y": 4616,
+      "width": 112,
+      "height": 24
+    }
+  },
+  {
+    "index": 56,
+    "text": "🇨🇳中国大陆",
+    "tag": "BUTTON",
+    "className": "inline-flex items-center gap-1.5 text-xs transition-colors hover:text-white/80 text-xs",
+    "id": "",
+    "role": null,
+    "ariaLabel": null,
+    "visible": true,
+    "position": {
+      "x": 1599,
+      "y": 4998,
+      "width": 89,
+      "height": 20
+    }
+  }
+]
