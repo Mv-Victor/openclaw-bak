@@ -111,7 +111,7 @@ def scrape_with_scrapling(url, selector=None):
 python3 -c "from scrapling import Fetcher; print('Scrapling OK')"
 
 # 检查 FlareSolverr
-ls /root/.openclaw/workspace-g/FlareSolverr/src/main.py
+curl -s http://localhost:8191/health
 
 # 检查 Agent Reach
 agent-reach doctor
@@ -120,8 +120,19 @@ agent-reach doctor
 ### 启动 FlareSolverr 服务
 ```bash
 cd /root/.openclaw/workspace-g/FlareSolverr
-nohup python3 src/main.py --port 8191 > /tmp/flaresolverr.log 2>&1 &
+nohup python3 src/flaresolverr.py > /tmp/flaresolverr.log 2>&1 &
+
+# 验证服务
+curl -s http://localhost:8191/health
+# 返回 {"status": "ok"} 表示成功
 ```
+
+### 安装状态（2026-03-06 已完成）
+- ✅ Agent Reach - 已安装，6/11 渠道可用
+- ✅ FlareSolverr - 已克隆，服务运行中（port 8191）
+- ✅ Scrapling - 已安装，所有依赖已配置
+- ✅ Xvfb - 已安装（虚拟显示支持）
+- ✅ Playwright - 已安装（Scrapling 依赖）
 
 ## 示例用法
 

@@ -12120,3 +12120,8 @@ hint: See "git help submodule" for more information.
  create mode 160000 FlareSolverr
 To github.com:Mv-Victor/openclaw-bak.git
    ad6b5cc..3d8f386  G -> G
+[G 7ad6148] [20260306_1720] [skills] [scripts] 新增1个文件(SKILL.md等), 修改1个文件(backup.log等)
+ 2 files changed, 216 insertions(+)
+ create mode 100644 skills/web-crawler/SKILL.md
+To github.com:Mv-Victor/openclaw-bak.git
+   3d8f386..7ad6148  G -> G
