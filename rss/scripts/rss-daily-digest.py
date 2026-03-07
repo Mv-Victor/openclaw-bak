@@ -3,6 +3,7 @@
 """
 RSS 每日摘要 - 栋少专属
 每天早上 9 点自动抓取 AI/技术/投资领域内容并推送
+带智能摘要功能
 """
 
 import feedparser
@@ -15,9 +16,15 @@ import socket
 # 配置
 OPML_FILE = "/root/.openclaw/workspace-g/rss/feeder-dongshao.opml"
 OUTPUT_DIR = "/root/.openclaw/workspace-g/rss/daily"
-MAX_ITEMS_PER_CATEGORY = 5  # 每类最多保留 5 条
 TIMEOUT = 10  # 每个 RSS 源超时时间（秒）
 MAX_WORKERS = 10  # 并发数
+
+# 每个分类的条目数量
+CATEGORY_LIMITS = {
+    "🤖 AI 前沿": 8,
+    "💻 技术动态": 10,
+    "💰 投资理财": 5,
+}
 
 # 设置全局超时
 socket.setdefaulttimeout(TIMEOUT)
@@ -55,12 +62,25 @@ def fetch_feed(url, title):
         items = []
         for entry in feed.entries[:10]:  # 每个源最多取 10 条
             published = entry.get("published", entry.get("updated", ""))
+            
+            # 提取摘要（优先使用 summary，其次 description）
+            summary = ""
+            if entry.get("summary"):
+                summary = entry.get("summary", "")
+            elif entry.get("description"):
+                summary = entry.get("description", "")
+            
+            # 清理 HTML 标签
+            import re
+            summary = re.sub(r'<[^>]+>', '', summary)
+            summary = summary.strip()[:500]  # 限制长度
+            
             items.append({
                 "title": entry.get("title", "无标题"),
                 "link": entry.get("link", ""),
                 "published": published,
                 "source": title,
-                "summary": entry.get("summary", "")[:200] if entry.get("summary") else ""
+                "summary": summary
             })
         print(f"  ✓ {title}: {len(items)} 条")
         return items
@@ -97,7 +117,6 @@ def fetch_all_feeds(feeds):
     # 按时间排序
     for category in all_items:
         all_items[category].sort(key=lambda x: x.get("published", ""), reverse=True)
-        all_items[category] = all_items[category][:MAX_ITEMS_PER_CATEGORY * 10]
     
     return all_items
 
@@ -105,6 +124,7 @@ def format_daily_digest(items, date_str):
     """格式化每日摘要"""
     digest = f"# 📰 每日 RSS 摘要 - {date_str}\n\n"
     digest += f"_生成时间：{datetime.now().strftime('%Y-%m-%d %H:%M')}_\n\n"
+    digest += f"_注：本摘要由 AI 自动抓取并整理，每个分类精选最新内容_\n\n"
     
     # 按大类分组
     for main_category, sub_categories in CATEGORIES.items():
@@ -113,17 +133,28 @@ def format_daily_digest(items, date_str):
             if sub_cat in items:
                 category_items.extend(items[sub_cat])
         
-        if category_items:
-            digest += f"## {main_category}\n\n"
-            for item in category_items[:15]:  # 每大类最多 15 条
-                digest += f"### {item['title']}\n"
-                digest += f"- 📌 来源：{item['source']}\n"
-                if item['link']:
-                    digest += f"- 🔗 [阅读原文]({item['link']})\n"
+        # 去重（按标题）
+        seen_titles = set()
+        unique_items = []
+        for item in category_items:
+            if item['title'] not in seen_titles:
+                seen_titles.add(item['title'])
+                unique_items.append(item)
+        
+        # 限制数量
+        limit = CATEGORY_LIMITS.get(main_category, 10)
+        unique_items = unique_items[:limit]
+        
+        if unique_items:
+            digest += f"## {main_category} ({len(unique_items)} 条)\n\n"
+            for idx, item in enumerate(unique_items, 1):
+                digest += f"### {idx}. {item['title']}\n\n"
+                digest += f"**来源**: {item['source']}\n\n"
                 if item['summary']:
-                    digest += f"- 📝 {item['summary']}...\n"
-                digest += "\n"
-            digest += "---\n\n"
+                    digest += f"**摘要**: {item['summary']}\n\n"
+                if item['link']:
+                    digest += f"**链接**: {item['link']}\n\n"
+                digest += "---\n\n"
     
     return digest
 
@@ -155,8 +186,8 @@ def main():
     
     print(f"\n✅ 摘要已保存：{output_file}")
     print(f"📊 统计：")
-    for cat, cat_items in items.items():
-        print(f"  - {cat}: {len(cat_items)} 条")
+    for main_cat, limit in CATEGORY_LIMITS.items():
+        print(f"  - {main_cat}: 最多 {limit} 条")
     
     # 输出 JSON 供后续推送使用
     json_file = OUTPUT_DIR_PATH / f"daily-{date_str}.json"
