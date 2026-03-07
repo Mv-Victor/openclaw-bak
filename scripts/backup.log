@@ -13437,3 +13437,9 @@ To github.com:Mv-Victor/openclaw-bak.git
  1 file changed, 5 insertions(+)
 To github.com:Mv-Victor/openclaw-bak.git
    0f25b62..c9d0fcd  G -> G
+[G 0bd784f] [20260307_1925] [scripts] 新增2个文件(feeder-export-organized.opml等), 修改1个文件(backup.log等)
+ 3 files changed, 364 insertions(+)
+ create mode 100644 rss/feeder-export-organized.opml
+ create mode 100644 "rss/\350\256\242\351\230\205\345\210\206\347\261\273\350\257\264\346\230\216.md"
+To github.com:Mv-Victor/openclaw-bak.git
+   c9d0fcd..0bd784f  G -> G
