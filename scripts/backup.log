@@ -13871,3 +13871,12 @@ To github.com:Mv-Victor/openclaw-bak.git
  create mode 100644 skills/baoyu-xhs-images/references/workflows/prompt-assembly.md
 To github.com:Mv-Victor/openclaw-bak.git
    b0cc739..05de524  G -> G
+[G 7913f65] [20260308_0250] [skills] [long-term-memory] [scripts] 新增5个文件(nanobanana-integration.md等), 修改2个文件(MEMORY.md等)
+ 7 files changed, 8667 insertions(+)
+ create mode 100644 docs/nanobanana-integration.md
+ create mode 100644 skills/nanobanana-image-gen/SKILL.md
+ create mode 100644 skills/nanobanana-image-gen/awesome-prompts-full.md
+ create mode 100755 skills/nanobanana-image-gen/extract-prompts.sh
+ create mode 100644 skills/nanobanana-image-gen/prompts-library.md
+To github.com:Mv-Victor/openclaw-bak.git
+   05de524..7913f65  G -> G
