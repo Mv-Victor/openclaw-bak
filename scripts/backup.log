@@ -13819,3 +13819,55 @@ To github.com:Mv-Victor/openclaw-bak.git
  1 file changed, 5 insertions(+)
 To github.com:Mv-Victor/openclaw-bak.git
    f000853..b0cc739  G -> G
+[G 05de524] [20260308_0245] [skills] [scripts] 新增10个文件(dreamx-code-review-20260307-184237.md等), 修改1个文件(backup.log等)
+ 49 files changed, 9019 insertions(+)
+ create mode 100644 docs/dreamx-code-review-20260307-184237.md
+ create mode 100644 skills/baoyu-danger-x-to-markdown/SKILL.md
+ create mode 100644 skills/baoyu-danger-x-to-markdown/references/config/first-time-setup.md
+ create mode 100644 skills/baoyu-danger-x-to-markdown/scripts/constants.ts
+ create mode 100644 skills/baoyu-danger-x-to-markdown/scripts/cookie-file.ts
+ create mode 100644 skills/baoyu-danger-x-to-markdown/scripts/cookies.ts
+ create mode 100644 skills/baoyu-danger-x-to-markdown/scripts/graphql.ts
+ create mode 100644 skills/baoyu-danger-x-to-markdown/scripts/http.ts
+ create mode 100644 skills/baoyu-danger-x-to-markdown/scripts/main.ts
+ create mode 100644 skills/baoyu-danger-x-to-markdown/scripts/markdown.ts
+ create mode 100644 skills/baoyu-danger-x-to-markdown/scripts/media-localizer.ts
+ create mode 100644 skills/baoyu-danger-x-to-markdown/scripts/paths.ts
+ create mode 100644 skills/baoyu-danger-x-to-markdown/scripts/referenced-tweets.ts
+ create mode 100644 skills/baoyu-danger-x-to-markdown/scripts/thread-markdown.ts
+ create mode 100644 skills/baoyu-danger-x-to-markdown/scripts/thread.ts
+ create mode 100644 skills/baoyu-danger-x-to-markdown/scripts/tweet-article.ts
+ create mode 100644 skills/baoyu-danger-x-to-markdown/scripts/tweet-to-markdown.ts
+ create mode 100644 skills/baoyu-danger-x-to-markdown/scripts/types.ts
+ create mode 100644 skills/baoyu-image-gen/SKILL.md
+ create mode 100644 skills/baoyu-image-gen/references/config/first-time-setup.md
+ create mode 100644 skills/baoyu-image-gen/references/config/preferences-schema.md
+ create mode 100644 skills/baoyu-image-gen/scripts/main.ts
+ create mode 100644 skills/baoyu-image-gen/scripts/providers/dashscope.ts
+ create mode 100644 skills/baoyu-image-gen/scripts/providers/google.ts
+ create mode 100644 skills/baoyu-image-gen/scripts/providers/openai.ts
+ create mode 100644 skills/baoyu-image-gen/scripts/providers/replicate.ts
+ create mode 100644 skills/baoyu-image-gen/scripts/types.ts
+ create mode 100644 skills/baoyu-xhs-images/SKILL.md
+ create mode 100644 skills/baoyu-xhs-images/references/config/first-time-setup.md
+ create mode 100644 skills/baoyu-xhs-images/references/config/preferences-schema.md
+ create mode 100644 skills/baoyu-xhs-images/references/config/watermark-guide.md
+ create mode 100644 skills/baoyu-xhs-images/references/elements/canvas.md
+ create mode 100644 skills/baoyu-xhs-images/references/elements/decorations.md
+ create mode 100644 skills/baoyu-xhs-images/references/elements/image-effects.md
+ create mode 100644 skills/baoyu-xhs-images/references/elements/typography.md
+ create mode 100644 skills/baoyu-xhs-images/references/presets/bold.md
+ create mode 100644 skills/baoyu-xhs-images/references/presets/chalkboard.md
+ create mode 100644 skills/baoyu-xhs-images/references/presets/cute.md
+ create mode 100644 skills/baoyu-xhs-images/references/presets/fresh.md
+ create mode 100644 skills/baoyu-xhs-images/references/presets/minimal.md
+ create mode 100644 skills/baoyu-xhs-images/references/presets/notion.md
+ create mode 100644 skills/baoyu-xhs-images/references/presets/pop.md
+ create mode 100644 skills/baoyu-xhs-images/references/presets/retro.md
+ create mode 100644 skills/baoyu-xhs-images/references/presets/study-notes.md
+ create mode 100644 skills/baoyu-xhs-images/references/presets/warm.md
+ create mode 100644 skills/baoyu-xhs-images/references/workflows/analysis-framework.md
+ create mode 100644 skills/baoyu-xhs-images/references/workflows/outline-template.md
+ create mode 100644 skills/baoyu-xhs-images/references/workflows/prompt-assembly.md
+To github.com:Mv-Victor/openclaw-bak.git
+   b0cc739..05de524  G -> G

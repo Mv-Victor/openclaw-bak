@@ -135,3 +135,49 @@
 - 起号主题：AI 时代双非本逆袭大厂 S 绩效
 - 核心定位：淋过雨的人愿意为别人打伞
 - 内容风格：晒成绩但不纯晒，强调艰辛历程和同理心
+
+## Nano Banana 图片生成集成（2026-03-08）
+
+### 已安装 Skills（G + 啾啾）
+1. `baoyu-danger-x-to-markdown` - X 内容转 Markdown
+2. `baoyu-xhs-images` - 小红书图片生成（10 种风格，8 种布局）
+3. `baoyu-image-gen` - AI 图片生成（支持 Google/OpenAI/DashScope/Replicate）
+4. `nanobanana-image-gen` - Nano Banana 风格库（10000+ prompts）
+
+### 技术方案
+- `baoyu-image-gen` 已内置支持 Replicate provider
+- 默认模型：`google/nano-banana-pro`
+- 可通过 Polo API 调用（栋少已有 token）
+- 环境变量：`REPLICATE_API_TOKEN`, `REPLICATE_BASE_URL`
+
+### 使用场景
+1. 小红书封面图生成（结合 baoyu-xhs-images + nano-banana）
+2. X 内容转文章 + 配图生成
+3. 批量生成社交媒体图片
+4. 产品营销图、YouTube 缩略图等
+
+### 风格库
+- 社交媒体：引言卡片、Instagram、小红书
+- 营销推广：产品展示、电商主图、促销海报
+- 内容创作：封面图、YouTube 缩略图、博客配图
+- 教育/信息图：知识卡片、数据可视化、教程步骤图
+- 人物/角色：专业头像、动漫角色、Q 版角色
+- 场景/背景：科幻、自然风景、抽象背景
+- 游戏素材：像素艺术、3D 渲染、UI 元素
+- 设计元素：Logo、图标集、排版设计
+- 特殊效果：水墨画、油画、水彩画
+
+### 文档位置
+- 集成文档：`/root/.openclaw/workspace-g/docs/nanobanana-integration.md`
+- 风格库：`/root/.openclaw/workspace-g/skills/nanobanana-image-gen/prompts-library.md`
+- 完整 prompts 库：`/root/.openclaw/workspace-g/skills/nanobanana-image-gen/awesome-prompts-full.md`（10835 个 prompts）
+
+### 已完成（2026-03-08 更新）
+- ✅ 整合 awesome-nano-banana-pro-prompts 仓库
+- ✅ 10835 个 prompts，9 个精选，详细分类（使用场景/风格/主体）
+- ✅ 支持 Raycast 动态参数的 prompts
+- ✅ 在线图库：https://youmind.com/zh-CN/nano-banana-pro-prompts
+
+### 待完成
+- 扩展 baoyu-xhs-images 整合 Nano Banana 风格关键词
+- 创建快捷命令脚本
