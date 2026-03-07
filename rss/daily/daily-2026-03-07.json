@@ -1,0 +1,2094 @@
+{
+  "🤖 AI": [
+    {
+      "title": "Adversarial Attacks on LLMs",
+      "link": "https://lilianweng.github.io/posts/2023-10-25-adv-attack-llm/",
+      "published": "Wed, 25 Oct 2023 00:00:00 +0000",
+      "source": "Lil'Log (OpenAI Research)",
+      "summary": "<p>The use of large language models in the real world has strongly accelerated by the launch of ChatGPT. We (including my team at OpenAI, shoutout to them) have invested a lot of effort to build defau"
+    },
+    {
+      "title": "Warner Music Group and Stability AI Join Forces To Build The Next Generation Of Responsible AI Tools For Music Creation",
+      "link": "https://stability.ai/news/warner-music-group-and-stability-ai-join-forces-to-build-next-gen-tools",
+      "published": "Wed, 19 Nov 2025 16:01:30 +0000",
+      "source": "Stability AI",
+      "summary": "Warner Music Group and Stability AI today announced a collaborative effort \nto advance the use of responsible AI in music creation, combining WMG’s \nlong-standing advocacy for principled innovation wi"
+    },
+    {
+      "title": "IBM and UC Berkeley Diagnose Why Enterprise Agents Fail Using IT-Bench and MAST",
+      "link": "https://huggingface.co/blog/ibm-research/itbenchandmast",
+      "published": "Wed, 18 Feb 2026 16:15:45 GMT",
+      "source": "Hugging Face Blog",
+      "summary": ""
+    },
+    {
+      "title": "A new way to express yourself: Gemini can now create music",
+      "link": "https://deepmind.google/blog/a-new-way-to-express-yourself-gemini-can-now-create-music/",
+      "published": "Wed, 18 Feb 2026 16:01:38 +0000",
+      "source": "Google DeepMind",
+      "summary": "The Gemini app now features our most advanced music generation model Lyria 3, empowering anyone to make 30-second tracks using text or images."
+    },
+    {
+      "title": "One-Shot Any Web App with Gradio's gr.HTML",
+      "link": "https://huggingface.co/blog/gradio-html-one-shot-apps",
+      "published": "Wed, 18 Feb 2026 00:00:00 GMT",
+      "source": "Hugging Face Blog",
+      "summary": ""
+    },
+    {
+      "title": "Stability AI’s Annual Integrity Transparency Report",
+      "link": "https://stability.ai/news/stability-ais-annual-integrity-transparency-report",
+      "published": "Wed, 17 Sep 2025 17:26:52 +0000",
+      "source": "Stability AI",
+      "summary": "At Stability AI, we are committed to building and deploying generative AI \nresponsibly, and we believe that transparency is foundational to safe and \nethical AI."
+    },
+    {
+      "title": "Prompt Engineering",
+      "link": "https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/",
+      "published": "Wed, 15 Mar 2023 00:00:00 +0000",
+      "source": "Lil'Log (OpenAI Research)",
+      "summary": "<p><strong>Prompt Engineering</strong>, also known as <strong>In-Context Prompting</strong>, refers to methods for how to communicate with LLM to steer its behavior for desired outcomes <em>without</e"
+    },
+    {
+      "title": "Stability AI Joins the Tech Coalition",
+      "link": "https://stability.ai/news/stability-ai-joins-the-tech-coalition",
+      "published": "Wed, 11 Feb 2026 20:28:23 +0000",
+      "source": "Stability AI",
+      "summary": "We’re pleased to share that Stability AI has joined the Tech Coalition, a \nglobal alliance of leading technology companies working together to combat \nonline child sexual exploitation and abuse."
+    },
+    {
+      "title": "Stability AI Introduces Stable Audio 2.5, the First Audio Model Built for Enterprise Sound Production at Scale",
+      "link": "https://stability.ai/news/stability-ai-introduces-stable-audio-25-the-first-audio-model-built-for-enterprise-sound-production-at-scale",
+      "published": "Wed, 10 Sep 2025 14:07:07 +0000",
+      "source": "Stability AI",
+      "summary": "We’re excited to release Stable Audio 2.5, our latest audio model and the \nfirst developed for enterprise-grade use cases. Stable Audio 2.5 introduces \nadvancements in quality and control that address"
+    },
+    {
+      "title": "Use Canvas in AI Mode to get things done and bring your ideas to life, right in Search.",
+      "link": "https://blog.google/products-and-platforms/products/search/ai-mode-canvas-writing-coding/",
+      "published": "Wed, 04 Mar 2026 17:00:00 +0000",
+      "source": "Google AI Blog",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIMMode_Social.max-600x600.format-webp.webp\" />Canvas in AI Mode is now available for everyone in the U.S. Plus, it can now he"
+    },
+    {
+      "title": "Accelerating discovery in India through AI-powered science and education",
+      "link": "https://deepmind.google/blog/accelerating-discovery-in-india-through-ai-powered-science-and-education/",
+      "published": "Tue, 17 Feb 2026 13:42:20 +0000",
+      "source": "Google DeepMind",
+      "summary": "Google DeepMind brings National Partnerships for AI initiative to India, scaling AI for science and education"
+    },
+    {
+      "title": "Veo 3.1 Ingredients to Video: More consistency, creativity and control",
+      "link": "https://deepmind.google/blog/veo-3-1-ingredients-to-video-more-consistency-creativity-and-control/",
+      "published": "Tue, 13 Jan 2026 17:00:18 +0000",
+      "source": "Google DeepMind",
+      "summary": "Our latest Veo update generates lively, dynamic clips that feel natural and engaging — and supports vertical video generation."
+    },
+    {
+      "title": "Stability AI and NVIDIA Bring Faster Performance and Simplified Enterprise Deployment with the Stable Diffusion 3.5 NIM",
+      "link": "https://stability.ai/news/stability-ai-and-nvidia-bring-faster-performance-and-simplified-enterprise-deployment-with-the-stable-diffusion-35-nim",
+      "published": "Tue, 12 Aug 2025 19:03:26 +0000",
+      "source": "Stability AI",
+      "summary": "We're excited to announce our collaboration with NVIDIA to launch the \nStable Diffusion 3.5 NIM microservice, enabling significant performance \nimprovements and streamlined enterprise deployment for o"
+    },
+    {
+      "title": "Large Transformer Model Inference Optimization",
+      "link": "https://lilianweng.github.io/posts/2023-01-10-inference-optimization/",
+      "published": "Tue, 10 Jan 2023 10:00:00 -0700",
+      "source": "Lil'Log (OpenAI Research)",
+      "summary": "<p><span class=\"update\">[Updated on 2023-01-24: add a small section on <a href=\"https://lilianweng.github.io/index.xml#distillation\">Distillation</a>.]</span><br /></p>\n<p>Large transformer models are"
+    },
+    {
+      "title": "Introducing Stability AI Solutions: Generative AI Solutions to Accelerate Enterprise Creative Production",
+      "link": "https://stability.ai/news/introducing-stability-ai-solutions",
+      "published": "Tue, 05 Aug 2025 13:56:13 +0000",
+      "source": "Stability AI",
+      "summary": "Today we’re introducing Stability AI Solutions, a new offering designed to \nhelp enterprises scale creative production with generative AI."
+    },
+    {
+      "title": "Create new worlds in Project Genie with these 4 tips",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/tips-prompt-writing-project-genie/",
+      "published": "Tue, 03 Mar 2026 17:00:00 +0000",
+      "source": "Google AI Blog",
+      "summary": "A screen capture of Project Genie, an experimental interface showing a grid of circular images, many of which appear to be 360-degree views, with a large, central black globe labeled Create your own"
+    },
+    {
+      "title": "PRX Part 3 — Training a Text-to-Image Model in 24h!",
+      "link": "https://huggingface.co/blog/Photoroom/prx-part3",
+      "published": "Tue, 03 Mar 2026 16:50:49 GMT",
+      "source": "Hugging Face Blog",
+      "summary": ""
+    },
+    {
+      "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+      "link": "https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/",
+      "published": "Tue, 03 Mar 2026 16:35:55 +0000",
+      "source": "Google DeepMind",
+      "summary": "Gemini 3.1 Flash-Lite is our fastest and most cost-efficient Gemini 3 series model yet."
+    },
+    {
+      "title": "Gemini 3.1 Flash-Lite: Built for intelligence at scale",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
+      "published": "Tue, 03 Mar 2026 16:34:00 +0000",
+      "source": "Google AI Blog",
+      "summary": "Gemini 3.1 Flash Lite logo"
+    },
+    {
+      "title": "Universal Music Group and Stability AI Announce Strategic Alliance to Co-Develop Professional AI Music Creation Tools",
+      "link": "https://stability.ai/news/universal-music-group-and-stability-ai-announce-strategic-alliance",
+      "published": "Thu, 30 Oct 2025 12:06:00 +0000",
+      "source": "Stability AI",
+      "summary": "Universal Music Group and Stability AI today announced a strategic alliance \nto develop next-generation professional music creation tools, powered by \nresponsibly trained generative AI and built to su"
+    },
+    {
+      "title": "Project Genie: Experimenting with infinite, interactive worlds",
+      "link": "https://deepmind.google/blog/project-genie-experimenting-with-infinite-interactive-worlds/",
+      "published": "Thu, 29 Jan 2026 17:01:05 +0000",
+      "source": "Google DeepMind",
+      "summary": "Google AI Ultra subscribers in the U.S. can try out Project Genie, an experimental research prototype that lets you create and explore worlds."
+    },
+    {
+      "title": "Reward Hacking in Reinforcement Learning",
+      "link": "https://lilianweng.github.io/posts/2024-11-28-reward-hacking/",
+      "published": "Thu, 28 Nov 2024 00:00:00 +0000",
+      "source": "Lil'Log (OpenAI Research)",
+      "summary": "<p>Reward hacking occurs when a <a href=\"https://lilianweng.github.io/(https:/lilianweng.github.io/posts/2018-02-19-rl-overview/)\">reinforcement learning (RL)</a> agent <a href=\"https://lilianweng.git"
+    },
+    {
+      "title": "Google and the Massachusetts AI Hub are launching a new AI training initiative for the Commonwealth.",
+      "link": "https://blog.google/company-news/outreach-and-initiatives/grow-with-google/google-ai-training-massachusetts-residents/",
+      "published": "Thu, 26 Feb 2026 18:55:00 +0000",
+      "source": "Google AI Blog",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/691A1377_1920x1080.max-600x600.format-webp.webp\" />Google is partnering with the Massachusetts AI Hub to provide every Baystat"
+    },
+    {
+      "title": "Get more context and understand translations more deeply with new AI-powered updates in Translate.",
+      "link": "https://blog.google/products-and-platforms/products/translate/translation-context-ai-update/",
+      "published": "Thu, 26 Feb 2026 18:00:00 +0000",
+      "source": "Google AI Blog",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Translate_TextTranslate_1920x10.max-600x600.format-webp.webp\" />New alternatives, “understand” and “ask” buttons in Google Tra"
+    },
+    {
+      "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
+      "link": "https://deepmind.google/blog/nano-banana-2-combining-pro-capabilities-with-lightning-fast-speed/",
+      "published": "Thu, 26 Feb 2026 16:01:50 +0000",
+      "source": "Google DeepMind",
+      "summary": "Our latest image generation model offers advanced world knowledge, production ready specs, subject consistency and more, all at Flash speed."
+    },
+    {
+      "title": "Nano Banana 2: Combining Pro capabilities with lightning-fast speed",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/nano-banana-2/",
+      "published": "Thu, 26 Feb 2026 16:00:00 +0000",
+      "source": "Google AI Blog",
+      "summary": "Nano Banana 2 text with AI generated images around it"
+    },
+    {
+      "title": "Build with Nano Banana 2, our best image generation and editing model",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-nano-banana-2/",
+      "published": "Thu, 26 Feb 2026 16:00:00 +0000",
+      "source": "Google AI Blog",
+      "summary": "Build with Nano Banana 2"
+    },
+    {
+      "title": "Mixture of Experts (MoEs) in Transformers",
+      "link": "https://huggingface.co/blog/moe-transformers",
+      "published": "Thu, 26 Feb 2026 00:00:00 GMT",
+      "source": "Hugging Face Blog",
+      "summary": ""
+    },
+    {
+      "title": "Stability AI and EA Partner to Empower Artists, Designers, and Developers to Reimagine Game Development",
+      "link": "https://stability.ai/news/stability-ai-and-ea-partner-to-reimagine-game-development",
+      "published": "Thu, 23 Oct 2025 16:01:48 +0000",
+      "source": "Stability AI",
+      "summary": "Stability AI and Electronic Arts (EA) have formed a strategic partnership \nto co-develop transformative generative AI models, tools, and workflows \nthat empower EA’s artists, designers, and developers"
+    },
+    {
+      "title": "Gemini 3.1 Pro: A smarter model for your most complex tasks",
+      "link": "https://deepmind.google/blog/gemini-3-1-pro-a-smarter-model-for-your-most-complex-tasks/",
+      "published": "Thu, 19 Feb 2026 16:06:14 +0000",
+      "source": "Google DeepMind",
+      "summary": "3.1 Pro is designed for tasks where a simple answer isn’t enough."
+    },
+    {
+      "title": "Stability AI Brings Image Services to Amazon Bedrock, Delivering End-to-End Creative Control with Enterprise-Grade Infrastructure",
+      "link": "https://stability.ai/news/stability-ai-brings-image-services-to-amazon-bedrock-delivering-professional-creative-control-with-enterprise-grade-infrastructure",
+      "published": "Thu, 18 Sep 2025 21:03:08 +0000",
+      "source": "Stability AI",
+      "summary": "Today, we're excited to announce we’re expanding our partnership with \nAmazon Web Services to bring our Stable Image Services to Amazon Bedrock."
+    },
+    {
+      "title": "Gemini 3 Deep Think: Advancing science, research and engineering",
+      "link": "https://deepmind.google/blog/gemini-3-deep-think-advancing-science-research-and-engineering/",
+      "published": "Thu, 12 Feb 2026 16:15:09 +0000",
+      "source": "Google DeepMind",
+      "summary": "Our most specialized reasoning mode is now updated to solve modern science, research and engineering challenges."
+    },
+    {
+      "title": "OpenEnv in Practice: Evaluating Tool-Using Agents in Real-World Environments",
+      "link": "https://huggingface.co/blog/openenv-turing",
+      "published": "Thu, 12 Feb 2026 00:00:00 GMT",
+      "source": "Hugging Face Blog",
+      "summary": ""
+    },
+    {
+      "title": "Ask a Techspert: How does AI understand my visual searches?",
+      "link": "https://blog.google/company-news/inside-google/googlers/how-google-ai-visual-search-works/",
+      "published": "Thu, 05 Mar 2026 18:00:00 +0000",
+      "source": "Google AI Blog",
+      "summary": "Mobile phone with a search bar that says \"Ask anything\""
+    },
+    {
+      "title": "The latest AI news we announced in February",
+      "link": "https://blog.google/innovation-and-ai/products/google-ai-updates-february-2026/",
+      "published": "Thu, 05 Mar 2026 16:30:00 +0000",
+      "source": "Google AI Blog",
+      "summary": "an MP4 of a carousel with images reading \"Gemini 3.1 Pro\" and \"Nano Banana 2\""
+    },
+    {
+      "title": "Bringing Robotics AI to Embedded Platforms: Dataset Recording, VLA Fine‑Tuning, and On‑Device Optimizations",
+      "link": "https://huggingface.co/blog/nxp/bringing-robotics-ai-to-embedded-platforms",
+      "published": "Thu, 05 Mar 2026 14:16:49 GMT",
+      "source": "Hugging Face Blog",
+      "summary": ""
+    },
+    {
+      "title": "GPT-5.4 Thinking System Card",
+      "link": "https://openai.com/index/gpt-5-4-thinking-system-card",
+      "published": "Thu, 05 Mar 2026 10:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": ""
+    },
+    {
+      "title": "Introducing GPT-5.4",
+      "link": "https://openai.com/index/introducing-gpt-5-4",
+      "published": "Thu, 05 Mar 2026 10:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context."
+    },
+    {
+      "title": "Reasoning models struggle to control their chains of thought, and that’s good",
+      "link": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
+      "published": "Thu, 05 Mar 2026 10:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard."
+    },
+    {
+      "title": "Ensuring AI use in education leads to opportunity",
+      "link": "https://openai.com/index/ai-education-opportunity",
+      "published": "Thu, 05 Mar 2026 09:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI shares new tools, certifications, and measurement resources to help schools and universities close AI capability gaps and expand opportunity."
+    },
+    {
+      "title": "Introducing Modular Diffusers - Composable Building Blocks for Diffusion Pipelines",
+      "link": "https://huggingface.co/blog/modular-diffusers",
+      "published": "Thu, 05 Mar 2026 00:00:00 GMT",
+      "source": "Hugging Face Blog",
+      "summary": ""
+    },
+    {
+      "title": "Introducing ChatGPT for Excel and new financial data integrations",
+      "link": "https://openai.com/index/chatgpt-for-excel",
+      "published": "Thu, 05 Mar 2026 00:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments."
+    },
+    {
+      "title": "The five AI value models driving business reinvention",
+      "link": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
+      "published": "Thu, 05 Mar 2026 00:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "Five AI value models show how leaders can sequence AI from workforce fluency to process reinvention and build durable business advantage."
+    },
+    {
+      "title": "Introducing the Adoption news channel",
+      "link": "https://openai.com/index/introducing-the-adoption-news-channel",
+      "published": "Thu, 05 Mar 2026 00:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "Practical insights and frameworks to turn AI progress into business advantage"
+    },
+    {
+      "title": "Why We Think",
+      "link": "https://lilianweng.github.io/posts/2025-05-01-thinking/",
+      "published": "Thu, 01 May 2025 00:00:00 +0000",
+      "source": "Lil'Log (OpenAI Research)",
+      "summary": "<p><span class=\"update\">Special thanks to <a href=\"https://scholar.google.com/citations?user=itSa94cAAAAJ&amp;hl=en\">John Schulman</a> for a lot of super valuable feedback and direct edits on this pos"
+    },
+    {
+      "title": "Extrinsic Hallucinations in LLMs",
+      "link": "https://lilianweng.github.io/posts/2024-07-07-hallucination/",
+      "published": "Sun, 07 Jul 2024 00:00:00 +0000",
+      "source": "Lil'Log (OpenAI Research)",
+      "summary": "<p>Hallucination in large language models usually refers to the model generating unfaithful, fabricated, inconsistent, or nonsensical content. As a term, hallucination has been somewhat generalized to"
+    },
+    {
+      "title": "Accelerating Mathematical and Scientific Discovery with Gemini Deep Think",
+      "link": "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/",
+      "published": "Mon, 09 Feb 2026 16:12:06 +0000",
+      "source": "Google DeepMind",
+      "summary": "Research papers point to the growing impact of Deep Think across fields"
+    },
+    {
+      "title": "Thinking about High-Quality Human Data",
+      "link": "https://lilianweng.github.io/posts/2024-02-05-human-data-quality/",
+      "published": "Mon, 05 Feb 2024 00:00:00 +0000",
+      "source": "Lil'Log (OpenAI Research)",
+      "summary": "<p><span class=\"update\">[Special thank you to <a href=\"https://scholar.google.com/citations?user=FRBObOwAAAAJ&amp;hl=en\">Ian Kivlichan</a> for many useful pointers (E.g. the 100+ year old Nature paper"
+    },
+    {
+      "title": "Stability AI Achieves SOC 2 Type II and SOC 3 Compliance, Reaching New Industry Standard for Enterprise-Grade Security",
+      "link": "https://stability.ai/news/stability-ai-achieves-soc-2-type-ii-and-soc-3-compliance",
+      "published": "Mon, 04 Aug 2025 20:03:04 +0000",
+      "source": "Stability AI",
+      "summary": "Stability AI has achieved SOC 2 Type II and SOC 3 compliance, which \nvalidates our security controls and data protection practices through \nrigorous third-party auditing."
+    },
+    {
+      "title": "The Transformer Family Version 2.0",
+      "link": "https://lilianweng.github.io/posts/2023-01-27-the-transformer-family-v2/",
+      "published": "Fri, 27 Jan 2023 00:00:00 +0000",
+      "source": "Lil'Log (OpenAI Research)",
+      "summary": "<p>Many new Transformer architecture improvements have been proposed since my last post on <a href=\"https://lilianweng.github.io/posts/2020-04-07-the-transformer-family/\"><ins>&ldquo;The Transformer F"
+    }
+  ],
+  "OpenAI Blog": [],
+  "Google DeepMind": [],
+  "Google AI Blog": [],
+  "Hugging Face Blog": [],
+  "Stability AI": [],
+  "arXiv AI": [],
+  "arXiv Machine Learning": [],
+  "Lil'Log (OpenAI Research)": [],
+  "Simon Willison's Blog": [],
+  "Synced (机器之心)": [],
+  "🌐 Tech Communities": [
+    {
+      "title": "我滴妈，这玩意能加速Claude？？？",
+      "link": "https://linux.do/t/topic/1705827",
+      "published": "Sat, 07 Mar 2026 15:34:03 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://linux.do/uploads/default/original/4X/f/7/d/f7daa3c4f7e07d1917402b7f89a47c2312fd5d6d.jpeg\" title=\"4d5550814a0425355250077113cc276\""
+    },
+    {
+      "title": "关于ETH的一个小问题",
+      "link": "https://linux.do/t/topic/1705826",
+      "published": "Sat, 07 Mar 2026 15:34:00 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "<p></p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://linux.do/uploads/default/original/4X/8/c/d/8cdf507f7d6563b30c8f661bc987a7de9fcee0b2.png\" title=\"截屏2026-03-07 23.31.52\"><img alt=\""
+    },
+    {
+      "title": "关于上个免费接码帖子的相关问题解释说明",
+      "link": "https://linux.do/t/topic/1705824",
+      "published": "Sat, 07 Mar 2026 15:33:08 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "<p>作为新人，被各位佬友的接码需求吓到了，一时间手忙脚乱，没做好准备，中间也紧急删贴修改，限额前5位，前四位已经取得联系，第五位还没来的及联系，私信被限制了。</p>\n<p>感谢各位佬友的捧场，如果实在需要tg号，可以去maitg买一个，几块钱就可以买一个，我就是在那里买的。</p>\n<p><a class=\"mention\" href=\"https://linux.do/u/hayes\">@H"
+    },
+    {
+      "title": "模力方舟的Qwen3-Embedding-8B不能用了吗？",
+      "link": "https://linux.do/t/topic/1705819",
+      "published": "Sat, 07 Mar 2026 15:31:15 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "<p>模力方舟的Qwen3-Embedding-8B不能用了吗？<br />\n好在最近几天都请求超时了捏</p>\n            <p><small>1 个帖子 - 1 位参与者</small></p>\n            <p><a href=\"https://linux.do/t/topic/1705819\">阅读完整话题</a></p>"
+    },
+    {
+      "title": "有点想装arch",
+      "link": "https://linux.do/t/topic/1705812",
+      "published": "Sat, 07 Mar 2026 15:29:45 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "<p>前段时间看各种archlinux的美化 干净的桌面 有点心动 想给我笔记本装个系统<br />\n想问问佬们日用软件arch都能覆盖吗 目前的想法是装双系统 一个盘arch 一个盘windows arch日用和开发 windows打游戏<br />\n还有好像n卡对linux的支持不太好</p>\n            <p><small>1 个帖子 - 1 位参与者</small></p>\n "
+    },
+    {
+      "title": "win10还是win11",
+      "link": "https://linux.do/t/topic/1705810",
+      "published": "Sat, 07 Mar 2026 15:28:11 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "<p>佬们现在win11好用吗？推荐升级吗？</p>\n            <p><small>8 个帖子 - 8 位参与者</small></p>\n            <p><a href=\"https://linux.do/t/topic/1705810\">阅读完整话题</a></p>"
+    },
+    {
+      "title": "杀戮尖塔爬不动了",
+      "link": "https://linux.do/t/topic/1705804",
+      "published": "Sat, 07 Mar 2026 15:26:39 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "<p>小菜鸟好不容易玩的比较顺手，眼看被这蜈蚣给搞死了 <img alt=\":smiling_face_with_tear:\" class=\"emoji\" height=\"20\" src=\"https://linux.do/images/emoji/twemoji/smiling_face_with_tear.png?v=15\" title=\":smiling_face_with_tear:\" w"
+    },
+    {
+      "title": "ColorOS和澎湃OS",
+      "link": "https://linux.do/t/topic/1705803",
+      "published": "Sat, 07 Mar 2026 15:26:35 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "<p>想换个9000毫安大手机 2026年是选ColorOS还是继续坚持澎湃OS</p>\n<p>妥妥用一天<img alt=\":smiling_face_with_three_hearts:\" class=\"emoji\" height=\"20\" src=\"https://linux.do/images/emoji/twemoji/smiling_face_with_three_hearts.png"
+    },
+    {
+      "title": "OpenAI为开源项目开发者免费提供半年ChatGPT-Pro订阅",
+      "link": "https://linux.do/t/topic/1705802",
+      "published": "Sat, 07 Mar 2026 15:26:00 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "<p>OpenAI为开源项目开发者免费提供半年ChatGPT-Pro订阅：<a href=\"https://openai.com/form/codex-for-oss/\" rel=\"noopener nofollow ugc\">https://openai.com/form/codex-for-oss/</a></p>\n            <p><small>2 个帖子 - 2 位参与者</s"
+    },
+    {
+      "title": "推荐一款宝藏App一一安心舍，你的专属心灵疗愈空间！AI 算命",
+      "link": "https://linux.do/t/topic/1705800",
+      "published": "Sat, 07 Mar 2026 15:25:46 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "<p>你是不是偶尔会觉得生活压力大、情感无处说，又或者在人生路口迷茫彷徨？来试试“蘑菇喵世界”吧！这里有一只最懂治愈的蘑菇猫咪“小安”，用最温柔的方式陪伴你，帮你分析问题、占卜娱乐，还有专业导师为你专属解答。</p>\n<p>【创始人介绍】<br />\n图灵子（安心舍创始人）——剑桥/AI+国学创业者</p>\n<p>基本信息</p>\n<p>• 姓名：图灵子（网名）</p>\n<p>• 教育：剑桥本硕、"
+    },
+    {
+      "title": "Tech Layoffs Are Not About AI: An Insider View from a Former Amazon Manager [video]",
+      "link": "https://www.youtube.com/watch?v=uyCcgG4nm90",
+      "published": "Sat, 07 Mar 2026 15:20:54 +0000",
+      "source": "Hacker News AI",
+      "summary": "<p>Article URL: <a href=\"https://www.youtube.com/watch?v=uyCcgG4nm90\">https://www.youtube.com/watch?v=uyCcgG4nm90</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47288417\">https"
+    },
+    {
+      "title": "AI Accelerator Open-source platform for running AI systems in production",
+      "link": "https://pypi.org/project/ai-accelerator/",
+      "published": "Sat, 07 Mar 2026 15:03:08 +0000",
+      "source": "Hacker News AI",
+      "summary": "<p>Article URL: <a href=\"https://pypi.org/project/ai-accelerator/\">https://pypi.org/project/ai-accelerator/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47288251\">https://new"
+    },
+    {
+      "title": "Why the AI Discourse Cannot Ask Who Bears the Cost of Automation",
+      "link": "https://eventuallymarching.substack.com/p/the-last-rung",
+      "published": "Sat, 07 Mar 2026 14:41:00 +0000",
+      "source": "Hacker News AI",
+      "summary": "<p>Article URL: <a href=\"https://eventuallymarching.substack.com/p/the-last-rung\">https://eventuallymarching.substack.com/p/the-last-rung</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com"
+    },
+    {
+      "title": "LLM Doesn't Write Correct Code. It Writes Plausible Code",
+      "link": "https://twitter.com/KatanaLarp/status/2029928471632224486",
+      "published": "Sat, 07 Mar 2026 14:38:29 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "<p>Article URL: <a href=\"https://twitter.com/KatanaLarp/status/2029928471632224486\">https://twitter.com/KatanaLarp/status/2029928471632224486</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator"
+    },
+    {
+      "title": "LLM Doesn't Write Correct Code. It Writes Plausible Code",
+      "link": "https://twitter.com/KatanaLarp/status/2029928471632224486",
+      "published": "Sat, 07 Mar 2026 14:38:29 +0000",
+      "source": "Hacker News LLM",
+      "summary": "<p>Article URL: <a href=\"https://twitter.com/KatanaLarp/status/2029928471632224486\">https://twitter.com/KatanaLarp/status/2029928471632224486</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator"
+    },
+    {
+      "title": "AI will fuck you up if you're not on board",
+      "link": "https://rmoff.net/2026/03/06/ai-will-fuck-you-up-if-youre-not-on-board/",
+      "published": "Sat, 07 Mar 2026 14:34:47 +0000",
+      "source": "Hacker News AI",
+      "summary": "<p>Article URL: <a href=\"https://rmoff.net/2026/03/06/ai-will-fuck-you-up-if-youre-not-on-board/\">https://rmoff.net/2026/03/06/ai-will-fuck-you-up-if-youre-not-on-board/</a></p>\n<p>Comments URL: <a hr"
+    },
+    {
+      "title": "Show HN: ANSI-Saver – A macOS Screensaver",
+      "link": "https://github.com/lardissone/ansi-saver",
+      "published": "Sat, 07 Mar 2026 14:34:16 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "<p>Hi, I've been working on something I've been thinking for long time but since I had no experience with macOS screen savers I always posponed. Now thanks to Claude I was able to create a screensaver"
+    },
+    {
+      "title": "Show HN: RankClaw – AI-audited all 14,706 OpenClaw skills; 1,103 are malicious",
+      "link": "https://rankclaw.com",
+      "published": "Sat, 07 Mar 2026 14:32:26 +0000",
+      "source": "Hacker News AI",
+      "summary": "<p>RankClaw (rankclaw.com) is a security scanner for AI agent skills — the OpenClaw/ClawHub ecosystem\nthat extends Claude-based agents with file, web, and shell access.<p>Data:\n- 14,706 skills indexed"
+    },
+    {
+      "title": "AI Use at Work Is Causing Brain Fry, Researchers Find, Esp Among High Performers",
+      "link": "https://futurism.com/artificial-intelligence/ai-brain-fry",
+      "published": "Sat, 07 Mar 2026 14:32:25 +0000",
+      "source": "Hacker News AI",
+      "summary": "<p>Article URL: <a href=\"https://futurism.com/artificial-intelligence/ai-brain-fry\">https://futurism.com/artificial-intelligence/ai-brain-fry</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator"
+    },
+    {
+      "title": "Pentagon Refuses to Say If AI Was Used to Bomb Elementary School",
+      "link": "https://futurism.com/artificial-intelligence/pentagon-ai-claude-bombing-elementary-school",
+      "published": "Sat, 07 Mar 2026 14:12:07 +0000",
+      "source": "Hacker News AI",
+      "summary": "<p>Article URL: <a href=\"https://futurism.com/artificial-intelligence/pentagon-ai-claude-bombing-elementary-school\">https://futurism.com/artificial-intelligence/pentagon-ai-claude-bombing-elementary-s"
+    },
+    {
+      "title": "PC processors entered the Gigahertz era today in the year 2000 with AMD's Athlon",
+      "link": "https://www.tomshardware.com/pc-components/cpus/pc-processors-entered-the-gigahertz-era-today-in-the-year-2000-with-amds-athlon-amd-hit-marketing-gold-with-its-1-ghz-athlon-beat-intel-by-a-nose",
+      "published": "Sat, 07 Mar 2026 14:10:17 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "<p>Article URL: <a href=\"https://www.tomshardware.com/pc-components/cpus/pc-processors-entered-the-gigahertz-era-today-in-the-year-2000-with-amds-athlon-amd-hit-marketing-gold-with-its-1-ghz-athlon-be"
+    },
+    {
+      "title": "Show HN: Zodex – AI Coding Environment",
+      "link": "https://zodex.dev",
+      "published": "Sat, 07 Mar 2026 14:08:15 +0000",
+      "source": "Hacker News AI",
+      "summary": "<p>Article URL: <a href=\"https://zodex.dev\">https://zodex.dev</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47287775\">https://news.ycombinator.com/item?id=47287775</a></p>\n<p>"
+    },
+    {
+      "title": "AI Tooling for Software Engineers in 2026",
+      "link": "https://newsletter.pragmaticengineer.com/p/ai-tooling-2026",
+      "published": "Sat, 07 Mar 2026 14:04:55 +0000",
+      "source": "Hacker News AI",
+      "summary": "<p>Article URL: <a href=\"https://newsletter.pragmaticengineer.com/p/ai-tooling-2026\">https://newsletter.pragmaticengineer.com/p/ai-tooling-2026</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinat"
+    },
+    {
+      "title": "I'm 17 and built an AI that generates GitHub READMEs from any repo URL",
+      "link": "https://www.wabio.xyz/",
+      "published": "Sat, 07 Mar 2026 14:04:16 +0000",
+      "source": "Hacker News AI",
+      "summary": "<p>Article URL: <a href=\"https://www.wabio.xyz/\">https://www.wabio.xyz/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47287738\">https://news.ycombinator.com/item?id=47287738</"
+    },
+    {
+      "title": "Show HN: Brf.it – Extracting code interfaces for LLM context",
+      "link": "https://news.ycombinator.com/item?id=47287720",
+      "published": "Sat, 07 Mar 2026 14:02:42 +0000",
+      "source": "Hacker News LLM",
+      "summary": "<p>I've been experimenting with ways to make AI coding assistants more efficient when working with large codebases.<p>The problem<p>When sharing repository context with LLMs, we often give them everyt"
+    },
+    {
+      "title": "Show HN: Smelt – Extract structured data from PDFs and HTML using LLM",
+      "link": "https://github.com/akdavidsson/smelt",
+      "published": "Sat, 07 Mar 2026 13:18:01 +0000",
+      "source": "Hacker News LLM",
+      "summary": "<p>I built a CLI tool in Go that extracts structured data (JSON, CSV, Parquet) from messy PDFs and HTML pages.<p>The core idea: LLMs are great at understanding structure but wasteful for bulk data ext"
+    },
+    {
+      "title": "The Case of the Disappearing Secretary",
+      "link": "https://rowlandmanthorpe.substack.com/p/the-case-of-the-disappearing-secretary",
+      "published": "Sat, 07 Mar 2026 13:13:22 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "<p>Article URL: <a href=\"https://rowlandmanthorpe.substack.com/p/the-case-of-the-disappearing-secretary\">https://rowlandmanthorpe.substack.com/p/the-case-of-the-disappearing-secretary</a></p>\n<p>Comme"
+    },
+    {
+      "title": "The yoghurt delivery women combatting loneliness in Japan",
+      "link": "https://www.bbc.com/travel/article/20260302-the-yoghurt-delivery-women-combatting-loneliness-in-japan",
+      "published": "Sat, 07 Mar 2026 13:12:40 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "<p>Article URL: <a href=\"https://www.bbc.com/travel/article/20260302-the-yoghurt-delivery-women-combatting-loneliness-in-japan\">https://www.bbc.com/travel/article/20260302-the-yoghurt-delivery-women-c"
+    },
+    {
+      "title": "US economy sheds 92,000 jobs in February in sharp slide",
+      "link": "https://www.ft.com/content/6542bd0c-59ca-493b-ab5d-2d69e4e00cae",
+      "published": "Sat, 07 Mar 2026 12:13:04 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "<p>Article URL: <a href=\"https://www.ft.com/content/6542bd0c-59ca-493b-ab5d-2d69e4e00cae\">https://www.ft.com/content/6542bd0c-59ca-493b-ab5d-2d69e4e00cae</a></p>\n<p>Comments URL: <a href=\"https://news"
+    },
+    {
+      "title": "Filesystems Are Having a Moment",
+      "link": "https://madalitso.me/notes/why-everyone-is-talking-about-filesystems/",
+      "published": "Sat, 07 Mar 2026 10:48:43 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "<p>Article URL: <a href=\"https://madalitso.me/notes/why-everyone-is-talking-about-filesystems/\">https://madalitso.me/notes/why-everyone-is-talking-about-filesystems/</a></p>\n<p>Comments URL: <a href=\""
+    },
+    {
+      "title": "Ki Editor - an editor that operates on the AST",
+      "link": "https://ki-editor.org/",
+      "published": "Sat, 07 Mar 2026 10:29:13 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "<p>Article URL: <a href=\"https://ki-editor.org/\">https://ki-editor.org/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47286311\">https://news.ycombinator.com/item?id=47286311</"
+    },
+    {
+      "title": "Show HN: RedDragon, LLM-assisted IR analysis of code across languages",
+      "link": "https://github.com/avishek-sen-gupta/red-dragon",
+      "published": "Sat, 07 Mar 2026 10:15:15 +0000",
+      "source": "Hacker News LLM",
+      "summary": "<p>RedDragon is an experiment in building a compiler pipeline that analyses code (malformed / without dependencies / unknown language) across ~15 languages through a single 27-opcode IR, with LLM fall"
+    },
+    {
+      "title": "Show HN: Elia – Governed hybrid architecture (LLM is capability, not authority)",
+      "link": "https://github.com/Jmc-arch/elia-governed-hybrid-architecture",
+      "published": "Sat, 07 Mar 2026 09:47:09 +0000",
+      "source": "Hacker News LLM",
+      "summary": "<p>Hi everyone,<p>Elia: governed hybrid neuro-symbolic architecture where neural intelligence is a capability, never the authority.<p>Symbolic governance always in charge — LLMs are optional & validat"
+    },
+    {
+      "title": "Boy I was wrong about the Fediverse",
+      "link": "https://matduggan.com/boy-i-was-wrong-about-the-fediverse/",
+      "published": "Sat, 07 Mar 2026 09:45:58 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "<p>Article URL: <a href=\"https://matduggan.com/boy-i-was-wrong-about-the-fediverse/\">https://matduggan.com/boy-i-was-wrong-about-the-fediverse/</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinat"
+    },
+    {
+      "title": "Uploading Pirated Books via BitTorrent Qualifies as Fair Use, Meta Argues",
+      "link": "https://torrentfreak.com/uploading-pirated-books-via-bittorrent-qualifies-as-fair-use-meta/",
+      "published": "Sat, 07 Mar 2026 09:18:40 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "<p>Article URL: <a href=\"https://torrentfreak.com/uploading-pirated-books-via-bittorrent-qualifies-as-fair-use-meta/\">https://torrentfreak.com/uploading-pirated-books-via-bittorrent-qualifies-as-fair-"
+    },
+    {
+      "title": "Show HN: glide – LLM cascade proxy, auto-switches models before timeout",
+      "link": "https://github.com/phanisaimunipalli/glide",
+      "published": "Sat, 07 Mar 2026 07:46:16 +0000",
+      "source": "Hacker News LLM",
+      "summary": "<p>Article URL: <a href=\"https://github.com/phanisaimunipalli/glide\">https://github.com/phanisaimunipalli/glide</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47285435\">https:/"
+    },
+    {
+      "title": "Sarvam 105B, the first competitive Indian open source LLM",
+      "link": "https://www.sarvam.ai/blogs/sarvam-30b-105b",
+      "published": "Sat, 07 Mar 2026 07:43:57 +0000",
+      "source": "Hacker News LLM",
+      "summary": "<p>Article URL: <a href=\"https://www.sarvam.ai/blogs/sarvam-30b-105b\">https://www.sarvam.ai/blogs/sarvam-30b-105b</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47285422\">https"
+    },
+    {
+      "title": "LLM Doesn't Write Correct Code. It Writes Plausible Code",
+      "link": "https://twitter.com/katanalarp/status/2029928471632224486",
+      "published": "Sat, 07 Mar 2026 06:17:30 +0000",
+      "source": "Hacker News LLM",
+      "summary": "<p>Article URL: <a href=\"https://twitter.com/katanalarp/status/2029928471632224486\">https://twitter.com/katanalarp/status/2029928471632224486</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator"
+    },
+    {
+      "title": "Show HN: Quantum-PULSE – compress-then-encrypt vault for LLM training data",
+      "link": "https://github.com/Naveenub/quantum-pulse",
+      "published": "Sat, 07 Mar 2026 05:20:58 +0000",
+      "source": "Hacker News LLM",
+      "summary": "<p>Article URL: <a href=\"https://github.com/Naveenub/quantum-pulse\">https://github.com/Naveenub/quantum-pulse</a></p>\n<p>Comments URL: <a href=\"https://news.ycombinator.com/item?id=47284742\">https://n"
+    },
+    {
+      "title": "FASTEST LLM decode engine on Apple Silicon. 658 tok/s on M4-Max,beats MLX by 19%",
+      "link": "https://www.runanywhere.ai/blog/metalrt-fastest-llm-decode-engine-apple-silicon",
+      "published": "Sat, 07 Mar 2026 01:39:58 +0000",
+      "source": "Hacker News LLM",
+      "summary": "<p>Article URL: <a href=\"https://www.runanywhere.ai/blog/metalrt-fastest-llm-decode-engine-apple-silicon\">https://www.runanywhere.ai/blog/metalrt-fastest-llm-decode-engine-apple-silicon</a></p>\n<p>Com"
+    },
+    {
+      "title": "一个给 AI Agent 用的事实总线",
+      "link": "https://www.v2ex.com/t/1196546#reply4",
+      "published": "2026-03-07T13:45:10Z",
+      "source": "V2EX - 技术",
+      "summary": "<p>最近构思了一个小项目，叫 <strong>Claw Fact Bus</strong>。</p>\n<p>核心想法其实很简单：</p>\n<blockquote>\n<p><strong>让 AI Agent 围绕「事实（ Fact ）」协作，而不是围绕「命令（ Command ）」协作。</strong></p>\n</blockquote>\n<hr />\n<h2>多 Agent 系统常见的问题<"
+    },
+    {
+      "title": "我浏览器登录 ChatGPT 导出聊天数据不好使了，你们那还好使吗？",
+      "link": "https://www.v2ex.com/t/1196529#reply0",
+      "published": "2026-03-07T10:30:35Z",
+      "source": "V2EX - 技术",
+      "summary": "<p>原来是 ChatGPT 给注册邮箱发个链接，点击就能下载，现在是发个邮件通知我正在准备数据 等准备好会再次发送下载链接，然后就没有然后了</p>"
+    },
+    {
+      "title": "为了规避苹果审核 4.3，我开发了一个项目相似度对比工具",
+      "link": "https://www.v2ex.com/t/1196527#reply5",
+      "published": "2026-03-07T09:46:51Z",
+      "source": "V2EX - 技术",
+      "summary": "主要实现是 python 实现的，可以列出 2 个项目之间相同的类，方法，属性等等，相同的资源等等"
+    },
+    {
+      "title": "请教自建 DNS 的协议选择 DoH vs DoT vs DoQ vs Raw UDP/TCP",
+      "link": "https://www.v2ex.com/t/1196484#reply6",
+      "published": "2026-03-07T04:20:00Z",
+      "source": "V2EX - 技术",
+      "summary": "走 Real-IP 后被 DNS 搞魔怔了。<br /><br />目前自建了远端 DNS server ，所有的 DNS 请求都会走代理协议。主要走 UDP 代理协议，不稳的时候考虑切 TCP 。<br /><br />最开始为了最低延迟，选择了用原生 UDP 的 DNS ，也就是 UDP over UDP 的 dns 请求。但是 AI 说如果我哪天切 tcp 的代理协议代理走 udp dns "
+    },
+    {
+      "title": "claude code 使用哪家国内 api 靠谱",
+      "link": "https://www.v2ex.com/t/1196478#reply39",
+      "published": "2026-03-07T03:52:02Z",
+      "source": "V2EX - 技术",
+      "summary": "之前一直使用 google play 订阅 claude code ，已经习惯了 claude code 的使用方式，但是最近已经连续被封了三四个账号了，不想再折腾了，打算直接用国内的编程套餐了，看了一圈，好像大家对 GLM5 的评价稍好，但是最近 glm 的编程套餐已经限购了，一直买不到，大家还有其他曲线救国的方式么？"
+    },
+    {
+      "title": "当年马云回来，阿里进行 6+N+1,现在如何了",
+      "link": "https://www.v2ex.com/t/1196472#reply0",
+      "published": "2026-03-07T03:14:01Z",
+      "source": "V2EX - 技术",
+      "summary": "<p>当年马云回国，没多久阿里开始 6+N+1 ，后面是不是取消了，再次合并成一个公司？\n据说当时的乌鸫科技的员工变成正式员工了？</p>"
+    },
+    {
+      "title": "最新 ClaudeCode 用 GLM 还是只要这 4 个环境变量吗",
+      "link": "https://www.v2ex.com/t/1196467#reply5",
+      "published": "2026-03-07T03:01:04Z",
+      "source": "V2EX - 技术",
+      "summary": "ANTHROPIC_BASE_URL<br />ANTHROPIC_AUTH_TOKEN<br />ANTHROPIC_MODEL<br />ANTHROPIC_SMALL_FAST_MODEL"
+    },
+    {
+      "title": "简单体验了一下 openClaw，说说自己的看法",
+      "link": "https://www.v2ex.com/t/1196394#reply21",
+      "published": "2026-03-06T10:37:20Z",
+      "source": "V2EX - 技术",
+      "summary": "最近 OpenClaw 火的有点过于夸张了，楼主这边跟风体验，简单说说自己的认识。<br /><br /><br /><br />0.很多人宣传的是飞书里一句话，AI 就可以帮你搞定一切？这个执行手段确实很新颖，但是正如站内有些朋友说的，很多时候你连远程开 claudeCode 也能实现类似的效果。个人认为这种更亲切的执行方式主要会更受大众喜爱，更加的“接地气”<br /><br /><br />"
+    },
+    {
+      "title": "2026 年 PHP 路在何方",
+      "link": "https://www.v2ex.com/t/1196334#reply42",
+      "published": "2026-03-06T07:07:55Z",
+      "source": "V2EX - 技术",
+      "summary": ""
+    },
+    {
+      "title": "让 Claude Code 汇报工作时用上魔兽 3 兽族农民的配音",
+      "link": "https://www.v2ex.com/t/1192541#reply72",
+      "published": "2026-02-12T11:37:22Z",
+      "source": "V2EX - 技术",
+      "summary": "<a href=\"https://peon-ping.vercel.app/\" rel=\"nofollow noopener\" target=\"_blank\">https://peon-ping.vercel.app/</a>"
+    }
+  ],
+  "Hacker News Front Page": [],
+  "Hacker News AI": [],
+  "Hacker News LLM": [],
+  "V2EX - 技术": [],
+  "LinuxDo Latest": [],
+  "📰 Tech News": [
+    {
+      "title": "Bridging the operational AI gap",
+      "link": "https://www.technologyreview.com/2026/03/04/1133642/bridging-the-operational-ai-gap/",
+      "published": "Wed, 04 Mar 2026 14:00:00 +0000",
+      "source": "MIT Technology Review",
+      "summary": "The transformational potential of AI is already well established. Enterprise use cases are building momentum and organizations are transitioning from pilot projects to AI in production. Companies are "
+    },
+    {
+      "title": "The Download: Earth’s rumblings, and AI for strikes on Iran",
+      "link": "https://www.technologyreview.com/2026/03/04/1133942/the-download-earths-rumblings-and-ai-for-strikes-on-iran/",
+      "published": "Wed, 04 Mar 2026 13:12:00 +0000",
+      "source": "MIT Technology Review",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Listen to Earth’s rumbling, secret soundtrack The "
+    },
+    {
+      "title": "MIT Technology Review Insiders Panel",
+      "link": "https://www.technologyreview.com/2026/03/03/1133907/mit-technology-review-insiders-panel-2/",
+      "published": "Tue, 03 Mar 2026 15:53:10 +0000",
+      "source": "MIT Technology Review",
+      "summary": ""
+    },
+    {
+      "title": "The Download: The startup that says it can stop lightning, and inside OpenAI’s Pentagon deal",
+      "link": "https://www.technologyreview.com/2026/03/03/1133900/the-download-the-startup-that-says-it-can-stop-lightning-and-inside-openais-pentagon-deal/",
+      "published": "Tue, 03 Mar 2026 13:30:00 +0000",
+      "source": "MIT Technology Review",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This startup claims it can stop lightning and prev"
+    },
+    {
+      "title": "This startup claims it can stop lightning and prevent catastrophic wildfires",
+      "link": "https://www.technologyreview.com/2026/03/03/1133848/this-startup-claims-it-can-stop-lightning-and-prevent-catastrophic-wildfires/",
+      "published": "Tue, 03 Mar 2026 10:00:00 +0000",
+      "source": "MIT Technology Review",
+      "summary": "On June 1, 2023, as a sweltering heat wave baked Quebec, thousands of lightning strikes flashed across the province, setting off more than 120 wildfires. The blazes ripped through parched forests and "
+    },
+    {
+      "title": "The Download: an AI agent’s hit piece, and preventing lightning",
+      "link": "https://www.technologyreview.com/2026/03/05/1133968/the-download-ai-agent-hit-piece-preventing-lightning/",
+      "published": "Thu, 05 Mar 2026 14:28:46 +0000",
+      "source": "MIT Technology Review",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Online harassment is entering its AI era Scott Sha"
+    },
+    {
+      "title": "How much wildfire prevention is too much?",
+      "link": "https://www.technologyreview.com/2026/03/05/1133960/wildfire-prevention-limits/",
+      "published": "Thu, 05 Mar 2026 11:00:00 +0000",
+      "source": "MIT Technology Review",
+      "summary": "The race to prevent the worst wildfires has been an increasingly high-tech one. Companies are proposing AI fire detection systems and drones that can stamp out early blazes. And now, one Canadian star"
+    },
+    {
+      "title": "Online harassment is entering its AI era",
+      "link": "https://www.technologyreview.com/2026/03/05/1133962/online-harassment-is-entering-its-ai-era/",
+      "published": "Thu, 05 Mar 2026 10:00:00 +0000",
+      "source": "MIT Technology Review",
+      "summary": "Scott Shambaugh didn’t think twice when he denied an AI agent’s request to contribute to matplotlib, a software library that he helps manage. Like many open-source projects, matplotlib has been overwh"
+    },
+    {
+      "title": "我国多家航司陆续恢复部分至中东地区航班",
+      "link": "https://www.ithome.com/0/926/879.htm",
+      "published": "Sat, 07 Mar 2026 15:11:59 GMT",
+      "source": "ITHome",
+      "summary": "<p>IT之家 3 月 7 日消息，近日，国航、东航、南航陆续发布公告：结合当前运行保障能力与地区局势，为满足广大旅客出行需求，<strong>正陆续恢复部分至中东地区航班</strong>。</p><p><strong>国航公告：</strong></p><blockquote><p style=\"text-align: start;\">尊敬的旅客：</p><p style=\"text-alig"
+    },
+    {
+      "title": "消息称 Xbox 下一代主机 Project Helix 很难低于 999 美元，但不超 1500 美元",
+      "link": "https://www.ithome.com/0/926/878.htm",
+      "published": "Sat, 07 Mar 2026 15:03:18 GMT",
+      "source": "ITHome",
+      "summary": "<p>IT之家 3 月 7 日消息，据外媒 Tech4Gamers 今日报道，Xbox 对下一代主机 Project Helix 押注很大。许多业内人士认为，如果这款主机再次遭遇市场失败，微软甚至可能彻底退出主机业务。</p><p>若要与索尼的 PlayStation 6 竞争，Project Helix 必须具备足够有吸引力的价格。但有爆料人士称，这款主机的售价很难低于 999 美元。</p><"
+    },
+    {
+      "title": "苏黎世联邦理工学院新研究：AI 已能大规模识别匿名用户真实身份",
+      "link": "https://www.ithome.com/0/926/877.htm",
+      "published": "Sat, 07 Mar 2026 14:40:20 GMT",
+      "source": "ITHome",
+      "summary": "<p>IT之家 3 月 7 日消息，长期以来，互联网用户可以通过匿名或化名账户表达观点，从而避免被人肉搜索或遭到骚扰。但随着 AI 能力迅速提升，这种匿名保护正在变得越来越脆弱。</p><p>据外媒 Futurism 今日报道，苏黎世联邦理工学院与 Anthropic 研究人员在一篇尚未经过同行评议的论文中指出，大语言模型已经具备<strong>大规模识别匿名用户真实身份</strong>的能力。"
+    },
+    {
+      "title": "全国政协委员王小龙：国产高端机床已直接用于制造大飞机、航空发动机等大国重器",
+      "link": "https://www.ithome.com/0/926/876.htm",
+      "published": "Sat, 07 Mar 2026 14:29:40 GMT",
+      "source": "ITHome",
+      "summary": "<p>IT之家 3 月 7 日消息，据央视新闻报道，今天下午，全国政协十四届四次会议第二场“委员通道”在人民大会堂举行，全国政协委员、宁夏福思泰智能装备、一工机器人总经理王小龙接受了记者采访。</p><p>王小龙介绍，以机床为代表的工业母机堪称制造之基，宁夏有良好的装备制造业基础，他和团队扎根那里近 30 年，有一个共同的目标 ——<span class=\"color-00269a\"><stron"
+    },
+    {
+      "title": "多家国外科技媒体流量暴跌逾 85%，谷歌“AI 概览”或引发媒体行业巨震",
+      "link": "https://www.ithome.com/0/926/875.htm",
+      "published": "Sat, 07 Mar 2026 13:57:59 GMT",
+      "source": "ITHome",
+      "summary": "<p>IT之家 3 月 7 日消息，据外媒 Futurism 今日报道，媒体行业正在经历一种新的冲击：媒体人并不是被 AI 取代，<strong>而是被 AI“消化”</strong>。谷歌推出的“AI 概览”功能会直接总结新闻文章，并把结果呈现在搜索页面上，让用户无需点击链接就能获取主要信息。</p><p>对用户来说，这可能只是节省了几秒钟，但对媒体来说，<strong>却是流量灾难</stro"
+    },
+    {
+      "title": "华为“零中断”光网络在全球超六十张运营商网络中部署：断纤不断网，可靠性达 99.999%",
+      "link": "https://www.ithome.com/0/926/874.htm",
+      "published": "Sat, 07 Mar 2026 13:56:02 GMT",
+      "source": "ITHome",
+      "summary": "<p>IT之家 3 月 7 日消息，在 MWC26 巴塞罗那期间，华为光传送领域总裁谷云波介绍了 2025 年华为在光网络领域围绕绿色、体验、运维等方面取得的突破性进展：</p><ul class=\" list-paddingleft-2\"><li><p>绿色高效网络：为欧洲、亚太、拉美、中东等地区的多家全球领先运营商成功完成 <strong>8000 多个传统波分（<span class=\"wx"
+    },
+    {
+      "title": "四川省脑科学与类脑智能研究院院长尧德中：我国有望 3-5 年广泛应用脑机接口技术",
+      "link": "https://www.ithome.com/0/926/873.htm",
+      "published": "Sat, 07 Mar 2026 13:30:59 GMT",
+      "source": "ITHome",
+      "summary": "<p>IT之家 3 月 7 日消息，今天晚间，据路透社报道，四川省脑科学与类脑智能研究院院长尧德中表示，随着技术不断成熟，中国的脑机接口技术有望在未来 3 至 5 年开始<strong>进入面向公众的实际应用阶段</strong>。</p><p>中国本周公布的新五年规划已将脑机接口列为重点战略产业之一，与量子技术、具身智能、6G 和核聚变等前沿领域并列。</p><p>尧德中在两会期间接受采访时表示"
+    },
+    {
+      "title": "全国政协委员张桥：身份证光学防伪技术来自苏州大学实验室，已广泛应用于众多场景",
+      "link": "https://www.ithome.com/0/926/871.htm",
+      "published": "Sat, 07 Mar 2026 13:16:38 GMT",
+      "source": "ITHome",
+      "summary": "<p>IT之家 3 月 7 日消息，据央视新闻报道，3 月 7 日下午，全国政协十四届四次会议第二场“委员通道”在人民大会堂举行，全国政协委员、苏州大学校长、农工党江苏省副主委张桥接受了记者采访。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles"
+    },
+    {
+      "title": "The WIRED Guide to Wires: How to Manage the Mess of Cables Around Your Desk",
+      "link": "https://www.wired.com/story/fix-the-dangling-wires-behind-your-desk/",
+      "published": "Sat, 07 Mar 2026 13:10:00 +0000",
+      "source": "Wired",
+      "summary": "You need to sort out that rat’s nest of cables under your desk. These cable management tips and products can help you do it."
+    },
+    {
+      "title": "长城汽车魏牌 V9X 车型 3 月 9 日全球首秀，董事长魏建军代言",
+      "link": "https://www.ithome.com/0/926/870.htm",
+      "published": "Sat, 07 Mar 2026 12:47:36 GMT",
+      "source": "ITHome",
+      "summary": "<p>IT之家 3 月 7 日消息，长城汽车宣布，魏牌 V9X 造型美学全球首秀直播将于 3 月 9 日 18:00-19:00 举行。值得一提的是，该车由长城汽车董事长魏建军担任代言人。</p><p style=\"text-align: center;\"><img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/202"
+    },
+    {
+      "title": "“史诗级”更新，YouTube 在欧洲更多国家测试私信功能",
+      "link": "https://www.ithome.com/0/926/869.htm",
+      "published": "Sat, 07 Mar 2026 12:34:49 GMT",
+      "source": "ITHome",
+      "summary": "<p>IT之家 3 月 7 日消息，YouTube 已经悄悄测试私信功能数月，近期规模逐步扩大。当地时间 3 月 3 日，YouTube 确认私信功能已经向更多欧洲国家的部分用户开放。这是自 2025 年 11 月启动小规模测试以来的首次明显扩展。</p><p>最初测试只面向爱尔兰和波兰用户。YouTube 在“实验功能”说明中介绍，用户可以在移动应用中直接分享自己喜欢的视频，并围绕这些内容展开对"
+    },
+    {
+      "title": "The Best MIDI Controllers for Synths, Guitars, and More (2026)",
+      "link": "https://www.wired.com/gallery/best-midi-controllers/",
+      "published": "Sat, 07 Mar 2026 12:00:00 +0000",
+      "source": "Wired",
+      "summary": "Want to digitally control your favorite instruments? These tools will help."
+    },
+    {
+      "title": "Best Mid Layer for Hiking, Backpacking, and Travel (2026)",
+      "link": "https://www.wired.com/gallery/best-mid-layers/",
+      "published": "Sat, 07 Mar 2026 11:30:00 +0000",
+      "source": "Wired",
+      "summary": "Should you get a high-tech jacket like a grid fleece, or stick with tried and true merino wool? We found the warmest, lightest mid layers for your next adventure."
+    },
+    {
+      "title": "CBP Used Online Ad Data to Track Phone Locations",
+      "link": "https://www.wired.com/story/cbp-used-online-ad-data-to-track-phone-locations/",
+      "published": "Sat, 07 Mar 2026 11:30:00 +0000",
+      "source": "Wired",
+      "summary": "Plus: Proton helped the FBI identify a protester, the Leakbase cybercrime forum was busted in an international operation, and more."
+    },
+    {
+      "title": "How Each Gulf Country Is Intercepting Iranian Missiles and Drones",
+      "link": "https://www.wired.com/story/how-each-gulf-country-is-intercepting-iranian-missiles-and-drones/",
+      "published": "Sat, 07 Mar 2026 11:00:00 +0000",
+      "source": "Wired",
+      "summary": "As missiles and drones cross the region’s skies, the Gulf’s layered air-defense networks—from THAAD to Patriot batteries—are being tested in real time."
+    },
+    {
+      "title": "How to Avoid Getting Locked Out of Your Google Account",
+      "link": "https://www.wired.com/story/how-to-avoid-getting-locked-out-of-your-google-account/",
+      "published": "Sat, 07 Mar 2026 10:00:00 +0000",
+      "source": "Wired",
+      "summary": "Make a recovery plan now to avoid losing access to your account in the future."
+    },
+    {
+      "title": "Robinhood’s startup fund stumbles in NYSE debut",
+      "link": "https://techcrunch.com/2026/03/06/robinhoods-startup-fund-stumbles-in-nyse-debut/",
+      "published": "Sat, 07 Mar 2026 02:04:43 +0000",
+      "source": "TechCrunch",
+      "summary": "The fund currently offers retail investors exposure to eight startups, including Mercor, Ramp, and Stripe, with plans to expand its portfolio."
+    },
+    {
+      "title": "This Jammer Wants to Block Always-Listening AI Wearables. It Probably Won’t Work",
+      "link": "https://www.wired.com/story/deveillance-spectre-i/",
+      "published": "Fri, 06 Mar 2026 23:45:14 +0000",
+      "source": "Wired",
+      "summary": "Deveillance’s Spectre I, developed by a recent Harvard grad, wants to give people control over the always-on wearables surrounding their lives. The problem? Physics."
+    },
+    {
+      "title": "X is testing a new ad format that connects posts with products",
+      "link": "https://techcrunch.com/2026/03/06/x-is-testing-a-new-ad-format-that-connects-posts-with-products/",
+      "published": "Fri, 06 Mar 2026 22:41:26 +0000",
+      "source": "TechCrunch",
+      "summary": "An ad test on X promotes Musk's Starlink beneath original content."
+    },
+    {
+      "title": "Marley Spoon Meal Kit Review 2026: Less Martha, More Moroccan",
+      "link": "https://www.wired.com/review/marley-spoon-meal-kit-2026/",
+      "published": "Fri, 06 Mar 2026 22:41:10 +0000",
+      "source": "Wired",
+      "summary": "Marley Spoon has stripped Martha Stewart from its website and seems to be cooking a little differently. Here’s a review."
+    },
+    {
+      "title": "Nintendo sues the US government for a refund on tariffs",
+      "link": "https://techcrunch.com/2026/03/06/nintendo-sues-the-u-s-government-for-a-refund-on-tariffs/",
+      "published": "Fri, 06 Mar 2026 22:35:35 +0000",
+      "source": "TechCrunch",
+      "summary": "This lawsuit comes after a Supreme Court decision struck down some of the president's sweeping tariffs, which had impacted Nintendo and thousands of other companies."
+    },
+    {
+      "title": "Life EV officially owns Rad Power Bikes now",
+      "link": "https://techcrunch.com/2026/03/06/life-ev-officially-owns-rad-power-bikes-now/",
+      "published": "Fri, 06 Mar 2026 21:56:35 +0000",
+      "source": "TechCrunch",
+      "summary": "The Rad Power brand is expected to live on."
+    },
+    {
+      "title": "72 'Buy It for Life' Products: Cast-Iron, Tools, Speakers, Chairs, and More",
+      "link": "https://www.wired.com/story/buy-it-for-life/",
+      "published": "Fri, 06 Mar 2026 21:27:19 +0000",
+      "source": "Wired",
+      "summary": "From cast-iron pans to mechanical watches, we’ve rounded up products that are made to last for decades."
+    },
+    {
+      "title": "OSHA probing fatality at Rivian warehouse",
+      "link": "https://techcrunch.com/2026/03/06/osha-probing-fatality-at-rivian-warehouse/",
+      "published": "Fri, 06 Mar 2026 20:23:08 +0000",
+      "source": "TechCrunch",
+      "summary": "A 61-year-old worker died on Thursday after reportedly getting stuck between a tractor trailer and a loading dock."
+    },
+    {
+      "title": "The Best Google Pixel Phones of 2026, Tested and Reviewed",
+      "link": "https://www.wired.com/story/best-google-pixel-phone/",
+      "published": "Fri, 06 Mar 2026 20:17:02 +0000",
+      "source": "Wired",
+      "summary": "Here’s a guide to all the models—plus Pixel case recommendations and smart software tricks to try."
+    },
+    {
+      "title": "Microsoft, Google, Amazon say Anthropic Claude remains available to non-defense customers",
+      "link": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/",
+      "published": "Fri, 06 Mar 2026 19:50:10 +0000",
+      "source": "TechCrunch",
+      "summary": "Trump's Department of War feud with Anthropic won't impact other companies that are using Claude via Microsoft and Google products."
+    },
+    {
+      "title": "Bill Gates’ TerraPower gets approval to build new nuclear reactor",
+      "link": "https://techcrunch.com/2026/03/06/bill-gates-terrapower-gets-approval-to-build-new-nuclear-reactor/",
+      "published": "Fri, 06 Mar 2026 19:47:40 +0000",
+      "source": "TechCrunch",
+      "summary": "It's the first permit to be issued by the Nuclear Regulatory Commission in nearly a decade."
+    },
+    {
+      "title": "Is the Pentagon allowed to surveil Americans with AI?",
+      "link": "https://www.technologyreview.com/2026/03/06/1134012/is-the-pentagon-allowed-to-surveil-americans-with-ai/",
+      "published": "Fri, 06 Mar 2026 19:21:22 +0000",
+      "source": "MIT Technology Review",
+      "summary": "The ongoing public feud between the Department of Defense and the AI company Anthropic has raised a deep and still unanswered question: Does the law actually allow the US government to conduct mass su"
+    },
+    {
+      "title": "Anthropic’s Claude found 22 vulnerabilities in Firefox over two weeks",
+      "link": "https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks/",
+      "published": "Fri, 06 Mar 2026 19:00:22 +0000",
+      "source": "TechCrunch",
+      "summary": "In a recent security partnership with Mozilla, Anthropic found 22 separate vulnerabilities in Firefox — 14 of them classified as \"high-severity.\""
+    },
+    {
+      "title": "Anthropic’s Pentagon deal is a cautionary tale for startups chasing federal contracts",
+      "link": "https://techcrunch.com/video/anthropics-pentagon-deal-is-a-cautionary-tale-for-startups-chasing-federal-contracts/",
+      "published": "Fri, 06 Mar 2026 18:09:11 +0000",
+      "source": "TechCrunch",
+      "summary": "The Pentagon has officially designated Anthropic a supply-chain risk after the two failed to agree on how much control the military should have over its AI models, including its use in autonomous weap"
+    },
+    {
+      "title": "Claude’s consumer growth surge continues after Pentagon deal debacle",
+      "link": "https://techcrunch.com/2026/03/06/claudes-consumer-growth-surge-continues-after-pentagon-deal-debacle/",
+      "published": "Fri, 06 Mar 2026 17:56:07 +0000",
+      "source": "TechCrunch",
+      "summary": "Claude's app is now seeing more new installs than ChatGPT and is growing its daily active users."
+    },
+    {
+      "title": "The Download: 10 things that matter in AI, plus Anthropic’s plan to sue the Pentagon",
+      "link": "https://www.technologyreview.com/2026/03/06/1133989/the-download-10-things-that-matter-in-ai-anthropics-plan-sue-pentagon/",
+      "published": "Fri, 06 Mar 2026 13:10:00 +0000",
+      "source": "MIT Technology Review",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Coming soon: our 10 Things That Matter in AI Right"
+    },
+    {
+      "title": "The OpenClaw superfan meetup serves optimism and lobster",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/890517/openclaw-clawcon-meetup-nyc-open-source-ai",
+      "published": "2026-03-07T09:00:00-05:00",
+      "source": "The Verge",
+      "summary": "The woman at the door wore a plush lobster headdress. She sat in the front hallway of a multistory event venue in Manhattan, beside a bundle of wristbands. If she granted you one, the world of ClawCon"
+    },
+    {
+      "title": "A bite-sized adventure that puts a wrench into the classic Zelda formula",
+      "link": "https://www.theverge.com/entertainment/890664/ratcheteer-dx-review-zelda-steam-switch",
+      "published": "2026-03-07T09:00:00-05:00",
+      "source": "The Verge",
+      "summary": "There are a lot of games that try to emulate The Legend of Zelda, but few that manage to capture that spirit in such a small, concise package as Ratcheteer DX. The postapocalyptic game only takes a fe"
+    },
+    {
+      "title": "Apple’s cheap laptop looks like a winner",
+      "link": "https://www.theverge.com/tech/890785/macbook-neo-slay-spire-2-pokopia-installer",
+      "published": "2026-03-07T08:00:00-05:00",
+      "source": "The Verge",
+      "summary": "Hi, friends! Welcome to Installer No. 118, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, please take my Switch away so I can get some work done, and also you "
+    },
+    {
+      "title": "The Corvette ZR1X hybrid can outpace million-dollar sports cars for a fraction of the cost",
+      "link": "https://www.theverge.com/transportation/888573/chevy-corvette-zr1x-hybrid-racing-performance",
+      "published": "2026-03-07T07:00:00-05:00",
+      "source": "The Verge",
+      "summary": "When Elon Musk burst onto the scene in his little Tesla Roadster, it seemed a matter of time before electricity rendered gas-powered sports cars obsolete. It hasn't worked out that way. Automakers hav"
+    },
+    {
+      "title": "DJI will pay $30K to the man who accidentally hacked 7,000 Romo robovacs",
+      "link": "https://www.theverge.com/news/890982/dji-pay-sammy-azdoufal-robot-vacuum-hack-romo-security",
+      "published": "2026-03-06T21:59:32-05:00",
+      "source": "The Verge",
+      "summary": "On Valentine's Day, I brought you a story that's since made headlines all around the world: How one man, just trying to steer his DJI robot vacuum with a PlayStation gamepad, discovered an entire netw"
+    },
+    {
+      "title": "Valve says it still plans to ship the Steam Machine in 2026",
+      "link": "https://www.theverge.com/games/890986/valve-steam-machine-frame-controller-delay-ram-memory",
+      "published": "2026-03-06T18:39:25-05:00",
+      "source": "The Verge",
+      "summary": "A blog post from Valve on Friday initially seemed to throw cold water on the idea that the Steam Machine, Steam Frame, and Steam Controller would arrive in 2026 at all. But Valve tells The Verge it di"
+    },
+    {
+      "title": "Grammarly is using our identities without permission",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/890921/grammarly-ai-expert-reviews",
+      "published": "2026-03-06T15:58:24-05:00",
+      "source": "The Verge",
+      "summary": "Grammarly's \"expert review\" feature offers to give users writing advice \"inspired by\" subject matter experts, including recently deceased professors, as Wired reported on Wednesday. When I tried the f"
+    },
+    {
+      "title": "The best microSD Express card for the Switch 2 is the cheapest one you can find",
+      "link": "https://www.theverge.com/tech/676075/switch-2-microsd-express-cards-where-to-buy",
+      "published": "2026-03-06T15:30:00-05:00",
+      "source": "The Verge",
+      "summary": "Unlike the original Switch, the Nintendo Switch 2 requires microSD Express cards for storing and playing games. While physically identical to microSD cards (aside from a small, easy-to-miss “EX” emble"
+    },
+    {
+      "title": "The Trump administration says it can’t process tariff refunds because of computer problems",
+      "link": "https://www.theverge.com/policy/890904/trump-administration-cbp-tariff-refunds-technology-issues",
+      "published": "2026-03-06T15:17:08-05:00",
+      "source": "The Verge",
+      "summary": "The US Customs and Border Protection says it currently can't comply with an order to process billions of dollars in refunds stemming from tariffs imposed by President Donald Trump. In a filing on Frid"
+    },
+    {
+      "title": "Nintendo is suing the US government for a refund of Trump&#8217;s illegal tariffs",
+      "link": "https://www.theverge.com/games/890861/nintendo-lawsuit-tariffs-donald-trump",
+      "published": "2026-03-06T14:22:39-05:00",
+      "source": "The Verge",
+      "summary": "Nintendo of America is suing the US government over President Trump's tariffs and is demanding a \"prompt refund, with interest\" of any duties that it has paid, according to a complaint filed in the US"
+    }
+  ],
+  "TechCrunch": [],
+  "The Verge": [],
+  "Wired": [],
+  "MIT Technology Review": [],
+  "ITHome": [],
+  "36Kr": [],
+  "🏢 Big Tech Engineering": [
+    {
+      "title": "Businesses grow revenue on Stripe 27 percentage points faster after accepting financing through Stripe Capital",
+      "link": "https://stripe.com/blog/businesses-grow-revenue-on-stripe-faster-after-accepting-financing-through-stripe-capital",
+      "published": "Wed, 17 Dec 2025 00:00:00 +0000",
+      "source": "Stripe Blog",
+      "summary": "In a new study, we found a strong causal relationship between accepting financing and growing revenue on Stripe. Learn which businesses are most likely to benefit, and how greater access to financing "
+    },
+    {
+      "title": "Introducing next-day settlement, a faster way to access your earnings",
+      "link": "https://docs.stripe.com/payouts/next-day-settlement",
+      "published": "Wed, 17 Dec 2025 00:00:00 +0000",
+      "source": "Stripe Blog",
+      "summary": "Gain next-day access to cash, and use funds where they’re needed most. Get reliable auto-settlement in a few clicks right from the Dashboard."
+    },
+    {
+      "title": "Adapting the Facebook Reels RecSys AI Model Based on User Feedback",
+      "link": "https://engineering.fb.com/2026/01/14/ml-applications/adapting-the-facebook-reels-recsys-ai-model-based-on-user-feedback/",
+      "published": "Wed, 14 Jan 2026 20:51:33 +0000",
+      "source": "Meta Engineering",
+      "summary": "<p>We’ve improved personalized video recommendations on Facebook Reels by moving beyond metrics such as likes and watch time and directly leveraging user feedback.  Our new User True Interest Survey ("
+    },
+    {
+      "title": "The Death of Traditional Testing: Agentic Development Broke a 50-Year-Old Field, JiTTesting Can Revive It",
+      "link": "https://engineering.fb.com/2026/02/11/developer-tools/the-death-of-traditional-testing-agentic-development-jit-testing-revival/",
+      "published": "Wed, 11 Feb 2026 17:00:05 +0000",
+      "source": "Meta Engineering",
+      "summary": "<p>WHAT IT IS The rise of agentic software development means code is being written, reviewed, and shipped faster than ever before across the entire industry. It also means that testing frameworks need"
+    },
+    {
+      "title": "Introducing OpenClaw on Amazon Lightsail to run your autonomous private AI agents",
+      "link": "https://aws.amazon.com/blogs/aws/introducing-openclaw-on-amazon-lightsail-to-run-your-autonomous-private-ai-agents/",
+      "published": "Wed, 04 Mar 2026 20:04:16 +0000",
+      "source": "AWS Blog",
+      "summary": "AWS launches OpenClaw on Amazon Lightsail to run OpenClaw instance, pairing your browser, enabling AI capabilities, and optionally connecting messaging channels. Your Lightsail OpenClaw instance is pr"
+    },
+    {
+      "title": "Always-on detections: eliminating the WAF “log versus block” trade-off",
+      "link": "https://blog.cloudflare.com/attack-signature-detection/",
+      "published": "Wed, 04 Mar 2026 15:00:00 GMT",
+      "source": "Cloudflare Blog",
+      "summary": "Cloudflare is introducing Attack Signature Detection and Full-Transaction Detection to provide continuous, high-fidelity security insights without the manual tuning of traditional WAFs. By correlating"
+    },
+    {
+      "title": "Mind the gap: new tools for continuous enforcement from boot to login",
+      "link": "https://blog.cloudflare.com/mandatory-authentication-mfa/",
+      "published": "Wed, 04 Mar 2026 14:00:00 GMT",
+      "source": "Cloudflare Blog",
+      "summary": "Cloudflare’s mandatory authentication and independent MFA protect organizations by ensuring continuous enforcement, from the moment a machine boots until sensitive resources are accessed."
+    },
+    {
+      "title": "Defeating the deepfake: stopping laptop farms and insider threats",
+      "link": "https://blog.cloudflare.com/deepfakes-insider-threats-identity-verification/",
+      "published": "Wed, 04 Mar 2026 06:00:00 GMT",
+      "source": "Cloudflare Blog",
+      "summary": "Cloudflare One is partnering with Nametag to combat laptop farms and AI-enhanced identity fraud by requiring identity verification during employee onboarding and via continuous authentication."
+    },
+    {
+      "title": "Moving from license plates to badges: the Gateway Authorization Proxy",
+      "link": "https://blog.cloudflare.com/gateway-authorization-proxy-identity-aware-policies/",
+      "published": "Wed, 04 Mar 2026 06:00:00 GMT",
+      "source": "Cloudflare Blog",
+      "summary": "Cloudflare’s Gateway Authorization Proxy adds support for identity-aware policies for clientless devices, securing virtual desktops, and guest networks without a device client."
+    },
+    {
+      "title": "Stop reacting to breaches and start preventing them with User Risk Scoring",
+      "link": "https://blog.cloudflare.com/adaptive-access-user-risk-scoring/",
+      "published": "Wed, 04 Mar 2026 06:00:00 GMT",
+      "source": "Cloudflare Blog",
+      "summary": "Cloudflare One now incorporates dynamic User Risk Scores into Access policies to enable automated, adaptive security responses. This update allows teams to move beyond binary \"allow/deny\" rules by eva"
+    },
+    {
+      "title": "Amazon EC2 C8id, M8id, and R8id instances with up to 22.8 TB local NVMe storage are generally available",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-ec2-c8id-m8id-and-r8id-instances-with-up-to-22-8-tb-local-nvme-storage-are-generally-available/",
+      "published": "Wed, 04 Feb 2026 22:31:56 +0000",
+      "source": "AWS Blog",
+      "summary": "AWS launches Amazon EC2 C8id, M8id, and R8id instances backed by NVMe-based SSD block-level instance storage physically connected to the host server. These instances offer 3 times more vCPUs, memory, "
+    },
+    {
+      "title": "No Display? No Problem: Cross-Device Passkey Authentication for XR Devices",
+      "link": "https://engineering.fb.com/2026/02/04/security/cross-device-passkey-authentication-for-xr-devices-meta-quest/",
+      "published": "Wed, 04 Feb 2026 22:00:07 +0000",
+      "source": "Meta Engineering",
+      "summary": "<p>We’re sharing a novel approach to enabling cross-device passkey authentication for devices with inaccessible displays (like XR devices). Our approach bypasses the use of QR codes and enables cross-"
+    },
+    {
+      "title": "Rust at Scale: An Added Layer of Security for WhatsApp",
+      "link": "https://engineering.fb.com/2026/01/27/security/rust-at-scale-security-whatsapp/",
+      "published": "Tue, 27 Jan 2026 15:00:09 +0000",
+      "source": "Meta Engineering",
+      "summary": "<p>WhatsApp has adopted and rolled out a new layer of security for users – built with Rust – as part of its effort to harden defenses against malware threats. WhatsApp’s experience creating and distri"
+    },
+    {
+      "title": "RCCLX: Innovating GPU Communications on AMD Platforms",
+      "link": "https://engineering.fb.com/2026/02/24/data-center-engineering/rrcclx-innovating-gpu-communications-amd-platforms-meta/",
+      "published": "Tue, 24 Feb 2026 21:30:54 +0000",
+      "source": "Meta Engineering",
+      "summary": "<p>We are open-sourcing the initial version of RCCLX – an enhanced version of RCCL that we developed and tested on Meta’s internal workloads. RCCLX is fully integrated with Torchcomms and aims to empo"
+    },
+    {
+      "title": "Transform live video for mobile audiences with AWS Elemental Inference",
+      "link": "https://aws.amazon.com/blogs/aws/transform-live-video-for-mobile-audiences-with-aws-elemental-inference/",
+      "published": "Tue, 24 Feb 2026 18:55:11 +0000",
+      "source": "AWS Blog",
+      "summary": "AWS Elemental Inference is a fully managed AI service that automatically transforms live and on-demand video broadcasts into vertical formats optimized for mobile and social platforms in real time, en"
+    },
+    {
+      "title": "Multi-agent workflows often fail. Here’s how to engineer ones that don’t.",
+      "link": "https://github.blog/ai-and-ml/generative-ai/multi-agent-workflows-often-fail-heres-how-to-engineer-ones-that-dont/",
+      "published": "Tue, 24 Feb 2026 16:00:00 +0000",
+      "source": "GitHub Blog",
+      "summary": "<p>Most multi-agent workflow failures come down to missing structure, not model capability. Learn the three engineering patterns that make agent systems reliable.</p>\n<p>The post <a href=\"https://gith"
+    },
+    {
+      "title": "How we rebuilt the search architecture for high availability in GitHub Enterprise Server",
+      "link": "https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-search-architecture-for-high-availability-in-github-enterprise-server/",
+      "published": "Tue, 03 Mar 2026 18:45:09 +0000",
+      "source": "GitHub Blog",
+      "summary": "<p>Here's how we the search experience better, faster, and more resilient for GHES customers.</p>\n<p>The post <a href=\"https://github.blog/engineering/architecture-optimization/how-we-rebuilt-the-sear"
+    },
+    {
+      "title": "Join or host a GitHub Copilot Dev Days event near you",
+      "link": "https://github.blog/ai-and-ml/github-copilot/join-or-host-a-github-copilot-dev-days-event-near-you/",
+      "published": "Tue, 03 Mar 2026 16:55:00 +0000",
+      "source": "GitHub Blog",
+      "summary": "<p>GitHub Copilot Dev Days is a global series of hands-on, in-person, community-led events designed to help developers explore real-world, AI-assisted coding.  </p>\n<p>The post <a href=\"https://github"
+    },
+    {
+      "title": "Introducing the 2026 Cloudflare Threat Report",
+      "link": "https://blog.cloudflare.com/2026-threat-report/",
+      "published": "Tue, 03 Mar 2026 14:00:00 GMT",
+      "source": "Cloudflare Blog",
+      "summary": "There has been a fundamental shift toward industrialized cyber threats, highlighted by a record 31.4 Tbps DDoS attack and sophisticated session token theft. Our new report examines how nation-states a"
+    },
+    {
+      "title": "Supporting additional payment methods for agentic commerce",
+      "link": "https://stripe.com/blog/supporting-additional-payment-methods-for-agentic-commerce",
+      "published": "Tue, 03 Mar 2026 00:00:00 +0000",
+      "source": "Stripe Blog",
+      "summary": "Stripe is now the first and only provider that supports both agentic network tokens and buy now, pay later tokens in agentic commerce through a single primitive."
+    },
+    {
+      "title": "What’s new with GitHub Copilot coding agent",
+      "link": "https://github.blog/ai-and-ml/github-copilot/whats-new-with-github-copilot-coding-agent/",
+      "published": "Thu, 26 Feb 2026 20:47:02 +0000",
+      "source": "GitHub Blog",
+      "summary": "<p>GitHub Copilot coding agent now includes a model picker, self-review, built-in security scanning, custom agents, and CLI handoff. Here's what's new and how to use it. </p>\n<p>The post <a href=\"http"
+    },
+    {
+      "title": "AWS Security Hub Extended offers full-stack enterprise security with curated partner solutions",
+      "link": "https://aws.amazon.com/blogs/aws/aws-security-hub-extended-offers-full-stack-enterprise-security-with-curated-partner-solutions/",
+      "published": "Thu, 26 Feb 2026 18:52:06 +0000",
+      "source": "AWS Blog",
+      "summary": "AWS announces the general availability of AWS Security Hub Extended, a unified, full-stack enterprise security solution. It brings together AWS detection services and curated partner solutions through"
+    },
+    {
+      "title": "How AI is reshaping developer choice (and Octoverse data proves it)",
+      "link": "https://github.blog/ai-and-ml/generative-ai/how-ai-is-reshaping-developer-choice-and-octoverse-data-proves-it/",
+      "published": "Thu, 19 Feb 2026 17:00:00 +0000",
+      "source": "GitHub Blog",
+      "summary": "<p>AI is rewiring developer preferences through convenience loops. Octoverse 2025 reveals how AI compatibility is becoming the new standard for technology choice.</p>\n<p>The post <a href=\"https://gith"
+    },
+    {
+      "title": "Stripe Atlas startups in 2025: Year in review",
+      "link": "https://stripe.com/blog/stripe-atlas-startups-in-2025-year-in-review",
+      "published": "Thu, 18 Dec 2025 00:00:00 +0000",
+      "source": "Stripe Blog",
+      "summary": "2025 was a breakout year for early-stage startups, as founders launched more companies and generated revenue faster than ever. Three shifts stand out: customer bases are more international than ever, "
+    },
+    {
+      "title": "Introducing the Agentic Commerce Suite: A complete solution for selling on AI agents",
+      "link": "https://stripe.com/blog/agentic-commerce-suite",
+      "published": "Thu, 11 Dec 2025 00:00:00 +0000",
+      "source": "Stripe Blog",
+      "summary": "Today, we’re introducing the Agentic Commerce Suite: a new solution that gets your business agent-ready. It enables you to sell on AI agents more easily by making your products discoverable, simplifyi"
+    },
+    {
+      "title": "60 million Copilot code reviews and counting",
+      "link": "https://github.blog/ai-and-ml/github-copilot/60-million-copilot-code-reviews-and-counting/",
+      "published": "Thu, 05 Mar 2026 20:10:43 +0000",
+      "source": "GitHub Blog",
+      "summary": "<p>How Copilot code review helps teams keep up with AI-accelerated code changes.</p>\n<p>The post <a href=\"https://github.blog/ai-and-ml/github-copilot/60-million-copilot-code-reviews-and-counting/\">60"
+    },
+    {
+      "title": "Scaling AI opportunity across the globe: Learnings from GitHub and Andela",
+      "link": "https://github.blog/developer-skills/career-growth/scaling-ai-opportunity-across-the-globe-learnings-from-github-and-andela/",
+      "published": "Thu, 05 Mar 2026 17:00:00 +0000",
+      "source": "GitHub Blog",
+      "summary": "<p>Developers connected to Andela share how they’re learning AI tools inside real production workflows.</p>\n<p>The post <a href=\"https://github.blog/developer-skills/career-growth/scaling-ai-opportuni"
+    },
+    {
+      "title": "Ending the \"silent drop\": how Dynamic Path MTU Discovery makes the Cloudflare One Client more resilient",
+      "link": "https://blog.cloudflare.com/client-dynamic-path-mtu-discovery/",
+      "published": "Thu, 05 Mar 2026 14:00:00 GMT",
+      "source": "Cloudflare Blog",
+      "summary": "The Cloudflare One Client now features the ability to actively probe and adjust packet sizes. This update eliminates the problems caused by tunnel layering and MTU differences, providing more stabilit"
+    },
+    {
+      "title": "How Automatic Return Routing solves IP overlap",
+      "link": "https://blog.cloudflare.com/automatic-return-routing-ip-overlap/",
+      "published": "Thu, 05 Mar 2026 06:00:00 GMT",
+      "source": "Cloudflare Blog",
+      "summary": "Automatic Return Routing (ARR) solves the common enterprise challenge of overlapping private IP addresses by using stateful flow tracking instead of traditional routing tables. This userspace-driven a"
+    },
+    {
+      "title": "A QUICker SASE client: re-building Proxy Mode",
+      "link": "https://blog.cloudflare.com/faster-sase-proxy-mode-quic/",
+      "published": "Thu, 05 Mar 2026 06:00:00 GMT",
+      "source": "Cloudflare Blog",
+      "summary": "By transitioning the Cloudflare One Client to use QUIC streams for Proxy Mode, we eliminated the overhead of user-space TCP stacks, resulting in a 2x increase in throughput and significant latency red"
+    },
+    {
+      "title": "Analyzing how SaaS platforms are shipping payments and finance products in days",
+      "link": "https://stripe.com/blog/analyzing-how-saas-platforms-are-shipping-payments-and-finance-products-in-days",
+      "published": "Thu, 04 Dec 2025 00:00:00 +0000",
+      "source": "Stripe Blog",
+      "summary": "Leading SaaS platforms across industries—from Squarespace to Jobber—are using embedded components to ship payments and finance features with minimal code. We analyzed the data to see which types of pl"
+    },
+    {
+      "title": "AWS Weekly Roundup: Claude Sonnet 4.6 in Amazon Bedrock, Kiro in GovCloud Regions, new Agent Plugins, and more (February 23, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-sonnet-4-6-in-amazon-bedrock-kiro-in-govcloud-regions-new-agent-plugins-and-more-february-23-2026/",
+      "published": "Mon, 23 Feb 2026 16:56:24 +0000",
+      "source": "AWS Blog",
+      "summary": "Last week, my team met many developers at Developer Week in San Jose. My colleague, Vinicius Senger delivered a great keynote about renascent software—a new way of building and evolving applications w"
+    },
+    {
+      "title": "Amazon EC2 Hpc8a Instances powered by 5th Gen AMD EPYC processors are now available",
+      "link": "https://aws.amazon.com/blogs/aws/amazon-ec2-hpc8a-instances-powered-by-5th-gen-amd-epyc-processors-are-now-available/",
+      "published": "Mon, 16 Feb 2026 23:12:37 +0000",
+      "source": "AWS Blog",
+      "summary": "Amazon EC2 Hpc8a instances, powered by 5th Gen AMD EPYC processors, deliver up to 40% higher performance, increased memory bandwidth, and 300 Gbps Elastic Fabric Adapter networking, helping customers "
+    },
+    {
+      "title": "Announcing Amazon SageMaker Inference for custom Amazon Nova models",
+      "link": "https://aws.amazon.com/blogs/aws/announcing-amazon-sagemaker-inference-for-custom-amazon-nova-models/",
+      "published": "Mon, 16 Feb 2026 21:25:23 +0000",
+      "source": "AWS Blog",
+      "summary": "AWS launches Amazon SageMaker Inference for custom Amazon Nova models. You can now configure the instance types, auto-scaling policies, and concurrency settings for custom Nova model deployments to be"
+    },
+    {
+      "title": "AWS Weekly Roundup: Amazon EC2 M8azn instances, new open weights models in Amazon Bedrock, and more (February 16, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-ec2-m8azn-instances-new-open-weights-models-in-amazon-bedrock-and-more-february-16-2026/",
+      "published": "Mon, 16 Feb 2026 17:28:52 +0000",
+      "source": "AWS Blog",
+      "summary": "I joined AWS in 2021, and since then I’ve watched the Amazon Elastic Compute Cloud (Amazon EC2) instance family grow at a pace that still surprises me. From AWS Graviton-powered instances to specializ"
+    },
+    {
+      "title": "PayTo available in Australia",
+      "link": "https://stripe.com/payment-method/payto",
+      "published": "Mon, 15 Dec 2025 00:00:00 +0000",
+      "source": "Stripe Blog",
+      "summary": "Businesses in Australia can now offer PayTo. Accept one-off and recurring direct debits with PayTo to get real-time payment confirmation and funds deposited into your Stripe balance instantly, 24 hour"
+    },
+    {
+      "title": "CSS at Scale With StyleX",
+      "link": "https://engineering.fb.com/2026/01/12/web/css-at-scale-with-stylex/",
+      "published": "Mon, 12 Jan 2026 18:34:59 +0000",
+      "source": "Meta Engineering",
+      "summary": "<p>Build a large enough website with a large enough codebase, and you’ll eventually find that CSS presents challenges at scale. It’s no different at Meta, which is why we open-sourced StyleX, a soluti"
+    },
+    {
+      "title": "AWS Weekly Roundup: Claude Opus 4.6 in Amazon Bedrock, AWS Builder ID Sign in with Apple, and more (February 9, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-6-in-amazon-bedrock-aws-builder-id-sign-in-with-apple-and-more-february-9-2026/",
+      "published": "Mon, 09 Feb 2026 20:42:04 +0000",
+      "source": "AWS Blog",
+      "summary": "Here are the notable launches and updates from last week that can help you build, scale, and innovate on AWS. Last week’s launches Here are the launches that got my attention this week. Let’s start wi"
+    },
+    {
+      "title": "Building Prometheus: How Backend Aggregation Enables Gigawatt-Scale AI Clusters",
+      "link": "https://engineering.fb.com/2026/02/09/data-center-engineering/building-prometheus-how-backend-aggregation-enables-gigawatt-scale-ai-clusters/",
+      "published": "Mon, 09 Feb 2026 17:00:33 +0000",
+      "source": "Meta Engineering",
+      "summary": "<p>We’re sharing details of the role backend aggregation (BAG) plays in building Meta’s gigawatt-scale AI clusters like Prometheus. BAG allows us to seamlessly connect thousands of GPUs across multipl"
+    },
+    {
+      "title": "FFmpeg at Meta: Media Processing at Scale",
+      "link": "https://engineering.fb.com/2026/03/02/video-engineering/ffmpeg-at-meta-media-processing-at-scale/",
+      "published": "Mon, 02 Mar 2026 20:00:12 +0000",
+      "source": "Meta Engineering",
+      "summary": "<p>FFmpeg is truly a multi-tool for media processing. As an industry-standard tool it supports a wide variety of audio and video codecs and container formats. It can also orchestrate complex chains of"
+    },
+    {
+      "title": "AWS Weekly Roundup: OpenAI partnership, AWS Elemental Inference, Strands Labs, and more (March 2, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-openai-partnership-aws-elemental-inference-strands-labs-and-more-march-2-2026/",
+      "published": "Mon, 02 Mar 2026 19:05:12 +0000",
+      "source": "AWS Blog",
+      "summary": "This past week, I’ve been deep in the trenches helping customers transform their businesses through AI-DLC (AI-Driven Lifecycle) workshops. Throughout 2026, I’ve had the privilege of facilitating thes"
+    },
+    {
+      "title": "Investing in Infrastructure: Meta’s Renewed Commitment to jemalloc",
+      "link": "https://engineering.fb.com/2026/03/02/data-infrastructure/investing-in-infrastructure-metas-renewed-commitment-to-jemalloc/",
+      "published": "Mon, 02 Mar 2026 17:00:04 +0000",
+      "source": "Meta Engineering",
+      "summary": "<p>Meta recognizes the long-term benefits of jemalloc, a high-performance memory allocator, in its software infrastructure. We are renewing focus on jemalloc, aiming to reduce maintenance needs and mo"
+    },
+    {
+      "title": "GitHub for Beginners: Getting started with GitHub Issues and Projects",
+      "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-issues-and-projects/",
+      "published": "Mon, 02 Mar 2026 17:00:00 +0000",
+      "source": "GitHub Blog",
+      "summary": "<p>Learn how to get organized and collaborate more efficiently with this step-by-step tutorial.</p>\n<p>The post <a href=\"https://github.blog/developer-skills/github/github-for-beginners-getting-starte"
+    },
+    {
+      "title": "Can AI agents build real Stripe integrations? We built a benchmark to find out",
+      "link": "https://stripe.com/blog/can-ai-agents-build-real-stripe-integrations",
+      "published": "Mon, 02 Mar 2026 00:00:00 +0000",
+      "source": "Stripe Blog",
+      "summary": "State-of-the-art LLMs can now solve a majority of scoped coding problems, but it’s an open question whether they can fully autonomously manage software engineering projects. We spent months building e"
+    },
+    {
+      "title": "From idea to pull request: A practical guide to building with GitHub Copilot CLI",
+      "link": "https://github.blog/ai-and-ml/github-copilot/from-idea-to-pull-request-a-practical-guide-to-building-with-github-copilot-cli/",
+      "published": "Fri, 27 Feb 2026 16:00:00 +0000",
+      "source": "GitHub Blog",
+      "summary": "<p>A hands-on guide to using GitHub Copilot CLI to move from intent to reviewable changes, and how that work flows naturally into your IDE and GitHub.</p>\n<p>The post <a href=\"https://github.blog/ai-a"
+    },
+    {
+      "title": "Metronome + Stripe: Building the future of billing",
+      "link": "https://stripe.com/blog/metronome-stripe-building-the-future-of-billing",
+      "published": "Fri, 23 Jan 2026 00:00:00 +0000",
+      "source": "Stripe Blog",
+      "summary": "Together, Metronome and Stripe are building the most flexible and complete billing solution on the market—one that works for everyone, from engineers in a garage figuring out their business model to p"
+    },
+    {
+      "title": "The three biggest agentic commerce trends from NRF 2026",
+      "link": "https://stripe.com/blog/three-agentic-commerce-trends-nrf-2026",
+      "published": "Fri, 16 Jan 2026 00:00:00 +0000",
+      "source": "Stripe Blog",
+      "summary": "Not only are the majority of retailers actively implementing, or have plans to implement, agentic commerce, but many are also moving to a more tactical phase of optimizing their setup—refining their p"
+    },
+    {
+      "title": "How to scan for vulnerabilities with GitHub Security Lab’s open source AI-powered framework",
+      "link": "https://github.blog/security/how-to-scan-for-vulnerabilities-with-github-security-labs-open-source-ai-powered-framework/",
+      "published": "Fri, 06 Mar 2026 21:09:04 +0000",
+      "source": "GitHub Blog",
+      "summary": "<p>GitHub Security Lab Taskflow Agent is very effective at finding Auth Bypasses, IDORs, Token Leaks, and other high-impact vulnerabilities.</p>\n<p>The post <a href=\"https://github.blog/security/how-t"
+    },
+    {
+      "title": "From the endpoint to the prompt: a unified data security vision in Cloudflare One",
+      "link": "https://blog.cloudflare.com/unified-data-security/",
+      "published": "Fri, 06 Mar 2026 14:00:00 GMT",
+      "source": "Cloudflare Blog",
+      "summary": "Cloudflare One unifies data security from endpoint to prompt: RDP clipboard controls, operation-mapped logs, on-device DLP, and Microsoft 365 Copilot scanning via API CASB."
+    },
+    {
+      "title": "Chat SDK adds table rendering and streaming markdown",
+      "link": "https://vercel.com/changelog/chat-sdk-adds-table-rendering-and-streaming-markdown",
+      "published": "2026-03-06T13:00:00.000Z",
+      "source": "Vercel Blog",
+      "summary": "<p>Chat SDK now renders tables natively across all platform adapters and converts markdown to each platform's native format during streaming.</p><p>The <code>Table()</code> component is a new card ele"
+    }
+  ],
+  "GitHub Blog": [],
+  "Netflix Tech Blog": [],
+  "AWS Blog": [],
+  "Cloudflare Blog": [],
+  "Vercel Blog": [],
+  "Stripe Blog": [],
+  "Meta Engineering": [],
+  "📈 Trends": [
+    {
+      "title": "Olmo Hybrid",
+      "link": "https://www.producthunt.com/products/allen-institute-of-artificial-intelligence",
+      "published": "2026-03-06T20:52:46-08:00",
+      "source": "Product Hunt",
+      "summary": "<p>\n            7B open model mixing transformers and linear RNNs\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/allen-institute-of-artificial-intelligence?utm_"
+    },
+    {
+      "title": "LTX Desktop",
+      "link": "https://www.producthunt.com/products/ltx-desktop",
+      "published": "2026-03-06T12:15:02-08:00",
+      "source": "Product Hunt",
+      "summary": "<p>\n            Local open-source LTX video editor optimized for GPUs\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/ltx-desktop?utm_campaign=producthunt-atom-p"
+    },
+    {
+      "title": "21st Agents SDK",
+      "link": "https://www.producthunt.com/products/21st-dev-the-npm-for-design-engineers",
+      "published": "2026-03-06T11:53:56-08:00",
+      "source": "Product Hunt",
+      "summary": "<p>\n            SDK to add an Claude Code AI agent to your app\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/21st-dev-the-npm-for-design-engineers?utm_campaign"
+    },
+    {
+      "title": "Codex Security",
+      "link": "https://www.producthunt.com/products/openai",
+      "published": "2026-03-06T11:34:14-08:00",
+      "source": "Product Hunt",
+      "summary": "<p>\n            Our application security agent\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/openai?utm_campaign=producthunt-atom-posts-feed&amp;utm_medium=rss"
+    },
+    {
+      "title": "Copperlane",
+      "link": "https://www.producthunt.com/products/copperlane",
+      "published": "2026-03-04T07:32:37-08:00",
+      "source": "Product Hunt",
+      "summary": "<p>\n            Turn hours of loan processing into seconds\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/copperlane?utm_campaign=producthunt-atom-posts-feed&am"
+    },
+    {
+      "title": "GetBeel",
+      "link": "https://www.producthunt.com/products/getbeel",
+      "published": "2026-03-04T03:13:29-08:00",
+      "source": "Product Hunt",
+      "summary": "<p>\n            Let AI collect invoices and do reconciliation in automatic\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/getbeel?utm_campaign=producthunt-atom-"
+    },
+    {
+      "title": "Tailwind Form Builder",
+      "link": "https://www.producthunt.com/products/sheet-monkey",
+      "published": "2026-03-03T07:08:05-08:00",
+      "source": "Product Hunt",
+      "summary": "<p>\n            Create responsive HTML forms in minutes. No login required.\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/sheet-monkey?utm_campaign=producthunt"
+    },
+    {
+      "title": "NotchPad",
+      "link": "https://www.producthunt.com/products/notchpad",
+      "published": "2026-02-26T11:11:34-08:00",
+      "source": "Product Hunt",
+      "summary": "<p>\n            The secure notepad and clipboard manager for your Mac.\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/notchpad?utm_campaign=producthunt-atom-pos"
+    },
+    {
+      "title": "Variant",
+      "link": "https://www.producthunt.com/products/variant-2",
+      "published": "2026-02-20T03:53:25-08:00",
+      "source": "Product Hunt",
+      "summary": "<p>\n            Endless designs for your ideas, just scroll.\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/variant-2?utm_campaign=producthunt-atom-posts-feed&a"
+    },
+    {
+      "title": "TestSprite 2.1",
+      "link": "https://www.producthunt.com/products/testsprite",
+      "published": "2026-02-14T11:43:21-08:00",
+      "source": "Product Hunt",
+      "summary": "<p>\n            Agentic testing for the AI-native team.\n          </p>\n          <p>\n            <a href=\"https://www.producthunt.com/products/testsprite?utm_campaign=producthunt-atom-posts-feed&amp;u"
+    }
+  ],
+  "GitHub Trending Daily": [],
+  "GitHub Trending Weekly": [],
+  "Product Hunt": [],
+  "🇨🇳 中文技术博客": [
+    {
+      "title": "王垠传播的「自然视力恢复法」真的有用吗？",
+      "link": "https://1byte.io/articles/bates-method-dont-work/",
+      "published": "Wed, 26 Jun 2024 00:00:00 +0000",
+      "source": "1 Byte",
+      "summary": "最近我偶然看到了王垠 Substack 上的《不要去医院验光》，当然因为没付费订阅我只能看到开头几段1。然后点上面的链接到了他博客上的「自然视力恢复法」。考虑到这两篇文章的危害，我觉得值得写一点东西给看我博客的人做一些参考。\n王垠这个名字很多人都不陌生了，他从清华退学的时候我还在读博，当时还写了一篇文章来评论这件事，~不过现在已经找不到了~2。我那时看他写的宣布退学的文章留下的印象是他是个很聪明但"
+    },
+    {
+      "title": "我在 2025 年看完的书",
+      "link": "https://1byte.io/articles/2025-books/",
+      "published": "Wed, 14 Jan 2026 00:00:00 +0000",
+      "source": "1 Byte",
+      "summary": "我原本为 2025 年定的读书目标是 30 本，不过最后还是和 2024 年一样只看完 25 本。除了确实没有充分利用时间以外，全年用来旅游的日子比较多也是一个原因。以下的几本值得向每个人推荐。\nThis is Going to HurtSecret Diaries of a Junior Doctor作者：Adam Kay我的评分：5/5 | Goodreads 评分：4.40 我最近几年很喜欢"
+    },
+    {
+      "title": "Claude 这条路在中国企业这里彻底断掉了",
+      "link": "https://macshuo.com/?p=1980",
+      "published": "Wed, 10 Sep 2025 04:49:45 +0000",
+      "source": "MacTalk-池建强的随想录",
+      "summary": "9 月 5 日这一天，Anthropic 在官网发布了一则消息：立即停止 Cla &#8230; <a href=\"https://macshuo.com/?p=1980\">Continue reading <span class=\"meta-nav\">&#8594;</span></a>"
+    },
+    {
+      "title": "从高考志愿到职业选择",
+      "link": "https://1byte.io/articles/gaokao-choice/",
+      "published": "Tue, 25 Jun 2024 00:00:00 +0000",
+      "source": "1 Byte",
+      "summary": "读博士的时候我们系每年春季都会有一两天让在读的博士生留出特定时段待在自己的办公室，因为一些接到耶鲁的 offer 但还没有做决定的学生会到学校参观，他们可以到系里走访在读的学生，通过提问交谈更全面地了解学校和院系来帮助他们做决定。有一次走进来一个头发已经有点白的人，我还以为是本校其他系的教授，而他告诉我他拿到了我们系的 offer，所以来看一看。他多年前毕业于一所知名法学院，在纽约已经是一位成功的"
+    },
+    {
+      "title": "墨问便签正成为历史",
+      "link": "https://macshuo.com/?p=1969",
+      "published": "Tue, 22 Apr 2025 10:40:38 +0000",
+      "source": "MacTalk-池建强的随想录",
+      "summary": "墨问便签这款产品，最初是用来做 demo 的，试试小程序的能力。另外，有一点纪念 &#8230; <a href=\"https://macshuo.com/?p=1969\">Continue reading <span class=\"meta-nav\">&#8594;</span></a>"
+    },
+    {
+      "title": "荐书：The Blind Watchmaker",
+      "link": "https://1byte.io/articles/the-blind-watchmaker/",
+      "published": "Tue, 19 Nov 2024 00:00:00 +0000",
+      "source": "1 Byte",
+      "summary": "提起 Richard Dawkins, 大部分人想起的是他的第一本书《自私的基因》（the Selfish Gene）。他后来写的 the Blind Watchmaker 从另一个角度探讨了和进化论相关的一些问题，我最近看了后觉得同样有趣和重要。和自私的基因一样，这本书比较老，第一版出版于 1987 年，但是内容一点都没有过时。现在能买到的大部分是 2016 年出的 30 周年纪念版，作者在前言"
+    },
+    {
+      "title": "从一次经历谈 TIME_WAIT 的那些事",
+      "link": "https://coolshell.cn/articles/22263.html",
+      "published": "Tue, 19 Jul 2022 06:43:39 +0000",
+      "source": "酷壳 – CoolShell",
+      "summary": "<p>今天来讲一讲TCP 的 TIME_WAIT 的问题。这个问题尽人皆知，不过，这次遇到的是不太一样的场景，前两天也解决了，正好写篇文章，顺便把 TIME_WAIT...</p>\n<p class=\"read-more\"><a class=\"btn btn-default\" href=\"https://coolshell.cn/articles/22263.html\"> Read More<sp"
+    },
+    {
+      "title": "2023 一蓑烟雨",
+      "link": "https://geekplux.com/posts/2023-summary",
+      "published": "Tue, 16 Jan 2024 03:00:00 GMT",
+      "source": "GeekPlux",
+      "summary": "2023 的开年，我以结束隔离而开始，也许从此刻就埋下了这一年峰回路转的伏笔。"
+    },
+    {
+      "title": "感染新冠的经历",
+      "link": "https://coolshell.cn/articles/22341.html",
+      "published": "Tue, 13 Dec 2022 07:39:39 +0000",
+      "source": "酷壳 – CoolShell",
+      "summary": "<p>写一篇与技术无关的文章，供大家参考。我住北京朝阳，从上周三开始我家一家三口陆续发烧生病，自测抗原后，都是阳性。好消息是，这个奥密克戎跟一般的病毒性感冒差不多，没...</p>\n<p class=\"read-more\"><a class=\"btn btn-default\" href=\"https://coolshell.cn/articles/22341.html\"> Read More<sp"
+    },
+    {
+      "title": "The Yun Layer: Stages and Cycles of System Evolution",
+      "link": "https://jimmysong.io/book/ai-infra-dao/yun/",
+      "published": "Tue, 10 Feb 2026 13:56:38 +0000",
+      "source": "Jimmy Song",
+      "summary": "System evolution stages: exploration, platform, scale, and rebalancing phases in AI infrastructure growth"
+    },
+    {
+      "title": "The Yin-Yang Layer: Dynamic Balance of System States",
+      "link": "https://jimmysong.io/book/ai-infra-dao/yin-yang/",
+      "published": "Tue, 10 Feb 2026 13:56:33 +0000",
+      "source": "Jimmy Song",
+      "summary": "Understanding system tensions: expansion vs. constraint, innovation vs. governance, speed vs. stability in AI infrastructure"
+    },
+    {
+      "title": "System Diagnosis Principles: Criteria for Health Status",
+      "link": "https://jimmysong.io/book/ai-infra-dao/system-diagnosis/",
+      "published": "Tue, 10 Feb 2026 13:56:28 +0000",
+      "source": "Jimmy Song",
+      "summary": "Five-dimensional diagnosis framework for AI infrastructure health: element balance, flow smoothness, tension dynamics, stage alignment, and runaway warnings"
+    },
+    {
+      "title": "Conclusion and Outlook",
+      "link": "https://jimmysong.io/book/ai-infra-dao/summary/",
+      "published": "Tue, 10 Feb 2026 13:56:22 +0000",
+      "source": "Jimmy Song",
+      "summary": "Core value and applications of the Yin-Yang Five Elements Qi-Yun model for AI infrastructure architects"
+    },
+    {
+      "title": "Qi Layer: Effective System Flow and Pressure Fields",
+      "link": "https://jimmysong.io/book/ai-infra-dao/qi/",
+      "published": "Tue, 10 Feb 2026 13:56:17 +0000",
+      "source": "Jimmy Song",
+      "summary": "Effective flow and pressure distribution in systems—data flow, signal propagation, and system health monitoring"
+    },
+    {
+      "title": "Core Model Overview",
+      "link": "https://jimmysong.io/book/ai-infra-dao/model-overview/",
+      "published": "Tue, 10 Feb 2026 13:56:12 +0000",
+      "source": "Jimmy Song",
+      "summary": "A four-layer model (Yin-Yang, Five Elements, Yun, Qi) for understanding AI infrastructure as an evolving organic system"
+    },
+    {
+      "title": "Five Elements Layer: Classification and Collaboration of System Roles",
+      "link": "https://jimmysong.io/book/ai-infra-dao/five-elements/",
+      "published": "Tue, 10 Feb 2026 13:56:06 +0000",
+      "source": "Jimmy Song",
+      "summary": "Five system roles: data, models, compute, platforms, and hardware—how they interact and balance in AI infrastructure"
+    },
+    {
+      "title": "Engineering Practice Guide: Architecture Decisions Guided by Theory",
+      "link": "https://jimmysong.io/book/ai-infra-dao/engineering-practice/",
+      "published": "Tue, 10 Feb 2026 13:55:59 +0000",
+      "source": "Jimmy Song",
+      "summary": "Practical principles for applying the Yin-Yang Five Elements Qi model in GPU scheduling, Agent Runtime, and platform governance"
+    },
+    {
+      "title": "Dynamic Relationship Modeling: Five Elements Flow Under Yin-Yang Balance",
+      "link": "https://jimmysong.io/book/ai-infra-dao/dynamic-modeling/",
+      "published": "Tue, 10 Feb 2026 13:55:47 +0000",
+      "source": "Jimmy Song",
+      "summary": "Integrating Yin-Yang, Five Elements, Yun, and Qi layers to explain complex AI infrastructure system behavior"
+    },
+    {
+      "title": "2020 恍如隔世",
+      "link": "https://geekplux.com/posts/2020-summary",
+      "published": "Tue, 05 Jan 2021 18:00:00 GMT",
+      "source": "GeekPlux",
+      "summary": "往年的总结，总是很多可讲，今年的却不知从何下笔。2020年是不平静的一年..."
+    },
+    {
+      "title": "给想转行作程序员的人泼一盆冷水",
+      "link": "https://geekplux.com/posts/advice-for-who-wanna-switch-to-programmer",
+      "published": "Tue, 02 Apr 2019 20:20:00 GMT",
+      "source": "GeekPlux",
+      "summary": "<blockquote>\n<p>原文地址：<a href=\"https://geekplux.com/2019/04/02/advice-for-who-wanna-switch-to-programmer\">https://geekplux.com/2019/04/02/advice-for-who-wanna-switch-to-programmer </a></p>\n</blockquote"
+    },
+    {
+      "title": "2025 重新定义的生活",
+      "link": "https://diygod.cc/2025",
+      "published": "Thu, 25 Dec 2025 04:00:00 GMT",
+      "source": "Hi, DIYgod",
+      "summary": "AI 生产力革命与迷茫、迎来新生命、努力搞钱、不合时宜的开源思维、赛博生活"
+    },
+    {
+      "title": "字节跳动发布了一款 AI IDE：Trae",
+      "link": "https://macshuo.com/?p=1948",
+      "published": "Thu, 23 Jan 2025 07:53:04 +0000",
+      "source": "MacTalk-池建强的随想录",
+      "summary": "昨天，字节跳动发布了类似 Cursor 的 AI Native IDE：Trae &#8230; <a href=\"https://macshuo.com/?p=1948\">Continue reading <span class=\"meta-nav\">&#8594;</span></a>"
+    },
+    {
+      "title": "Web 前端中的增强现实（AR）开发技术",
+      "link": "https://geekplux.com/posts/augmented-reality-development-tech-in-web-frontend",
+      "published": "Thu, 18 Jan 2018 00:24:00 GMT",
+      "source": "GeekPlux",
+      "summary": "<blockquote>\n<p>本文作者 <a href=\"http://geekplux.com/\">GeekPlux</a>，首发于<a href=\"https://qianduan.group/posts/5a5f89cb0cf6b624d2239c65\">前端外刊评论-Web 前端中的增强现实（AR）开发技术</a>，博客地址：<a href=\"http://geekplux.com/20"
+    },
+    {
+      "title": "AI知识库上线：墨问时间知识库",
+      "link": "https://macshuo.com/?p=2015",
+      "published": "Thu, 18 Dec 2025 05:27:03 +0000",
+      "source": "MacTalk-池建强的随想录",
+      "summary": "2025 年的 3 月份我们结束了长达三年的墨问星球的运营，开始专注墨问的产品研 &#8230; <a href=\"https://macshuo.com/?p=2015\">Continue reading <span class=\"meta-nav\">&#8594;</span></a>"
+    },
+    {
+      "title": "复式记账、财报、量化与图论",
+      "link": "https://geekplux.com/posts/accounting-earnings-report-graph-theory",
+      "published": "Thu, 16 Jan 2020 01:00:00 GMT",
+      "source": "GeekPlux",
+      "summary": "不会记账何以变富"
+    },
+    {
+      "title": "浅谈 Apple Intelligence",
+      "link": "https://1byte.io/articles/apple-intelligence/",
+      "published": "Thu, 13 Jun 2024 00:00:00 +0000",
+      "source": "1 Byte",
+      "summary": "过去一两年有多位投资人朋友和我讨论过 AI 相关的创业机会。我的观点一直都是：大的机会基本上是巨头的，小公司没有特别好的机会。\n当技术上的突破让小公司有机会颠覆大公司时，新技术最初的应用都在巨头看不上的新兴细分市场。随着这些市场快速扩大，小公司在成长起来后迅速地进入主流市场抢占原主导者的份额。随着原本不存在的个人电脑市场兴起的 Intel、Microsoft 等是最好的例子。近年来 AI 的发展在"
+    },
+    {
+      "title": "智谱旗舰 GLM-5 实测：对比 Opus 4.6 和 GPT-5.3-Codex",
+      "link": "http://www.ruanyifeng.com/blog/2026/02/glm-5.html",
+      "published": "Thu, 12 Feb 2026 09:26:13 +0800",
+      "source": "阮一峰的网络日志",
+      "summary": "<h2>一、引言</h2>\n\n<p>刚才我看到，智谱新一代的旗舰模型 <a href=\"https://mp.weixin.qq.com/s/MVo6DIcGNje_YtLgVa4PaQ\">GLM-5</a> 已经正式发布了。</p>\n<p>真的拼啊，非要赶在长假之前，上一个版本 GLM-4.7 发布还不到两个月呢......</p>\n\n<p><img alt=\"\" src=\"https://cd"
+    },
+    {
+      "title": "墨问小程序发布小红书切图笔记功能",
+      "link": "https://macshuo.com/?p=1939",
+      "published": "Thu, 12 Dec 2024 05:31:32 +0000",
+      "source": "MacTalk-池建强的随想录",
+      "summary": "如何优雅的发布一条小红书笔记？ 小红书的产品逻辑挺有意思的，发图文笔记，只能发  &#8230; <a href=\"https://macshuo.com/?p=1939\">Continue reading <span class=\"meta-nav\">&#8594;</span></a>"
+    },
+    {
+      "title": "如何理解段永平这周的股市操作",
+      "link": "https://macshuo.com/?p=1958",
+      "published": "Thu, 10 Apr 2025 04:00:52 +0000",
+      "source": "MacTalk-池建强的随想录",
+      "summary": "前几天我看到段在雪球上说： 卖了点苹果以及其他的 put。懂王威武，感觉起码要折 &#8230; <a href=\"https://macshuo.com/?p=1958\">Continue reading <span class=\"meta-nav\">&#8594;</span></a>"
+    },
+    {
+      "title": "ETCD的内存问题",
+      "link": "https://coolshell.cn/articles/22242.html",
+      "published": "Thu, 05 May 2022 08:13:37 +0000",
+      "source": "酷壳 – CoolShell",
+      "summary": "<p>今天跟大家分享一个etcd的内存大量占用的问题，这是前段时间在我们开源软件Easegress中遇到的问题，问题是比较简单的，但是我还想把前因后果说一下，包括，为...</p>\n<p class=\"read-more\"><a class=\"btn btn-default\" href=\"https://coolshell.cn/articles/22242.html\"> Read More<sp"
+    },
+    {
+      "title": "What Is AI-Native Infrastructure?",
+      "link": "https://jimmysong.io/book/ai-native-infra/definition/",
+      "published": "Sun, 18 Jan 2026 05:43:57 +0000",
+      "source": "Jimmy Song",
+      "summary": "Core definition, boundaries, and evaluation criteria for AI-native infrastructure, focusing on model behavior, compute scarcity, and uncertainty governance."
+    },
+    {
+      "title": "和帕鲁生活在一起的两周",
+      "link": "https://diygod.cc/palworld",
+      "published": "Sun, 18 Feb 2024 19:20:33 GMT",
+      "source": "Hi, DIYgod",
+      "summary": "哪个小男孩没幻想过生活在这样一个充满宝可梦伙伴的世界，它们能听懂且愿意倾听我们说话，有着不同的特点和强大的技能，而且都很可爱，我们可以跟它们睡觉吃饭、并肩作战探索世界，永远不再孤独，不管是谁都可以找到最适合自己的宝可梦"
+    },
+    {
+      "title": "“一把梭：REST API 全用 POST”",
+      "link": "https://coolshell.cn/articles/22173.html",
+      "published": "Sun, 13 Feb 2022 04:28:47 +0000",
+      "source": "酷壳 – CoolShell",
+      "summary": "<p>写这篇文章的原因主要还是因为V2EX上的这个贴子，这个贴子中说—— “对接同事的接口，他定义的所有接口都是 post 请求，理由是 https 用 post 更...</p>\n<p class=\"read-more\"><a class=\"btn btn-default\" href=\"https://coolshell.cn/articles/22173.html\"> Read More<sp"
+    },
+    {
+      "title": "一个六岁开源项目的崩溃与新生",
+      "link": "https://diygod.cc/6-year-of-rsshub",
+      "published": "Sun, 10 Mar 2024 19:29:05 GMT",
+      "source": "Hi, DIYgod",
+      "summary": "我有一个维护了六年的开源项目—— RSSHub，它正在面临崩溃\n\n表面上，它有接近 30k Stars、900 多 Contributors、每月 3 亿多次请求和数不清的用户、每月几十刀的赞助、有源源不断的 issue 和 pr、代码几乎每天更新，非常健康和充满活力"
+    },
+    {
+      "title": "墨问发布 OpenAI、社区版 mcp 和 chrome AI 剪藏助手",
+      "link": "https://macshuo.com/?p=1974",
+      "published": "Sun, 01 Jun 2025 14:23:57 +0000",
+      "source": "MacTalk-池建强的随想录",
+      "summary": "什么是 OpenAPI？ 简单来说，就是墨问提供了一系列接口，让开发者可以通过这 &#8230; <a href=\"https://macshuo.com/?p=1974\">Continue reading <span class=\"meta-nav\">&#8594;</span></a>"
+    },
+    {
+      "title": "欧洲旅游VLOG | 巴塞罗那 罗马 梵蒂冈 威尼斯 米兰 苏黎世 因特拉肯 巴黎",
+      "link": "https://diygod.cc/europe-travel",
+      "published": "Sat, 20 Dec 2025 14:30:00 GMT",
+      "source": "Hi, DIYgod",
+      "summary": "<p>2022年12月</p>"
+    },
+    {
+      "title": "字节全家桶 Seed 2.0 + TRAE 玩转 Skill",
+      "link": "http://www.ruanyifeng.com/blog/2026/02/seed-2.0.html",
+      "published": "Sat, 14 Feb 2026 19:51:22 +0800",
+      "source": "阮一峰的网络日志",
+      "summary": "<h2>一、引言</h2>\n\n<p>国产大模型之中，字节是一个异类。</p>\n<p>不像其他大模型轰轰烈烈、争夺眼球，它更低调，不引人注目。</p>\n\n<p>但是，它做的事情反倒最多，大模型、Agent、开发工具、云服务都有独立品牌，遍地开花，一个都不缺，都在高速推进。</p>\n\n<p><img alt=\"\" src=\"https://cdn.beekka.com/blogimg/asset/20"
+    },
+    {
+      "title": "谈谈公司对员工的监控",
+      "link": "https://coolshell.cn/articles/22157.html",
+      "published": "Sat, 12 Feb 2022 07:50:06 +0000",
+      "source": "酷壳 – CoolShell",
+      "summary": "<p>今天看到微博上有一个热点事件， 是一个关于某公司做的一个监控员工离职倾向的软件，从截图中可以看到员工访问招聘网站的次数，还有投递的简历以及搜索的关建词等等信息，...</p>\n<p class=\"read-more\"><a class=\"btn btn-default\" href=\"https://coolshell.cn/articles/22157.html\"> Read More<sp"
+    },
+    {
+      "title": "我看ChatGPT: 为啥谷歌掉了千亿美金",
+      "link": "https://coolshell.cn/articles/22398.html",
+      "published": "Sat, 11 Feb 2023 16:31:16 +0000",
+      "source": "酷壳 – CoolShell",
+      "summary": "<p>两个月前，我试着想用 ChatGPT 帮我写篇文章《eBPF 介绍》，结果错误百出，导致我又要从头改一遍，从那天我觉得 ChatGPT 生成的内容完全不靠谱，所...</p>\n<p class=\"read-more\"><a class=\"btn btn-default\" href=\"https://coolshell.cn/articles/22398.html\"> Read More<sp"
+    },
+    {
+      "title": "eBPF 介绍",
+      "link": "https://coolshell.cn/articles/22320.html",
+      "published": "Sat, 10 Dec 2022 02:38:51 +0000",
+      "source": "酷壳 – CoolShell",
+      "summary": "<p>很早前就想写一篇关于eBPF的文章，但是迟迟没有动手，这两天有点时间，所以就来写一篇，这文章主要还是简单的介绍eBPF 是用来干什么的，并通过几个示例来介绍是怎...</p>\n<p class=\"read-more\"><a class=\"btn btn-default\" href=\"https://coolshell.cn/articles/22320.html\"> Read More<sp"
+    },
+    {
+      "title": "2018 平淡无奇",
+      "link": "https://geekplux.com/posts/2018-summary",
+      "published": "Sat, 05 Jan 2019 20:53:00 GMT",
+      "source": "GeekPlux",
+      "summary": "<blockquote>\n<p>原文地址：<a href=\"https://geekplux.com/2019/01/05/2018-summary\">https://geekplux.com/2019/01/05/2018-summary </a></p>\n</blockquote>\n<p>2018 年对我来说是平淡无奇的一年，没什么让自己满意的成绩，有种辜负了时光的感觉。以前的总结都是以人生阶"
+    },
+    {
+      "title": "即将失明，还能继续做程序员吗",
+      "link": "https://geekplux.com/posts/a-software-engineer-going-blind",
+      "published": "Mon, 20 Apr 2020 17:00:00 GMT",
+      "source": "GeekPlux",
+      "summary": "<p>今天早上我照例打开 Hacker News 看看有什么新奇的东西。头条的标题一下子吸引了我：<a href=\"https://news.ycombinator.com/item?id=22918980\">I'm a software engineer going blind, how should I prepare?</a>，一个即将失明的小哥，还想继续做程序员。这个帖子大概是我 2020"
+    },
+    {
+      "title": "2025 年初展望",
+      "link": "https://1byte.io/articles/start-of-2025/",
+      "published": "Mon, 13 Jan 2025 18:57:41 +0800",
+      "source": "1 Byte",
+      "summary": "2025 年已经开始一段时间了，我也不免俗写一下总结和展望。\n工作 我 2023 年底离开了 TapTap，2024 年在 EMQ 管研发团队。这是一个朋友的创业公司。因为创始人是美籍台湾人，员工也大半在台湾，所以公司文化算是东西结合。每个公司从内部看都会有一堆问题，但是从我的偏好来说，EMQ 人比较少、关系比较简单、团队和同事之间的沟通方式比较体面，我相对更能适应一些。\n职业生涯到现在，我对公司"
+    },
+    {
+      "title": "是微服务架构不香还是云不香？",
+      "link": "https://coolshell.cn/articles/22422.html",
+      "published": "Mon, 08 May 2023 09:52:06 +0000",
+      "source": "酷壳 – CoolShell",
+      "summary": "<p>这两天技术圈里热议的一件事就是Amazon的流媒体平台Prime Video在2023年3月22日发布了一篇技术博客《规模化Prime Video的音视频监控服...</p>\n<p class=\"read-more\"><a class=\"btn btn-default\" href=\"https://coolshell.cn/articles/22422.html\"> Read More<sp"
+    },
+    {
+      "title": "2019 柳暗花明",
+      "link": "https://geekplux.com/posts/2019-summary",
+      "published": "Mon, 06 Jan 2020 20:50:00 GMT",
+      "source": "GeekPlux",
+      "summary": "<blockquote>\n<p>原文地址：<a href=\"https://geekplux.com/2020/01/06/2019-summary\">https://geekplux.com/2020/01/06/2019-summary </a></p>\n</blockquote>\n<p>2019 过的比 2018 年更快一些，不知道是因为经历的少了还是因为年纪大了，翻看年初的朋友圈真是言犹在"
+    },
+    {
+      "title": "2024 年，我为什么开始为搜索付费",
+      "link": "https://1byte.io/articles/paying-for-search/",
+      "published": "Mon, 03 Jun 2024 00:00:00 +0000",
+      "source": "1 Byte",
+      "summary": "我 2007 年至 2010 年在 Google 工作的时候，中国的同事们都说百度无良，欺骗用户，把广告显示得和原生搜索結果几乎一样、难以区分。Google 的搜索广告在 2013 年之前一直是通过背景色与原生结果明确区分的。\n带背景色的 Google 广告\n后来背景变得和原生结果一样，改为用彩色的标签来标识广告。无论在用背景色的时代，还是用标签的时代，Google 都做过很多试验来通过调整颜色提"
+    },
+    {
+      "title": "Android 开发如何入门",
+      "link": "https://geekplux.com/posts/android_get_started",
+      "published": "Mon, 02 Sep 2013 16:34:00 GMT",
+      "source": "GeekPlux",
+      "summary": "<p>这是我在知乎上的一个回答（<a href=\"http://www.zhihu.com/question/21565227/answer/18691177\">原文链接</a>）</p>\n<hr />\n<p>绝大部分人说<a href=\"http://developer.android.com/guide/components/index.html\">官方文档和范例</a>是最好的教程，如果你英"
+    },
+    {
+      "title": "数据可视化基础——数据模型",
+      "link": "https://geekplux.com/posts/basics-of-data-visualization-data-model",
+      "published": "Mon, 02 Jan 2017 12:01:00 GMT",
+      "source": "GeekPlux",
+      "summary": "<blockquote>\n<p>本系列「数据可视化基础」文章共三篇，介绍可视化中最基础、最重要的一些概念、理论。这篇为第二篇，主要介绍<a href=\"http://geekplux.com/2017/01/02/basics-of-data-visualization-data-model\">数据模型</a>，另两篇则主讲<a href=\"http://geekplux.com/2017/01/"
+    },
+    {
+      "title": "运气与努力",
+      "link": "https://1byte.io/articles/luck/",
+      "published": "Fri, 31 May 2024 00:00:00 +0000",
+      "source": "1 Byte",
+      "summary": "我一直很喜欢 Out of the Gobi1 的作者单伟建。他的三本书我都读过。他在文革时被流放到戈壁六年，失去了上中学的机会，但从没放弃学习。没有放弃对更好未来的追求。在文革结束后他抓住了机会到美国留学，在金融界取得了很高的成就，并创立了亚洲最大的私募基金集团 PAG。他在母校旧金山大学的一次演讲中说2，在任何领域取得成功，最重要的是三方面：\n坚持终生学习。他本人的经历最能说明这一点。如果他在"
+    },
+    {
+      "title": "科技爱好者周刊（第 386 期）：当外卖员接入 AI",
+      "link": "http://www.ruanyifeng.com/blog/2026/02/weekly-issue-386.html",
+      "published": "Fri, 27 Feb 2026 08:07:08 +0800",
+      "source": "阮一峰的网络日志",
+      "summary": "<p>这里记录每周值得分享的科技内容，周五发布。</p>\n<p>本杂志<a href=\"https://github.com/ruanyf/weekly\">开源</a>，欢迎<a href=\"https://github.com/ruanyf/weekly/issues\">投稿</a>。另有<a href=\"https://github.com/ruanyf/weekly/issues/8882\""
+    }
+  ],
+  "阮一峰的网络日志": [],
+  "酷壳 – CoolShell": [],
+  "GeekPlux": [],
+  "Hi, DIYgod": [],
+  "云原生实验室": [],
+  "Jimmy Song": [],
+  "程序猿 DD": [],
+  "MacTalk-池建强的随想录": [],
+  "透明思考": [],
+  "1 Byte": [],
+  "🧠 AI/ML 中文博客": [
+    {
+      "title": "工业化之后的生育率低于世代更替率也许是个无解的问题",
+      "link": "https://www.physixfan.com/gongyehuazhihoudeshengyuludiyushidaigengtiluyexushigewujiedewenti/",
+      "published": "Tue, 25 Jun 2024 17:40:39 +0000",
+      "source": "physixfan",
+      "summary": "<p>生育率这个话题也许对有些人来说是个显而易见的常识，但是没仔细想过这个问题的人第一次读到时可能会觉得大吃一惊，所以我还是写一写这个话题吧。</p>\n<p>现在应该每个中国人都知道中国的生育率很低了，1.16 这个生育率确实是低到令人发指。很多人评论说自己不想生孩子的原因是住的地方太小了、生活成本太高了、生了孩子之后的教育成本太高等等。但是实际上如果看一下世界上的其他国家就会发现，虽然上面提到的"
+    },
+    {
+      "title": "AI 越来越先进 越来越多人的工作被取代 未来的社会会是什么样？",
+      "link": "https://www.physixfan.com/ai-yuelaiyuexianjin-yuelaiyueduorendegongzuobeiqudai-weilaideshehuihuishishenmeyang/",
+      "published": "Thu, 30 Jan 2025 14:46:26 +0000",
+      "source": "physixfan",
+      "summary": "<p>最近AI的话题一次又一次的火爆，我也来闲聊几句。我的这些想法估计对于熟悉这个话题的人来说早都是老生常谈了，因此我这文章主要也就只是给没想过这些问题的人看的。</p>\n<p>2022年年末ChatGPT的发布，可以算是这一轮AI技术大爆发的标志性节点。ChatGPT的可用性已经非常高了，以至于很多不那么强调推理/逻辑的工作几乎立即就可以被取代了，比如写个本科生程度的论文。后来随着ChatGPT"
+    },
+    {
+      "title": "几个长见识的话题",
+      "link": "https://www.physixfan.com/jigezhangjianshidehuati/",
+      "published": "Sun, 15 Jan 2023 10:01:42 +0000",
+      "source": "physixfan",
+      "summary": "<p>最近大概是在这里写文比较少了，经常见到有人催更😂。在《<a href=\"https://www.physixfan.com/woderenshengzhuiqiu/\" rel=\"noopener\" target=\"_blank\">我的人生追求</a>》中我写道，“我的人生追求，就是：学习、分享，尽力给中文互联网贡献高质量内容。” 然而实际上值得分享的 non-trivial 的东西并不是很常"
+    },
+    {
+      "title": "ChatGPT的画图模型DALL·E 3效果真的挺不错",
+      "link": "https://www.physixfan.com/chatgptdehuahuamoxingdall/",
+      "published": "Sun, 05 Nov 2023 04:26:22 +0000",
+      "source": "physixfan",
+      "summary": "<p>终于等到我的ChatGPT账号有画图功能了，今天来把玩了一番。之前我也玩过Midjourney，但是感觉效果差强人意。而ChatGPT的DALL·E 3最令我感到惊艳的地方在于，它可以根据各种自然语言指示来对先前做出来的图进行修改。</p>\n<p>来贴几张我画着玩的图，大家可以感受一下它的威力。</p>\n<p><img alt=\"\" class=\"alignnone size-large w"
+    },
+    {
+      "title": "2022年投资回顾",
+      "link": "https://www.physixfan.com/2022niantouzihuigu/",
+      "published": "Sat, 31 Dec 2022 14:05:15 +0000",
+      "source": "physixfan",
+      "summary": "<p>2022年对很多人来说都是艰难的一年。越来越多的朋友开始有家人因新冠去世，相比而言，投资方面赔点钱倒是显得无足轻重了。因为前几年我在这个博客上写过几年投资回顾，因此今年就继续写吧。太多人投资只晒涨不晒跌，所以今年我需要来晒晒暴跌让大家开心开心。</p>\n<p>按照<a href=\"https://www.physixfan.com/twr-vs-irr/\" rel=\"noopener\" ta"
+    },
+    {
+      "title": "人为什么会感觉时间越过越快 以及如何“延长生命”",
+      "link": "https://www.physixfan.com/renweishenmehuiganjueshijianyueguoyuekuai-yijiruheyanzhangshengming/",
+      "published": "Sat, 23 Mar 2024 06:16:56 +0000",
+      "source": "physixfan",
+      "summary": "<p>估计每个人对时间流逝速度的主观感觉都是：随着年纪越来越大，时间过得越来越快。对于这一现象，有两种解释都是比较靠谱的：</p>\n<ol>\n<li>随着年纪越来越大，每一天在生命中的占比越来越小了。一个月的时间，对于1岁的小孩来说就是生命中的1/12，而对于30岁的人来说只占1/360而已。</li>\n<li>人类的记忆功能的运作模式，会让你只记住新奇的内容，而重复的内容就不会有太多印象。当你第"
+    },
+    {
+      "title": "闲聊一下爆火的ChatGPT：他能做什么、不能做什么",
+      "link": "https://www.physixfan.com/xianliaobaohuodechatgpttanengzuoshenmebunengzuoshenme/",
+      "published": "Sat, 11 Feb 2023 18:33:20 +0000",
+      "source": "physixfan",
+      "summary": "<p>最近几年AI的进展十分迅猛，其中令人印象深刻的包括但不限于：基于 Diffusion Model 的各种图像生成模型、以及我今天想讨论的大语言模型 ChatGPT。尽管网上关于 ChatGPT 的讨论已经很多了，但是这东西确实足够有趣，因此我也来瞎扯几句吧。Disclaimer: 我是纯外行，对AI了解大概不比其他学物理的学生更多。</p>\n<p>第一次使用 ChatGPT 的时候，有点让我"
+    },
+    {
+      "title": "WordPress 突然乱码的原因和解决方案",
+      "link": "https://www.physixfan.com/wordpress-turanluanmadeyuanyinhejiejuefangan/",
+      "published": "Sat, 10 Dec 2022 15:38:42 +0000",
+      "source": "physixfan",
+      "summary": "<p>一觉醒来 我的这个博客突然就变成了这幅乱码画风：</p>\n<p><img alt=\"\" class=\"alignnone size-large wp-image-4810\" height=\"1024\" src=\"https://www.physixfan.com/wp-content/uploads/screencapture-physixfan-2022-12-09-22_58_50-64"
+    },
+    {
+      "title": "关于惯性约束聚变的个人看法：写于人类又一次首次获得大于1的能量增益",
+      "link": "https://www.physixfan.com/guanyuguanxingyueshujubiandegerenkanfaxieyurenleiyouyicishoucihuodedayu1denengliangzeng/",
+      "published": "Mon, 12 Dec 2022 07:02:21 +0000",
+      "source": "physixfan",
+      "summary": "<p>今天NIF（美国国家点火装置）又一次搞了个大新闻，虽尚未官宣，但很多媒体都在报道人类首次实现受控核聚变能量增益大于1，比如<a href=\"https://www.cnet.com/science/climate/a-fusion-energy-breakthrough-major-announcement-expected-from-us-scientists/\" rel=\"noopene"
+    },
+    {
+      "title": "乱世该不该投资黄金？",
+      "link": "https://www.physixfan.com/luanshigaibugaitouzihuangjin/",
+      "published": "Fri, 07 Mar 2025 15:38:19 +0000",
+      "source": "physixfan",
+      "summary": "<p>随着川普第二次上台，现在天天有大新闻，大有世界将要走向乱纪元的趋势。我和很多人一样，又开始思考黄金了：如果担忧二战以来奠定的世界秩序被打破，接下来的年头将要战乱频繁，我们应当投资黄金吗？这篇文章我来讲讲我目前的想法。</p>\n<p>黄金的价格主要取决于两点：</p>\n<p>一、黄金定价的基础，是实际利率。实际利率=名义利率-通胀。黄金是个不能赚取利息的标的。名义利率越高，钱存在银行就能赚到更"
+    }
+  ],
+  "深度强化学习 (DeepRL) 探索博客": [],
+  "physixfan": [],
+  "💰 投资理财": [
+    {
+      "title": "43歲上半年的被動薪水",
+      "link": "https://mercurychong.blogspot.com/2026/03/43.html",
+      "published": "2026-03-03T04:38:00.000-08:00",
+      "source": "知足常乐 - 水星投资理财",
+      "summary": "<p>&nbsp;</p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6LsCOuVrnW67vo_8kHORWDVSqar4pveZHP8vcFQNVTGqhm0j_I9NZd"
+    },
+    {
+      "title": "爸爸的教育",
+      "link": "https://mercurychong.blogspot.com/2026/02/blog-post_18.html",
+      "published": "2026-02-18T21:59:00.000-08:00",
+      "source": "知足常乐 - 水星投资理财",
+      "summary": "<p></p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjrLETcOMU0h3eaDAMCw0ddwUC4RA5N2jbaviR4Vq74TXbScQ1w8ZJjlaQsKx"
+    },
+    {
+      "title": "时间不再站在我这边，但投资可以",
+      "link": "http://ytcinvest.blogspot.com/2026/02/blog-post_13.html",
+      "published": "2026-02-13T03:11:00.003+08:00",
+      "source": "口木投资理财笔记",
+      "summary": "<p>&nbsp;多年前，我的投资几乎都以马股为中心。</p><p>\n虽然名义上也开设了海外账户，<br />但因为水钱、汇率、以及起始投资金额等各种因素，<br />我一直迟迟没有真正踏入美股市场。</p>\n<p>现在的情况完全不同了。<br />\n投资海外市场，比以前方便；<br />\n我可以用零股、小金额，投资在美国上市的公司，<br />\n也能参与全球经济与股市长期上升带来的财富累积机会。"
+    },
+    {
+      "title": "笨拙功夫",
+      "link": "https://mercurychong.blogspot.com/2026/02/blog-post_9.html",
+      "published": "2026-02-09T01:05:00.000-08:00",
+      "source": "知足常乐 - 水星投资理财",
+      "summary": "<p><span face=\"&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif\" style=\"background-color: white; color: #1d1d1d; font-size: 13px;\"><br /></span></p><p><span face=\"&quot;Helvetica Neue&quot;, H"
+    },
+    {
+      "title": "归零",
+      "link": "http://ytcinvest.blogspot.com/2026/02/blog-post.html",
+      "published": "2026-02-07T02:31:24.751+08:00",
+      "source": "口木投资理财笔记",
+      "summary": "<p>&nbsp;终于，在 2025 年，迎来了一次不得不面对的巨大改变。</p>\n<p>我选择结束经营多年的药局，<br />\n也选择回到职场，从头开始。</p>\n<p>药局的生意，始终没有真正好转。<br />\n为了撑下去，我也试过好几个月不领薪水。<br />\n但当现实叠加而来——<br />\n大宝的治疗费、家庭的日常开销——<br />\n我知道，有些事不能再拖。</p>\n<p>如果只有我一"
+    },
+    {
+      "title": "慢慢來到了歐洲",
+      "link": "https://mercurychong.blogspot.com/2026/02/blog-post.html",
+      "published": "2026-02-06T01:18:00.000-08:00",
+      "source": "知足常乐 - 水星投资理财",
+      "summary": "<p><span face=\"&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif\" style=\"background-color: white; color: #1d1d1d; font-size: 13px;\"><br /></span></p><p></p><div class=\"separator\" style=\"clear: "
+    },
+    {
+      "title": "首次歐洲旅前夕",
+      "link": "https://mercurychong.blogspot.com/2026/01/blog-post.html",
+      "published": "2026-01-13T18:13:00.000-08:00",
+      "source": "知足常乐 - 水星投资理财",
+      "summary": "<p>&nbsp;</p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh1hZPWfSQgAlAH4UZYdSaXtZjaM6OdLB6-57C9pxaQqSDRkmfATK2rf"
+    },
+    {
+      "title": "又是甜酸苦辣的一年之2025",
+      "link": "https://mercurychong.blogspot.com/2025/12/2025.html",
+      "published": "2025-12-29T23:04:00.000-08:00",
+      "source": "知足常乐 - 水星投资理财",
+      "summary": "<div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVtc7UwEPFnxYidUHq9aN86LJH_CV66T-atMYFcb_IF8iJbKiNRUbZq_UvSHHAXeueJV"
+    },
+    {
+      "title": "母子對話",
+      "link": "https://mercurychong.blogspot.com/2025/12/blog-post_18.html",
+      "published": "2025-12-18T23:48:00.000-08:00",
+      "source": "知足常乐 - 水星投资理财",
+      "summary": "<p>&nbsp;</p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioRW-AdWB7hbNREA_wt4Fc5CCtUVtdd05ZQDQYv4kMkZiKh8aGsWgem"
+    },
+    {
+      "title": "常量與變量",
+      "link": "https://mercurychong.blogspot.com/2025/12/blog-post.html",
+      "published": "2025-12-04T06:34:00.000-08:00",
+      "source": "知足常乐 - 水星投资理财",
+      "summary": "<p></p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_MKVldcWJV-mvQPcFrApd0C3X8hMt0Oe8-vfpnQhA_wXzaw6ujA0CfdjSUI7"
+    },
+    {
+      "title": "當初的快樂",
+      "link": "https://mercurychong.blogspot.com/2025/11/blog-post_20.html",
+      "published": "2025-11-20T06:19:00.000-08:00",
+      "source": "知足常乐 - 水星投资理财",
+      "summary": "<p>&nbsp;</p><div class=\"separator\" style=\"clear: both; text-align: center;\"><a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhgnVo9omchvGV-qDayasaAaZwvgy6EWmAhYJMqDYuhh1QOaZ-U3xKAq"
+    },
+    {
+      "title": "設立界限",
+      "link": "https://mercurychong.blogspot.com/2025/11/blog-post.html",
+      "published": "2025-11-18T20:44:00.000-08:00",
+      "source": "知足常乐 - 水星投资理财",
+      "summary": "<p><span face=\"&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif\" style=\"background-color: white; color: #1d1d1d; font-size: 13px;\">有否試過，當你透過自身的努力，好不容易贏得名聲、地位、財富或專業，卻被身邊的人視為理所當然，好像你會英文就得免費翻譯、有錢"
+    },
+    {
+      "title": "马股简报：8/8/2025",
+      "link": "http://ytcinvest.blogspot.com/2025/08/882025.html",
+      "published": "2025-08-08T09:29:00.003+08:00",
+      "source": "口木投资理财笔记",
+      "summary": "<p>&nbsp;</p><h2>今日马股市场概况</h2>\n<ul dir=\"auto\">\n<li>\n<p><strong>FBM KLCI（马股富时综合指数）</strong> 收于 <strong>1,549.11点</strong>，较前一交易日微涨 <strong>+0.49%（+7.63点）</strong>，创下一个月高位。</p></li><li><p><b>公用事业股走强：</b"
+    },
+    {
+      "title": "马股简报：7/8/2025",
+      "link": "http://ytcinvest.blogspot.com/2025/08/782025.html",
+      "published": "2025-08-07T10:20:00.002+08:00",
+      "source": "口木投资理财笔记",
+      "summary": "<p>今日市场概览与重点信息</p><p>\n\n\n</p><ul>\n<li>\n<p><span>KLCI指数昨</span>日收于约 <span>1,541.48点</span>，基本持稳 。KLCI可能在1530-1550点区间窄幅震荡，受到全球市场波动和本地财报季的影响。8月6日市场交易量下降至26.52亿股（价值20.74亿令吉），较前日33.58亿股（21.77亿令吉）减少，显示市场活跃度可"
+    },
+    {
+      "title": "重新开始",
+      "link": "http://ytcinvest.blogspot.com/2025/05/blog-post.html",
+      "published": "2025-05-15T19:35:00.004+08:00",
+      "source": "口木投资理财笔记",
+      "summary": "<div style=\"text-align: left;\">是的一切归零重头开始了<br />投资的户口都几乎归零<br />剩下的也只是一些零股<br />（意外的是，扣除手续费之后，&nbsp;<br />还能领取到一些股息）<br />得到的款项几乎都用在了<br />大宝需要用到的治疗费上<br />清算之后<br />也只剩下多年钱买入的一些金币<br /><br /><br />好不"
+    },
+    {
+      "title": "币",
+      "link": "http://ytcinvest.blogspot.com/2023/02/blog-post.html",
+      "published": "2023-02-08T13:00:00.005+08:00",
+      "source": "口木投资理财笔记",
+      "summary": "<p><span style=\"background-color: white;\">&nbsp;<span style=\"font-family: inherit; font-size: 15px; white-space: pre-wrap;\">币</span></span></p><div class=\"x11i5rnm xat24cr x1mh8g0r x1vvkbs xtlvy1s x12"
+    },
+    {
+      "title": "写在大选日之前",
+      "link": "http://ytcinvest.blogspot.com/2022/11/blog-post.html",
+      "published": "2022-11-18T15:17:00.005+08:00",
+      "source": "口木投资理财笔记",
+      "summary": "<p><span style=\"background-color: white;\">&nbsp;<span style=\"font-family: inherit; font-size: 15px; white-space: pre-wrap;\">写在大选日之前</span></span></p><div class=\"x11i5rnm xat24cr x1mh8g0r x1vvkbs xtlvy"
+    },
+    {
+      "title": "麦当劳父子",
+      "link": "http://ytcinvest.blogspot.com/2022/09/blog-post.html",
+      "published": "2022-09-07T18:03:00.004+08:00",
+      "source": "口木投资理财笔记",
+      "summary": "<p>&nbsp;<span style=\"font-family: SimSun;\">水星熊转发了</span></p><p class=\"MsoNormal\"><span style=\"font-family: SimSun;\">一张照片给我</span><span style=\"font-family: SimSun;\"></span></p><p class=\"MsoNormal\"><sp"
+    },
+    {
+      "title": "创业",
+      "link": "http://ytcinvest.blogspot.com/2022/06/blog-post.html",
+      "published": "2022-06-17T13:09:00.006+08:00",
+      "source": "口木投资理财笔记",
+      "summary": "<p><span style=\"background-color: white;\"><br /></span></p><div class=\"kvgmc6g5 cxmmr5t8 oygrvhab hcukyx3x c1et5uql ii04i59q\"><div dir=\"auto\" style=\"font-family: inherit;\"><span style=\"background-colo"
+    },
+    {
+      "title": "快乐天堂",
+      "link": "http://ytcinvest.blogspot.com/2021/09/blog-post.html",
+      "published": "2021-09-27T10:37:00.006+08:00",
+      "source": "口木投资理财笔记",
+      "summary": "<p>“<span style=\"font-size: 18px;\">大象长长的鼻子正昂扬</span></p><p><span style=\"font-size: 18px;\">全世界都举起了希望</span></p><p><span style=\"font-size: 18px;\">孔雀旋转着碧丽辉煌<br /></span><span style=\"font-size: 18px;\">没有人"
+    }
+  ],
+  "口木投资理财笔记": [],
+  "张琪灵": [],
+  "知足常乐 - 水星投资理财": []
+}

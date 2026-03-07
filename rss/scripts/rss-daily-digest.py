@@ -7,13 +7,20 @@ RSS 每日摘要 - 栋少专属
 
 import feedparser
 import json
-from datetime import datetime, timedelta
+from datetime import datetime
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import socket
 
 # 配置
 OPML_FILE = "/root/.openclaw/workspace-g/rss/feeder-dongshao.opml"
 OUTPUT_DIR = "/root/.openclaw/workspace-g/rss/daily"
 MAX_ITEMS_PER_CATEGORY = 5  # 每类最多保留 5 条
+TIMEOUT = 10  # 每个 RSS 源超时时间（秒）
+MAX_WORKERS = 10  # 并发数
+
+# 设置全局超时
+socket.setdefaulttimeout(TIMEOUT)
 
 # 分类配置（只关注 AI、技术、投资）
 CATEGORIES = {
@@ -41,8 +48,9 @@ def parse_opml(opml_path):
     return feeds
 
 def fetch_feed(url, title):
-    """抓取单个 RSS 源"""
+    """抓取单个 RSS 源（带超时）"""
     try:
+        print(f"  抓取: {title}")
         feed = feedparser.parse(url)
         items = []
         for entry in feed.entries[:10]:  # 每个源最多取 10 条
@@ -54,22 +62,43 @@ def fetch_feed(url, title):
                 "source": title,
                 "summary": entry.get("summary", "")[:200] if entry.get("summary") else ""
             })
+        print(f"  ✓ {title}: {len(items)} 条")
         return items
     except Exception as e:
-        print(f"Error fetching {url}: {e}")
+        print(f"  ✗ {title}: {e}")
         return []
 
 def fetch_all_feeds(feeds):
-    """抓取所有订阅源"""
+    """并发抓取所有订阅源"""
     all_items = {}
+    
+    # 准备所有任务
+    tasks = []
     for category, sources in feeds.items():
         all_items[category] = []
         for source in sources:
-            items = fetch_feed(source["url"], source["title"])
-            all_items[category].extend(items)
-        # 按时间排序，取最新
+            tasks.append((category, source))
+    
+    # 并发执行
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        future_to_task = {
+            executor.submit(fetch_feed, source["url"], source["title"]): (category, source)
+            for category, source in tasks
+        }
+        
+        for future in as_completed(future_to_task):
+            category, source = future_to_task[future]
+            try:
+                items = future.result()
+                all_items[category].extend(items)
+            except Exception as e:
+                print(f"  ✗ {source['title']}: {e}")
+    
+    # 按时间排序
+    for category in all_items:
         all_items[category].sort(key=lambda x: x.get("published", ""), reverse=True)
-        all_items[category] = all_items[category][:MAX_ITEMS_PER_CATEGORY * len(sources)]
+        all_items[category] = all_items[category][:MAX_ITEMS_PER_CATEGORY * 10]
+    
     return all_items
 
 def format_daily_digest(items, date_str):
@@ -124,7 +153,7 @@ def main():
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(digest)
     
-    print(f"✅ 摘要已保存：{output_file}")
+    print(f"\n✅ 摘要已保存：{output_file}")
     print(f"📊 统计：")
     for cat, cat_items in items.items():
         print(f"  - {cat}: {len(cat_items)} 条")
