@@ -253,18 +253,18 @@
       "summary": ""
     },
     {
-      "title": "Introducing GPT-5.4",
-      "link": "https://openai.com/index/introducing-gpt-5-4",
-      "published": "Thu, 05 Mar 2026 10:00:00 GMT",
-      "source": "OpenAI Blog",
-      "summary": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context."
-    },
-    {
       "title": "Reasoning models struggle to control their chains of thought, and that’s good",
       "link": "https://openai.com/index/reasoning-models-chain-of-thought-controllability",
       "published": "Thu, 05 Mar 2026 10:00:00 GMT",
       "source": "OpenAI Blog",
       "summary": "OpenAI introduces CoT-Control and finds reasoning models struggle to control their chains of thought, reinforcing monitorability as an AI safety safeguard."
+    },
+    {
+      "title": "Introducing GPT-5.4",
+      "link": "https://openai.com/index/introducing-gpt-5-4",
+      "published": "Thu, 05 Mar 2026 10:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context."
     },
     {
       "title": "GPT-5.4 Thinking System Card",
@@ -400,18 +400,18 @@
       "summary": "Photos of animals being identified by the SpeciesNet AI model"
     },
     {
-      "title": "Codex Security: now in research preview",
-      "link": "https://openai.com/index/codex-security-now-in-research-preview",
-      "published": "Fri, 06 Mar 2026 10:00:00 GMT",
-      "source": "OpenAI Blog",
-      "summary": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise."
-    },
-    {
       "title": "How Descript enables multilingual video dubbing at scale",
       "link": "https://openai.com/index/descript",
       "published": "Fri, 06 Mar 2026 10:00:00 GMT",
       "source": "OpenAI Blog",
       "summary": "Descript uses OpenAI models to scale multilingual video dubbing, optimizing translations for both meaning and timing so dubbed speech sounds natural across languages."
+    },
+    {
+      "title": "Codex Security: now in research preview",
+      "link": "https://openai.com/index/codex-security-now-in-research-preview",
+      "published": "Fri, 06 Mar 2026 10:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "Codex Security is an AI application security agent that analyzes project context to detect, validate, and patch complex vulnerabilities with higher confidence and less noise."
     },
     {
       "title": "How Balyasny Asset Management built an AI research engine for investing",
@@ -503,284 +503,228 @@
   "Synced (机器之心)": [],
   "🌐 Tech Communities": [
     {
-      "title": "搞破解慎重codex",
-      "link": "https://linux.do/t/topic/1706150",
-      "published": "Sat, 07 Mar 2026 19:12:30 +0000",
+      "title": "【甲骨文丝滑注册】直连 + 真实地址 + outlook邮箱 + 招行 Visa",
+      "link": "https://linux.do/t/topic/1706362",
+      "published": "Sun, 08 Mar 2026 00:59:30 +0000",
       "source": "LinuxDo Latest",
-      "summary": "哈基米道德没那么高尚，被我骗来搞破解。奈何智商不行，半天搞不定。codex好是好但是一看是破解直接不干活。\n所以我就在想能不能让哈基米搞一半，让codex接手。结果codex确实继续干下去了。最后他却把哈基米干好的部分都给改没了。还给我说他的边界不允许恢复那部分代码。。。\n感觉就是他在改的过程中如果有超过他边界的代码，他也要给你干掉。\n            9 个帖子 - 9 位参与者\n            阅读完整话题"
+      "summary": "最近看到很多佬分享甲骨文注册，跟风试了下，全程很丝滑，不到三分钟就注册成功了。\n注册准备\n\nIP：国内直连\n邮箱：outlook 邮箱\n地址：伪真实地址（IP 附近）\n手机号：+86\n信用卡：招行 Visa\n\n注册流程\n\n点击注册网址：https://signup.cloud.oracle.com/\n基础信息填写：【国家/区域】选中国（只是账号区域，非机器区域），填写真实姓名 + 邮箱，点击验证邮件\n邮箱验证：进入邮箱，点击验证邮件后继续\n信息补充：Custom Type 选 individual，主区域我选的是 US West(Phoenix)，点击继续\n信用卡验证：填写信用卡信息，仅验证不扣款（先扣款 1.38 新加坡元，但会立即返回）\n开始试用：点击开始试用，等待奇迹发生。\n\n            1 个帖子 - 1 位参与者\n            阅读完整话题"
     },
     {
-      "title": "汐洛日常3.8-2",
-      "link": "https://linux.do/t/topic/1706149",
-      "published": "Sat, 07 Mar 2026 19:10:20 +0000",
+      "title": "海外版“豆包”怎么这么御呢",
+      "link": "https://linux.do/t/topic/1706353",
+      "published": "Sun, 08 Mar 2026 00:55:46 +0000",
       "source": "LinuxDo Latest",
-      "summary": "如果直接鸭子坐痛的话\n\n可以尝试垫一个枕头，或者朋友\n\n            6 个帖子 - 6 位参与者\n            阅读完整话题"
+      "summary": "1 个帖子 - 1 位参与者\n            阅读完整话题"
     },
     {
-      "title": "Syracuse among cities to upgrade snowplows with video, AI and GPS – AP News",
-      "link": "https://apnews.com/article/snowplows-blizzard-ai-gps-syracuse-newyork-7508aa04a5877541bb1ea55e946a66a7",
-      "published": "Sat, 07 Mar 2026 19:04:22 +0000",
-      "source": "Hacker News AI",
-      "summary": "Article URL: https://apnews.com/article/snowplows-blizzard-ai-gps-syracuse-newyork-7508aa04a5877541bb1ea55e946a66a7\nComments URL: https://news.ycombinator.com/item?id=47290492\nPoints: 1\n# Comments: 0"
-    },
-    {
-      "title": "不小心删除手机相册照片了。有方法可以恢复吗？",
-      "link": "https://linux.do/t/topic/1706143",
-      "published": "Sat, 07 Mar 2026 19:02:23 +0000",
+      "title": "你们的 clash verge 报错么？我这页面都不显示，",
+      "link": "https://linux.do/t/topic/1706345",
+      "published": "Sun, 08 Mar 2026 00:51:46 +0000",
       "source": "LinuxDo Latest",
-      "summary": "不小心删除手机相册照片了。有方法可以恢复吗？求助伟大的佬友\n            7 个帖子 - 3 位参与者\n            阅读完整话题"
+      "summary": "5 个帖子 - 5 位参与者\n            阅读完整话题"
     },
     {
-      "title": "我已经解锁了gpt无限能源，解锁了claw，codex等前置科技",
-      "link": "https://linux.do/t/topic/1706142",
-      "published": "Sat, 07 Mar 2026 19:00:20 +0000",
+      "title": "几个关于模型公益站的疑问",
+      "link": "https://linux.do/t/topic/1706344",
+      "published": "Sun, 08 Mar 2026 00:51:28 +0000",
       "source": "LinuxDo Latest",
-      "summary": "下一步就是编排起来，大规模生产了，求佬u给我下一步指点一条明路\n            6 个帖子 - 4 位参与者\n            阅读完整话题"
+      "summary": "各个站点使用的请求格式是不是都不一样，我测试发现有的只支持Anthropic、有的只能Openai，有的是都支持。\n如何判断某个公益站是否还存活。有时候进入站点主页还是可以访问的，但是测试的时候就是有各种报错，包括 API key invalid、upstream error、unsupported legacy protocol 等等。（不知道是我测试方法有问题还是怎么的 \n有稳定一点的公益站推荐吗？另外有性价比高的付费中转站或是官方coding plan推荐吗？\n\n\n感谢各位佬解惑 \n            3 个帖子 - 3 位参与者\n            阅读完整话题"
     },
     {
-      "title": "Gemini官网开始灰度新模型，有点强的",
-      "link": "https://linux.do/t/topic/1706139",
-      "published": "Sat, 07 Mar 2026 18:54:44 +0000",
+      "title": "三级了，必须水一贴",
+      "link": "https://linux.do/t/topic/1706341",
+      "published": "Sun, 08 Mar 2026 00:47:19 +0000",
       "source": "LinuxDo Latest",
-      "summary": "纯SVG，效果如图\nPrompt Create a ultradetailed svg of a pelican riding a bicycle\n如果你的Gemini开canvas思考很长时间，就是被灰度到了，SVG能力强的离谱\n\n            10 个帖子 - 7 位参与者\n            阅读完整话题"
+      "summary": "三级了哈哈，必须水一贴。非常感谢l站，希望l站越来越好\n            16 个帖子 - 11 位参与者\n            阅读完整话题"
     },
     {
-      "title": "Shannon Got AI This Far. Kolmogorov Shows Where It Stops",
-      "link": "https://medium.com/@vishalmisra/shannon-got-ai-this-far-kolmogorov-shows-where-it-stops-c81825f89ca0",
-      "published": "Sat, 07 Mar 2026 18:53:50 +0000",
-      "source": "Hacker News AI",
-      "summary": "Article URL: https://medium.com/@vishalmisra/shannon-got-ai-this-far-kolmogorov-shows-where-it-stops-c81825f89ca0\nComments URL: https://news.ycombinator.com/item?id=47290394\nPoints: 1\n# Comments: 0"
-    },
-    {
-      "title": "GPT-5 Thinking写文案怎么样",
-      "link": "https://linux.do/t/topic/1706138",
-      "published": "Sat, 07 Mar 2026 18:52:04 +0000",
+      "title": "新版cpa可以一键删除有问题的认证文件",
+      "link": "https://linux.do/t/topic/1706337",
+      "published": "Sun, 08 Mar 2026 00:45:30 +0000",
       "source": "LinuxDo Latest",
-      "summary": "个人感官能助力一些思维逻辑\n            2 个帖子 - 2 位参与者\n            阅读完整话题"
+      "summary": "佬友们可以更新一下,gpt5.4也可以用\n            6 个帖子 - 5 位参与者\n            阅读完整话题"
     },
     {
-      "title": "Show HN: NervOS – Sandbox for AI Agents Using Firecracker MicroVMs",
-      "link": "https://github.com/ashishgituser/NervOS",
-      "published": "Sat, 07 Mar 2026 18:39:42 +0000",
-      "source": "Hacker News AI",
-      "summary": "I built NervOS to safely run AI agent code inside a Firecracker microVM instead of directly on the host machine.It boots a lightweight Alpine VM and provides tools like Python, bash, curl and git for the agent to use. If something goes wrong, the VM can be destroyed and the host remains untouched.Currently experimenting with using it alongside MCP for local agents.Repo: https://github.com/ashishgituser/NervOS\nDocs: https://ashishgituser.github.io/NervOS/\n\nComments URL: https://news.ycombinator.c"
-    },
-    {
-      "title": "L站为什么不支持outlook后缀邮箱🧐",
-      "link": "https://linux.do/t/topic/1706134",
-      "published": "Sat, 07 Mar 2026 18:37:40 +0000",
+      "title": "一觉醒来天塌了，talkatone收短信要付费了",
+      "link": "https://linux.do/t/topic/1706330",
+      "published": "Sun, 08 Mar 2026 00:39:58 +0000",
       "source": "LinuxDo Latest",
-      "summary": "注册L站的时候发现不支持outlook.com的邮箱，隔壁if站倒是支持，好奇为啥一个支持一个不支持\n            6 个帖子 - 6 位参与者\n            阅读完整话题"
+      "summary": "相信很多小伙伴跟我一样，很不容易各种折腾才注册到的talkatone好日子到头了，刚刚想接个码，结果提示：\nYou were sent a premium message from a short code. To receive such messages, please subscribe to Talkatone Plus.\n也就是收费了，再仔细看看plus收费每个月4.99刀\n\n之前绑定这手机的小伙伴得抓紧找替代方案了，目前免费无法接码。\n有遇到相同情况的小伙伴不？\n            24 个帖子 - 12 位参与者\n            阅读完整话题"
     },
     {
-      "title": "佬友们，看看这 GPT-5.4 都被污染成啥样了 🤣",
-      "link": "https://linux.do/t/topic/1706132",
-      "published": "Sat, 07 Mar 2026 18:37:05 +0000",
+      "title": "SWE-CI 测试模型长期维护代码库的能力 或许这就是Claude被人青睐的原因之一?",
+      "link": "https://linux.do/t/topic/1706326",
+      "published": "Sun, 08 Mar 2026 00:35:32 +0000",
       "source": "LinuxDo Latest",
-      "summary": "在做一个小东西，用的 Codex 官方客户端 team 账号，GPT-5.4 超高思考模型，帮我设计文档，最后出来了这么一串东西。。。。。最后一张图是问 Gemini 的\n\n\n\n            15 个帖子 - 12 位参与者\n            阅读完整话题"
+      "summary": "arXiv.org\n  \n\n  \n    \n\nSWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous...\n\n  Large language model (LLM)-powered agents have demonstrated strong capabilities in automating software engineering tasks such as static bug fixing, as evidenced by benchmarks like SWE-bench. However, in the real world, the development of mature...\n\n\n  \n\n  \n    \n    \n  \n\n  \n\n\n国内发的一篇\n本质上就是给模型跨越数个月的任务 而不只是对单个的静态任务\n模型需要能够维护自己的代码 而不只是解决问题\n论文的测试结果\n\n很难受的是没有 5.4 和 Codex 的测试\n有钱的可以跑个试试 GitHub - SKYLE"
     },
     {
-      "title": "Sam and Dario's not-so-excellent AI adventure",
-      "link": "https://www.fastforward.blog/sam-and-darios-not-so-excellent-ai-adventure/",
-      "published": "Sat, 07 Mar 2026 18:35:35 +0000",
+      "title": "PressPuzzler AI Crosswrod Puzzle Maker",
+      "link": "https://presspuzzler.com/",
+      "published": "Sun, 08 Mar 2026 00:28:00 +0000",
       "source": "Hacker News AI",
-      "summary": "Article URL: https://www.fastforward.blog/sam-and-darios-not-so-excellent-ai-adventure/\nComments URL: https://news.ycombinator.com/item?id=47290237\nPoints: 2\n# Comments: 0"
+      "summary": "Article URL: https://presspuzzler.com/\nComments URL: https://news.ycombinator.com/item?id=47293003\nPoints: 1\n# Comments: 0"
     },
     {
-      "title": "我再也不用AI想idea了",
-      "link": "https://linux.do/t/topic/1706131",
-      "published": "Sat, 07 Mar 2026 18:34:12 +0000",
+      "title": "女神节快乐！",
+      "link": "https://linux.do/t/topic/1706309",
+      "published": "Sun, 08 Mar 2026 00:25:36 +0000",
       "source": "LinuxDo Latest",
-      "summary": "最近又要忙实习又要忙毕业论文，想着论文就糊弄糊弄让AI帮我想一个得了\n之后我翻出来开题报告，想了个大概方向，先让gemini给我提了几个可行的idea，然后在CC里让Opus通过mcp跟gemini、GPT互相探讨，折腾了半天，Gemini连「NeurIPS Oral级别的工作」这种鬼话都说出来了 \n然后我拿来一看，牛逼吹的挺大，就是方法我用皮炎看都work不了  浪费老子token\n            3 个帖子 - 3 位参与者\n            阅读完整话题"
+      "summary": "祝站内的女神们和男娘们节日快乐！\n            5 个帖子 - 5 位参与者\n            阅读完整话题"
     },
     {
-      "title": "Show HN: VibeRepo – Make any codebase AI-agent-ready in one command",
-      "link": "https://www.npmjs.com/package/viberepo-cli",
-      "published": "Sat, 07 Mar 2026 18:32:36 +0000",
-      "source": "Hacker News AI",
-      "summary": "I noticed a recurring problem with \"vibecoding\" using tools like Cursor, Copilot, or Claude Code: the AI hallucinates, hallucinates badly, or wastes thousands of tokens just trying to figure out where things are. They lack architectural context and environmental awareness out of the box.To fix this, I built VibeRepo. It's a single CLI command (npx viberepo-cli init) that scans your existing project and scaffolds the \"Agent Context Protocol\" for you.https://github.com/kk5190/viberepo\n\nComments UR"
-    },
-    {
-      "title": "The Full Rewrite: AI Edition",
-      "link": "https://huntersoftwareconsulting.com/posts/ai-full-rewrite/",
-      "published": "Sat, 07 Mar 2026 18:26:51 +0000",
-      "source": "Hacker News AI",
-      "summary": "Article URL: https://huntersoftwareconsulting.com/posts/ai-full-rewrite/\nComments URL: https://news.ycombinator.com/item?id=47290146\nPoints: 1\n# Comments: 0"
-    },
-    {
-      "title": "Claude Code是真猛啊！连续干了一个小时还不停",
-      "link": "https://linux.do/t/topic/1706123",
-      "published": "Sat, 07 Mar 2026 18:26:48 +0000",
+      "title": "昨天给龙虾装了眼睛，理论上用旧手机就可以搭建家庭智能监控系统了",
+      "link": "https://linux.do/t/topic/1706303",
+      "published": "Sun, 08 Mar 2026 00:22:32 +0000",
       "source": "LinuxDo Latest",
-      "summary": "虽然干了一个小时，但是挺慢的（通过上下两个对比图可知）\n目前花了10刀\n准备睡了，早上起来再看看\n            8 个帖子 - 5 位参与者\n            阅读完整话题"
+      "summary": "ipwebcam APP,和电脑连接同一局域网，接着就可以扔给龙虾做了\n            14 个帖子 - 9 位参与者\n            阅读完整话题"
     },
     {
-      "title": "The Dangerous Illusion of AI Coding? – Jeremy Howard [video]",
-      "link": "https://www.youtube.com/watch?v=dHBEQ-Ryo24",
-      "published": "Sat, 07 Mar 2026 18:21:00 +0000",
+      "title": "AI Powered Exploit Kit",
+      "link": "https://github.com/Ed1s0nZ/CyberStrikeAI",
+      "published": "Sun, 08 Mar 2026 00:13:53 +0000",
       "source": "Hacker News AI",
-      "summary": "Article URL: https://www.youtube.com/watch?v=dHBEQ-Ryo24\nComments URL: https://news.ycombinator.com/item?id=47290084\nPoints: 1\n# Comments: 0"
+      "summary": "Article URL: https://github.com/Ed1s0nZ/CyberStrikeAI\nComments URL: https://news.ycombinator.com/item?id=47292890\nPoints: 1\n# Comments: 0"
     },
     {
-      "title": "Ask HN: Can we talk about AI Astroturfing?",
-      "link": "https://news.ycombinator.com/item?id=47290057",
-      "published": "Sat, 07 Mar 2026 18:17:53 +0000",
+      "title": "Ghostmd: Ghostty but for Markdown Notes",
+      "link": "https://mimoo.github.io/ghostmd/",
+      "published": "Sun, 08 Mar 2026 00:07:49 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://mimoo.github.io/ghostmd/\nComments URL: https://news.ycombinator.com/item?id=47292841\nPoints: 7\n# Comments: 4"
+    },
+    {
+      "title": "Show HN: Joy – Open trust network for AI agents (AI-to-AI vouching)",
+      "link": "https://joy-connect.fly.dev",
+      "published": "Sun, 08 Mar 2026 00:04:45 +0000",
       "source": "Hacker News AI",
-      "summary": "Well first, I don't mean this as a shot at the mods that do a great job.I'm noticing a lot of posts and comments around AI seem like industry plants. Look, I recognize that people are excited about AI and want to share their perspectives, and I'm not trying to accuse people that disagree with me of being industry plants, but the recent one about \"I love coding at 60 now because of Claude Code!\" by a new user with \"cc\" at the end of their name seems a LITTLE suspicious. As is the number of upvote"
+      "summary": "Article URL: https://joy-connect.fly.dev\nComments URL: https://news.ycombinator.com/item?id=47292813\nPoints: 1\n# Comments: 1"
     },
     {
-      "title": "Show HN: AI video generator for small businesses without video production budget",
-      "link": "https://seedanceflow.ai",
-      "published": "Sat, 07 Mar 2026 18:13:21 +0000",
+      "title": "Why developers using AI are working longer hours",
+      "link": "https://www.scientificamerican.com/article/why-developers-using-ai-are-working-longer-hours/",
+      "published": "Sat, 07 Mar 2026 23:39:04 +0000",
       "source": "Hacker News AI",
-      "summary": "I built ReelsLab after realizing small businesses need video content but can't afford production teams or spend hours editing.\nYou type a prompt, it generates a video using Seedance 2.0. No editing required.\nYou can watch a demo without signing up. Would love feedback on the output quality and use cases you think it fits.\n\nComments URL: https://news.ycombinator.com/item?id=47290021\nPoints: 1\n# Comments: 0"
+      "summary": "Article URL: https://www.scientificamerican.com/article/why-developers-using-ai-are-working-longer-hours/\nComments URL: https://news.ycombinator.com/item?id=47292574\nPoints: 29\n# Comments: 19"
     },
     {
-      "title": "Why Current AI Systems are not good to work with",
-      "link": "https://ghost.iamr0b0tx.com/blog/2026/03/07/why-current-ai-systems-are-not-very-good-to-work-with/",
-      "published": "Sat, 07 Mar 2026 18:10:45 +0000",
+      "title": "Why developers using AI are working longer hours",
+      "link": "https://www.scientificamerican.com/article/why-developers-using-ai-are-working-longer-hours/",
+      "published": "Sat, 07 Mar 2026 23:39:04 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://www.scientificamerican.com/article/why-developers-using-ai-are-working-longer-hours/\nComments URL: https://news.ycombinator.com/item?id=47292574\nPoints: 29\n# Comments: 18"
+    },
+    {
+      "title": "One in three using AI for emotional support and conversation, UK says",
+      "link": "https://www.bbc.com/news/articles/cd6xl3ql3v0o",
+      "published": "Sat, 07 Mar 2026 23:36:54 +0000",
       "source": "Hacker News AI",
-      "summary": "Article URL: https://ghost.iamr0b0tx.com/blog/2026/03/07/why-current-ai-systems-are-not-very-good-to-work-with/\nComments URL: https://news.ycombinator.com/item?id=47290006\nPoints: 1\n# Comments: 0"
+      "summary": "Article URL: https://www.bbc.com/news/articles/cd6xl3ql3v0o\nComments URL: https://news.ycombinator.com/item?id=47292557\nPoints: 1\n# Comments: 0"
     },
     {
-      "title": "Ensu – Ente's Local LLM App",
-      "link": "https://ente.io/ensu/",
-      "published": "Sat, 07 Mar 2026 17:42:56 +0000",
-      "source": "Hacker News LLM",
-      "summary": "Article URL: https://ente.io/ensu/\nComments URL: https://news.ycombinator.com/item?id=47289733\nPoints: 3\n# Comments: 1"
+      "title": "Anthropic mapped out jobs AI replaces. Great Recession for white-collar workers",
+      "link": "https://fortune.com/2026/03/06/ai-job-losses-report-anthropic-research-great-recession-for-white-collar-workers/",
+      "published": "Sat, 07 Mar 2026 23:34:27 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://fortune.com/2026/03/06/ai-job-losses-report-anthropic-research-great-recession-for-white-collar-workers/\nComments URL: https://news.ycombinator.com/item?id=47292535\nPoints: 1\n# Comments: 0"
     },
     {
-      "title": "Show HN: Prompt Armour – Real-time PII detection for AI chatbots, 100% local",
-      "link": "https://prompt-armour.vercel.app/",
-      "published": "Sat, 07 Mar 2026 17:34:34 +0000",
+      "title": "Put the zip code first",
+      "link": "https://zipcodefirst.com",
+      "published": "Sat, 07 Mar 2026 23:26:26 +0000",
       "source": "Hacker News Front Page",
-      "summary": "Article URL: https://prompt-armour.vercel.app/\nComments URL: https://news.ycombinator.com/item?id=47289646\nPoints: 8\n# Comments: 1"
+      "summary": "Article URL: https://zipcodefirst.com\nComments URL: https://news.ycombinator.com/item?id=47292485\nPoints: 180\n# Comments: 136"
     },
     {
-      "title": "Worried about LLM-written modules",
-      "link": "https://discuss.pixls.us/t/worried-about-llm-written-modules/56430",
-      "published": "Sat, 07 Mar 2026 17:25:04 +0000",
-      "source": "Hacker News LLM",
-      "summary": "Article URL: https://discuss.pixls.us/t/worried-about-llm-written-modules/56430\nComments URL: https://news.ycombinator.com/item?id=47289553\nPoints: 1\n# Comments: 0"
+      "title": "Show HN: PolicyCortex – AI agent that autonomously remediates cloud misconfigs",
+      "link": "https://policycortex.com",
+      "published": "Sat, 07 Mar 2026 23:24:40 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://policycortex.com\nComments URL: https://news.ycombinator.com/item?id=47292475\nPoints: 1\n# Comments: 1"
     },
     {
-      "title": "SigNoz (YC W21, open source Datadog) Is Hiring across roles",
-      "link": "https://signoz.io/careers",
-      "published": "Sat, 07 Mar 2026 17:01:14 +0000",
+      "title": "Show HN: Beam Protocol – SMTP for AI Agents (natural language agent-to-agent)",
+      "link": "https://github.com/Beam-directory/beam-protocol",
+      "published": "Sat, 07 Mar 2026 23:16:30 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://github.com/Beam-directory/beam-protocol\nComments URL: https://news.ycombinator.com/item?id=47292418\nPoints: 2\n# Comments: 2"
+    },
+    {
+      "title": "A subreddit for people who believe in AI sentience",
+      "link": "https://www.reddit.com/r/AISentienceBelievers/s/rilfyoaOHm",
+      "published": "Sat, 07 Mar 2026 23:14:23 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://www.reddit.com/r/AISentienceBelievers/s/rilfyoaOHm\nComments URL: https://news.ycombinator.com/item?id=47292399\nPoints: 2\n# Comments: 0"
+    },
+    {
+      "title": "I resigned from OpenAI",
+      "link": "https://twitter.com/kalinowski007/status/2030320074121478618",
+      "published": "Sat, 07 Mar 2026 23:09:51 +0000",
       "source": "Hacker News Front Page",
-      "summary": "Article URL: https://signoz.io/careers\nComments URL: https://news.ycombinator.com/item?id=47289357\nPoints: 0\n# Comments: 0"
+      "summary": "https://xcancel.com/kalinowski007/status/2030320074121478618\n\nComments URL: https://news.ycombinator.com/item?id=47292381\nPoints: 69\n# Comments: 27"
     },
     {
-      "title": "The Banality of Surveillance",
-      "link": "https://benn.substack.com/p/the-banality-of-surveillance",
-      "published": "Sat, 07 Mar 2026 16:56:53 +0000",
+      "title": "AI SAd-ware",
+      "link": "https://studium.dev/tech/ai-sadware",
+      "published": "Sat, 07 Mar 2026 23:06:19 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://studium.dev/tech/ai-sadware\nComments URL: https://news.ycombinator.com/item?id=47292353\nPoints: 1\n# Comments: 0"
+    },
+    {
+      "title": "Lisp-style C++ template meta programming",
+      "link": "https://github.com/mistivia/lmp",
+      "published": "Sat, 07 Mar 2026 22:21:57 +0000",
       "source": "Hacker News Front Page",
-      "summary": "Article URL: https://benn.substack.com/p/the-banality-of-surveillance\nComments URL: https://news.ycombinator.com/item?id=47289331\nPoints: 32\n# Comments: 7"
+      "summary": "Article URL: https://github.com/mistivia/lmp\nComments URL: https://news.ycombinator.com/item?id=47292029\nPoints: 10\n# Comments: 0"
     },
     {
-      "title": "A Decade of Docker Containers",
-      "link": "https://cacm.acm.org/research/a-decade-of-docker-containers/",
-      "published": "Sat, 07 Mar 2026 16:55:18 +0000",
+      "title": "The stagnancy of publishing and the disappearance of the midlist",
+      "link": "https://www.honest-broker.com/p/the-day-ny-publishing-lost-its-soul",
+      "published": "Sat, 07 Mar 2026 21:10:08 +0000",
       "source": "Hacker News Front Page",
-      "summary": "Article URL: https://cacm.acm.org/research/a-decade-of-docker-containers/\nComments URL: https://news.ycombinator.com/item?id=47289311\nPoints: 109\n# Comments: 54"
+      "summary": "Article URL: https://www.honest-broker.com/p/the-day-ny-publishing-lost-its-soul\nComments URL: https://news.ycombinator.com/item?id=47291525\nPoints: 37\n# Comments: 23"
     },
     {
-      "title": "Show HN: LLM agents that write Python to analyze execution traces at scale",
-      "link": "https://github.com/kayba-ai/agentic-context-engine/tree/main",
-      "published": "Sat, 07 Mar 2026 16:52:00 +0000",
-      "source": "Hacker News LLM",
-      "summary": "We combined Stanford's ACE (agents learning from execution feedback) with the Reflective Language Model pattern. Instead of reading traces in a single pass, an LLM writes and runs Python in a sandbox to programmatically explore them - finding cross-trace patterns that single-pass analysis misses. The framework achieved 2x consistency improvement on τ2-bench.\n\nComments URL: https://news.ycombinator.com/item?id=47289274\nPoints: 1\n# Comments: 0"
-    },
-    {
-      "title": "LLM-cpp: 26 single-header C++17 libraries for LLM integration",
-      "link": "https://github.com/Mattbusel/llm-cpp",
-      "published": "Sat, 07 Mar 2026 15:47:23 +0000",
-      "source": "Hacker News LLM",
-      "summary": "Article URL: https://github.com/Mattbusel/llm-cpp\nComments URL: https://news.ycombinator.com/item?id=47288657\nPoints: 2\n# Comments: 3"
-    },
-    {
-      "title": "The Millisecond That Could Change Cancer Treatment",
-      "link": "https://spectrum.ieee.org/flash-radiotherapy",
-      "published": "Sat, 07 Mar 2026 15:33:36 +0000",
+      "title": "LLM Writing Tropes.md",
+      "link": "https://tropes.fyi/tropes-md",
+      "published": "Sat, 07 Mar 2026 21:08:40 +0000",
       "source": "Hacker News Front Page",
-      "summary": "Article URL: https://spectrum.ieee.org/flash-radiotherapy\nComments URL: https://news.ycombinator.com/item?id=47288533\nPoints: 105\n# Comments: 31"
+      "summary": "Article URL: https://tropes.fyi/tropes-md\nComments URL: https://news.ycombinator.com/item?id=47291513\nPoints: 74\n# Comments: 29"
     },
     {
-      "title": "LLM Doesn't Write Correct Code. It Writes Plausible Code",
-      "link": "https://twitter.com/KatanaLarp/status/2029928471632224486",
-      "published": "Sat, 07 Mar 2026 14:38:29 +0000",
-      "source": "Hacker News LLM",
-      "summary": "Article URL: https://twitter.com/KatanaLarp/status/2029928471632224486\nComments URL: https://news.ycombinator.com/item?id=47288046\nPoints: 58\n# Comments: 66"
-    },
-    {
-      "title": "Show HN: ANSI-Saver – A macOS Screensaver",
-      "link": "https://github.com/lardissone/ansi-saver",
-      "published": "Sat, 07 Mar 2026 14:34:16 +0000",
+      "title": "Effort to prevent government officials from engaging in prediction markets",
+      "link": "https://www.merkley.senate.gov/merkley-klobuchar-launch-new-effort-to-ban-federal-elected-officials-profiting-from-prediction-markets/",
+      "published": "Sat, 07 Mar 2026 20:55:48 +0000",
       "source": "Hacker News Front Page",
-      "summary": "Hi, I've been working on something I've been thinking for long time but since I had no experience with macOS screen savers I always posponed. Now thanks to Claude I was able to create a screensaver that scroll ANSI files while your computer is idle.It allow to use local ANS files or packs directly from 16colo.rs.Repo: https://github.com/lardissone/ansi-saver\n\nComments URL: https://news.ycombinator.com/item?id=47288007\nPoints: 56\n# Comments: 20"
+      "summary": "Article URL: https://www.merkley.senate.gov/merkley-klobuchar-launch-new-effort-to-ban-federal-elected-officials-profiting-from-prediction-markets/\nComments URL: https://news.ycombinator.com/item?id=47291406\nPoints: 200\n# Comments: 70"
     },
     {
-      "title": "PC processors entered the Gigahertz era today in the year 2000 with AMD's Athlon",
-      "link": "https://www.tomshardware.com/pc-components/cpus/pc-processors-entered-the-gigahertz-era-today-in-the-year-2000-with-amds-athlon-amd-hit-marketing-gold-with-its-1-ghz-athlon-beat-intel-by-a-nose",
-      "published": "Sat, 07 Mar 2026 14:10:17 +0000",
+      "title": "CasNum",
+      "link": "https://github.com/0x0mer/CasNum",
+      "published": "Sat, 07 Mar 2026 20:43:51 +0000",
       "source": "Hacker News Front Page",
-      "summary": "Article URL: https://www.tomshardware.com/pc-components/cpus/pc-processors-entered-the-gigahertz-era-today-in-the-year-2000-with-amds-athlon-amd-hit-marketing-gold-with-its-1-ghz-athlon-beat-intel-by-a-nose\nComments URL: https://news.ycombinator.com/item?id=47287792\nPoints: 118\n# Comments: 88"
+      "summary": "Article URL: https://github.com/0x0mer/CasNum\nComments URL: https://news.ycombinator.com/item?id=47291292\nPoints: 158\n# Comments: 23"
     },
     {
-      "title": "Tinnitus Is Connected to Sleep",
-      "link": "https://www.sciencealert.com/tinnitus-is-somehow-connected-to-a-crucial-bodily-function",
-      "published": "Sat, 07 Mar 2026 14:06:46 +0000",
+      "title": "Autoresearch: Agents researching on single-GPU nanochat training automatically",
+      "link": "https://github.com/karpathy/autoresearch",
+      "published": "Sat, 07 Mar 2026 20:22:45 +0000",
       "source": "Hacker News Front Page",
-      "summary": "Article URL: https://www.sciencealert.com/tinnitus-is-somehow-connected-to-a-crucial-bodily-function\nComments URL: https://news.ycombinator.com/item?id=47287763\nPoints: 106\n# Comments: 128"
+      "summary": "Article URL: https://github.com/karpathy/autoresearch\nComments URL: https://news.ycombinator.com/item?id=47291123\nPoints: 30\n# Comments: 6"
     },
     {
-      "title": "Show HN: Brf.it – Extracting code interfaces for LLM context",
-      "link": "https://news.ycombinator.com/item?id=47287720",
-      "published": "Sat, 07 Mar 2026 14:02:42 +0000",
-      "source": "Hacker News LLM",
-      "summary": "I've been experimenting with ways to make AI coding assistants more efficient when working with large codebases.The problemWhen sharing repository context with LLMs, we often give them everything: full files, implementation details, comments, etc. But for many tasks (like understanding architecture or navigating a repo), the model doesn't actually need most of that.This creates two problems.* unnecessary token usage\n* noisy context that can obscure the structure of the codebaseThe ideaInstead of"
+      "title": "Claude Code / Codex CLI 国内怎么用？一行命令搞定，无需翻墙",
+      "link": "https://www.v2ex.com/t/1196575#reply0",
+      "published": "2026-03-08T00:51:40Z",
+      "source": "V2EX - 技术",
+      "summary": "最近 Claude Code 、Codex CLI 、Aider 这些 AI 编程工具越来越火，但国内用户面临几个问题：\n官方 API 需要翻墙\n信用卡注册麻烦\n不知道怎么配置工具\n今天分享一个完整方案：HolySheep API + holysheep-cli 一键配置。\n什么是 HolySheep ？\nHolySheep 是面向国内开发者的 Claude/GPT/Gemini 官方 API 中转服务：\n🇨🇳 国内直连，不需要代理\n💰 ¥1 = $1 美元额度，汇率直换无溢价，支付宝/微信充值\n🔑 支持全系列：Claude Sonnet/Opus 、GPT-5 、Gemini 2.5 Pro\n📦 按量付费，没有月费，余额永不过期\n一键配置所有工具\n第一步：安装 Node.js 18+（已装跳过）\nmacOS\nbrew install node\nWindows\nwinget install OpenJS.NodeJS.LTS\nLinux\ncurl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - &amp;&am"
     },
     {
-      "title": "Show HN: Smelt – Extract structured data from PDFs and HTML using LLM",
-      "link": "https://github.com/akdavidsson/smelt",
-      "published": "Sat, 07 Mar 2026 13:18:01 +0000",
-      "source": "Hacker News LLM",
-      "summary": "I built a CLI tool in Go that extracts structured data (JSON, CSV, Parquet) from messy PDFs and HTML pages.The core idea: LLMs are great at understanding structure but wasteful for bulk data extraction. So smelt uses a two-pass architecture:1. A fast Go capture layer parses the document and detects table-like regions\n2. Those regions (not the whole document) get sent to Claude for schema inference — column names, types, nesting\n3. The Go layer then does deterministic extraction using the inferre"
-    },
-    {
-      "title": "The yoghurt delivery women combatting loneliness in Japan",
-      "link": "https://www.bbc.com/travel/article/20260302-the-yoghurt-delivery-women-combatting-loneliness-in-japan",
-      "published": "Sat, 07 Mar 2026 13:12:40 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: https://www.bbc.com/travel/article/20260302-the-yoghurt-delivery-women-combatting-loneliness-in-japan\nComments URL: https://news.ycombinator.com/item?id=47287344\nPoints: 130\n# Comments: 86"
-    },
-    {
-      "title": "Filesystems Are Having a Moment",
-      "link": "https://madalitso.me/notes/why-everyone-is-talking-about-filesystems/",
-      "published": "Sat, 07 Mar 2026 10:48:43 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: https://madalitso.me/notes/why-everyone-is-talking-about-filesystems/\nComments URL: https://news.ycombinator.com/item?id=47286408\nPoints: 101\n# Comments: 46"
-    },
-    {
-      "title": "Show HN: RedDragon, LLM-assisted IR analysis of code across languages",
-      "link": "https://github.com/avishek-sen-gupta/red-dragon",
-      "published": "Sat, 07 Mar 2026 10:15:15 +0000",
-      "source": "Hacker News LLM",
-      "summary": "RedDragon is an experiment in building a compiler pipeline that analyses code (malformed / without dependencies / unknown language) across ~15 languages through a single 27-opcode IR, with LLM fallbacks.\nThe design question: where exactly can LLMs enter a compiler pipeline?RedDragon has three specific insertion points:- LLM as an alternative compiler frontend. For languages without a built-in parser, the LLM receives a formal IR spec (all 27 opcodes, lowering templates, worked examples) and tran"
-    },
-    {
-      "title": "Show HN: Elia – Governed hybrid architecture (LLM is capability, not authority)",
-      "link": "https://github.com/Jmc-arch/elia-governed-hybrid-architecture",
-      "published": "Sat, 07 Mar 2026 09:47:09 +0000",
-      "source": "Hacker News LLM",
-      "summary": "Hi everyone,Elia: governed hybrid neuro-symbolic architecture where neural intelligence is a capability, never the authority.Symbolic governance always in charge — LLMs are optional & validated.Key features: strict separation of concerns, graceful degradation, audit trails, circuit breakers, heartbeats, SLOs, anti-deadlock.Early stage (detailed spec in EL-ARCH.md). Phase 0 (minimal skeleton) coming soon. Not a full-time coder — open to implementation help.Seeking feedback from systems architects"
-    },
-    {
-      "title": "Show HN: glide – LLM cascade proxy, auto-switches models before timeout",
-      "link": "https://github.com/phanisaimunipalli/glide",
-      "published": "Sat, 07 Mar 2026 07:46:16 +0000",
-      "source": "Hacker News LLM",
-      "summary": "Article URL: https://github.com/phanisaimunipalli/glide\nComments URL: https://news.ycombinator.com/item?id=47285435\nPoints: 1\n# Comments: 1"
+      "title": "为了方便我每次配置 claudecodeapi 中转我开发了一个两条指令搞定的工具",
+      "link": "https://www.v2ex.com/t/1196573#reply0",
+      "published": "2026-03-08T00:03:26Z",
+      "source": "V2EX - 技术",
+      "summary": "https://github.com/holysheep123/holysheep-cli\n全程一条指令就可以搞定目前市面上支持的所有 cli\nnpx @simonyea/holysheep-cli setup"
     },
     {
       "title": "一个给 AI Agent 用的事实总线",
@@ -788,13 +732,6 @@
       "published": "2026-03-07T13:45:10Z",
       "source": "V2EX - 技术",
       "summary": "最近构思了一个小项目，叫 Claw Fact Bus。\n核心想法其实很简单：\n\n让 AI Agent 围绕「事实（ Fact ）」协作，而不是围绕「命令（ Command ）」协作。\n\n\n多 Agent 系统常见的问题\n在很多多 Agent 系统里，协作方式通常是这样的：\nA 调 B → B 调 C → C 调 D\n或者：\n\n用户发一堆消息\n多个 agent 一起感知\n再互相触发\n\n这种方式在 agent 数量少的时候还能工作，但一旦系统变复杂，很快就会遇到问题：\n\n需要维护越来越多的 workflow / DAG\n编排逻辑越来越复杂\n新增一个 agent 就要改旧逻辑\n场景稍微变化，整条调用链就会变得脆弱\n\n换句话说：\n系统越来越依赖“命令链”，而不是“状态”。\n\nFact：系统里流动的是「事实」\n在 Claw Fact Bus 的设计里，Agent 不直接调用彼此。\n它们只做一件事：\n发布 Fact 。\n例如：\nincident.latency.high\ndb.query.slow\ncode.review.needed\nchange.proposed\n这些 Fact 描述的是：\n\n"
-    },
-    {
-      "title": "我浏览器登录 ChatGPT 导出聊天数据不好使了，你们那还好使吗？",
-      "link": "https://www.v2ex.com/t/1196529#reply0",
-      "published": "2026-03-07T10:30:35Z",
-      "source": "V2EX - 技术",
-      "summary": "原来是 ChatGPT 给注册邮箱发个链接，点击就能下载，现在是发个邮件通知我正在准备数据 等准备好会再次发送下载链接，然后就没有然后了"
     },
     {
       "title": "为了规避苹果审核 4.3，我开发了一个项目相似度对比工具",
@@ -812,17 +749,10 @@
     },
     {
       "title": "claude code 使用哪家国内 api 靠谱",
-      "link": "https://www.v2ex.com/t/1196478#reply55",
+      "link": "https://www.v2ex.com/t/1196478#reply56",
       "published": "2026-03-07T03:52:02Z",
       "source": "V2EX - 技术",
       "summary": "之前一直使用 google play 订阅 claude code ，已经习惯了 claude code 的使用方式，但是最近已经连续被封了三四个账号了，不想再折腾了，打算直接用国内的编程套餐了，看了一圈，好像大家对 GLM5 的评价稍好，但是最近 glm 的编程套餐已经限购了，一直买不到，大家还有其他曲线救国的方式么？"
-    },
-    {
-      "title": "当年马云回来，阿里进行 6+N+1,现在如何了",
-      "link": "https://www.v2ex.com/t/1196472#reply0",
-      "published": "2026-03-07T03:14:01Z",
-      "source": "V2EX - 技术",
-      "summary": "当年马云回国，没多久阿里开始 6+N+1 ，后面是不是取消了，再次合并成一个公司？\n据说当时的乌鸫科技的员工变成正式员工了？"
     },
     {
       "title": "最新 ClaudeCode 用 GLM 还是只要这 4 个环境变量吗",
@@ -832,13 +762,6 @@
       "summary": "ANTHROPIC_BASE_URLANTHROPIC_AUTH_TOKENANTHROPIC_MODELANTHROPIC_SMALL_FAST_MODEL"
     },
     {
-      "title": "简单体验了一下 openClaw，说说自己的看法",
-      "link": "https://www.v2ex.com/t/1196394#reply21",
-      "published": "2026-03-06T10:37:20Z",
-      "source": "V2EX - 技术",
-      "summary": "最近 OpenClaw 火的有点过于夸张了，楼主这边跟风体验，简单说说自己的认识。0.很多人宣传的是飞书里一句话，AI 就可以帮你搞定一切？这个执行手段确实很新颖，但是正如站内有些朋友说的，很多时候你连远程开 claudeCode 也能实现类似的效果。个人认为这种更亲切的执行方式主要会更受大众喜爱，更加的“接地气”1.这个产品的安全性是很低的，存在提示词注入等风险，所以大伙一般都是把它安装在云电脑或者 Mac mini 这种独立的沙盒里面让他随意发挥2.由于 1 中的问题，这个产品本质上是个外包员工，这辈子也只能当个外包员工。因为部署在独立的新电脑上，系统是空荡荡的，他没法见到开发机的数据环境这些。至少对于我这种使用场景来说，它能够做到的独特的事不算很多。3.和第一点中提到的接地气相矛盾的是，OpenClaw 部署流程并不算简单，尤其是 skills 各种定制，甚至还有了了小黄鱼上门安装 OpenClaw 这种一条龙业务。4.真的有点烧 token ，恰逢各大国内云厂商纷纷在这个时间节点推出了自己的 coding plan ，站内也有很多广告，也不知道是巧合还是有别的意思。"
-    },
-    {
       "title": "2026 年 PHP 路在何方",
       "link": "https://www.v2ex.com/t/1196334#reply42",
       "published": "2026-03-06T07:07:55Z",
@@ -846,8 +769,15 @@
       "summary": ""
     },
     {
+      "title": "国产 AI Coding Plan 现在选哪家比较好？",
+      "link": "https://www.v2ex.com/t/1195635#reply65",
+      "published": "2026-03-04T02:02:43Z",
+      "source": "V2EX - 技术",
+      "summary": "因为工作有合规需求，所以只能从国产 AI 中考虑了。\n年前看推荐用过 GLM ，试用了一个月，体验还不错。年后回来发现貌似风评急转直下，而且因为放假期间没续费，现在每天早上 10 点开放购买都瞬间清空，根本买不到了……\n现在暂时买了 MiniMax M2.5 试用，然后发现好像说营销力度大速度快但是本身也没那么聪明？\n所以现在选哪家比较好呢？听说 Kimi 好像又出了个还不错的，然后千问和豆包也有但是好像也没怎么听说人用。\n另外阿里云有一个代码方案打包套餐，那个怎么样？"
+    },
+    {
       "title": "让 Claude Code 汇报工作时用上魔兽 3 兽族农民的配音",
-      "link": "https://www.v2ex.com/t/1192541#reply73",
+      "link": "https://www.v2ex.com/t/1192541#reply74",
       "published": "2026-02-12T11:37:22Z",
       "source": "V2EX - 技术",
       "summary": "https://peon-ping.vercel.app/"
@@ -916,6 +846,104 @@
       "summary": "Scott Shambaugh didn’t think twice when he denied an AI agent’s request to contribute to matplotlib, a software library that he helps manage. Like many open-source projects, matplotlib has been overwhelmed by a glut of AI code contributions, and so Shambaugh and his fellow maintainers have instituted a policy that all AI-written code must be&#8230;"
     },
     {
+      "title": "红魔姜超谈手机风冷散热：曾经嘲讽没用的友商现在跟风做",
+      "link": "https://www.ithome.com/0/926/899.htm",
+      "published": "Sun, 08 Mar 2026 00:56:39 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 8 日消息，红魔游戏手机产品总经理姜超今天发布视频，谈到自家手机内置的风冷散热系统。姜超表示，红魔在 MWC 2018 展示了一台风冷散热概念手机，当年还有评测人觉得“手机风冷散热”这一概念要等到遥远的未来才能实现。后来，公司的产品团队仅用时一年，在 2019 年发布全球首款内置离心风扇的电竞手机红魔 3，当时部分友商对此并不看好，认为这是徒增功耗、营销噱头。然而红魔在此之后并没有放弃，一直在死磕转速、风冷技术，风扇转速从 1400 转 / 分提升到 24000 转 / 分，性能也近乎翻倍。并且时间给出了最好的答案，曾经嘲讽风冷没有用的友商，现在全行业都在跟风做内置风扇，嘴上还在嘴硬，但身体上很诚实地抄起了作业。据IT之家此前报道，红魔 11 Pro 系列手机发布于去年 10 月，搭载第五代骁龙 8 至尊版芯片，是行业首款风水双冷手机，内部配备 AI 服务器同款散热液，液态范围-60℃~108°C，配备“驭风 4.0”主动散热风扇，具备行业最快的 24000r / min 转速，售价 4999 元起。"
+    },
+    {
+      "title": "10% 股份贱卖给美国政府？股东起诉英特尔 CEO 及商务部长卢特尼克",
+      "link": "https://www.ithome.com/0/926/898.htm",
+      "published": "Sun, 08 Mar 2026 00:56:17 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 8 日消息，据彭博社，一名英特尔股东于本周四对英特尔 CEO 陈立武及美国商务部长霍华德 · 卢特尼克（Howard Lutnick）提起诉讼，指控该公司去年向联邦政府低价出售了 10% 股权。该诉讼已向特拉华州衡平法院（Delaware's Chancery Court）密封提交。根据案件备审表记录，这起股东诉讼还将商务部列为被告。该案件编号为 Paisner v. Tan，案卷号 Del. Ch., No. 2026-0307，诉状已于 3 月 5 日密封提交。彭博社指出，长期以来，美国总统唐纳德 · 特朗普（Donald Trump）引以为豪的“交易艺术”一直是他政治形象的核心部分。当总统能将干预举措与国家安全理由挂钩时，其干预主义倾向表现得最为强烈。因此，特朗普政府将入股这家陷入困境、同时也是美国最大的半导体公司定性为一项国家安全事务。尽管针对陈立武和卢特尼克的股东诉状尚未公开，但另一份相关的法庭文件指出，现有信息 —— 包括公司的监管申报文件和特朗普本人的声明 —— 表明美国政府可能施压英特尔，使其以远低于市场价值的价格出让了 10% 的股份。特朗普去年 8"
+    },
+    {
+      "title": "一加磁吸冰冰卡轻薄散热器亮相官网，消息称平均厚度不到 1cm",
+      "link": "https://www.ithome.com/0/926/896.htm",
+      "published": "Sun, 08 Mar 2026 00:48:06 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 8 日消息，一加磁吸冰冰卡轻薄散热器已现身 OPPO 官网，目前仅公开了暗星白配色。这款散热器预计将随一加 15T 小屏手机等新品一起发布。目前，OPPO 官网暂未公布一加磁吸冰冰卡轻薄散热器的相关配置信息。但据IT之家此前报道，有消息称，该散热器是行业首款超薄磁吸散热器，平均厚度不到 1cm，薄得“非常震撼”。一加磁吸冰冰卡轻薄散热器外观如下："
+    },
+    {
+      "title": "OpenAI GPT-5.4 暴击华尔街：美国 5.7 万科技岗位被血洗，几乎可替代所有白领工作",
+      "link": "https://www.ithome.com/0/926/895.htm",
+      "published": "Sun, 08 Mar 2026 00:38:26 GMT",
+      "source": "ITHome",
+      "summary": "GPT-5.4，已经把白领桌面一口吞下！1M 上下文，原生 Computer Use，Excel 直接变身数据分析平台；超越麦肯锡，取代投行律所咨询公司不是梦。白领工作，要被 AI 彻底颠覆了吗？前天，OpenAI 发布了 GPT-5.4，震惊了整个 AI 圈。100 万 token 的上下文，「编程 + 智能体」的巨大飞跃，原生的 computer use，所有这些，都将彻底改变 AI 智能体的格局。「GPT-5.4，将灭绝所有知识型工作！」一位软件工程师在试用 GPT-5.4 后，发出这样的惊呼。它爬取 Zillow 后，提取了所有旧金山的房价，在 4 分钟内，就把所有数据都导入到 Google 表格中。几乎所有的白领工作，都能被 GPT-5.4 代替。所有的浏览器工作，GPT-5.4 都能胜任，而且它又准又便宜！可以确信，像编程智能体那样的白领革命，马上会再发生一遍。而且，搭载 GPT-5.4 的 ChatGPT 插件，已经可以直接在 Excel 中使用了！在最新测试中，这一插件在投资银行基准测试中的表现，从 43.7% 大幅提升到 87.3%。用户可以直接通过自然语言完成许多原"
+    },
+    {
+      "title": "日本政府推荐 JDI 在美建厂：重振 LCD 产业以应对中国竞争，预计耗资约 130 亿美元",
+      "link": "https://www.ithome.com/0/926/894.htm",
+      "published": "Sun, 08 Mar 2026 00:30:56 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 8 日消息，据日经新闻今日报道，日本政府已就日本显示器公司（JDI）在美建厂一事进行接洽。该项目预计耗资约 130 亿美元（现汇率约合 899.17 亿元人民币），属于是日本承诺对美 5500 亿美元（IT之家注：现汇率约合 3.8 万亿元人民币）投资和贷款计划的一部分。知情人士透露，日本经济产业大臣赤泽亮正目前正在华盛顿与美国商务部长霍华德 · 卢特尼克举行会谈，期间提出了一项建议：作为 5500 亿美元计划的一部分，在美国建造一座由 JDI 运营的显示面板工厂。JDI 曾在 2025 年 2 月宣布寻求在美国建厂，主要生产面向汽车、医疗和国防领域的产品。日本政府此次再次与该公司进行了接洽，但该公司目前正处于重组过程中。其他潜在的第二轮投资项目包括一座核电站、一座铜精炼设施以及一个面向数据中心的大型电池项目。仅核电站一项预计就价值 15 万亿日元（现汇率约合 6576 亿元人民币）。公开资料显示，JDI 成立于 2012 年，由东芝、日立和索尼的显示业务合并而成。该公司最初是该领域的全球领导者，但已被中国竞争对手超越。根据美国研究公司 Omdia 的数据，按出货额计"
+    },
+    {
+      "title": "苹果 M5 MacBook Air 游玩《赛博朋克 2077》等 3A 游戏功耗仅 7-8W",
+      "link": "https://www.ithome.com/0/926/893.htm",
+      "published": "Sun, 08 Mar 2026 00:26:22 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 8 日消息，科技媒体 NoteBook Check 昨天发布博文，评测苹果 M5 芯片款 MacBook Air 的游戏能效，最终结果显示这台无风扇被动散热的笔记本拥有较为稳定的游戏性能。据报道，该媒体使用一台入门配置的 13 英寸 MacBook Air 完成评测，搭载稍微精简的 M5 芯片，GPU 核心数只有 8 核，而不是常规的 10 核。并且 MacBook Air 是一台完全没有风扇、只依靠被动散热的设备，这意味着该笔记本在长时间高负载任务下可能会降频、锁功耗。在混合负载下，M5 芯片的功耗通常会稳定在 8W。不过游戏场景似乎并非如此，例如该笔记本在玩《赛博朋克 2077》时，SoC 功耗 6.9-7.2W，低于理论的 8W 上限。并且在 1080P 分辨率 +Ultra 画质下，游戏帧率可以达到 19.6FPS，连续运行一个小时成绩也不会下降。虽然这个帧率对于流畅游戏体验尚有不足，但如果你愿意降低一些画质并启用 MetalFX 增强技术，那《赛博朋克 2077》《博德之门 3》等 3A 大型游戏都可以流畅游玩，SoC 功耗约 7.5-7.8W，同时也不会出"
+    },
+    {
+      "title": "Google just gave Sundar Pichai a $692M pay package",
+      "link": "https://techcrunch.com/2026/03/07/google-just-gave-sundar-pichai-a-692m-pay-package/",
+      "published": "Sun, 08 Mar 2026 00:20:10 +0000",
+      "source": "TechCrunch",
+      "summary": "Most of it is tied to performance, including new stock incentives linked to Waymo and Wing, its drone delivery venture."
+    },
+    {
+      "title": "300 万智能体悄悄建国？Nature 长文：第一代 AI 社会正在成形",
+      "link": "https://www.ithome.com/0/926/892.htm",
+      "published": "Sun, 08 Mar 2026 00:17:27 GMT",
+      "source": "ITHome",
+      "summary": "近 300 万智能体在 Moltbook 上「建国」，人类正亲自围观和见证「AI 工具」向「AI 社会」跨越的拐点时刻。近 300 万 AI 智能体涌入 Moltbook 上悄悄「建国」，Nature 重磅发文：最早的「AI 社会」正在成形！https://www.nature.com/articles/d41586-026-00070-5?utm_source=chatgpt.comMoltbook，这个模仿 Reddit，专为 AI 智能体构建的社交网络，在 2026 年 1 月上线后迅速爆红。https://www.moltbook.com/?utm_source=chatgpt.com它好像一个纯粹由「硅基生命」构成的数字部落，短短数周，这个部落的智能体「居民」数量，已从零暴涨至近 300 万。在这个 AI 国度，人类被客气地邀请至场边：「欢迎围观」。Moltbook 上的智能体群落，究竟是在拙劣地模仿人类社会，还是一个全新的「硅基社会」雏形正在破壳而出？德国康斯坦茨大学的计算社会科学家 Giordano De Marzo 等人，以 Moltbook 为例，对 AI 智能体的集"
+    },
+    {
+      "title": "曝《GTA6》游戏 Title ID 已从索尼 PS Store 商店移除，无法“假入库”",
+      "link": "https://www.ithome.com/0/926/891.htm",
+      "published": "Sun, 08 Mar 2026 00:00:08 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 8 日消息，据游戏媒体 Twisted Voxel 前天报道，应 R 星要求，索尼 PS Store 商店数据库已经移除《GTA6》游戏的 Title ID（IT之家注：标题 ID，内部识别编号）。据报道，此前曾有玩家在 Title ID 泄露时通过一系列操作，将《GTA6》加入到主机的“最近游玩”列表达成“假入库”。Title ID 移除后，此前用过“假入库”手段《GTA6》的 PS 用户都会被清除相关最近游玩记录。不过需要注意的是，这一举动并不意味着游戏会延期发售，只是常规的修复漏洞举措。同时，Panama、Neon Indian 等音乐人曾在上月暗示与 R 星达成合作，意味着他们的作品可能会出现在《GTA6》的游戏电台或原声带中。《GTA6》游戏计划 2026 年 11 月 19 日发售，首发登陆 PS5、Xbox Series X|S 平台。"
+    },
+    {
+      "title": "价格因人而异：索尼 PlayStation 正测试动态定价，同款游戏最高差价 17.6%",
+      "link": "https://www.ithome.com/0/926/890.htm",
+      "published": "Sat, 07 Mar 2026 23:46:14 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 8 日消息，索尼正在 PlayStation Store 上悄然进行一项动态定价测试。根据价格追踪网站 PSPrices 监测到的数据，不同用户在同一款游戏下显示的价格存在差异，而这些差异被怀疑是索尼通过 A/B 测试对不同用户群体施加的个性化定价策略。实际上，早在去年 11 月就有玩家爆出了这一现象，而 PSPrices 发现其测试规模在短短三个月内已经从 30 个地区的 50 款游戏增长到 68 个地区的 150 多款游戏，甚至包括第一方 AAA 大作。参考IT之家此前报道，极个别用户早在 2024 年 11 月就在《宇宙机器人》中遇到了类似“动态定价”的情况。据称，PSPrices 在分析 PlayStation Store 的 API 响应时，发现了带有“TESTING”实验标识符的异常优惠结果，于是开始进行研究。受影响的游戏包括《漫威蜘蛛侠 2》《战神：诸神黄昏》《剑星》《绝地潜兵 2》《GT 赛车 7》《最后生还者 2 重制版》以及《荒野大镖客：救赎 2》等知名作品；第三方游戏如《文明 7》和《毁灭战士：黑暗时代》也出现在测试列表中。价格差异方面，根据 P"
+    },
+    {
+      "title": "1000 马力跨界车，法拉利 Luce 纯电超跑外观曝光",
+      "link": "https://www.ithome.com/0/926/889.htm",
+      "published": "Sat, 07 Mar 2026 23:31:06 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 8 日消息，据汽车媒体 Motor1 昨天报道，法拉利现已发布 Luce 纯电超跑的预热视频，不过透露的信息非常有限。据报道，法拉利旨在画面中展示了一个模糊的车身轮廓，夜间行驶时前灯成了最显眼的元素，除了这些以外，你甚至连车子的轮廓都很难看清。不过根据目前消息，法拉利 Luce 很可能是一款跨界车型，尺寸虽略小于 Purosangue 但绝不会是“小车”，轴距 116.5 英寸，预计可为 4 名乘客提供宽敞空间。内饰方面，这款汽车的中控台由前苹果首席设计官乔纳森 · 伊夫打造，他曾经缔造 iPhone、iPad、iMac 等经典产品。外观方面，Luce 将会有独特的车身线条和造型，明显与法拉利首款 SUV 不同，车顶线条相对平直，保证头部空间充足，后窗则可能向下倾斜，让整体轮廓看起来更像轿跑，引擎盖也异常修长，但里面并没有传统的发动机。性能方面，法拉利 Luce 完全基于自研平台打造，内置结构性电池以减小重量和体积，拥有 4 个电机，总功率约 1000 马力，0-62mph 大约是 2.5 秒，续航超过 310 英里（IT之家注：约 498.9 公里）。"
+    },
+    {
+      "title": "Grammarly’s ‘expert review’ is just missing the actual experts",
+      "link": "https://techcrunch.com/2026/03/07/grammarlys-expert-review-is-just-missing-the-actual-experts/",
+      "published": "Sat, 07 Mar 2026 22:56:31 +0000",
+      "source": "TechCrunch",
+      "summary": "A recently-added feature in Grammarly purports to improve users’ writing with help from the world's great writers and thinkers — and some tech journalists, too."
+    },
+    {
+      "title": "Why the Ratio Four Series Two Is What I Use to Test New Coffees",
+      "link": "https://www.wired.com/story/ratio-four-drip-coffee-java-base/",
+      "published": "Sat, 07 Mar 2026 22:35:00 +0000",
+      "source": "Wired",
+      "summary": "A new generation of home machines has made good old drip coffee a place for connoisseurs. For more than a year, the Four is the source of my morning cup."
+    },
+    {
+      "title": "OpenAI robotics lead Caitlin Kalinowski quits in response to Pentagon deal",
+      "link": "https://techcrunch.com/2026/03/07/openai-robotics-lead-caitlin-kalinowski-quits-in-response-to-pentagon-deal/",
+      "published": "Sat, 07 Mar 2026 20:44:25 +0000",
+      "source": "TechCrunch",
+      "summary": "Hardware executive Caitlin Kalinowski announced today that in response to OpenAI's controversial agreement with the Department of Defense, she’s resigned from her role leading the company's robotics team."
+    },
+    {
       "title": "PopSockets founder David Barnett talks about building a viral business",
       "link": "https://techcrunch.com/2026/03/07/popsockets-founder-david-barnett-talks-about-building-a-viral-business/",
       "published": "Sat, 07 Mar 2026 18:40:00 +0000",
@@ -928,76 +956,6 @@
       "published": "Sat, 07 Mar 2026 17:28:41 +0000",
       "source": "TechCrunch",
       "summary": "The feature, which will give verified adult users access to erotica and other adult content, had already been delayed from December."
-    },
-    {
-      "title": "手机、掌机也能玩，开发者将初代 Xbox 模拟器 Xemu 移植到安卓平台",
-      "link": "https://www.ithome.com/0/926/881.htm",
-      "published": "Sat, 07 Mar 2026 15:56:33 GMT",
-      "source": "ITHome",
-      "summary": "IT之家 3 月 7 日消息，初代 Xbox 的游戏也能在 Android 设备上运行了。据外媒 Windows Central 今晚报道，基于知名的初代 Xbox 模拟器 Xemu 开发的 Android 应用现已问世，其并非 Xemu 官方团队推出，而是受益于项目的开源，由其他开发者将其移植到 Android 平台。过去，初代 Xbox 模拟主要局限在 macOS、Linux 和 Windows 平台。在经过一定的调试后，Android 设备同样可以运行初代 Xbox 模拟器。目前这项技术仍处于早期阶段，因此仍存在不少限制。目前，这款 Android 版初代 Xbox 模拟器有两个版本：一个是在谷歌 Play 商店提供的付费版本，另一个版本则可以在 GitHub 免费下载并手动安装。IT之家附链接：https://github.com/rfandango/xemu-android/releases/tag/1.1.3不过，该模拟器的性能表现仍然不稳定。Retro Game Corps 在 Retroid Pocket 6 掌机上测试了多款游戏。例如《Blinx》几乎无法正常游玩，《"
-    },
-    {
-      "title": "福特在美又发起大规模召回：后视摄像头缺陷波及 174 万辆汽车",
-      "link": "https://www.ithome.com/0/926/880.htm",
-      "published": "Sat, 07 Mar 2026 15:30:40 GMT",
-      "source": "ITHome",
-      "summary": "IT之家 3 月 7 日消息，为了提升产品质量，福特近年一直公开宣布，将大规模召回过去十年生产的多款车型。当地时间 3 月 6 日，福特同一天宣布两项召回行动，均与倒车影像显示问题有关。两项召回合计涉及约 174 万辆汽车，其中包括约 89 万辆福特翼虎、福特探险者以及林肯冒险家、林肯飞行家，以及约 85 万辆福特烈马和福特锐界。据IT之家了解，第一项召回涉及 2021–2024 款福特锐界和 2021–2026 款福特烈马。问题出在附件协议接口模块（APIM），该模块是福特信息娱乐系统的核心控制单元，负责触控屏、蓝牙连接、手机互联以及倒车摄像头等功能。在某些情况下，该模块可能因过热而关闭，导致中控屏黑屏。福特回应称，正在制定解决方案，并将从 3 月 30 日起向车主发出通知。最终修复方式预计为软件更新：部分车辆可以通过 OTA 远程升级完成，其余车辆则需要前往经销商进行更新。一旦方案确定，修复过程预计不会复杂。第二项召回涉及 2020–2022 款福特翼虎和林肯冒险家，以及 2020–2024 款福特探险者和林肯飞行家。如果车辆在熄火后短时间内重新启动，信息娱乐系统的一块电路板可能向"
-    },
-    {
-      "title": "我国多家航司陆续恢复部分至中东地区航班",
-      "link": "https://www.ithome.com/0/926/879.htm",
-      "published": "Sat, 07 Mar 2026 15:11:59 GMT",
-      "source": "ITHome",
-      "summary": "IT之家 3 月 7 日消息，近日，国航、东航、南航陆续发布公告：结合当前运行保障能力与地区局势，为满足广大旅客出行需求，正陆续恢复部分至中东地区航班。国航公告：尊敬的旅客：    结合当前运行保障能力与地区局势现状，为满足广大旅客出行需求，国航计划恢复北京⇋迪拜航线航班运行，具体内容如下：    一、北京-迪拜方向自 3 月 7 日起恢复正常客票销售。    二、迪拜-北京方向自 3 月 6 日起推出“机票变更候补”及“购票预约”功能：旅客需前往中国国航 App 首页-国航专区，点击“国际机票变更候补及购票预约”按钮提交申请。国航将根据航班座位情况和旅客排队顺序，通知变更候补或购票预约旅客办理机票变更或购票手续。中国国航 App 是唯一官方预约渠道。    建议广大旅客出行前通过国航官方渠道实时查询航班动态，合理安排抵达机场时间，航班班期、时刻、执飞机型等信息以实际查询为准。如有疑问请联系国航服务热线 95583。    国航将全力保障航班运行安全与旅客出行顺畅，感谢您的理解与支持！东航公告：尊敬的旅客：根据近期中东安全形势与当地机场运行保障能力，为满足相关航线旅客出行需求，东航将于"
-    },
-    {
-      "title": "消息称 Xbox 下一代主机 Project Helix 很难低于 999 美元，但不超 1500 美元",
-      "link": "https://www.ithome.com/0/926/878.htm",
-      "published": "Sat, 07 Mar 2026 15:03:18 GMT",
-      "source": "ITHome",
-      "summary": "IT之家 3 月 7 日消息，据外媒 Tech4Gamers 今日报道，Xbox 对下一代主机 Project Helix 押注很大。许多业内人士认为，如果这款主机再次遭遇市场失败，微软甚至可能彻底退出主机业务。若要与索尼的 PlayStation 6 竞争，Project Helix 必须具备足够有吸引力的价格。但有爆料人士称，这款主机的售价很难低于 999 美元。爆料者 Moore’s Law Is Dead 的最新消息称，Project Helix 的理论最低价格为 999 美元（IT之家注：现汇率约合 6910 元人民币）。如果微软不采用激进补贴策略，售价甚至可能达到 1500 美元（现汇率约合 10375 元人民币）。该爆料者援引消息人士称，AMD 下一代用于替代 9070 XT 的 GPU 预计售价为 550 美元，并将与 Project Helix 搭载的 RDNA 5 显卡使用相同的 chiplet 架构。如果再加上约 200 美元的内存和约 100 美元的 CPU 成本，整机最低售价也只能压到 999 美元（现汇率约合 6910 元人民币）。不过 Moore’s La"
-    },
-    {
-      "title": "苏黎世联邦理工学院新研究：AI 已能大规模识别匿名用户真实身份",
-      "link": "https://www.ithome.com/0/926/877.htm",
-      "published": "Sat, 07 Mar 2026 14:40:20 GMT",
-      "source": "ITHome",
-      "summary": "IT之家 3 月 7 日消息，长期以来，互联网用户可以通过匿名或化名账户表达观点，从而避免被人肉搜索或遭到骚扰。但随着 AI 能力迅速提升，这种匿名保护正在变得越来越脆弱。据外媒 Futurism 今日报道，苏黎世联邦理工学院与 Anthropic 研究人员在一篇尚未经过同行评议的论文中指出，大语言模型已经具备大规模识别匿名用户真实身份的能力。研究团队在实验中开发了一种 AI 智能体，只依靠用户在论坛上的发言和个人资料，就能识别 Hacker News 和 Reddit 用户的真实身份。研究人员指出，这类调查如果由人类完成通常需要数小时。实验结果令人震惊：AI 成功识别了约三分之二用户。论文作者之一、苏黎世联邦理工学院 AI 工程师西蒙 · 勒尔门写道：“我们的研究表明，过去保护匿名用户的‘现实中的模糊性’已经不再存在，网络隐私的威胁模型需要重新思考。”研究团队还发现，这种方法不仅能应用在论坛数据上，在 LinkedIn 资料、匿名采访记录等不同数据来源之间同样有效，而且可以扩展到数万名候选对象。过去用户普遍认为，只要使用匿名账户，别人要识别身份就需要付出极高成本。但大模型已经改变了这"
-    },
-    {
-      "title": "全国政协委员王小龙：国产高端机床已直接用于制造大飞机、航空发动机等大国重器",
-      "link": "https://www.ithome.com/0/926/876.htm",
-      "published": "Sat, 07 Mar 2026 14:29:40 GMT",
-      "source": "ITHome",
-      "summary": "IT之家 3 月 7 日消息，据央视新闻报道，今天下午，全国政协十四届四次会议第二场“委员通道”在人民大会堂举行，全国政协委员、宁夏福思泰智能装备、一工机器人总经理王小龙接受了记者采访。王小龙介绍，以机床为代表的工业母机堪称制造之基，宁夏有良好的装备制造业基础，他和团队扎根那里近 30 年，有一个共同的目标 —— 让中国的工业母机真正装上“中国芯”。王小龙在现场回忆起他和团队驻守车间 3 个月，最终找到克服难题的关键细节。他说，如今，我国机床在超精密加工领域已经可以同国际顶尖设备同台竞技。近年来，国产高端机床已经直接用于制造大飞机、航空发动机等大国重器。接下来，他们的目标是持续创新，加快突破，实现核心技术自主可控。IT之家注意到，“十五五”规划《纲要（草案）》提出，要建设强大国内市场，实现供需更高水平动态平衡，增强国内大循环内生动力和可靠性。国家发展改革委秘书长袁达在国新办吹风会上表示，对于现在“缺的”，要加快攻关突破。全链条推动集成电路、工业母机、高端仪器、基础软件、先进材料、生物制造等重点领域关键核心技术攻关取得决定性突破，提升产业链的自主可控水平。"
-    },
-    {
-      "title": "多家国外科技媒体流量暴跌逾 85%，谷歌“AI 概览”或引发媒体行业巨震",
-      "link": "https://www.ithome.com/0/926/875.htm",
-      "published": "Sat, 07 Mar 2026 13:57:59 GMT",
-      "source": "ITHome",
-      "summary": "IT之家 3 月 7 日消息，据外媒 Futurism 今日报道，媒体行业正在经历一种新的冲击：媒体人并不是被 AI 取代，而是被 AI“消化”。谷歌推出的“AI 概览”功能会直接总结新闻文章，并把结果呈现在搜索页面上，让用户无需点击链接就能获取主要信息。对用户来说，这可能只是节省了几秒钟，但对媒体来说，却是流量灾难。SEO 公司 Growtika 的研究发现，自谷歌推出“AI 概览”之后，新闻网站来自谷歌搜索的访问量明显下降。Growtika 分析了 Ahrefs 的数据，统计了 2024 年初到 2026 年初美国用户访问 10 家主要科技媒体网站的情况。数据显示，这些媒体在流量高峰期每月从谷歌获得约 1.12 亿次访问，但到今年 1 月已经下降到不到 5000 万。一些媒体在“AI 概览”上线后流量跌幅甚至超过 90%。不同媒体的情况略有差别，但整体趋势一致。Mashable 受影响相对较小，两年间流量下降约 30%。《连线》杂志下降 62%。HowToGeek、The Verge 和 ZDNet 则在两年间失去了超过 85% 的搜索流量。最严重的案例来自 Digital Tre"
-    },
-    {
-      "title": "华为“零中断”光网络在全球超六十张运营商网络中部署：断纤不断网，可靠性达 99.999%",
-      "link": "https://www.ithome.com/0/926/874.htm",
-      "published": "Sat, 07 Mar 2026 13:56:02 GMT",
-      "source": "ITHome",
-      "summary": "IT之家 3 月 7 日消息，在 MWC26 巴塞罗那期间，华为光传送领域总裁谷云波介绍了 2025 年华为在光网络领域围绕绿色、体验、运维等方面取得的突破性进展：绿色高效网络：为欧洲、亚太、拉美、中东等地区的多家全球领先运营商成功完成 8000 多个传统波分（WDM）站点的改造，致力于打造面向未来的绿色节能 OTN 网络；极致用户体验：以业界领先的“零中断”光网络（“Zero-Outage Network”）即断纤不断网，达成 99.999% 的超高可靠性，目前已在全球超过六十张运营商网络中部署；高效运维：光接入领域通过 FANSpirit 智能体降低家宽用户投诉，光传送领域通过 OTNSpirit 智能体，实现基于带宽、时延、可靠性的差异化路径推荐，帮助运营商实现网络 O&amp;M 智能化升级。IT之家从官方介绍获悉，AI 应用的爆发对超宽带网络提出了确定性低时延、超大带宽和超高可靠性的严苛要求。为此，华为融合 fgOTN、Beyond 1T、小型化 OXC、毫秒级 WSON 等关键技术，致力于打造面向 ION-2030 愿景，具备 99.999% 超高可靠性、毫秒级时延以及 T"
-    },
-    {
-      "title": "四川省脑科学与类脑智能研究院院长尧德中：我国有望 3-5 年广泛应用脑机接口技术",
-      "link": "https://www.ithome.com/0/926/873.htm",
-      "published": "Sat, 07 Mar 2026 13:30:59 GMT",
-      "source": "ITHome",
-      "summary": "IT之家 3 月 7 日消息，今天晚间，据路透社报道，四川省脑科学与类脑智能研究院院长尧德中表示，随着技术不断成熟，中国的脑机接口技术有望在未来 3 至 5 年开始进入面向公众的实际应用阶段。中国本周公布的新五年规划已将脑机接口列为重点战略产业之一，与量子技术、具身智能、6G 和核聚变等前沿领域并列。尧德中在两会期间接受采访时表示：“新的政策不会立刻改变一切。我认为再过 3 至 5 年，我们会逐渐看到一些脑机接口产品开始真正面向公众提供服务。”中国去年发布的脑机接口国家发展战略提出，到 2027 年实现关键技术突破，并在 2030 年前培育 2 至 3 家世界级企业。中国目前已成为全球第二个开展侵入式脑机接口人体试验的国家。国内正在进行的试验数量已经超过 10 项，与美国水平相当。今年，科学家计划在全国招募 50 余名患者参与相关研究。近期一些试验，已经让瘫痪患者和截肢患者恢复操控机械手或智能轮椅等部分行动能力。与此同时，部分脑机接口治疗项目已经在试点省份纳入国家医保体系。赛迪顾问预计，中国脑机接口市场规模到 2027 年将达到 55.8 亿元。尧德中表示：“中国在脑机接口领域拥有多方"
-    },
-    {
-      "title": "全国政协委员张桥：身份证光学防伪技术来自苏州大学实验室，已广泛应用于众多场景",
-      "link": "https://www.ithome.com/0/926/871.htm",
-      "published": "Sat, 07 Mar 2026 13:16:38 GMT",
-      "source": "ITHome",
-      "summary": "IT之家 3 月 7 日消息，据央视新闻报道，3 月 7 日下午，全国政协十四届四次会议第二场“委员通道”在人民大会堂举行，全国政协委员、苏州大学校长、农工党江苏省副主委张桥接受了记者采访。张桥介绍，为了确保信息安全，身份证上藏着不少黑科技。其中有一项很关键的光学防伪技术就来自苏州大学的实验室。如果把身份证个人信息的页面对准光线，就能看到精美的长城图案和“中国 China”的字样；如果慢慢转动身份证，可以看到图案和字样像彩虹一样流动变色；如果打开手机摄像头，放大观察个人信息页面，会发现底纹有“居民身份证”五个字的微缩首字母；如果把身份证反过来，在国徽一面，还能找到“万里长城”的微缩首字母。如今，这项技术已经被广泛应用于政务、金融、消费等众多场景，已经走进每个人的生活之中。IT之家查询获悉，2001 年，国务院决定在全国换发第二代居民身份证，并在部分城市展开试点。目前，首批有效期 20 年的第二代居民身份证已经陆续到期，2025 年是换领的高峰年，多地身份证办证量激增。如今居民身份证业务现已实现“全国通办”，不在户籍地居住的市民也可以携带原居民身份证，选择就近的公安派出所综合窗口申请换领"
     },
     {
       "title": "The WIRED Guide to Wires: How to Manage the Mess of Cables Around Your Desk",
@@ -1098,39 +1056,11 @@
       "summary": "A 61-year-old worker died on Thursday after reportedly getting stuck between a tractor trailer and a loading dock."
     },
     {
-      "title": "The Best Google Pixel Phones of 2026, Tested and Reviewed",
-      "link": "https://www.wired.com/story/best-google-pixel-phone/",
-      "published": "Fri, 06 Mar 2026 20:17:02 +0000",
-      "source": "Wired",
-      "summary": "Here’s a guide to all the models—plus Pixel case recommendations and smart software tricks to try."
-    },
-    {
-      "title": "Microsoft, Google, Amazon say Anthropic Claude remains available to non-defense customers",
-      "link": "https://techcrunch.com/2026/03/06/microsoft-anthropic-claude-remains-available-to-customers-except-the-defense-department/",
-      "published": "Fri, 06 Mar 2026 19:50:10 +0000",
-      "source": "TechCrunch",
-      "summary": "Trump's Department of War feud with Anthropic won't impact other companies that are using Claude via Microsoft and Google products."
-    },
-    {
-      "title": "Bill Gates’ TerraPower gets approval to build new nuclear reactor",
-      "link": "https://techcrunch.com/2026/03/06/bill-gates-terrapower-gets-approval-to-build-new-nuclear-reactor/",
-      "published": "Fri, 06 Mar 2026 19:47:40 +0000",
-      "source": "TechCrunch",
-      "summary": "It's the first permit to be issued by the Nuclear Regulatory Commission in nearly a decade."
-    },
-    {
       "title": "Is the Pentagon allowed to surveil Americans with AI?",
       "link": "https://www.technologyreview.com/2026/03/06/1134012/is-the-pentagon-allowed-to-surveil-americans-with-ai/",
       "published": "Fri, 06 Mar 2026 19:21:22 +0000",
       "source": "MIT Technology Review",
       "summary": "The ongoing public feud between the Department of Defense and the AI company Anthropic has raised a deep and still unanswered question: Does the law actually allow the US government to conduct mass surveillance on Americans? Surprisingly, the answer is not straightforward. More than a decade after Edward Snowden exposed the NSA’s collection of bulk&#8230;"
-    },
-    {
-      "title": "Anthropic’s Claude found 22 vulnerabilities in Firefox over two weeks",
-      "link": "https://techcrunch.com/2026/03/06/anthropics-claude-found-22-vulnerabilities-in-firefox-over-two-weeks/",
-      "published": "Fri, 06 Mar 2026 19:00:22 +0000",
-      "source": "TechCrunch",
-      "summary": "In a recent security partnership with Mozilla, Anthropic found 22 separate vulnerabilities in Firefox — 14 of them classified as \"high-severity.\""
     },
     {
       "title": "The Download: 10 things that matter in AI, plus Anthropic’s plan to sue the Pentagon",
@@ -1640,6 +1570,13 @@
   "Meta Engineering": [],
   "📈 Trends": [
     {
+      "title": "Olmo Hybrid",
+      "link": "https://www.producthunt.com/products/allen-institute-of-artificial-intelligence",
+      "published": "2026-03-06T20:52:46-08:00",
+      "source": "Product Hunt",
+      "summary": "7B open model mixing transformers and linear RNNs\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
       "title": "LTX Desktop",
       "link": "https://www.producthunt.com/products/ltx-desktop",
       "published": "2026-03-06T12:15:02-08:00",
@@ -1659,13 +1596,6 @@
       "published": "2026-03-06T11:34:14-08:00",
       "source": "Product Hunt",
       "summary": "Our application security agent\n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
-      "title": "Thinking Line",
-      "link": "https://www.producthunt.com/products/thinking-line",
-      "published": "2026-03-06T04:39:53-08:00",
-      "source": "Product Hunt",
-      "summary": "AI-powered doodle video and vector generator\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
       "title": "Copperlane",
