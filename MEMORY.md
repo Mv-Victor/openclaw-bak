@@ -178,6 +178,12 @@
 - ✅ 支持 Raycast 动态参数的 prompts
 - ✅ 在线图库：https://youmind.com/zh-CN/nano-banana-pro-prompts
 
+### 小红书图片规格（2026-03-09 栋少确认）
+- **标准比例**: 3:4（竖版）
+- **推荐尺寸**: 1080x1440 或 1242x1656
+- **拼图要求**: 按 3:4 比例拼好图
+
 ### 待完成
 - 扩展 baoyu-xhs-images 整合 Nano Banana 风格关键词
 - 创建快捷命令脚本
+- 调整图片生成默认比例为 3:4
