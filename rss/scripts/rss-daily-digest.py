@@ -71,7 +71,7 @@ def fetch_github_trends():
             print(f"  ✗ GitHub Trends: HTTP {response.status_code}")
             return []
         
-        # 简单解析 HTML（提取仓库名和描述）
+        # 简单解析 HTML
         items = []
         lines = response.text.split('\n')
         
@@ -117,7 +117,9 @@ def fetch_feed(url, title):
         
         # GitHub Trends 特殊处理
         if "github/trending" in url:
-            return fetch_github_trends()
+            items = fetch_github_trends()
+            # 返回时使用源标题作为分类键
+            return (title, items)
         
         feed = feedparser.parse(url)
         items = []
@@ -145,38 +147,35 @@ def fetch_feed(url, title):
             })
         
         print(f"  ✓ {title}: {len(items)} 条")
-        return items
+        return (title, items)
     except Exception as e:
         print(f"  ✗ {title}: {e}")
-        return []
+        return (title, [])
 
 def fetch_all_feeds(feeds):
     """并发抓取所有订阅源"""
     all_items = {}
+    
+    # 准备任务
     tasks = []
-    
     for category, sources in feeds.items():
-        all_items[category] = []
         for source in sources:
-            tasks.append((category, source))
+            tasks.append(source)
     
+    # 并发执行
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        future_to_task = {
-            executor.submit(fetch_feed, source["url"], source["title"]): (category, source)
-            for category, source in tasks
+        future_to_source = {
+            executor.submit(fetch_feed, source["url"], source["title"]): source
+            for source in tasks
         }
         
-        for future in as_completed(future_to_task):
-            category, source = future_to_task[future]
+        for future in as_completed(future_to_source):
             try:
-                items = future.result()
-                all_items[category].extend(items)
+                source_title, items = future.result()
+                # 使用源标题作为键
+                all_items[source_title] = items
             except Exception as e:
-                print(f"  ✗ {source['title']}: {e}")
-    
-    # 按时间排序
-    for category in all_items:
-        all_items[category].sort(key=lambda x: x.get("published", ""), reverse=True)
+                print(f"  ✗ 处理失败: {e}")
     
     return all_items
 
