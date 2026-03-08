@@ -3,43 +3,46 @@
 """
 RSS 每日摘要 - 栋少专属
 每天早上 9 点自动抓取 AI/技术/投资领域内容并推送
-带智能摘要功能
 """
 
 import feedparser
 import json
+import requests
 from datetime import datetime
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import socket
+import re
 
 # 配置
 OPML_FILE = "/root/.openclaw/workspace-g/rss/feeder-dongshao.opml"
 OUTPUT_DIR = "/root/.openclaw/workspace-g/rss/daily"
-TIMEOUT = 10  # 每个 RSS 源超时时间（秒）
-MAX_WORKERS = 10  # 并发数
+TIMEOUT = 10
+MAX_WORKERS = 10
 
 # 每个分类的条目数量
 CATEGORY_LIMITS = {
     "🤖 AI 前沿": 8,
     "💻 技术动态": 10,
+    "🔥 Product Hunt": 5,
+    "⭐ GitHub Trends": 5,
     "💰 投资理财": 5,
 }
 
-# 设置全局超时
 socket.setdefaulttimeout(TIMEOUT)
 
-# 分类配置（只关注 AI、技术、投资）
+# 分类配置
 CATEGORIES = {
     "🤖 AI 前沿": ["🤖 AI", "🧠 AI/ML 中文博客"],
-    "💻 技术动态": ["🌐 Tech Communities", "📰 Tech News", "🏢 Big Tech Engineering", "🇨🇳 中文技术博客", "📈 Trends"],
+    "💻 技术动态": ["🌐 Tech Communities", "📰 Tech News", "🏢 Big Tech Engineering", "🇨🇳 中文技术博客"],
+    "🔥 Product Hunt": ["Product Hunt"],
+    "⭐ GitHub Trends": ["GitHub Trending Daily", "GitHub Trending Weekly"],
     "💰 投资理财": ["💰 投资理财"],
 }
 
 def parse_opml(opml_path):
-    """解析 OPML 文件，返回分类和订阅源"""
+    """解析 OPML 文件"""
     import xml.etree.ElementTree as ET
-    
     tree = ET.parse(opml_path)
     root = tree.getroot()
     
@@ -54,26 +57,84 @@ def parse_opml(opml_path):
             })
     return feeds
 
+def fetch_github_trends():
+    """直接从 GitHub 抓取 Trending（替代 RSSHub）"""
+    try:
+        print("  抓取: GitHub Trends (直接抓取)")
+        url = "https://github.com/trending"
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+        }
+        response = requests.get(url, headers=headers, timeout=10)
+        
+        if response.status_code != 200:
+            print(f"  ✗ GitHub Trends: HTTP {response.status_code}")
+            return []
+        
+        # 简单解析 HTML（提取仓库名和描述）
+        items = []
+        lines = response.text.split('\n')
+        
+        for i, line in enumerate(lines):
+            if 'h2 class="h3 lh-condensed"' in line or 'class="h3 lh-condensed"' in line:
+                # 提取仓库名
+                repo_match = re.search(r'href="(/[^"]+)"', lines[i+1] if i+1 < len(lines) else '')
+                if repo_match:
+                    repo_path = repo_match.group(1)
+                    repo_name = repo_path.strip('/')
+                    
+                    # 查找描述
+                    desc = ""
+                    for j in range(i, min(i+20, len(lines))):
+                        if '<p class="col-9' in lines[j]:
+                            desc_match = re.search(r'>(.*?)</p>', lines[j])
+                            if desc_match:
+                                desc = desc_match.group(1).strip()
+                                desc = re.sub(r'<[^>]+>', '', desc)
+                                break
+                    
+                    items.append({
+                        "title": repo_name,
+                        "link": f"https://github.com{repo_path}",
+                        "published": datetime.now().isoformat(),
+                        "source": "GitHub Trends",
+                        "summary": desc[:200] if desc else "GitHub trending repository"
+                    })
+                    
+                    if len(items) >= 10:
+                        break
+        
+        print(f"  ✓ GitHub Trends: {len(items)} 条")
+        return items
+    except Exception as e:
+        print(f"  ✗ GitHub Trends: {e}")
+        return []
+
 def fetch_feed(url, title):
-    """抓取单个 RSS 源（带超时）"""
+    """抓取单个 RSS 源"""
     try:
         print(f"  抓取: {title}")
+        
+        # GitHub Trends 特殊处理
+        if "github/trending" in url:
+            return fetch_github_trends()
+        
         feed = feedparser.parse(url)
         items = []
-        for entry in feed.entries[:10]:  # 每个源最多取 10 条
+        
+        for entry in feed.entries[:10]:
             published = entry.get("published", entry.get("updated", ""))
             
-            # 提取摘要（优先使用 summary，其次 description）
+            # 提取摘要
             summary = ""
             if entry.get("summary"):
                 summary = entry.get("summary", "")
             elif entry.get("description"):
                 summary = entry.get("description", "")
             
-            # 清理 HTML 标签
-            import re
+            # 清理 HTML
             summary = re.sub(r'<[^>]+>', '', summary)
-            summary = summary.strip()[:500]  # 限制长度
+            summary = summary.strip()[:500]
             
             items.append({
                 "title": entry.get("title", "无标题"),
@@ -82,6 +143,7 @@ def fetch_feed(url, title):
                 "source": title,
                 "summary": summary
             })
+        
         print(f"  ✓ {title}: {len(items)} 条")
         return items
     except Exception as e:
@@ -91,15 +153,13 @@ def fetch_feed(url, title):
 def fetch_all_feeds(feeds):
     """并发抓取所有订阅源"""
     all_items = {}
-    
-    # 准备所有任务
     tasks = []
+    
     for category, sources in feeds.items():
         all_items[category] = []
         for source in sources:
             tasks.append((category, source))
     
-    # 并发执行
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
         future_to_task = {
             executor.submit(fetch_feed, source["url"], source["title"]): (category, source)
@@ -124,7 +184,6 @@ def format_daily_digest(items, date_str):
     """格式化每日摘要"""
     digest = f"# 📰 每日 RSS 摘要 - {date_str}\n\n"
     digest += f"_生成时间：{datetime.now().strftime('%Y-%m-%d %H:%M')}_\n\n"
-    digest += f"_注：本摘要由 AI 自动抓取并整理，每个分类精选最新内容_\n\n"
     
     # 按大类分组
     for main_category, sub_categories in CATEGORIES.items():
@@ -133,7 +192,7 @@ def format_daily_digest(items, date_str):
             if sub_cat in items:
                 category_items.extend(items[sub_cat])
         
-        # 去重（按标题）
+        # 去重
         seen_titles = set()
         unique_items = []
         for item in category_items:
@@ -160,26 +219,20 @@ def format_daily_digest(items, date_str):
 
 def main():
     """主函数"""
-    # 创建输出目录
     OUTPUT_DIR_PATH = Path(OUTPUT_DIR)
     OUTPUT_DIR_PATH.mkdir(parents=True, exist_ok=True)
     
-    # 日期
     date_str = datetime.now().strftime("%Y-%m-%d")
     
-    # 解析 OPML
     print(f"解析 OPML: {OPML_FILE}")
     feeds = parse_opml(OPML_FILE)
     print(f"找到 {len(feeds)} 个分类")
     
-    # 抓取内容
     print("开始抓取 RSS 内容...")
     items = fetch_all_feeds(feeds)
     
-    # 生成摘要
     digest = format_daily_digest(items, date_str)
     
-    # 保存文件
     output_file = OUTPUT_DIR_PATH / f"daily-{date_str}.md"
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(digest)
@@ -189,7 +242,6 @@ def main():
     for main_cat, limit in CATEGORY_LIMITS.items():
         print(f"  - {main_cat}: 最多 {limit} 条")
     
-    # 输出 JSON 供后续推送使用
     json_file = OUTPUT_DIR_PATH / f"daily-{date_str}.json"
     with open(json_file, "w", encoding="utf-8") as f:
         json.dump(items, f, ensure_ascii=False, indent=2)
