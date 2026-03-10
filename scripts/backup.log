@@ -17233,3 +17233,9 @@ To github.com:Mv-Victor/openclaw-bak.git
  1 file changed, 4 insertions(+)
 To github.com:Mv-Victor/openclaw-bak.git
    08eee61..4d952c8  G -> G
+[G b0b65eb] [20260310_1730] [scripts] 新增2个文件(maomei.json等), 修改1个文件(backup.log等)
+ 3 files changed, 33 insertions(+)
+ create mode 100644 config/xiaohongshu-accounts/maomei.json
+ create mode 100644 config/xiaohongshu-accounts/maomei.txt
+To github.com:Mv-Victor/openclaw-bak.git
+   4d952c8..b0b65eb  G -> G
