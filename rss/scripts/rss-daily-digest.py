@@ -70,7 +70,7 @@ CATEGORIES = {
 }
 
 def parse_opml(opml_path):
-    """解析 OPML 文件"""
+    """解析 OPML 文件，返回按分类组织的订阅源"""
     import xml.etree.ElementTree as ET
     tree = ET.parse(opml_path)
     root = tree.getroot()
@@ -78,12 +78,16 @@ def parse_opml(opml_path):
     feeds = {}
     for outline in root.findall(".//outline[@title]"):
         category = outline.get("title", "Uncategorized")
-        feeds[category] = []
-        for feed in outline.findall("outline[@xmlUrl]"):
-            feeds[category].append({
-                "title": feed.get("title", ""),
-                "url": feed.get("xmlUrl", "")
-            })
+        # 只处理有子节点的分类
+        sub_outlines = outline.findall("outline[@xmlUrl]")
+        if sub_outlines:
+            feeds[category] = []
+            for feed in sub_outlines:
+                feeds[category].append({
+                    "title": feed.get("title", ""),
+                    "url": feed.get("xmlUrl", ""),
+                    "category": category  # 记录所属分类
+                })
     return feeds
 
 def fetch_github_trends():
@@ -188,12 +192,14 @@ def fetch_feed(url, title):
 def fetch_all_feeds(feeds):
     """并发抓取所有订阅源"""
     all_items = {}
+    source_to_category = {}  # 记录源名称到分类的映射
     
     # 准备任务
     tasks = []
     for category, sources in feeds.items():
         for source in sources:
             tasks.append(source)
+            source_to_category[source["title"]] = category
     
     # 并发执行
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
@@ -205,8 +211,11 @@ def fetch_all_feeds(feeds):
         for future in as_completed(future_to_source):
             try:
                 source_title, items = future.result()
-                # 使用源标题作为键
-                all_items[source_title] = items
+                # 使用 OPML 分类作为键
+                category = source_to_category.get(source_title, "Uncategorized")
+                if category not in all_items:
+                    all_items[category] = []
+                all_items[category].extend(items)
             except Exception as e:
                 print(f"  ✗ 处理失败: {e}")
     
