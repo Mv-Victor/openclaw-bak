@@ -1,0 +1,15 @@
+[
+  {
+    "domain": ".zhipin.com",
+    "expirationDate": 1774119600.189496,
+    "hostOnly": false,
+    "httpOnly": false,
+    "name": "bst",
+    "path": "/",
+    "sameSite": null,
+    "secure": true,
+    "session": false,
+    "storeId": null,
+    "value": "V2Rd8hEuT83VdgXdJuyxwZIC2w7DnUzA~~|Rd8hEuT83VdgXdJuyxwZIC2w7DjVxw~~"
+  }
+]
