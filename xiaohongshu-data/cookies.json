@@ -1,0 +1,51 @@
+{
+  "accounts": {
+    "vc_main": [
+      {
+        "domain": ".xiaohongshu.com",
+        "expirationDate": 1804670833.509301,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "web_session",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "存储在其他位置"
+      }
+    ],
+    "maomei_zhijian": [
+      {
+        "domain": ".xiaohongshu.com",
+        "expirationDate": 1804670833.509301,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "web_session",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "040069b8dbd81c9dfcbd98ab9a3b4b0772f453"
+      },
+      {
+        "domain": ".xiaohongshu.com",
+        "expirationDate": 1804670833.509393,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "id_token",
+        "path": "/",
+        "sameSite": null,
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "VjEAAJ5NBqoHliD8wD+SKsy21j52zyw99kiRZ4ls5PMJGU9HTTbNtZrLniK4yk1eW2zFzV/QtaD8xO+2fkN3IPIKTdRSEI6tq5xKbCtej6IOJVwz9genP+sSkUFfliIzL8F9oy8J"
+      }
+    ]
+  },
+  "notes": {
+    "vc_main": "Vc 主账号",
+    "maomei_zhijian": "猫妹智剪账号 - AI 剪辑副业成果展示，OpenClaw 龙虾全托管的 AI 智剪助手，黄蓝异瞳的微牛，招财猫妹来啦！祝大家发财"
+  }
+}
