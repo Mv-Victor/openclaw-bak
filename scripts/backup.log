@@ -22045,3 +22045,11 @@ To github.com:Mv-Victor/openclaw-bak.git
  1 file changed, 4 insertions(+)
 To github.com:Mv-Victor/openclaw-bak.git
    c6f45a00..c5c04578  G -> G
+[G 119a7629] [20260315_0155] [scripts] 修改1个文件(backup.log等)
+ 1 file changed, 4 insertions(+)
+To github.com:Mv-Victor/openclaw-bak.git
+   c5c04578..119a7629  G -> G
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
