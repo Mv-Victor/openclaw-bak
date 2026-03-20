@@ -60,13 +60,21 @@ def is_recent(published_str):
         # 解析失败时保守处理：保留该条目
         return True
 
-# 分类配置
+# 分类配置（左边是输出分类，右边是 OPML 中的源分类）
+# 注意：📈Trends 分类下同时有 GitHub Trending 和 Product Hunt，需要在 fetch_all_feeds 中按源名称细分
 CATEGORIES = {
     "🤖 AI 前沿": ["🤖 AI", "🧠 AI/ML 中文博客"],
     "💻 技术动态": ["🌐 Tech Communities", "📰 Tech News", "🏢 Big Tech Engineering", "🇨🇳 中文技术博客"],
     "🔥 Product Hunt": ["Product Hunt"],
-    "⭐ GitHub Trends": ["GitHub Trending Daily", "GitHub Trending Weekly"],
+    "⭐ GitHub Trends": ["GitHub Trending Daily", "GitHub Trending Weekly"],  # 这两个源在 OPML 的📈Trends 分类下
     "💰 投资理财": ["💰 投资理财"],
+}
+
+# 特殊映射：源名称 → 输出分类（用于处理 OPML 分类和输出分类不一致的情况）
+SOURCE_TO_OUTPUT_CATEGORY = {
+    "GitHub Trending Daily": "⭐ GitHub Trends",
+    "GitHub Trending Weekly": "⭐ GitHub Trends",
+    "Product Hunt": "🔥 Product Hunt",
 }
 
 def parse_opml(opml_path):
@@ -192,14 +200,14 @@ def fetch_feed(url, title):
 def fetch_all_feeds(feeds):
     """并发抓取所有订阅源"""
     all_items = {}
-    source_to_category = {}  # 记录源名称到分类的映射
+    source_to_opml_category = {}  # 记录源名称到 OPML 分类的映射
     
     # 准备任务
     tasks = []
     for category, sources in feeds.items():
         for source in sources:
             tasks.append(source)
-            source_to_category[source["title"]] = category
+            source_to_opml_category[source["title"]] = category
     
     # 并发执行
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
@@ -211,8 +219,8 @@ def fetch_all_feeds(feeds):
         for future in as_completed(future_to_source):
             try:
                 source_title, items = future.result()
-                # 使用 OPML 分类作为键
-                category = source_to_category.get(source_title, "Uncategorized")
+                # 优先使用 SOURCE_TO_OUTPUT_CATEGORY 映射，否则使用 OPML 分类
+                category = SOURCE_TO_OUTPUT_CATEGORY.get(source_title, source_to_opml_category.get(source_title, "Uncategorized"))
                 if category not in all_items:
                     all_items[category] = []
                 all_items[category].extend(items)
@@ -239,12 +247,12 @@ def format_daily_digest(items, date_str):
     # 记录本次推送的文章
     new_articles = set()
     
-    # 按大类分组
-    for main_category, sub_categories in CATEGORIES.items():
-        category_items = []
-        for sub_cat in sub_categories:
-            if sub_cat in items:
-                category_items.extend(items[sub_cat])
+    # 按 CATEGORIES 定义的顺序输出（确保分类顺序一致）
+    for main_category in CATEGORIES.keys():
+        if main_category not in items:
+            continue
+        
+        category_items = items[main_category]
         
         # 去重（标题 + 链接）
         seen_titles = set()
