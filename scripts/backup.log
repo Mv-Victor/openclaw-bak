@@ -30717,3 +30717,23 @@ To github.com:Mv-Victor/openclaw-bak.git
  1 file changed, 4 insertions(+)
 To github.com:Mv-Victor/openclaw-bak.git
    fca8c59f..ad7f24b0  G -> G
+warning: adding embedded git repository: youpac-ai
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> youpac-ai
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached youpac-ai
+hint: 
+hint: See "git help submodule" for more information.
+[G c28fba6c] [20260322_1835] [scripts] 新增2个文件(2026-03-22.jsonl等), 修改2个文件(backup.log等)
+ 4 files changed, 21 insertions(+)
+ create mode 100644 xiaohongshu-data/2026-03-22.jsonl
+ create mode 160000 youpac-ai
+To github.com:Mv-Victor/openclaw-bak.git
+   ad7f24b0..c28fba6c  G -> G
