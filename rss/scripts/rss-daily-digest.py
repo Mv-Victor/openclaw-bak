@@ -25,8 +25,8 @@ MAX_WORKERS = 10
 CATEGORY_LIMITS = {
     "🤖 AI 前沿": 8,
     "💻 技术动态": 10,
-    "🔥 Product Hunt": 5,
-    "⭐ GitHub Trends": 5,
+    "⭐ GitHub Trends": 10,
+    "🔥 Product Hunt": 10,
     "💰 投资理财": 5,
 }
 
@@ -61,12 +61,11 @@ def is_recent(published_str):
         return True
 
 # 分类配置（左边是输出分类，右边是 OPML 中的源分类）
-# 注意：📈Trends 分类下同时有 GitHub Trending 和 Product Hunt，需要在 fetch_all_feeds 中按源名称细分
 CATEGORIES = {
     "🤖 AI 前沿": ["🤖 AI", "🧠 AI/ML 中文博客"],
     "💻 技术动态": ["🌐 Tech Communities", "📰 Tech News", "🏢 Big Tech Engineering", "🇨🇳 中文技术博客"],
-    "🔥 Product Hunt": ["Product Hunt"],
-    "⭐ GitHub Trends": ["GitHub Trending Daily", "GitHub Trending Weekly"],  # 这两个源在 OPML 的📈Trends 分类下
+    "⭐ GitHub Trends": ["📈 Trends"],  # GitHub Trending 源
+    "🔥 Product Hunt": ["📈 Trends"],   # Product Hunt 源
     "💰 投资理财": ["💰 投资理财"],
 }
 
