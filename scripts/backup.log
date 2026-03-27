@@ -36078,3 +36078,8 @@ To github.com:Mv-Victor/openclaw-bak.git
  create mode 100644 rss/daily/daily-2026-03-27.md
 To github.com:Mv-Victor/openclaw-bak.git
    4ca2ac06..64f1dce2  G -> G
+[G 9eaf0305] [20260327_0915] [scripts] 新增1个文件(daily-2026-03-27-digest.md等), 修改1个文件(backup.log等)
+ 2 files changed, 259 insertions(+)
+ create mode 100644 rss/daily/daily-2026-03-27-digest.md
+To github.com:Mv-Victor/openclaw-bak.git
+   64f1dce2..9eaf0305  G -> G
