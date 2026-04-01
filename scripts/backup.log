@@ -42004,3 +42004,8 @@ To github.com:Mv-Victor/openclaw-bak.git
  1 file changed, 4 insertions(+)
 To github.com:Mv-Victor/openclaw-bak.git
    94f4faad..24245a9d  G -> G
+[G 39258c2b] [20260401_1225] [scripts] 新增1个文件(rss-daily-digest-summary-wrapper.py等), 修改1个文件(backup.log等)
+ 2 files changed, 16 insertions(+)
+ create mode 100644 rss/scripts/rss-daily-digest-summary-wrapper.py
+To github.com:Mv-Victor/openclaw-bak.git
+   24245a9d..39258c2b  G -> G
