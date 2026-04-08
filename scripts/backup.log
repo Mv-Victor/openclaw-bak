@@ -50029,3 +50029,13 @@ To github.com:Mv-Victor/openclaw-bak.git
  create mode 100644 memory/2026-04-08.md
 To github.com:Mv-Victor/openclaw-bak.git
    15bc7b44..63df5d60  G -> G
+[G 0c214d52] [20260408_1120] [scripts] 新增6个文件(daily-2026-04-08.json等), 修改2个文件(sent-articles.json等)
+ 8 files changed, 7334 insertions(+), 3129 deletions(-)
+ create mode 100644 rss/daily/daily-2026-04-08.json
+ create mode 100644 rss/daily/daily-2026-04-08.md
+ create mode 100644 rss/daily/items_to_summarize.json
+ create mode 100644 rss/scripts/generate_ai_summaries.py
+ create mode 100644 rss/scripts/process_digest.py
+ create mode 100644 rss/scripts/web_fetch_summarize.py
+To github.com:Mv-Victor/openclaw-bak.git
+   63df5d60..0c214d52  G -> G
