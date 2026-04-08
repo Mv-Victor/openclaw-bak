@@ -1,0 +1,285 @@
+{
+  "🤖 AI 前沿": [
+    {
+      "title": "GLM-5.1: Towards Long-Horizon Tasks",
+      "link": "https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything",
+      "published": "2026-04-07T21:25:14+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "GLM-5.1: Towards Long-Horizon Tasks\nChinese AI lab Z.ai's latest model is a giant 754B parameter 1.51TB (on Hugging Face) MIT-licensed monster - the same size as their previous GLM-5 release, and sharing the same paper.\nIt's available via OpenRouter so I asked it to draw me a pelican:\nllm install llm-openrouter\nllm -m openrouter/z-ai/glm-5.1 'Generate an SVG of a pelican on a bicycle'\n\nAnd something new happened... unprompted, the model decided to give me an HTML page that included both the SVG "
+    },
+    {
+      "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
+      "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything",
+      "published": "2026-04-07T20:52:54+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Anthropic didn't release their latest model, Claude Mythos (system card PDF), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing.\nThe model is a general purpose model, similar to Claude Opus 4.6, but Anthropic claim that its cyber-security research abilities are strong enough that they need to give the software industry as a whole time to prepare.\n\nMythos Preview has already found thousands of high-severity vulner"
+    },
+    {
+      "title": "SQLite WAL Mode Across Docker Containers Sharing a Volume",
+      "link": "https://simonwillison.net/2026/Apr/7/sqlite-wal-docker-containers/#atom-everything",
+      "published": "2026-04-07T15:41:00+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Research: SQLite WAL Mode Across Docker Containers Sharing a Volume\n    Inspired by this conversation on Hacker News about whether two SQLite processes in separate Docker containers that share the same volume might run into problems due to WAL shared memory. The answer is that everything works fine - Docker containers on the same host and filesystem share the same shared memory in a way that allows WAL to collaborate as it should.\n    \n        Tags: docker, sqlite"
+    },
+    {
+      "title": "Google AI Edge Gallery",
+      "link": "https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/#atom-everything",
+      "published": "2026-04-06T05:18:26+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Google AI Edge Gallery\nTerrible name, really great app: this is Google's official app for running their Gemma 4 models (the E2B and E4B sizes, plus some members of the Gemma 3 family) directly on your iPhone.\nIt works really well. The E2B model is a 2.54GB download and is both fast and genuinely useful.\nThe app also provides \"ask questions about images\" and audio transcription (up to 30s) with the two small Gemma 4 models, and has an interesting \"skills\" demo which demonstrates tool calling agai"
+    },
+    {
+      "title": "datasette-ports 0.2",
+      "link": "https://simonwillison.net/2026/Apr/6/datasette-ports-2/#atom-everything",
+      "published": "2026-04-06T03:25:43+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Release: datasette-ports 0.2\n    \n\nNo longer requires Datasette - running uvx datasette-ports now works as well.\nInstalling it as a Datasette plugin continues to provide the datasette ports command.\n\n\n    \n        Tags: datasette"
+    },
+    {
+      "title": "scan-for-secrets 0.3",
+      "link": "https://simonwillison.net/2026/Apr/6/scan-for-secrets/#atom-everything",
+      "published": "2026-04-06T02:59:28+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Release: scan-for-secrets 0.3\n    \n\nNew -r/--redact option which shows the list of matches, asks for confirmation and then replaces every match with REDACTED, taking escaping rules into account.\nNew Python function redact_file(file_path: str | Path, secrets: list[str], replacement: str = \"REDACTED\") -&gt; int.\n\n\n    \n        Tags: projects"
+    },
+    {
+      "title": "Cleanup Claude Code Paste",
+      "link": "https://simonwillison.net/2026/Apr/6/cleanup-claude-code-paste/#atom-everything",
+      "published": "2026-04-06T02:55:23+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Tool: Cleanup Claude Code Paste\n    Super-niche tool this. I sometimes copy prompts out of the Claude Code terminal app and they come out with a bunch of weird additional whitespace. This tool cleans that up.\n\n    \n        Tags: tools, claude-code"
+    },
+    {
+      "title": "datasette-ports 0.1",
+      "link": "https://simonwillison.net/2026/Apr/6/datasette-ports/#atom-everything",
+      "published": "2026-04-06T00:23:55+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Release: datasette-ports 0.1\n    Another example of README-driven development, this time solving a problem that might be unique to me.\nI often find myself running a bunch of different Datasette instances with different databases and different in-development plugins, spreads across dozens of different terminal windows - enough that I frequently lose them!\nNow I can run this:\ndatasette install datasette-ports\ndatasette ports\n\nAnd get a list of every running instance that looks something like this:"
+    }
+  ],
+  "💻 技术动态": [
+    {
+      "title": "Claude 新模型 mythos preview 发布了",
+      "link": "https://www.v2ex.com/t/1204213#reply10",
+      "published": "2026-04-08T02:07:48Z",
+      "source": "V2EX - 技术",
+      "summary": "https://red.anthropic.com/2026/mythos-preview/\nhttps://www.anthropic.com/glasswing\n好像还只是大公司级别的内测？"
+    },
+    {
+      "title": "最近换了 OPPO 手机，从一个细节感受到厂家对系统的用心程度。",
+      "link": "https://www.v2ex.com/t/1203991#reply62",
+      "published": "2026-04-07T05:23:56Z",
+      "source": "V2EX - 技术",
+      "summary": "这几年陆续用过了 VIVO OPPO IPHONE 和小米。基本市面上常见的手机品牌和系统都体验过了。我是个强迫症，对细节比较在意。有一点让我挺有感触的。就是手机蓝牙连接车机蓝牙播放音乐时，专辑封面是否显示。经过我的实测，我发现 iPhone 的 ios 在很早的版本就可以通过蓝牙传递封面信息，且在车机上正确显示。而小米 vivo 直到最新系统版本仍然无法显示而最近换的 oppo coloros16 我惊喜的发现可以正常显示专辑封面。前部手机 vivo 的话，用 jovi in car 是可以显示的，走蓝牙协议就不行。查找资料可知：蓝牙音频播放依赖两个核心协议：A2DP：只负责传声音（音乐数据流）AVRCP：负责传控制指令 + 媒体元数据（歌名、歌手、封面）因此这个细节，依靠手机工程师应该很容易解决，但是很可惜，安卓阵营里目前只有 oppo 解决了这个问题。"
+    },
+    {
+      "title": "百炼的 coding plan 短时间是不是不会上新模型了？",
+      "link": "https://www.v2ex.com/t/1204244#reply0",
+      "published": "2026-04-08T03:15:05Z",
+      "source": "V2EX - 技术",
+      "summary": "glm5.1 才出，qoder 就已经可以用了。但是 coding plan 到现在还用不上 qwen3.6-plus 。"
+    },
+    {
+      "title": "antigravity 似乎又崩了",
+      "link": "https://www.v2ex.com/t/1204205#reply19",
+      "published": "2026-04-08T01:52:52Z",
+      "source": "V2EX - 技术",
+      "summary": "早上来时一直提示：Our servers are experiencing high traffic right now, please try again in a minute.\n各位有没有正在使用的，具体啥情况？"
+    },
+    {
+      "title": "国内证书厂商的 SSL 证书便宜好多，有坑吗？",
+      "link": "https://www.v2ex.com/t/1204225#reply9",
+      "published": "2026-04-08T02:36:38Z",
+      "source": "V2EX - 技术",
+      "summary": "公司之前在阿里云上买的通配符 SSL 证书马上要到期了，现在好多国内的 SSL 证书厂商打电话推销，价格便宜不少（每年便宜 300+）。\n我自己担心的地方是国内这些厂商都是只有官网，没有见到云平台，担心买了之后售后出问题，到时候对接的人联系不上或他们频繁换对接的经理，有问题响应不及时就坏了，相较而言阿里云上我可以直接在线操作。\n各位相关从业的大佬们，国内厂商的可信吗？大家在使用过程中有没有遇到什么问题。"
+    },
+    {
+      "title": "自己的两台电脑同时登陆同一个 claude 账号，单说这个行为，有封号风险吗？",
+      "link": "https://www.v2ex.com/t/1204201#reply5",
+      "published": "2026-04-08T01:43:14Z",
+      "source": "V2EX - 技术",
+      "summary": "有这样操作的吗？"
+    },
+    {
+      "title": "被封了三个 claude pro 账号的一些经验",
+      "link": "https://www.v2ex.com/t/1204152#reply14",
+      "published": "2026-04-07T16:09:44Z",
+      "source": "V2EX - 技术",
+      "summary": "最近总计被封了三个 claude pro 账号，总结下经验，给 v 友参考。      第一个，谷歌邮箱注册登录，sms 平台接码，24 年 11 月份注册的 Claude ，25 年偶尔用 google play 内购订阅 pro 账号，节点就是美国机场，在 26 年 1 月 21 用了 bitget u 卡订阅了 pro然后在 2 月 1 日，不小心在香港节点进入了 claude ，Claude 主页显示错误，然后在 2 月 2 日收到了账号被封了的消息，直接原路退了全款；       第二个，proton 邮箱 26 年 2 月 3 日注册登录，用的尼日利亚家宽节点，未验证手机号，直接注册成功，当时有针对播客听众的三个月半价优惠活动链接，故在 2 月 3 日直接网页端绑定 bitgetu 卡订阅成功，成功渡过第一个月，然后第 2 个月用到 3 月 11 号时被封号，并且当天在 x 上看到大量使用 bitget u 卡订阅的被封号，这次并未退款。      第三个，谷歌邮箱注册登录，sms 平台接码，25 年 8 月注册，在 26 年 3 月 17 通过 google play 内"
+    },
+    {
+      "title": "Claude code 订阅",
+      "link": "https://www.v2ex.com/t/1204235#reply1",
+      "published": "2026-04-08T02:56:02Z",
+      "source": "V2EX - 技术",
+      "summary": "大家是怎么进行订阅的，之前有一张 wild card ，现在也跑路了。"
+    },
+    {
+      "title": "国产大模型 coding plan 每个都是售罄？",
+      "link": "https://www.v2ex.com/t/1203973#reply66",
+      "published": "2026-04-07T04:08:37Z",
+      "source": "V2EX - 技术",
+      "summary": "咱也不预设立场说国产的差距很大之类的，前提时能让人订阅一个试试看啊？每一个进去都是售罄？都是耍猴营销还是硬件算力严重不足？\n另外问问用过的朋友？ GLM5 以及其他几个国内前沿的大模型能力如何？与 sonnet4.6 gpt5.4 geminipro3.1 对比起来差距如何？（就不说 opus4.6 了，纯度高，劲大，吸起来确实过瘾，就是钱包撑不住！）"
+    },
+    {
+      "title": "近期免费的 opus 渠道",
+      "link": "https://www.v2ex.com/t/1204217#reply1",
+      "published": "2026-04-08T02:17:18Z",
+      "source": "V2EX - 技术",
+      "summary": "Replit：量大管饱，有大佬已经放焚决了，可以邮箱注册，1 个号是 5 刀的额度，但是如果你免费绑个卡搞会员，然后再撤掉会员，那么就是 120 刀 x2=240 刀的额度。\n\n\nAnything：开个注册机就能批量刷免费号，基本对于邮箱后缀没有要求，然后再叠加 2api 的软件，也是好用的，就是慢一点。\n\n\nAccio：有额度，但是注册似乎有点困难了，对于 代理线路、邮箱后缀等都要求好严，基本就是注册机碰运气，而且还经常封号，我本地处于别注册别封号的状态，基本能维持可用，属于保底方案了。\n\n\n免费白嫖 Claude 模型教程，3 分钟就能用\n\n\n注册\n打开 Replit 注册账号，选择 免费计划。\n\n\n输入 Prompt\n在首页输入下面的 Prompt ，按提示继续操作。\n\n\n目标：在 Replit pnpm monorepo 中建立 OpenAI 兼容反代 API 并发布。\n\n [环境准备] \n1. 在 Replit Integrations 中添加 OpenAI 和 Anthropic AI 集成\n2. 设置 Secret：PROXY_API_KEY （任意字符串，作为 Bear"
+    }
+  ],
+  "⭐ GitHub Trends": [
+    {
+      "title": "google-ai-edge/gallery",
+      "link": "https://github.com/google-ai-edge/gallery",
+      "published": "2026-04-08T11:16:25.160615",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "google-ai-edge/LiteRT-LM",
+      "link": "https://github.com/google-ai-edge/LiteRT-LM",
+      "published": "2026-04-08T11:16:25.160653",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "NVIDIA/personaplex",
+      "link": "https://github.com/NVIDIA/personaplex",
+      "published": "2026-04-08T11:16:25.160671",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "abhigyanpatwari/GitNexus",
+      "link": "https://github.com/abhigyanpatwari/GitNexus",
+      "published": "2026-04-08T11:16:25.160691",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "tobi/qmd",
+      "link": "https://github.com/tobi/qmd",
+      "published": "2026-04-08T11:16:25.160708",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "forrestchang/andrej-karpathy-skills",
+      "link": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "published": "2026-04-08T11:16:25.160725",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "elebumm/RedditVideoMakerBot",
+      "link": "https://github.com/elebumm/RedditVideoMakerBot",
+      "published": "2026-04-08T11:16:25.160741",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "HKUDS/DeepTutor",
+      "link": "https://github.com/HKUDS/DeepTutor",
+      "published": "2026-04-08T11:16:25.160757",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "TheCraigHewitt/seomachine",
+      "link": "https://github.com/TheCraigHewitt/seomachine",
+      "published": "2026-04-08T11:16:25.160773",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "google-ai-edge/gallery",
+      "link": "https://github.com/google-ai-edge/gallery",
+      "published": "2026-04-08T11:16:25.163936",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    }
+  ],
+  "🔥 Product Hunt": [
+    {
+      "title": "OpenBrowser-AI",
+      "link": "https://www.producthunt.com/products/openbrowser-ai-59-less-100-accurate",
+      "published": "2026-04-06T11:38:40-07:00",
+      "source": "Product Hunt",
+      "summary": "Connect AI agents to browser through raw CDP\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Highlight Studio",
+      "link": "https://www.producthunt.com/products/highlight-studio",
+      "published": "2026-04-06T17:47:06-07:00",
+      "source": "Product Hunt",
+      "summary": "Record, edit, and brand screen recordings Metal powered\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Dynamic Notch 2.0",
+      "link": "https://www.producthunt.com/products/dynamic-notch-2-0",
+      "published": "2026-04-03T06:01:37-07:00",
+      "source": "Product Hunt",
+      "summary": "Turn your Mac notch into a native 6-in-1 command center\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Netflix Playground",
+      "link": "https://www.producthunt.com/products/netflix",
+      "published": "2026-04-06T19:32:57-07:00",
+      "source": "Product Hunt",
+      "summary": "A world for kids to explore along their favorite characters\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Cheese! OCR",
+      "link": "https://www.producthunt.com/products/cheese-ocr",
+      "published": "2026-04-06T02:16:38-07:00",
+      "source": "Product Hunt",
+      "summary": "Select any screen area, get text instantly\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Couch",
+      "link": "https://www.producthunt.com/products/couch",
+      "published": "2026-04-06T01:00:11-07:00",
+      "source": "Product Hunt",
+      "summary": "Your online couch for movies, games, and good times\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "CrewCue",
+      "link": "https://www.producthunt.com/products/crewcue",
+      "published": "2026-04-06T05:21:23-07:00",
+      "source": "Product Hunt",
+      "summary": "Live schedules on the Lock Screen for event crews\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Stated",
+      "link": "https://www.producthunt.com/products/stated-2",
+      "published": "2026-04-06T02:14:53-07:00",
+      "source": "Product Hunt",
+      "summary": "Privacy-first AI finance tracker \n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Flight Viz",
+      "link": "https://www.producthunt.com/products/flight-viz",
+      "published": "2026-04-06T09:28:10-07:00",
+      "source": "Product Hunt",
+      "summary": "Watch 10K+ live flights move on a 3D globe in your browser\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "FITYCAL",
+      "link": "https://www.producthunt.com/products/fitycal-3d-body-scan-tracker-2",
+      "published": "2026-04-02T08:54:20-07:00",
+      "source": "Product Hunt",
+      "summary": "Track body measurements, fat%, lean Mass, progress & more\n          \n          \n            Discussion\n            |\n            Link"
+    }
+  ],
+  "💰 投资理财": [
+    {
+      "title": "出粮记（美股3月）：风暴里的加仓",
+      "link": "http://ytcinvest.blogspot.com/2026/04/3.html",
+      "published": "2026-04-07T02:41:00.006+08:00",
+      "source": "口木投资理财笔记",
+      "summary": "薪水到账，照常转账，照常买入。\n3月的市场很热闹关税、贸易战、科技股暴跌、伊朗战争但我的操作依旧很安静。\n这个月组合整体下跌了 5.33%，让我来逐一点名：\n现有持股：\n\nBRK.B：-5.12%（$24.24 → $23.00）\nVOO：-5.11%（$90.87 → $86.23）\nNVDA：-1.58%（$26.58 → $26.16）\n\n本月新加入：\n\nO（Realty Income）：0.4 股，现值 $24.47\nOMAH：1 股，现值 $18.02SCHD: 含股息再投入，变成 0.8043 股\n\n本月股息收入：\n虽然账面是红的，但股息依然准时到账\n\n  \n    股票\n    股息收入\n  \n  \n    SCHD\n    $0.15\n  \n  \n  \n    OMAH\n    $0.16\n    \n    \n  \n    VOO\n    $0.19\n    \n    \n\n金额不大，但每一分都会再投入，继续买入更多份额，慢慢滚雪球。VOO 跌了，BRK.B 也跌了。账面上是红的，但我没有慌。加入 O 和 OMAH，是为了进一步强化现金流这条线。股息慢慢滚进来，无论市场涨"
+    }
+  ]
+}
