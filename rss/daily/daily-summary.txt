@@ -1,0 +1,209 @@
+## 🤖 AI 前沿
+1. Kākāpō parrots
+来源: Simon Willison's Blog
+总结: Lenny posted another snippet from our 1 hour 40 minute podcast recording and it's about kākāpō parrots!        Tags: kakapo
+链接: https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything
+
+2. ChatGPT voice mode is a weaker model
+来源: Simon Willison's Blog
+总结: I think it's non-obvious to many people that the OpenAI voice mode runs on a much older, much weaker model - it feels like the AI that you can talk to...
+链接: https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything
+
+3. GitHub Repo Size
+来源: Simon Willison's Blog
+总结: Tool: GitHub Repo Size     GitHub doesn't tell you the repo size in the UI, but it's available in the CORS-friendly API. Paste a repo into this tool t...
+链接: https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything
+
+4. asgi-gzip 0.3
+来源: Simon Willison's Blog
+总结: Release: asgi-gzip 0.3     I ran into trouble deploying a new feature using SSE to a production Datasette instance, and it turned out that instance wa...
+链接: https://simonwillison.net/2026/Apr/9/asgi-gzip/#atom-everything
+
+5. Meta's new model is Muse Spark, and meta.ai chat has some interesting tools
+来源: Simon Willison's Blog
+总结: Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago. It's hosted, not open weights, and the API is curr...
+链接: https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything
+
+6. Quoting Giles Turnbull
+来源: Simon Willison's Blog
+总结: I have a feeling that everyone likes using AI tools to try doing someone else’s profession. They’re much less keen when someone else uses it for their...
+链接: https://simonwillison.net/2026/Apr/8/giles-turnbull/#atom-everything
+
+7. GLM-5.1: Towards Long-Horizon Tasks
+来源: Simon Willison's Blog
+总结: GLM-5.1: Towards Long-Horizon Tasks Chinese AI lab Z.ai's latest model is a giant 754B parameter 1.51TB (on Hugging Face) MIT-licensed monster - the s...
+链接: https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything
+
+8. Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me
+来源: Simon Willison's Blog
+总结: Anthropic didn't release their latest model, Claude Mythos (system card PDF), today. They have instead made it available to a very restricted set of p...
+链接: https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything
+
+## 💻 技术动态
+1. AI Code Is Hollowing Out Open Source, and Maintainers Are Looking the Other Way
+来源: Hacker News AI
+总结: Article URL: https://www.quippd.com/writing/2026/04/08/ai-code-is-hollowing-out-open-source-and-maintainers-are-looking-the-other-way.html Comments UR...
+链接: https://www.quippd.com/writing/2026/04/08/ai-code-is-hollowing-out-open-source-and-maintainers-are-looking-the-other-way.html
+
+2. AI Agent Proxy to help reduce token usage (Anthropic Only)
+来源: Hacker News AI
+总结: Article URL: https://github.com/Wuzu11517/agentic-proxy Comments URL: https://news.ycombinator.com/item?id=47725472 Points: 2 # Comments: 1
+链接: https://github.com/Wuzu11517/agentic-proxy
+
+3. Drones, Geophysics and AI: Researchers Battle Against Land Mines (2023)
+来源: Hacker News AI
+总结: Article URL: https://news.climate.columbia.edu/2023/09/12/with-drones-geophysics-and-artificiai-intelligence-researchers-prepare-to-do-battle-against-...
+链接: https://news.climate.columbia.edu/2023/09/12/with-drones-geophysics-and-artificiai-intelligence-researchers-prepare-to-do-battle-against-land-mines/
+
+4. AI-Assisted Breach of Mexico's Government Infrastructure Report
+来源: Hacker News AI
+总结: Article URL: https://gambit.security/blog-post/a-single-operator-two-ai-platforms-nine-government-agencies-the-full-technical-report Comments URL: htt...
+链接: https://gambit.security/blog-post/a-single-operator-two-ai-platforms-nine-government-agencies-the-full-technical-report
+
+5. Maki – the efficient coder (AI agent)
+来源: Hacker News AI
+总结: Article URL: https://maki.sh/ Comments URL: https://news.ycombinator.com/item?id=47725243 Points: 4 # Comments: 1
+链接: https://maki.sh/
+
+6. Show HN: Offline AI dev assistant (no API, runs locally)
+来源: Hacker News AI
+总结: Built this after getting tired of fighting local AI setup (CUDA issues, dependencies, API configs). Goal was to make something that just runs locally ...
+链接: https://store.steampowered.com/app/4111530/FriedrichAI_Offline_AI_Dev_Assistant/
+
+7. Hit Claude usage limits? Resume your AI coding session elsewhere
+来源: Hacker News AI
+总结: Article URL: https://github.com/inevolin/resume-cli Comments URL: https://news.ycombinator.com/item?id=47725089 Points: 3 # Comments: 1
+链接: https://github.com/inevolin/resume-cli
+
+8. The history and future of AI at Google, with Sundar Pichai
+来源: Hacker News AI
+总结: Article URL: https://cheekypint.substack.com/p/the-history-and-future-of-ai-at-google Comments URL: https://news.ycombinator.com/item?id=47724997 Poin...
+链接: https://cheekypint.substack.com/p/the-history-and-future-of-ai-at-google
+
+9. Show HN: Ark – AI agent runtime in Go that tracks cost per decision step
+来源: Hacker News AI
+总结: Article URL: https://github.com/atripati/ark Comments URL: https://news.ycombinator.com/item?id=47724969 Points: 3 # Comments: 1
+链接: https://github.com/atripati/ark
+
+10. Anthropic injects reasoning_effort=25 into Claude.ai consumer system prompts
+来源: Hacker News AI
+总结: Article URL: https://imgur.com/AOAs7Aq Comments URL: https://news.ycombinator.com/item?id=47724951 Points: 3 # Comments: 1
+链接: https://imgur.com/AOAs7Aq
+
+## ⭐ GitHub Trends
+1. microsoft/markitdown
+来源: GitHub Trends
+总结: GitHub trending repository
+链接: https://github.com/microsoft/markitdown
+
+2. coleam00/Archon
+来源: GitHub Trends
+总结: GitHub trending repository
+链接: https://github.com/coleam00/Archon
+
+3. NousResearch/hermes-agent
+来源: GitHub Trends
+总结: GitHub trending repository
+链接: https://github.com/NousResearch/hermes-agent
+
+4. rowboatlabs/rowboat
+来源: GitHub Trends
+总结: GitHub trending repository
+链接: https://github.com/rowboatlabs/rowboat
+
+5. multica-ai/multica
+来源: GitHub Trends
+总结: GitHub trending repository
+链接: https://github.com/multica-ai/multica
+
+6. forrestchang/andrej-karpathy-skills
+来源: GitHub Trends
+总结: GitHub trending repository
+链接: https://github.com/forrestchang/andrej-karpathy-skills
+
+7. shiyu-coder/Kronos
+来源: GitHub Trends
+总结: GitHub trending repository
+链接: https://github.com/shiyu-coder/Kronos
+
+8. HKUDS/DeepTutor
+来源: GitHub Trends
+总结: GitHub trending repository
+链接: https://github.com/HKUDS/DeepTutor
+
+9. opendataloader-project/opendataloader-pdf
+来源: GitHub Trends
+总结: GitHub trending repository
+链接: https://github.com/opendataloader-project/opendataloader-pdf
+
+10. obra/superpowers
+来源: GitHub Trends
+总结: GitHub trending repository
+链接: https://github.com/obra/superpowers
+
+## 🔥 Product Hunt
+1. Buddi
+来源: Product Hunt
+总结: Your Claude Code companion, living in the notch.                                   Discussion             |             Link
+链接: https://www.producthunt.com/products/buddi-living-in-the-notch
+
+2. Complexity Indicator
+来源: Product Hunt
+总结: Know when your code becomes unmaintainable                                   Discussion             |             Link
+链接: https://www.producthunt.com/products/complexity-indicator
+
+3. Inbox Autopilot by Dimension
+来源: Product Hunt
+总结: Your inbox, handled                                   Discussion             |             Link
+链接: https://www.producthunt.com/products/dimension-2
+
+4. Integrations in Spine
+来源: Product Hunt
+总结: AI that synthesize and researches info across multiple apps                                   Discussion             |             Link
+链接: https://www.producthunt.com/products/spine-2
+
+5. Waypoint-1.5
+来源: Product Hunt
+总结: Real-time generative worlds on everyday GPUs                                   Discussion             |             Link
+链接: https://www.producthunt.com/products/waypoint-1-5
+
+6. Google Finance
+来源: Product Hunt
+总结: Ask complex finance questions, get AI-grounded answers                                   Discussion             |             Link
+链接: https://www.producthunt.com/products/google
+
+7. Drift
+来源: Product Hunt
+总结: Minimalist journal app that fades over time                                   Discussion             |             Link
+链接: https://www.producthunt.com/products/drift-journal-that-lets-go
+
+8. MiniMax CLI
+来源: Product Hunt
+总结: Give your AI agents native multimodal capabilities                                   Discussion             |             Link
+链接: https://www.producthunt.com/products/minimax
+
+9. Claude Advisor tool
+来源: Product Hunt
+总结: Pair Opus as advisor with Sonnet or Haiku as executor                                   Discussion             |             Link
+链接: https://www.producthunt.com/products/claude
+
+10. SoulLink
+来源: Product Hunt
+总结: Mobile 3D Vibe Coding Partner                                    Discussion             |             Link
+链接: https://www.producthunt.com/products/soullinkai
+
+## 💰 投资理财
+1. 體脂變化
+来源: 知足常乐 - 水星投资理财
+总结: 不知不覺水星熊也即將迎來退休三週年，從PNG回到馬來西亞後有好好運動&amp;飲食，翻看兩年多前剛回來不久時在Splashmania玩水的舊照，好歹現在的自己不需要依靠吸氣來把肚腩給弄不見 😜水星熊維持健康和投資一樣，都沒有什麼秘密可言，就是根據人人都明白的道理持之以恆的去做而已。如果知道而做不到，...
+链接: https://mercurychong.blogspot.com/2026/04/blog-post_10.html
+
+2. 匠人精神
+来源: 知足常乐 - 水星投资理财
+总结: 前年見識過了韓國的櫻花，今年也終於實現夢想清單之一的日本賞櫻花，順便拜見富士山&amp;東京迪斯尼。  來到日本，自然就想起匠人精神。  來到現代，不少人都想斜槓，水星熊卻崇拜匠人。  &nbsp;與其花那麼多時間去同時做幾件事，不如集中精力去做最擅長的那件事，比如在投資法琳琅滿目的股市，專注於公司...
+链接: https://mercurychong.blogspot.com/2026/04/blog-post.html
+
+3. 出粮记（美股3月）：风暴里的加仓
+来源: 口木投资理财笔记
+总结: 薪水到账，照常转账，照常买入。 3月的市场很热闹关税、贸易战、科技股暴跌、伊朗战争但我的操作依旧很安静。 这个月组合整体下跌了 5.33%，让我来逐一点名： 现有持股：  BRK.B：-5.12%（$24.24 → $23.00） VOO：-5.11%（$90.87 → $86.23） NVDA：-...
+链接: http://ytcinvest.blogspot.com/2026/04/3.html
