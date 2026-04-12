@@ -1,0 +1,299 @@
+{
+  "🤖 AI 前沿": [
+    {
+      "title": "SQLite 3.53.0",
+      "link": "https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything",
+      "published": "2026-04-11T19:56:53+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "SQLite 3.53.0\nSQLite 3.52.0 was withdrawn so this is a pretty big release with a whole lot of accumulated user-facing and internal improvements. Some that stood out to me:\n\nALTER TABLE can now add and remove NOT NULL and CHECK constraints - I've previously used my own sqlite-utils transform() method for this.\nNew json_array_insert() function and its jsonb equivalent.\nSignificant improvements to CLI mode, including result formatting.\n\nThe result formatting improvements come from a new library, th"
+    },
+    {
+      "title": "SQLite Query Result Formatter Demo",
+      "link": "https://simonwillison.net/2026/Apr/11/sqlite-qrf/#atom-everything",
+      "published": "2026-04-11T19:35:31+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Tool: SQLite Query Result Formatter Demo\n    See my notes on SQLite 3.53.0. This playground provides a UI for trying out the various rendering options for SQL result tables from the new Query Result Formatter library, compiled to WebAssembly.\n    \n        Tags: tools, sqlite"
+    },
+    {
+      "title": "Kākāpō parrots",
+      "link": "https://simonwillison.net/2026/Apr/10/kakapo/#atom-everything",
+      "published": "2026-04-10T19:07:02+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Lenny posted another snippet from our 1 hour 40 minute podcast recording and it's about kākāpō parrots!\n\n\n\n    Tags: kakapo"
+    },
+    {
+      "title": "ChatGPT voice mode is a weaker model",
+      "link": "https://simonwillison.net/2026/Apr/10/voice-mode-is-weaker/#atom-everything",
+      "published": "2026-04-10T15:56:02+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "I think it's non-obvious to many people that the OpenAI voice mode runs on a much older, much weaker model - it feels like the AI that you can talk to should be the smartest AI but it really isn't.\nIf you ask ChatGPT voice mode for its knowledge cutoff date it tells you April 2024 - it's a GPT-4o era model.\nThis thought inspired by this Andrej Karpathy tweet about the growing gap in understanding of AI capability based on the access points and domains people are using the models with:\n\n[...] It "
+    },
+    {
+      "title": "GitHub Repo Size",
+      "link": "https://simonwillison.net/2026/Apr/9/github-repo-size/#atom-everything",
+      "published": "2026-04-09T21:31:50+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Tool: GitHub Repo Size\n    GitHub doesn't tell you the repo size in the UI, but it's available in the CORS-friendly API. Paste a repo into this tool to see the size, for example for simonw/datasette (8.1MB).\n    \n        Tags: cors, github"
+    },
+    {
+      "title": "asgi-gzip 0.3",
+      "link": "https://simonwillison.net/2026/Apr/9/asgi-gzip/#atom-everything",
+      "published": "2026-04-09T03:54:40+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Release: asgi-gzip 0.3\n    I ran into trouble deploying a new feature using SSE to a production Datasette instance, and it turned out that instance was using datasette-gzip which uses asgi-gzip which was incorrectly compressing event/text-stream responses.\nasgi-gzip was extracted from Starlette, and has a GitHub Actions scheduled workflow to check Starlette for updates that need to be ported to the library... but that action had stopped running and hence had missed Starlette's own fix for this i"
+    },
+    {
+      "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
+      "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything",
+      "published": "2026-04-08T23:07:44+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago. It's hosted, not open weights, and the API is currently \"a private API preview to select users\", but you can try it out today on meta.ai (Facebook or Instagram login required).\nMeta's self-reported benchmarks show it competitive with Opus 4.6, Gemini 3.1 Pro, and GPT 5.4 on selected benchmarks, though notably behind on Terminal-Bench 2.0. Meta themselves say they \"continue to invest in areas with "
+    },
+    {
+      "title": "Quoting Giles Turnbull",
+      "link": "https://simonwillison.net/2026/Apr/8/giles-turnbull/#atom-everything",
+      "published": "2026-04-08T15:18:49+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "I have a feeling that everyone likes using AI tools to try doing someone else’s profession. They’re much less keen when someone else uses it for their profession.\n&mdash; Giles Turnbull, AI and the human voice\n\n    Tags: ai-ethics, writing, ai"
+    }
+  ],
+  "💻 技术动态": [
+    {
+      "title": "终端软件 大家有什么核心需求吗？",
+      "link": "https://www.v2ex.com/t/1205213#reply3",
+      "published": "2026-04-11T23:01:39Z",
+      "source": "V2EX - 技术",
+      "summary": "最近准备发布一款支持 Google Extension 的 Terminal ，有什么核心的需求，我准备开发一波再发布     现在有的功能，就是如下图，结合了 Chromium 的多 Tab 页管理的终端, 同时也方便写扩展      目前支持 Linux, 后续会支持 macOS"
+    },
+    {
+      "title": "有人用豆包买保险，结果支付到我这里来了",
+      "link": "https://www.v2ex.com/t/1205029#reply173",
+      "published": "2026-04-10T16:05:31Z",
+      "source": "V2EX - 技术",
+      "summary": "大概情况就是这个人使用询问豆包的方式购买保险，然后豆包编得有模有样还说已经生成订单，然后还生成了一个收款二维码说向这个二维码付款即可, 最终受害人支付了 1620 元后发现看不到保单询问的豆包时，豆包还信誓旦旦说要在今天 24 点后才能出单,所以看不见是正常的, 受害者最终通过收款商家入口联系到了我, 我在咨询支付宝客服后, 客服建议我使用订单的原路退回功能, 这样会安全一些。\n我怀疑豆包语料库中的二维码来自我的一些开源库或者博客, 之前在这些地方贴过我的收款二维码。\n这个案例告诉我们国内很多人根本就不知道 AI 的边界在哪里, AI 存在幻觉也不清楚, 连 AI 实际接入了哪些业务也不清楚, 甚至真的相信 AI 给出的建议和方案。"
+    },
+    {
+      "title": "把 豆包误导用户转账事件 和 快播案 放在一起思考",
+      "link": "https://www.v2ex.com/t/1205197#reply7",
+      "published": "2026-04-11T15:25:14Z",
+      "source": "V2EX - 技术",
+      "summary": "看 /t/1205029 想到的。\n如果字节跳动不采取行动避免此类情形，可能触犯什么法律？朴素的角度：\n一旦字节跳动知道语料污染导致误导用户转账的可能存在，简单的推理是，别有用心之人 A 可以通过污染语料的方式增加豆包误导用户转账给 A 的概率，简单来说就是 A 可以利用豆包诈骗。此推理过于简单，是否应该认为字节跳动在此事之后应该知道豆包可能被这样利用？如果是但没有采取行动限制之，是否可以成立第 287 条——帮助信息网络犯罪活动罪？\n根据《最高人民法院、最高人民检察院关于办理非法利用信息网络、帮助信息网络犯罪活动等刑事案件适用法律若干问题的解释》第十一条：\n\n具有下列情形之一的，可以认定行为人明知……但是有相反证据的除外：\n……\n（二）接到举报后不履行法定管理职责的；\n……\n\n是否应该向字节跳动发送 /t/1205029 以敦促他们采取行动？"
+    },
+    {
+      "title": "智普 coding plan 的模型是缩水的吗，还是单独微调过的？",
+      "link": "https://www.v2ex.com/t/1205174#reply6",
+      "published": "2026-04-11T13:48:34Z",
+      "source": "V2EX - 技术",
+      "summary": "起因是我发现有个问题明明上下文已经够非常充足了，但 glm5 一直答错，我一开始以为是 prompt 的写法问题，突发奇想去官网测了一下，发现官网的 glm 测试一定是对的，那我就认为是参数问题，temperature 什么的和官网不一致导致的。于是就写了个脚本测各种参数下的情况，结果发现都不对（正确答案是 21day ）然后我把脚本的 baseurl 改成官方 api 接口，脚本居然全对了这是何意味呢？？脚本在这，可以自行测测https://pastebin.com/g68ma5ER"
+    },
+    {
+      "title": "从 iPhone 换到 Oppo Find X9 半年后。。。",
+      "link": "https://www.v2ex.com/t/1205016#reply55",
+      "published": "2026-04-10T13:59:12Z",
+      "source": "V2EX - 技术",
+      "summary": "iphone3gs 用到 iphone17pm ，感觉 ios 越来越无趣了，特别是 siri 弱的很去年下半年换了 Oppo FindX9 ，手表换了 oppo watch ，感受如下：优点：- 2T 云空间套餐真是便宜。- 指纹识别 比 face id 总体用下来 对我来说更方便些。- 左侧的快捷按钮 很有用（ iphone 也有）- iphone 有的功能 基本都有，没有的 也有很多，实际用起来比 iphone 要更多样化 便捷。差点意思：- 手机云备份，不支持视频自动压缩，只支持照片。（听说 小米系统 视频和照片都支持，懂行的求证下）- oppo 手表真的不咋地，平时游泳完全识别错误，换了 HW gt6 pro 明显识别准确很多- 广告能关的都关了，但还是有些关不掉，这点没法子，算是最大缺点吧- 后续继续折腾安卓了，准备年底换小米（前提小米也增加左侧的快捷按钮），后续就用小米生态了（日历，备忘录，云盘，米家等 ，不同安卓品牌切换着实麻烦点）当然始终不变的观点：- 仅限爱折腾的用安卓，方便快捷，拓展性强- 一般老人，女生，小孩，绝对首选 iphone- 全家都用 iphone 买"
+    },
+    {
+      "title": "现在专线的机场是不是都凉了，还有稳定行强的链路推荐吗",
+      "link": "https://www.v2ex.com/t/1205082#reply87",
+      "published": "2026-04-11T04:13:26Z",
+      "source": "V2EX - 技术",
+      "summary": "据传之前有一次专线整治互动，大部分机场都被拉闸了"
+    },
+    {
+      "title": "阿里云 Coding Plan Lite 基础套餐停止续费和升级通知",
+      "link": "https://www.v2ex.com/t/1205193#reply7",
+      "published": "2026-04-11T15:13:22Z",
+      "source": "V2EX - 技术",
+      "summary": "影响时间北京时间 2026-04-13 18:00:00计划和影响 尊敬的阿里云用户您好，非常感谢您对阿里云百炼 Coding Plan 产品的支持，由于产品策略调整，自 2026 年 4 月 13 日起，Coding Plan Lite 基础套餐将停止续费和升级。重要说明如您已购买 Coding Plan Lite 基础套餐，您仍可继续使用至服务到期；如您已开通 Coding Plan Lite 基础套餐自动续费，自动续费将于自公告起 30 日之后自动失效，您仍可继续使用至服务到期。感谢您对于阿里云百炼的理解与支持。https://www.aliyun.com/notice/118175"
+    },
+    {
+      "title": "trae 的优速通有什么区别？",
+      "link": "https://www.v2ex.com/t/1205200#reply0",
+      "published": "2026-04-11T16:12:43Z",
+      "source": "V2EX - 技术",
+      "summary": "一个月￥ 999 不便宜"
+    },
+    {
+      "title": "GLM lite 国际版都$18 了，还不支持退款",
+      "link": "https://www.v2ex.com/t/1205191#reply4",
+      "published": "2026-04-11T15:02:13Z",
+      "source": "V2EX - 技术",
+      "summary": "GLM lite 国内版才 49 ，这价格差距也太多了。没仔细看条款，还以为跟阿里的 code plan 差不多"
+    },
+    {
+      "title": "有个事想请教： GitHub 上有人用了和我一样的项目名，复刻了一模一样的项目",
+      "link": "https://www.v2ex.com/t/1204945#reply87",
+      "published": "2026-04-10T08:30:52Z",
+      "source": "V2EX - 技术",
+      "summary": "困境\n我的 SwiftMTP这个 vibe 出来的项目，是因为裁员，在家待了 3 个月实在无聊，再加上车票考完了，于去年 12 月突发奇想才着手开发的。\n一直到 1 月份中旬，一直断断续续在维护。\n1 月底快过年了，再加上我也想思考一下后续要做成什么样子，跟朋友出门玩了一圈，就停工了。\n今天在电报上瞎逛，发现有人新开了一个仓库也叫 SwiftMTP，4 月 7 日才创建，在搞推广。\n我自己的想法\n首先，我自己觉得这个事情很正常，因为我也是 MIT 协议。\n但问题在于，新开的这个是完全自己重写的。没用到我的代码，目前实现的功能基本也都是一致的。\n我觉得，原创（ idea ） 这个事情很重要，哪怕没用到原始代码。\n致敬一下我的idea也可以啊。\n不光没致敬，还四处推广也不说明，这就有点过分了。（在某书上也看到有人提到了）\n疑问\n遇到这种情况该怎么办啊？"
+    }
+  ],
+  "⭐ GitHub Trends": [
+    {
+      "title": "NousResearch/hermes-agent",
+      "link": "https://github.com/NousResearch/hermes-agent",
+      "published": "2026-04-12T09:00:24.209351",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "microsoft/markitdown",
+      "link": "https://github.com/microsoft/markitdown",
+      "published": "2026-04-12T09:00:24.209390",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "coleam00/Archon",
+      "link": "https://github.com/coleam00/Archon",
+      "published": "2026-04-12T09:00:24.209409",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "forrestchang/andrej-karpathy-skills",
+      "link": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "published": "2026-04-12T09:00:24.209426",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "multica-ai/multica",
+      "link": "https://github.com/multica-ai/multica",
+      "published": "2026-04-12T09:00:24.209443",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "shanraisshan/claude-code-best-practice",
+      "link": "https://github.com/shanraisshan/claude-code-best-practice",
+      "published": "2026-04-12T09:00:24.209488",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "TapXWorld/ChinaTextbook",
+      "link": "https://github.com/TapXWorld/ChinaTextbook",
+      "published": "2026-04-12T09:00:24.209506",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "OpenBMB/VoxCPM",
+      "link": "https://github.com/OpenBMB/VoxCPM",
+      "published": "2026-04-12T09:00:24.209522",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "shiyu-coder/Kronos",
+      "link": "https://github.com/shiyu-coder/Kronos",
+      "published": "2026-04-12T09:00:24.209538",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "opendataloader-project/opendataloader-pdf",
+      "link": "https://github.com/opendataloader-project/opendataloader-pdf",
+      "published": "2026-04-12T09:00:24.209554",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    }
+  ],
+  "🔥 Product Hunt": [
+    {
+      "title": "aperture",
+      "link": "https://www.producthunt.com/products/aperture-4",
+      "published": "2026-04-10T16:44:46-07:00",
+      "source": "Product Hunt",
+      "summary": "hiring is broken. we're building the fix.\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "LinkShell",
+      "link": "https://www.producthunt.com/products/linkshell",
+      "published": "2026-04-10T02:34:51-07:00",
+      "source": "Product Hunt",
+      "summary": "Control your AI terminal sessions from your phone.\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "SummAgent",
+      "link": "https://www.producthunt.com/products/summagent",
+      "published": "2026-04-10T06:35:25-07:00",
+      "source": "Product Hunt",
+      "summary": "Spend less time reading emails, more time making moves\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "MolmoWeb",
+      "link": "https://www.producthunt.com/products/allen-institute-of-artificial-intelligence",
+      "published": "2026-04-10T22:50:24-07:00",
+      "source": "Product Hunt",
+      "summary": "Open web agents from data to deployment\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Clicky",
+      "link": "https://www.producthunt.com/products/clicky-2",
+      "published": "2026-04-08T02:10:34-07:00",
+      "source": "Product Hunt",
+      "summary": "AI buddy next to your cursor on Mac—sees, guides, helps you!\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Tech Marketing Framework",
+      "link": "https://www.producthunt.com/products/tech-marketing-framework",
+      "published": "2026-04-08T14:00:05-07:00",
+      "source": "Product Hunt",
+      "summary": "Forkable GTM system for builders struggling with marketing\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "InboxJoy - Filter Noise from Social DMs",
+      "link": "https://www.producthunt.com/products/inboxjoy",
+      "published": "2026-04-06T11:48:20-07:00",
+      "source": "Product Hunt",
+      "summary": "AI Social Media Automations for a Lifetime License\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Capso",
+      "link": "https://www.producthunt.com/products/capso",
+      "published": "2026-04-09T23:54:47-07:00",
+      "source": "Product Hunt",
+      "summary": "Free open-source screenshot & screen recorder for Mac\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Claude for Word",
+      "link": "https://www.producthunt.com/products/claude",
+      "published": "2026-04-10T20:43:49-07:00",
+      "source": "Product Hunt",
+      "summary": "Bring Claude natively into your Microsoft Word workflow\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "uTerminal",
+      "link": "https://www.producthunt.com/products/uterminal",
+      "published": "2026-04-10T05:58:11-07:00",
+      "source": "Product Hunt",
+      "summary": "A desktop terminal built for day-to-day remote access\n          \n          \n            Discussion\n            |\n            Link"
+    }
+  ],
+  "💰 投资理财": [
+    {
+      "title": "體脂變化",
+      "link": "https://mercurychong.blogspot.com/2026/04/blog-post_10.html",
+      "published": "2026-04-10T05:52:00.000-07:00",
+      "source": "知足常乐 - 水星投资理财",
+      "summary": "不知不覺水星熊也即將迎來退休三週年，從PNG回到馬來西亞後有好好運動&amp;飲食，翻看兩年多前剛回來不久時在Splashmania玩水的舊照，好歹現在的自己不需要依靠吸氣來把肚腩給弄不見 😜水星熊維持健康和投資一樣，都沒有什麼秘密可言，就是根據人人都明白的道理持之以恆的去做而已。如果知道而做不到，那和不知道也沒什麼差別，所以付諸行動，養成習慣，形成紀律也是富人和窮人的差別。剛剛在MV遇見熊粉打招呼，他問起水星熊的健康狀況，有感而發，也謝謝你還記得水星熊動手術的事情&amp;關心。曾聽人抱怨賺錢太難了，跟著幾十萬粉絲的人氣博主投資&amp;買理財產品，結果虧得本金只剩一半。然而，值得注意的是，該博主持有的那幾支股票&amp;理財產品的時間都在三年以上，買入時間點不同，持有週期不同，收益肯定不同。因此，想靠「抄作業」迅速積累財富，就像想買「招財小物」迅速提昇財運一樣，只是一種心理安慰。亞馬遜創始人Jeff Bezos曾問巴菲特：「你的投資理念只有簡單的幾句話而已，為什麼沒有人複製你呢？」巴菲特回答：「因為沒有人想要慢慢變有錢。」確實，他99%以上的資產，都來自50歲之後的累積，而非一夜之"
+    },
+    {
+      "title": "匠人精神",
+      "link": "https://mercurychong.blogspot.com/2026/04/blog-post.html",
+      "published": "2026-04-08T23:07:00.000-07:00",
+      "source": "知足常乐 - 水星投资理财",
+      "summary": "前年見識過了韓國的櫻花，今年也終於實現夢想清單之一的日本賞櫻花，順便拜見富士山&amp;東京迪斯尼。\n\n來到日本，自然就想起匠人精神。\n\n來到現代，不少人都想斜槓，水星熊卻崇拜匠人。\n\n&nbsp;與其花那麼多時間去同時做幾件事，不如集中精力去做最擅長的那件事，比如在投資法琳琅滿目的股市，專注於公司的價值&amp;股息路。\n\n關於賺錢這件事，以前水星熊總覺得，別人能賺的錢，自己也能賺到；人家能過上的生活，自己也能過。但是踏入社會&amp;股市的這些年來，生活教會水星熊的一個道理就是：有些錢自己真的賺不到，有些生活自己真的過不了。\n\n&nbsp;你用什麼方式賺錢，過上什麼樣的生活，最終和你是什麼樣的人有關。某些人賺得很輕鬆的錢，對於另外一些人來說，也許格外艱難；某些人過得如魚得水的生活方式，對於另外一些人來說，可能分分鐘鐘都是煎熬。\n\n&nbsp;現代人的煩惱大多來自選擇太多，欲望過盛，從而缺乏專注和深入的能力。\n\n&nbsp;用直白的話來說就是，錢這種東西是賺不完的。你不能什麼錢都想賺，更不能什麼都想要。\n\n&nbsp;寫下這些，並不代表水星熊反對斜槓。現代生活的好處就在於它能夠為你提"
+    },
+    {
+      "title": "出粮记（美股3月）：风暴里的加仓",
+      "link": "http://ytcinvest.blogspot.com/2026/04/3.html",
+      "published": "2026-04-07T02:41:00.006+08:00",
+      "source": "口木投资理财笔记",
+      "summary": "薪水到账，照常转账，照常买入。\n3月的市场很热闹关税、贸易战、科技股暴跌、伊朗战争但我的操作依旧很安静。\n这个月组合整体下跌了 5.33%，让我来逐一点名：\n现有持股：\n\nBRK.B：-5.12%（$24.24 → $23.00）\nVOO：-5.11%（$90.87 → $86.23）\nNVDA：-1.58%（$26.58 → $26.16）\n\n本月新加入：\n\nO（Realty Income）：0.4 股，现值 $24.47\nOMAH：1 股，现值 $18.02SCHD: 含股息再投入，变成 0.8043 股\n\n本月股息收入：\n虽然账面是红的，但股息依然准时到账\n\n  \n    股票\n    股息收入\n  \n  \n    SCHD\n    $0.15\n  \n  \n  \n    OMAH\n    $0.16\n    \n    \n  \n    VOO\n    $0.19\n    \n    \n\n金额不大，但每一分都会再投入，继续买入更多份额，慢慢滚雪球。VOO 跌了，BRK.B 也跌了。账面上是红的，但我没有慌。加入 O 和 OMAH，是为了进一步强化现金流这条线。股息慢慢滚进来，无论市场涨"
+    }
+  ]
+}
