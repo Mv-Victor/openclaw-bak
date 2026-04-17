@@ -60330,3 +60330,9 @@ To github.com:Mv-Victor/openclaw-bak.git
  create mode 100644 rss/scripts/summarize_daily.py
 To github.com:Mv-Victor/openclaw-bak.git
    f896f91a..d4b358fd  G -> G
+[G 54d61ab2] [20260417_0910] [scripts] 新增2个文件(parse_and_fetch.py等), 修改4个文件(daily-2026-04-17.json等)
+ 6 files changed, 5371 insertions(+), 4611 deletions(-)
+ create mode 100644 parse_and_fetch.py
+ create mode 100644 rss/daily/selected_items.json
+To github.com:Mv-Victor/openclaw-bak.git
+   d4b358fd..54d61ab2  G -> G
