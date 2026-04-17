@@ -1,0 +1,206 @@
+{
+  "🤖 AI": [
+    {
+      "title": "The PR you would have opened yourself",
+      "link": "https://huggingface.co/blog/transformers-to-mlx",
+      "published": "Thu, 16 Apr 2026 00:00:00 GMT",
+      "source": "Hugging Face Blog",
+      "summary": ""
+    },
+    {
+      "title": "Training and Finetuning Multimodal Embedding & Reranker Models with Sentence Transformers",
+      "link": "https://huggingface.co/blog/train-multimodal-sentence-transformers",
+      "published": "Thu, 16 Apr 2026 00:00:00 GMT",
+      "source": "Hugging Face Blog",
+      "summary": ""
+    },
+    {
+      "title": "Inside VAKRA: Reasoning, Tool Use, and Failure Modes of Agents",
+      "link": "https://huggingface.co/blog/ibm-research/vakra-benchmark-analysis",
+      "published": "Wed, 15 Apr 2026 12:07:25 GMT",
+      "source": "Hugging Face Blog",
+      "summary": ""
+    },
+    {
+      "title": "Meet HoloTab by HCompany. Your AI browser companion.",
+      "link": "https://huggingface.co/blog/Hcompany/holotab",
+      "published": "Wed, 15 Apr 2026 09:25:20 GMT",
+      "source": "Hugging Face Blog",
+      "summary": ""
+    },
+    {
+      "title": "Gemini 3.1 Flash TTS: the next generation of expressive AI speech",
+      "link": "https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/",
+      "published": "Wed, 15 Apr 2026 16:03:19 +0000",
+      "source": "Google DeepMind",
+      "summary": "Our newest audio model introduces granular audio tags that give you precise control to direct AI speech for expressive audio generation."
+    },
+    {
+      "title": "Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning",
+      "link": "https://deepmind.google/blog/gemini-robotics-er-1-6/",
+      "published": "Mon, 13 Apr 2026 15:52:13 +0000",
+      "source": "Google DeepMind",
+      "summary": "Gemini Robotics ER 1.6: Enhancing spatial reasoning and multi-view understanding for autonomous robotics."
+    },
+    {
+      "title": "Sparse Goodness: How Selective Measurement Transforms Forward-Forward Learning",
+      "link": "https://arxiv.org/abs/2604.13081",
+      "published": "Thu, 16 Apr 2026 00:00:00 -0400",
+      "source": "arXiv Machine Learning",
+      "summary": "arXiv:2604.13081v1 Announce Type: new \nAbstract: The Forward-Forward (FF) algorithm is a biologically plausible alternative to backpropagation that trains neural networks layer by layer using a local goodness function to distinguish positive from negative data. Since its introduction, sum-of-squares (SoS) has served as the default goodness function. In this work, we systematically study the design space of goodness functions, investigating both which activations to measure and how to aggregate t"
+    },
+    {
+      "title": "The Long Delay to Arithmetic Generalization: When Learned Representations Outrun Behavior",
+      "link": "https://arxiv.org/abs/2604.13082",
+      "published": "Thu, 16 Apr 2026 00:00:00 -0400",
+      "source": "arXiv Machine Learning",
+      "summary": "arXiv:2604.13082v1 Announce Type: new \nAbstract: Grokking in transformers trained on algorithmic tasks is characterized by a long delay between training-set fit and abrupt generalization, but the source of that delay remains poorly understood. In encoder-decoder arithmetic models, we argue that this delay reflects limited access to already learned structure rather than failure to acquire that structure in the first place. We study one-step Collatz prediction and find that the encoder organizes p"
+    }
+  ],
+  "💻 技术": [],
+  "⭐ GitHub Trends": [
+    {
+      "title": "forrestchang/andrej-karpathy-skills",
+      "link": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "published": "2026-04-17T09:05:22.029886",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "thedotmack/claude-mem",
+      "link": "https://github.com/thedotmack/claude-mem",
+      "published": "2026-04-17T09:05:22.029924",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "lsdefine/GenericAgent",
+      "link": "https://github.com/lsdefine/GenericAgent",
+      "published": "2026-04-17T09:05:22.029943",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "jamiepine/voicebox",
+      "link": "https://github.com/jamiepine/voicebox",
+      "published": "2026-04-17T09:05:22.029959",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "vercel-labs/open-agents",
+      "link": "https://github.com/vercel-labs/open-agents",
+      "published": "2026-04-17T09:05:22.029976",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "google/magika",
+      "link": "https://github.com/google/magika",
+      "published": "2026-04-17T09:05:22.029992",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "steipete/wacli",
+      "link": "https://github.com/steipete/wacli",
+      "published": "2026-04-17T09:05:22.030010",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "topoteretes/cognee",
+      "link": "https://github.com/topoteretes/cognee",
+      "published": "2026-04-17T09:05:22.030028",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "z-lab/dflash",
+      "link": "https://github.com/z-lab/dflash",
+      "published": "2026-04-17T09:05:22.030043",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "Lordog/dive-into-llms",
+      "link": "https://github.com/Lordog/dive-into-llms",
+      "published": "2026-04-17T09:05:22.030058",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    }
+  ],
+  "🔥 Product Hunt": [
+    {
+      "title": "Libertify.com",
+      "link": "https://www.producthunt.com/products/libertify-com",
+      "published": "2026-04-12T12:58:03-07:00",
+      "source": "Product Hunt",
+      "summary": "Turn any document into an interactive video\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Splitt",
+      "link": "https://www.producthunt.com/products/splitt-3",
+      "published": "2026-04-15T02:23:22-07:00",
+      "source": "Product Hunt",
+      "summary": "Track your workout from your lock screen and Dynamic Island\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "MacSpoof",
+      "link": "https://www.producthunt.com/products/macspoof",
+      "published": "2026-04-15T17:15:19-07:00",
+      "source": "Product Hunt",
+      "summary": "A quick and easy MAC address changer\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Fellow for iOS",
+      "link": "https://www.producthunt.com/products/fellow-app",
+      "published": "2026-04-14T14:49:10-07:00",
+      "source": "Product Hunt",
+      "summary": "AI meeting notes for in-person meetings\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Claude Code Desktop App Redesigned",
+      "link": "https://www.producthunt.com/products/claude-redesigned",
+      "published": "2026-04-14T12:22:22-07:00",
+      "source": "Product Hunt",
+      "summary": "Run parallel coding agents from one desktop workspace\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "stagewise",
+      "link": "https://www.producthunt.com/products/stagewise-2",
+      "published": "2026-04-14T00:57:22-07:00",
+      "source": "Product Hunt",
+      "summary": "The coding agent that works in its own browser environment\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Google Chrome Skills",
+      "link": "https://www.producthunt.com/products/google-chrome-skills",
+      "published": "2026-04-14T10:09:07-07:00",
+      "source": "Product Hunt",
+      "summary": "Turn your best AI prompts into one-click tools in Chrome\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Askiva AI",
+      "link": "https://www.producthunt.com/products/askiva-ai",
+      "published": "2026-04-12T13:02:27-07:00",
+      "source": "Product Hunt",
+      "summary": "Your autonomous AI user researcher\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "deduce",
+      "link": "https://www.producthunt.com/products/deduce",
+      "published": "2026-04-15T09:56:04-07:00",
+      "source": "Product Hunt",
+      "summary": "A daily Wordle-like puzzle for AI agents\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "TaskShell",
+      "link": "https://www.producthunt.com/products/taskshell",
+      "published": "2026-04-15T23:48:10-07:00",
+      "source": "Product Hunt",
+      "summary": "A terminal/IDE-inspired task manager that keeps you in flow\n          \n          \n            Discussion\n            |\n            Link"
+    }
+  ],
+  "💰 投资理财": []
+}
