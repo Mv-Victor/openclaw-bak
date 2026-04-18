@@ -61977,3 +61977,32 @@ To github.com:Mv-Victor/openclaw-bak.git
  ! [remote rejected]   G -> G (push declined due to repository rule violations)
 error: failed to push some refs to 'github.com:Mv-Victor/openclaw-bak.git'
 Push failed, will retry next cycle
+[G 309715de] [20260418_1030] [scripts] 修改1个文件(backup.log等)
+ 1 file changed, 29 insertions(+)
+remote: error: GH013: Repository rule violations found for refs/heads/G.        
+remote: 
+remote: - GITHUB PUSH PROTECTION        
+remote:   —————————————————————————————————————————        
+remote:     Resolve the following violations before pushing again        
+remote: 
+remote:     - Push cannot contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve a blocked push        
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+remote:             
+remote:       —— xAI API Key ———————————————————————————————————————        
+remote:        locations:        
+remote:          - commit: a509dfa3161bfd3d3d30ebcebb526b1ec7a6af3d        
+remote:            path: rss/daily/daily-2026-04-18.json:1354        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/Mv-Victor/openclaw-bak/security/secret-scanning/unblock-secret/3CVcik3C3ims3LuoqmZvdWxSXmd        
+remote:             
+remote: 
+remote: 
+To github.com:Mv-Victor/openclaw-bak.git
+ ! [remote rejected]   G -> G (push declined due to repository rule violations)
+error: failed to push some refs to 'github.com:Mv-Victor/openclaw-bak.git'
+Push failed, will retry next cycle
