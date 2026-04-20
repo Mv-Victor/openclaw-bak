@@ -1,0 +1,292 @@
+请为以下RSS文章生成每日摘要。每篇提炼100-200字，要求一针见血，准确精炼，有价值。格式如任务要求。
+
+## 🤖 AI 前沿
+
+标题: Claude Token Counter, now with model comparisons
+来源: Simon Willison's Blog
+链接: https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything
+原摘要: Claude Token Counter, now with model comparisons
+I upgraded my Claude Token Counter tool to add the ability to run the same count against different models in order to compare them.
+As far as I can tell Claude Opus 4.7 is the first model to change the tokenizer, so it's only worth running comparisons between 4.7 and 4.6. The Claude token counting API accepts any Claude model ID though so I've included options for all four of the notable current models (Opus 4.7 and 4.6, Sonnet 4.6, and Haiku 4.5)
+
+标题: Headless everything for personal AI
+来源: Simon Willison's Blog
+链接: https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything
+原摘要: Headless everything for personal AI
+Matt Webb thinks headless services are about to become much more common:
+
+Why? Because using personal AIs is a better experience for users than using services directly (honestly); and headless services are quicker and more dependable for the personal AIs than having them click round a GUI with a bot-controlled mouse.
+
+Evidently Marc Benioff thinks so too:
+
+Welcome Salesforce Headless 360: No Browser Required!  Our API is the UI. Entire Salesforce &amp; Agentfo
+
+标题: Changes in the system prompt between Claude Opus 4.6 and 4.7
+来源: Simon Willison's Blog
+链接: https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-everything
+原摘要: Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it's always interesting to see how the system prompt evolves as they publish new models.
+Opus 4.7 shipped the other day (April 16, 2026) with a Claude.ai system prompt update since Opus 4.6 (February 5, 2026).
+I had Claude Code take the Markdown version of their system prompts, break that up into separate documen
+
+标题: Claude system prompts as a git timeline
+来源: Simon Willison's Blog
+链接: https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything
+原摘要: Research: Claude system prompts as a git timeline
+    Anthropic publish the system prompts for Claude chat and make that page available as Markdown. I had Claude Code turn that page into separate files for each model and model family with fake git commit dates to enable browsing the changes via the GitHub commit view.
+I used this to write my own detailed notes on the changes between Opus 4.6 and 4.7.
+    
+        Tags: system-prompts, anthropic, claude, generative-ai, ai, llms
+
+标题: Adding a new content type to my blog-to-newsletter tool
+来源: Simon Willison's Blog
+链接: https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything
+原摘要: Agentic Engineering Patterns &gt;
+    Here's an example of a deceptively short prompt that got a quite a lot of work done in a single shot.
+First, some background. I send out a free Substack newsletter around once a week containing content copied-and-pasted from my blog. I'm effectively using Substack as a lightweight way to allow people to subscribe to my blog via email.
+I generate the newsletter with my blog-to-newsletter tool - an HTML and JavaScript app that fetches my latest content from th
+
+标题: Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year
+来源: Simon Willison's Blog
+链接: https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-everything
+原摘要: This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach, California this year, the first time PyCon US has come to the West Coast since Portland, Oregon in 2017 and the first time in California since Santa Clara in 2013.
+If you're based in California this is a great opportunity to catch up with the Python community, meet a whole lot of interesting people and
+
+标题: datasette 1.0a28
+来源: Simon Willison's Blog
+链接: https://simonwillison.net/2026/Apr/17/datasette/#atom-everything
+原摘要: Release: datasette 1.0a28
+    I was upgrading Datasette Cloud to 1.0a27 and discovered a nasty collection of accidental breakages caused by changes in that alpha. This new alpha addresses those directly:
+
+
+Fixed a compatibility bug introduced in 1.0a27 where execute_write_fn() callbacks with a parameter name other than conn were seeing errors. (#2691)
+The database.close() method now also shuts down the write connection for that database.
+New datasette.close() method for closing down all database
+
+标题: llm-anthropic 0.25
+来源: Simon Willison's Blog
+链接: https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything
+原摘要: Release: llm-anthropic 0.25
+    
+
+New model: claude-opus-4.7, which supports thinking_effort: xhigh. #66
+New thinking_display and thinking_adaptive boolean options. thinking_display summarized output is currently only available in JSON output or JSON logs.
+Increased default max_tokens to the maximum allowed for each model.
+No longer uses obsolete structured-outputs-2025-11-13 beta header for older models.
+
+
+    
+        Tags: llm, anthropic, claude
+
+## 💻 技术动态
+
+标题: 又双叒叕用 AI 做了一个站长助力工具---部署简单到极致的聚合支付
+来源: V2EX - 技术
+链接: https://www.v2ex.com/t/1207054#reply1
+原摘要: 之前一直用第三方支付，但是被薅的很严重，于是打算重构直接接 官方支付，想着随着接入渠道变多，还是要统一一下接入 api ；方便各个 app 维护。于是 做了这个聚合支付产品。
+基本上是参考易支付去做。我没有用易支付是因为一看部署还要安装 php ，要 docker ，就头大。 于是拿几个易支付截图扔给 ai ；让他给我做一个容易部署的支付网关； ai 就用 go 给我实现了这个没有任何依赖的独立二进制 就可以在 linux 和 mac ，windows 上运行的 支付网关。数据库也没有那些传统支付网关的 mysql ，redis 依赖，一个 sqlite 就搞定，一个站长小站能有多大的支付浏览压力呢？ sqlite 足够你用了；
+https://github.com/mageg-x/gopay
+这玩意没有什么技术含量，AI 也很快完成，但是考虑这是个 支付产品，安全第一，所以这个项目，我大部分时间都是 加强安全这块， 办法就是 3 大 AI 齐上阵，claude ，codex ，glm5 ； 轮流检查安全问题，提出安全 bug 。
+这个产品我现在自己也在用，会一直维护优化下去，有需要的
+
+标题: AI 代码后面怎么维护,心智负担太大了
+来源: V2EX - 技术
+链接: https://www.v2ex.com/t/1207049#reply9
+原摘要: ai 生成爽是很爽,但是数量太多了,每次阅读起来真的太累了今天加了两个函数,回来一看,又多了 300 行,也不能说它错,因为字段检验,格式又是自己写的要求本来立项的时候,规定一个文件最长就 400 行,现在都多余,无非是拆分一堆小文件,还不如一个文件两千行,省得点了整个项目搞下来都几万行了读是肯定要读的,不然后面报错,只能跟 ai 一起赌运气了,好累啊,难道要用 AI 控制 AI?
+
+标题: 中年人爱上 AI 编程，就像爱上钓鱼
+来源: V2EX - 技术
+链接: https://www.v2ex.com/t/1207048#reply7
+原摘要: 真的上瘾，停不下来。酒也不喝了，有空就坐在电脑前面。最近吭哧吭哧做了个 SEO 评测工具，auditedge.app,全部 ai 制作，自己看着还行，发出来让大家拍砖。砸醒我吧，太上瘾了。
+
+标题: 我要看看 antigravitiy 这个远程主机名错乱的 bug 要坚持多久
+来源: V2EX - 技术
+链接: https://www.v2ex.com/t/1207056#reply0
+原摘要: 我经常连接多个远程主机开发，在 Recent workspace 列表下显示的完全是错乱，A 主机的项目 proj1,总是显示为 B 主机下的。
+神经错乱了。
+
+标题: 低价 GPT 到底有多少漏洞，怎么封了还有
+来源: V2EX - 技术
+链接: https://www.v2ex.com/t/1207040#reply8
+原摘要: 昨天我看就有修复了票据重复使用的漏洞，而且账号 vip 都掉了， 今天我看别的地方还能买到低价 codex, 群主说他知道的就有三个不同的漏洞开会员，离谱
+
+标题: OpenAI’s existential questions
+来源: TechCrunch
+链接: https://techcrunch.com/2026/04/19/openais-existential-questions/
+原摘要: On the latest episode of Equity, we discuss OpenAI's latest acquisitions and whether they address "two big existential problems" for the company.
+
+标题: The 12-month window
+来源: TechCrunch
+链接: https://techcrunch.com/2026/04/19/the-12-month-window/
+原摘要: A lot of AI startups exist partly because the foundation models haven't expanded into their category yet. As many jokingly acknowledge, that won't last forever.
+
+标题: Blue Origin’s New Glenn put a customer satellite in the wrong orbit during its third launch
+来源: TechCrunch
+链接: https://techcrunch.com/2026/04/19/blue-origins-new-glenn-put-a-customer-satellite-in-the-wrong-orbit-during-its-third-launch/
+原摘要: The first major failure of Blue Origin's new heavy-launch system could create delays to its ambition to help NASA and the Trump administration return to the Moon.
+
+标题: Robots beat human records at Beijing half-marathon
+来源: TechCrunch
+链接: https://techcrunch.com/2026/04/19/robots-beat-human-records-at-beijing-half-marathon/
+原摘要: The winning time is a massive improvement over last year’s race, when the fastest robot finished in two hours and 40 minutes.
+
+标题: Palantir posts mini-manifesto denouncing inclusivity and ‘regressive’ cultures
+来源: TechCrunch
+链接: https://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/
+原摘要: Palantir's ideological bent has come under more scrutiny as it's worked with ICE and positioned itself as a defender of "the West."
+
+## ⭐ GitHub Trends
+
+标题: Fincept-Corporation/FinceptTerminal
+来源: GitHub Trends
+链接: https://github.com/Fincept-Corporation/FinceptTerminal
+原摘要: GitHub trending repository
+
+标题: thunderbird/thunderbolt
+来源: GitHub Trends
+链接: https://github.com/thunderbird/thunderbolt
+原摘要: GitHub trending repository
+
+标题: tractorjuice/arc-kit
+来源: GitHub Trends
+链接: https://github.com/tractorjuice/arc-kit
+原摘要: GitHub trending repository
+
+标题: openai/openai-agents-python
+来源: GitHub Trends
+链接: https://github.com/openai/openai-agents-python
+原摘要: GitHub trending repository
+
+标题: pingdotgg/t3code
+来源: GitHub Trends
+链接: https://github.com/pingdotgg/t3code
+原摘要: GitHub trending repository
+
+标题: paperless-ngx/paperless-ngx
+来源: GitHub Trends
+链接: https://github.com/paperless-ngx/paperless-ngx
+原摘要: GitHub trending repository
+
+标题: ruvnet/RuView
+来源: GitHub Trends
+链接: https://github.com/ruvnet/RuView
+原摘要: GitHub trending repository
+
+标题: EvoMap/evolver
+来源: GitHub Trends
+链接: https://github.com/EvoMap/evolver
+原摘要: GitHub trending repository
+
+标题: BasedHardware/omi
+来源: GitHub Trends
+链接: https://github.com/BasedHardware/omi
+原摘要: GitHub trending repository
+
+标题: Donchitos/Claude-Code-Game-Studios
+来源: GitHub Trends
+链接: https://github.com/Donchitos/Claude-Code-Game-Studios
+原摘要: GitHub trending repository
+
+## 🔥 Product Hunt
+
+标题: Tell
+来源: Product Hunt
+链接: https://www.producthunt.com/products/tell-2
+原摘要: Mac widgets, made fun. 
+          
+          
+            Discussion
+            |
+            Link
+
+标题: Perplexity Personal Computer
+来源: Product Hunt
+链接: https://www.producthunt.com/products/perplexity-ai
+原摘要: Local files. Native apps. Voice control. Always on.
+          
+          
+            Discussion
+            |
+            Link
+
+标题: Verdent 2.0
+来源: Product Hunt
+链接: https://www.producthunt.com/products/verdent-deck
+原摘要: Your AI Technical Cofounder
+          
+          
+            Discussion
+            |
+            Link
+
+标题: Vantage in Google Labs
+来源: Product Hunt
+链接: https://www.producthunt.com/products/google
+原摘要: Practice & assess future-ready skills with AI-simulated team
+          
+          
+            Discussion
+            |
+            Link
+
+标题: Fixa.dev
+来源: Product Hunt
+链接: https://www.producthunt.com/products/fixa-dev
+原摘要: A cloud-native AI agent that can build literally anything
+          
+          
+            Discussion
+            |
+            Link
+
+标题: Nibbo
+来源: Product Hunt
+链接: https://www.producthunt.com/products/nibbo
+原摘要: Family hub with a 3D pet that grows as you get things done
+          
+          
+            Discussion
+            |
+            Link
+
+标题: Creator OS
+来源: Product Hunt
+链接: https://www.producthunt.com/products/creator-os-3
+原摘要: Stop missing comments on Instagram.
+          
+          
+            Discussion
+            |
+            Link
+
+标题: Gemini app for Mac
+来源: Product Hunt
+链接: https://www.producthunt.com/products/gemini-6
+原摘要: Option + Space and Gemini is right there
+          
+          
+            Discussion
+            |
+            Link
+
+标题: AGG Loop
+来源: Product Hunt
+链接: https://www.producthunt.com/products/agg-loop
+原摘要: Secure, forever-free localhost tunnels (ex-Deposure).
+          
+          
+            Discussion
+            |
+            Link
+
+标题: Notebooks in Gemini
+来源: Product Hunt
+链接: https://www.producthunt.com/products/google
+原摘要: Keep every project, chat, and file in one focused space
+          
+          
+            Discussion
+            |
+            Link
+
+## 💰 投资理财
+
