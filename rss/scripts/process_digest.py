@@ -1,37 +1,35 @@
 import json
-import sys
+import urllib.request
+from datetime import datetime
 
-def main():
+def fetch_content(url):
     try:
-        with open("/root/.openclaw/workspace-g/rss/daily/daily-2026-04-08.json") as f:
-            data = json.load(f)
-    except Exception as e:
-        print(f"Error loading JSON: {e}")
-        return
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=5) as response:
+            return True
+    except:
+        return False
 
-    limits = {
-        "🤖 AI 前沿": 8,
-        "💻 技术动态": 10,
-        "⭐ GitHub Trends": 10,
-        "🔥 Product Hunt": 10,
-        "💰 投资理财": 5,
-    }
+# We'll just read the JSON and select the items as specified.
+with open("/root/.openclaw/workspace-g/rss/daily/daily-2026-04-23.json", "r") as f:
+    data = json.load(f)
 
-    selected_items = []
-    
-    for cat, limit in limits.items():
-        if cat in data:
-            items = data[cat][:limit]
-            for item in items:
-                selected_items.append({
-                    "category": cat,
-                    "title": item.get("title", ""),
-                    "summary": item.get("summary", ""),
-                    "link": item.get("link", ""),
-                    "source": item.get("source", "")
-                })
+CATEGORY_LIMITS = {
+    "🤖 AI 前沿": 8,
+    "💻 技术动态": 10,
+    "⭐ GitHub Trends": 10,
+    "🔥 Product Hunt": 10,
+    "💰 投资理财": 5,
+}
 
-    print(json.dumps(selected_items))
+selected_items = []
+for cat, limit in CATEGORY_LIMITS.items():
+    items = data.get(cat, [])
+    for item in items[:limit]:
+        item['category'] = cat
+        selected_items.append(item)
 
-if __name__ == "__main__":
-    main()
+with open("/root/.openclaw/workspace-g/rss/daily/selected_items.json", "w") as f:
+    json.dump(selected_items, f, ensure_ascii=False, indent=2)
+
+print(f"Selected {len(selected_items)} items for summary.")

@@ -1,268 +1,106 @@
 [
   {
-    "category": "🤖 AI 前沿",
-    "title": "llm-anthropic 0.25",
-    "link": "https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything",
-    "summary": "Release: llm-anthropic 0.25\n    \n\nNew model: claude-opus-4.7, which supports thinking_effort: xhigh. #66\nNew thinking_display and thinking_adaptive boolean options. thinking_display summarized output is currently only available in JSON output or JSON logs.\nIncreased default max_tokens to the maximum allowed for each model.\nNo longer uses obsolete structured-outputs-2025-11-13 beta header for older models.\n\n\n    \n        Tags: llm, anthropic, claude",
-    "source": "Simon Willison's Blog"
-  },
-  {
-    "category": "🤖 AI 前沿",
-    "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
-    "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything",
-    "summary": "For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from Alibaba and Claude Opus 4.7 from Anthropic.\nHere's the Qwen 3.6 pelican, generated using this 20.9GB Qwen3.6-35B-A3B-UD-Q4_K_S.gguf quantized model by Unsloth, running on my MacBook Pro M5 via LM Studio (and the llm-lmstudio plugin) - transcript here:\n\nAnd here's one I got from Anthropic's",
-    "source": "Simon Willison's Blog"
-  },
-  {
-    "category": "🤖 AI 前沿",
-    "title": "datasette.io news preview",
-    "link": "https://simonwillison.net/2026/Apr/16/datasette-io-preview/#atom-everything",
-    "summary": "Tool: datasette.io news preview\n    The datasette.io website has a news section built from this news.yaml file in the underlying GitHub repository. The YAML format looks like this:\n- date: 2026-04-15\n  body: |-\n    [Datasette 1.0a27](https://docs.datasette.io/en/latest/changelog.html#a27-2026-04-15) changes how CSRF protection works in a way that simplifies form and API integration, and introduces a new `RenameTableEvent` for when a table is renamed by a SQL query.\n- date: 2026-03-18\n  body: |-",
-    "source": "Simon Willison's Blog"
-  },
-  {
-    "category": "🤖 AI 前沿",
-    "title": "datasette-export-database 0.3a1",
-    "link": "https://simonwillison.net/2026/Apr/15/datasette-export-database/#atom-everything",
-    "summary": "Release: datasette-export-database 0.3a1\n    This plugin was using the ds_csrftoken cookie as part of a custom signed URL, which needed upgrading now that Datasette 1.0a27 no longer sets that cookie.\n    \n        Tags: datasette",
-    "source": "Simon Willison's Blog"
-  },
-  {
-    "category": "🤖 AI 前沿",
-    "title": "datasette 1.0a27",
-    "link": "https://simonwillison.net/2026/Apr/15/datasette/#atom-everything",
-    "summary": "Release: datasette 1.0a27\n    Two major changes in this new Datasette alpha. I covered the first of those in detail yesterday - Datasette no longer uses Django-style CSRF form tokens, instead using modern browser headers as described by Filippo Valsorda.\nThe second big change is that Datasette now fires a new RenameTableEvent any time a table is renamed during a SQLite transaction. This is useful because some plugins (like datasette-comments) attach additional data to table records by name, so a",
-    "source": "Simon Willison's Blog"
-  },
-  {
-    "category": "🤖 AI 前沿",
-    "title": "Quoting John Gruber",
-    "link": "https://simonwillison.net/2026/Apr/15/john-gruber/#atom-everything",
-    "summary": "The real goldmine isn’t that Apple gets a cut of every App Store transaction. It’s that Apple’s platforms have the best apps, and users who are drawn to the best apps are thus drawn to the iPhone, Mac, and iPad. That edge is waning. Not because software on other platforms is getting better, but because third-party software on iPhone, Mac, and iPad is regressing to the mean, to some extent, because fewer developers feel motivated — artistically, financially, or both — to create well-crafted idiom",
-    "source": "Simon Willison's Blog"
-  },
-  {
-    "category": "🤖 AI 前沿",
-    "title": "Gemini 3.1 Flash TTS",
-    "link": "https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything",
-    "summary": "Gemini 3.1 Flash TTS\nGoogle released Gemini 3.1 Flash TTS today, a new text-to-speech model that can be directed using prompts.\nIt's presented via the standard Gemini API using gemini-3.1-flash-tts-preview as the model ID, but can only output audio files.\nThe prompting guide is surprising, to say the least. Here's their example prompt to generate just a few short sentences of audio:\n# AUDIO PROFILE: Jaz R.\n## \"The Morning Hype\"\n\n## THE SCENE: The London Studio\nIt is 10:00 PM in a glass-walled st",
-    "source": "Simon Willison's Blog"
-  },
-  {
-    "category": "🤖 AI 前沿",
-    "title": "Gemini 3.1 Flash TTS",
-    "link": "https://simonwillison.net/2026/Apr/15/gemini-flash-tts/#atom-everything",
-    "summary": "Tool: Gemini 3.1 Flash TTS\n    See my notes on Google's new Gemini 3.1 Flash TTS text-to-speech model.\n    \n        Tags: gemini, google",
-    "source": "Simon Willison's Blog"
-  },
-  {
-    "category": "💻 技术动态",
-    "title": "any一直429，2周没用了，是封号了么？",
-    "link": "https://linux.do/t/topic/1984789",
-    "summary": "有佬友知道什么情况吗，我看L站不少人都能用4.7了，我也想试下，还是限流了，但是我已经2周没用了啊。\n            1 个帖子 - 1 位参与者\n            阅读完整话题",
-    "source": "LinuxDo Latest"
-  },
-  {
-    "category": "💻 技术动态",
-    "title": "多账号轮询的记忆问题咨询",
-    "link": "https://linux.do/t/topic/1984783",
-    "summary": "佬，有个问题咨询一下，目前codx free账号的多账号轮询中，B账号怎么知道A账号之前在干啥呢？\n            1 个帖子 - 1 位参与者\n            阅读完整话题",
-    "source": "LinuxDo Latest"
-  },
-  {
-    "category": "💻 技术动态",
-    "title": "广东不能吃辣是不是“网络谣言”",
-    "link": "https://linux.do/t/topic/1984779",
-    "summary": "最近来深圳出差，刚落地酒店附近买个根烤肠问我放不放辣椒，附近吃的门店都有辣椒提供\n            1 个帖子 - 1 位参与者\n            阅读完整话题",
-    "source": "LinuxDo Latest"
-  },
-  {
-    "category": "💻 技术动态",
-    "title": "奥特曼，你这家伙在说什么呢",
-    "link": "https://linux.do/t/topic/1984770",
-    "summary": "俩人一唱一和\n\n            1 个帖子 - 1 位参与者\n            阅读完整话题",
-    "source": "LinuxDo Latest"
-  },
-  {
-    "category": "💻 技术动态",
-    "title": "天塌了，天才程序员陨落。",
-    "link": "https://linux.do/t/topic/1984764",
-    "summary": "一早上起来，发现小鸡无法访问gpt了，导致搭在小鸡上的cpa也挂了，是因为ip被封了吗，有佬知道怎么回事吗？\n            2 个帖子 - 2 位参与者\n            阅读完整话题",
-    "source": "LinuxDo Latest"
-  },
-  {
-    "category": "💻 技术动态",
-    "title": "Notion用Opus 4.7有感，被气笑了",
-    "link": "https://linux.do/t/topic/1984752",
-    "summary": "既不思考又没有逻辑方案做的也不怎么样，是比降智后提升20%吗，语风还开始和GPT一样非人类了，真是世界上最神秘的模型啊A/你更新了什么\n成绩是怎么测出来的，难道用英语提高模型回答质量现在还成立吗？！我还是希望是Notion自己降智的，我之前可是Claude系列模型的吹子啊\n\n            2 个帖子 - 2 位参与者\n            阅读完整话题",
-    "source": "LinuxDo Latest"
-  },
-  {
-    "category": "💻 技术动态",
-    "title": "V0 也上架 Claude Opus 4.7 了",
-    "link": "https://linux.do/t/topic/1984745",
-    "summary": "(\\ _ /)\n( ･-･)\n/っ  一些佬友蹬力竭了大抵是因为现在半价 （双 倍 额 度）\n\n            3 个帖子 - 3 位参与者\n            阅读完整话题",
-    "source": "LinuxDo Latest"
-  },
-  {
-    "category": "💻 技术动态",
-    "title": "cc中的opus 4.7已经不显示思考内容了",
-    "link": "https://linux.do/t/topic/1984740",
-    "summary": "如图，现在的cc中的claude已经不展示思考内容了，还有佬遇到么。a社是真的狠，就不给别人蒸馏。但是thinking的token也是我付费的内容呀，为什么不返回给我（\n            2 个帖子 - 2 位参与者\n            阅读完整话题",
-    "source": "LinuxDo Latest"
-  },
-  {
-    "category": "💻 技术动态",
-    "title": "《逆天邪神》",
-    "link": "https://linux.do/t/topic/1984724",
-    "summary": "逆天邪神终于又更新了，妈呀，自己最喜欢看的两本书，一本《龙族》从高中看到现在也没能完结，一本《逆天邪神》从本科看到现在也没完结，太恶心了。\n            14 个帖子 - 10 位参与者\n            阅读完整话题",
-    "source": "LinuxDo Latest"
-  },
-  {
-    "category": "💻 技术动态",
-    "title": "大佬们，kimi，deepseek，minumax都有2api没有啊？",
-    "link": "https://linux.do/t/topic/1984717",
-    "summary": "想部署下用来养虾，我看公益站这几个模型都不贵。如果能有用GLM的方法就更好了（）谢谢大佬们\n            3 个帖子 - 3 位参与者\n            阅读完整话题",
-    "source": "LinuxDo Latest"
-  },
-  {
-    "category": "⭐ GitHub Trends",
-    "title": "forrestchang/andrej-karpathy-skills",
-    "link": "https://github.com/forrestchang/andrej-karpathy-skills",
+    "title": "langfuse/langfuse",
+    "link": "https://github.com/langfuse/langfuse",
+    "published": "2026-04-23T09:00:36.497668",
+    "source": "GitHub Trends",
     "summary": "GitHub trending repository",
-    "source": "GitHub Trends"
+    "category": "⭐ GitHub Trends"
   },
   {
-    "category": "⭐ GitHub Trends",
-    "title": "thedotmack/claude-mem",
-    "link": "https://github.com/thedotmack/claude-mem",
+    "title": "open-metadata/OpenMetadata",
+    "link": "https://github.com/open-metadata/OpenMetadata",
+    "published": "2026-04-23T09:00:36.497703",
+    "source": "GitHub Trends",
     "summary": "GitHub trending repository",
-    "source": "GitHub Trends"
+    "category": "⭐ GitHub Trends"
   },
   {
-    "category": "⭐ GitHub Trends",
-    "title": "lsdefine/GenericAgent",
-    "link": "https://github.com/lsdefine/GenericAgent",
+    "title": "AIDC-AI/Pixelle-Video",
+    "link": "https://github.com/AIDC-AI/Pixelle-Video",
+    "published": "2026-04-23T09:00:36.497766",
+    "source": "GitHub Trends",
     "summary": "GitHub trending repository",
-    "source": "GitHub Trends"
+    "category": "⭐ GitHub Trends"
   },
   {
-    "category": "⭐ GitHub Trends",
-    "title": "jamiepine/voicebox",
-    "link": "https://github.com/jamiepine/voicebox",
-    "summary": "GitHub trending repository",
-    "source": "GitHub Trends"
+    "title": "Seeknal",
+    "link": "https://www.producthunt.com/products/seeknal",
+    "published": "2026-04-21T09:02:49-07:00",
+    "source": "Product Hunt",
+    "summary": "Data & AI/ML CLI for pipelines and NL queries\n          \n          \n            Discussion\n            |\n            Link",
+    "category": "🔥 Product Hunt"
   },
   {
-    "category": "⭐ GitHub Trends",
-    "title": "vercel-labs/open-agents",
-    "link": "https://github.com/vercel-labs/open-agents",
-    "summary": "GitHub trending repository",
-    "source": "GitHub Trends"
+    "title": "Cavalry Studio",
+    "link": "https://www.producthunt.com/products/cavalry-2",
+    "published": "2026-04-21T04:15:49-07:00",
+    "source": "Product Hunt",
+    "summary": "Free Motion Design tool by Canva\n          \n          \n            Discussion\n            |\n            Link",
+    "category": "🔥 Product Hunt"
   },
   {
-    "category": "⭐ GitHub Trends",
-    "title": "google/magika",
-    "link": "https://github.com/google/magika",
-    "summary": "GitHub trending repository",
-    "source": "GitHub Trends"
+    "title": "Iris Studio",
+    "link": "https://www.producthunt.com/products/iris-studio",
+    "published": "2026-04-21T01:18:54-07:00",
+    "source": "Product Hunt",
+    "summary": "The Swiss Army Knife for AI & Video Creators\n          \n          \n            Discussion\n            |\n            Link",
+    "category": "🔥 Product Hunt"
   },
   {
-    "category": "⭐ GitHub Trends",
-    "title": "steipete/wacli",
-    "link": "https://github.com/steipete/wacli",
-    "summary": "GitHub trending repository",
-    "source": "GitHub Trends"
+    "title": "Wrangle",
+    "link": "https://www.producthunt.com/products/wrangle-4",
+    "published": "2026-04-21T19:20:47-07:00",
+    "source": "Product Hunt",
+    "summary": "The markdown editor that understands CLAUDE.md\n          \n          \n            Discussion\n            |\n            Link",
+    "category": "🔥 Product Hunt"
   },
   {
-    "category": "⭐ GitHub Trends",
-    "title": "topoteretes/cognee",
-    "link": "https://github.com/topoteretes/cognee",
-    "summary": "GitHub trending repository",
-    "source": "GitHub Trends"
+    "title": "Zernio Ads API",
+    "link": "https://www.producthunt.com/products/zernio",
+    "published": "2026-04-20T03:57:04-07:00",
+    "source": "Product Hunt",
+    "summary": "Create, manage & report ads on 6 platforms via one API\n          \n          \n            Discussion\n            |\n            Link",
+    "category": "🔥 Product Hunt"
   },
   {
-    "category": "⭐ GitHub Trends",
-    "title": "z-lab/dflash",
-    "link": "https://github.com/z-lab/dflash",
-    "summary": "GitHub trending repository",
-    "source": "GitHub Trends"
+    "title": "Layers",
+    "link": "https://www.producthunt.com/products/layers-7",
+    "published": "2026-04-21T07:01:10-07:00",
+    "source": "Product Hunt",
+    "summary": "The private network strangers literally can't reach you on.\n          \n          \n            Discussion\n            |\n            Link",
+    "category": "🔥 Product Hunt"
   },
   {
-    "category": "⭐ GitHub Trends",
-    "title": "Lordog/dive-into-llms",
-    "link": "https://github.com/Lordog/dive-into-llms",
-    "summary": "GitHub trending repository",
-    "source": "GitHub Trends"
+    "title": "DecisionBox Enterprise",
+    "link": "https://www.producthunt.com/products/decisionbox",
+    "published": "2026-04-21T09:29:54-07:00",
+    "source": "Product Hunt",
+    "summary": "Agent that writes SQL for you to validate database insights\n          \n          \n            Discussion\n            |\n            Link",
+    "category": "🔥 Product Hunt"
   },
   {
-    "category": "🔥 Product Hunt",
-    "title": "3PL Hub",
-    "link": "https://www.producthunt.com/products/3pl-hub",
-    "summary": "Find & compare 3PL fulfillment partners\n          \n          \n            Discussion\n            |\n            Link",
-    "source": "Product Hunt"
+    "title": "Cut/Storm",
+    "link": "https://www.producthunt.com/products/cut-storm",
+    "published": "2026-04-21T15:46:44-07:00",
+    "source": "Product Hunt",
+    "summary": "Paste video from anywhere, burn-in subs, cut, crop, share\n          \n          \n            Discussion\n            |\n            Link",
+    "category": "🔥 Product Hunt"
   },
   {
-    "category": "🔥 Product Hunt",
-    "title": "Bitcoin-Safe Desktop Wallet (FOSS)",
-    "link": "https://www.producthunt.com/products/bitcoin-safe-desktop-wallet-foss",
-    "summary": "Free & OpenSource software for managing cold storage wallets\n          \n          \n            Discussion\n            |\n            Link",
-    "source": "Product Hunt"
+    "title": "Kyohansha",
+    "link": "https://www.producthunt.com/products/kyohansha",
+    "published": "2026-04-21T12:07:16-07:00",
+    "source": "Product Hunt",
+    "summary": "Web-based 60FPS Live2D AI with Lite-RAG long-term memory\n          \n          \n            Discussion\n            |\n            Link",
+    "category": "🔥 Product Hunt"
   },
   {
-    "category": "🔥 Product Hunt",
-    "title": "HiveTerm",
-    "link": "https://www.producthunt.com/products/hiveterm",
-    "summary": "One workspace for all your AI agents\n          \n          \n            Discussion\n            |\n            Link",
-    "source": "Product Hunt"
-  },
-  {
-    "category": "🔥 Product Hunt",
-    "title": "ClawTab",
-    "link": "https://www.producthunt.com/products/clawtab",
-    "summary": "Desktop app to manage 20+ AI coding agents at once\n          \n          \n            Discussion\n            |\n            Link",
-    "source": "Product Hunt"
-  },
-  {
-    "category": "🔥 Product Hunt",
-    "title": "MacSpoof",
-    "link": "https://www.producthunt.com/products/macspoof",
-    "summary": "A quick and easy MAC address changer\n          \n          \n            Discussion\n            |\n            Link",
-    "source": "Product Hunt"
-  },
-  {
-    "category": "🔥 Product Hunt",
-    "title": "Libertify.com",
-    "link": "https://www.producthunt.com/products/libertify-com",
-    "summary": "Turn any document into an interactive video\n          \n          \n            Discussion\n            |\n            Link",
-    "source": "Product Hunt"
-  },
-  {
-    "category": "🔥 Product Hunt",
-    "title": "Splitt",
-    "link": "https://www.producthunt.com/products/splitt-3",
-    "summary": "Track your workout from your lock screen and Dynamic Island\n          \n          \n            Discussion\n            |\n            Link",
-    "source": "Product Hunt"
-  },
-  {
-    "category": "🔥 Product Hunt",
-    "title": "Windsurf 2.0",
-    "link": "https://www.producthunt.com/products/windsurf",
-    "summary": "Introducing the Agent Command Center and Devin in Windsurf\n          \n          \n            Discussion\n            |\n            Link",
-    "source": "Product Hunt"
-  },
-  {
-    "category": "🔥 Product Hunt",
-    "title": "Chinilla",
-    "link": "https://www.producthunt.com/products/chinilla",
-    "summary": "Design systems, simulate them and watch where they break\n          \n          \n            Discussion\n            |\n            Link",
-    "source": "Product Hunt"
-  },
-  {
-    "category": "🔥 Product Hunt",
-    "title": "Spark 2.0",
-    "link": "https://www.producthunt.com/products/marble-by-world-labs",
-    "summary": "A streaming engine for huge 3D Gaussian worlds\n          \n          \n            Discussion\n            |\n            Link",
-    "source": "Product Hunt"
+    "title": "Stanley For 𝕏",
+    "link": "https://www.producthunt.com/products/stanley-for-x",
+    "published": "2026-04-20T09:52:38-07:00",
+    "source": "Product Hunt",
+    "summary": "The world's first AI Head of Content\n          \n          \n            Discussion\n            |\n            Link",
+    "category": "🔥 Product Hunt"
   }
 ]
