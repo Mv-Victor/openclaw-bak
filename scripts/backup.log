@@ -71422,3 +71422,9 @@ To github.com:Mv-Victor/openclaw-bak.git
  1 file changed, 4 insertions(+)
 To github.com:Mv-Victor/openclaw-bak.git
    0526b218c..bd8f1e372  G -> G
+[G 9a3fb7403] [20260424_0905] [scripts] 新增2个文件(daily-2026-04-24.json等), 修改2个文件(sent-articles.json等)
+ 4 files changed, 7133 insertions(+), 3605 deletions(-)
+ create mode 100644 rss/daily/daily-2026-04-24.json
+ create mode 100644 rss/daily/daily-2026-04-24.md
+To github.com:Mv-Victor/openclaw-bak.git
+   bd8f1e372..9a3fb7403  G -> G
