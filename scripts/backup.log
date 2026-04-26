@@ -74169,3 +74169,10 @@ To github.com:Mv-Victor/openclaw-bak.git
  1 file changed, 4 insertions(+)
 To github.com:Mv-Victor/openclaw-bak.git
    93e60da28..5e1547ba9  G -> G
+[G d721a1d09] [20260426_1810] [scripts] 新增3个文件(format.py等), 修改1个文件(backup.log等)
+ 4 files changed, 26 insertions(+)
+ create mode 100644 format.py
+ create mode 100644 parse_jobs.py
+ create mode 100644 parse_jobs2.py
+To github.com:Mv-Victor/openclaw-bak.git
+   5e1547ba9..d721a1d09  G -> G
