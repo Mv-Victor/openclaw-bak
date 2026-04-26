@@ -1,0 +1,295 @@
+## 🤖 AI 前沿
+1. WHY ARE YOU LIKE THIS
+来源: Simon Willison's Blog
+链接: https://simonwillison.net/2026/Apr/25/why-are-you-like-this/#atom-everything
+原摘要: @scottjla on Twitter in reply to my pelican riding a bicycle benchmark:
+
+I feel like we need to stack these tests now
+
+
+I checked to confirm that the model (ChatGPT Images 2.0) added the "WHY ARE YOU LIKE THIS" sign of its own accord and it did - the prompt Scott used was:
+
+Create an image of a horse riding an astronaut, where the astronaut is riding a pelican that is riding a bicycle. It looks very chaotic but they all just manage to balance on top of each other
+
+
+    Tags: text-to-image, pelic
+
+2. Quoting Romain Huet
+来源: Simon Willison's Blog
+链接: https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything
+原摘要: Since GPT-5.4, we’ve unified Codex and the main model into a single system, so there’s no separate coding line anymore.
+GPT-5.5 takes this further, with strong gains in agentic coding, computer use, and any task on a computer.
+&mdash; Romain Huet, confirming OpenAI won't release a GPT-5.5-Codex model
+
+    Tags: generative-ai, gpt, openai, ai, llms
+
+3. GPT-5.5 prompting guide
+来源: Simon Willison's Blog
+链接: https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything
+原摘要: GPT-5.5 prompting guide
+Now that GPT-5.5 is available in the API, OpenAI have released a wealth of useful tips on how best to prompt the new model.
+Here's a neat trick they recommend for applications that might spend considerable time thinking before returning a user-visible response:
+
+Before any tool calls for a multi-step task, send a short user-visible update that acknowledges the request and states the first step. Keep it to one or two sentences.
+
+I've already noticed their Codex app doing t
+
+4. llm 0.31
+来源: Simon Willison's Blog
+链接: https://simonwillison.net/2026/Apr/24/llm/#atom-everything
+原摘要: Release: llm 0.31
+    
+
+New GPT-5.5 OpenAI model: llm -m gpt-5.5. #1418
+New option to set the text verbosity level for GPT-5+ OpenAI models: -o verbosity low. Values are low, medium, high.
+New option for setting the image detail level used for image attachments to OpenAI models: -o image_detail low - values are low, high and auto, and GPT-5.4 and 5.5 also accept original.
+Models listed in extra-openai-models.yaml are now also registered as asynchronous. #1395
+
+
+    
+        Tags: gpt, openai, ll
+
+5. The people do not yearn for automation
+来源: Simon Willison's Blog
+链接: https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything
+原摘要: The people do not yearn for automation
+This written and video essay by Nilay Patel explores why AI is unpopular with the general public even as usage numbers for ChatGPT continue to skyrocket.
+It’s a superb piece of commentary, and something I expect I’ll be thinking about for a long time to come.
+Nilay’s core idea is that people afflicted with “software brain” - who see the world as something to be automated as much as possible, and attempt to model everything in terms of information flows and 
+
+6. DeepSeek V4 - almost on the frontier, a fraction of the price
+来源: Simon Willison's Blog
+链接: https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything
+原摘要: Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December. They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash.
+Both models are 1 million token context Mixture of Experts. Pro is 1.6T total parameters, 49B active. Flash is 284B total, 13B active. They're using the standard MIT license.
+I think this makes DeepSeek-V4-Pro the new largest open weights model. It's larger than Kimi K2.
+
+7. Millisecond Converter
+来源: Simon Willison's Blog
+链接: https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything
+原摘要: Tool: Millisecond Converter
+    LLM reports prompt durations in milliseconds and I got fed up of having to think about how to convert those to seconds and minutes.
+    
+        Tags: tools
+
+8. It's a big one
+来源: Simon Willison's Blog
+链接: https://simonwillison.net/2026/Apr/24/weekly/#atom-everything
+原摘要: This week's edition of my email newsletter (aka content from this blog delivered to your inbox) features 4 pelicans riding bicycles, 1 possum on an e-scooter, up to 5 raccoons with ham radios hiding in crowds, 5 blog posts, 8 links, 3 quotes and a new chapter of my Agentic Engineering Patterns guide.
+
+    Tags: newsletter
+
+## 💻 技术动态
+1. Anthropic created a test marketplace for agent-on-agent commerce
+来源: TechCrunch
+链接: https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/
+原摘要: In a recent experiment, Anthropic created a classified marketplace where AI agents represented both buyers and sellers, striking real deals for real goods and real money.
+
+2. Maine’s governor vetoes data center moratorium
+来源: TechCrunch
+链接: https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/
+原摘要: L.D. 307 would have imposed the country’s first statewide moratorium on new data centers — lasting, in this case, until November 1, 2027.
+
+3. OpenAI CEO apologizes to Tumbler Ridge community
+来源: TechCrunch
+链接: https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/
+原摘要: In a letter to the residents of Tumbler Ridge, Canada, OpenAI CEO Sam Altman said he is “deeply sorry” that his company failed to alert law enforcement about the suspect in a recent mass shooting.
+
+4. The climate tech IPO window could finally be cracking open
+来源: TechCrunch
+链接: https://techcrunch.com/2026/04/25/the-climate-tech-ipo-window-could-finally-be-cracking-open/
+原摘要: Nuclear startup X-energy went public, geothermal startup Fervo is about to. Could this be the moment that climate tech investors have been waiting for?
+
+5. Why Cohere is merging with Aleph Alpha
+来源: TechCrunch
+链接: https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/
+原摘要: Canadian AI startup Cohere is taking over Germany-based Aleph Alpha with support from Lidl’s owner, Schwarz Group. With the blessing of their governments, the companies intend to offer a sovereign alternative to enterprises in an AI landscape dominated by American players.
+
+6. Why Tokyo is the most important tech destination of 2026
+来源: TechCrunch
+链接: https://techcrunch.com/2026/04/25/why-tokyo-is-the-most-important-tech-destination-of-2026/
+原摘要: SusHi Tech Tokyo 2026 has four tightly defined technology domains, each backed by live demonstrations, dedicated exhibit floors, and sessions featuring the people actually building and funding these technologies globally.
+
+7. Apps to distract you from the endless cycle of doomscrolling
+来源: TechCrunch
+链接: https://techcrunch.com/2026/04/25/apps-to-distract-you-from-the-endless-cycle-of-doomscrolling/
+原摘要: It's hard to break the cycle of doomscrolling, but there are plenty of apps that can help you spend more time on content that’s engaging and productive.
+
+8. Apple under Ternus: what comes next for the tech giant’s hardware strategy
+来源: TechCrunch
+链接: https://techcrunch.com/2026/04/25/apple-under-ternus-what-comes-next-for-the-tech-giants-hardware-strategy/
+原摘要: John Ternus, Apple's incoming CEO, is a hardware guy, signaling Apple may be putting devices back at the center of its strategy.
+
+9. India’s Snabbit seeks fresh funding at a $400M valuation, sources say
+来源: TechCrunch
+链接: https://techcrunch.com/2026/04/25/indias-snabbit-seeks-fresh-funding-at-a-400m-valuation-sources-say/
+原摘要: Snabbit has scaled rapidly, crossing one million jobs in March, amid growing investor interest.
+
+10. Lachy Groom to back India startup Pronto at a $200M valuation, sources say
+来源: TechCrunch
+链接: https://techcrunch.com/2026/04/24/lachy-groom-to-back-pronto-as-indias-house-help-startup-scales-fast-sources-say/
+原摘要: This round, should it occur, would double the house-help startup's valuation in a matter of weeks.
+
+## ⭐ GitHub Trends
+1. Alishahryar1/free-claude-code
+来源: GitHub Trends
+链接: https://github.com/Alishahryar1/free-claude-code
+原摘要: GitHub trending repository
+
+2. mattpocock/skills
+来源: GitHub Trends
+链接: https://github.com/mattpocock/skills
+原摘要: GitHub trending repository
+
+3. Z4nzu/hackingtool
+来源: GitHub Trends
+链接: https://github.com/Z4nzu/hackingtool
+原摘要: GitHub trending repository
+
+4. PostHog/posthog
+来源: GitHub Trends
+链接: https://github.com/PostHog/posthog
+原摘要: GitHub trending repository
+
+5. davila7/claude-code-templates
+来源: GitHub Trends
+链接: https://github.com/davila7/claude-code-templates
+原摘要: GitHub trending repository
+
+6. deepseek-ai/DeepEP
+来源: GitHub Trends
+链接: https://github.com/deepseek-ai/DeepEP
+原摘要: GitHub trending repository
+
+7. PowerShell/PowerShell
+来源: GitHub Trends
+链接: https://github.com/PowerShell/PowerShell
+原摘要: GitHub trending repository
+
+8. RooCodeInc/Roo-Code
+来源: GitHub Trends
+链接: https://github.com/RooCodeInc/Roo-Code
+原摘要: GitHub trending repository
+
+9. huggingface/ml-intern
+来源: GitHub Trends
+链接: https://github.com/huggingface/ml-intern
+原摘要: GitHub trending repository
+
+10. codecrafters-io/build-your-own-x
+来源: GitHub Trends
+链接: https://github.com/codecrafters-io/build-your-own-x
+原摘要: GitHub trending repository
+
+## 🔥 Product Hunt
+1. Euphony
+来源: Product Hunt
+链接: https://www.producthunt.com/products/euphony-2
+原摘要: Render AI chat data and Codex logs into browsable views
+          
+          
+            Discussion
+            |
+            Link
+
+2. Inrō AI
+来源: Product Hunt
+链接: https://www.producthunt.com/products/inro
+原摘要: Your AI Agent for Instagram Marketing
+          
+          
+            Discussion
+            |
+            Link
+
+3. Clawdi
+来源: Product Hunt
+链接: https://www.producthunt.com/products/clawdi
+原摘要: Best home for all AI agents
+          
+          
+            Discussion
+            |
+            Link
+
+4. MiMo-V2.5 Voice
+来源: Product Hunt
+链接: https://www.producthunt.com/products/mimo-v2-5-voice
+原摘要: Bilingual ASR for dialects, code-switching, and songs
+          
+          
+            Discussion
+            |
+            Link
+
+5. Grok Voice Think Fast 1.0
+来源: Product Hunt
+链接: https://www.producthunt.com/products/grok-voice-think-fast-1-0
+原摘要: Our most capable voice agent is now available via API
+          
+          
+            Discussion
+            |
+            Link
+
+6. Spira AI
+来源: Product Hunt
+链接: https://www.producthunt.com/products/spira-ai
+原摘要: AI Influencer that always on trend, create & grow your brand
+          
+          
+            Discussion
+            |
+            Link
+
+7. Google Workspace Intelligence
+来源: Product Hunt
+链接: https://www.producthunt.com/products/google
+原摘要: AI that understands and powers your Workspace
+          
+          
+            Discussion
+            |
+            Link
+
+8. TuneJourney.com
+来源: Product Hunt
+链接: https://www.producthunt.com/products/tunejourney-com
+原摘要: AI learns your listening habits and curates your live radio
+          
+          
+            Discussion
+            |
+            Link
+
+9. Codex 3.0 by OpenAI
+来源: Product Hunt
+链接: https://www.producthunt.com/products/codex-3-0-by-openai
+原摘要: Codex can now build, test & debug on autopilot
+          
+          
+            Discussion
+            |
+            Link
+
+10. DeepSeek-V4
+来源: Product Hunt
+链接: https://www.producthunt.com/products/deepseek
+原摘要: The open-source era of 1M context intelligence
+          
+          
+            Discussion
+            |
+            Link
+
+## 💰 投资理财
+1. 熊媽入院
+来源: 知足常乐 - 水星投资理财
+链接: https://mercurychong.blogspot.com/2026/04/blog-post_24.html
+原摘要: 因熊媽出現心臟病的徵兆&amp;心臟檢測有異常，帶她來IJN做了個3天2夜的住院深入檢查。這還是第一次看到病床上的熊媽，比起水星熊自己來住院的時候，反而更能感受到壓力與不安。是哪個瞬間，讓我們突然明白，真的已經長大了。是健檢報告上年復一年，密密麻麻的注意事項；是為現實而低頭，不得不選擇卑躬屈膝的絕望；還是靜靜望著歲月，不留情地沖刷著父母的無力?還在國外打工時的某年返回大馬時，看著父母的背影，他們以前是這麼高大，天塌下來了，他們扛著。而如今他們變得越來越小。退休回來後的某天，水星熊陪熊媽去巴刹。她走在前面，腳步比以前慢了一些。水星熊忽然發現，她過馬路時會左右看得特別久；提著兩袋菜時，手臂會微微顫抖的吃力。在小的時候，總是熊媽牽著水星熊過馬路的。那時候水星熊總覺得，只要抓著她的手，世界就不會出錯。巴刹裡，賣豬肉的阿姨笑著說：「你兒子在外面打拼回來啦?」熊媽笑得很驕傲，語氣卻輕輕的:「是啊，而且他自己很會照顧自己了。」那句話落下的瞬間，水星熊有挺大的感觸。原來長大，不是我們變得多麼厲害。而是有一天，父母開始對別人說:「他長大了，他自己可以了。」回家的路上，水星熊自然地伸手把其中一袋菜接過來。
+
+2. 習慣幸福
+来源: 知足常乐 - 水星投资理财
+链接: https://mercurychong.blogspot.com/2026/04/blog-post_21.html
+原摘要: 參觀舊時代的日本住家，水星熊有感，相較以前，我們已經擁有了很多，然而我們依然焦慮，是因為我們已經習慣了自己所有的一切，然後還想要更多。就像水星熊剛從外國回到大馬，早餐又一次吃到nasi lemak的時候，水星熊覺得很開心，甚至忍不住發動態到FB和IG；但過了一個月，水星就覺得這是很自然又很正常的事。就像水星熊剛買第一部車的時候，覺得有車開就是方便很多啊；但過了一個月，水星熊就覺得這是很自然又很正常的事。就像水星熊現在可以和家人同住，不必再搭七小時的飛機看熊媽和見朋友，特別的開心；但過了半年，水星熊就覺得這是很自然又很正常的事。就像水星熊開始在網上寫作之後，最初覺得有很多人看自己的文章，很興奮；但過了半年，水星熊就覺得這是很自然又很正常的事。我們活在諸多巨大的恩典當中，但很快就會習慣。習慣了就會忘卻，然後開始為生活中那些小小的不如意而抱怨。幸福並不在於我們將會擁有什麼，而是在於看見今天的我們擁有什麼。幸福並不是條件，而是能力，是一種能夠感知到周邊美好的能力 😌著作網購鏈接（馬來西亞）：《打工族股息路》著作網購鏈接（新加坡）：《打工族股息路》SG大眾書局網購鏈接 ：大眾書局網購鏈接
+
