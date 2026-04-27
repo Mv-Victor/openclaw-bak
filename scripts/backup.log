@@ -74901,3 +74901,13 @@ To github.com:Mv-Victor/openclaw-bak.git
  create mode 100644 rss/scripts/smart-formatter.py
 To github.com:Mv-Victor/openclaw-bak.git
    73864fb77..3e2dbb1a8  G -> G
+[G 20c10af07] [20260427_0910] [scripts] 新增6个文件(final_summary.md等), 修改5个文件(daily-2026-04-27.json等)
+ 11 files changed, 4725 insertions(+), 4076 deletions(-)
+ create mode 100644 final_summary.md
+ create mode 100644 generate_rss.py
+ create mode 100644 process_rss.py
+ create mode 100644 selected_rss.json
+ create mode 100644 summarize_xchai.py
+ create mode 100644 web_fetch_and_summarize.py
+To github.com:Mv-Victor/openclaw-bak.git
+   3e2dbb1a8..20c10af07  G -> G
