@@ -74888,3 +74888,16 @@ To github.com:Mv-Victor/openclaw-bak.git
  1 file changed, 4 insertions(+)
 To github.com:Mv-Victor/openclaw-bak.git
    c2af8a1c5..73864fb77  G -> G
+[G 3e2dbb1a8] [20260427_0905] [scripts] 新增9个文件(daily-2026-04-27.json等), 修改2个文件(sent-articles.json等)
+ 11 files changed, 7375 insertions(+), 3688 deletions(-)
+ create mode 100644 rss/daily/daily-2026-04-27.json
+ create mode 100644 rss/daily/daily-2026-04-27.md
+ create mode 100644 rss/daily/digest-items.json
+ create mode 100644 rss/daily/final-digest.md
+ create mode 100644 rss/daily/prompt.txt
+ create mode 100644 rss/scripts/call-llm.py
+ create mode 100644 rss/scripts/generate-digest.py
+ create mode 100644 rss/scripts/generate-prompt.py
+ create mode 100644 rss/scripts/smart-formatter.py
+To github.com:Mv-Victor/openclaw-bak.git
+   73864fb77..3e2dbb1a8  G -> G

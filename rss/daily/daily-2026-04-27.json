@@ -356,6 +356,20 @@
       "published": "Tue, 21 Apr 2026 00:00:00 GMT",
       "source": "OpenAI Blog",
       "summary": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU."
+    },
+    {
+      "title": "Decoupled DiLoCo: A new frontier for resilient, distributed AI training",
+      "link": "https://deepmind.google/blog/decoupled-diloco/",
+      "published": "Wed, 22 Apr 2026 10:20:03 +0000",
+      "source": "Google DeepMind",
+      "summary": ""
+    },
+    {
+      "title": "Partnering with industry leaders to accelerate AI transformation",
+      "link": "https://deepmind.google/blog/partnering-with-industry-leaders-to-accelerate-ai-transformation/",
+      "published": "Tue, 21 Apr 2026 14:54:15 +0000",
+      "source": "Google DeepMind",
+      "summary": "Google DeepMind partners with global consultancies to bring the power of frontier AI to organizations around the world."
     }
   ],
   "🌐 Tech Communities": [
@@ -395,18 +409,18 @@
       "summary": "PS：为了能找个替换当前苹果的方案，走遍各品牌手机旗舰店，看遍各种旗舰机型，然后发现接触了 IOS 的审美后，不知道为啥很难接受住国产的调教\n期间去看了荣耀，华为，小米，vivo ，oppo ，一加，三星等机型发现一个致命的令我很不爽的点，就是视觉方面的\n具体情况就是打开个常用的 APP ，譬如，今日头条，抖音，微博\n\n1.   很统一严重的情况就是对比度特别大，白色的字体亮的刺眼，刺眼到 UI 界面，字体边缘和图片感觉不是同一个维度的东西，很跳跃\n\n2.   然后字体布局有粗有大有小，整体比例调整就是没有 IOS 布局得那么和谐舒服\n\n3.   图片视频显示方面，像那种国产 2000 元近距离看的电视一样，说好听点是通透，不好听的就是像 AI 过的一样，边缘很锐利，然后又确实细腻的细节，完全和苹果不是一个档次\n\n查看期间，其实我也关闭掉很多关于手机加强图片视频效果的功能，包括只显示原色，以及更换系统字体大小等功能，但是还是发现解决不了问题，期间，安卓这边勉强小米和三星，接近苹果的，三星手机做工以及审美还是国际在线的\n同时我想问下，国内的调教这么恶心，国际版的安卓品牌，比如三星，谷歌，"
     },
     {
+      "title": "glm5.1， kimi2.6， minimax2.7， mimo v2.5， deepseek v4，编程能力上的排名如何？",
+      "link": "https://www.v2ex.com/t/1208616#reply34",
+      "published": "2026-04-26T07:25:08Z",
+      "source": "V2EX - 技术",
+      "summary": "先抛个砖：GLM5.1 &gt; deepseek v4 &gt; minimax2.7 ≥ mimo v2.5 ≈ kimi2.6"
+    },
+    {
       "title": "[开源] Patch Courier： Email 进来， Codex 在你的 Mac 上干活",
       "link": "https://www.v2ex.com/t/1208699#reply2",
       "published": "2026-04-26T22:42:29Z",
       "source": "V2EX - 技术",
       "summary": "最近在做一个本地优先的小工具 Patch Courier ，想解决一个很具体的问题：\n人不在电脑前时，能不能继续把任务发给自己 Mac 上的 Codex 去跑，但仓库、凭据、审批和执行策略都留在本地。\nTL;DR：这是一个 Email -&gt; 本机 Codex -&gt; Email 的 macOS daemon + console 。\n现在的做法是：\n\n收到可信发件人的邮件后，把一个 mail thread 尽量映射到一个 Codex thread\n真正执行还是走本机 codex app-server\n审批、补充信息、完成结果继续通过邮件往返\nmacOS app 负责看 threads / turns / approvals / mailbox health\n状态持久化到 SQLite ，邮箱密码放 Keychain\n\n我为什么做这个，而不是直接上云端 Agent：\n\n有些代码库和 provider 凭据我不想交给第三方服务\nEmail 很适合做异步审批、结果通知和审计留痕\ndaemon 持有状态，UI 重启后线程和 approval 不会丢\n\n当前已经跑通：\n\nIMAP / S"
-    },
-    {
-      "title": "glm5.1， kimi2.6， minimax2.7， mimo v2.5， deepseek v4，编程能力上的排名如何？",
-      "link": "https://www.v2ex.com/t/1208616#reply33",
-      "published": "2026-04-26T07:25:08Z",
-      "source": "V2EX - 技术",
-      "summary": "先抛个砖：GLM5.1 &gt; deepseek v4 &gt; minimax2.7 ≥ mimo v2.5 ≈ kimi2.6"
     },
     {
       "title": "为了买到便宜靠谱的 Token，少被割韭菜，我做了个比价的网站",
@@ -416,18 +430,18 @@
       "summary": "最近在开发一个小项目，想买几个 ChatGPT 账号。但是在多个卡网和电报群里转了几圈，发现同一种类型的账号，比如 ChatGPT plus 月卡，就有 N 多种价格。有的几块钱，有的卖 15 ，有的卖 30 ，有的卖 40.后来我才知道，这些店铺和卖家的来源其实就是那么几种：86 、chong 、xin 、74 这些。他们都是加价后转卖的。所以，为了尽快找到相对靠谱的渠道，少花几块钱，减少决策成本，我就做了个比价的网站，把多个平台的价格放在一起，快速对比。目前收录了二十多个店铺+平台。如果您有靠谱的渠道，也欢迎在网站提交、加电报群交流。网址： https://aibijia.org/电报： https://t.me/+z4dDCVFqx71jYTFlhttps://imgur.com/HsPagPwhttps://imgur.com/G1BpVjahttps://imgur.com/sv5WecNhttps://imgur.com/ZsaKz2Thttps://imgur.com/HOwgRot"
     },
     {
+      "title": "什么成品企业级 NAS 方便维修？",
+      "link": "https://www.v2ex.com/t/1208529#reply54",
+      "published": "2026-04-25T14:03:14Z",
+      "source": "V2EX - 技术",
+      "summary": "前情提要： https://www.v2ex.com/t/1200956#电脑装好开机了，我有事就提前离开了，群晖系统镜像刚下到 Windows 上面。电脑关机关了两周（后面没关），接的 ups ，ups 接的三孔，两周没断电今天再点亮，表现出主板带电情况：点一下电源键，电源和 cpu 风扇转一下就不转了。然后经历漫长的放电操作，把电源线搞坏了：插上后（主机的电源侧）能听见电流声，风扇也不转了出电流声之前的期间成功点亮进入了 BIOS 界面，但是把电脑竖放起来就黑屏了，风扇也不转了。买了根电源线去尝试，新电源线不至于走一次放电操作从而风扇不转了。随后又是漫长的放电过程，也没放掉电，仍表现出主板带电。老板也没耐心了，想买成品 nas 了，当简单的沉没成本的。放电过程：拔掉电源线，关掉电源（主机侧），扣下电池和内存条，用电池（侧边）/钥匙/螺丝刀划电池槽的金属片（含短接相连），按住开机键几秒，放上电池和单根内存条，再按几秒开机键。插上电源线，打开开关，启动。买成品 Nas 有个问题：买到成品 Nas 也出静电问题怎么办，维修肯定比台式机难，这是个大难题。Nas 需求：4-6 盘位，自动从 "
+    },
+    {
       "title": "kimi 订阅的 4x kimi code 指的是 kimi code 平台的 4 倍还是全平台 4 倍？",
       "link": "https://www.v2ex.com/t/1208658#reply9",
       "published": "2026-04-26T13:00:08Z",
       "source": "V2EX - 技术",
       "summary": "我看他们也支持其他编程平台，准备买个 4.6 给 CC 用。"
-    },
-    {
-      "title": "什么成品企业级 NAS 方便维修？",
-      "link": "https://www.v2ex.com/t/1208529#reply53",
-      "published": "2026-04-25T14:03:14Z",
-      "source": "V2EX - 技术",
-      "summary": "前情提要： https://www.v2ex.com/t/1200956#电脑装好开机了，我有事就提前离开了，群晖系统镜像刚下到 Windows 上面。电脑关机关了两周（后面没关），接的 ups ，ups 接的三孔，两周没断电今天再点亮，表现出主板带电情况：点一下电源键，电源和 cpu 风扇转一下就不转了。然后经历漫长的放电操作，把电源线搞坏了：插上后（主机的电源侧）能听见电流声，风扇也不转了出电流声之前的期间成功点亮进入了 BIOS 界面，但是把电脑竖放起来就黑屏了，风扇也不转了。买了根电源线去尝试，新电源线不至于走一次放电操作从而风扇不转了。随后又是漫长的放电过程，也没放掉电，仍表现出主板带电。老板也没耐心了，想买成品 nas 了，当简单的沉没成本的。放电过程：拔掉电源线，关掉电源（主机侧），扣下电池和内存条，用电池（侧边）/钥匙/螺丝刀划电池槽的金属片（含短接相连），按住开机键几秒，放上电池和单根内存条，再按几秒开机键。插上电源线，打开开关，启动。买成品 Nas 有个问题：买到成品 Nas 也出静电问题怎么办，维修肯定比台式机难，这是个大难题。Nas 需求：4-6 盘位，自动从 "
     },
     {
       "title": "AI 编程实战： Claude Code + IDEA 的沉浸式编程方案",
@@ -451,6 +465,13 @@
       "summary": "想系统的学习以下 TCP/IP 协议，除了 RFC 之外，还有什么书或者文档，或者结合 wireshark 讲的。"
     },
     {
+      "title": "谈谈用 Claudecode 辅助创建一个 shopify 网站需要多久，多少钱",
+      "link": "https://www.v2ex.com/t/1208630#reply21",
+      "published": "2026-04-26T09:04:00Z",
+      "source": "V2EX - 技术",
+      "summary": "网站已经搭建出来并顺利上线了：网址 ineanplay.com ，这是一家出售自动 OKEY 桌的网站。在搭建之前咨询了大概费用: 前同事收 2500 ，咸鱼 700 ，淘宝 1500 。最后选择尝试用 AI 来解决问题，选择了 claude sonnet4.6 给了我技术方案，最终方案使用 shopify 的自订 liquid 功能，由于我不是 claude 的付费用户，再他给完第一个示例代码，我填写进去测试通过后，后面我就使用的 gemini pro 仿照这个代码做了其他页面。总计花费 98 元，一个 gemini 学生年费。你们的项目有什么，运行起来了吗？另外想问的是，现在网站搭建起来了，我应该做些什么才能获得流量呢，好像并没有哪个 Agent 可以上手一次性跑通关于广告投放的事例，你知道吗？"
+    },
+    {
       "title": "这些模型哪个好呢",
       "link": "https://www.v2ex.com/t/1208679#reply0",
       "published": "2026-04-26T15:24:49Z",
@@ -463,13 +484,6 @@
       "published": "2026-04-26T08:40:33Z",
       "source": "V2EX - 技术",
       "summary": "具体案例：V2EX Safe Reading Helper 5.3.0，一个油猴脚本，核心逻辑不复杂，但 530 行里能清楚看到几层叠加痕迹：\n\ntopic 来源从 API 一路加到 /recent、节点页、ID 逐个扫描——每次拿不到帖子就加一个 fallback ，互相没有合并\n两套 refill 防重入并存（isRefilling flag + refillPromise 互斥）\nlegacy key 迁移代码永远留在运行时，跑一次之后就是死代码\nhasGMStorage() 每次读写都检测，而不是初始化时确定一次\n对一个翻页脚本加了完整的白屏 watchdog + 自动刷新恢复机制\n\n模型每次报错就往上堆，不回头清理，不合并逻辑。\n有没有系统性的解法？还是说这就是现阶段 agentic coding 的固有缺陷？"
-    },
-    {
-      "title": "谈谈用 Claudecode 辅助创建一个 shopify 网站需要多久，多少钱",
-      "link": "https://www.v2ex.com/t/1208630#reply20",
-      "published": "2026-04-26T09:04:00Z",
-      "source": "V2EX - 技术",
-      "summary": "网站已经搭建出来并顺利上线了：网址 ineanplay.com ，这是一家出售自动 OKEY 桌的网站。在搭建之前咨询了大概费用: 前同事收 2500 ，咸鱼 700 ，淘宝 1500 。最后选择尝试用 AI 来解决问题，选择了 claude sonnet4.6 给了我技术方案，最终方案使用 shopify 的自订 liquid 功能，由于我不是 claude 的付费用户，再他给完第一个示例代码，我填写进去测试通过后，后面我就使用的 gemini pro 仿照这个代码做了其他页面。总计花费 98 元，一个 gemini 学生年费。你们的项目有什么，运行起来了吗？另外想问的是，现在网站搭建起来了，我应该做些什么才能获得流量呢，好像并没有哪个 Agent 可以上手一次性跑通关于广告投放的事例，你知道吗？"
     },
     {
       "title": "每天 800 美金 token 搓了几个小产品",
@@ -556,6 +570,13 @@
       "summary": "在长任务里 5.4 和 5.5 总会遇到这个问题，在碰到自动压缩上下文的时候如果当前模型是 5.4 以上，极大概率触发 stream disconnected 导致自动任务失败，并且重试继续失败无法当前会话，目前看来比较靠谱的办法是手动切换到 5.3 ，回复内容触发压缩上下文后，方能成功，后面又手动切回 5.4 ，但是长任务始终不是个办法，github 上有提改 tcp user timeout 好像也不太有效，这个问题困扰比较久了，不知道各位有什么好法子？"
     },
     {
+      "title": "占比大幅提升！谷歌：公司内部 75%的新代码已由 AI 生成",
+      "link": "https://www.v2ex.com/t/1208284#reply53",
+      "published": "2026-04-24T06:20:03Z",
+      "source": "V2EX - 技术",
+      "summary": "程序员这个行业职业生涯基本到头了吧，没有再进入的必要了，之后会越来越平民化。\n但是按道理应该老程序能焕发第二春了，有了 AI 加持越来越需要有编程经验的老炮。"
+    },
+    {
       "title": "大模型终于不卷跑分，改卷打工了！",
       "link": "https://www.v2ex.com/t/1208681#reply2",
       "published": "2026-04-26T15:27:06Z",
@@ -610,13 +631,6 @@
       "published": "2026-04-25T17:01:47Z",
       "source": "V2EX - 技术",
       "summary": "新服务器装好后，我发现我挺在意机箱里的硬件温度以及风扇转速信息的，于是花了点时间在NginxPulse上扩展了下。"
-    },
-    {
-      "title": "占比大幅提升！谷歌：公司内部 75%的新代码已由 AI 生成",
-      "link": "https://www.v2ex.com/t/1208284#reply52",
-      "published": "2026-04-24T06:20:03Z",
-      "source": "V2EX - 技术",
-      "summary": "程序员这个行业职业生涯基本到头了吧，没有再进入的必要了，之后会越来越平民化。\n但是按道理应该老程序能焕发第二春了，有了 AI 加持越来越需要有编程经验的老炮。"
     },
     {
       "title": "GPT5.5 在 codex 中 credit 消耗量相比 5.4 翻倍",
@@ -710,6 +724,20 @@
       "summary": "兄弟们，太难了...难道我需要开两个账号了？\n你们现在都是什么配置"
     },
     {
+      "title": "焦虑！！！孩子读书差，学习不行，普通人家孩子如何翻得了身？",
+      "link": "https://linux.do/t/topic/2063517",
+      "published": "Mon, 27 Apr 2026 01:02:58 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "普通不能在普通的家庭，孩子读书差，学习垫底，普通人家孩子如何翻得了身？给个建议吧！\n            1 个帖子 - 1 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "claude code 思考不显示",
+      "link": "https://linux.do/t/topic/2063482",
+      "published": "Mon, 27 Apr 2026 01:00:27 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "cc的思考是不是没法显示了，有思考没有输出，本地thinking字段也没有思考内容了，开启了/config里的思考显示\n            2 个帖子 - 2 位参与者\n            阅读完整话题"
+    },
+    {
       "title": "我的 anyrouter 好像被盗刷了",
       "link": "https://linux.do/t/topic/2063467",
       "published": "Mon, 27 Apr 2026 00:58:31 +0000",
@@ -735,14 +763,14 @@
       "link": "https://linux.do/t/topic/2063429",
       "published": "Mon, 27 Apr 2026 00:50:03 +0000",
       "source": "LinuxDo Latest",
-      "summary": "奖品详情：\n[奖品1]：Cloudflare Business代开通，But有风险，自行衡量。\n 活动时间：\n开始时间：Mon, Apr 27, 2026 8:47 AM CST\n截止时间：Mon, Apr 27, 2026 2:48 PM CST\n 参与方式：\n在本贴下回复任意内容即可参与。\n 抽奖规则：\n每位用户仅允许参与一次。\n将使用 LINUX DO 抽奖工具在所有回复中随机抽取中奖者。\n 注意事项：\n本活动将在活动截止时间后关闭回帖，以确保公正性。\n中奖者将在活动结束后在本帖公布，并通过论坛站内信由发起人通知领奖方式。\n所有规则及抽奖结果由 @Lonely 及论坛管理团队最终解释。\n 发起人承诺：\n作为本次抽奖的发起人 @Lonely，我承诺本话题的抽奖活动严格遵守 LINUX DO 社区抽奖规则。因违反上述规定引发的公平性争议或其他问题，均由我独立承担相应的道德与法律责任。\n\n期待您的积极参与，祝您好运！如有任何疑问，欢迎随时联系 @Lonely 或论坛管理团队。\n            2 个帖子 - 2 位参与者\n            阅读完整话题"
+      "summary": "奖品详情：\n[奖品1]：Cloudflare Business代开通，But有风险，自行衡量。\n 活动时间：\n开始时间：Mon, Apr 27, 2026 8:47 AM CST\n截止时间：Mon, Apr 27, 2026 2:48 PM CST\n 参与方式：\n在本贴下回复任意内容即可参与。\n 抽奖规则：\n每位用户仅允许参与一次。\n将使用 LINUX DO 抽奖工具在所有回复中随机抽取中奖者。\n 注意事项：\n本活动将在活动截止时间后关闭回帖，以确保公正性。\n中奖者将在活动结束后在本帖公布，并通过论坛站内信由发起人通知领奖方式。\n所有规则及抽奖结果由 @Lonely 及论坛管理团队最终解释。\n 发起人承诺：\n作为本次抽奖的发起人 @Lonely，我承诺本话题的抽奖活动严格遵守 LINUX DO 社区抽奖规则。因违反上述规定引发的公平性争议或其他问题，均由我独立承担相应的道德与法律责任。\n\n期待您的积极参与，祝您好运！如有任何疑问，欢迎随时联系 @Lonely 或论坛管理团队。\n            3 个帖子 - 3 位参与者\n            阅读完整话题"
     },
     {
       "title": "给大家争取到一个福利 这周只上四天班",
       "link": "https://linux.do/t/topic/2063426",
       "published": "Mon, 27 Apr 2026 00:49:44 +0000",
       "source": "LinuxDo Latest",
-      "summary": "为了让大家多多休息 为大家争取这周只上四天班的小福利 有些人可能没有享受到这个福利 那是我实力关系不到位 望谅解\n            15 个帖子 - 14 位参与者\n            阅读完整话题"
+      "summary": "为了让大家多多休息 为大家争取这周只上四天班的小福利 有些人可能没有享受到这个福利 那是我实力关系不到位 望谅解\n            17 个帖子 - 16 位参与者\n            阅读完整话题"
     },
     {
       "title": "电报有没有什么好用的接码网站能够注册？",
@@ -798,7 +826,7 @@
       "link": "https://linux.do/t/topic/2063332",
       "published": "Mon, 27 Apr 2026 00:21:15 +0000",
       "source": "LinuxDo Latest",
-      "summary": "各位大佬 有方案吗 我研究了半天也没发现如何开启 我自己本地搭建了一个sub2api 我想开启快速模式 但是咋弄都开不开  到底要怎么才能开启 还是说接入第三方就根本没办法开启 还是说需要魔改sub2api呢\n            3 个帖子 - 3 位参与者\n            阅读完整话题"
+      "summary": "各位大佬 有方案吗 我研究了半天也没发现如何开启 我自己本地搭建了一个sub2api 我想开启快速模式 但是咋弄都开不开  到底要怎么才能开启 还是说接入第三方就根本没办法开启 还是说需要魔改sub2api呢\n            4 个帖子 - 4 位参与者\n            阅读完整话题"
     },
     {
       "title": "关于4.26 晚上 ds降价到0.025/百万token 一块钱可以用多少？",
@@ -819,14 +847,14 @@
       "link": "https://linux.do/t/topic/2063310",
       "published": "Mon, 27 Apr 2026 00:04:27 +0000",
       "source": "LinuxDo Latest",
-      "summary": "各位佬，一觉睡醒发现自己又回到3级了。可喜可贺。\n            24 个帖子 - 19 位参与者\n            阅读完整话题"
+      "summary": "各位佬，一觉睡醒发现自己又回到3级了。可喜可贺。\n            26 个帖子 - 21 位参与者\n            阅读完整话题"
     },
     {
       "title": "请问现在plus和team还能不走pp直接开吗",
       "link": "https://linux.do/t/topic/2063299",
       "published": "Sun, 26 Apr 2026 23:57:47 +0000",
       "source": "LinuxDo Latest",
-      "summary": "太难开了 我是家宽+指纹浏览器 大致上环境应该没问题吧\n试过那个余额不足法 没有用\n            13 个帖子 - 8 位参与者\n            阅读完整话题"
+      "summary": "太难开了 我是家宽+指纹浏览器 大致上环境应该没问题吧\n试过那个余额不足法 没有用\n            14 个帖子 - 9 位参与者\n            阅读完整话题"
     },
     {
       "title": "目前gpt5.5写zig的能力咋样了?有兄弟试过吗",
@@ -868,7 +896,7 @@
       "link": "https://linux.do/t/topic/2063222",
       "published": "Sun, 26 Apr 2026 22:56:28 +0000",
       "source": "LinuxDo Latest",
-      "summary": "想买一个GPT-pro-x20 大概230 250，就是不知道稳不稳。。。。有没有买过的佬。\n半个月前断断续续买了30个PLUS号被封得差不多了。。\n            11 个帖子 - 7 位参与者\n            阅读完整话题"
+      "summary": "想买一个GPT-pro-x20 大概230 250，就是不知道稳不稳。。。。有没有买过的佬。\n半个月前断断续续买了30个PLUS号被封得差不多了。。\n            14 个帖子 - 9 位参与者\n            阅读完整话题"
     },
     {
       "title": "奇思妙想：如何直接产生导致 Cursor bug?",
@@ -882,7 +910,7 @@
       "link": "https://linux.do/t/topic/2063186",
       "published": "Sun, 26 Apr 2026 21:18:13 +0000",
       "source": "LinuxDo Latest",
-      "summary": "从「听劝的富可敌国」OneToken.sh GPT-5.5，人民币2元100万Token，23-24充值的用户百分百补偿，每50楼抽10名500万平台Token继续讨论：\n近期我们发现5.5的模型封控异常的高，不是指封号，而是仅针对5.5这个模型的限速，不仅限速审查还不支持流式传输，要等好几分钟然后返回一大段内容，用户体验非常不好。对此我们将所有号池进行了安全验证，完全解除了速率限制，非常丝滑。我们承诺本站所有号池全部采用官方正价的Pro x20，进行中转，且任何模型没有速率限制，尽最大可能保证佬友们的使用体验\n输入价格：2元/M Token\n输出价格：8元/M Token\n缓存输入：0.1倍率\n缓存写入：1.25倍率\nGPT5.4半价\n注册就送100万，加群联系群主送另外200万Token\n\npython随机抽取，每50楼开奖，评论区发中奖ID，中奖的佬友私信我\n            31 个帖子 - 30 位参与者\n            阅读完整话题"
+      "summary": "从「听劝的富可敌国」OneToken.sh GPT-5.5，人民币2元100万Token，23-24充值的用户百分百补偿，每50楼抽10名500万平台Token继续讨论：\n近期我们发现5.5的模型封控异常的高，不是指封号，而是仅针对5.5这个模型的限速，不仅限速审查还不支持流式传输，要等好几分钟然后返回一大段内容，用户体验非常不好。对此我们将所有号池进行了安全验证，完全解除了速率限制，非常丝滑。我们承诺本站所有号池全部采用官方正价的Pro x20，进行中转，且任何模型没有速率限制，尽最大可能保证佬友们的使用体验\n输入价格：2元/M Token\n输出价格：8元/M Token\n缓存输入：0.1倍率\n缓存写入：1.25倍率\nGPT5.4半价\n注册就送100万，加群联系群主送另外200万Token\n\npython随机抽取，每50楼开奖，评论区发中奖ID，中奖的佬友私信我\n            33 个帖子 - 32 位参与者\n            阅读完整话题"
     },
     {
       "title": "【转载】如果你停止招聘初级工程师，你的高级工程师将掌控你",
@@ -904,20 +932,6 @@
       "published": "Sun, 26 Apr 2026 20:22:32 +0000",
       "source": "LinuxDo Latest",
       "summary": "没辙了 已经在用cc修cc了 救救孩子吧\n2.1.119 (Claude Code)\nWindows 11 25H2 26200.8246\n            5 个帖子 - 3 位参与者\n            阅读完整话题"
-    },
-    {
-      "title": "是谁天天修openclaw啊，不是在养虾就是大半夜还在修龙虾",
-      "link": "https://linux.do/t/topic/2063133",
-      "published": "Sun, 26 Apr 2026 19:21:32 +0000",
-      "source": "LinuxDo Latest",
-      "summary": "大半夜还在修龙虾，隔几天更新一下就又挂了，能不能不要每次更新都把之前的插件通道大改啊，真的有够难的，隔几天又要大修一次\n            23 个帖子 - 15 位参与者\n            阅读完整话题"
-    },
-    {
-      "title": "Perplexity 上线 GPT-5.5，但是仅 Max 订阅可用",
-      "link": "https://linux.do/t/topic/2063131",
-      "published": "Sun, 26 Apr 2026 19:19:16 +0000",
-      "source": "LinuxDo Latest",
-      "summary": "此前 GPT 全系列都可以给 Pro 订阅使用，仅 Claude Opus 需要 Max 订阅。现在 GPT-5.5 也需要 Max 订阅了 \n而且之前的新功能 Model Council 和 Computer 也是仅限 Max 订阅可用，Pro 用户越来越不是人了\n\n            2 个帖子 - 2 位参与者\n            阅读完整话题"
     },
     {
       "title": "Google controls ~25% of global AI compute, with ~3.8M TPUs and 1.3M GPUs",
@@ -1071,7 +1085,7 @@
       "link": "https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c",
       "published": "Mon, 27 Apr 2026 00:34:30 +0000",
       "source": "Hacker News AI",
-      "summary": "Article URL: https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c\nComments URL: https://news.ycombinator.com/item?id=47916410\nPoints: 23\n# Comments: 4"
+      "summary": "Article URL: https://www.ft.com/content/2429f0f0-b685-4747-b425-bf8001a2e94c\nComments URL: https://news.ycombinator.com/item?id=47916410\nPoints: 32\n# Comments: 7"
     },
     {
       "title": "OGMA – persistent memory and dual-brain AI, newcomer seeks pro feedback",
@@ -1183,7 +1197,7 @@
       "link": "https://www.reuters.com/business/finance/spacex-ai-is-burning-cash-that-starlink-earns-2026-04-24/",
       "published": "Sun, 26 Apr 2026 20:53:52 +0000",
       "source": "Hacker News AI",
-      "summary": "Article URL: https://www.reuters.com/business/finance/spacex-ai-is-burning-cash-that-starlink-earns-2026-04-24/\nComments URL: https://news.ycombinator.com/item?id=47914321\nPoints: 16\n# Comments: 0"
+      "summary": "Article URL: https://www.reuters.com/business/finance/spacex-ai-is-burning-cash-that-starlink-earns-2026-04-24/\nComments URL: https://news.ycombinator.com/item?id=47914321\nPoints: 17\n# Comments: 0"
     },
     {
       "title": "Show HN: Build an AI to Detect Scammers/Gurus",
@@ -1198,149 +1212,149 @@
       "published": "Sun, 26 Apr 2026 20:49:06 +0000",
       "source": "Hacker News AI",
       "summary": "Article URL: https://github.com/Audazia/solar-system-agents\nComments URL: https://news.ycombinator.com/item?id=47914272\nPoints: 2\n# Comments: 0"
+    },
+    {
+      "title": "The New Linux Kernel AI Bot Uncovering Bugs Is a Local LLM on Framework Desktop",
+      "link": "https://www.phoronix.com/news/Clanker-T1000-AMD-Ryzen-AI-Max",
+      "published": "Sun, 26 Apr 2026 21:00:38 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://www.phoronix.com/news/Clanker-T1000-AMD-Ryzen-AI-Max\nComments URL: https://news.ycombinator.com/item?id=47914388\nPoints: 10\n# Comments: 1"
+    },
+    {
+      "title": "RLix: A scheduling layer for concurrent LLM RL",
+      "link": "https://github.com/rlops/rlix",
+      "published": "Sun, 26 Apr 2026 18:57:05 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://github.com/rlops/rlix\nComments URL: https://news.ycombinator.com/item?id=47912839\nPoints: 1\n# Comments: 0"
+    },
+    {
+      "title": "LLM Anxiety",
+      "link": "https://dheer.co/llm-anxiety/",
+      "published": "Sun, 26 Apr 2026 16:31:30 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://dheer.co/llm-anxiety/\nComments URL: https://news.ycombinator.com/item?id=47911553\nPoints: 2\n# Comments: 0"
+    },
+    {
+      "title": "Show HN: I made GAI to have LLM agents in Go without heavy frameworks",
+      "link": "https://github.com/lace-ai/gai",
+      "published": "Sun, 26 Apr 2026 16:27:28 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://github.com/lace-ai/gai\nComments URL: https://news.ycombinator.com/item?id=47911522\nPoints: 2\n# Comments: 0"
+    },
+    {
+      "title": "NARE – A framework that \"crystallizes\" LLM reasoning into fast Python scripts",
+      "link": "https://github.com/starface77/Neuro-Adaptive-Reasoning-Engine",
+      "published": "Sun, 26 Apr 2026 13:51:39 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://github.com/starface77/Neuro-Adaptive-Reasoning-Engine\nComments URL: https://news.ycombinator.com/item?id=47910327\nPoints: 3\n# Comments: 0"
+    },
+    {
+      "title": "Show HN: Ctxbrew – Ship and Use LLM-friendly library context",
+      "link": "https://github.com/artem-mangilev/ctxbrew",
+      "published": "Sun, 26 Apr 2026 11:50:39 +0000",
+      "source": "Hacker News LLM",
+      "summary": "ctxbrew is a CLI and protocol for shipping and consuming LLM-friendly library context.If you’re building a package and thinking of creating an MCP server for your users, you should consider ctxbrew as a simpler alternative and focus on the library code itself.If you’re building a product and find yourself fighting with LLMs generating incorrect code using your dependencies, you should consider asking the maintainers to add ctxbrew support.\n\nComments URL: https://news.ycombinator.com/item?id=4790"
+    },
+    {
+      "title": "I asked my local LLM to add 23 numbers and got seven wrong answers",
+      "link": "https://viggy28.dev/article/local-llm-seven-wrong-answers/",
+      "published": "Sun, 26 Apr 2026 04:30:13 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://viggy28.dev/article/local-llm-seven-wrong-answers/\nComments URL: https://news.ycombinator.com/item?id=47907355\nPoints: 6\n# Comments: 4"
+    },
+    {
+      "title": "Claude Cowork Now Runs Any LLM. Test It Free",
+      "link": "https://www.productcompass.pm/p/cowork-on-3p-any-llm",
+      "published": "Sun, 26 Apr 2026 02:32:03 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://www.productcompass.pm/p/cowork-on-3p-any-llm\nComments URL: https://news.ycombinator.com/item?id=47906739\nPoints: 2\n# Comments: 0"
+    },
+    {
+      "title": "Show HN: LLM-wiki – One command Karpathy's wiki with QMD search for Claude/Codex",
+      "link": "https://github.com/ivankuznetsov/llm-wiki",
+      "published": "Sat, 25 Apr 2026 22:29:13 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://github.com/ivankuznetsov/llm-wiki\nComments URL: https://news.ycombinator.com/item?id=47905223\nPoints: 3\n# Comments: 1"
+    },
+    {
+      "title": "MCP Spine – Middleware proxy for LLM tool calls with security and token control",
+      "link": "https://github.com/Donnyb369/mcp-spine",
+      "published": "Sat, 25 Apr 2026 21:38:56 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://github.com/Donnyb369/mcp-spine\nComments URL: https://news.ycombinator.com/item?id=47904762\nPoints: 2\n# Comments: 0"
+    },
+    {
+      "title": "Show HN: Routiium – self-hosted LLM gateway with a tool-result guard",
+      "link": "https://github.com/labiium/routiium",
+      "published": "Sat, 25 Apr 2026 20:30:23 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Routiium is a self-hosted, OpenAI-compatible LLM gateway I built. It does the table-stakes things you'd expect — managed keys, routing, rate limits, analytics — but the part I want to flag for HN is what it does on the\n  agent side.  Most LLM gateways judge the user's prompt and stop there. Scan the input, decide if it looks malicious, allow or block. That's the easy half.\n\n  In an agent loop with web-fetch, MCP, or shell tools, the harder problem is the tool's return value becoming the next mes"
+    },
+    {
+      "title": "LLM-Rosetta: Zero-Dep API Translator for OpenAI, Anthropic, Google and Streaming",
+      "link": "https://github.com/Oaklight/llm-rosetta",
+      "published": "Sat, 25 Apr 2026 19:57:36 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://github.com/Oaklight/llm-rosetta\nComments URL: https://news.ycombinator.com/item?id=47904073\nPoints: 3\n# Comments: 0"
+    },
+    {
+      "title": "Show HN: Bulk URL Checker – check 75k URLs from any LLM via MCP",
+      "link": "https://bulkurlchecker.com",
+      "published": "Sat, 25 Apr 2026 18:51:32 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://bulkurlchecker.com\nComments URL: https://news.ycombinator.com/item?id=47903619\nPoints: 3\n# Comments: 1"
+    },
+    {
+      "title": "Chatnik: LLM Host in the Shell",
+      "link": "https://rakuforprediction.wordpress.com/2026/04/25/chatnik-llm-host-in-the-shell-part-1-first-examples-design-principles/",
+      "published": "Sat, 25 Apr 2026 17:27:43 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://rakuforprediction.wordpress.com/2026/04/25/chatnik-llm-host-in-the-shell-part-1-first-examples-design-principles/\nComments URL: https://news.ycombinator.com/item?id=47903032\nPoints: 6\n# Comments: 0"
+    },
+    {
+      "title": "Show HN: Chatforge – drag two local LLM conversations together to merge context",
+      "link": "https://github.com/gerritsxd/chatforge",
+      "published": "Sat, 25 Apr 2026 13:41:42 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://github.com/gerritsxd/chatforge\nComments URL: https://news.ycombinator.com/item?id=47901504\nPoints: 3\n# Comments: 0"
+    },
+    {
+      "title": "From $200 to $30: Five Layers of LLM Cost Optimization",
+      "link": "http://blog.dwornikowski.com/posts/cutting-llm-costs-token-optimization/",
+      "published": "Sat, 25 Apr 2026 11:56:31 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: http://blog.dwornikowski.com/posts/cutting-llm-costs-token-optimization/\nComments URL: https://news.ycombinator.com/item?id=47900746\nPoints: 11\n# Comments: 3"
+    },
+    {
+      "title": "Show HN: Harnessing LLM-Prompt Mutation to Build Smart,Automated Fuzz Drivers",
+      "link": "https://github.com/FuzzAnything/PromptFuzz",
+      "published": "Sat, 25 Apr 2026 11:39:42 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://github.com/FuzzAnything/PromptFuzz\nComments URL: https://news.ycombinator.com/item?id=47900648\nPoints: 2\n# Comments: 0"
+    },
+    {
+      "title": "Amália- Open Source Large Language Model (LLM) for European Portuguese",
+      "link": "https://portugal.gov.pt/gc24/comunicacao/noticias/modelo-de-linguagem-em-grande-escala-para-a-lingua-portuguesa",
+      "published": "Sat, 25 Apr 2026 10:49:18 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://portugal.gov.pt/gc24/comunicacao/noticias/modelo-de-linguagem-em-grande-escala-para-a-lingua-portuguesa\nComments URL: https://news.ycombinator.com/item?id=47900407\nPoints: 8\n# Comments: 1"
+    },
+    {
+      "title": "Show HN: A Karpathy-style LLM wiki your agents maintain (Markdown and Git)",
+      "link": "https://github.com/nex-crm/wuphf",
+      "published": "Sat, 25 Apr 2026 08:53:53 +0000",
+      "source": "Hacker News LLM",
+      "summary": "I shipped a wiki layer for AI agents that uses markdown + git as the source of truth, with a bleve (BM25) + SQLite index on top. No vector or graph db yet.It runs locally in ~/.wuphf/wiki/ and you can git clone it out if you want to take your knowledge with you.The shape is the one Karpathy has been circling for a while: an LLM-native knowledge substrate that agents both read from and write into, so context compounds across sessions rather than getting re-pasted every morning. Most implementatio"
+    },
+    {
+      "title": "Fixing hallucination in LLM prediction with only one 48gib GPU",
+      "link": "https://zenodo.org/records/19703218",
+      "published": "Sat, 25 Apr 2026 08:19:23 +0000",
+      "source": "Hacker News LLM",
+      "summary": "Article URL: https://zenodo.org/records/19703218\nComments URL: https://news.ycombinator.com/item?id=47899690\nPoints: 1\n# Comments: 0"
     }
   ],
   "📰 Tech News": [
-    {
-      "title": "The Stanford freshmen who want to rule the world . . . will probably read this book and try even harder",
-      "link": "https://techcrunch.com/2026/04/26/the-stanford-freshmen-who-want-to-rule-the-world-will-probably-read-this-book-and-try-even-harder/",
-      "published": "Sun, 26 Apr 2026 22:00:46 +0000",
-      "source": "TechCrunch",
-      "summary": "Can a book like this actually change anything? Or does the spotlight, as it always seems to, send more students racing to the place?"
-    },
-    {
-      "title": "Amazon’s new podcast strategy: Monetize everything",
-      "link": "https://techcrunch.com/2026/04/26/amazons-new-podcast-strategy-monetize-everything/",
-      "published": "Sun, 26 Apr 2026 21:38:08 +0000",
-      "source": "TechCrunch",
-      "summary": "Amazon's podcasting business seems to have transformed over the past six months."
-    },
-    {
-      "title": "What Tim Cook built",
-      "link": "https://techcrunch.com/2026/04/26/what-tim-cook-built/",
-      "published": "Sun, 26 Apr 2026 20:22:51 +0000",
-      "source": "TechCrunch",
-      "summary": "On the latest episode of Equity, we discuss how Apple has changed since Cook became CEO in 2011, and what challenges incoming CEO John Ternus will be facing."
-    },
-    {
-      "title": "TechCrunch Mobility: Elon’s admission",
-      "link": "https://techcrunch.com/2026/04/26/techcrunch-mobility-elons-admission/",
-      "published": "Sun, 26 Apr 2026 16:03:00 +0000",
-      "source": "TechCrunch",
-      "summary": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation."
-    },
-    {
-      "title": "To buy this Bay Area home, you’ll need Anthropic equity",
-      "link": "https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/",
-      "published": "Sun, 26 Apr 2026 15:30:00 +0000",
-      "source": "TechCrunch",
-      "summary": "Someone’s offering an unusual deal for a 13-acre property in Mill Valley, just north of South Francisco."
-    },
-    {
-      "title": "SpeakOn’s dictation device is a good idea marred by platform limitations",
-      "link": "https://techcrunch.com/2026/04/26/speakons-dictation-device-is-a-good-idea-marred-by-platform-limitations/",
-      "published": "Sun, 26 Apr 2026 15:00:00 +0000",
-      "source": "TechCrunch",
-      "summary": "This $129 device uses MagSafe to stick on the back of an iPhone to power transcription across apps"
-    },
-    {
-      "title": "Anthropic created a test marketplace for agent-on-agent commerce",
-      "link": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
-      "published": "Sat, 25 Apr 2026 21:43:37 +0000",
-      "source": "TechCrunch",
-      "summary": "In a recent experiment, Anthropic created a classified marketplace where AI agents represented both buyers and sellers, striking real deals for real goods and real money."
-    },
-    {
-      "title": "Maine’s governor vetoes data center moratorium",
-      "link": "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
-      "published": "Sat, 25 Apr 2026 20:57:08 +0000",
-      "source": "TechCrunch",
-      "summary": "L.D. 307 would have imposed the country’s first statewide moratorium on new data centers — lasting, in this case, until November 1, 2027."
-    },
-    {
-      "title": "OpenAI CEO apologizes to Tumbler Ridge community",
-      "link": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
-      "published": "Sat, 25 Apr 2026 17:17:56 +0000",
-      "source": "TechCrunch",
-      "summary": "In a letter to the residents of Tumbler Ridge, Canada, OpenAI CEO Sam Altman said he is “deeply sorry” that his company failed to alert law enforcement about the suspect in a recent mass shooting."
-    },
-    {
-      "title": "The climate tech IPO window could finally be cracking open",
-      "link": "https://techcrunch.com/2026/04/25/the-climate-tech-ipo-window-could-finally-be-cracking-open/",
-      "published": "Sat, 25 Apr 2026 16:33:00 +0000",
-      "source": "TechCrunch",
-      "summary": "Nuclear startup X-energy went public, geothermal startup Fervo is about to. Could this be the moment that climate tech investors have been waiting for?"
-    },
-    {
-      "title": "Why Cohere is merging with Aleph Alpha",
-      "link": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
-      "published": "Sat, 25 Apr 2026 16:00:00 +0000",
-      "source": "TechCrunch",
-      "summary": "Canadian AI startup Cohere is taking over Germany-based Aleph Alpha with support from Lidl’s owner, Schwarz Group. With the blessing of their governments, the companies intend to offer a sovereign alternative to enterprises in an AI landscape dominated by American players."
-    },
-    {
-      "title": "Why Tokyo is the most important tech destination of 2026",
-      "link": "https://techcrunch.com/2026/04/25/why-tokyo-is-the-most-important-tech-destination-of-2026/",
-      "published": "Sat, 25 Apr 2026 15:03:00 +0000",
-      "source": "TechCrunch",
-      "summary": "SusHi Tech Tokyo 2026 has four tightly defined technology domains, each backed by live demonstrations, dedicated exhibit floors, and sessions featuring the people actually building and funding these technologies globally."
-    },
-    {
-      "title": "Apps to distract you from the endless cycle of doomscrolling",
-      "link": "https://techcrunch.com/2026/04/25/apps-to-distract-you-from-the-endless-cycle-of-doomscrolling/",
-      "published": "Sat, 25 Apr 2026 15:00:07 +0000",
-      "source": "TechCrunch",
-      "summary": "It's hard to break the cycle of doomscrolling, but there are plenty of apps that can help you spend more time on content that’s engaging and productive."
-    },
-    {
-      "title": "Apple under Ternus: what comes next for the tech giant’s hardware strategy",
-      "link": "https://techcrunch.com/2026/04/25/apple-under-ternus-what-comes-next-for-the-tech-giants-hardware-strategy/",
-      "published": "Sat, 25 Apr 2026 15:00:00 +0000",
-      "source": "TechCrunch",
-      "summary": "John Ternus, Apple's incoming CEO, is a hardware guy, signaling Apple may be putting devices back at the center of its strategy."
-    },
-    {
-      "title": "India’s Snabbit seeks fresh funding at a $400M valuation, sources say",
-      "link": "https://techcrunch.com/2026/04/25/indias-snabbit-seeks-fresh-funding-at-a-400m-valuation-sources-say/",
-      "published": "Sat, 25 Apr 2026 14:57:26 +0000",
-      "source": "TechCrunch",
-      "summary": "Snabbit has scaled rapidly, crossing one million jobs in March, amid growing investor interest."
-    },
-    {
-      "title": "Lachy Groom to back India startup Pronto at a $200M valuation, sources say",
-      "link": "https://techcrunch.com/2026/04/24/lachy-groom-to-back-pronto-as-indias-house-help-startup-scales-fast-sources-say/",
-      "published": "Sat, 25 Apr 2026 03:30:00 +0000",
-      "source": "TechCrunch",
-      "summary": "This round, should it occur, would double the house-help startup's valuation in a matter of weeks."
-    },
-    {
-      "title": "Steve Ballmer blasts founder he backed who pleaded guilty to fraud: ‘I was duped and feel silly’",
-      "link": "https://techcrunch.com/2026/04/24/steve-ballmer-blasts-founder-he-backed-who-pleaded-guilty-to-fraud-i-was-duped-and-feel-silly/",
-      "published": "Fri, 24 Apr 2026 23:32:11 +0000",
-      "source": "TechCrunch",
-      "summary": "Steve Ballmer wrote a fiery letter in the sentencing of disgraced founder Joseph Sanberg documenting all the harm that's befalling him as an investor."
-    },
-    {
-      "title": "Palantir is reportedly helping the IRS investigate financial crimes",
-      "link": "https://techcrunch.com/2026/04/24/palantir-is-reportedly-helping-the-irs-investigate-financial-crimes/",
-      "published": "Fri, 24 Apr 2026 21:53:44 +0000",
-      "source": "TechCrunch",
-      "summary": "The IRS has used Palantir's software since at least 2018, The Intercept reports."
-    },
-    {
-      "title": "Cohere acquires, merges with Germany-based startup to create a ‘transatlantic AI powerhouse’",
-      "link": "https://techcrunch.com/2026/04/24/cohere-acquires-merges-with-german-based-startup-to-create-a-transatlantic-ai-powerhouse/",
-      "published": "Fri, 24 Apr 2026 21:35:30 +0000",
-      "source": "TechCrunch",
-      "summary": "Cohere, the Canada-based AI company that makes AI tools for businesses in regulated industries, announced Friday it would merge with Aleph Alpha, a German company that also builds AI systems for businesses and governments."
-    },
-    {
-      "title": "Two college kids raise a $5.1 million pre-seed to build an AI social network in iMessage",
-      "link": "https://techcrunch.com/2026/04/24/two-college-kids-raise-a-5-1-million-pre-seed-to-build-an-ai-social-network-in-imessage/",
-      "published": "Fri, 24 Apr 2026 21:05:59 +0000",
-      "source": "TechCrunch",
-      "summary": "Series, a social networking app that's grown popular on college campuses, announced a $5.1 million pre-seed round from some big names in tech."
-    },
     {
       "title": "《艾尔登法环：黑夜君临》TRPG 桌游 6 月 19 日发售，携同伴迎战“黑夜王”",
       "link": "https://www.ithome.com/0/943/775.htm",
@@ -2180,6 +2194,146 @@
       "published": "2026-04-25T11:00:00-04:00",
       "source": "The Verge",
       "summary": "I’ve been testing compact, magnetic Qi2 power banks that can snap onto your phone for an upcoming buying guide. They make recharging much easier than bringing along a huge battery that weighs down your bag. One of my favorites so far is the Sharge Icemag 3, a 10,000mAh model that can wirelessly output 25W to [&#8230;]"
+    },
+    {
+      "title": "The Stanford freshmen who want to rule the world . . . will probably read this book and try even harder",
+      "link": "https://techcrunch.com/2026/04/26/the-stanford-freshmen-who-want-to-rule-the-world-will-probably-read-this-book-and-try-even-harder/",
+      "published": "Sun, 26 Apr 2026 22:00:46 +0000",
+      "source": "TechCrunch",
+      "summary": "Can a book like this actually change anything? Or does the spotlight, as it always seems to, send more students racing to the place?"
+    },
+    {
+      "title": "Amazon’s new podcast strategy: Monetize everything",
+      "link": "https://techcrunch.com/2026/04/26/amazons-new-podcast-strategy-monetize-everything/",
+      "published": "Sun, 26 Apr 2026 21:38:08 +0000",
+      "source": "TechCrunch",
+      "summary": "Amazon's podcasting business seems to have transformed over the past six months."
+    },
+    {
+      "title": "What Tim Cook built",
+      "link": "https://techcrunch.com/2026/04/26/what-tim-cook-built/",
+      "published": "Sun, 26 Apr 2026 20:22:51 +0000",
+      "source": "TechCrunch",
+      "summary": "On the latest episode of Equity, we discuss how Apple has changed since Cook became CEO in 2011, and what challenges incoming CEO John Ternus will be facing."
+    },
+    {
+      "title": "TechCrunch Mobility: Elon’s admission",
+      "link": "https://techcrunch.com/2026/04/26/techcrunch-mobility-elons-admission/",
+      "published": "Sun, 26 Apr 2026 16:03:00 +0000",
+      "source": "TechCrunch",
+      "summary": "Welcome back to TechCrunch Mobility — your central hub for news and insights on the future of transportation."
+    },
+    {
+      "title": "To buy this Bay Area home, you’ll need Anthropic equity",
+      "link": "https://techcrunch.com/2026/04/26/to-buy-this-bay-area-home-youll-need-anthropic-equity/",
+      "published": "Sun, 26 Apr 2026 15:30:00 +0000",
+      "source": "TechCrunch",
+      "summary": "Someone’s offering an unusual deal for a 13-acre property in Mill Valley, just north of South Francisco."
+    },
+    {
+      "title": "SpeakOn’s dictation device is a good idea marred by platform limitations",
+      "link": "https://techcrunch.com/2026/04/26/speakons-dictation-device-is-a-good-idea-marred-by-platform-limitations/",
+      "published": "Sun, 26 Apr 2026 15:00:00 +0000",
+      "source": "TechCrunch",
+      "summary": "This $129 device uses MagSafe to stick on the back of an iPhone to power transcription across apps"
+    },
+    {
+      "title": "Anthropic created a test marketplace for agent-on-agent commerce",
+      "link": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+      "published": "Sat, 25 Apr 2026 21:43:37 +0000",
+      "source": "TechCrunch",
+      "summary": "In a recent experiment, Anthropic created a classified marketplace where AI agents represented both buyers and sellers, striking real deals for real goods and real money."
+    },
+    {
+      "title": "Maine’s governor vetoes data center moratorium",
+      "link": "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
+      "published": "Sat, 25 Apr 2026 20:57:08 +0000",
+      "source": "TechCrunch",
+      "summary": "L.D. 307 would have imposed the country’s first statewide moratorium on new data centers — lasting, in this case, until November 1, 2027."
+    },
+    {
+      "title": "OpenAI CEO apologizes to Tumbler Ridge community",
+      "link": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
+      "published": "Sat, 25 Apr 2026 17:17:56 +0000",
+      "source": "TechCrunch",
+      "summary": "In a letter to the residents of Tumbler Ridge, Canada, OpenAI CEO Sam Altman said he is “deeply sorry” that his company failed to alert law enforcement about the suspect in a recent mass shooting."
+    },
+    {
+      "title": "The climate tech IPO window could finally be cracking open",
+      "link": "https://techcrunch.com/2026/04/25/the-climate-tech-ipo-window-could-finally-be-cracking-open/",
+      "published": "Sat, 25 Apr 2026 16:33:00 +0000",
+      "source": "TechCrunch",
+      "summary": "Nuclear startup X-energy went public, geothermal startup Fervo is about to. Could this be the moment that climate tech investors have been waiting for?"
+    },
+    {
+      "title": "Why Cohere is merging with Aleph Alpha",
+      "link": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
+      "published": "Sat, 25 Apr 2026 16:00:00 +0000",
+      "source": "TechCrunch",
+      "summary": "Canadian AI startup Cohere is taking over Germany-based Aleph Alpha with support from Lidl’s owner, Schwarz Group. With the blessing of their governments, the companies intend to offer a sovereign alternative to enterprises in an AI landscape dominated by American players."
+    },
+    {
+      "title": "Why Tokyo is the most important tech destination of 2026",
+      "link": "https://techcrunch.com/2026/04/25/why-tokyo-is-the-most-important-tech-destination-of-2026/",
+      "published": "Sat, 25 Apr 2026 15:03:00 +0000",
+      "source": "TechCrunch",
+      "summary": "SusHi Tech Tokyo 2026 has four tightly defined technology domains, each backed by live demonstrations, dedicated exhibit floors, and sessions featuring the people actually building and funding these technologies globally."
+    },
+    {
+      "title": "Apps to distract you from the endless cycle of doomscrolling",
+      "link": "https://techcrunch.com/2026/04/25/apps-to-distract-you-from-the-endless-cycle-of-doomscrolling/",
+      "published": "Sat, 25 Apr 2026 15:00:07 +0000",
+      "source": "TechCrunch",
+      "summary": "It's hard to break the cycle of doomscrolling, but there are plenty of apps that can help you spend more time on content that’s engaging and productive."
+    },
+    {
+      "title": "Apple under Ternus: what comes next for the tech giant’s hardware strategy",
+      "link": "https://techcrunch.com/2026/04/25/apple-under-ternus-what-comes-next-for-the-tech-giants-hardware-strategy/",
+      "published": "Sat, 25 Apr 2026 15:00:00 +0000",
+      "source": "TechCrunch",
+      "summary": "John Ternus, Apple's incoming CEO, is a hardware guy, signaling Apple may be putting devices back at the center of its strategy."
+    },
+    {
+      "title": "India’s Snabbit seeks fresh funding at a $400M valuation, sources say",
+      "link": "https://techcrunch.com/2026/04/25/indias-snabbit-seeks-fresh-funding-at-a-400m-valuation-sources-say/",
+      "published": "Sat, 25 Apr 2026 14:57:26 +0000",
+      "source": "TechCrunch",
+      "summary": "Snabbit has scaled rapidly, crossing one million jobs in March, amid growing investor interest."
+    },
+    {
+      "title": "Lachy Groom to back India startup Pronto at a $200M valuation, sources say",
+      "link": "https://techcrunch.com/2026/04/24/lachy-groom-to-back-pronto-as-indias-house-help-startup-scales-fast-sources-say/",
+      "published": "Sat, 25 Apr 2026 03:30:00 +0000",
+      "source": "TechCrunch",
+      "summary": "This round, should it occur, would double the house-help startup's valuation in a matter of weeks."
+    },
+    {
+      "title": "Steve Ballmer blasts founder he backed who pleaded guilty to fraud: ‘I was duped and feel silly’",
+      "link": "https://techcrunch.com/2026/04/24/steve-ballmer-blasts-founder-he-backed-who-pleaded-guilty-to-fraud-i-was-duped-and-feel-silly/",
+      "published": "Fri, 24 Apr 2026 23:32:11 +0000",
+      "source": "TechCrunch",
+      "summary": "Steve Ballmer wrote a fiery letter in the sentencing of disgraced founder Joseph Sanberg documenting all the harm that's befalling him as an investor."
+    },
+    {
+      "title": "Palantir is reportedly helping the IRS investigate financial crimes",
+      "link": "https://techcrunch.com/2026/04/24/palantir-is-reportedly-helping-the-irs-investigate-financial-crimes/",
+      "published": "Fri, 24 Apr 2026 21:53:44 +0000",
+      "source": "TechCrunch",
+      "summary": "The IRS has used Palantir's software since at least 2018, The Intercept reports."
+    },
+    {
+      "title": "Cohere acquires, merges with Germany-based startup to create a ‘transatlantic AI powerhouse’",
+      "link": "https://techcrunch.com/2026/04/24/cohere-acquires-merges-with-german-based-startup-to-create-a-transatlantic-ai-powerhouse/",
+      "published": "Fri, 24 Apr 2026 21:35:30 +0000",
+      "source": "TechCrunch",
+      "summary": "Cohere, the Canada-based AI company that makes AI tools for businesses in regulated industries, announced Friday it would merge with Aleph Alpha, a German company that also builds AI systems for businesses and governments."
+    },
+    {
+      "title": "Two college kids raise a $5.1 million pre-seed to build an AI social network in iMessage",
+      "link": "https://techcrunch.com/2026/04/24/two-college-kids-raise-a-5-1-million-pre-seed-to-build-an-ai-social-network-in-imessage/",
+      "published": "Fri, 24 Apr 2026 21:05:59 +0000",
+      "source": "TechCrunch",
+      "summary": "Series, a social networking app that's grown popular on college campuses, announced a $5.1 million pre-seed round from some big names in tech."
     }
   ],
   "🏢 Big Tech Engineering": [
@@ -2198,18 +2352,18 @@
       "summary": "The open source Git project just released Git 2.54. Here is GitHub’s look at some of the most interesting features and changes introduced since last time.\nThe post Highlights from Git 2.54 appeared first on The GitHub Blog."
     },
     {
-      "title": "AWS Weekly Roundup: Claude Opus 4.7 in Amazon Bedrock, AWS Interconnect GA, and more (April 20, 2026)",
-      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-7-in-amazon-bedrock-aws-interconnect-ga-and-more-april-20-2026/",
-      "published": "Mon, 20 Apr 2026 15:53:21 +0000",
-      "source": "AWS Blog",
-      "summary": "Claude Opus 4.7 arrives in Amazon Bedrock with improved agentic coding and a 1M token context window. AWS Interconnect reaches general availability with multicloud private connectivity and a new last-mile option. Plus, post-quantum TLS for Secrets Manager, new C8in/C8ib EC2 instances, and more."
-    },
-    {
       "title": "Modernizing the Facebook Groups Search to Unlock the Power of Community Knowledge",
       "link": "https://engineering.fb.com/2026/04/21/ml-applications/modernizing-the-facebook-groups-search-to-unlock-the-power-of-community-knowledge/",
       "published": "Tue, 21 Apr 2026 16:00:19 +0000",
       "source": "Meta Engineering",
       "summary": "We’ve fundamentally transformed Facebook Groups Search to help people more reliably discover, sort through, and validate community content that’s most relevant to them. We’ve adopted a new hybrid retrieval architecture and implemented automated model-based evaluation to address the major friction points people experience when searching community content. Under this new framework, we’ve made tangible improvements [...]\nRead More...\nThe post Modernizing the Facebook Groups Search to Unlock the Pow"
+    },
+    {
+      "title": "AWS Weekly Roundup: Claude Opus 4.7 in Amazon Bedrock, AWS Interconnect GA, and more (April 20, 2026)",
+      "link": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-opus-4-7-in-amazon-bedrock-aws-interconnect-ga-and-more-april-20-2026/",
+      "published": "Mon, 20 Apr 2026 15:53:21 +0000",
+      "source": "AWS Blog",
+      "summary": "Claude Opus 4.7 arrives in Amazon Bedrock with improved agentic coding and a 1M token context window. AWS Interconnect reaches general availability with multicloud private connectivity and a new last-mile option. Plus, post-quantum TLS for Secrets Manager, new C8in/C8ib EC2 instances, and more."
     },
     {
       "title": "Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen",
@@ -2272,145 +2426,161 @@
     {
       "title": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
-      "published": "2026-04-27T09:00:25.007867",
+      "published": "2026-04-27T09:05:11.224079",
       "source": "GitHub Trends",
       "summary": "GitHub trending repository"
     },
     {
       "title": "Alishahryar1/free-claude-code",
       "link": "https://github.com/Alishahryar1/free-claude-code",
-      "published": "2026-04-27T09:00:25.007894",
+      "published": "2026-04-27T09:05:11.224109",
       "source": "GitHub Trends",
       "summary": "GitHub trending repository"
     },
     {
       "title": "Z4nzu/hackingtool",
       "link": "https://github.com/Z4nzu/hackingtool",
-      "published": "2026-04-27T09:00:25.007913",
+      "published": "2026-04-27T09:05:11.224128",
       "source": "GitHub Trends",
       "summary": "GitHub trending repository"
     },
     {
       "title": "abhigyanpatwari/GitNexus",
       "link": "https://github.com/abhigyanpatwari/GitNexus",
-      "published": "2026-04-27T09:00:25.007933",
+      "published": "2026-04-27T09:05:11.224147",
       "source": "GitHub Trends",
       "summary": "GitHub trending repository"
     },
     {
       "title": "PostHog/posthog",
       "link": "https://github.com/PostHog/posthog",
-      "published": "2026-04-27T09:00:25.007950",
+      "published": "2026-04-27T09:05:11.224164",
       "source": "GitHub Trends",
       "summary": "GitHub trending repository"
     },
     {
       "title": "microsoft/typescript-go",
       "link": "https://github.com/microsoft/typescript-go",
-      "published": "2026-04-27T09:00:25.007967",
+      "published": "2026-04-27T09:05:11.224181",
       "source": "GitHub Trends",
       "summary": "GitHub trending repository"
     },
     {
       "title": "trycua/cua",
       "link": "https://github.com/trycua/cua",
-      "published": "2026-04-27T09:00:25.007985",
+      "published": "2026-04-27T09:05:11.224199",
       "source": "GitHub Trends",
       "summary": "GitHub trending repository"
     },
     {
       "title": "gastownhall/beads",
       "link": "https://github.com/gastownhall/beads",
-      "published": "2026-04-27T09:00:25.008001",
+      "published": "2026-04-27T09:05:11.224216",
       "source": "GitHub Trends",
       "summary": "GitHub trending repository"
     },
     {
       "title": "curl/curl",
       "link": "https://github.com/curl/curl",
-      "published": "2026-04-27T09:00:25.008019",
+      "published": "2026-04-27T09:05:11.224241",
       "source": "GitHub Trends",
       "summary": "GitHub trending repository"
     },
     {
       "title": "home-assistant/core",
       "link": "https://github.com/home-assistant/core",
-      "published": "2026-04-27T09:00:25.008035",
+      "published": "2026-04-27T09:05:11.224265",
       "source": "GitHub Trends",
       "summary": "GitHub trending repository"
     },
     {
       "title": "mattpocock/skills",
       "link": "https://github.com/mattpocock/skills",
-      "published": "2026-04-27T09:00:25.272434",
+      "published": "2026-04-27T09:05:11.230565",
       "source": "GitHub Trends",
       "summary": "GitHub trending repository"
     },
     {
       "title": "Alishahryar1/free-claude-code",
       "link": "https://github.com/Alishahryar1/free-claude-code",
-      "published": "2026-04-27T09:00:25.272476",
+      "published": "2026-04-27T09:05:11.230589",
       "source": "GitHub Trends",
       "summary": "GitHub trending repository"
     },
     {
       "title": "Z4nzu/hackingtool",
       "link": "https://github.com/Z4nzu/hackingtool",
-      "published": "2026-04-27T09:00:25.272496",
+      "published": "2026-04-27T09:05:11.230607",
       "source": "GitHub Trends",
       "summary": "GitHub trending repository"
     },
     {
       "title": "abhigyanpatwari/GitNexus",
       "link": "https://github.com/abhigyanpatwari/GitNexus",
-      "published": "2026-04-27T09:00:25.272515",
+      "published": "2026-04-27T09:05:11.230625",
       "source": "GitHub Trends",
       "summary": "GitHub trending repository"
     },
     {
       "title": "PostHog/posthog",
       "link": "https://github.com/PostHog/posthog",
-      "published": "2026-04-27T09:00:25.272532",
+      "published": "2026-04-27T09:05:11.230642",
       "source": "GitHub Trends",
       "summary": "GitHub trending repository"
     },
     {
       "title": "microsoft/typescript-go",
       "link": "https://github.com/microsoft/typescript-go",
-      "published": "2026-04-27T09:00:25.272549",
+      "published": "2026-04-27T09:05:11.230658",
       "source": "GitHub Trends",
       "summary": "GitHub trending repository"
     },
     {
       "title": "trycua/cua",
       "link": "https://github.com/trycua/cua",
-      "published": "2026-04-27T09:00:25.272567",
+      "published": "2026-04-27T09:05:11.230676",
       "source": "GitHub Trends",
       "summary": "GitHub trending repository"
     },
     {
       "title": "gastownhall/beads",
       "link": "https://github.com/gastownhall/beads",
-      "published": "2026-04-27T09:00:25.272583",
+      "published": "2026-04-27T09:05:11.230691",
       "source": "GitHub Trends",
       "summary": "GitHub trending repository"
     },
     {
       "title": "curl/curl",
       "link": "https://github.com/curl/curl",
-      "published": "2026-04-27T09:00:25.272600",
+      "published": "2026-04-27T09:05:11.230708",
       "source": "GitHub Trends",
       "summary": "GitHub trending repository"
     },
     {
       "title": "home-assistant/core",
       "link": "https://github.com/home-assistant/core",
-      "published": "2026-04-27T09:00:25.272616",
+      "published": "2026-04-27T09:05:11.230724",
       "source": "GitHub Trends",
       "summary": "GitHub trending repository"
     }
   ],
+  "🇨🇳 中文技术博客": [
+    {
+      "title": "科技爱好者周刊（第 394 期）：第二次 API 开放浪潮",
+      "link": "http://www.ruanyifeng.com/blog/2026/04/weekly-issue-394.html",
+      "published": "Fri, 24 Apr 2026 07:43:01 +0800",
+      "source": "阮一峰的网络日志",
+      "summary": "这里记录每周值得分享的科技内容，周五发布。（[通知] 下周五一假期，周刊休息。）\n本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。\n\n封面图\n\n\n\n我见过的最酷广告牌，只有一行命令，推广一个 AI 工具包。普通人看不懂也没关系，反正不是给他们用的。（via）\n\n第二次 API 开放浪潮\n\n如果你在互联网行业足够久，大概会记得，以前有过一次 API 开放的浪潮。\n\n那是15年前的2011年，云服务刚兴起不久，各种平台纷纷开放自己的 API。\n\n\n\n那时，Facebook 和 Twitter 都发布了自己的 API，开放了平台数据。GitHub 的 API 设计简直是艺术品，几乎可以获得任何想要的功能。\n\n平台的想法是，开放的 API 有助于用户和第三方加入，来开发各种插件和扩展程序，从而推动平台的增长，提高用户留存率和满意度。\n\n那时还有一个叫做 ProgrammableWeb 的网站（现已关闭），它的名字就代表了当时人们的信念：互联网可以通过 API 编程，把各种平台的数据连接在一起。\n\n\n\n但是，事情的发展"
+    }
+  ],
   "🔥 Product Hunt": [
+    {
+      "title": "QuickCompare by Trismik",
+      "link": "https://www.producthunt.com/products/quickcompare-by-trismik",
+      "published": "2026-04-24T07:07:21-07:00",
+      "source": "Product Hunt",
+      "summary": "Compare LLMs on your data, measure, and pick the best.\n          \n          \n            Discussion\n            |\n            Link"
+    },
     {
       "title": "Claude Connectors",
       "link": "https://www.producthunt.com/products/claude-connectors",
@@ -2440,11 +2610,11 @@
       "summary": "Fully native app for managing your fonts on MacOS\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
-      "title": "QuickCompare by Trismik",
-      "link": "https://www.producthunt.com/products/quickcompare-by-trismik",
-      "published": "2026-04-24T07:07:21-07:00",
+      "title": "Euphony",
+      "link": "https://www.producthunt.com/products/euphony-2",
+      "published": "2026-04-21T09:08:15-07:00",
       "source": "Product Hunt",
-      "summary": "Compare LLMs on your data, measure, and pick the best.\n          \n          \n            Discussion\n            |\n            Link"
+      "summary": "Render AI chat data and Codex logs into browsable views\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
       "title": "Inrō AI",
@@ -2466,13 +2636,6 @@
       "published": "2026-04-23T11:36:14-07:00",
       "source": "Product Hunt",
       "summary": "Bilingual ASR for dialects, code-switching, and songs\n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
-      "title": "Euphony",
-      "link": "https://www.producthunt.com/products/euphony-2",
-      "published": "2026-04-21T09:08:15-07:00",
-      "source": "Product Hunt",
-      "summary": "Render AI chat data and Codex logs into browsable views\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
       "title": "Grok Voice Think Fast 1.0",
@@ -2531,27 +2694,6 @@
       "summary": "A Generative Audio Workstation with VSTs\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
-      "title": "Google Workspace Intelligence",
-      "link": "https://www.producthunt.com/products/google",
-      "published": "2026-04-22T12:42:56-07:00",
-      "source": "Product Hunt",
-      "summary": "AI that understands and powers your Workspace\n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
-      "title": "CodeCanary",
-      "link": "https://www.producthunt.com/products/codecanary",
-      "published": "2026-04-23T16:25:53-07:00",
-      "source": "Product Hunt",
-      "summary": "Turn session replays into revenue\n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
-      "title": "Codex 3.0 by OpenAI",
-      "link": "https://www.producthunt.com/products/codex-3-0-by-openai",
-      "published": "2026-04-23T11:48:21-07:00",
-      "source": "Product Hunt",
-      "summary": "Codex can now build, test & debug on autopilot\n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
       "title": "Ask Product Hunt AI",
       "link": "https://www.producthunt.com/products/producthunt",
       "published": "2026-04-21T16:25:31-07:00",
@@ -2559,25 +2701,18 @@
       "summary": "Find the right product, just ask\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
-      "title": "TuneJourney.com",
-      "link": "https://www.producthunt.com/products/tunejourney-com",
-      "published": "2026-04-23T21:39:59-07:00",
+      "title": "Google Workspace Intelligence",
+      "link": "https://www.producthunt.com/products/google",
+      "published": "2026-04-22T12:42:56-07:00",
       "source": "Product Hunt",
-      "summary": "AI learns your listening habits and curates your live radio\n          \n          \n            Discussion\n            |\n            Link"
+      "summary": "AI that understands and powers your Workspace\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
-      "title": "NotchNest AI",
-      "link": "https://www.producthunt.com/products/notchnest-quick-access-hub",
-      "published": "2026-04-23T05:41:19-07:00",
+      "title": "SaveForm.io",
+      "link": "https://www.producthunt.com/products/saveform-io",
+      "published": "2026-04-23T07:24:35-07:00",
       "source": "Product Hunt",
-      "summary": "AI powered by Apple Intelligence now in your Notch\n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
-      "title": "Spira AI",
-      "link": "https://www.producthunt.com/products/spira-ai",
-      "published": "2026-04-23T01:15:57-07:00",
-      "source": "Product Hunt",
-      "summary": "AI Influencer that always on trend, create & grow your brand\n          \n          \n            Discussion\n            |\n            Link"
+      "summary": "Automated form tracking and e-mail notifications & webhooks\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
       "title": "Tyndale",
@@ -2587,13 +2722,6 @@
       "summary": "Translate your app with the AI you already pay for\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
-      "title": "DeepSeek-V4",
-      "link": "https://www.producthunt.com/products/deepseek",
-      "published": "2026-04-23T20:52:03-07:00",
-      "source": "Product Hunt",
-      "summary": "The open-source era of 1M context intelligence\n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
       "title": "MailCue",
       "link": "https://www.producthunt.com/products/mailcue-realistic-email-testing-server",
       "published": "2026-04-23T10:36:07-07:00",
@@ -2601,11 +2729,46 @@
       "summary": "Run as a fully hardened production email server.\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
-      "title": "SaveForm.io",
-      "link": "https://www.producthunt.com/products/saveform-io",
-      "published": "2026-04-23T07:24:35-07:00",
+      "title": "CodeCanary",
+      "link": "https://www.producthunt.com/products/codecanary",
+      "published": "2026-04-23T16:25:53-07:00",
       "source": "Product Hunt",
-      "summary": "Automated form tracking and e-mail notifications & webhooks\n          \n          \n            Discussion\n            |\n            Link"
+      "summary": "Turn session replays into revenue\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Spira AI",
+      "link": "https://www.producthunt.com/products/spira-ai",
+      "published": "2026-04-23T01:15:57-07:00",
+      "source": "Product Hunt",
+      "summary": "AI Influencer that always on trend, create & grow your brand\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "NotchNest AI",
+      "link": "https://www.producthunt.com/products/notchnest-quick-access-hub",
+      "published": "2026-04-23T05:41:19-07:00",
+      "source": "Product Hunt",
+      "summary": "AI powered by Apple Intelligence now in your Notch\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "TuneJourney.com",
+      "link": "https://www.producthunt.com/products/tunejourney-com",
+      "published": "2026-04-23T21:39:59-07:00",
+      "source": "Product Hunt",
+      "summary": "AI learns your listening habits and curates your live radio\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Codex 3.0 by OpenAI",
+      "link": "https://www.producthunt.com/products/codex-3-0-by-openai",
+      "published": "2026-04-23T11:48:21-07:00",
+      "source": "Product Hunt",
+      "summary": "Codex can now build, test & debug on autopilot\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "DeepSeek-V4",
+      "link": "https://www.producthunt.com/products/deepseek",
+      "published": "2026-04-23T20:52:03-07:00",
+      "source": "Product Hunt",
+      "summary": "The open-source era of 1M context intelligence\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
       "title": "Haiker",
@@ -2650,20 +2813,11 @@
       "summary": "Real reviews in 10 seconds.\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
-      "title": "Vora Health",
-      "link": "https://www.producthunt.com/products/vora-health",
-      "published": "2026-04-22T23:25:10-07:00",
+      "title": "Claude Code /ultrareview",
+      "link": "https://www.producthunt.com/products/claude-code",
+      "published": "2026-04-22T10:09:56-07:00",
       "source": "Product Hunt",
-      "summary": "Every wearable, every metric, one free AI-powered health app\n          \n          \n            Discussion\n            |\n            Link"
-    }
-  ],
-  "🇨🇳 中文技术博客": [
-    {
-      "title": "科技爱好者周刊（第 394 期）：第二次 API 开放浪潮",
-      "link": "http://www.ruanyifeng.com/blog/2026/04/weekly-issue-394.html",
-      "published": "Fri, 24 Apr 2026 07:43:01 +0800",
-      "source": "阮一峰的网络日志",
-      "summary": "这里记录每周值得分享的科技内容，周五发布。（[通知] 下周五一假期，周刊休息。）\n本杂志开源，欢迎投稿。另有《谁在招人》服务，发布程序员招聘信息。合作请邮件联系（yifeng.ruan@gmail.com）。\n\n封面图\n\n\n\n我见过的最酷广告牌，只有一行命令，推广一个 AI 工具包。普通人看不懂也没关系，反正不是给他们用的。（via）\n\n第二次 API 开放浪潮\n\n如果你在互联网行业足够久，大概会记得，以前有过一次 API 开放的浪潮。\n\n那是15年前的2011年，云服务刚兴起不久，各种平台纷纷开放自己的 API。\n\n\n\n那时，Facebook 和 Twitter 都发布了自己的 API，开放了平台数据。GitHub 的 API 设计简直是艺术品，几乎可以获得任何想要的功能。\n\n平台的想法是，开放的 API 有助于用户和第三方加入，来开发各种插件和扩展程序，从而推动平台的增长，提高用户留存率和满意度。\n\n那时还有一个叫做 ProgrammableWeb 的网站（现已关闭），它的名字就代表了当时人们的信念：互联网可以通过 API 编程，把各种平台的数据连接在一起。\n\n\n\n但是，事情的发展"
+      "summary": "Cloud code review using a fleet of parallel agents\n          \n          \n            Discussion\n            |\n            Link"
     }
   ],
   "🧠 AI/ML 中文博客": [],

@@ -3,9 +3,10 @@ import urllib.request
 import ssl
 import json
 import os
+import time
 
-API_KEY = "sk-vPYI81WXaBK95LE9TGPRWMVlpQ6YOOkKCKopNTtiFWROBxPW"
-API_URL = "https://poloai.top/v1/chat/completions"
+API_KEY = "sk-KHIfZFZh5ke7U6mME6qUAizCxG1uZQfwbrKB9iq6ShB8ufpq"
+API_URL = "https://xchai.xyz/v1/messages"
 
 with open("selected_rss.json", "r") as f:
     data = json.load(f)
@@ -15,16 +16,18 @@ def get_summary(text):
         return "无内容"
         
     payload = {
-        "model": "gpt-4o-mini",
+        "model": "claude-sonnet-4-6",
+        "max_tokens": 150,
+        "system": "你是一个 AI 摘要助手。请将以下内容精炼、准确地总结在100字以内，直接给出结论。",
         "messages": [
-            {"role": "system", "content": "你是一个 AI 摘要助手。请将以下内容精炼、准确、一针见血地总结在100-200字以内，提取最有价值的信息。如果内容是简单的推文或碎碎念，直接说明其核心观点。不要包含废话。"},
-            {"role": "user", "content": text[:3000]}
+            {"role": "user", "content": text[:1000]}
         ]
     }
     
     headers = {
         "Content-Type": "application/json",
-        "Authorization": f"Bearer {API_KEY}"
+        "x-api-key": API_KEY,
+        "anthropic-version": "2023-06-01"
     }
     
     ctx = ssl.create_default_context()
@@ -33,12 +36,12 @@ def get_summary(text):
     
     try:
         req = urllib.request.Request(API_URL, data=json.dumps(payload).encode('utf-8'), headers=headers, method='POST')
-        response = urllib.request.urlopen(req, context=ctx, timeout=20)
+        response = urllib.request.urlopen(req, context=ctx, timeout=10)
         result = json.loads(response.read().decode('utf-8'))
-        return result['choices'][0]['message']['content'].strip()
+        return result['content'][0]['text'].strip()
     except Exception as e:
         print(f"Error calling API: {e}")
-        return text[:200] + "..."
+        return text[:100] + "..."
 
 output_md = "📰 RSS 每日摘要推送\n\n"
 
