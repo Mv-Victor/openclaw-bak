@@ -74911,3 +74911,13 @@ To github.com:Mv-Victor/openclaw-bak.git
  create mode 100644 web_fetch_and_summarize.py
 To github.com:Mv-Victor/openclaw-bak.git
    3e2dbb1a8..20c10af07  G -> G
+[G 037835d35] [20260427_0915] [scripts] 新增1个文件(fix_summary.py等), 修改2个文件(final_summary.md等), 删除5个文件
+ 8 files changed, 56 insertions(+), 468 deletions(-)
+ create mode 100644 fix_summary.py
+ delete mode 100644 generate_rss.py
+ delete mode 100644 process_rss.py
+ delete mode 100644 selected_rss.json
+ delete mode 100644 summarize.py
+ delete mode 100644 summarize_xchai.py
+To github.com:Mv-Victor/openclaw-bak.git
+   20c10af07..037835d35  G -> G
