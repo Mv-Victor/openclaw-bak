@@ -75513,3 +75513,23 @@ To github.com:Mv-Victor/openclaw-bak.git
  1 file changed, 4 insertions(+)
 To github.com:Mv-Victor/openclaw-bak.git
    16115685f..45167bfad  G -> G
+warning: adding embedded git repository: FireRed-OpenStoryline
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint: 
+hint: 	git submodule add <url> FireRed-OpenStoryline
+hint: 
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint: 
+hint: 	git rm --cached FireRed-OpenStoryline
+hint: 
+hint: See "git help submodule" for more information.
+[G 23da91282] [20260427_2140] [memory] [scripts] 新增2个文件(FireRed-OpenStoryline等), 修改1个文件(backup.log等)
+ 3 files changed, 13 insertions(+)
+ create mode 160000 FireRed-OpenStoryline
+ create mode 100644 memory/2026-04-26.md
+To github.com:Mv-Victor/openclaw-bak.git
+   45167bfad..23da91282  G -> G
