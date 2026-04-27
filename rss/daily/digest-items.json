@@ -1,0 +1,292 @@
+{
+  "🤖 AI 前沿": [
+    {
+      "title": "WHY ARE YOU LIKE THIS",
+      "link": "https://simonwillison.net/2026/Apr/25/why-are-you-like-this/#atom-everything",
+      "published": "2026-04-25T16:44:01+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "@scottjla on Twitter in reply to my pelican riding a bicycle benchmark:\n\nI feel like we need to stack these tests now\n\n\nI checked to confirm that the model (ChatGPT Images 2.0) added the \"WHY ARE YOU LIKE THIS\" sign of its own accord and it did - the prompt Scott used was:\n\nCreate an image of a horse riding an astronaut, where the astronaut is riding a pelican that is riding a bicycle. It looks very chaotic but they all just manage to balance on top of each other\n\n\n    Tags: text-to-image, pelic"
+    },
+    {
+      "title": "Quoting Romain Huet",
+      "link": "https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything",
+      "published": "2026-04-25T12:06:55+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Since GPT-5.4, we’ve unified Codex and the main model into a single system, so there’s no separate coding line anymore.\nGPT-5.5 takes this further, with strong gains in agentic coding, computer use, and any task on a computer.\n&mdash; Romain Huet, confirming OpenAI won't release a GPT-5.5-Codex model\n\n    Tags: generative-ai, gpt, openai, ai, llms"
+    },
+    {
+      "title": "GPT-5.5 prompting guide",
+      "link": "https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything",
+      "published": "2026-04-25T04:13:36+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "GPT-5.5 prompting guide\nNow that GPT-5.5 is available in the API, OpenAI have released a wealth of useful tips on how best to prompt the new model.\nHere's a neat trick they recommend for applications that might spend considerable time thinking before returning a user-visible response:\n\nBefore any tool calls for a multi-step task, send a short user-visible update that acknowledges the request and states the first step. Keep it to one or two sentences.\n\nI've already noticed their Codex app doing t"
+    },
+    {
+      "title": "llm 0.31",
+      "link": "https://simonwillison.net/2026/Apr/24/llm/#atom-everything",
+      "published": "2026-04-24T23:35:07+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Release: llm 0.31\n    \n\nNew GPT-5.5 OpenAI model: llm -m gpt-5.5. #1418\nNew option to set the text verbosity level for GPT-5+ OpenAI models: -o verbosity low. Values are low, medium, high.\nNew option for setting the image detail level used for image attachments to OpenAI models: -o image_detail low - values are low, high and auto, and GPT-5.4 and 5.5 also accept original.\nModels listed in extra-openai-models.yaml are now also registered as asynchronous. #1395\n\n\n    \n        Tags: gpt, openai, ll"
+    },
+    {
+      "title": "The people do not yearn for automation",
+      "link": "https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything",
+      "published": "2026-04-24T22:38:49+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "The people do not yearn for automation\nThis written and video essay by Nilay Patel explores why AI is unpopular with the general public even as usage numbers for ChatGPT continue to skyrocket.\nIt’s a superb piece of commentary, and something I expect I’ll be thinking about for a long time to come.\nNilay’s core idea is that people afflicted with “software brain” - who see the world as something to be automated as much as possible, and attempt to model everything in terms of information flows and "
+    },
+    {
+      "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
+      "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything",
+      "published": "2026-04-24T06:01:04+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December. They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash.\nBoth models are 1 million token context Mixture of Experts. Pro is 1.6T total parameters, 49B active. Flash is 284B total, 13B active. They're using the standard MIT license.\nI think this makes DeepSeek-V4-Pro the new largest open weights model. It's larger than Kimi K2."
+    },
+    {
+      "title": "Millisecond Converter",
+      "link": "https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything",
+      "published": "2026-04-24T04:23:11+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "Tool: Millisecond Converter\n    LLM reports prompt durations in milliseconds and I got fed up of having to think about how to convert those to seconds and minutes.\n    \n        Tags: tools"
+    },
+    {
+      "title": "It's a big one",
+      "link": "https://simonwillison.net/2026/Apr/24/weekly/#atom-everything",
+      "published": "2026-04-24T04:09:54+00:00",
+      "source": "Simon Willison's Blog",
+      "summary": "This week's edition of my email newsletter (aka content from this blog delivered to your inbox) features 4 pelicans riding bicycles, 1 possum on an e-scooter, up to 5 raccoons with ham radios hiding in crowds, 5 blog posts, 8 links, 3 quotes and a new chapter of my Agentic Engineering Patterns guide.\n\n    Tags: newsletter"
+    }
+  ],
+  "💻 技术动态": [
+    {
+      "title": "一行命令让 Claude Code 自己管项目",
+      "link": "https://www.v2ex.com/t/1208160#reply7",
+      "published": "2026-04-24T01:12:50Z",
+      "source": "V2EX - 技术",
+      "summary": "之前在 V2EX 发过几次帖子分享我在开发开源项目 Chorus，一个给 Claude Code 用的 Harness 时的经验和教训。简单说就是让 Agent 不只是写代码，而是自己管整个项目：领需求、出方案、拆任务、写代码、提交审查，从 Idea 到交付走完一条流水线。中间有独立的 Reviewer Agent 自动审方案和代码，审不过打回重做，不用你盯着，把我们从无限的 Agent Review 地狱里解救出来。\n上次发帖之后老哥们反应挺热烈，Issues 里提了不少实际问题。有说装 Docker 门槛太高的，有说生成的文档导不出来没法给客户看的，有说 Onboarding 走一半卡住了的。我挨个看了，这次 v0.6.6 基本都回应了。\n最大的变化现在一行命令就能启动：\nnpx @chorus-aidlc/chorus\n\n\n跑完打开 http://localhost:8637 配合 Claude Code 插件就能用，不用配数据库，不用写 compose 文件。全栈纯 JS 实现，macOS 和 Linux 都能直接跑。\n另外根据 Issue 里的反馈加了文档导出，Markdow"
+    },
+    {
+      "title": "安卓哪个品牌适合做开发机？",
+      "link": "https://www.v2ex.com/t/1208678#reply19",
+      "published": "2026-04-26T15:17:55Z",
+      "source": "V2EX - 技术",
+      "summary": "想买个开发机，目前已经有了华为、oppo 、三星、小米。\n想再买一个其他品牌的。\n主要做海外市场。realme 、vivo 、一加哪个好？还有其他推荐吗？"
+    },
+    {
+      "title": "[内测邀请] 做了个临时文件分享工具，无需注册登录，完全免费，最大支持 2GB 文件分享，不支持 Safari",
+      "link": "https://www.v2ex.com/t/1208698#reply2",
+      "published": "2026-04-26T22:16:15Z",
+      "source": "V2EX - 技术",
+      "summary": "RT ，平时临时传文件，非常不方便，就想着干脆做一个工具，功能不多：\n上传文件 → 直接给你一个下载链接\n链接默认有有效期（最长 7 天）\n单文件最大 2GB\n传输是加密的\n不需要注册\n基本思路就是：\n不用管理、不存历史、不搞空间概念，用完就走。\n目前我自己用下来还行，但也可能只是“自我感觉良好”，所以想请大家帮忙试试：\n上传速度、稳定性怎么样（特别是国内的访问速度，由于服务器是在国外）\n下载体验顺不顺\n有没有什么明显缺的东西\n地址： https://aura-share-beta.vercel.app/"
+    },
+    {
+      "title": "第一次发帖，记录一下 claude code 被封禁经过",
+      "link": "https://www.v2ex.com/t/1208691#reply10",
+      "published": "2026-04-26T16:12:03Z",
+      "source": "V2EX - 技术",
+      "summary": "本人 claude 账号注册很久了，从 3.5 就开始用，一直开 pro 计划在用，今天升级 max 计划，刚消费完 125 刀，触发 KYC ，然后找小黄鱼代过 KYC ，直接封禁，目前正在申请 apple 退款，也不知道能不能把我的 125 刀退还。 近期不建议大家动 claude 计划\n收到邮件如下：\nHello,\nOur automated systems detected a high volume of signals associated with your account which violate our Usage Policy. These signals were, in turn, reviewed by our team to validate our system’s findings. As a result, we have revoked your access to Claude.\nTo appeal our decision, please fill out this form or learn more about the appeals pr"
+    },
+    {
+      "title": "关于视觉调教方面，国内安卓怎么和苹果差距这么多",
+      "link": "https://www.v2ex.com/t/1208666#reply24",
+      "published": "2026-04-26T13:59:43Z",
+      "source": "V2EX - 技术",
+      "summary": "PS：为了能找个替换当前苹果的方案，走遍各品牌手机旗舰店，看遍各种旗舰机型，然后发现接触了 IOS 的审美后，不知道为啥很难接受住国产的调教\n期间去看了荣耀，华为，小米，vivo ，oppo ，一加，三星等机型发现一个致命的令我很不爽的点，就是视觉方面的\n具体情况就是打开个常用的 APP ，譬如，今日头条，抖音，微博\n\n1.   很统一严重的情况就是对比度特别大，白色的字体亮的刺眼，刺眼到 UI 界面，字体边缘和图片感觉不是同一个维度的东西，很跳跃\n\n2.   然后字体布局有粗有大有小，整体比例调整就是没有 IOS 布局得那么和谐舒服\n\n3.   图片视频显示方面，像那种国产 2000 元近距离看的电视一样，说好听点是通透，不好听的就是像 AI 过的一样，边缘很锐利，然后又确实细腻的细节，完全和苹果不是一个档次\n\n查看期间，其实我也关闭掉很多关于手机加强图片视频效果的功能，包括只显示原色，以及更换系统字体大小等功能，但是还是发现解决不了问题，期间，安卓这边勉强小米和三星，接近苹果的，三星手机做工以及审美还是国际在线的\n同时我想问下，国内的调教这么恶心，国际版的安卓品牌，比如三星，谷歌，"
+    },
+    {
+      "title": "[开源] Patch Courier： Email 进来， Codex 在你的 Mac 上干活",
+      "link": "https://www.v2ex.com/t/1208699#reply2",
+      "published": "2026-04-26T22:42:29Z",
+      "source": "V2EX - 技术",
+      "summary": "最近在做一个本地优先的小工具 Patch Courier ，想解决一个很具体的问题：\n人不在电脑前时，能不能继续把任务发给自己 Mac 上的 Codex 去跑，但仓库、凭据、审批和执行策略都留在本地。\nTL;DR：这是一个 Email -&gt; 本机 Codex -&gt; Email 的 macOS daemon + console 。\n现在的做法是：\n\n收到可信发件人的邮件后，把一个 mail thread 尽量映射到一个 Codex thread\n真正执行还是走本机 codex app-server\n审批、补充信息、完成结果继续通过邮件往返\nmacOS app 负责看 threads / turns / approvals / mailbox health\n状态持久化到 SQLite ，邮箱密码放 Keychain\n\n我为什么做这个，而不是直接上云端 Agent：\n\n有些代码库和 provider 凭据我不想交给第三方服务\nEmail 很适合做异步审批、结果通知和审计留痕\ndaemon 持有状态，UI 重启后线程和 approval 不会丢\n\n当前已经跑通：\n\nIMAP / S"
+    },
+    {
+      "title": "glm5.1， kimi2.6， minimax2.7， mimo v2.5， deepseek v4，编程能力上的排名如何？",
+      "link": "https://www.v2ex.com/t/1208616#reply33",
+      "published": "2026-04-26T07:25:08Z",
+      "source": "V2EX - 技术",
+      "summary": "先抛个砖：GLM5.1 &gt; deepseek v4 &gt; minimax2.7 ≥ mimo v2.5 ≈ kimi2.6"
+    },
+    {
+      "title": "为了买到便宜靠谱的 Token，少被割韭菜，我做了个比价的网站",
+      "link": "https://www.v2ex.com/t/1208476#reply67",
+      "published": "2026-04-25T07:44:05Z",
+      "source": "V2EX - 技术",
+      "summary": "最近在开发一个小项目，想买几个 ChatGPT 账号。但是在多个卡网和电报群里转了几圈，发现同一种类型的账号，比如 ChatGPT plus 月卡，就有 N 多种价格。有的几块钱，有的卖 15 ，有的卖 30 ，有的卖 40.后来我才知道，这些店铺和卖家的来源其实就是那么几种：86 、chong 、xin 、74 这些。他们都是加价后转卖的。所以，为了尽快找到相对靠谱的渠道，少花几块钱，减少决策成本，我就做了个比价的网站，把多个平台的价格放在一起，快速对比。目前收录了二十多个店铺+平台。如果您有靠谱的渠道，也欢迎在网站提交、加电报群交流。网址： https://aibijia.org/电报： https://t.me/+z4dDCVFqx71jYTFlhttps://imgur.com/HsPagPwhttps://imgur.com/G1BpVjahttps://imgur.com/sv5WecNhttps://imgur.com/ZsaKz2Thttps://imgur.com/HOwgRot"
+    },
+    {
+      "title": "kimi 订阅的 4x kimi code 指的是 kimi code 平台的 4 倍还是全平台 4 倍？",
+      "link": "https://www.v2ex.com/t/1208658#reply9",
+      "published": "2026-04-26T13:00:08Z",
+      "source": "V2EX - 技术",
+      "summary": "我看他们也支持其他编程平台，准备买个 4.6 给 CC 用。"
+    },
+    {
+      "title": "什么成品企业级 NAS 方便维修？",
+      "link": "https://www.v2ex.com/t/1208529#reply53",
+      "published": "2026-04-25T14:03:14Z",
+      "source": "V2EX - 技术",
+      "summary": "前情提要： https://www.v2ex.com/t/1200956#电脑装好开机了，我有事就提前离开了，群晖系统镜像刚下到 Windows 上面。电脑关机关了两周（后面没关），接的 ups ，ups 接的三孔，两周没断电今天再点亮，表现出主板带电情况：点一下电源键，电源和 cpu 风扇转一下就不转了。然后经历漫长的放电操作，把电源线搞坏了：插上后（主机的电源侧）能听见电流声，风扇也不转了出电流声之前的期间成功点亮进入了 BIOS 界面，但是把电脑竖放起来就黑屏了，风扇也不转了。买了根电源线去尝试，新电源线不至于走一次放电操作从而风扇不转了。随后又是漫长的放电过程，也没放掉电，仍表现出主板带电。老板也没耐心了，想买成品 nas 了，当简单的沉没成本的。放电过程：拔掉电源线，关掉电源（主机侧），扣下电池和内存条，用电池（侧边）/钥匙/螺丝刀划电池槽的金属片（含短接相连），按住开机键几秒，放上电池和单根内存条，再按几秒开机键。插上电源线，打开开关，启动。买成品 Nas 有个问题：买到成品 Nas 也出静电问题怎么办，维修肯定比台式机难，这是个大难题。Nas 需求：4-6 盘位，自动从 "
+    }
+  ],
+  "⭐ GitHub Trends": [
+    {
+      "title": "mattpocock/skills",
+      "link": "https://github.com/mattpocock/skills",
+      "published": "2026-04-27T09:00:25.007867",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "Alishahryar1/free-claude-code",
+      "link": "https://github.com/Alishahryar1/free-claude-code",
+      "published": "2026-04-27T09:00:25.007894",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "Z4nzu/hackingtool",
+      "link": "https://github.com/Z4nzu/hackingtool",
+      "published": "2026-04-27T09:00:25.007913",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "abhigyanpatwari/GitNexus",
+      "link": "https://github.com/abhigyanpatwari/GitNexus",
+      "published": "2026-04-27T09:00:25.007933",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "PostHog/posthog",
+      "link": "https://github.com/PostHog/posthog",
+      "published": "2026-04-27T09:00:25.007950",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "microsoft/typescript-go",
+      "link": "https://github.com/microsoft/typescript-go",
+      "published": "2026-04-27T09:00:25.007967",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "trycua/cua",
+      "link": "https://github.com/trycua/cua",
+      "published": "2026-04-27T09:00:25.007985",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "gastownhall/beads",
+      "link": "https://github.com/gastownhall/beads",
+      "published": "2026-04-27T09:00:25.008001",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "curl/curl",
+      "link": "https://github.com/curl/curl",
+      "published": "2026-04-27T09:00:25.008019",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "home-assistant/core",
+      "link": "https://github.com/home-assistant/core",
+      "published": "2026-04-27T09:00:25.008035",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    }
+  ],
+  "🔥 Product Hunt": [
+    {
+      "title": "Claude Connectors",
+      "link": "https://www.producthunt.com/products/claude-connectors",
+      "published": "2026-04-24T21:15:20-07:00",
+      "source": "Product Hunt",
+      "summary": "New connectors in Claude for everyday life\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "GPT-5.5 by OpenAI",
+      "link": "https://www.producthunt.com/products/openai",
+      "published": "2026-04-24T20:54:05-07:00",
+      "source": "Product Hunt",
+      "summary": "OpenAI's smartest and most intuitive to use model yet\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Edgee Team",
+      "link": "https://www.producthunt.com/products/edgee",
+      "published": "2026-04-24T05:51:45-07:00",
+      "source": "Product Hunt",
+      "summary": "Strava for your coding assistants\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Pica",
+      "link": "https://www.producthunt.com/products/pica",
+      "published": "2026-04-24T17:23:51-07:00",
+      "source": "Product Hunt",
+      "summary": "Fully native app for managing your fonts on MacOS\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "QuickCompare by Trismik",
+      "link": "https://www.producthunt.com/products/quickcompare-by-trismik",
+      "published": "2026-04-24T07:07:21-07:00",
+      "source": "Product Hunt",
+      "summary": "Compare LLMs on your data, measure, and pick the best.\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Inrō AI",
+      "link": "https://www.producthunt.com/products/inro",
+      "published": "2026-04-21T11:52:34-07:00",
+      "source": "Product Hunt",
+      "summary": "Your AI Agent for Instagram Marketing\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Clawdi",
+      "link": "https://www.producthunt.com/products/clawdi",
+      "published": "2026-04-21T06:18:41-07:00",
+      "source": "Product Hunt",
+      "summary": "Best home for all AI agents\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "MiMo-V2.5 Voice",
+      "link": "https://www.producthunt.com/products/mimo-v2-5-voice",
+      "published": "2026-04-23T11:36:14-07:00",
+      "source": "Product Hunt",
+      "summary": "Bilingual ASR for dialects, code-switching, and songs\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Euphony",
+      "link": "https://www.producthunt.com/products/euphony-2",
+      "published": "2026-04-21T09:08:15-07:00",
+      "source": "Product Hunt",
+      "summary": "Render AI chat data and Codex logs into browsable views\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Grok Voice Think Fast 1.0",
+      "link": "https://www.producthunt.com/products/grok-voice-think-fast-1-0",
+      "published": "2026-04-23T23:06:02-07:00",
+      "source": "Product Hunt",
+      "summary": "Our most capable voice agent is now available via API\n          \n          \n            Discussion\n            |\n            Link"
+    }
+  ],
+  "💰 投资理财": [
+    {
+      "title": "熊媽入院",
+      "link": "https://mercurychong.blogspot.com/2026/04/blog-post_24.html",
+      "published": "2026-04-24T01:05:00.000-07:00",
+      "source": "知足常乐 - 水星投资理财",
+      "summary": "因熊媽出現心臟病的徵兆&amp;心臟檢測有異常，帶她來IJN做了個3天2夜的住院深入檢查。這還是第一次看到病床上的熊媽，比起水星熊自己來住院的時候，反而更能感受到壓力與不安。是哪個瞬間，讓我們突然明白，真的已經長大了。是健檢報告上年復一年，密密麻麻的注意事項；是為現實而低頭，不得不選擇卑躬屈膝的絕望；還是靜靜望著歲月，不留情地沖刷著父母的無力?還在國外打工時的某年返回大馬時，看著父母的背影，他們以前是這麼高大，天塌下來了，他們扛著。而如今他們變得越來越小。退休回來後的某天，水星熊陪熊媽去巴刹。她走在前面，腳步比以前慢了一些。水星熊忽然發現，她過馬路時會左右看得特別久；提著兩袋菜時，手臂會微微顫抖的吃力。在小的時候，總是熊媽牽著水星熊過馬路的。那時候水星熊總覺得，只要抓著她的手，世界就不會出錯。巴刹裡，賣豬肉的阿姨笑著說：「你兒子在外面打拼回來啦?」熊媽笑得很驕傲，語氣卻輕輕的:「是啊，而且他自己很會照顧自己了。」那句話落下的瞬間，水星熊有挺大的感觸。原來長大，不是我們變得多麼厲害。而是有一天，父母開始對別人說:「他長大了，他自己可以了。」回家的路上，水星熊自然地伸手把其中一袋菜接過來。"
+    },
+    {
+      "title": "習慣幸福",
+      "link": "https://mercurychong.blogspot.com/2026/04/blog-post_21.html",
+      "published": "2026-04-21T04:29:00.000-07:00",
+      "source": "知足常乐 - 水星投资理财",
+      "summary": "參觀舊時代的日本住家，水星熊有感，相較以前，我們已經擁有了很多，然而我們依然焦慮，是因為我們已經習慣了自己所有的一切，然後還想要更多。就像水星熊剛從外國回到大馬，早餐又一次吃到nasi lemak的時候，水星熊覺得很開心，甚至忍不住發動態到FB和IG；但過了一個月，水星就覺得這是很自然又很正常的事。就像水星熊剛買第一部車的時候，覺得有車開就是方便很多啊；但過了一個月，水星熊就覺得這是很自然又很正常的事。就像水星熊現在可以和家人同住，不必再搭七小時的飛機看熊媽和見朋友，特別的開心；但過了半年，水星熊就覺得這是很自然又很正常的事。就像水星熊開始在網上寫作之後，最初覺得有很多人看自己的文章，很興奮；但過了半年，水星熊就覺得這是很自然又很正常的事。我們活在諸多巨大的恩典當中，但很快就會習慣。習慣了就會忘卻，然後開始為生活中那些小小的不如意而抱怨。幸福並不在於我們將會擁有什麼，而是在於看見今天的我們擁有什麼。幸福並不是條件，而是能力，是一種能夠感知到周邊美好的能力 😌著作網購鏈接（馬來西亞）：《打工族股息路》著作網購鏈接（新加坡）：《打工族股息路》SG大眾書局網購鏈接 ：大眾書局網購鏈接"
+    }
+  ]
+}

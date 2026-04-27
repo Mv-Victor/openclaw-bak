@@ -1,0 +1,222 @@
+
+请作为资深技术编辑，为以下 RSS 抓取的文章生成一份每日摘要总结。
+要求：
+1. 总结要准确、精炼、有价值（100-200字内），一针见血。
+2. 遇到没有实质内容的，直接总结标题。
+3. 不要只复制自带的无用描述。
+4. 严格使用以下格式：
+
+## [分类名]
+1. 标题
+来源: XXX
+总结: [总结内容]
+链接: [原文链接]
+
+
+### 需要总结的内容：
+
+==== 🤖 AI 前沿 ====
+[1] WHY ARE YOU LIKE THIS
+Source: Simon Willison's Blog
+Link: https://simonwillison.net/2026/Apr/25/why-are-you-like-this/#atom-everything
+Text: @scottjla on Twitter in reply to my pelican riding a bicycle benchmark:  I feel like we need to stack these tests now   I checked to confirm that the model (ChatGPT Images 2.0) added the "WHY ARE YOU LIKE THIS" sign of its own accord and it did - the prompt Scott used was:  Create an image of a horse riding an astronaut, where the astronaut is riding a pelican that is riding a bicycle. It looks very chaotic but they all just manage to balance on top of each other       Tags: text-to-image, pelic
+
+[2] Quoting Romain Huet
+Source: Simon Willison's Blog
+Link: https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything
+Text: Since GPT-5.4, we’ve unified Codex and the main model into a single system, so there’s no separate coding line anymore. GPT-5.5 takes this further, with strong gains in agentic coding, computer use, and any task on a computer. &mdash; Romain Huet, confirming OpenAI won't release a GPT-5.5-Codex model      Tags: generative-ai, gpt, openai, ai, llms
+
+[3] GPT-5.5 prompting guide
+Source: Simon Willison's Blog
+Link: https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything
+Text: GPT-5.5 prompting guide Now that GPT-5.5 is available in the API, OpenAI have released a wealth of useful tips on how best to prompt the new model. Here's a neat trick they recommend for applications that might spend considerable time thinking before returning a user-visible response:  Before any tool calls for a multi-step task, send a short user-visible update that acknowledges the request and states the first step. Keep it to one or two sentences.  I've already noticed their Codex app doing t
+
+[4] llm 0.31
+Source: Simon Willison's Blog
+Link: https://simonwillison.net/2026/Apr/24/llm/#atom-everything
+Text: Release: llm 0.31       New GPT-5.5 OpenAI model: llm -m gpt-5.5. #1418 New option to set the text verbosity level for GPT-5+ OpenAI models: -o verbosity low. Values are low, medium, high. New option for setting the image detail level used for image attachments to OpenAI models: -o image_detail low - values are low, high and auto, and GPT-5.4 and 5.5 also accept original. Models listed in extra-openai-models.yaml are now also registered as asynchronous. #1395                Tags: gpt, openai, ll
+
+[5] The people do not yearn for automation
+Source: Simon Willison's Blog
+Link: https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything
+Text: The people do not yearn for automation This written and video essay by Nilay Patel explores why AI is unpopular with the general public even as usage numbers for ChatGPT continue to skyrocket. It’s a superb piece of commentary, and something I expect I’ll be thinking about for a long time to come. Nilay’s core idea is that people afflicted with “software brain” - who see the world as something to be automated as much as possible, and attempt to model everything in terms of information flows and
+
+[6] DeepSeek V4 - almost on the frontier, a fraction of the price
+Source: Simon Willison's Blog
+Link: https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything
+Text: Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December. They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash. Both models are 1 million token context Mixture of Experts. Pro is 1.6T total parameters, 49B active. Flash is 284B total, 13B active. They're using the standard MIT license. I think this makes DeepSeek-V4-Pro the new largest open weights model. It's larger than Kimi K2.
+
+[7] Millisecond Converter
+Source: Simon Willison's Blog
+Link: https://simonwillison.net/2026/Apr/24/milliseconds/#atom-everything
+Text: Tool: Millisecond Converter     LLM reports prompt durations in milliseconds and I got fed up of having to think about how to convert those to seconds and minutes.              Tags: tools
+
+[8] It's a big one
+Source: Simon Willison's Blog
+Link: https://simonwillison.net/2026/Apr/24/weekly/#atom-everything
+Text: This week's edition of my email newsletter (aka content from this blog delivered to your inbox) features 4 pelicans riding bicycles, 1 possum on an e-scooter, up to 5 raccoons with ham radios hiding in crowds, 5 blog posts, 8 links, 3 quotes and a new chapter of my Agentic Engineering Patterns guide.      Tags: newsletter
+
+==== 💻 技术动态 ====
+[1] 一行命令让 Claude Code 自己管项目
+Source: V2EX - 技术
+Link: https://www.v2ex.com/t/1208160#reply7
+Text: 之前在 V2EX 发过几次帖子分享我在开发开源项目 Chorus，一个给 Claude Code 用的 Harness 时的经验和教训。简单说就是让 Agent 不只是写代码，而是自己管整个项目：领需求、出方案、拆任务、写代码、提交审查，从 Idea 到交付走完一条流水线。中间有独立的 Reviewer Agent 自动审方案和代码，审不过打回重做，不用你盯着，把我们从无限的 Agent Review 地狱里解救出来。 上次发帖之后老哥们反应挺热烈，Issues 里提了不少实际问题。有说装 Docker 门槛太高的，有说生成的文档导不出来没法给客户看的，有说 Onboarding 走一半卡住了的。我挨个看了，这次 v0.6.6 基本都回应了。 最大的变化现在一行命令就能启动： npx @chorus-aidlc/chorus   跑完打开 http://localhost:8637 配合 Claude Code 插件就能用，不用配数据库，不用写 compose 文件。全栈纯 JS 实现，macOS 和 Linux 都能直接跑。 另外根据 Issue 里的反馈加了文档导出，Markdow
+
+[2] 安卓哪个品牌适合做开发机？
+Source: V2EX - 技术
+Link: https://www.v2ex.com/t/1208678#reply19
+Text: 想买个开发机，目前已经有了华为、oppo 、三星、小米。 想再买一个其他品牌的。 主要做海外市场。realme 、vivo 、一加哪个好？还有其他推荐吗？
+
+[3] [内测邀请] 做了个临时文件分享工具，无需注册登录，完全免费，最大支持 2GB 文件分享，不支持 Safari
+Source: V2EX - 技术
+Link: https://www.v2ex.com/t/1208698#reply2
+Text: RT ，平时临时传文件，非常不方便，就想着干脆做一个工具，功能不多： 上传文件 → 直接给你一个下载链接 链接默认有有效期（最长 7 天） 单文件最大 2GB 传输是加密的 不需要注册 基本思路就是： 不用管理、不存历史、不搞空间概念，用完就走。 目前我自己用下来还行，但也可能只是“自我感觉良好”，所以想请大家帮忙试试： 上传速度、稳定性怎么样（特别是国内的访问速度，由于服务器是在国外） 下载体验顺不顺 有没有什么明显缺的东西 地址： https://aura-share-beta.vercel.app/
+
+[4] 第一次发帖，记录一下 claude code 被封禁经过
+Source: V2EX - 技术
+Link: https://www.v2ex.com/t/1208691#reply10
+Text: 本人 claude 账号注册很久了，从 3.5 就开始用，一直开 pro 计划在用，今天升级 max 计划，刚消费完 125 刀，触发 KYC ，然后找小黄鱼代过 KYC ，直接封禁，目前正在申请 apple 退款，也不知道能不能把我的 125 刀退还。 近期不建议大家动 claude 计划 收到邮件如下： Hello, Our automated systems detected a high volume of signals associated with your account which violate our Usage Policy. These signals were, in turn, reviewed by our team to validate our system’s findings. As a result, we have revoked your access to Claude. To appeal our decision, please fill out this form or learn more about the appeals pr
+
+[5] 关于视觉调教方面，国内安卓怎么和苹果差距这么多
+Source: V2EX - 技术
+Link: https://www.v2ex.com/t/1208666#reply24
+Text: PS：为了能找个替换当前苹果的方案，走遍各品牌手机旗舰店，看遍各种旗舰机型，然后发现接触了 IOS 的审美后，不知道为啥很难接受住国产的调教 期间去看了荣耀，华为，小米，vivo ，oppo ，一加，三星等机型发现一个致命的令我很不爽的点，就是视觉方面的 具体情况就是打开个常用的 APP ，譬如，今日头条，抖音，微博  1.   很统一严重的情况就是对比度特别大，白色的字体亮的刺眼，刺眼到 UI 界面，字体边缘和图片感觉不是同一个维度的东西，很跳跃  2.   然后字体布局有粗有大有小，整体比例调整就是没有 IOS 布局得那么和谐舒服  3.   图片视频显示方面，像那种国产 2000 元近距离看的电视一样，说好听点是通透，不好听的就是像 AI 过的一样，边缘很锐利，然后又确实细腻的细节，完全和苹果不是一个档次  查看期间，其实我也关闭掉很多关于手机加强图片视频效果的功能，包括只显示原色，以及更换系统字体大小等功能，但是还是发现解决不了问题，期间，安卓这边勉强小米和三星，接近苹果的，三星手机做工以及审美还是国际在线的 同时我想问下，国内的调教这么恶心，国际版的安卓品牌，比如三星，谷歌，
+
+[6] [开源] Patch Courier： Email 进来， Codex 在你的 Mac 上干活
+Source: V2EX - 技术
+Link: https://www.v2ex.com/t/1208699#reply2
+Text: 最近在做一个本地优先的小工具 Patch Courier ，想解决一个很具体的问题： 人不在电脑前时，能不能继续把任务发给自己 Mac 上的 Codex 去跑，但仓库、凭据、审批和执行策略都留在本地。 TL;DR：这是一个 Email -&gt; 本机 Codex -&gt; Email 的 macOS daemon + console 。 现在的做法是：  收到可信发件人的邮件后，把一个 mail thread 尽量映射到一个 Codex thread 真正执行还是走本机 codex app-server 审批、补充信息、完成结果继续通过邮件往返 macOS app 负责看 threads / turns / approvals / mailbox health 状态持久化到 SQLite ，邮箱密码放 Keychain  我为什么做这个，而不是直接上云端 Agent：  有些代码库和 provider 凭据我不想交给第三方服务 Email 很适合做异步审批、结果通知和审计留痕 daemon 持有状态，UI 重启后线程和 approval 不会丢  当前已经跑通：  IMAP / S
+
+[7] glm5.1， kimi2.6， minimax2.7， mimo v2.5， deepseek v4，编程能力上的排名如何？
+Source: V2EX - 技术
+Link: https://www.v2ex.com/t/1208616#reply33
+Text: 先抛个砖：GLM5.1 &gt; deepseek v4 &gt; minimax2.7 ≥ mimo v2.5 ≈ kimi2.6
+
+[8] 为了买到便宜靠谱的 Token，少被割韭菜，我做了个比价的网站
+Source: V2EX - 技术
+Link: https://www.v2ex.com/t/1208476#reply67
+Text: 最近在开发一个小项目，想买几个 ChatGPT 账号。但是在多个卡网和电报群里转了几圈，发现同一种类型的账号，比如 ChatGPT plus 月卡，就有 N 多种价格。有的几块钱，有的卖 15 ，有的卖 30 ，有的卖 40.后来我才知道，这些店铺和卖家的来源其实就是那么几种：86 、chong 、xin 、74 这些。他们都是加价后转卖的。所以，为了尽快找到相对靠谱的渠道，少花几块钱，减少决策成本，我就做了个比价的网站，把多个平台的价格放在一起，快速对比。目前收录了二十多个店铺+平台。如果您有靠谱的渠道，也欢迎在网站提交、加电报群交流。网址： https://aibijia.org/电报： https://t.me/+z4dDCVFqx71jYTFlhttps://imgur.com/HsPagPwhttps://imgur.com/G1BpVjahttps://imgur.com/sv5WecNhttps://imgur.com/ZsaKz2Thttps://imgur.com/HOwgRot
+
+[9] kimi 订阅的 4x kimi code 指的是 kimi code 平台的 4 倍还是全平台 4 倍？
+Source: V2EX - 技术
+Link: https://www.v2ex.com/t/1208658#reply9
+Text: 我看他们也支持其他编程平台，准备买个 4.6 给 CC 用。
+
+[10] 什么成品企业级 NAS 方便维修？
+Source: V2EX - 技术
+Link: https://www.v2ex.com/t/1208529#reply53
+Text: 前情提要： https://www.v2ex.com/t/1200956#电脑装好开机了，我有事就提前离开了，群晖系统镜像刚下到 Windows 上面。电脑关机关了两周（后面没关），接的 ups ，ups 接的三孔，两周没断电今天再点亮，表现出主板带电情况：点一下电源键，电源和 cpu 风扇转一下就不转了。然后经历漫长的放电操作，把电源线搞坏了：插上后（主机的电源侧）能听见电流声，风扇也不转了出电流声之前的期间成功点亮进入了 BIOS 界面，但是把电脑竖放起来就黑屏了，风扇也不转了。买了根电源线去尝试，新电源线不至于走一次放电操作从而风扇不转了。随后又是漫长的放电过程，也没放掉电，仍表现出主板带电。老板也没耐心了，想买成品 nas 了，当简单的沉没成本的。放电过程：拔掉电源线，关掉电源（主机侧），扣下电池和内存条，用电池（侧边）/钥匙/螺丝刀划电池槽的金属片（含短接相连），按住开机键几秒，放上电池和单根内存条，再按几秒开机键。插上电源线，打开开关，启动。买成品 Nas 有个问题：买到成品 Nas 也出静电问题怎么办，维修肯定比台式机难，这是个大难题。Nas 需求：4-6 盘位，自动从
+
+==== ⭐ GitHub Trends ====
+[1] mattpocock/skills
+Source: GitHub Trends
+Link: https://github.com/mattpocock/skills
+Text: GitHub trending repository
+
+[2] Alishahryar1/free-claude-code
+Source: GitHub Trends
+Link: https://github.com/Alishahryar1/free-claude-code
+Text: GitHub trending repository
+
+[3] Z4nzu/hackingtool
+Source: GitHub Trends
+Link: https://github.com/Z4nzu/hackingtool
+Text: GitHub trending repository
+
+[4] abhigyanpatwari/GitNexus
+Source: GitHub Trends
+Link: https://github.com/abhigyanpatwari/GitNexus
+Text: GitHub trending repository
+
+[5] PostHog/posthog
+Source: GitHub Trends
+Link: https://github.com/PostHog/posthog
+Text: GitHub trending repository
+
+[6] microsoft/typescript-go
+Source: GitHub Trends
+Link: https://github.com/microsoft/typescript-go
+Text: GitHub trending repository
+
+[7] trycua/cua
+Source: GitHub Trends
+Link: https://github.com/trycua/cua
+Text: GitHub trending repository
+
+[8] gastownhall/beads
+Source: GitHub Trends
+Link: https://github.com/gastownhall/beads
+Text: GitHub trending repository
+
+[9] curl/curl
+Source: GitHub Trends
+Link: https://github.com/curl/curl
+Text: GitHub trending repository
+
+[10] home-assistant/core
+Source: GitHub Trends
+Link: https://github.com/home-assistant/core
+Text: GitHub trending repository
+
+==== 🔥 Product Hunt ====
+[1] Claude Connectors
+Source: Product Hunt
+Link: https://www.producthunt.com/products/claude-connectors
+Text: New connectors in Claude for everyday life                                   Discussion             |             Link
+
+[2] GPT-5.5 by OpenAI
+Source: Product Hunt
+Link: https://www.producthunt.com/products/openai
+Text: OpenAI's smartest and most intuitive to use model yet                                   Discussion             |             Link
+
+[3] Edgee Team
+Source: Product Hunt
+Link: https://www.producthunt.com/products/edgee
+Text: Strava for your coding assistants                                   Discussion             |             Link
+
+[4] Pica
+Source: Product Hunt
+Link: https://www.producthunt.com/products/pica
+Text: Fully native app for managing your fonts on MacOS                                   Discussion             |             Link
+
+[5] QuickCompare by Trismik
+Source: Product Hunt
+Link: https://www.producthunt.com/products/quickcompare-by-trismik
+Text: Compare LLMs on your data, measure, and pick the best.                                   Discussion             |             Link
+
+[6] Inrō AI
+Source: Product Hunt
+Link: https://www.producthunt.com/products/inro
+Text: Your AI Agent for Instagram Marketing                                   Discussion             |             Link
+
+[7] Clawdi
+Source: Product Hunt
+Link: https://www.producthunt.com/products/clawdi
+Text: Best home for all AI agents                                   Discussion             |             Link
+
+[8] MiMo-V2.5 Voice
+Source: Product Hunt
+Link: https://www.producthunt.com/products/mimo-v2-5-voice
+Text: Bilingual ASR for dialects, code-switching, and songs                                   Discussion             |             Link
+
+[9] Euphony
+Source: Product Hunt
+Link: https://www.producthunt.com/products/euphony-2
+Text: Render AI chat data and Codex logs into browsable views                                   Discussion             |             Link
+
+[10] Grok Voice Think Fast 1.0
+Source: Product Hunt
+Link: https://www.producthunt.com/products/grok-voice-think-fast-1-0
+Text: Our most capable voice agent is now available via API                                   Discussion             |             Link
+
+==== 💰 投资理财 ====
+[1] 熊媽入院
+Source: 知足常乐 - 水星投资理财
+Link: https://mercurychong.blogspot.com/2026/04/blog-post_24.html
+Text: 因熊媽出現心臟病的徵兆&amp;心臟檢測有異常，帶她來IJN做了個3天2夜的住院深入檢查。這還是第一次看到病床上的熊媽，比起水星熊自己來住院的時候，反而更能感受到壓力與不安。是哪個瞬間，讓我們突然明白，真的已經長大了。是健檢報告上年復一年，密密麻麻的注意事項；是為現實而低頭，不得不選擇卑躬屈膝的絕望；還是靜靜望著歲月，不留情地沖刷著父母的無力?還在國外打工時的某年返回大馬時，看著父母的背影，他們以前是這麼高大，天塌下來了，他們扛著。而如今他們變得越來越小。退休回來後的某天，水星熊陪熊媽去巴刹。她走在前面，腳步比以前慢了一些。水星熊忽然發現，她過馬路時會左右看得特別久；提著兩袋菜時，手臂會微微顫抖的吃力。在小的時候，總是熊媽牽著水星熊過馬路的。那時候水星熊總覺得，只要抓著她的手，世界就不會出錯。巴刹裡，賣豬肉的阿姨笑著說：「你兒子在外面打拼回來啦?」熊媽笑得很驕傲，語氣卻輕輕的:「是啊，而且他自己很會照顧自己了。」那句話落下的瞬間，水星熊有挺大的感觸。原來長大，不是我們變得多麼厲害。而是有一天，父母開始對別人說:「他長大了，他自己可以了。」回家的路上，水星熊自然地伸手把其中一袋菜接過來。
+
+[2] 習慣幸福
+Source: 知足常乐 - 水星投资理财
+Link: https://mercurychong.blogspot.com/2026/04/blog-post_21.html
+Text: 參觀舊時代的日本住家，水星熊有感，相較以前，我們已經擁有了很多，然而我們依然焦慮，是因為我們已經習慣了自己所有的一切，然後還想要更多。就像水星熊剛從外國回到大馬，早餐又一次吃到nasi lemak的時候，水星熊覺得很開心，甚至忍不住發動態到FB和IG；但過了一個月，水星就覺得這是很自然又很正常的事。就像水星熊剛買第一部車的時候，覺得有車開就是方便很多啊；但過了一個月，水星熊就覺得這是很自然又很正常的事。就像水星熊現在可以和家人同住，不必再搭七小時的飛機看熊媽和見朋友，特別的開心；但過了半年，水星熊就覺得這是很自然又很正常的事。就像水星熊開始在網上寫作之後，最初覺得有很多人看自己的文章，很興奮；但過了半年，水星熊就覺得這是很自然又很正常的事。我們活在諸多巨大的恩典當中，但很快就會習慣。習慣了就會忘卻，然後開始為生活中那些小小的不如意而抱怨。幸福並不在於我們將會擁有什麼，而是在於看見今天的我們擁有什麼。幸福並不是條件，而是能力，是一種能夠感知到周邊美好的能力 😌著作網購鏈接（馬來西亞）：《打工族股息路》著作網購鏈接（新加坡）：《打工族股息路》SG大眾書局網購鏈接 ：大眾書局網購鏈接
+
