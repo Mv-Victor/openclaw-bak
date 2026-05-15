@@ -162,6 +162,97 @@
       "summary": ""
     },
     {
+      "title": "Work with Codex from anywhere",
+      "link": "https://openai.com/index/work-with-codex-from-anywhere",
+      "published": "Thu, 14 May 2026 13:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments."
+    },
+    {
+      "title": "Helping ChatGPT better recognize context in sensitive conversations",
+      "link": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
+      "published": "Thu, 14 May 2026 00:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely."
+    },
+    {
+      "title": "Building a safe, effective sandbox to enable Codex on Windows",
+      "link": "https://openai.com/index/building-codex-windows-sandbox",
+      "published": "Wed, 13 May 2026 11:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions."
+    },
+    {
+      "title": "Our response to the TanStack npm supply chain attack",
+      "link": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
+      "published": "Wed, 13 May 2026 00:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI details its response to the TanStack “Mini Shai-Hulud” supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS users must update OpenAI apps by June 12, 2026. Learn what happened, what was affected, and how OpenAI is strengthening defenses against evolving software supply chain threats."
+    },
+    {
+      "title": "How finance teams use Codex",
+      "link": "https://openai.com/academy/how-finance-teams-use-codex",
+      "published": "Tue, 12 May 2026 15:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs."
+    },
+    {
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "link": "https://openai.com/index/nvidia",
+      "published": "Tue, 12 May 2026 00:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments."
+    },
+    {
+      "title": "What Parameter Golf taught us about AI-assisted research",
+      "link": "https://openai.com/index/what-parameter-golf-taught-us",
+      "published": "Tue, 12 May 2026 00:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints."
+    },
+    {
+      "title": "AutoScout24 scales engineering with AI-powered workflows",
+      "link": "https://openai.com/index/autoscout24",
+      "published": "Tue, 12 May 2026 00:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption."
+    },
+    {
+      "title": "How ChatGPT adoption broadened in early 2026",
+      "link": "https://openai.com/signals/research/2026q1-update",
+      "published": "Mon, 11 May 2026 15:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption."
+    },
+    {
+      "title": "OpenAI Campus Network: Student club interest form",
+      "link": "https://openai.com/index/openai-campus-network-student-club-interest-form",
+      "published": "Mon, 11 May 2026 10:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community."
+    },
+    {
+      "title": "How enterprises are scaling AI",
+      "link": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
+      "published": "Mon, 11 May 2026 10:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale."
+    },
+    {
+      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+      "link": "https://openai.com/index/openai-launches-the-deployment-company",
+      "published": "Mon, 11 May 2026 06:00:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact."
+    },
+    {
+      "title": "Running Codex safely at OpenAI",
+      "link": "https://openai.com/index/running-codex-safely",
+      "published": "Fri, 08 May 2026 12:30:00 GMT",
+      "source": "OpenAI Blog",
+      "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption."
+    },
+    {
       "title": "The new AI-powered Google Finance is expanding to Europe.",
       "link": "https://blog.google/products-and-platforms/products/search/ai-powered-google-finance-in-europe/",
       "published": "Mon, 11 May 2026 06:00:00 +0000",
@@ -874,250 +965,26 @@
       "published": "Thu, 14 May 2026 00:00:00 -0400",
       "source": "arXiv Machine Learning",
       "summary": "arXiv:2605.12843v1 Announce Type: new \nAbstract: Model merging aims to combine multiple task-specific expert models into a single model without joint retraining, offering a practical alternative to multi-task learning when data access or computational budget is limited. Existing methods, however, face two key limitations: (1) they overlook the valuable inductive bias of strong anchor models and estimate the merged weights from scratch, and (2) they rely on a shared hyperparameter setting across "
-    },
-    {
-      "title": "Work with Codex from anywhere",
-      "link": "https://openai.com/index/work-with-codex-from-anywhere",
-      "published": "Thu, 14 May 2026 13:00:00 GMT",
-      "source": "OpenAI Blog",
-      "summary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments."
-    },
-    {
-      "title": "Helping ChatGPT better recognize context in sensitive conversations",
-      "link": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
-      "published": "Thu, 14 May 2026 00:00:00 GMT",
-      "source": "OpenAI Blog",
-      "summary": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely."
-    },
-    {
-      "title": "Building a safe, effective sandbox to enable Codex on Windows",
-      "link": "https://openai.com/index/building-codex-windows-sandbox",
-      "published": "Wed, 13 May 2026 11:00:00 GMT",
-      "source": "OpenAI Blog",
-      "summary": "Learn how OpenAI built a secure sandbox for Codex on Windows, enabling safe, efficient coding agents with controlled file access and network restrictions."
-    },
-    {
-      "title": "Our response to the TanStack npm supply chain attack",
-      "link": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
-      "published": "Wed, 13 May 2026 00:00:00 GMT",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI details its response to the TanStack “Mini Shai-Hulud” supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS users must update OpenAI apps by June 12, 2026. Learn what happened, what was affected, and how OpenAI is strengthening defenses against evolving software supply chain threats."
-    },
-    {
-      "title": "How finance teams use Codex",
-      "link": "https://openai.com/academy/how-finance-teams-use-codex",
-      "published": "Tue, 12 May 2026 15:00:00 GMT",
-      "source": "OpenAI Blog",
-      "summary": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs."
-    },
-    {
-      "title": "How NVIDIA engineers and researchers build with Codex",
-      "link": "https://openai.com/index/nvidia",
-      "published": "Tue, 12 May 2026 00:00:00 GMT",
-      "source": "OpenAI Blog",
-      "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments."
-    },
-    {
-      "title": "What Parameter Golf taught us about AI-assisted research",
-      "link": "https://openai.com/index/what-parameter-golf-taught-us",
-      "published": "Tue, 12 May 2026 00:00:00 GMT",
-      "source": "OpenAI Blog",
-      "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints."
-    },
-    {
-      "title": "AutoScout24 scales engineering with AI-powered workflows",
-      "link": "https://openai.com/index/autoscout24",
-      "published": "Tue, 12 May 2026 00:00:00 GMT",
-      "source": "OpenAI Blog",
-      "summary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption."
-    },
-    {
-      "title": "How ChatGPT adoption broadened in early 2026",
-      "link": "https://openai.com/signals/research/2026q1-update",
-      "published": "Mon, 11 May 2026 15:00:00 GMT",
-      "source": "OpenAI Blog",
-      "summary": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption."
-    },
-    {
-      "title": "OpenAI Campus Network: Student club interest form",
-      "link": "https://openai.com/index/openai-campus-network-student-club-interest-form",
-      "published": "Mon, 11 May 2026 10:00:00 GMT",
-      "source": "OpenAI Blog",
-      "summary": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community."
-    },
-    {
-      "title": "How enterprises are scaling AI",
-      "link": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
-      "published": "Mon, 11 May 2026 10:00:00 GMT",
-      "source": "OpenAI Blog",
-      "summary": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale."
-    },
-    {
-      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
-      "link": "https://openai.com/index/openai-launches-the-deployment-company",
-      "published": "Mon, 11 May 2026 06:00:00 GMT",
-      "source": "OpenAI Blog",
-      "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact."
-    },
-    {
-      "title": "Running Codex safely at OpenAI",
-      "link": "https://openai.com/index/running-codex-safely",
-      "published": "Fri, 08 May 2026 12:30:00 GMT",
-      "source": "OpenAI Blog",
-      "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption."
     }
   ],
   "🌐 Tech Communities": [
     {
-      "title": "Elevated error rates on Opus 4.7",
-      "link": "https://status.claude.com/incidents/8z7l5zcy0v3b",
-      "published": "Fri, 15 May 2026 00:22:53 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: https://status.claude.com/incidents/8z7l5zcy0v3b\nComments URL: https://news.ycombinator.com/item?id=48142964\nPoints: 10\n# Comments: 8"
-    },
-    {
-      "title": "Have a Coherent AI Policy",
-      "link": "https://brianmeeker.me/2026/05/14/have-a-coherent-ai-policy/",
-      "published": "Thu, 14 May 2026 23:24:45 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: https://brianmeeker.me/2026/05/14/have-a-coherent-ai-policy/\nComments URL: https://news.ycombinator.com/item?id=48142553\nPoints: 21\n# Comments: 8"
-    },
-    {
-      "title": "ICLR 2026 – Institutional Affiliations Dataset and Analysis",
-      "link": "https://github.com/DmytroLopushanskyy/iclr2026-affiliations",
-      "published": "Thu, 14 May 2026 22:50:48 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: https://github.com/DmytroLopushanskyy/iclr2026-affiliations\nComments URL: https://news.ycombinator.com/item?id=48142312\nPoints: 7\n# Comments: 0"
-    },
-    {
-      "title": "More than sixty percent of the United States is experiencing drought conditions",
-      "link": "https://news.vt.edu/articles/2026/05/drought-united-states-la-nina-expert.html",
-      "published": "Thu, 14 May 2026 22:38:18 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: https://news.vt.edu/articles/2026/05/drought-united-states-la-nina-expert.html\nComments URL: https://news.ycombinator.com/item?id=48142193\nPoints: 52\n# Comments: 16"
-    },
-    {
-      "title": "Ontario auditors find doctors' AI note takers routinely blow basic facts",
-      "link": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
-      "published": "Thu, 14 May 2026 22:37:40 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771\nComments URL: https://news.ycombinator.com/item?id=48142188\nPoints: 70\n# Comments: 17"
-    },
-    {
-      "title": "A few words on DS4",
-      "link": "https://antirez.com/news/165",
-      "published": "Thu, 14 May 2026 22:29:12 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: https://antirez.com/news/165\nComments URL: https://news.ycombinator.com/item?id=48142108\nPoints: 94\n# Comments: 29"
-    },
-    {
-      "title": "Show HN: GridTravel- A community based travel app for users to share routes",
-      "link": "https://www.gridtravel.app",
-      "published": "Thu, 14 May 2026 22:05:30 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Hey HN,My co-founders and I have been building GridTravel, a free iOS app for planning and sharing travel routes with turn-by-turn GPS nav. We just launched yesterday after App Store approval.We're three 21-year-old cofounders and best friends since middle school. We built GridTravel after years of frustration navigating new cities on every trip we took together.The idea: most people either search Google for \"top 10 places to visit in…\" lists or go on social media to get inspiration on where to "
-    },
-    {
-      "title": "OVMS: Open source electric vehicle remote monitoring, diagnosis and control",
-      "link": "https://www.openvehicles.com/home",
-      "published": "Thu, 14 May 2026 21:50:17 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: https://www.openvehicles.com/home\nComments URL: https://news.ycombinator.com/item?id=48141732\nPoints: 25\n# Comments: 5"
-    },
-    {
-      "title": "Infracost (YC W21) Is Hiring Sr Dev Advocate to make agents cloud cost-aware",
-      "link": "https://www.ycombinator.com/companies/infracost/jobs/NzwUQ7c-senior-developer-advocate",
-      "published": "Thu, 14 May 2026 21:00:37 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: https://www.ycombinator.com/companies/infracost/jobs/NzwUQ7c-senior-developer-advocate\nComments URL: https://news.ycombinator.com/item?id=48141191\nPoints: 0\n# Comments: 0"
-    },
-    {
-      "title": "Tesla Wall Connector bootloader bypasses the firmware downgrade ratchet",
-      "link": "https://www.synacktiv.com/en/publications/exploiting-the-tesla-wall-connector-from-its-charge-port-connector-part-2-bypassing",
-      "published": "Thu, 14 May 2026 20:41:48 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: https://www.synacktiv.com/en/publications/exploiting-the-tesla-wall-connector-from-its-charge-port-connector-part-2-bypassing\nComments URL: https://news.ycombinator.com/item?id=48140953\nPoints: 54\n# Comments: 14"
-    },
-    {
-      "title": "New arXiv policy: 1-year ban for hallucinated references",
-      "link": "https://twitter.com/tdietterich/status/2055000956144935055",
-      "published": "Thu, 14 May 2026 20:39:12 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: https://twitter.com/tdietterich/status/2055000956144935055\nComments URL: https://news.ycombinator.com/item?id=48140922\nPoints: 237\n# Comments: 77"
-    },
-    {
-      "title": "Amazonbot is finally respecting robots.txt",
-      "link": "https://xeiaso.net/notes/2026/amazonbot-respecting-robots-txt/",
-      "published": "Thu, 14 May 2026 20:22:35 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: https://xeiaso.net/notes/2026/amazonbot-respecting-robots-txt/\nComments URL: https://news.ycombinator.com/item?id=48140730\nPoints: 129\n# Comments: 26"
-    },
-    {
-      "title": "RISC-V Router",
-      "link": "https://router.start9.com/",
-      "published": "Thu, 14 May 2026 20:06:53 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: https://router.start9.com/\nComments URL: https://news.ycombinator.com/item?id=48140541\nPoints: 57\n# Comments: 31"
-    },
-    {
-      "title": "Codex is now in the ChatGPT mobile app",
-      "link": "https://openai.com/index/work-with-codex-from-anywhere/",
-      "published": "Thu, 14 May 2026 20:06:14 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: https://openai.com/index/work-with-codex-from-anywhere/\nComments URL: https://news.ycombinator.com/item?id=48140529\nPoints: 146\n# Comments: 63"
-    },
-    {
-      "title": "The Power of a Free Popsicle (2018)",
-      "link": "https://www.gsb.stanford.edu/insights/power-free-popsicle",
-      "published": "Thu, 14 May 2026 18:33:47 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: https://www.gsb.stanford.edu/insights/power-free-popsicle\nComments URL: https://news.ycombinator.com/item?id=48139316\nPoints: 65\n# Comments: 26"
-    },
-    {
-      "title": "First public macOS kernel memory corruption exploit on Apple M5",
-      "link": "https://blog.calif.io/p/first-public-kernel-memory-corruption",
-      "published": "Thu, 14 May 2026 18:25:09 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: https://blog.calif.io/p/first-public-kernel-memory-corruption\nComments URL: https://news.ycombinator.com/item?id=48139219\nPoints: 233\n# Comments: 41"
-    },
-    {
-      "title": "AI is making me dumb",
-      "link": "https://jpain.io/god-damn-ai-is-making-me-dumb/",
-      "published": "Thu, 14 May 2026 18:19:28 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: https://jpain.io/god-damn-ai-is-making-me-dumb/\nComments URL: https://news.ycombinator.com/item?id=48139148\nPoints: 407\n# Comments: 246"
-    },
-    {
-      "title": "DIY open-source ultrasound hardware on the rp2040/rp2350",
-      "link": "http://un0rick.cc/pic0rick",
-      "published": "Thu, 14 May 2026 18:01:17 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: http://un0rick.cc/pic0rick\nComments URL: https://news.ycombinator.com/item?id=48138913\nPoints: 49\n# Comments: 4"
-    },
-    {
-      "title": "What's in a GGUF, besides the weights – and what's still missing?",
-      "link": "https://nobodywho.ooo/posts/whats-in-a-gguf/",
-      "published": "Thu, 14 May 2026 17:21:49 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: https://nobodywho.ooo/posts/whats-in-a-gguf/\nComments URL: https://news.ycombinator.com/item?id=48138332\nPoints: 82\n# Comments: 38"
-    },
-    {
-      "title": "New Nginx Exploit",
-      "link": "https://github.com/DepthFirstDisclosures/Nginx-Rift",
-      "published": "Thu, 14 May 2026 17:17:48 +0000",
-      "source": "Hacker News Front Page",
-      "summary": "Article URL: https://github.com/DepthFirstDisclosures/Nginx-Rift\nComments URL: https://news.ycombinator.com/item?id=48138268\nPoints: 280\n# Comments: 62"
-    },
-    {
       "title": "天塌了，数据库被黑客删库了，交 BTC 才会恢复数据，大家有办法恢复数据么",
-      "link": "https://www.v2ex.com/t/1212822#reply20",
+      "link": "https://www.v2ex.com/t/1212822#reply23",
       "published": "2026-05-14T16:24:42Z",
       "source": "V2EX - 技术",
       "summary": "有大佬知道黑客 是怎么拿到我的数据库权限么，无限密码重试爆破？\n感觉我的密码也没有很简单 英文+数据 总共 9 位\n服务器没有被攻击进去，看着比较干净，应该就是拿到了数据库的 root 权限\n大佬们有没有经历过，怎么恢复数据？\n\n\n\n\n\n附录：黑客留言 (原英文 翻译为了 中文)\n尊敬的先生/女士：\n希望您一切安好。\n我们想通知您，我们已备份了您的数据库/表。\n备份数据将保留 30 天，之后将\n公开并\n从我们的服务器上永久删除。\n我们提供两种方案：\n方案一：恢复服务 + 数据泄露保护\n如果您需要恢复损坏的\n或不完整的数据库/表，并且\n希望防止数据泄露，只需将\n0.016 BTC 转账至以下地址：\n1JZ2CThkSrLs2owuQF7Y4UpjUPfuiEKwDd\n此地址已分配给您的\n数据库凭证（主机 + 用户：\nxxxxxx + root ）。\n我们会收到您的付款通知。\n付款确认后，我们的\n程序将自动恢复所有\n数据库/表，因此\n请勿更改您的数据库\n登录信息，并确保\n数据库仍然可以从\n本地网络外部访问。\n请放心，您的所有数据库和\n表都将被恢复。（如果\n恢复失败，当前字段将被\n修改，并提"
     },
     {
+      "title": "Gemini 要重新做教育认证了，之前薅了谷歌的羊毛的，谷歌喊你们 5.28 前做教育认证了",
+      "link": "https://www.v2ex.com/t/1212849#reply1",
+      "published": "2026-05-15T01:02:35Z",
+      "source": "V2EX - 技术",
+      "summary": "To continue enjoying your Google AI student trial benefits, including extra storage and access to higher Gemini app limits, you need to re-verify your student status. \nPlease complete the re-verification process by May 28, 2026. If you don't re-verify by this date, your student trial will end and you'll lose access to these benefits.\nThis process helps us ensure that eligible students can continue to access their Google AI plan benefits.\nThank you\n— The Google One team"
+    },
+    {
       "title": "第一方 Codex Mobile 终于推出了",
-      "link": "https://www.v2ex.com/t/1212832#reply12",
+      "link": "https://www.v2ex.com/t/1212832#reply13",
       "published": "2026-05-14T21:31:49Z",
       "source": "V2EX - 技术",
       "summary": "https://x.com/openai/status/2055016850849993072集成在 ChatGPT 里而不是作为一个单独的应用电脑端更新一下直接配对很丝滑多了一个不选择 Claude 的理由"
@@ -1152,17 +1019,24 @@
     },
     {
       "title": "claude code 这类工具这么实现全自动化完成需求？",
-      "link": "https://www.v2ex.com/t/1212819#reply4",
+      "link": "https://www.v2ex.com/t/1212819#reply5",
       "published": "2026-05-14T16:08:57Z",
       "source": "V2EX - 技术",
       "summary": "最近终于开始用 AI 了，试用了 DeepSeek 配合 Claude Code ，高强度折腾了三天。前两天还觉得很新鲜，十几个小时守在电脑前，等它解决问题，按照它的要求帮忙测试代码、处理权限弹窗。到了第三天，已经烦不胜烦，感觉自己才是真正的“人工 Agent”——既是测试工程师，又是权限审批员。如何解决这个问题？怎样才能让 Claude Code 实现真正的全自动化：自己思考方案、自己写代码、自己测试、自己查看日志，并拥有完整权限，而不是不断把人类拉进执行链路里。"
     },
     {
       "title": "Bun 用 Rust 重写的 PR 已合并到主分支",
-      "link": "https://www.v2ex.com/t/1212789#reply28",
+      "link": "https://www.v2ex.com/t/1212789#reply29",
       "published": "2026-05-14T12:12:10Z",
       "source": "V2EX - 技术",
       "summary": "Rewrite Bun in Rust #30412https://github.com/oven-sh/bun/pull/30412"
+    },
+    {
+      "title": "Harness 工程分享：我们怎么把 LLM Agent 的 prompt cache 命中率做到 90%+（附 4 家 Agent 横评数据）",
+      "link": "https://www.v2ex.com/t/1212780#reply6",
+      "published": "2026-05-14T11:25:55Z",
+      "source": "V2EX - 技术",
+      "summary": "接上一篇 https://v2ex.com/t/1211434 很多朋友好奇我们的工程实践，我把这二年的坑和 Ruby 重写的思考放出来，大家一起看看离 ClaudeCode 这种顶级 Harness 工程还有多远。\n开篇\n为了让新朋友重新了解一下我们的评测结果，我再列一下。\n成本极优：3 项任务实测，4 家 Agent 横评，OpenRouter CSV 逐请求核算：\n\n\n\nAgent\n总成本\n请求数\nCache 命中率\n\n\n\n\nOpenClacky\n$5.10\n51\n90.6%\n\n\nClaude Code\n$5.49\n70\n95.2%\n\n\nOpenClaw\n$15.70\n81\n88.7%\n\n\nHermes\n$30.14\n218\n60.3%\n\n\n完整数据和产物对比：openclacky.com/benchmark\n51 个请求 + 90.6% 命中率 → $5.10 。218 个请求 + 60.3% 命中率 → $30.14 。成本差距的直接原因就两个：请求数和 cache 命中率。\n不要忘了，OpenClacky 是一个全功能 Agent：WebUI + 命令行、长期记忆、Skil"
     },
     {
       "title": "有哪些方式可以解析 B 站、抖音的视频的文本？",
@@ -1170,13 +1044,6 @@
       "published": "2026-05-14T12:34:19Z",
       "source": "V2EX - 技术",
       "summary": "刷视频的时候经常听到一些醍醐灌顶的观点，但是视频收藏起来之后就很难找到、或者说索引出来。要是能解析成文本保存到笔记中就好了。V 友们，知道有什么效率高、成本低的方案吗？"
-    },
-    {
-      "title": "Harness 工程分享：我们怎么把 LLM Agent 的 prompt cache 命中率做到 90%+（附 4 家 Agent 横评数据）",
-      "link": "https://www.v2ex.com/t/1212780#reply5",
-      "published": "2026-05-14T11:25:55Z",
-      "source": "V2EX - 技术",
-      "summary": "接上一篇 https://v2ex.com/t/1211434 很多朋友好奇我们的工程实践，我把这二年的坑和 Ruby 重写的思考放出来，大家一起看看离 ClaudeCode 这种顶级 Harness 工程还有多远。\n开篇\n为了让新朋友重新了解一下我们的评测结果，我再列一下。\n成本极优：3 项任务实测，4 家 Agent 横评，OpenRouter CSV 逐请求核算：\n\n\n\nAgent\n总成本\n请求数\nCache 命中率\n\n\n\n\nOpenClacky\n$5.10\n51\n90.6%\n\n\nClaude Code\n$5.49\n70\n95.2%\n\n\nOpenClaw\n$15.70\n81\n88.7%\n\n\nHermes\n$30.14\n218\n60.3%\n\n\n完整数据和产物对比：openclacky.com/benchmark\n51 个请求 + 90.6% 命中率 → $5.10 。218 个请求 + 60.3% 命中率 → $30.14 。成本差距的直接原因就两个：请求数和 cache 命中率。\n不要忘了，OpenClacky 是一个全功能 Agent：WebUI + 命令行、长期记忆、Skil"
     },
     {
       "title": "别买阿里 Token Plan [降智严重]",
@@ -1250,7 +1117,7 @@
     },
     {
       "title": "go 打包的二进制程序怎么反编译",
-      "link": "https://www.v2ex.com/t/1212761#reply4",
+      "link": "https://www.v2ex.com/t/1212761#reply5",
       "published": "2026-05-14T09:25:22Z",
       "source": "V2EX - 技术",
       "summary": ""
@@ -1397,7 +1264,7 @@
     },
     {
       "title": "加人们，一加 15/15T 什么价格算好价？",
-      "link": "https://www.v2ex.com/t/1212455#reply13",
+      "link": "https://www.v2ex.com/t/1212455#reply14",
       "published": "2026-05-13T08:14:40Z",
       "source": "V2EX - 技术",
       "summary": "想搞一台玩玩，目前看到最低都是东东，其中一加 15 最低 3199 ，15T 最低 2998 了今天。我这个价格没有任何金币、会员之类的叠加，我也没那些东西，考虑到苹果今年还没出手，感觉还能再低？"
@@ -1452,32 +1319,214 @@
       "summary": "大家好，我是 Feros.ai 的开发者。最近我们公司一直在给企业做 AI voice 解决方案，在和几家公司合作后，我们决定把它开源。\n大部分语音服务都是黑盒，我们希望让语音技术和成本更透明。你可以把 Feros 看作开源版的 Vapi/Retell + n8n/Make。我们的主要客户都在美国，但也很想听听国内开发者的看法。\nFeros.ai 的特点\n\n完全自托管：你掌控数据和流程，不用担心第三方平台收集信息  \nRust 构建语音底层：性能更高、延迟更低  \n支持多种 LLM/TTS/STT 模型：可以随时切换  \n自定义语音 Agent 流程：快速生成客服接听、预约、FAQ 、调研等场景  \n可集成现有系统：电话系统、Web 界面、自动化工作流都可以接入  \n面向生产环境：不仅是 Demo ，可以直接投入使用  \n\nFeros 非常适合企业或团队快速搭建自己的语音 AI 流程，同时保持灵活性和可扩展性。\n项目地址：https://github.com/ferosai/feros\n如果你也在做语音 AI 或自动化流程，欢迎提问题或交流使用心得，我很乐意一起探讨。"
     },
     {
-      "title": "请问 codex 是在做慈善吗，为什么免费版能用这么久",
-      "link": "https://www.v2ex.com/t/1212516#reply8",
-      "published": "2026-05-13T13:03:30Z",
-      "source": "V2EX - 技术",
-      "summary": "问了五六个会话 + 一个小项目重构，额度还剩 50%。。。。"
+      "title": "Elevated error rates on Opus 4.7",
+      "link": "https://status.claude.com/incidents/8z7l5zcy0v3b",
+      "published": "Fri, 15 May 2026 00:22:53 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://status.claude.com/incidents/8z7l5zcy0v3b\nComments URL: https://news.ycombinator.com/item?id=48142964\nPoints: 16\n# Comments: 13"
+    },
+    {
+      "title": "Have a Coherent AI Policy",
+      "link": "https://brianmeeker.me/2026/05/14/have-a-coherent-ai-policy/",
+      "published": "Thu, 14 May 2026 23:24:45 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://brianmeeker.me/2026/05/14/have-a-coherent-ai-policy/\nComments URL: https://news.ycombinator.com/item?id=48142553\nPoints: 24\n# Comments: 9"
+    },
+    {
+      "title": "More than sixty percent of the United States is experiencing drought conditions",
+      "link": "https://news.vt.edu/articles/2026/05/drought-united-states-la-nina-expert.html",
+      "published": "Thu, 14 May 2026 22:38:18 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://news.vt.edu/articles/2026/05/drought-united-states-la-nina-expert.html\nComments URL: https://news.ycombinator.com/item?id=48142193\nPoints: 60\n# Comments: 21"
+    },
+    {
+      "title": "Ontario auditors find doctors' AI note takers routinely blow basic facts",
+      "link": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
+      "published": "Thu, 14 May 2026 22:37:40 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771\nComments URL: https://news.ycombinator.com/item?id=48142188\nPoints: 76\n# Comments: 20"
+    },
+    {
+      "title": "A few words on DS4",
+      "link": "https://antirez.com/news/165",
+      "published": "Thu, 14 May 2026 22:29:12 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://antirez.com/news/165\nComments URL: https://news.ycombinator.com/item?id=48142108\nPoints: 109\n# Comments: 35"
+    },
+    {
+      "title": "Show HN: GridTravel- A community based travel app for users to share routes",
+      "link": "https://www.gridtravel.app",
+      "published": "Thu, 14 May 2026 22:05:30 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Hey HN,My co-founders and I have been building GridTravel, a free iOS app for planning and sharing travel routes with turn-by-turn GPS nav. We just launched yesterday after App Store approval.We're three 21-year-old cofounders and best friends since middle school. We built GridTravel after years of frustration navigating new cities on every trip we took together.The idea: most people either search Google for \"top 10 places to visit in…\" lists or go on social media to get inspiration on where to "
+    },
+    {
+      "title": "OVMS: Open source electric vehicle remote monitoring, diagnosis and control",
+      "link": "https://www.openvehicles.com/home",
+      "published": "Thu, 14 May 2026 21:50:17 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://www.openvehicles.com/home\nComments URL: https://news.ycombinator.com/item?id=48141732\nPoints: 27\n# Comments: 5"
+    },
+    {
+      "title": "Infracost (YC W21) Is Hiring Sr Dev Advocate to make agents cloud cost-aware",
+      "link": "https://www.ycombinator.com/companies/infracost/jobs/NzwUQ7c-senior-developer-advocate",
+      "published": "Thu, 14 May 2026 21:00:37 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://www.ycombinator.com/companies/infracost/jobs/NzwUQ7c-senior-developer-advocate\nComments URL: https://news.ycombinator.com/item?id=48141191\nPoints: 0\n# Comments: 0"
+    },
+    {
+      "title": "Tesla Wall Connector bootloader bypasses the firmware downgrade ratchet",
+      "link": "https://www.synacktiv.com/en/publications/exploiting-the-tesla-wall-connector-from-its-charge-port-connector-part-2-bypassing",
+      "published": "Thu, 14 May 2026 20:41:48 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://www.synacktiv.com/en/publications/exploiting-the-tesla-wall-connector-from-its-charge-port-connector-part-2-bypassing\nComments URL: https://news.ycombinator.com/item?id=48140953\nPoints: 55\n# Comments: 17"
+    },
+    {
+      "title": "New arXiv policy: 1-year ban for hallucinated references",
+      "link": "https://twitter.com/tdietterich/status/2055000956144935055",
+      "published": "Thu, 14 May 2026 20:39:12 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://twitter.com/tdietterich/status/2055000956144935055\nComments URL: https://news.ycombinator.com/item?id=48140922\nPoints: 243\n# Comments: 80"
+    },
+    {
+      "title": "Amazonbot is finally respecting robots.txt",
+      "link": "https://xeiaso.net/notes/2026/amazonbot-respecting-robots-txt/",
+      "published": "Thu, 14 May 2026 20:22:35 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://xeiaso.net/notes/2026/amazonbot-respecting-robots-txt/\nComments URL: https://news.ycombinator.com/item?id=48140730\nPoints: 132\n# Comments: 26"
+    },
+    {
+      "title": "RISC-V Router",
+      "link": "https://router.start9.com/",
+      "published": "Thu, 14 May 2026 20:06:53 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://router.start9.com/\nComments URL: https://news.ycombinator.com/item?id=48140541\nPoints: 59\n# Comments: 33"
+    },
+    {
+      "title": "Codex is now in the ChatGPT mobile app",
+      "link": "https://openai.com/index/work-with-codex-from-anywhere/",
+      "published": "Thu, 14 May 2026 20:06:14 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://openai.com/index/work-with-codex-from-anywhere/\nComments URL: https://news.ycombinator.com/item?id=48140529\nPoints: 157\n# Comments: 67"
+    },
+    {
+      "title": "The Power of a Free Popsicle (2018)",
+      "link": "https://www.gsb.stanford.edu/insights/power-free-popsicle",
+      "published": "Thu, 14 May 2026 18:33:47 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://www.gsb.stanford.edu/insights/power-free-popsicle\nComments URL: https://news.ycombinator.com/item?id=48139316\nPoints: 66\n# Comments: 26"
+    },
+    {
+      "title": "First public macOS kernel memory corruption exploit on Apple M5",
+      "link": "https://blog.calif.io/p/first-public-kernel-memory-corruption",
+      "published": "Thu, 14 May 2026 18:25:09 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://blog.calif.io/p/first-public-kernel-memory-corruption\nComments URL: https://news.ycombinator.com/item?id=48139219\nPoints: 240\n# Comments: 41"
+    },
+    {
+      "title": "AI is making me dumb",
+      "link": "https://jpain.io/god-damn-ai-is-making-me-dumb/",
+      "published": "Thu, 14 May 2026 18:19:28 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://jpain.io/god-damn-ai-is-making-me-dumb/\nComments URL: https://news.ycombinator.com/item?id=48139148\nPoints: 415\n# Comments: 248"
+    },
+    {
+      "title": "DIY open-source ultrasound hardware on the rp2040/rp2350",
+      "link": "http://un0rick.cc/pic0rick",
+      "published": "Thu, 14 May 2026 18:01:17 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: http://un0rick.cc/pic0rick\nComments URL: https://news.ycombinator.com/item?id=48138913\nPoints: 51\n# Comments: 5"
+    },
+    {
+      "title": "What's in a GGUF, besides the weights – and what's still missing?",
+      "link": "https://nobodywho.ooo/posts/whats-in-a-gguf/",
+      "published": "Thu, 14 May 2026 17:21:49 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://nobodywho.ooo/posts/whats-in-a-gguf/\nComments URL: https://news.ycombinator.com/item?id=48138332\nPoints: 83\n# Comments: 39"
+    },
+    {
+      "title": "New Nginx Exploit",
+      "link": "https://github.com/DepthFirstDisclosures/Nginx-Rift",
+      "published": "Thu, 14 May 2026 17:17:48 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://github.com/DepthFirstDisclosures/Nginx-Rift\nComments URL: https://news.ycombinator.com/item?id=48138268\nPoints: 284\n# Comments: 62"
+    },
+    {
+      "title": "Removing the modem and GPS from my 2024 RAV4 hybrid",
+      "link": "https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4/",
+      "published": "Thu, 14 May 2026 17:08:00 +0000",
+      "source": "Hacker News Front Page",
+      "summary": "Article URL: https://arkadiyt.com/2026/05/13/removing-the-modem-and-gps-from-my-rav4/\nComments URL: https://news.ycombinator.com/item?id=48138136\nPoints: 580\n# Comments: 344"
+    },
+    {
+      "title": "【投票】模型选择求建议：每月20刀选GPT PLUS/team还是OLLAMA PRO",
+      "link": "https://linux.do/t/topic/2179308",
+      "published": "Fri, 15 May 2026 01:08:36 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "佬友们，每个月愿意花费20刀左右在模型上，但是手头现在有两个选择，不知道哪个更合理，希望大家帮忙给点建议\n\n\nGPT PLus系列：20刀/月。正价，或者Teams，或者土区，总之大概20刀左右花费\n优点：能力强，一般花钱不封号，可以长期用\n缺点：模型少，绑定了GPT\n\n\nOllama pro套餐：20刀/月\n优点：开源模型多，多个模型同时opencode用体验不错，dsv4pro，glm-5.1，gemini-3-flash等，基本可以爽用\n缺点：速度看运气，好的时候很快，中国时间下午基本上是竞技场\n\n\n\n\nGPT系列（plus或teams），20刀每月\nOllama pro，20刀每月\n其他\n\n点击以查看投票。\n            1 个帖子 - 1 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "Leetcode每日一题 —— 153. 寻找旋转排序数组中的最小值",
+      "link": "https://linux.do/t/topic/2179302",
+      "published": "Fri, 15 May 2026 01:06:30 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "力扣 LeetCode\n  \n\n  \n    \n\n153. 寻找旋转排序数组中的最小值 - 力扣（LeetCode）\n\n  153. 寻找旋转排序数组中的最小值 - 已知一个长度为 n 的数组，预先按照升序排列，经由 1 到 n 次 旋转 后，得到输入数组。例如，原数组 nums = [0,1,2,4,5,6,7] 在变化后可能得到：\n * 若旋转 4 次，则可以得到 [4,5,6,7,0,1,2]\n * 若旋转 7 次，则可以得到 [0,1,2,4,5,6,7]\n\n注意，数组 [a[0], a[1], a[2], ..., a[n-1]] 旋转一次 的结果为数组 [a[n-1], a[0], a[1], a[2],...\n\n\n  \n\n  \n    \n    \n  \n\n  \n\n\n思路\n变形的二分还是二分。这次二分的目标是找到单调性改变的那个位置。\n另外这翻译还是有点别扭。不如直接说“输入数组是某个长度为n的升序数组旋转[1..n]次的结果”。\n代码\nclass Solution {\n    public int findMin(int[] nums) {\n        int l ="
+    },
+    {
+      "title": "今天周五，明天又可以歇着了，各位周末一般做什么",
+      "link": "https://linux.do/t/topic/2179298",
+      "published": "Fri, 15 May 2026 01:05:36 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "明天还有大佬上班吗！\n休息的亲们一般做什么…\n            8 个帖子 - 7 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "大专非科班，vibe coding 半年后有点迷茫 继续做产品，还是转 AIGC 视频？",
+      "link": "https://linux.do/t/topic/2179296",
+      "published": "Fri, 15 May 2026 01:05:21 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "各位佬友好，先叠个甲，仅代表个人观点，不一定对，主要是最近确实有点迷茫，想听听大家的建议。\n先说下我的情况：\n本人是大专生，非科班，接触 vibe coding 大概半年左右。中间也靠 AI 做过几个比较小众的服务网站，运气还行，赚了一两万。\n按理说能赚到一点钱应该挺开心的，但最近反而越来越焦虑。\n主要是我慢慢发现，vibe coding 这件事本身好像并没有想象中那么改变命运。去年开始，网上很多人都在讲出海 SaaS、独立开发、，动不动就是月入十万、百万美金，靠汇率差赚钱。感觉好像只要会用 AI 写代码，就能做个产品然后开始收美金\n实际感受下来发现这和vibe coding的能力没有任何相关，更多的是营销和产品能力，甚至还需要不菲的运气，感觉是地狱难度\n特别是看到王自如发表的意见：未来是产品经理的天下，因为代码靠AI就能完成\n那我现在继续学 AI 编程、继续做产品，到底是在积累能力，还是在追一个热闹的风口 因为我本身学历不好，也不是计算机专业，毕业后大概率也不可能正儿八经去走传统程序员路线。\n目前我有点想转去学 AIGC 视频制作。\n因为我觉得这个方向虽然上限可能没独立开发那么夸张，"
+    },
+    {
+      "title": "【求助】AutoTeam我现在卡在了邮箱注册这步骤",
+      "link": "https://linux.do/t/topic/2179292",
+      "published": "Fri, 15 May 2026 01:03:32 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "邮箱也搭建完了现在问题就是卡在这块 ，有没有佬可以帮忙看一下\n\n            1 个帖子 - 1 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "开发带定位功能的APP，用uniappX可以吗？怎么选型？",
+      "link": "https://linux.do/t/topic/2179281",
+      "published": "Fri, 15 May 2026 01:01:11 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "想开发一个APP，之前用Uniapp开发过小程序，现在要做APP，涉及定位、相机等功能，甚至可能后台持续定位，用原生开发可能难度有点大，没有这方面的经验，flutter+H5如何？或者uniappX?有大佬对这块比较了解的吗？\n            6 个帖子 - 3 位参与者\n            阅读完整话题"
+    },
+    {
+      "title": "Anthropic 还是这么害怕中国 AI",
+      "link": "https://linux.do/t/topic/2179280",
+      "published": "Fri, 15 May 2026 01:01:06 +0000",
+      "source": "LinuxDo Latest",
+      "summary": "3 个帖子 - 3 位参与者\n            阅读完整话题"
     },
     {
       "title": "好马配好鞍，佬用什么键盘vibe？",
       "link": "https://linux.do/t/topic/2179273",
       "published": "Fri, 15 May 2026 00:59:52 +0000",
       "source": "LinuxDo Latest",
-      "summary": "以前折腾键盘，大大小小七七八八整了十几个，现在就留了这么一个。去掉轴下垫和pet垫，也没那么扰民 。大伙都用什么键盘搭配工位？\n\n            1 个帖子 - 1 位参与者\n            阅读完整话题"
+      "summary": "以前折腾键盘，大大小小七七八八整了十几个，现在就留了这么一个。去掉轴下垫和pet垫，也没那么扰民 。大伙都用什么键盘搭配工位？\n\n            15 个帖子 - 12 位参与者\n            阅读完整话题"
     },
     {
       "title": "mac怎么解决ai总用 dquote这种终端格式命令？",
       "link": "https://linux.do/t/topic/2179255",
       "published": "Fri, 15 May 2026 00:56:37 +0000",
       "source": "LinuxDo Latest",
-      "summary": "windsurf都告诉他了，不要用类似的，但是还会用？\n主要windsurf有时候用这个输入换行一堆代码啥的，他就会卡住中端，不能自动结束终端命令。哪个的大佬知道啊\n            2 个帖子 - 2 位参与者\n            阅读完整话题"
+      "summary": "windsurf都告诉他了，不要用类似的，但是还会用？\n主要windsurf有时候用这个输入换行一堆代码啥的，他就会卡住中端，不能自动结束终端命令。哪个的大佬知道啊\n            3 个帖子 - 3 位参与者\n            阅读完整话题"
     },
     {
       "title": "想自己做一个有意思的小程序玩玩，但是没有思路",
       "link": "https://linux.do/t/topic/2179238",
       "published": "Fri, 15 May 2026 00:54:37 +0000",
       "source": "LinuxDo Latest",
-      "summary": "想自己做一个有意思的小程序玩玩，但是没有思路\n            2 个帖子 - 2 位参与者\n            阅读完整话题"
+      "summary": "想自己做一个有意思的小程序玩玩，但是没有思路\n            3 个帖子 - 3 位参与者\n            阅读完整话题"
     },
     {
       "title": "社会科学预印本网站的幻觉引用率最高",
@@ -1498,7 +1547,7 @@
       "link": "https://linux.do/t/topic/2179230",
       "published": "Fri, 15 May 2026 00:53:23 +0000",
       "source": "LinuxDo Latest",
-      "summary": "首先说明 这台是非工作用 只是个人使用 工作都是公司给啥用啥\n19年国庆 也就是我刚上大一的时候购买的电脑\n型号是机械革命z2air i7-9750H 1650 8+512 后来内存不够加了个16G的内存条\n编辑文字的时候突然想到这是我们家的第一台电脑 有点煽情怎么回事\n马上七年了 最近有换机的想法了 但是碍于内存涨价 整机价格飞涨\n还是等等吧\n七年 不知道各位的第一台电脑都是多久换的\n            7 个帖子 - 6 位参与者\n            阅读完整话题"
+      "summary": "首先说明 这台是非工作用 只是个人使用 工作都是公司给啥用啥\n19年国庆 也就是我刚上大一的时候购买的电脑\n型号是机械革命z2air i7-9750H 1650 8+512 后来内存不够加了个16G的内存条\n编辑文字的时候突然想到这是我们家的第一台电脑 有点煽情怎么回事\n马上七年了 最近有换机的想法了 但是碍于内存涨价 整机价格飞涨\n还是等等吧\n七年 不知道各位的第一台电脑都是多久换的\n            19 个帖子 - 17 位参与者\n            阅读完整话题"
     },
     {
       "title": "Gpt的狂欢结束了吗",
@@ -1540,7 +1589,7 @@
       "link": "https://linux.do/t/topic/2179207",
       "published": "Fri, 15 May 2026 00:48:04 +0000",
       "source": "LinuxDo Latest",
-      "summary": "1、首先去香港肯定是去旅游的。怎么玩？\n2、投资需求？ 怎么办？中间涉及什么流程、后面会遇到什么问题？\n3、购物？ 那些比较好的东西一定要买？等等\n4、其他注意点？\n有大佬能深度将清楚吗？ 或者直接找到人带更好？\n            9 个帖子 - 7 位参与者\n            阅读完整话题"
+      "summary": "1、首先去香港肯定是去旅游的。怎么玩？\n2、投资需求？ 怎么办？中间涉及什么流程、后面会遇到什么问题？\n3、购物？ 那些比较好的东西一定要买？等等\n4、其他注意点？\n有大佬能深度将清楚吗？ 或者直接找到人带更好？\n            10 个帖子 - 8 位参与者\n            阅读完整话题"
     },
     {
       "title": "君の公益 上线codex",
@@ -1575,14 +1624,14 @@
       "link": "https://linux.do/t/topic/2179179",
       "published": "Fri, 15 May 2026 00:43:21 +0000",
       "source": "LinuxDo Latest",
-      "summary": "系统设置里的文稿自动切换，就算关掉之后，它有时候切换应用还是会切换到ABC输入法非常的逆天，如果你尝试手动将ABC输入法删掉，只保留一个中文输入法，你会发现还会有bug\n            7 个帖子 - 5 位参与者\n            阅读完整话题"
+      "summary": "系统设置里的文稿自动切换，就算关掉之后，它有时候切换应用还是会切换到ABC输入法非常的逆天，如果你尝试手动将ABC输入法删掉，只保留一个中文输入法，你会发现还会有bug\n            9 个帖子 - 5 位参与者\n            阅读完整话题"
     },
     {
       "title": "我搭建好了NEW API 可是账号从哪来呢",
       "link": "https://linux.do/t/topic/2179155",
       "published": "Fri, 15 May 2026 00:35:16 +0000",
       "source": "LinuxDo Latest",
-      "summary": "昨晚上搭建好了NEW API\n怎么像CPA那样去注册账号呢\n想注册一些FREE，组成号池 。\n找来找去，发现只有渠道管理\n难不成我应该搭建的是 sub2api ？\n            12 个帖子 - 11 位参与者\n            阅读完整话题"
+      "summary": "昨晚上搭建好了NEW API\n怎么像CPA那样去注册账号呢\n想注册一些FREE，组成号池 。\n找来找去，发现只有渠道管理\n难不成我应该搭建的是 sub2api ？\n            13 个帖子 - 12 位参与者\n            阅读完整话题"
     },
     {
       "title": "不用守电脑：手机端 ChatGPT 解锁 Codex，能实时远程控制 Mac 端 AI 任务",
@@ -1596,7 +1645,7 @@
       "link": "https://linux.do/t/topic/2179153",
       "published": "Fri, 15 May 2026 00:34:12 +0000",
       "source": "LinuxDo Latest",
-      "summary": "佬友们求教，之前申请的谷歌学生身份8月份要到期了，刚收到谷歌的邮件，让继续认证学生身份，请问有佬友做个继续认证么？是什么情况啊？我用之前认证的信息还是重新找个信息认证啊~~求救\n\n            13 个帖子 - 7 位参与者\n            阅读完整话题"
+      "summary": "佬友们求教，之前申请的谷歌学生身份8月份要到期了，刚收到谷歌的邮件，让继续认证学生身份，请问有佬友做个继续认证么？是什么情况啊？我用之前认证的信息还是重新找个信息认证啊~~求救\n\n            15 个帖子 - 9 位参与者\n            阅读完整话题"
     },
     {
       "title": "Openai的试用渠道也拉闸了，天才程序员再次陨落",
@@ -1610,7 +1659,7 @@
       "link": "https://linux.do/t/topic/2179149",
       "published": "Fri, 15 May 2026 00:32:55 +0000",
       "source": "LinuxDo Latest",
-      "summary": "已经好久时间不用这么难了，有好几个Pro的号也一直闲着，不知道优势何在\n            4 个帖子 - 3 位参与者\n            阅读完整话题"
+      "summary": "已经好久时间不用这么难了，有好几个Pro的号也一直闲着，不知道优势何在\n            7 个帖子 - 5 位参与者\n            阅读完整话题"
     },
     {
       "title": "智谱创始人唐杰透露：原生多模态模型将在数月内上线",
@@ -1618,55 +1667,6 @@
       "published": "Fri, 15 May 2026 00:31:49 +0000",
       "source": "LinuxDo Latest",
       "summary": "智谱的原生多模态模型，到底什么时候来？\n最近这个问题，在 X 上被直接推到了智谱创始人、清华大学教授唐杰面前。在今年 1 月的公开活动上，唐杰曾谈到，大模型如何把视觉、声音、触觉等多模态信息统一感知，也就是实现\"原生多模态模型\"，仍然是一个短板。\n现在，他给出的答案是：数月内上线。\n\n唐杰的最新weibo消息及解读：\n说说最近的一些想法吧\n-AI Hacker：今年可能最有可能的突破就是长程任务，就是大模型会根据Agent环境数据学到完成一个很长的任务的能力，这可能也是大模型最有价值的地方。比如一个模型能够不停的寻找软件bug，找到软件存在的漏洞，听起来像是搜索，本质上就是学习一个高级黑客找漏洞的思路和方法，但AI嘛可以不停运行，所以*可能*更快的找到漏洞，然后到HackerOne/BugCrow去领了bug赏金。这听起来是好玩，本质上可能是革了黑客的命。。。黑客都被革命了更不要说普通程序员。。。。\n\n-NPC：在长程任务的基础上，autonomous agent system（AAS）将成为下一个热点。还记得去年提了一个词OPC（one person company），没想到这么快就"
-    },
-    {
-      "title": "Kiro 掉订阅了",
-      "link": "https://linux.do/t/topic/2179131",
-      "published": "Fri, 15 May 2026 00:29:06 +0000",
-      "source": "LinuxDo Latest",
-      "summary": "早上起来看了下 全部掉没了\n\n            6 个帖子 - 4 位参与者\n            阅读完整话题"
-    },
-    {
-      "title": "来台湾了，这边有什么好玩得地方/美食？",
-      "link": "https://linux.do/t/topic/2179129",
-      "published": "Fri, 15 May 2026 00:27:35 +0000",
-      "source": "LinuxDo Latest",
-      "summary": "目前只去了日月潭，还要在这边2个多月才回去，求佬友推荐\n            25 个帖子 - 14 位参与者\n            阅读完整话题"
-    },
-    {
-      "title": "咨询下婚检问题",
-      "link": "https://linux.do/t/topic/2179124",
-      "published": "Fri, 15 May 2026 00:26:14 +0000",
-      "source": "LinuxDo Latest",
-      "summary": "各位佬，想咨询下婚检的问题，大家都是领证前去婚检还是领证后去婚检的呀\n            31 个帖子 - 24 位参与者\n            阅读完整话题"
-    },
-    {
-      "title": "有智谱老套餐变成新套餐的吗，需要私聊交流一下",
-      "link": "https://linux.do/t/topic/2179123",
-      "published": "Fri, 15 May 2026 00:25:52 +0000",
-      "source": "LinuxDo Latest",
-      "summary": "我今天从老套餐变成新套餐，发现了一件奇怪的事，有也变成新套餐的吗？互相交流一下\n            2 个帖子 - 2 位参与者\n            阅读完整话题"
-    },
-    {
-      "title": "如何防止 AI 乱删文件？",
-      "link": "https://linux.do/t/topic/2179121",
-      "published": "Fri, 15 May 2026 00:24:12 +0000",
-      "source": "LinuxDo Latest",
-      "summary": "一、\n为了防止 AI 乱删文件，可以在 CLAUDE.md 里写：\n使用 trash 命令而不是 rm，以便恢复误删文件。\n或者直接：alias rm=‘trash’\n二、\n让 AI 全程走 Git，每次改动前建分支、关键节点 commit，真删错文件直接 checkout 回来。\n            3 个帖子 - 3 位参与者\n            阅读完整话题"
-    },
-    {
-      "title": "日本IP没有免费试用了,我的老天奶",
-      "link": "https://linux.do/t/topic/2179119",
-      "published": "Fri, 15 May 2026 00:23:19 +0000",
-      "source": "LinuxDo Latest",
-      "summary": "日本IP没有免费试用了,我的老天奶，一早上起来发现恐怖的消息\n            2 个帖子 - 2 位参与者\n            阅读完整话题"
-    },
-    {
-      "title": "谷歌学生会员需要重新验证",
-      "link": "https://linux.do/t/topic/2179114",
-      "published": "Fri, 15 May 2026 00:21:44 +0000",
-      "source": "LinuxDo Latest",
-      "summary": "早上起来一看邮箱天塌了，这次是大面积学生会员验证吗，我的3个号好像全需要重新验证\n\n\n            5 个帖子 - 4 位参与者\n            阅读完整话题"
     },
     {
       "title": "LLM Policy for Rust Compiler",
@@ -1813,14 +1813,14 @@
       "link": "https://securityboulevard.com/2026/05/capsule-security-analysis-details-scope-of-vulnerable-ai-agent-attack-surface/",
       "published": "Fri, 15 May 2026 00:51:33 +0000",
       "source": "Hacker News AI",
-      "summary": "Article URL: https://securityboulevard.com/2026/05/capsule-security-analysis-details-scope-of-vulnerable-ai-agent-attack-surface/\nComments URL: https://news.ycombinator.com/item?id=48143167\nPoints: 1\n# Comments: 0"
+      "summary": "Article URL: https://securityboulevard.com/2026/05/capsule-security-analysis-details-scope-of-vulnerable-ai-agent-attack-surface/\nComments URL: https://news.ycombinator.com/item?id=48143167\nPoints: 2\n# Comments: 0"
     },
     {
       "title": "A Private Way to Chat with AI",
       "link": "https://about.fb.com/news/2026/05/incognito-chat-whatsapp-meta-ai/",
       "published": "Fri, 15 May 2026 00:39:47 +0000",
       "source": "Hacker News AI",
-      "summary": "Article URL: https://about.fb.com/news/2026/05/incognito-chat-whatsapp-meta-ai/\nComments URL: https://news.ycombinator.com/item?id=48143091\nPoints: 1\n# Comments: 1"
+      "summary": "Article URL: https://about.fb.com/news/2026/05/incognito-chat-whatsapp-meta-ai/\nComments URL: https://news.ycombinator.com/item?id=48143091\nPoints: 2\n# Comments: 1"
     },
     {
       "title": "AI detected a person in the Blessed Sacrament",
@@ -1848,7 +1848,7 @@
       "link": "https://brianmeeker.me/2026/05/14/have-a-coherent-ai-policy/",
       "published": "Thu, 14 May 2026 23:24:45 +0000",
       "source": "Hacker News AI",
-      "summary": "Article URL: https://brianmeeker.me/2026/05/14/have-a-coherent-ai-policy/\nComments URL: https://news.ycombinator.com/item?id=48142553\nPoints: 21\n# Comments: 8"
+      "summary": "Article URL: https://brianmeeker.me/2026/05/14/have-a-coherent-ai-policy/\nComments URL: https://news.ycombinator.com/item?id=48142553\nPoints: 24\n# Comments: 9"
     },
     {
       "title": "Shareable AI Editable Visualizations",
@@ -1869,7 +1869,7 @@
       "link": "https://www.404media.co/ai-poop-analysis-app-offered-to-sell-me-access-to-its-users-poops/",
       "published": "Thu, 14 May 2026 22:51:02 +0000",
       "source": "Hacker News AI",
-      "summary": "Article URL: https://www.404media.co/ai-poop-analysis-app-offered-to-sell-me-access-to-its-users-poops/\nComments URL: https://news.ycombinator.com/item?id=48142314\nPoints: 4\n# Comments: 0"
+      "summary": "Article URL: https://www.404media.co/ai-poop-analysis-app-offered-to-sell-me-access-to-its-users-poops/\nComments URL: https://news.ycombinator.com/item?id=48142314\nPoints: 5\n# Comments: 0"
     },
     {
       "title": "AI #168: Not Leading the Future",
@@ -1883,7 +1883,7 @@
       "link": "https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771",
       "published": "Thu, 14 May 2026 22:37:40 +0000",
       "source": "Hacker News AI",
-      "summary": "Article URL: https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771\nComments URL: https://news.ycombinator.com/item?id=48142188\nPoints: 72\n# Comments: 19"
+      "summary": "Article URL: https://www.theregister.com/ai-ml/2026/05/14/ontario-auditors-find-doctors-ai-note-takers-routinely-blow-basic-facts/5240771\nComments URL: https://news.ycombinator.com/item?id=48142188\nPoints: 76\n# Comments: 20"
     },
     {
       "title": "10x more AI code is shipping on GitHub today than last year at this same time",
@@ -2203,13 +2203,6 @@
       "summary": "Earn more points on skincare purchases when you use our Sephora coupon."
     },
     {
-      "title": "Mattress Promo Code: 20% Off │May",
-      "link": "https://www.wired.com/story/mattress-firm-coupon/",
-      "published": "Thu, 14 May 2026 05:00:00 +0000",
-      "source": "Wired",
-      "summary": "Use a Mattress Firm promo code to save on top mattresses, score a free adjustable base, and unlock up to $300 in instant credits."
-    },
-    {
       "title": "Birdfy Discount Codes: 15% Off Sitewide",
       "link": "https://www.wired.com/story/birdfy-discount-code/",
       "published": "Thu, 14 May 2026 05:00:00 +0000",
@@ -2238,6 +2231,20 @@
       "summary": "Unlock significant savings on hotels, resorts, and getaways with our verified Hotels.com promo codes and gift card discounts. Plan your perfect trip today!"
     },
     {
+      "title": "Mattress Promo Code: 20% Off │May",
+      "link": "https://www.wired.com/story/mattress-firm-coupon/",
+      "published": "Thu, 14 May 2026 05:00:00 +0000",
+      "source": "Wired",
+      "summary": "Use a Mattress Firm promo code to save on top mattresses, score a free adjustable base, and unlock up to $300 in instant credits."
+    },
+    {
+      "title": "KitchenAid Promo Codes: Save Up to 20%",
+      "link": "https://www.wired.com/story/exclusive-kitchenaid-promo-code/",
+      "published": "Thu, 14 May 2026 05:00:00 +0000",
+      "source": "Wired",
+      "summary": "Save on every purchase with top KitchenAid coupons from WIRED, including up to 20% off countertop appliances."
+    },
+    {
       "title": "Bartesian Discount Codes and Deals: Up to 35% Off",
       "link": "https://www.wired.com/story/bartesian-discount-code/",
       "published": "Thu, 14 May 2026 05:00:00 +0000",
@@ -2250,13 +2257,6 @@
       "published": "Thu, 14 May 2026 05:00:00 +0000",
       "source": "Wired",
       "summary": "Ready to stream award-winning series, hit movies, and exclusive originals? Our comprehensive guide helps you find every active Starz coupon, free trial, and discount code to save big on your subscription this May."
-    },
-    {
-      "title": "Dermstore Promo Codes: 25% Off",
-      "link": "https://www.wired.com/story/dermstore-promo-code/",
-      "published": "Thu, 14 May 2026 05:00:00 +0000",
-      "source": "Wired",
-      "summary": "Score major savings on premium skincare, hair care, and cosmetics with these verified Dermstore discount codes and rewards offers."
     },
     {
       "title": "Tuft & Needle Promo Codes: 30% Off | May 2026",
@@ -2280,13 +2280,6 @@
       "summary": "Save on Petlibro essentials, including automatic feeders, water fountains, and accessories to keep cats and dogs fed, hydrated, and comfortable every day."
     },
     {
-      "title": "KitchenAid Promo Codes: Save Up to 20%",
-      "link": "https://www.wired.com/story/exclusive-kitchenaid-promo-code/",
-      "published": "Thu, 14 May 2026 05:00:00 +0000",
-      "source": "Wired",
-      "summary": "Save on every purchase with top KitchenAid coupons from WIRED, including up to 20% off countertop appliances."
-    },
-    {
       "title": "Sealy Promo Codes: $100 Off",
       "link": "https://www.wired.com/story/sealy-promo-code/",
       "published": "Thu, 14 May 2026 05:00:00 +0000",
@@ -2306,6 +2299,13 @@
       "published": "Thu, 14 May 2026 05:00:00 +0000",
       "source": "Wired",
       "summary": "Enjoy up to 50% off deliveries, free meals, and more with the latest Home Chef coupons."
+    },
+    {
+      "title": "Dermstore Promo Codes: 25% Off",
+      "link": "https://www.wired.com/story/dermstore-promo-code/",
+      "published": "Thu, 14 May 2026 05:00:00 +0000",
+      "source": "Wired",
+      "summary": "Score major savings on premium skincare, hair care, and cosmetics with these verified Dermstore discount codes and rewards offers."
     },
     {
       "title": "Everyone at the Musk v. Altman Trial Is Using Fancy Butt Cushions",
@@ -2439,6 +2439,13 @@
       "published": "Wed, 13 May 2026 05:00:00 +0000",
       "source": "Wired",
       "summary": "Upgrade your gaming setup or PC build for less with these verified Corsair coupon codes, student discounts, and refurbished deals."
+    },
+    {
+      "title": "新型远程控制木马被披露，黑客伪造苹果与雅虎 CDN 域名攻击",
+      "link": "https://www.ithome.com/0/950/689.htm",
+      "published": "Fri, 15 May 2026 00:56:47 GMT",
+      "source": "ITHome",
+      "summary": "IT之家 5 月 15 日消息，网络安全公司 Darktrace 昨日（5 月 14 日）发布博文，报道称有黑客利用伪造的苹果和雅虎 CDN 基础设施，在亚太地区发动长期潜伏攻击。IT之家注：CDN（内容分发网络）本意是把网站内容分发到不同节点，加快访问速度并提升稳定性。攻击者伪造带有品牌色彩的 CDN 域名，就是想让受害者和安全设备误以为流量来自可信服务。攻击者通过 DLL 侧载（DLL sideloading）技术，将模块化远程访问木马隐藏在合法 Windows 进程中，绕过传统黑名单检测。这次攻击具备很强的伪装，攻击者冒充大型科技品牌的 CDN（内容分发网络）基础设施，让流量看起来像正常访问。已观测到的域名包括 yahoo-cdn.it.com 和 icloud-cdn.net，受害系统会先下载合法可执行文件，再拉取对应配置文件与恶意 DLL，从而降低传统拦截规则的命中率。在执行阶段，攻击者大量滥用可信 Windows 程序与 DLL sideloading（动态链接库侧载）。研究人员提到，Microsoft .NET 和 Visual Studio 相关进程，如 dfsvc.e"
     },
     {
       "title": "高温洗烘自清洁：小米米家扫地机器人 5 Pro 水箱版 2117 元、上下水版 2151 元",
@@ -2648,7 +2655,7 @@
       "link": "https://www.ithome.com/0/950/659.htm",
       "published": "Thu, 14 May 2026 23:10:15 GMT",
       "source": "ITHome",
-      "summary": "IT之家 5 月 15 日消息，Razer（雷蛇）北京时间昨晚发布了 2026 款的灵刃 Blade 18 游戏笔记本电脑。这一产品大致延续了 2025 年版本的设计，并在细节上进一步提升表现。具体来看，新款灵刃 18 搭载英特尔酷睿 Ultra 9 处理器 290HX Plus；在所有可选预装内存配置下均支持 DDR5-6400；同时其屏幕峰值亮度从 500nits 升级至 600nits；散热系统的鳍片尺寸从 0.075mm 调整至 0.05mm。此外，灵刃 18 的厚度有所提升，官方给出的大致尺寸数据为 22.79~28.7mm，去年款则是 21.99~27.94mm；不过整机质量还是保持在了 3.2kg 的水平。灵刃 18 的可选独立显卡依旧是 NVIDIA GeForce RTX 5090 / 5080 / 5070 Ti 笔记本电脑 GPU，屏幕 3840×2400 240Hz / 1920×1200 440Hz 双模切换的特色也没有改变。"
+      "summary": "IT之家 5 月 15 日消息，Razer（雷蛇）北京时间昨晚发布了 2026 款的灵刃 Blade 18 游戏笔记本电脑。这一产品大致延续了 2025 年版本的设计，并在细节上进一步提升表现。具体来看，新款灵刃 18 搭载英特尔酷睿 Ultra 9 处理器 290HX Plus；在所有可选预装内存配置下均支持 DDR5-6400；同时其屏幕峰值亮度从 500nits 升级至 600nits；散热系统的鳍片尺寸从 0.075mm 调整至 0.05mm。此外，灵刃 18 的厚度有所提升，官方给出的大致尺寸数据为 22.79~28.7mm，去年款则是 21.99~27.94mm；不过整机质量还是保持在了 3.2kg 的水平。灵刃 18 的可选独立显卡依旧是 NVIDIA GeForce RTX 5090 / 5080 / 5070 Ti 笔记本电脑 GPU，屏幕 3840×2400 240Hz / 1920×1200 440Hz 双模切换的特色也没有改变。该笔记本电脑的配置与定价情况如下：RTX 5070 Ti + 32GB + 1TB：31999 元；RTX 5080 + 32GB + "
     },
     {
       "title": "Xbox 精英手柄 3 谍照曝光：支持 Wi-Fi 6、蓝牙连接，可拆卸充电电池",
@@ -2784,11 +2791,74 @@
       "summary": "IT之家 5 月 14 日消息，英特尔宣布与 F1 传奇车队迈凯伦车队 14 日（今天）宣布达成多年战略合作。根据英特尔今天发布的新闻稿，英特尔将成为迈凯伦 Mastercard 一级方程式车队、Arrow McLaren 印地赛车队和 McLaren F1 Sim Racing 车队的官方计算合作伙伴。这项合作也让英特尔再次与 PC 芯片领域的老对手 AMD 隔空较量，AMD 已经和 AMG 马石油车队合作了 6 年。英特尔在新闻稿中称，F1 赛车是世界上对技术要求最高的体育项目之一。按照合作安排，英特尔工程师将为迈凯伦提供 AI 和高性能架构所需的先进算力，帮助车队保持竞争力。这项新协议意味着，搭载英特尔 Xeon 和 Core Ultra 芯片的系统将参与迈凯伦追求极致赛道表现的过程。F1 工程师每天需要优化大量性能关键型工作负载，工作内容就包含计算流体动力学、空气动力学分析、车辆动力学仿真和比赛策略分析。除了处理实时数据，F1 后方支持计算机还要分析海量赛后数据。用于优化 F1 赛车的计算系统，也正在越来越多地引入 AI 工具、低延迟的短侧计算方案和不同类型的软件平台。据IT之"
     },
     {
-      "title": "蓝色起源月球着陆器全尺寸模拟舱入驻 NASA 航天中心，可供宇航员开展训练",
-      "link": "https://www.ithome.com/0/950/639.htm",
-      "published": "Thu, 14 May 2026 14:52:00 GMT",
-      "source": "ITHome",
-      "summary": "IT之家 5 月 14 日消息，美国国家航空航天局（NASA）的猎户座太空舱训练模拟器坐落于休斯敦约翰逊航天中心的 9 号大楼内。该模拟器是猎户座真实太空舱的全尺寸、高保真复刻模型，阿耳忒弥斯 2 号任务的宇航员正是在这里耗时一年多，为近期的绕月任务开展筹备训练。长期以来，猎户座模拟器一直独自安放在角落，与航天器模拟设施（SVMF）内一字排开的国际空间站训练舱隔离开来。而如今，猎户座终于迎来了“邻居”。据 NASA 发布的消息，蓝色起源公司的蓝月 MK2 型月球着陆器全尺寸模拟舱已在航天器模拟设施内组装完毕，可供宇航员登舱开展训练。该模拟舱紧邻猎户座太空舱，其乘员舱外观与整体构型均复刻了蓝月 MK2 改进型着陆器的设计。若一切按计划推进，这款着陆器未来将搭载阿耳忒弥斯计划宇航员登陆月球。随着蓝色起源着陆器模拟舱在约翰逊航天中心正式落成，宇航员可无缝衔接训练流程：先在猎户座太空舱内训练，再转入蓝月着陆器模拟舱实训，为后续阿耳忒弥斯系列任务做好准备。下一项阿耳忒弥斯 3 号任务能否如期发射，至少取决于有一款月球着陆器具备飞行执行条件。据IT之家了解，蓝月着陆器是 NASA 通过载人着陆系统"
+      "title": "Data readiness for agentic AI in financial services",
+      "link": "https://www.technologyreview.com/2026/05/14/1137034/data-readiness-for-agentic-ai-in-financial-services/",
+      "published": "Thu, 14 May 2026 13:00:00 +0000",
+      "source": "MIT Technology Review",
+      "summary": "Financial services companies have unique needs when it comes to business AI. They operate in one of the most highly regulated sectors while responding to external events that are updated by the second. As a result, the success of agentic AI in financial services depends less on the sophistication of the system and more on&#8230;"
+    },
+    {
+      "title": "Establishing AI and data sovereignty in the age of autonomous systems",
+      "link": "https://www.technologyreview.com/2026/05/14/1137168/establishing-ai-and-data-sovereignty-in-the-age-of-autonomous-systems/",
+      "published": "Thu, 14 May 2026 13:00:00 +0000",
+      "source": "MIT Technology Review",
+      "summary": "When generative AI first moved from research labs into real-world business applications, enterprises made a tacit bargain: “Capability now, control later.” Feed your proprietary data into third-party AI models, and you will get powerful results. But your data passes through systems you do not own, under governance you do not set. The protections you rely&#8230;"
+    },
+    {
+      "title": "The Download: deepfake porn’s stolen bodies and AI sharing private numbers",
+      "link": "https://www.technologyreview.com/2026/05/14/1137257/the-download-deepfake-porn-bodies-ai-exposing-phone-numbers/",
+      "published": "Thu, 14 May 2026 12:10:00 +0000",
+      "source": "MIT Technology Review",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The shock of seeing your body used in deepfake porn When Jennifer got a research job in 2023, she ran her new professional headshot through a facial recognition program. She wanted&#8230;"
+    },
+    {
+      "title": "The Tesla Semi could be a big deal for electric trucking",
+      "link": "https://www.technologyreview.com/2026/05/14/1137197/tesla-semi-electric-trucking/",
+      "published": "Thu, 14 May 2026 10:00:00 +0000",
+      "source": "MIT Technology Review",
+      "summary": "The Tesla Semi has officially arrived. The company recently released a photo of the first vehicle rolling off its new full-scale production line. This moment has been nearly a decade in the making: The company first announced the truck in late 2017. And now we’ve got final battery specs, official prices, and big news about&#8230;"
+    },
+    {
+      "title": "The shock of seeing your body used in deepfake porn",
+      "link": "https://www.technologyreview.com/2026/05/14/1137161/ai-porn-nonconsensual-deepfakes-takedown-piracy-copyright/",
+      "published": "Thu, 14 May 2026 09:00:00 +0000",
+      "source": "MIT Technology Review",
+      "summary": "When Jennifer got a job doing research for a nonprofit in 2023, she ran her new professional headshot through a facial recognition program. She wanted to see if the tech would pull up the porn videos she’d made more than 10 years before, when she was in her early 20s. It did in fact return&#8230;"
+    },
+    {
+      "title": "AI chatbots are giving out people’s real phone numbers",
+      "link": "https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/",
+      "published": "Wed, 13 May 2026 18:09:03 +0000",
+      "source": "MIT Technology Review",
+      "summary": "A Redditor recently wrote that he was “desperate for help”: for about a month, he said, his phone had been inundated by calls from “strangers” who were “looking for a lawyer, a product designer, a locksmith.” Callers were apparently misdirected by Google’s generative AI.&#160; In March, a software developer in Israel was contacted on WhatsApp&#8230;"
+    },
+    {
+      "title": "The Download: making drugs in orbit and NASA’s nuclear-powered spacecraft",
+      "link": "https://www.technologyreview.com/2026/05/13/1137176/the-download-drugs-in-orbit-nasa-nuclear-spacecraft/",
+      "published": "Wed, 13 May 2026 12:10:00 +0000",
+      "source": "MIT Technology Review",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A plan to make drugs in orbit is going commercial A startup called Varda Space Industries is betting that the future of pharmaceuticals lies in orbit. The company has signed a&#8230;"
+    },
+    {
+      "title": "A plan to make drugs in orbit is going commercial",
+      "link": "https://www.technologyreview.com/2026/05/13/1137153/varda-united-therapeutics-drug-manufacturing-in-space/",
+      "published": "Wed, 13 May 2026 10:00:00 +0000",
+      "source": "MIT Technology Review",
+      "summary": "Varda Space Industries, a startup that’s been pitching its ability to perform drug experiments in space, says it has signed up the pharmaceutical company United Therapeutics in what may be remembered as a notable step toward in-orbit manufacturing. The idea of building things in outer space for use on Earth has so far been explored&#8230;"
+    },
+    {
+      "title": "World Models: 10 Things That Matter in AI Right Now",
+      "link": "https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/",
+      "published": "Tue, 12 May 2026 16:22:15 +0000",
+      "source": "MIT Technology Review",
+      "summary": "World models recently made our list of 10 Things That Matter in AI Right Now. Watch executive editor Niall Firth explain why this emerging area of AI is gaining so much attention. Join MIT Technology Review editors and reporters for a subscriber-only Roundtables discussion, &#8220;Can AI Learn to Understand the World?&#8221; exploring how AI may evolve to&#8230;"
+    },
+    {
+      "title": "The Download: a Nobel winner on AI, and the case for fixing everything",
+      "link": "https://www.technologyreview.com/2026/05/12/1137103/the-download-nobel-winner-ai-maintenance-of-everything/",
+      "published": "Tue, 12 May 2026 12:10:00 +0000",
+      "source": "MIT Technology Review",
+      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Three things in AI to watch, according to a Nobel-winning economist A few months before he won the Nobel Prize in economics in 2024, Daron Acemoglu published a paper that earned&#8230;"
     },
     {
       "title": "Honda&#8217;s hybrid future starts with new Accord and RDX prototypes",
@@ -2859,76 +2929,6 @@
       "published": "2026-05-14T14:58:00-04:00",
       "source": "The Verge",
       "summary": "In January, Colorado lawmakers introduced a proposal to make operating systems collect users' ages and pass them to app developers. The bill, SB26-051, had clearly been designed for commercial platforms like iOS and Android - one of numerous plans to age-gate the internet through users' devices. It was intended to provide information that would let [&#8230;]"
-    },
-    {
-      "title": "Data readiness for agentic AI in financial services",
-      "link": "https://www.technologyreview.com/2026/05/14/1137034/data-readiness-for-agentic-ai-in-financial-services/",
-      "published": "Thu, 14 May 2026 13:00:00 +0000",
-      "source": "MIT Technology Review",
-      "summary": "Financial services companies have unique needs when it comes to business AI. They operate in one of the most highly regulated sectors while responding to external events that are updated by the second. As a result, the success of agentic AI in financial services depends less on the sophistication of the system and more on&#8230;"
-    },
-    {
-      "title": "Establishing AI and data sovereignty in the age of autonomous systems",
-      "link": "https://www.technologyreview.com/2026/05/14/1137168/establishing-ai-and-data-sovereignty-in-the-age-of-autonomous-systems/",
-      "published": "Thu, 14 May 2026 13:00:00 +0000",
-      "source": "MIT Technology Review",
-      "summary": "When generative AI first moved from research labs into real-world business applications, enterprises made a tacit bargain: “Capability now, control later.” Feed your proprietary data into third-party AI models, and you will get powerful results. But your data passes through systems you do not own, under governance you do not set. The protections you rely&#8230;"
-    },
-    {
-      "title": "The Download: deepfake porn’s stolen bodies and AI sharing private numbers",
-      "link": "https://www.technologyreview.com/2026/05/14/1137257/the-download-deepfake-porn-bodies-ai-exposing-phone-numbers/",
-      "published": "Thu, 14 May 2026 12:10:00 +0000",
-      "source": "MIT Technology Review",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The shock of seeing your body used in deepfake porn When Jennifer got a research job in 2023, she ran her new professional headshot through a facial recognition program. She wanted&#8230;"
-    },
-    {
-      "title": "The Tesla Semi could be a big deal for electric trucking",
-      "link": "https://www.technologyreview.com/2026/05/14/1137197/tesla-semi-electric-trucking/",
-      "published": "Thu, 14 May 2026 10:00:00 +0000",
-      "source": "MIT Technology Review",
-      "summary": "The Tesla Semi has officially arrived. The company recently released a photo of the first vehicle rolling off its new full-scale production line. This moment has been nearly a decade in the making: The company first announced the truck in late 2017. And now we’ve got final battery specs, official prices, and big news about&#8230;"
-    },
-    {
-      "title": "The shock of seeing your body used in deepfake porn",
-      "link": "https://www.technologyreview.com/2026/05/14/1137161/ai-porn-nonconsensual-deepfakes-takedown-piracy-copyright/",
-      "published": "Thu, 14 May 2026 09:00:00 +0000",
-      "source": "MIT Technology Review",
-      "summary": "When Jennifer got a job doing research for a nonprofit in 2023, she ran her new professional headshot through a facial recognition program. She wanted to see if the tech would pull up the porn videos she’d made more than 10 years before, when she was in her early 20s. It did in fact return&#8230;"
-    },
-    {
-      "title": "AI chatbots are giving out people’s real phone numbers",
-      "link": "https://www.technologyreview.com/2026/05/13/1137203/ai-chatbots-are-giving-out-peoples-real-phone-numbers/",
-      "published": "Wed, 13 May 2026 18:09:03 +0000",
-      "source": "MIT Technology Review",
-      "summary": "A Redditor recently wrote that he was “desperate for help”: for about a month, he said, his phone had been inundated by calls from “strangers” who were “looking for a lawyer, a product designer, a locksmith.” Callers were apparently misdirected by Google’s generative AI.&#160; In March, a software developer in Israel was contacted on WhatsApp&#8230;"
-    },
-    {
-      "title": "The Download: making drugs in orbit and NASA’s nuclear-powered spacecraft",
-      "link": "https://www.technologyreview.com/2026/05/13/1137176/the-download-drugs-in-orbit-nasa-nuclear-spacecraft/",
-      "published": "Wed, 13 May 2026 12:10:00 +0000",
-      "source": "MIT Technology Review",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A plan to make drugs in orbit is going commercial A startup called Varda Space Industries is betting that the future of pharmaceuticals lies in orbit. The company has signed a&#8230;"
-    },
-    {
-      "title": "A plan to make drugs in orbit is going commercial",
-      "link": "https://www.technologyreview.com/2026/05/13/1137153/varda-united-therapeutics-drug-manufacturing-in-space/",
-      "published": "Wed, 13 May 2026 10:00:00 +0000",
-      "source": "MIT Technology Review",
-      "summary": "Varda Space Industries, a startup that’s been pitching its ability to perform drug experiments in space, says it has signed up the pharmaceutical company United Therapeutics in what may be remembered as a notable step toward in-orbit manufacturing. The idea of building things in outer space for use on Earth has so far been explored&#8230;"
-    },
-    {
-      "title": "World Models: 10 Things That Matter in AI Right Now",
-      "link": "https://www.technologyreview.com/2026/05/12/1137134/world-models-10-things-that-matter-in-ai-right-now/",
-      "published": "Tue, 12 May 2026 16:22:15 +0000",
-      "source": "MIT Technology Review",
-      "summary": "World models recently made our list of 10 Things That Matter in AI Right Now. Watch executive editor Niall Firth explain why this emerging area of AI is gaining so much attention. Join MIT Technology Review editors and reporters for a subscriber-only Roundtables discussion, &#8220;Can AI Learn to Understand the World?&#8221; exploring how AI may evolve to&#8230;"
-    },
-    {
-      "title": "The Download: a Nobel winner on AI, and the case for fixing everything",
-      "link": "https://www.technologyreview.com/2026/05/12/1137103/the-download-nobel-winner-ai-maintenance-of-everything/",
-      "published": "Tue, 12 May 2026 12:10:00 +0000",
-      "source": "MIT Technology Review",
-      "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Three things in AI to watch, according to a Nobel-winning economist A few months before he won the Nobel Prize in economics in 2024, Daron Acemoglu published a paper that earned&#8230;"
     }
   ],
   "🏢 Big Tech Engineering": [
@@ -2989,25 +2989,11 @@
       "summary": "Researchers share in an interview how they used GitHub data to predict GDP, inequality, and emissions in ways that traditional economic data misses, along with our Q4 2025 data release.\nThe post How researchers are using GitHub Innovation Graph data to reveal the “digital complexity” of nations appeared first on The GitHub Blog."
     },
     {
-      "title": "Reel Friends: Building Social Discovery that Scales to Billions",
-      "link": "https://engineering.fb.com/2026/05/13/ml-applications/reel-friends-building-social-discovery-that-scales-to-billions/",
-      "published": "Wed, 13 May 2026 13:00:44 +0000",
-      "source": "Meta Engineering",
-      "summary": "On its face the new Friend Bubbles feature looks simple enough. It highlights Reels your friends have watched and reacted to. But sometimes the features that seem the most straightforward require the deepest engineering work. On this episode of the Meta Tech Podcast, Pascal Hartig chats with Subasree and Joseph, two software engineers from the Facebook [...]\nRead More...\nThe post Reel Friends: Building Social Discovery that Scales to Billions appeared first on Engineering at Meta."
-    },
-    {
-      "title": "Migrating Data Ingestion Systems at Meta Scale",
-      "link": "https://engineering.fb.com/2026/05/12/data-infrastructure/migrating-data-ingestion-systems-at-meta-scale/",
-      "published": "Tue, 12 May 2026 16:00:57 +0000",
-      "source": "Meta Engineering",
-      "summary": "Meta’s data ingestion system, which our engineering teams leverage for up-to-date snapshots of the social graph, has recently undergone a significant revamp to enhance its reliability at scale.  Moving from our legacy system to our new architecture required a large-scale migration of our entire data ingestion system.  We’re sharing the solutions and strategies that enabled [...]\nRead More...\nThe post Migrating Data Ingestion Systems at Meta Scale appeared first on Engineering at Meta."
-    },
-    {
-      "title": "Labyrinth 1.1: Making End-to-End Encrypted Backups Even More Reliable",
-      "link": "https://engineering.fb.com/2026/05/11/security/labyrinth-1-1-end-to-end-encrypted-e2ee-backups-more-reliable/",
-      "published": "Mon, 11 May 2026 16:00:55 +0000",
-      "source": "Meta Engineering",
-      "summary": "We’re rolling out version 1.1 of Labyrinth, the encrypted storage system and protocol that secures messages and history on Messenger. Labyrinth 1.1 enhances the reliability of end-to-end encrypted backups with a new sub-protocol that helps messages survive the loss of a device, a switched device, and long gaps between sign-ins. Read our updated white paper, [...]\nRead More...\nThe post Labyrinth 1.1: Making End-to-End Encrypted Backups Even More Reliable  appeared first on Engineering at Meta."
+      "title": "Five vertical SaaS insights from Sessions 2026",
+      "link": "https://stripe.com/blog/vertical-saas-insights-sessions-2026",
+      "published": "Mon, 11 May 2026 00:00:00 +0000",
+      "source": "Stripe Blog",
+      "summary": "AI is forcing platforms to expand beyond pure software. See how vertical SaaS platforms are using payments, financial services, and agentic commerce to build more durable businesses."
     },
     {
       "title": "Amazon Bedrock introduces new advanced prompt optimization and migration tool",
@@ -3029,6 +3015,27 @@
       "published": "Mon, 11 May 2026 16:08:26 +0000",
       "source": "AWS Blog",
       "summary": "My most exciting news of last week: Amazon Bedrock AgentCore previewed the first managed payment capabilities enabling AI agents to autonomously access and pay for APIs, MCP servers, web content, and other agents. Built in partnership with Coinbase and Stripe, it removes the undifferentiated heavy lifting of building customized systems for billing, credential management, and […]"
+    },
+    {
+      "title": "Reel Friends: Building Social Discovery that Scales to Billions",
+      "link": "https://engineering.fb.com/2026/05/13/ml-applications/reel-friends-building-social-discovery-that-scales-to-billions/",
+      "published": "Wed, 13 May 2026 13:00:44 +0000",
+      "source": "Meta Engineering",
+      "summary": "On its face the new Friend Bubbles feature looks simple enough. It highlights Reels your friends have watched and reacted to. But sometimes the features that seem the most straightforward require the deepest engineering work. On this episode of the Meta Tech Podcast, Pascal Hartig chats with Subasree and Joseph, two software engineers from the Facebook [...]\nRead More...\nThe post Reel Friends: Building Social Discovery that Scales to Billions appeared first on Engineering at Meta."
+    },
+    {
+      "title": "Migrating Data Ingestion Systems at Meta Scale",
+      "link": "https://engineering.fb.com/2026/05/12/data-infrastructure/migrating-data-ingestion-systems-at-meta-scale/",
+      "published": "Tue, 12 May 2026 16:00:57 +0000",
+      "source": "Meta Engineering",
+      "summary": "Meta’s data ingestion system, which our engineering teams leverage for up-to-date snapshots of the social graph, has recently undergone a significant revamp to enhance its reliability at scale.  Moving from our legacy system to our new architecture required a large-scale migration of our entire data ingestion system.  We’re sharing the solutions and strategies that enabled [...]\nRead More...\nThe post Migrating Data Ingestion Systems at Meta Scale appeared first on Engineering at Meta."
+    },
+    {
+      "title": "Labyrinth 1.1: Making End-to-End Encrypted Backups Even More Reliable",
+      "link": "https://engineering.fb.com/2026/05/11/security/labyrinth-1-1-end-to-end-encrypted-e2ee-backups-more-reliable/",
+      "published": "Mon, 11 May 2026 16:00:55 +0000",
+      "source": "Meta Engineering",
+      "summary": "We’re rolling out version 1.1 of Labyrinth, the encrypted storage system and protocol that secures messages and history on Messenger. Labyrinth 1.1 enhances the reliability of end-to-end encrypted backups with a new sub-protocol that helps messages survive the loss of a device, a switched device, and long gaps between sign-ins. Read our updated white paper, [...]\nRead More...\nThe post Labyrinth 1.1: Making End-to-End Encrypted Backups Even More Reliable  appeared first on Engineering at Meta."
     },
     {
       "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
@@ -3113,64 +3120,157 @@
       "published": "2026-05-10T14:00:00.000Z",
       "source": "Vercel Blog",
       "summary": "Superset on Vercel1,000–1,400 deployments per week~600 preview deployments per day~30 second average build time57–64% week-over-week DAU growthSoftware development with AI started as a single engineer chatting with a single agent about a local repo. Today, developers direct fleets of agents in the cloud, but traditional tools were built for the old shape of the job: IDEs, terminals, and review systems designed for one developer moving one ticket at a time.Co-founders Kiet Ho, Satya Patel, and Av"
+    }
+  ],
+  "⭐ GitHub Trends": [
+    {
+      "title": "ruvnet/RuView",
+      "link": "https://github.com/ruvnet/RuView",
+      "published": "2026-05-15T09:08:53.496350",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
     },
     {
-      "title": "Five vertical SaaS insights from Sessions 2026",
-      "link": "https://stripe.com/blog/vertical-saas-insights-sessions-2026",
-      "published": "Mon, 11 May 2026 00:00:00 +0000",
-      "source": "Stripe Blog",
-      "summary": "AI is forcing platforms to expand beyond pure software. See how vertical SaaS platforms are using payments, financial services, and agentic commerce to build more durable businesses."
+      "title": "tinyhumansai/openhuman",
+      "link": "https://github.com/tinyhumansai/openhuman",
+      "published": "2026-05-15T09:08:53.496392",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "rohitg00/agentmemory",
+      "link": "https://github.com/rohitg00/agentmemory",
+      "published": "2026-05-15T09:08:53.496420",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "obra/superpowers",
+      "link": "https://github.com/obra/superpowers",
+      "published": "2026-05-15T09:08:53.496447",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "K-Dense-AI/scientific-agent-skills",
+      "link": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "published": "2026-05-15T09:08:53.496485",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "shiyu-coder/Kronos",
+      "link": "https://github.com/shiyu-coder/Kronos",
+      "published": "2026-05-15T09:08:53.496509",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "roboflow/supervision",
+      "link": "https://github.com/roboflow/supervision",
+      "published": "2026-05-15T09:08:53.496533",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "influxdata/telegraf",
+      "link": "https://github.com/influxdata/telegraf",
+      "published": "2026-05-15T09:08:53.496556",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "supertone-inc/supertonic",
+      "link": "https://github.com/supertone-inc/supertonic",
+      "published": "2026-05-15T09:08:53.496579",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "Genymobile/scrcpy",
+      "link": "https://github.com/Genymobile/scrcpy",
+      "published": "2026-05-15T09:08:53.496601",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "ruvnet/RuView",
+      "link": "https://github.com/ruvnet/RuView",
+      "published": "2026-05-15T09:08:53.489811",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "tinyhumansai/openhuman",
+      "link": "https://github.com/tinyhumansai/openhuman",
+      "published": "2026-05-15T09:08:53.500785",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "rohitg00/agentmemory",
+      "link": "https://github.com/rohitg00/agentmemory",
+      "published": "2026-05-15T09:08:53.500832",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "obra/superpowers",
+      "link": "https://github.com/obra/superpowers",
+      "published": "2026-05-15T09:08:53.500864",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "K-Dense-AI/scientific-agent-skills",
+      "link": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "published": "2026-05-15T09:08:53.500892",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "shiyu-coder/Kronos",
+      "link": "https://github.com/shiyu-coder/Kronos",
+      "published": "2026-05-15T09:08:53.500919",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "roboflow/supervision",
+      "link": "https://github.com/roboflow/supervision",
+      "published": "2026-05-15T09:08:53.500947",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "influxdata/telegraf",
+      "link": "https://github.com/influxdata/telegraf",
+      "published": "2026-05-15T09:08:53.500972",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "supertone-inc/supertonic",
+      "link": "https://github.com/supertone-inc/supertonic",
+      "published": "2026-05-15T09:08:53.500999",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
+    },
+    {
+      "title": "Genymobile/scrcpy",
+      "link": "https://github.com/Genymobile/scrcpy",
+      "published": "2026-05-15T09:08:53.501025",
+      "source": "GitHub Trends",
+      "summary": "GitHub trending repository"
     }
   ],
   "🔥 Product Hunt": [
     {
-      "title": "transfa.sh",
-      "link": "https://www.producthunt.com/products/transfa-sh",
-      "published": "2026-05-13T18:12:10-07:00",
+      "title": "Notion Developer Platform",
+      "link": "https://www.producthunt.com/products/notion",
+      "published": "2026-05-13T20:14:47-07:00",
       "source": "Product Hunt",
-      "summary": "WeTransfer for AI agents\n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
-      "title": "Stella",
-      "link": "https://www.producthunt.com/products/stella-4",
-      "published": "2026-05-13T11:51:11-07:00",
-      "source": "Product Hunt",
-      "summary": "World's first self-modifying desktop app\n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
-      "title": "Raindrop Workshop",
-      "link": "https://www.producthunt.com/products/raindrop",
-      "published": "2026-05-13T23:50:48-07:00",
-      "source": "Product Hunt",
-      "summary": "Open source, free, local debugger for AI agents\n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
-      "title": "Open Computer Use",
-      "link": "https://www.producthunt.com/products/open-computer-use",
-      "published": "2026-05-13T01:20:31-07:00",
-      "source": "Product Hunt",
-      "summary": "Open-source Computer Use MCP for AI agents\n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
-      "title": "Asteroid",
-      "link": "https://www.producthunt.com/products/asteroid-3",
-      "published": "2026-05-09T21:12:54-07:00",
-      "source": "Product Hunt",
-      "summary": "Build Browser, Linux and Windows AI agents in seconds\n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
-      "title": "Indigo",
-      "link": "https://www.producthunt.com/products/indigo-2",
-      "published": "2026-05-13T22:01:57-07:00",
-      "source": "Product Hunt",
-      "summary": "Stay in touch with your people on Bluesky and Mastodon\n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
-      "title": "Ansvisor",
-      "link": "https://www.producthunt.com/products/ansvisor",
-      "published": "2026-05-12T06:53:55-07:00",
-      "source": "Product Hunt",
-      "summary": "Scale your brand visibility across AI answer engines\n          \n          \n            Discussion\n            |\n            Link"
+      "summary": "Build on Notion, not just inside it\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
       "title": "RoBrain",
@@ -3187,25 +3287,25 @@
       "summary": "AI auto-builds your help centers that learn from your team\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
-      "title": "Tenure",
-      "link": "https://www.producthunt.com/products/tenure",
-      "published": "2026-05-13T15:57:53-07:00",
-      "source": "Product Hunt",
-      "summary": "Your AI finally learns how to talk to you\n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
-      "title": "Openclaw OS",
-      "link": "https://www.producthunt.com/products/thesys",
-      "published": "2026-05-13T00:21:03-07:00",
-      "source": "Product Hunt",
-      "summary": "Turn one-off chats into persistent, usable apps\n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
       "title": "AURIXA",
       "link": "https://www.producthunt.com/products/replit",
       "published": "2026-05-13T00:51:08-07:00",
       "source": "Product Hunt",
       "summary": "Your AI companion that is always present and deeply attuned\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Asteroid",
+      "link": "https://www.producthunt.com/products/asteroid-3",
+      "published": "2026-05-09T21:12:54-07:00",
+      "source": "Product Hunt",
+      "summary": "Build Browser, Linux and Windows AI agents in seconds\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Open Computer Use",
+      "link": "https://www.producthunt.com/products/open-computer-use",
+      "published": "2026-05-13T01:20:31-07:00",
+      "source": "Product Hunt",
+      "summary": "Open-source Computer Use MCP for AI agents\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
       "title": "YM.dat",
@@ -3222,11 +3322,11 @@
       "summary": "Open-source browser automation for local AI agents\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
-      "title": "Notion Developer Platform",
-      "link": "https://www.producthunt.com/products/notion",
-      "published": "2026-05-13T20:14:47-07:00",
+      "title": "Sherloq",
+      "link": "https://www.producthunt.com/products/sherloq-2",
+      "published": "2026-05-11T23:06:05-07:00",
       "source": "Product Hunt",
-      "summary": "Build on Notion, not just inside it\n          \n          \n            Discussion\n            |\n            Link"
+      "summary": "Know which LinkedIn prospect is warm - right now\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
       "title": "DesignMD",
@@ -3236,11 +3336,11 @@
       "summary": "Turn any website into an AI-ready design system\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
-      "title": "Sherloq",
-      "link": "https://www.producthunt.com/products/sherloq-2",
-      "published": "2026-05-11T23:06:05-07:00",
+      "title": "Comie.dev",
+      "link": "https://www.producthunt.com/products/comie-dev",
+      "published": "2026-05-13T23:09:16-07:00",
       "source": "Product Hunt",
-      "summary": "Know which LinkedIn prospect is warm - right now\n          \n          \n            Discussion\n            |\n            Link"
+      "summary": "Production context for AI with logs, DBs, and error tracking\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
       "title": "Higgsfield Supercomputer",
@@ -3250,18 +3350,18 @@
       "summary": "Run your entire creative pipeline from one chat agent\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
-      "title": "Comie.dev",
-      "link": "https://www.producthunt.com/products/comie-dev",
-      "published": "2026-05-13T23:09:16-07:00",
-      "source": "Product Hunt",
-      "summary": "Production context for AI with logs, DBs, and error tracking\n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
       "title": "c15t 2.0",
       "link": "https://www.producthunt.com/products/c15t",
       "published": "2026-05-12T03:53:02-07:00",
       "source": "Product Hunt",
       "summary": "Dev-first cookie banners that don't slow your site\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Templates in ElevenCreative",
+      "link": "https://www.producthunt.com/products/templates-in-elevencreative",
+      "published": "2026-05-13T11:14:30-07:00",
+      "source": "Product Hunt",
+      "summary": "From idea to finished asset in one click\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
       "title": "Storecraft",
@@ -3271,11 +3371,46 @@
       "summary": "Rapidly build AI-powered, Headless e-commerce backends\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
-      "title": "Templates in ElevenCreative",
-      "link": "https://www.producthunt.com/products/templates-in-elevencreative",
-      "published": "2026-05-13T11:14:30-07:00",
+      "title": "Openclaw OS",
+      "link": "https://www.producthunt.com/products/thesys",
+      "published": "2026-05-13T00:21:03-07:00",
       "source": "Product Hunt",
-      "summary": "From idea to finished asset in one click\n          \n          \n            Discussion\n            |\n            Link"
+      "summary": "Turn one-off chats into persistent, usable apps\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "transfa.sh",
+      "link": "https://www.producthunt.com/products/transfa-sh",
+      "published": "2026-05-13T18:12:10-07:00",
+      "source": "Product Hunt",
+      "summary": "WeTransfer for AI agents\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Tenure",
+      "link": "https://www.producthunt.com/products/tenure",
+      "published": "2026-05-13T15:57:53-07:00",
+      "source": "Product Hunt",
+      "summary": "Your AI finally learns how to talk to you\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "MobileCLI",
+      "link": "https://www.producthunt.com/products/mobilecli",
+      "published": "2026-05-13T08:27:12-07:00",
+      "source": "Product Hunt",
+      "summary": "Remote AI Terminal Control \n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Ansvisor",
+      "link": "https://www.producthunt.com/products/ansvisor",
+      "published": "2026-05-12T06:53:55-07:00",
+      "source": "Product Hunt",
+      "summary": "Scale your brand visibility across AI answer engines\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Stella",
+      "link": "https://www.producthunt.com/products/stella-4",
+      "published": "2026-05-13T11:51:11-07:00",
+      "source": "Product Hunt",
+      "summary": "World's first self-modifying desktop app\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
       "title": "Stagent",
@@ -3320,11 +3455,53 @@
       "summary": "PIP video controls and captions for any site\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
+      "title": "Online 3D Editor",
+      "link": "https://www.producthunt.com/products/online-3d-editor",
+      "published": "2026-05-13T13:00:08-07:00",
+      "source": "Product Hunt",
+      "summary": "Blender-style 3D editing in your browser\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "The Augmented AI",
+      "link": "https://www.producthunt.com/products/the-augmented-ai-live-ai-cortex",
+      "published": "2026-05-13T18:09:28-07:00",
+      "source": "Product Hunt",
+      "summary": "Real-time AI insights for meetings without interruptions\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
       "title": "Resend Automations",
       "link": "https://www.producthunt.com/products/resend",
       "published": "2026-05-13T08:22:21-07:00",
       "source": "Product Hunt",
       "summary": "Build event-driven email flows\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Edit Mind",
+      "link": "https://www.producthunt.com/products/edit-mind-3",
+      "published": "2026-05-13T01:27:28-07:00",
+      "source": "Product Hunt",
+      "summary": "Search videos like you'd describe to a friend - 100% local\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Agent FM for Claude Code & Codex",
+      "link": "https://www.producthunt.com/products/agent-fm-for-claude-code-codex",
+      "published": "2026-05-13T20:29:24-07:00",
+      "source": "Product Hunt",
+      "summary": "Tune in and stay in the loop with your agents 🎧\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Raindrop Workshop",
+      "link": "https://www.producthunt.com/products/raindrop",
+      "published": "2026-05-13T23:50:48-07:00",
+      "source": "Product Hunt",
+      "summary": "Open source, free, local debugger for AI agents\n          \n          \n            Discussion\n            |\n            Link"
+    },
+    {
+      "title": "Indigo",
+      "link": "https://www.producthunt.com/products/indigo-2",
+      "published": "2026-05-13T22:01:57-07:00",
+      "source": "Product Hunt",
+      "summary": "Stay in touch with your people on Bluesky and Mastodon\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
       "title": "Write Lint",
@@ -3339,34 +3516,6 @@
       "published": "2026-05-09T12:51:36-07:00",
       "source": "Product Hunt",
       "summary": "Mirror iOS to Mac\n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
-      "title": "Agent FM for Claude Code & Codex",
-      "link": "https://www.producthunt.com/products/agent-fm-for-claude-code-codex",
-      "published": "2026-05-13T20:29:24-07:00",
-      "source": "Product Hunt",
-      "summary": "Tune in and stay in the loop with your agents 🎧\n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
-      "title": "Online 3D Editor",
-      "link": "https://www.producthunt.com/products/online-3d-editor",
-      "published": "2026-05-13T13:00:08-07:00",
-      "source": "Product Hunt",
-      "summary": "Blender-style 3D editing in your browser\n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
-      "title": "MobileCLI",
-      "link": "https://www.producthunt.com/products/mobilecli",
-      "published": "2026-05-13T08:27:12-07:00",
-      "source": "Product Hunt",
-      "summary": "Remote AI Terminal Control \n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
-      "title": "The Augmented AI",
-      "link": "https://www.producthunt.com/products/the-augmented-ai-live-ai-cortex",
-      "published": "2026-05-13T18:09:28-07:00",
-      "source": "Product Hunt",
-      "summary": "Real-time AI insights for meetings without interruptions\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
       "title": "Lychee",
@@ -3390,160 +3539,11 @@
       "summary": "Offline AI IDE & local Chat\n          \n          \n            Discussion\n            |\n            Link"
     },
     {
-      "title": "Edit Mind",
-      "link": "https://www.producthunt.com/products/edit-mind-3",
-      "published": "2026-05-13T01:27:28-07:00",
-      "source": "Product Hunt",
-      "summary": "Search videos like you'd describe to a friend - 100% local\n          \n          \n            Discussion\n            |\n            Link"
-    },
-    {
       "title": "Tellme",
       "link": "https://www.producthunt.com/products/tellme-4",
       "published": "2026-05-08T10:02:06-07:00",
       "source": "Product Hunt",
       "summary": "The conversational layer for the real world\n          \n          \n            Discussion\n            |\n            Link"
-    }
-  ],
-  "⭐ GitHub Trends": [
-    {
-      "title": "ruvnet/RuView",
-      "link": "https://github.com/ruvnet/RuView",
-      "published": "2026-05-15T09:00:25.203954",
-      "source": "GitHub Trends",
-      "summary": "GitHub trending repository"
-    },
-    {
-      "title": "tinyhumansai/openhuman",
-      "link": "https://github.com/tinyhumansai/openhuman",
-      "published": "2026-05-15T09:00:25.203991",
-      "source": "GitHub Trends",
-      "summary": "GitHub trending repository"
-    },
-    {
-      "title": "rohitg00/agentmemory",
-      "link": "https://github.com/rohitg00/agentmemory",
-      "published": "2026-05-15T09:00:25.204013",
-      "source": "GitHub Trends",
-      "summary": "GitHub trending repository"
-    },
-    {
-      "title": "obra/superpowers",
-      "link": "https://github.com/obra/superpowers",
-      "published": "2026-05-15T09:00:25.204034",
-      "source": "GitHub Trends",
-      "summary": "GitHub trending repository"
-    },
-    {
-      "title": "K-Dense-AI/scientific-agent-skills",
-      "link": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "published": "2026-05-15T09:00:25.204052",
-      "source": "GitHub Trends",
-      "summary": "GitHub trending repository"
-    },
-    {
-      "title": "shiyu-coder/Kronos",
-      "link": "https://github.com/shiyu-coder/Kronos",
-      "published": "2026-05-15T09:00:25.204071",
-      "source": "GitHub Trends",
-      "summary": "GitHub trending repository"
-    },
-    {
-      "title": "roboflow/supervision",
-      "link": "https://github.com/roboflow/supervision",
-      "published": "2026-05-15T09:00:25.204089",
-      "source": "GitHub Trends",
-      "summary": "GitHub trending repository"
-    },
-    {
-      "title": "influxdata/telegraf",
-      "link": "https://github.com/influxdata/telegraf",
-      "published": "2026-05-15T09:00:25.204106",
-      "source": "GitHub Trends",
-      "summary": "GitHub trending repository"
-    },
-    {
-      "title": "supertone-inc/supertonic",
-      "link": "https://github.com/supertone-inc/supertonic",
-      "published": "2026-05-15T09:00:25.204123",
-      "source": "GitHub Trends",
-      "summary": "GitHub trending repository"
-    },
-    {
-      "title": "Genymobile/scrcpy",
-      "link": "https://github.com/Genymobile/scrcpy",
-      "published": "2026-05-15T09:00:25.204140",
-      "source": "GitHub Trends",
-      "summary": "GitHub trending repository"
-    },
-    {
-      "title": "ruvnet/RuView",
-      "link": "https://github.com/ruvnet/RuView",
-      "published": "2026-05-15T09:00:25.291655",
-      "source": "GitHub Trends",
-      "summary": "GitHub trending repository"
-    },
-    {
-      "title": "tinyhumansai/openhuman",
-      "link": "https://github.com/tinyhumansai/openhuman",
-      "published": "2026-05-15T09:00:25.291689",
-      "source": "GitHub Trends",
-      "summary": "GitHub trending repository"
-    },
-    {
-      "title": "rohitg00/agentmemory",
-      "link": "https://github.com/rohitg00/agentmemory",
-      "published": "2026-05-15T09:00:25.291709",
-      "source": "GitHub Trends",
-      "summary": "GitHub trending repository"
-    },
-    {
-      "title": "obra/superpowers",
-      "link": "https://github.com/obra/superpowers",
-      "published": "2026-05-15T09:00:25.291729",
-      "source": "GitHub Trends",
-      "summary": "GitHub trending repository"
-    },
-    {
-      "title": "K-Dense-AI/scientific-agent-skills",
-      "link": "https://github.com/K-Dense-AI/scientific-agent-skills",
-      "published": "2026-05-15T09:00:25.291745",
-      "source": "GitHub Trends",
-      "summary": "GitHub trending repository"
-    },
-    {
-      "title": "shiyu-coder/Kronos",
-      "link": "https://github.com/shiyu-coder/Kronos",
-      "published": "2026-05-15T09:00:25.291762",
-      "source": "GitHub Trends",
-      "summary": "GitHub trending repository"
-    },
-    {
-      "title": "roboflow/supervision",
-      "link": "https://github.com/roboflow/supervision",
-      "published": "2026-05-15T09:00:25.291779",
-      "source": "GitHub Trends",
-      "summary": "GitHub trending repository"
-    },
-    {
-      "title": "influxdata/telegraf",
-      "link": "https://github.com/influxdata/telegraf",
-      "published": "2026-05-15T09:00:25.291794",
-      "source": "GitHub Trends",
-      "summary": "GitHub trending repository"
-    },
-    {
-      "title": "supertone-inc/supertonic",
-      "link": "https://github.com/supertone-inc/supertonic",
-      "published": "2026-05-15T09:00:25.291811",
-      "source": "GitHub Trends",
-      "summary": "GitHub trending repository"
-    },
-    {
-      "title": "Genymobile/scrcpy",
-      "link": "https://github.com/Genymobile/scrcpy",
-      "published": "2026-05-15T09:00:25.291826",
-      "source": "GitHub Trends",
-      "summary": "GitHub trending repository"
     }
   ],
   "🇨🇳 中文技术博客": [
