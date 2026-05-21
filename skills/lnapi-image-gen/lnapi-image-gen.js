@@ -149,7 +149,7 @@ function generateImage(options) {
     const requestOptions = {
       hostname: CONFIG.endpoint,
       port: 443,
-      path: '/v1/images/generations~345881374e0',
+      path: '/v1/images/generations',
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${CONFIG.apiKey}`,

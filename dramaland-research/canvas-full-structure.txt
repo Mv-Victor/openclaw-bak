@@ -1,0 +1,100 @@
+- document:
+  - navigation:
+    - button [ref=e1]
+    - text: Untitled
+    - button "Toggle Chat Mode" [ref=e2]:
+      - img "Toggle Chat Mode"
+    - button "切换语言" [ref=e3]:
+      - img
+    - button "1" [ref=e4]:
+      - img
+      - text: "1"
+    - img "doomoo"
+    - heading "分享邀请链接，赚取积分!" [ref=e5] [level=3]
+    - paragraph: 任务中心 → 邀请
+    - button "close" [ref=e6]:
+      - img "close"
+    - button "AI Credits 3,500 starter" [ref=e7]:
+      - img "AI Credits"
+      - text: 3,500 starter
+    - button "1" [ref=e8] [nth=1]
+  - paragraph: Performance MV 互联网牛马・AI 纪元 （主歌 1） 闹钟刺破凌晨的窗 地铁挤碎最后倔强 键盘敲到指尖发烫 报表堆成无人的墙 老板说降本增效要上 AI 替我把活都扛 我曾熬夜写的方案 一秒生成比我像样 （预副歌） 我是互联网里一头牛马 拼尽全力换碎银几两 以为努力就有希望 谁知时代翻篇太匆忙 （副歌） AI 在迭代 我在被淘汰 生产力的浪潮 把我掩埋 曾经的岗位 变成了尘埃 我的存在 只剩廉价无奈 代码它自动 文案它生成 我熬的夜 都变成空白 未来的站台 没有我号牌 牛马的命 输给了算法时代 （主歌 2） 培训学习赶不上变化 技能证书早已经泛黄 同事一个个离场 工位空荡荡 只剩心慌 系统比我更懂需求 模型比我更会演讲 我用青春换的擅长 在算力面前 一文不值一场 （预副歌） 我是互联网里一头牛马 被生活抽打 不敢说话 以为熬出头就有办法 谁知 AI 断了所有牵挂 （副歌） AI 在迭代 我在被淘汰 生产力的浪潮 把我掩埋 曾经的岗位 变成了尘埃 我的存在 只剩廉价无奈 代码它自动 文案它生成 我熬的夜 都变成空白 未来的站台 没有我号牌 牛马的命 输给了算法时代 （尾段） 我也想放下 不再挣扎 可房贷车贷 催我出发 AI 在发光 我在黑暗里挣扎 这届牛马 死在科技的繁华
+  - paragraph: 您的《互联网牛马・AI 纪元》歌词和视觉构思已经准备就绪。在开始生成之前，请问您想使用哪种音乐模型？
+  - list:
+    - listitem: Suno (推荐)：整体创作能力最强，常有惊喜，一次生成 2 首。
+    - listitem: MiniMax：音质极佳，结构控制精准，更具性价比，一次生成 1 首。
+  - text: 音乐生成模型选择确认 请选择用于生成音乐的 AI 模型
+  - button "Suno (推荐)" [ref=e9]
+  - button "MiniMax" [ref=e10]
+  - img "Dolly"
+  - text: Dolly已经出色的完成任务啦！
+  - paragraph: Waiting for your input
+  - textbox "输入消息..." [ref=e11]
+  - button "上传图片、音频或视频" [ref=e12]:
+    - img
+  - button "Send" [ref=e13] [disabled]:
+    - img
+  - button "收起" [ref=e14]:
+    - img
+    - text: 收起
+  - application:
+    - img:
+      - group "Edge from entry_node to music_check_point_node"
+    - img:
+      - group "Edge from music_check_point_node to music_pack_node"
+    - group:
+      - paragraph: 我们的旅程从这里开始。
+    - group:
+      - paragraph: 视频内容叙述或 MV 故事想法
+      - textbox "这支MV讲述了什么故事，或传递了怎样的意境？" [ref=e15]: 一位疲惫的互联网打工人，穿梭在深夜霓虹闪烁的城市和冰冷的办公室工位之间。画面呈现赛博朋克风格，蓝紫调的冷色光影。随着歌词推进，背景中出现流动的代码和AI算力的视觉化意象，与主角孤独、挣扎的身影形成鲜明对比，展现科技繁华下的个体无奈。
+      - text: 116/10,000 角色
+      - button "添加" [ref=e16]:
+        - img
+        - text: 添加
+      - img "Dolly"
+      - paragraph: 来自Dolly的信息
+      - paragraph: 每分钟视频大约消耗 3,000 积分。
+      - button "close" [ref=e17] [nth=1]:
+        - img "close"
+      - paragraph: 生成音乐
+      - button "简单" [ref=e18]
+      - button "自定义" [ref=e19]
+      - img "选择音乐"
+      - heading "上传 & 改编" [ref=e20] [level=3]
+      - text: 选择或上传音乐用于改编 *标题
+      - textbox "输入歌曲标题 (如：星际穿越)" [ref=e21]: 互联网牛马・AI 纪元
+      - text: 11/80 *歌词
+      - textbox "在此输入歌词。歌词长度决定时长。建议：2组 [Verse] + [Chorus] (约2-3分钟)。" [ref=e22]: "[Verse 1] 闹钟刺破凌晨的窗 地铁挤碎最后倔强 键盘敲到指尖发烫 报表堆成无人的墙 老板说降本增效要上 AI 替我把活都扛 我曾熬夜写的方案 一秒生成比我像样 [Pre-Chorus] 我是互联网里一头牛马 拼尽全力换碎银几两 以为努力就有希望 谁知时代翻篇太匆忙 [Chorus] AI 在迭代 我在被淘汰 生产力的浪潮 把我掩埋 曾经的岗位 变成了尘埃 我的存在 只剩廉价无奈 代码它自动 文案它生成 我熬的夜 都变成空白 未来的站台 没有我号牌 牛马的命 输给了算法时代 [Verse 2] 培训学习赶不上变化 技能证书早已经泛黄 同事一个个离场 工位空荡荡 只剩心慌 系统比我更懂需求 模型比我更会演讲 我用青春换的擅长 在算力面前 一文不值一场 [Pre-Chorus] 我是互联网里一头牛马 被生活抽打 不敢说话 以为熬出头就有办法 谁知 AI 断了所有牵挂 [Chorus] AI 在迭代 我在被淘汰 生产力的浪潮 把我掩埋 曾经的岗位 变成了尘埃 我的存在 只剩廉价无奈 代码它自动 文案它生成 我熬的夜 都变成空白 未来的站台 没有我号牌 牛马的命 输给了算法时代 [Outro] 我也想放下 不再挣扎 可房贷车贷 催我出发 AI 在发光 我在黑暗里挣扎 这届牛马 死在科技的繁华"
+      - text: 559/5,000
+      - button "展开" [ref=e23]:
+        - img
+      - button "纯音乐" [ref=e24]
+      - text: "*歌曲风格"
+      - textbox "输入音乐流派、乐器或情绪 (用逗号分隔)。例如：J-Pop, 钢琴, 120bpm。" [ref=e25]: modern pop, synthwave, melancholic, storytelling, male vocals, electronic, urban, reflective, dramatic builds
+      - text: 109/1,000 音乐模型
+      - combobox [ref=e26]: Suno V5 全能音乐生成，最长8分钟，可改编
+      - button "高级选项" [ref=e27]:
+        - img
+        - text: 高级选项
+      - button "Magic 100 生成音乐" [ref=e28]:
+        - img "Magic"
+        - text: 100 生成音乐
+    - group:
+      - paragraph: 音乐
+      - button "上传音频" [ref=e29]:
+        - img
+        - text: 上传音频
+      - img "No music"
+      - paragraph: 尚未生成音乐。
+    - img
+  - button "定位" [ref=e30]:
+    - img
+  - button "移动" [ref=e31]:
+    - img
+  - button "手型" [ref=e32]:
+    - img
+  - button "放大" [ref=e33]:
+    - img
+  - button "缩小" [ref=e34]:
+    - img
+  - alert: AI音乐MV生成平台｜音乐视频创作工具 - Drama.Land

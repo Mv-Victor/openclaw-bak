@@ -1,0 +1,21 @@
+{
+  "model": "gemini-3.1-flash-image-preview",
+  "messages": [
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "Add decorative elements around the letter S in this image: sparkles, stars, glow effect, flower-style decorative text (Hua Zi), colorful stickers. Make the S stand out with bright highlights, neon glow, and eye-catching decorations. Keep all other elements unchanged."
+        },
+        {
+          "type": "image_url",
+          "image_url": {
+            "url": "IMAGE_B64_PLACEHOLDER"
+          }
+        }
+      ]
+    }
+  ],
+  "max_tokens": 4096
+}

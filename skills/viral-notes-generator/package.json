@@ -1,0 +1,41 @@
+{
+  "name": "viral-notes-generator",
+  "version": "1.0.0",
+  "description": "脉脉 + 小红书爆文笔记生成器",
+  "keywords": [
+    "脉脉",
+    "小红书",
+    "爆文",
+    "笔记生成",
+    "内容创作",
+    "viral-notes",
+    "maimai",
+    "xiaohongshu",
+    "redbook"
+  ],
+  "author": "啾啾",
+  "license": "MIT",
+  "openclaw": {
+    "skill": {
+      "name": "viral-notes-generator",
+      "version": "1.0.0",
+      "triggers": [
+        "脉脉笔记",
+        "小红书笔记",
+        "爆文笔记",
+        "生成脉脉文案",
+        "生成小红书文案",
+        "双平台笔记",
+        "职场爆文",
+        "viral notes",
+        "platform notes"
+      ],
+      "capabilities": [
+        "双平台适配",
+        "爆文方法论",
+        "标题优化",
+        "发布建议"
+      ]
+    }
+  }
+}
