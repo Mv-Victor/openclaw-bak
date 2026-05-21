@@ -97323,3 +97323,8 @@ To github.com:Mv-Victor/openclaw-bak.git
  1 file changed, 4 insertions(+)
 To github.com:Mv-Victor/openclaw-bak.git
    b567d0314..8b098ba44  G -> G
+[G 4e6ed06e4] [20260521_1745] [misc] 新增1个文件(workspace-state.json等)
+ 1 file changed, 4 insertions(+)
+ create mode 100644 .openclaw/workspace-state.json
+To github.com:Mv-Victor/openclaw-bak.git
+   00706bb24..4e6ed06e4  G -> G
