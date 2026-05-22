@@ -98536,3 +98536,8 @@ To github.com:Mv-Victor/openclaw-bak.git
  1 file changed, 4 insertions(+)
 To github.com:Mv-Victor/openclaw-bak.git
    91c32423a..ad28f3f24  G -> G
+[G 12409d691] [20260522_1900] [scripts] 修改2个文件(archive.log等)
+ 3 files changed, 9 insertions(+)
+ rename {memory => archive}/2026-05-14.md (100%)
+To github.com:Mv-Victor/openclaw-bak.git
+   ad28f3f24..12409d691  G -> G
