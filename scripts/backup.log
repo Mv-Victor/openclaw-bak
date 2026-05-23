@@ -99491,4 +99491,85 @@ error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/
 Everything up-to-date
 fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
 fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
-error: update_ref failed for ref 'r
+error: update_ref failed for ref 'r[G fd871ee90] [20260523_1950] [scripts] 修改2个文件(archive.log等)
+ 2 files changed, 27 insertions(+)
+To github.com:Mv-Victor/openclaw-bak.git
+   12131b009..fd871ee90  G -> G
+fatal: cannot lock ref 'HEAD': Unable to create '/root/.openclaw/workspace-g/.git/HEAD.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclawfatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclaw/
