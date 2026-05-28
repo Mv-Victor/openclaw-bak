@@ -100111,4 +100111,7 @@ fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space 
 error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
 Everything up-to-date
 fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
-fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on d
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on d[G 465a93eec] [20260528_1140] [scripts] 修改1个文件(backup.log等)
+ 1 file changed, 42 insertions(+), 1 deletion(-)
+To github.com:Mv-Victor/openclaw-bak.git
+   fc9dfd4db..465a93eec  G -> G
