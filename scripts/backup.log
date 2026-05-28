@@ -100060,3 +100060,14 @@ To github.com:Mv-Victor/openclaw-bak.git
  1 file changed, 4 insertions(+)
 To github.com:Mv-Victor/openclaw-bak.git
    5e50bf597..d12ecafb6  G -> G
+[G 86c267f28] [20260528_0450] [scripts] 修改1个文件(backup.log等)
+ 1 file changed, 4 insertions(+)
+To github.com:Mv-Victor/openclaw-bak.git
+   d12ecafb6..86c267f28  G -> G
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on device
+Everything up-to-date
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G.lock': No space left on de
