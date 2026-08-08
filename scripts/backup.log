@@ -107506,4 +107506,7 @@ error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/
 Everything up-to-date
 fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
 fatal: Unable to create '/root/.openclaw/workspace-g/.git/index.lock': No space left on device
-error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G
+error: update_ref failed for ref 'refs/remotes/origin/G': cannot lock ref 'refs/remotes/origin/G': Unable to create '/root/.openclaw/workspace-g/.git/refs/remotes/origin/G[G 97fd1bd7f] [20260808_1815] [scripts] 修改1个文件(backup.log等)
+ 1 file changed, 604 insertions(+)
+To github.com:Mv-Victor/openclaw-bak.git
+   615bbdca0..97fd1bd7f  G -> G
