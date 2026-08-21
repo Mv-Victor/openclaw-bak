@@ -111456,3 +111456,12 @@ Connection to github.com closed by remote host.
 send-pack: unexpected disconnect while reading sideband packet
 fatal: the remote end hung up unexpectedly
 Push failed, will retry next cycle
+[G 4dd7371f2] [20260821_2205] [scripts] 修改1个文件(backup.log等)
+ 1 file changed, 6 insertions(+)
+kex_exchange_identification: Connection closed by remote host
+Connection closed by 20.205.243.166 port 22
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Push failed, will retry next cycle
