@@ -136250,3 +136250,11 @@ To github.com:Mv-Victor/openclaw-bak.git
  1 file changed, 4 insertions(+)
 To github.com:Mv-Victor/openclaw-bak.git
    dce43104c..771614a83  G -> G
+[G 9115d6515] [20260912_0725] [scripts] 修改1个文件(backup.log等)
+ 1 file changed, 4 insertions(+)
+ssh: connect to host github.com port 22: No route to host
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Push failed, will retry next cycle
