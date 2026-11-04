@@ -198003,3 +198003,11 @@ fatal: Could not read from remote repository.
 Please make sure you have the correct access rights
 and the repository exists.
 Push failed, will retry next cycle
+[G 303b104e6] [20261104_1910] [scripts] 修改1个文件(backup.log等)
+ 1 file changed, 8 insertions(+)
+git@github.com: Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+Push failed, will retry next cycle
